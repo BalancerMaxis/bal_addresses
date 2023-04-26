@@ -2,7 +2,6 @@ import os
 
 import pandas as pd
 from dotmap import DotMap
-from web3 import Web3
 import requests
 import json
 
@@ -15,14 +14,6 @@ except ImportError:
 
 INFURA_KEY = os.environ["WEB3_INFURA_PROJECT_ID"]
 
-W3_BY_CHAIN = {
-    "mainnet": Web3(Web3.HTTPProvider(f"https://mainnet.infura.io/v3/{INFURA_KEY}")),
-    "arbitrum": Web3(Web3.HTTPProvider(f"https://arbitrum-mainnet.infura.io/v3/{INFURA_KEY}")),
-    "optimism": Web3(Web3.HTTPProvider(f"https://optimism-rpc.gateway.pokt.network")),
-    "polygon": Web3(Web3.HTTPProvider(f"https://polygon-mainnet.infura.io/v3/{INFURA_KEY}")),
-    "gnosis": Web3(Web3.HTTPProvider(f"https://rpc.gnosischain.com/")),
-    "goerli": Web3(Web3.HTTPProvider(f"https://goerli.infura.io/v3/{INFURA_KEY}")),
-}
 
 CHAIN_IDS_BY_NAME = {
     "mainnet": 1,
