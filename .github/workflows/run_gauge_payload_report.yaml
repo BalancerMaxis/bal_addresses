@@ -23,7 +23,7 @@ jobs:
       id: update
       run: |
         git clone https://github.com/balancer/balancer-v2-monorepo.git
-        export MONOREPO_ROOT=$pwd/balancer-v2-monorepo
+        export MONOREPO_ROOT=`pwd`/balancer-v2-monorepo
         pip3 install -r requirements.txt
         python3 transform-deployments.py
         python3 gen_addresses.py
