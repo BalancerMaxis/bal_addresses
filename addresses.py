@@ -1,7 +1,6 @@
-import os
+
 import json
-
-
+from web3 import Web3
 CHAIN_IDS_BY_NAME = {
     "mainnet": 1,
     "polygon": 137,
