@@ -24,11 +24,10 @@ SCANNERS_BY_CHAIN = {
 GITHUB_RAW_OUTPUTS="https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
 
 def gen_allchain_addresses(chain):
-    with open("addressbook.json", "r") as f:
+    with open("outputs/addressbook.json", "r") as f:
         data = json.load(f)
     chainbook = data["active"][chain] | data["old"][chain]
     return chainbook
-
 
 def addressbook_by_chain(chain):  ## TODO retire
     monorepo_addresses = {}

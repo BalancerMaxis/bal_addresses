@@ -36,7 +36,7 @@ def main():
         "active": active,
         "old": old
     }
-    with open("addressbook.json", "w") as f:
+    with open("outputs/addressbook.json", "w") as f:
         json.dump(results, f, indent=3)
 
 
