@@ -101,6 +101,7 @@ def get_registry(chain):
 
 def write_addressbooks(chainlist=CHAIN_IDS_BY_NAME.keys()):
     for chain in chainlist:
+        print(f"Writing addressbooks for {chain}")
         with open(f"outputs/{chain}.json", "w") as f:
             json.dump(addressbook_by_chain(chain), f, indent=3)
         with open(f"outputs/{chain}_reverse.json", "w") as f:

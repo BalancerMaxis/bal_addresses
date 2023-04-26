@@ -28,6 +28,7 @@ jobs:
         python3 transform-deployments.py
         python3 gen_addresses.py
         rm -rf balancer-v2-monorepo
+        git add -A
 
     - name: pull-request
       uses: repo-sync/pull-request@v2
