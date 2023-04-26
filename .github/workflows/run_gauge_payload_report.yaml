@@ -22,7 +22,6 @@ jobs:
     - name: Update Files
       id: update
       run: |
-        # GET MONOREPO
         startdir=`pwd`
         cd ../
         git checkout https://github.com/balancer/balancer-v2-monorepo.git
