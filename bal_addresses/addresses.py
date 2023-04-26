@@ -42,14 +42,14 @@ def addressbook_by_chain(chain):  ## TODO retire
         else:
             dupContracts[contract] += 1
     ### add multisigs
-    with open("../extras/multisigs.json", "r") as f:
+    with open("extras/multisigs.json", "r") as f:
         data = json.load(f)
         data = data[chain]
         data = checksum_address_dict(data)
     for multisig, address in data.items():
         monorepo_addresses[f"multisigs/{multisig}"] = address
     ### add signers
-    with open("../extras/signers.json", "r") as f:
+    with open("extras/signers.json", "r") as f:
         data = json.load(f)
         data = checksum_address_dict(data)
     for group, t in data.items():
