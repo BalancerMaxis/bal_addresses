@@ -1,16 +1,5 @@
 import os
-
-import pandas as pd
-from dotmap import DotMap
-import requests
 import json
-
-try:
-    from brownie import chain
-except ImportError:
-    print(
-        "Warning.  Can't load brownie module in addresses.py.  get_registry() assumes mainnet, use get_registry_by_chain_id()")
-    chain = DotMap({"id": 1})
 
 INFURA_KEY = os.environ["WEB3_INFURA_PROJECT_ID"]
 
