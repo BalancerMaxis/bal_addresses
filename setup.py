@@ -7,7 +7,7 @@ LONG_DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
 # Setting up
 setup(
     # the name must match the folder name 'verysimplemodule'
-    name="balmaxi-addresses",
+    name="bal-maxi-addresses",
     version=VERSION,
     author="Tritium",
     author_email="<nope@email.com>",
