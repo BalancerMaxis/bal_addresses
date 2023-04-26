@@ -11,7 +11,7 @@ from pandas import DataFrame
 import requests
 
 monorepo = os.environ["MONOREPO_ROOT"]
-basepath = f"{monorepo}/pkg/"
+basepath = f"{monorepo}/pkg"
 
 
 def main():
