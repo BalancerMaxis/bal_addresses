@@ -24,7 +24,7 @@ jobs:
       run: |
         git clone https://github.com/balancer/balancer-v2-monorepo.git
         export MONOREPO_ROOT=`pwd`/balancer-v2-monorepo
-        pip3 install -r requirements.txt
+        pip3 install -r bal_addresses/requirements.txt
         python3 bal_addresses/transform-deployments.py
         python3 bal_addresses/gen_addresses.py
         rm -rf balancer-v2-monorepo
