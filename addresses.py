@@ -1,8 +1,6 @@
 import os
 import json
 
-INFURA_KEY = os.environ["WEB3_INFURA_PROJECT_ID"]
-
 
 CHAIN_IDS_BY_NAME = {
     "mainnet": 1,
