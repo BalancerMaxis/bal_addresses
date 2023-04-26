@@ -36,7 +36,6 @@ def main():
         "active": active,
         "old": old
     }
-    print(results)
     with open("addressbook.json", "w") as f:
         json.dump(results, f, indent=3)
 
@@ -48,11 +47,8 @@ def process_deployments(deployments, old=False):
             path = Path(f"{basepath}/deployments/tasks/deprecated/{task}/output")
         else:
             path = Path(f"{basepath}/deployments/tasks/{task}/output")
-        print(f"processing deployments/tasks/{task}/output/")
 
-        print(list(path.glob("*.json")))
         for file in list(path.glob("*.json")):
-            print(file)
             chain = file.stem
             if chain not in result.keys():
                 result[chain] = {}

@@ -2,3 +2,4 @@ pandas
 dotmap
 pathlib
 requests
+web3
