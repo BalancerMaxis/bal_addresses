@@ -22,8 +22,7 @@ jobs:
     - name: Update Files
       id: update
       run: |
-        startdir=`pwd`
-        git checkout https://github.com/balancer/balancer-v2-monorepo.git
+        git clone https://github.com/balancer/balancer-v2-monorepo.git
         export MONOREPO_ROOT=$pwd/balancer-v2-monorepo
         pip3 install -r requirements.txt
         python3 transform-deployments.py
