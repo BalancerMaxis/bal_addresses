@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
 LONG_DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
 
@@ -13,7 +13,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    url="https://github.com/BalancerMaxis/bal-maxi-addresses",
+    url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["pandas", "pathlib"],  # add any additional packages that
     # needs to be installed along with your package. Eg: 'caer'
 
