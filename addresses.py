@@ -1,6 +1,8 @@
 
 import json
 from web3 import Web3
+import requests
+
 CHAIN_IDS_BY_NAME = {
     "mainnet": 1,
     "polygon": 137,
@@ -19,6 +21,7 @@ SCANNERS_BY_CHAIN = {
     "goerli": "https://goerli.etherscan.io/"
 }
 
+GITHUB_RAW_OUTPUTS="https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
 
 def gen_allchain_addresses(chain):
     with open("addressbook.json", "r") as f:
@@ -87,12 +90,12 @@ def address_lookup_dict(chain):
     return inv_map
 
 def read_addressbook(chain):
-    with open(f"outputs/{chain}.json", "r") as f:
-        return json.load(f)
+    r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json")
+    return r.json()
 
 def read_reversebook(chain):
-    with open(f"outputs/{chain}_reverse.json", "r") as f:
-        return json.load(f)
+    r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json")
+    return r.json()
 
 def get_registry(chain):
     addressbook_by_chain(chain)
