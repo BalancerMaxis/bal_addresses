@@ -11,12 +11,6 @@ jobs:
 
     steps:
 
-    - name: Checkout monorepo
-      uses: actions/checkout@v3
-      with:
-        repository: balancer/balancer-v2-monorepo
-        path: ../monorepo
-
     - name: Checkout code
       uses: actions/checkout@v3
 
@@ -28,8 +22,12 @@ jobs:
     - name: Update Files
       id: update
       run: |
-        export MONOREPO_ROOT=`pwd`..//monorepo
-        cd addressbook
+        # GET MONOREPO
+        startdir=`pwd`
+        cd ../
+        git checkout https://github.com/balancer/balancer-v2-monorepo.git
+        export MONOREPO_ROOT=$pwd/balancer-v2-monorepo
+        cd statdir
         pip3 install -r requirements.txt
         python3 transform-deployments.py
         python3 gen_addresses.py
