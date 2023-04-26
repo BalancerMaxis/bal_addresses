@@ -1,0 +1,44 @@
+name: Generate Gauge Payload Report
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  refersh_books:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+         path: addressbook
+
+    - name: Checkout monorepo
+      uses: actions/checkout@v3
+      with:
+        name: balancer/balancer-v2-monorepo
+        path: monorepo
+
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Update Files
+      id: update
+      run: |
+        export MONOREPO_ROOT=`pwd`/monorepo
+        cd addressbook
+        pip3 install -r requirements.txt
+        python3 transform-deployments.py
+
+    - name: pull-request
+      uses: repo-sync/pull-request@v2
+      with:
+        destination_branch: "main"
+        pr_title: "Scheduled update from changes to monorepo"
+        pr_reviewer: "Tritum-VLK"
+        pr_assignee: "Tritum-VLK"
+        pr_label: "Automatic"
+        pr_allow_empty: false
