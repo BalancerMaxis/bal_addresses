@@ -1,4 +1,4 @@
-name: Generate Gauge Payload Report
+name: Generate Addressbooks
 
 on:
   schedule:
@@ -32,6 +32,7 @@ jobs:
         cd addressbook
         pip3 install -r requirements.txt
         python3 transform-deployments.py
+        python3 gen_addresses.py
 
     - name: pull-request
       uses: repo-sync/pull-request@v2
