@@ -31,11 +31,11 @@ jobs:
         git add -A
 
     - name: pull-request
-      uses: repo-sync/pull-request@v2
+      uses: peter-evans/create-pull-request@v5
       with:
-        destination_branch: "main"
-        pr_title: "Scheduled update from changes to monorepo"
-        pr_reviewer: "Tritum-VLK"
-        pr_assignee: "Tritum-VLK"
-        pr_label: "Automatic"
-        pr_allow_empty: false
+        commit-message: "Scheduled update from changes to monorepo"
+        title: "Scheduled update from changes to monorepo"
+
+        reviewers: "Tritum-VLK"
+        assignees: "Tritum-VLK"
+        labels: "Automatic"
