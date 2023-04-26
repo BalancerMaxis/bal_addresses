@@ -14,7 +14,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=["pandas", "dotmap", "pathlib", "web3"],  # add any additional packages that
+    install_requires=["pandas", "pathlib"],  # add any additional packages that
     # needs to be installed along with your package. Eg: 'caer'
 
     keywords=['python', 'first package'],
