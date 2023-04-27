@@ -1,7 +1,7 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
     "balancer": {
-        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3",
+        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
     },
     "tokens": {
         "bb_a_usd": "0xa13a9247ea42d743238089903570127dda72fe44",
@@ -62,7 +62,6 @@
         "vault_relayer": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
         "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41"
     },
-
     "uniswap": {
         "factoryV3": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
         "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
@@ -71,7 +70,6 @@
         "factoryV2": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
         "quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6"
     },
-
     "hidden_hand": {
         "bribe_vault": "0x9DDb2da7Dd76612e0df237B89AF2CF4413733212",
         "tokenmak_briber": "0x7816b3D0935D668bCfc9A4aaB5a84EBc7fF320cf",

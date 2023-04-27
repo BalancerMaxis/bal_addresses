@@ -34,6 +34,7 @@ def gen_allchain_addresses(chain):
     return DotMap(chainbook)
 
 def addressbook_by_chain(chain):  ## TODO retire
+    print(f"Generating Addressbook for {chain}")
     monorepo_addresses = {}
     dupContracts = {}
     ab = gen_allchain_addresses(chain)
