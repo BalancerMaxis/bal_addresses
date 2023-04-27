@@ -1,5 +1,8 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
+    "balancer": {
+        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3",
+    },
     "tokens": {
         "bb_a_usd": "0xa13a9247ea42d743238089903570127dda72fe44",
         "FARM": "0xa0246c9032bC3A600820415aE600c6388619A14D",
