@@ -25,6 +25,8 @@ SCANNERS_BY_CHAIN = {
     "goerli": "https://goerli.etherscan.io/"
 }
 
+GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
+GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
 GITHUB_RAW_OUTPUTS="https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
 
 def gen_allchain_addresses(chain):
