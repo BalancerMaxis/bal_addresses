@@ -232,5 +232,6 @@
    "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e": "ens/registry",
    "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41": "ens/public_resolver",
    "0x27182842E098f60e3D576794A5bFFb0777E025d3": "euler/euler",
-   "0x3520d5a913427E6F0D6A83E07ccD4A4da316e4d3": "euler/euler_markets"
+   "0x3520d5a913427E6F0D6A83E07ccD4A4da316e4d3": "euler/euler_markets",
+   "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B": "gauntlet/GauntletFeeSetter"
 }
