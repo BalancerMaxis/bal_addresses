@@ -13,6 +13,9 @@ CHAIN_IDS_BY_NAME = {
     "goerli": 42
 }
 
+## preload to avoid requsts (should stay the same)
+fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
+
 SCANNERS_BY_CHAIN = {
     "mainnet": "https://etherscan.io",
     "polygon": "https://polygonscan.com",
@@ -96,6 +99,9 @@ def read_addressbook(chain):
 def read_reversebook(chain):
     r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json")
     return DotMap(r.json())
+
+def read_fx_descriptions():
+    return fx_description_by_name
 
 def get_registry(chain):
     addressbook_by_chain(chain)
