@@ -2,6 +2,7 @@
 import json
 from web3 import Web3
 import requests
+from dotmap import DotMap
 
 CHAIN_IDS_BY_NAME = {
     "mainnet": 1,
@@ -27,7 +28,7 @@ def gen_allchain_addresses(chain):
     with open("outputs/addressbook.json", "r") as f:
         data = json.load(f)
     chainbook = data["active"][chain] | data["old"][chain]
-    return chainbook
+    return DotMap(chainbook)
 
 def addressbook_by_chain(chain):  ## TODO retire
     monorepo_addresses = {}
@@ -64,7 +65,7 @@ def addressbook_by_chain(chain):  ## TODO retire
             monorepo_addresses[f"{group}/{name}"] = address
     ### Checksum one more time for good measure
     monorepo_addresses = checksum_address_dict(monorepo_addresses)
-    return monorepo_addresses
+    return DotMap(monorepo_addresses)
 
 
 
@@ -86,15 +87,15 @@ def checksum_address_dict(addresses):
 def address_lookup_dict(chain):
     ab = addressbook_by_chain(chain)
     inv_map = {v: k for k, v in ab.items()}
-    return inv_map
+    return DotMap(inv_map)
 
 def read_addressbook(chain):
     r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json")
-    return r.json()
+    return DotMap(r.json())
 
 def read_reversebook(chain):
     r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json")
-    return r.json()
+    return DotMap(r.json())
 
 def get_registry(chain):
     addressbook_by_chain(chain)
