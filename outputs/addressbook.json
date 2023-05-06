@@ -50,6 +50,13 @@
             "VotingEscrowDelegation": "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647",
             "VotingEscrowDelegationProxy": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0"
          },
+         "20230410-silo-linear-pool-v2": {
+            "SiloLinearPoolFactory": "0x4E11AEec21baF1660b1a46472963cB3DA7811C89",
+            "MockSiloRepository": "0x8E2DfC5E111dbe14E9d725210b9342688Dd51c6c",
+            "MockSilo": "0x66c94AE8D795E98F69Ca65FFaC87B38B17Be3ca2",
+            "MockShareToken": "0x192E67544694a7bAA2DeA94f9B1Df58BB3395A12",
+            "MockSiloLinearPool": "0x74CBfAF94A3577c539a9dCEE9870A6349a33b34f"
+         },
          "20220707-distribution-scheduler": {
             "DistributionScheduler": "0xBd35248F8325DD1cB2bBf9D01E80A6bb99a792Dd"
          },
@@ -61,6 +68,12 @@
             "RecoveryModeHelper": "0x7827108Af2fd9910EA7cf361d9b827941FA7D809",
             "ManagedPoolFactory": "0xBF904F9F340745B4f0c4702c7B6Ab1e808eA6b93",
             "MockManagedPool": "0xD0cbF6765997b7CA7Be6440F5E305B2ec7B96065"
+         },
+         "20230409-gearbox-linear-pool-v2": {
+            "GearboxLinearPoolFactory": "0x39A79EB449Fc05C92c39aA6f0e9BfaC03BE8dE5B",
+            "MockGearboxVault": "0xC7B779AB638b7A59f490ac95199502343a81E006",
+            "MockGearboxDieselToken": "0xb7A32B67AAdB3866cC5c2FaBc6C6aB8a9027c3c1",
+            "MockGearboxLinearPool": "0x0d05Aac44aC7Dd3c7ba5d50Be93EB884A057d234"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
@@ -76,12 +89,23 @@
             "MockERC4626Token": "0xB99eDc4b289B0F2284fCF3f66884191BdCe29624",
             "MockERC4626LinearPool": "0x9516a2d25958EdB8da246a320f2c7d94A0DBe25d"
          },
+         "20230409-yearn-linear-pool-v2": {
+            "YearnLinearPoolFactory": "0x5F5222Ffa40F2AEd6380D022184D6ea67C776eE0",
+            "MockYearnTokenVault": "0x806E02Dea8d4a0882caD9fA3Fa75B212328692dE",
+            "MockYearnLinearPool": "0xAC5B4EF7eDe2F2843a704E96dcAA637F4BA3Dc3f"
+         },
          "20220823-arbitrum-root-gauge-factory-v2": {
             "ArbitrumRootGaugeFactory": "0x1c99324EDC771c82A0DCCB780CC7DDA0045E50e7",
             "ArbitrumRootGauge": "0x6337949cbC4825Bbd09242c811770F6F6fee9FfC"
          },
          "20220420-smart-wallet-checker": {
             "SmartWalletChecker": "0x7869296Efd0a76872fEE62A058C8fBca5c1c826C"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0x0b576c1245F479506e7C8bbc4dB4db07C1CD31F9",
+            "MockAaveLendingPool": "0x28fa1E40011aDF98898E8243B2a48BB21EbF0C29",
+            "MockStaticAToken": "0x1F3C910c416eD2340150281C5eB93325C38817A1",
+            "MockAaveLinearPool": "0x4cE277Df0FeB5B4d07a0ca2ADCf5326E4005239d"
          },
          "20220325-balancer-token-admin": {
             "BalancerTokenAdmin": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
@@ -185,6 +209,17 @@
             "MockERC4626Token": "0x4bE0E4d6184348c5BA845a4010528CFC779610b8",
             "MockERC4626LinearPool": "0x2DA61Ef3Cdcb97efb0f7099c02527fabFe94Dee5"
          },
+         "20230409-yearn-linear-pool-v2": {
+            "YearnLinearPoolFactory": "0x19DFEF0a828EEC0c85FbB335aa65437417390b85",
+            "MockYearnTokenVault": "0xb15608d28eb43378A7e7780aDD3fE9bC132bAf40",
+            "MockYearnLinearPool": "0x34557eF500Bfc060B8e3f2DA58EF725Bb7D32202"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0x7396f99B48e7436b152427bfA3DD6Aa8C7C6d05B",
+            "MockAaveLendingPool": "0x533a16F90E7d3Ca31dbc608E5EC54967710F0D2A",
+            "MockStaticAToken": "0x8b7854708c0C54f9D7d1FF351D4F84E6dE0E134C",
+            "MockAaveLinearPool": "0x45d37982784F022A9864748b4E8750e1e7019604"
+         },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310",
             "ChildChainGaugeFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc"
@@ -241,6 +276,9 @@
             "ComposableStablePoolFactory": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
             "MockComposableStablePool": "0xEa4643102dFC03d5e382e7827Bf767f6587E9965"
          },
+         "20230404-l2-layer0-bridge-forwarder": {
+            "L2LayerZeroBridgeForwarder": "0x4638ab64022927C9bD5947607459D13f57f1551C"
+         },
          "20221124-authorizer-adaptor-entrypoint": {
             "AuthorizerAdaptorEntrypoint": "0x4E7bBd911cf1EFa442BC1b2e9Ea01ffE785412EC"
          },
@@ -272,6 +310,21 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD"
          },
+         "20230409-erc4626-linear-pool-v4": {
+            "ERC4626LinearPoolFactory": "0x4507d91Cd2C0D51D9B4F30Bf0B93AFC938A70BA5",
+            "MockERC4626Token": "0x2EbE41E1aa44D61c206A94474932dADC7D3FD9E3",
+            "MockERC4626LinearPool": "0xEd3E2F496cbCd8e212192fb8D1499842f04A0D19"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0x6caf662b573F577DE01165d2d38D1910bba41F8A",
+            "MockAaveLendingPool": "0x57EA28A99394978D060E483477C0Fd9fb9aFa96c",
+            "MockStaticAToken": "0xD8B6b96c88ad626EB6209c4876e3B14f45f8803A",
+            "MockAaveLinearPool": "0xA826a114B0c7dB4d1FF4a4BE845a78998c64564C"
+         },
+         "20230316-child-chain-gauge-factory-v2": {
+            "ChildChainGauge": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
+            "ChildChainGaugeFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846"
+         },
          "20220413-child-chain-gauge-factory": {
             "RewardsOnlyGauge": "0x41B953164995c11C81DA73D212ED8Af25741b7Ac",
             "ChildChainStreamer": "0xD7FAD3bd59D6477cbe1BE7f646F7f1BA25b230f8",
@@ -290,6 +343,10 @@
             "BAL": "0x8239a6b877804206c7799028232a7188da487cec",
             "WETH": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
          },
+         "20230316-l2-ve-delegation-proxy": {
+            "NullVotingEscrow": "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c",
+            "VotingEscrowDelegationProxy": "0x0c6052254551EAe3ECac77B01DFcf1025418828f"
+         },
          "20210418-vault": {
             "Vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
             "ProtocolFeesCollector": "0xce88686553686DA562CE7Cea497CE749DA109f9F",
@@ -304,6 +361,9 @@
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a",
             "MockWeightedPool": "0xb2b5B452d53401391155EA48C4451f6E9b0dD058"
+         },
+         "20230316-l2-balancer-pseudo-minter": {
+            "L2BalancerPseudoMinter": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B"
          },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0x239e55F427D44C3cc793f49bFB507ebe76638a2b"
@@ -352,6 +412,17 @@
             "ERC4626LinearPoolFactory": "0x5C5fCf8fBd4cd563cED27e7D066b88ee20E1867A",
             "MockERC4626Token": "0x19DFEF0a828EEC0c85FbB335aa65437417390b85",
             "MockERC4626LinearPool": "0xc55eC796A4dEBE625d95436a3531f4950b11bdcf"
+         },
+         "20230409-yearn-linear-pool-v2": {
+            "YearnLinearPoolFactory": "0x0b576c1245F479506e7C8bbc4dB4db07C1CD31F9",
+            "MockYearnTokenVault": "0x28fa1E40011aDF98898E8243B2a48BB21EbF0C29",
+            "MockYearnLinearPool": "0xdae301690004946424E41051aCe1791083be42a1"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0xAB2372275809E15198A7968C7f324053867cdB0C",
+            "MockAaveLendingPool": "0x0Df6bb26533EB86F371B1F70EeCdD955420523C6",
+            "MockStaticAToken": "0xE72B2780D3C57F781Bd4E8572E200CD7E9A447C2",
+            "MockAaveLinearPool": "0x0889b240A5876aae745Ac19f1771853671dC5d36"
          },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f",
@@ -455,6 +526,13 @@
          "20220325-ve-delegation": {
             "VotingEscrowDelegation": "0xcfF73979321788d59a6170fF012730dB2087f31c",
             "VotingEscrowDelegationProxy": "0xA1F107D1cD709514AE8A914eCB757E95f9cedB31"
+         },
+         "20230410-silo-linear-pool-v2": {
+            "SiloLinearPoolFactory": "0x30FD8a0f7009F50616aFDaB4aF91a0A2Ef4eaE49",
+            "MockSiloRepository": "0x7153De1A6d71360F07017838c28dEcA0d6C03e2a",
+            "MockSilo": "0xa7A7e22398622bf71fF31DAe5355EC7843b13806",
+            "MockShareToken": "0xB8BDCbF8ccf443D055d5Ffe1d8154fAc8187fC94",
+            "MockSiloLinearPool": "0xBbb66a4fFf47701EC6c528dB615f5E7bF1AbDAAF"
          },
          "20220707-distribution-scheduler": {
             "DistributionScheduler": "0x05a0BF0540F346b6Dac25550738343BEb51C0f65"
@@ -595,6 +673,12 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0x239e55F427D44C3cc793f49bFB507ebe76638a2b"
          },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0xE605Dbe1cA85dCdb8F43CEfA427f3B0fC06f6ba6",
+            "MockAaveLendingPool": "0x5F43FBa61f63Fa6bFF101a0A0458cEA917f6B347",
+            "MockStaticAToken": "0xC101dcA301a4011C1F925e9622e749e550a1B667",
+            "MockAaveLinearPool": "0x2Ba5fd37e71Ab2633602553BE7ad5A377D7ED31A"
+         },
          "20230414-authorizer-wrapper": {
             "AuthorizerWithAdaptorValidation": "0xAcf05BE5134d64d150d153818F8C67EE36996650"
          },
@@ -659,6 +743,12 @@
          },
          "20220721-balancer-queries": {
             "BalancerQueries": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0x62aaB12865d7281048c337D53a4dde9d770321E6",
+            "MockAaveLendingPool": "0x040dBA12Bb3D5C0A73ddfe84C220Be3ddBA06966",
+            "MockStaticAToken": "0x35d8f4a4C0E95f3d925CB4CbBbf513a0172eD8A4",
+            "MockAaveLinearPool": "0x1AC55C31DaC78ca943CB8ebfCa5945ce09e036e2"
          },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
@@ -751,6 +841,17 @@
             "ERC4626LinearPoolFactory": "0x7ADbdabaA80F654568421887c12F09E0C7BD9629",
             "MockERC4626Token": "0x4bE0E4d6184348c5BA845a4010528CFC779610b8",
             "MockERC4626LinearPool": "0x3f53A862919ccFA023CB6AcE91378a79Fb0F6Bf5"
+         },
+         "20230409-yearn-linear-pool-v2": {
+            "YearnLinearPoolFactory": "0x19DFEF0a828EEC0c85FbB335aa65437417390b85",
+            "MockYearnTokenVault": "0xb15608d28eb43378A7e7780aDD3fE9bC132bAf40",
+            "MockYearnLinearPool": "0x1Fa7F727934226aedaB636D62a084931b97d366b"
+         },
+         "20230410-aave-linear-pool-v5": {
+            "AaveLinearPoolFactory": "0x7396f99B48e7436b152427bfA3DD6Aa8C7C6d05B",
+            "MockAaveLendingPool": "0x533a16F90E7d3Ca31dbc608E5EC54967710F0D2A",
+            "MockStaticAToken": "0x8b7854708c0C54f9D7d1FF351D4F84E6dE0E134C",
+            "MockAaveLinearPool": "0x19b1C92631405A0a9495ccbA0BeCF4f2e8e908bD"
          },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
@@ -899,6 +1000,13 @@
             "ERC4626LinearPoolFactory": "0x67A25ca2350Ebf4a0C475cA74C257C94a373b828",
             "MockERC4626Token": "0xE605Dbe1cA85dCdb8F43CEfA427f3B0fC06f6ba6",
             "MockERC4626LinearPool": "0xfeF969638C52899f91781f1Be594aF6f40B99BAd"
+         },
+         "20230315-silo-linear-pool": {
+            "SiloLinearPoolFactory": "0xfd1c0e6f02f71842b6ffF7CdC7A017eE1Fd3CdAC",
+            "MockSiloRepository": "0xdB6dF721A6E7Fdb97363079B01F107860Ac156F9",
+            "MockSilo": "0xE719Aef17468c7e10c0c205be62C990754DFF7E5",
+            "MockShareToken": "0xBc4099300E69Ff4e52F3b18728054EF00449b9e5",
+            "MockSiloLinearPool": "0x395d8A1D9aD82B5ABE558F8AbbFe183B27138af4"
          },
          "20220413-arbitrum-root-gauge-factory": {
             "ArbitrumRootGaugeFactory": "0xad901309d9e9DbC5Df19c84f729f429F0189a633",
@@ -1227,6 +1335,13 @@
             "ERC4626LinearPoolFactory": "0xBa240C856498e2d7a70AF4911AaFae0D6b565a5B",
             "MockERC4626Token": "0xa1C22168262fbaf5a87b9Aa6A13122BE630085E9",
             "MockERC4626LinearPool": "0x744644537fB1AE7c4E05f6331e87126b4fd0C325"
+         },
+         "20230315-silo-linear-pool": {
+            "SiloLinearPoolFactory": "0x18C100415988bEF4354EfFAd1188d1c22041B046",
+            "MockSiloRepository": "0xac190662aD9b53A4E6D4CD321dbf5d3ECD0E29b0",
+            "MockSilo": "0x144245D4223FC7e4D463401a30522C960298a16e",
+            "MockShareToken": "0x3eFCeb450fb799f67cd97cDC27a0F4Cd7B02B63B",
+            "MockSiloLinearPool": "0x58cA9F130d2e27EC94d19e53a6BEb2C4084f2638"
          },
          "20210727-meta-stable-pool": {
             "QueryProcessor": "0xf97c7788d2D74b12CbAb2Efa0c69a44280211457",
