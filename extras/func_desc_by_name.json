@@ -36,5 +36,7 @@
   "activate()": "A one time command used in the [initial activation of veBAL](https://forum.balancer.fi/t/vebal-activation-proposal/2632).",
   "setArbitrumFees(uint64,uint64,uint64)": "",
   "add_gauge(address,int128)": "Add a gauge to veBAL, allowing it to be voted on to receive BAL emissions.",
-  "mint(address,uint256)": "Mint BAL tokens up to the current max supply as defined by the [emissions schedule.](https://docs.balancer.fi/concepts/governance/bal-token.html#supply-inflation-schedule)"
+  "mint(address,uint256)": "Mint BAL tokens up to the current max supply as defined by the [emissions schedule.](https://docs.balancer.fi/concepts/governance/bal-token.html#supply-inflation-schedule)",
+  "addZKSyncGauge(address)": "Adds a gauge to veBAL so it can be voted on to receive BAL emissions.",
+  "addGnosisGauge(address)":"Adds a gauge to veBAL so it can be voted on to receive BAL emissions."
 }
