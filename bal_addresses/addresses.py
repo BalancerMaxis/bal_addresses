@@ -29,50 +29,72 @@ GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-
 GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
 GITHUB_RAW_OUTPUTS="https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
 
-def gen_allchain_addresses(chain):
-    with open("outputs/addressbook.json", "r") as f:
-        data = json.load(f)
-    chainbook = data["active"][chain] | data["old"][chain]
-    return DotMap(chainbook)
+class AddrBook:
+    GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
+    GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
+    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
+    CHAIN_IDS_BY_NAME = {
+        "mainnet": 1,
+        "polygon": 137,
+        "arbitrum": 42161,
+        "optimism": 10,
+        "gnosis": 100,
+        "goerli": 42
+    }
+    SCANNERS_BY_CHAIN = {
+        "mainnet": "https://etherscan.io",
+        "polygon": "https://polygonscan.com",
+        "arbitrum": "https://arbiscan.io",
+        "optimism": "https://optimistic.etherscan.io",
+        "gnosis": "https://gnosisscan.io",
+        "goerli": "https://goerli.etherscan.io/"
+    }
+    fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
+    fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
-def addressbook_by_chain(chain):  ## TODO retire
-    print(f"Generating Addressbook for {chain}")
-    monorepo_addresses = {}
-    dupContracts = {}
-    ab = gen_allchain_addresses(chain)
-    for deployment, contracts in ab.items():
-        for contract, address in contracts.items():
-            monorepo_addresses[f"{deployment}/{contract}"] = address
-        ## TODO think about using the dedup list to build a directory of most recent contracts
-        if contract not in dupContracts.keys():
-            dupContracts[contract] = 1
-        else:
-            dupContracts[contract] += 1
-    ### add multisigs
-    with open("extras/multisigs.json", "r") as f:
-        data = json.load(f)
-        data = data[chain]
-        data = checksum_address_dict(data)
-    for multisig, address in data.items():
-        monorepo_addresses[f"multisigs/{multisig}"] = address
-    ### add signers
-    with open("extras/signers.json", "r") as f:
-        data = json.load(f)
-        data = checksum_address_dict(data)
-    for group, t in data.items():
-        for name, address in t.items():
-            monorepo_addresses[f"EOA/{group}/{name}"] = address
-    ### add extras
-    with open(f"extras/{chain}.json") as f:
-        data = json.load(f)
-    data = checksum_address_dict(data)
-    for group, t in data.items():
-        for name, address in t.items():
-            monorepo_addresses[f"{group}/{name}"] = address
-    ### Checksum one more time for good measure
-    monorepo_addresses = checksum_address_dict(monorepo_addresses)
-    return DotMap(monorepo_addresses)
+    def __init__(self, chain):
+        self.dotmap = DotMap(self.fullbook["active"][chain] | self.fullbook["old"][chain])
+        self.flatbook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json())
+        self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+        self.chain = chain
 
+    def generate_flatbook(self):  ## TODO retire
+        print(f"Generating Addressbook for {self.chain}")
+        monorepo_addresses = {}
+        dupContracts = {}
+        ab = self.dotmap
+        for deployment, contracts in ab.items():
+            for contract, address in contracts.items():
+                monorepo_addresses[f"{deployment}/{contract}"] = address
+            ## TODO think about using the dedup list to build a directory of most recent contracts
+            if contract not in dupContracts.keys():
+                dupContracts[contract] = 1
+            else:
+                dupContracts[contract] += 1
+        ### add multisigs
+        with open("extras/multisigs.json", "r") as f:
+            data = json.load(f)
+            data = data[self.chain]
+            data = checksum_address_dict(data)
+        for multisig, address in data.items():
+            monorepo_addresses[f"multisigs/{multisig}"] = address
+        ### add signers
+        with open("extras/signers.json", "r") as f:
+            data = json.load(f)
+            data = checksum_address_dict(data)
+        for group, t in data.items():
+            for name, address in t.items():
+                monorepo_addresses[f"EOA/{group}/{name}"] = address
+        ### add extras
+        with open(f"extras/{self.chain}.json") as f:
+            data = json.load(f)
+        data = checksum_address_dict(data)
+        for group, t in data.items():
+            for name, address in t.items():
+                monorepo_addresses[f"{group}/{name}"] = address
+        ### Checksum one more time for good measure
+        monorepo_addresses = checksum_address_dict(monorepo_addresses)
+        return DotMap(monorepo_addresses)
 
 
 def checksum_address_dict(addresses):
@@ -89,33 +111,4 @@ def checksum_address_dict(addresses):
             print(k, v, "formatted incorrectly")
     return checksummed
 
-
-def address_lookup_dict(chain):
-    ab = addressbook_by_chain(chain)
-    inv_map = {v: k for k, v in ab.items()}
-    return DotMap(inv_map)
-
-def read_addressbook(chain):
-    r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json")
-    return DotMap(r.json())
-
-def read_reversebook(chain):
-    r=requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json")
-    return DotMap(r.json())
-
-def read_fx_descriptions():
-    return fx_description_by_name
-
-def get_registry(chain):
-    addressbook_by_chain(chain)
-
-
-
-def write_addressbooks(chainlist=CHAIN_IDS_BY_NAME.keys()):
-    for chain in chainlist:
-        print(f"Writing addressbooks for {chain}")
-        with open(f"outputs/{chain}.json", "w") as f:
-            json.dump(addressbook_by_chain(chain), f, indent=3)
-        with open(f"outputs/{chain}_reverse.json", "w") as f:
-            json.dump(address_lookup_dict(chain), f, indent=3)
 
