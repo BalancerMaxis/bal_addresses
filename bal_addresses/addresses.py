@@ -58,7 +58,7 @@ class AddrBook:
         ### add multisigs
         with open("extras/multisigs.json", "r") as f:
             data = json.load(f)
-            data = data[self.chain]
+            data = data.get(self.chain, "none")
             data = checksum_address_dict(data)
         for multisig, address in data.items():
             monorepo_addresses[f"multisigs/{multisig}"] = address
