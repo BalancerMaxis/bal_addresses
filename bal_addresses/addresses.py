@@ -5,15 +5,11 @@ import requests
 from dotmap import DotMap
 
 
-
-GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
-GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
-GITHUB_RAW_OUTPUTS="https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
-
 class AddrBook:
     GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
     GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
     GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
+    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
     CHAIN_IDS_BY_NAME = {
         "mainnet": 1,
         "polygon": 137,
@@ -38,8 +34,12 @@ class AddrBook:
 
     def __init__(self, chain):
         self.dotmap = DotMap(self.fullbook["active"].get(chain, {})  | self.fullbook["old"].get(chain, {}))
-        self.flatbook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json())
-        self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+        try:
+            self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
+            self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+        except:
+            self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
+            self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
         self.chain = chain
 
     def generate_flatbook(self):  ## TODO retire
