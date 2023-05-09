@@ -9,21 +9,25 @@ class AddrBook:
     GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
     GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
     GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
+    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
     CHAIN_IDS_BY_NAME = {
         "mainnet": 1,
         "polygon": 137,
         "arbitrum": 42161,
         "optimism": 10,
         "gnosis": 100,
-        "goerli": 42
+        "goerli": 42,
+        "sepolia": 11155111
     }
+
     SCANNERS_BY_CHAIN = {
         "mainnet": "https://etherscan.io",
         "polygon": "https://polygonscan.com",
         "arbitrum": "https://arbiscan.io",
         "optimism": "https://optimistic.etherscan.io",
         "gnosis": "https://gnosisscan.io",
-        "goerli": "https://goerli.etherscan.io/"
+        "goerli": "https://goerli.etherscan.io/",
+        "sepolia": "https://sepolia.etherscan.io/"
     }
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
@@ -31,15 +35,19 @@ class AddrBook:
     def __init__(self, chain):
         self.chain = chain
         self.dotmap = self.build_dotmap()
-        self.flatbook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json())
-        self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+        try:
+            self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
+            self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+        except:
+            self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
+            self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
 
 
     def build_dotmap(self):
         dotmap = DotMap(self.fullbook["active"][self.chain] | self.fullbook["old"][self.chain])
         with open("extras/multisigs.json", "r") as f:
             data = json.load(f)
-            data = data[self.chain]
+            data = data.get(self.chain, {})
             data = checksum_address_dict(data)
         for multisig, address in data.items():
             dotmap.multisigs[multisig] = address
@@ -49,8 +57,12 @@ class AddrBook:
             data = checksum_address_dict(data)
             dotmap.EAO = DotMap(data)
         ### add extras
-        with open(f"extras/{self.chain}.json") as f:
-            data = json.load(f)
+        try:
+            with open(f"extras/{self.chain}.json") as f:
+                data = json.load(f)
+                data = checksum_address_dict(data)
+        except:
+                data = {}
         data = checksum_address_dict(data)
         dotmap = dotmap | data
         ### Checksum one more time for good measure
@@ -72,7 +84,7 @@ class AddrBook:
         ### add multisigs
         with open("extras/multisigs.json", "r") as f:
             data = json.load(f)
-            data = data[self.chain]
+            data = data.get(self.chain, {})
             data = checksum_address_dict(data)
         for multisig, address in data.items():
             monorepo_addresses[f"multisigs/{multisig}"] = address
@@ -84,9 +96,12 @@ class AddrBook:
             for name, address in t.items():
                 monorepo_addresses[f"EOA/{group}/{name}"] = address
         ### add extras
-        with open(f"extras/{self.chain}.json") as f:
-            data = json.load(f)
-        data = checksum_address_dict(data)
+        try:
+            with open(f"extras/{self.chain}.json") as f:
+                data = json.load(f)
+                data = checksum_address_dict(data)
+        except:
+                data = {}
         for group, t in data.items():
             for name, address in t.items():
                 monorepo_addresses[f"{group}/{name}"] = address
