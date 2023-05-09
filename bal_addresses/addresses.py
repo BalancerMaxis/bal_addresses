@@ -42,86 +42,61 @@ class AddrBook:
             self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
             self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
 
+    def checksum_address_dict(self, addresses):
+        """
+        convert addresses to their checksum variant taken from a (nested) dict
+        """
+        checksummed = {}
+        for k, v in addresses.items():
+            if isinstance(v, str):
+                checksummed[k] = Web3.toChecksumAddress(v)
+            elif isinstance(v, dict):
+                checksummed[k] = self.checksum_address_dict(v)
+            else:
+                print(k, v, "formatted incorrectly")
+        return checksummed
 
     def build_dotmap(self):
-        dotmap = DotMap(self.fullbook["active"][self.chain] | self.fullbook["old"][self.chain])
+        dotmap = DotMap(self.fullbook["active"].get(self.chain, {}) | self.fullbook["old"].get(self.chain,{}))
         with open("extras/multisigs.json", "r") as f:
             data = json.load(f)
             data = data.get(self.chain, {})
-            data = checksum_address_dict(data)
+            data = self.checksum_address_dict(data)
         for multisig, address in data.items():
             dotmap.multisigs[multisig] = address
         ### add signers
         with open("extras/signers.json", "r") as f:
             data = json.load(f)
-            data = checksum_address_dict(data)
+            data = self.checksum_address_dict(data)
             dotmap.EAO = DotMap(data)
         ### add extras
         try:
             with open(f"extras/{self.chain}.json") as f:
                 data = json.load(f)
-                data = checksum_address_dict(data)
+                data = self.checksum_address_dict(data)
         except:
                 data = {}
-        data = checksum_address_dict(data)
+        data = self.checksum_address_dict(data)
         dotmap = dotmap | data
         ### Checksum one more time for good measure
-        return DotMap(checksum_address_dict(dotmap))
+        return DotMap(self.checksum_address_dict(dotmap))
 
-    def generate_flatbook(self):  ## TODO retire
+    def flatten_dict(self, d, parent_key='', sep='/'):
+        items = []
+        for k, v in d.items():
+            new_key = f"{parent_key}{sep}{k}" if parent_key else k
+            if isinstance(v, dict):
+                items.extend(self.flatten_dict(v, new_key, sep=sep).items())
+            else:
+                items.append((new_key, v))
+        return dict(items)
+
+    def generate_flatbook(self):
         print(f"Generating Addressbook for {self.chain}")
         monorepo_addresses = {}
         dupContracts = {}
-        ab = self.dotmap
-        for deployment, contracts in ab.items():
-            for contract, address in contracts.items():
-                monorepo_addresses[f"{deployment}/{contract}"] = address
-            ## TODO think about using the dedup list to build a directory of most recent contracts
-            if contract not in dupContracts.keys():
-                dupContracts[contract] = 1
-            else:
-                dupContracts[contract] += 1
-        ### add multisigs
-        with open("extras/multisigs.json", "r") as f:
-            data = json.load(f)
-            data = data.get(self.chain, {})
-            data = checksum_address_dict(data)
-        for multisig, address in data.items():
-            monorepo_addresses[f"multisigs/{multisig}"] = address
-        ### add signers
-        with open("extras/signers.json", "r") as f:
-            data = json.load(f)
-            data = checksum_address_dict(data)
-        for group, t in data.items():
-            for name, address in t.items():
-                monorepo_addresses[f"EOA/{group}/{name}"] = address
-        ### add extras
-        try:
-            with open(f"extras/{self.chain}.json") as f:
-                data = json.load(f)
-                data = checksum_address_dict(data)
-        except:
-                data = {}
-        for group, t in data.items():
-            for name, address in t.items():
-                monorepo_addresses[f"{group}/{name}"] = address
-        ### Checksum one more time for good measure
-        monorepo_addresses = checksum_address_dict(monorepo_addresses)
-        return DotMap(monorepo_addresses)
+        ab = dict(self.dotmap)
+        return(self.flatten_dict(ab))
 
-
-def checksum_address_dict(addresses):
-    """
-    convert addresses to their checksum variant taken from a (nested) dict
-    """
-    checksummed = {}
-    for k, v in addresses.items():
-        if isinstance(v, str):
-            checksummed[k] = Web3.toChecksumAddress(v)
-        elif isinstance(v, dict):
-            checksummed[k] = checksum_address_dict(v)
-        else:
-            print(k, v, "formatted incorrectly")
-    return checksummed
 
 

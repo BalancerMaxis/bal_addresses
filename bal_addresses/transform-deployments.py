@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 from pandas import DataFrame
 import requests
+from addresses import AddrBook
 
 monorepo = os.environ["MONOREPO_ROOT"]
 basepath = f"{monorepo}/pkg"
@@ -36,9 +37,35 @@ def main():
         "active": active,
         "old": old
     }
+    with open("outputs/deployments.json", "w") as f:
+        json.dump(results, f, indent=3)
+    ### Add extras
+    for chain in active.keys():
+        with open("extras/multisigs.json", "r") as f:
+            data = json.load(f)
+            data = data.get(chain, {})
+            data = AddrBook.checksum_address_dict(data)
+        for multisig, address in data.items():
+            active[chain]["multisigs"][multisig] = address
+        ### add signers
+        with open("extras/signers.json", "r") as f:
+            data = json.load(f)
+            data = AddrBook.checksum_address_dict(data)
+            active[chain]["EOA"] = data
+        ### add extras
+        try:
+            with open(f"extras/{chain}.json") as f:
+                data = json.load(f)
+                data = AddrBook.checksum_address_dict(data)
+        except:
+            data = {}
+        active[chain] = data | active[chain]
+    results = {
+        "active": active,
+        "old": old
+    }
     with open("outputs/addressbook.json", "w") as f:
         json.dump(results, f, indent=3)
-
 
 def process_deployments(deployments, old=False):
     result = {}

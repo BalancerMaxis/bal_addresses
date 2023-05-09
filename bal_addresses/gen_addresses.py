@@ -1,14 +1,14 @@
 import os
 from addresses import AddrBook
-from dotmap import DotMap
 import requests
 import json
 
 
 
-def reverse_dict(dict):
-    inv_map = {v: k for k, v in dict.items()}
-    return DotMap(inv_map)
+def reverse_dict(d):
+    d = dict(d)
+    inv_map = {v: k for k, v in d.items()}
+    return inv_map
 
 def write_addressbooks(chainlist=AddrBook.CHAIN_IDS_BY_NAME.keys()):
     for chain in chainlist:
