@@ -19,9 +19,10 @@ setup(
 
     keywords=['python', 'first package'],
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 2 - Beta",
         "Programming Language :: Python :: 3.9",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
+        "Operating System :: Linux :: Linux"
     ]
 )
