@@ -73,9 +73,9 @@ class AddrBook:
         try:
             with open(f"extras/{self.chain}.json") as f:
                 data = json.load(f)
+                data = checksum_address_dict(data)
         except:
                 data = {}
-        data = checksum_address_dict(data)
         for group, t in data.items():
             for name, address in t.items():
                 monorepo_addresses[f"{group}/{name}"] = address
