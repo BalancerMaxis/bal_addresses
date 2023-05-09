@@ -4,26 +4,7 @@ from web3 import Web3
 import requests
 from dotmap import DotMap
 
-CHAIN_IDS_BY_NAME = {
-    "mainnet": 1,
-    "polygon": 137,
-    "arbitrum": 42161,
-    "optimism": 10,
-    "gnosis": 100,
-    "goerli": 42
-}
 
-## preload to avoid requsts (should stay the same)
-fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
-
-SCANNERS_BY_CHAIN = {
-    "mainnet": "https://etherscan.io",
-    "polygon": "https://polygonscan.com",
-    "arbitrum": "https://arbiscan.io",
-    "optimism": "https://optimistic.etherscan.io",
-    "gnosis": "https://gnosisscan.io",
-    "goerli": "https://goerli.etherscan.io/"
-}
 
 GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
 GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
@@ -39,15 +20,18 @@ class AddrBook:
         "arbitrum": 42161,
         "optimism": 10,
         "gnosis": 100,
-        "goerli": 42
+        "goerli": 42,
+        "sepolia": 11155111
     }
+
     SCANNERS_BY_CHAIN = {
         "mainnet": "https://etherscan.io",
         "polygon": "https://polygonscan.com",
         "arbitrum": "https://arbiscan.io",
         "optimism": "https://optimistic.etherscan.io",
         "gnosis": "https://gnosisscan.io",
-        "goerli": "https://goerli.etherscan.io/"
+        "goerli": "https://goerli.etherscan.io/",
+        "sepolia": "https://sepolia.etherscan.io/"
     }
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
