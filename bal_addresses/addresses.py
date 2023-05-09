@@ -33,14 +33,40 @@ class AddrBook:
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
     def __init__(self, chain):
-        self.dotmap = DotMap(self.fullbook["active"].get(chain, {})  | self.fullbook["old"].get(chain, {}))
+        self.chain = chain
+        self.dotmap = self.build_dotmap()
         try:
             self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
             self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
         except:
             self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
             self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
-        self.chain = chain
+
+
+    def build_dotmap(self):
+        dotmap = DotMap(self.fullbook["active"][self.chain] | self.fullbook["old"][self.chain])
+        with open("extras/multisigs.json", "r") as f:
+            data = json.load(f)
+            data = data.get(self.chain, {})
+            data = checksum_address_dict(data)
+        for multisig, address in data.items():
+            dotmap.multisigs[multisig] = address
+        ### add signers
+        with open("extras/signers.json", "r") as f:
+            data = json.load(f)
+            data = checksum_address_dict(data)
+            dotmap.EAO = DotMap(data)
+        ### add extras
+        try:
+            with open(f"extras/{self.chain}.json") as f:
+                data = json.load(f)
+                data = checksum_address_dict(data)
+        except:
+                data = {}
+        data = checksum_address_dict(data)
+        dotmap = dotmap | data
+        ### Checksum one more time for good measure
+        return DotMap(checksum_address_dict(dotmap))
 
     def generate_flatbook(self):  ## TODO retire
         print(f"Generating Addressbook for {self.chain}")
