@@ -37,7 +37,8 @@ class AddrBook:
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
     def __init__(self, chain):
-        self.dotmap = DotMap(self.fullbook["active"][chain] | self.fullbook["old"][chain])
+        if self.fullbook
+        self.dotmap = DotMap(self.fullbook["active"].get(chain, {})  | self.fullbook["old"].get(chain, {}))
         self.flatbook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json())
         self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
         self.chain = chain
@@ -70,8 +71,11 @@ class AddrBook:
             for name, address in t.items():
                 monorepo_addresses[f"EOA/{group}/{name}"] = address
         ### add extras
-        with open(f"extras/{self.chain}.json") as f:
-            data = json.load(f)
+        try:
+            with open(f"extras/{self.chain}.json") as f:
+                data = json.load(f)
+        except:
+                data = {}
         data = checksum_address_dict(data)
         for group, t in data.items():
             for name, address in t.items():
