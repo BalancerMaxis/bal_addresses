@@ -44,9 +44,13 @@ def main():
             data = json.load(f)
             data = data.get(chain, {})
             data = AddrBook.checksum_address_dict(data)
+        if "multisigs" not in active[chain].keys():
+            active[chain]["multisigs"] = {}
         for multisig, address in data.items():
             active[chain]["multisigs"][multisig] = address
         ### add signers
+        if "EOA" not in active[chain].keys():
+            active[chain]["EOA"] = {}
         with open("extras/signers.json", "r") as f:
             data = json.load(f)
             data = AddrBook.checksum_address_dict(data)
