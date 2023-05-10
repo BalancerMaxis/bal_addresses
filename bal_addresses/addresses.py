@@ -32,7 +32,8 @@ class AddrBook:
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
-    def __init__(self, chain):
+    def __init__(self, chain, jsonfile=False):
+        self.jsonfile=jsonfile
         self.chain = chain
         self.dotmap = self.build_dotmap()
         try:
@@ -42,7 +43,7 @@ class AddrBook:
             self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
             self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
 
-    def checksum_address_dict(self, addresses):
+    def checksum_address_dict(addresses):
         """
         convert addresses to their checksum variant taken from a (nested) dict
         """
@@ -51,13 +52,18 @@ class AddrBook:
             if isinstance(v, str):
                 checksummed[k] = Web3.toChecksumAddress(v)
             elif isinstance(v, dict):
-                checksummed[k] = self.checksum_address_dict(v)
+                checksummed[k] = checksum_address_dict(v)
             else:
                 print(k, v, "formatted incorrectly")
         return checksummed
 
     def build_dotmap(self):
-        return(DotMap(self.fullbook["active"].get(self.chain, {}) | self.fullbook["old"].get(self.chain, {})))
+        if self.jsonfile:
+            with open(self.jsonfile, "r") as f:
+                fullbook = json.load(f)
+        else:
+            fullbook = self.fullbook
+        return(DotMap(fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {})))
         ### Checksum one more time for good measure
 
     def flatten_dict(self, d, parent_key='', sep='/'):
@@ -79,3 +85,17 @@ class AddrBook:
 
 
 
+#  Version outside class to allow for recursion on the uninitialized class
+def checksum_address_dict(addresses):
+    """
+    convert addresses to their checksum variant taken from a (nested) dict
+    """
+    checksummed = {}
+    for k, v in addresses.items():
+        if isinstance(v, str):
+            checksummed[k] = Web3.toChecksumAddress(v)
+        elif isinstance(v, dict):
+            checksummed[k] = checksum_address_dict(v)
+        else:
+            print(k, v, "formatted incorrectly")
+    return checksummed
