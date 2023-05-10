@@ -36,6 +36,9 @@ class AddrBook:
         self.jsonfile=jsonfile
         self.chain = chain
         self.dotmap = self.build_dotmap()
+        deployments = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/deployments.json").json()
+        self.deployments_only = DotMap(deployments["active"][chain] | deployments["old"][chain])
+
         try:
             self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
             self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
@@ -44,20 +47,35 @@ class AddrBook:
             self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
 
 
-    def search_contract(self, contract_name):
-        results = [s for s in self.flatbook.keys() if contract_name in s]
+    def search_unique(self, substr):
+        results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
             print(f"search_contract: Multiple matches found, returning False: {results}")
             return False
         elif len(results) < 1:
-            print(f"search_contract: {contract_name} Not Found, returning false")
+            print(f"search_contract: {substr} Not Found, returning false")
             return False
         return results[0]
 
-    def search_contracts(self, contract_name):
-        search = [s for s in self.flatbook.keys() if contract_name in s]
+    def search_many(self, substr):
+        search = [s for s in self.flatbook.keys() if substr in s]
         results = {key: self.flatbook[key] for key in search if key in self.flatbook}
         return results
+
+    def latest_contract(self, contract_name):
+        deployments = []
+        for deployment, contractData in self.deployments_only.items():
+            if list(contractData.keys())[0] == contract_name:
+                deployments.append(deployment)
+        if len(deployments) == 0:
+            return
+        else:
+            deployments.sort(reverse=True)
+            return self.deployments_only[deployments[0]][contract_name]
+
+
+
+
 
 
     def checksum_address_dict(addresses):
