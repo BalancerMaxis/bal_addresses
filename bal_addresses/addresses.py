@@ -33,6 +33,7 @@ class AddrBook:
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
     def __init__(self, chain, jsonfile=False):
+        self.jsonfile=jsonfile
         self.chain = chain
         self.dotmap = self.build_dotmap()
         try:
