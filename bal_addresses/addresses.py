@@ -51,7 +51,7 @@ class AddrBook:
             if isinstance(v, str):
                 checksummed[k] = Web3.toChecksumAddress(v)
             elif isinstance(v, dict):
-                checksummed[k] = self.checksum_address_dict(v)
+                checksummed[k] = checksum_address_dict(v)
             else:
                 print(k, v, "formatted incorrectly")
         return checksummed
@@ -79,3 +79,17 @@ class AddrBook:
 
 
 
+#  Version outside class to allow for recursion on the uninitialized class
+def checksum_address_dict(self, addresses):
+    """
+    convert addresses to their checksum variant taken from a (nested) dict
+    """
+    checksummed = {}
+    for k, v in addresses.items():
+        if isinstance(v, str):
+            checksummed[k] = Web3.toChecksumAddress(v)
+        elif isinstance(v, dict):
+            checksummed[k] = checksum_address_dict(v)
+        else:
+            print(k, v, "formatted incorrectly")
+    return checksummed

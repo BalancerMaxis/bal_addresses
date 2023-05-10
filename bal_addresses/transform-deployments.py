@@ -19,7 +19,6 @@ def main():
     # Get deployments
     active_deployments = []
     old_deployments = []
-
     ls = os.listdir(f"{basepath}/deployments/tasks")
     for path in ls:
         if bool(re.search(r'^\d{8}', path)):
