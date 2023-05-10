@@ -80,7 +80,7 @@ class AddrBook:
 
 
 #  Version outside class to allow for recursion on the uninitialized class
-def checksum_address_dict(self, addresses):
+def checksum_address_dict(addresses):
     """
     convert addresses to their checksum variant taken from a (nested) dict
     """
