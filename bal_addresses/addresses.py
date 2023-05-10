@@ -32,7 +32,7 @@ class AddrBook:
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
-    def __init__(self, chain):
+    def __init__(self, chain, jsonfile=False):
         self.chain = chain
         self.dotmap = self.build_dotmap()
         try:
@@ -57,7 +57,12 @@ class AddrBook:
         return checksummed
 
     def build_dotmap(self):
-        return(DotMap(self.fullbook["active"].get(self.chain, {}) | self.fullbook["old"].get(self.chain, {})))
+        if self.jsonfile:
+            with open(self.jsonfile, "r") as f:
+                fullbook = json.load(f)
+        else:
+            fullbook = self.fullbook
+        return(DotMap(fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {})))
         ### Checksum one more time for good measure
 
     def flatten_dict(self, d, parent_key='', sep='/'):
