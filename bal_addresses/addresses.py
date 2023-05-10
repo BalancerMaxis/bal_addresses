@@ -57,29 +57,8 @@ class AddrBook:
         return checksummed
 
     def build_dotmap(self):
-        dotmap = DotMap(self.fullbook["active"].get(self.chain, {}) | self.fullbook["old"].get(self.chain,{}))
-        with open("extras/multisigs.json", "r") as f:
-            data = json.load(f)
-            data = data.get(self.chain, {})
-            data = self.checksum_address_dict(data)
-        for multisig, address in data.items():
-            dotmap.multisigs[multisig] = address
-        ### add signers
-        with open("extras/signers.json", "r") as f:
-            data = json.load(f)
-            data = self.checksum_address_dict(data)
-            dotmap.EAO = DotMap(data)
-        ### add extras
-        try:
-            with open(f"extras/{self.chain}.json") as f:
-                data = json.load(f)
-                data = self.checksum_address_dict(data)
-        except:
-                data = {}
-        data = self.checksum_address_dict(data)
-        dotmap = dotmap | data
+        return(DotMap(self.fullbook["active"].get(self.chain, {}) | self.fullbook["old"].get(self.chain, {})))
         ### Checksum one more time for good measure
-        return DotMap(self.checksum_address_dict(dotmap))
 
     def flatten_dict(self, d, parent_key='', sep='/'):
         items = []
