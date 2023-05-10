@@ -55,7 +55,8 @@ class AddrBook:
         return results[0]
 
     def search_contracts(self, contract_name):
-        results = [s for s in self.flatbook.keys() if contract_name in s]
+        search = [s for s in self.flatbook.keys() if contract_name in s]
+        results = {key: self.flatbook[key] for key in search if key in self.flatbook}
         return results
 
 
