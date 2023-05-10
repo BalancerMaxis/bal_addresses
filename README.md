@@ -66,5 +66,20 @@ Returns
 ComposableStablePoolFactory has 0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76
 MockComposableStablePool has 0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8
 ```
+
+There is also a search contracts command to make it easier to work with the deployments:
+```text
+>>> from addresses import AddrBook
+>>> a=AddrBook("mainnet")
+>>> a.search_contract("GaugeAd")
+search_contract: Multiple matches found, returning False: ['20230109-gauge-adder-v3/GaugeAdder', '20220325-gauge-adder/GaugeAdder', '20220628-gauge-adder-v2/GaugeAdder']
+False
+>>> a.search_contract("v3/GaugeAd")
+'20230109-gauge-adder-v3/GaugeAdder'
+>>> a.flatbook[a.search_contract("v3/GaugeAd")]
+'0x5efBb12F01f27F0E020565866effC1dA491E91A4'
+>>> 
+
+```
 Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis.  You can explore them if you would like.  
 
