@@ -43,6 +43,22 @@ class AddrBook:
             self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
             self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
 
+
+    def search_contract(self, contract_name):
+        results = [s for s in self.flatbook.keys() if contract_name in s]
+        if len(results) > 1:
+            print(f"search_contract: Multiple matches found, returning False: {results}")
+            return False
+        elif len(results) < 1:
+            print(f"search_contract: {contract_name} Not Found, returning false")
+            return False
+        return results[0]
+
+    def search_contracts(self, contract_name):
+        results = [s for s in self.flatbook.keys() if contract_name in s]
+        return results
+
+
     def checksum_address_dict(addresses):
         """
         convert addresses to their checksum variant taken from a (nested) dict
