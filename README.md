@@ -67,17 +67,18 @@ ComposableStablePoolFactory has 0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76
 MockComposableStablePool has 0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8
 ```
 
-There is also a search contracts command to make it easier to work with the deployments:
+There is also search and lookup commands
 ```text
->>> from addresses import AddrBook
->>> a=AddrBook("mainnet")
->>> a.search_contract("GaugeAd")
-search_contract: Multiple matches found, returning False: ['20230109-gauge-adder-v3/GaugeAdder', '20220325-gauge-adder/GaugeAdder', '20220628-gauge-adder-v2/GaugeAdder']
-False
->>> a.search_contract("v3/GaugeAd")
-'20230109-gauge-adder-v3/GaugeAdder'
->>> a.flatbook[a.search_contract("v3/GaugeAd")]
-'0x5efBb12F01f27F0E020565866effC1dA491E91A4'
+>>> a.search_many("Composable")
+{'20230320-composable-stable-pool-v4/ComposableStablePoolFactory': '0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76', '20230320-composable-stable-pool-v4/MockComposableStablePool': '0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8', '20230206-composable-stable-pool-v3/ComposableStablePoolFactory': '0xdba127fBc23fb20F5929C546af220A991b5C6e01', '20230206-composable-stable-pool-v3/MockComposableStablePool': '0x222bc81C6F3C17e9e9Aba47a12f55a1Dea42f163', '20220906-composable-stable-pool/ComposableStablePoolFactory': '0xf9ac7B9dF2b3454E841110CcE5550bD5AC6f875F', '20221122-composable-stable-pool-v2/ComposableStablePoolFactory': '0x85a80afee867aDf27B50BdB7b76DA70f1E853062', '20221122-composable-stable-pool-v2/MockComposableStablePool': '0x373b347bc87998b151A5E9B6bB6ca692b766648a'}
+>>> a.search_many("GaugeAdder")
+{'20230109-gauge-adder-v3/GaugeAdder': '0x5efBb12F01f27F0E020565866effC1dA491E91A4', '20220325-gauge-adder/GaugeAdder': '0xEd5ba579bB5D516263ff6E1C10fcAc1040075Fe2', '20220628-gauge-adder-v2/GaugeAdder': '0x2fFB7B215Ae7F088eC2530C7aa8E1B24E398f26a'}
+>>> a.search_unique("GaugeControl")
+'20220325-gauge-controller/GaugeController'
+>>> a.latest_contract("Vault")
+'0xBA12222222228d8Ba445958a75a0704d566BF2C8'
+>>> a.reversebook[a.latest_contract("ComposableStablePoolFactory")]
+'20230320-composable-stable-pool-v4/ComposableStablePoolFactory'
 >>> 
 
 ```
