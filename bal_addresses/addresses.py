@@ -61,9 +61,9 @@ class AddrBook:
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
-            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if  len(results) < 1:
-            raise NoResultError(f"{substr}")
+            raise self.NoResultError(f"{substr}")
         return results[0]
 
     def search_many(self, substr):
