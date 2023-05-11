@@ -6,13 +6,6 @@ from dotmap import DotMap
 
 
 
-### Errors
-class MultipleMatchesError(Exception):
-    pass
-
-
-class NoResultError(Exception):
-    pass
 
 
 ### Main class
@@ -42,6 +35,13 @@ class AddrBook:
     }
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
+
+    ### Errors
+    class MultipleMatchesError(Exception):
+        pass
+
+    class NoResultError(Exception):
+        pass
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile=jsonfile
