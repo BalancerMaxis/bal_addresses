@@ -49,12 +49,8 @@ class AddrBook:
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
-        if len(results) > 1:
-            print(f"search_contract: Multiple matches found, returning False: {results}")
-            return False
-        elif len(results) < 1:
-            print(f"search_contract: {substr} Not Found, returning false")
-            return False
+        assert not len(results) > 1, f"search_contract: Multiple matches found: {results}"
+        assert not len(results) < 1, f"{substr} NotFound"
         return results[0]
 
     def search_many(self, substr):
@@ -67,15 +63,9 @@ class AddrBook:
         for deployment, contractData in self.deployments_only.items():
             if list(contractData.keys())[0] == contract_name:
                 deployments.append(deployment)
-        if len(deployments) == 0:
-            return
-        else:
-            deployments.sort(reverse=True)
-            return self.deployments_only[deployments[0]][contract_name]
-
-
-
-
+        assert len(deployments) > 0, "NotFound"
+        deployments.sort(reverse=True)
+        return self.deployments_only[deployments[0]][contract_name]
 
 
     def checksum_address_dict(addresses):
