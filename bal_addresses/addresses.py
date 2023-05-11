@@ -76,8 +76,8 @@ class AddrBook:
         for deployment, contractData in self.deployments_only.items():
             if list(contractData.keys())[0] == contract_name:
                 deployments.append(deployment)
-        if len(deployments) > 0:
-            raise NoResultError(contract_name)
+        if len(deployments) == 0:
+            raise self.NoResultError(contract_name)
         deployments.sort(reverse=True)
         return self.deployments_only[deployments[0]][contract_name]
 
