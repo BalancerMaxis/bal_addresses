@@ -74,7 +74,7 @@ class AddrBook:
     def latest_contract(self, contract_name):
         deployments = []
         for deployment, contractData in self.deployments_only.items():
-            if list(contractData.keys())[0] == contract_name:
+            if contract_name in contractData.keys():
                 deployments.append(deployment)
         if len(deployments) == 0:
             raise self.NoResultError(contract_name)
