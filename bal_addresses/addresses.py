@@ -5,6 +5,17 @@ import requests
 from dotmap import DotMap
 
 
+
+### Errors
+class MultipleMatchesError(Exception):
+    pass
+
+
+class NoResultError(Exception):
+    pass
+
+
+### Main class
 class AddrBook:
     GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
     GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
@@ -49,8 +60,10 @@ class AddrBook:
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
-        assert not len(results) > 1, f"search_contract: Multiple matches found: {results}"
-        assert not len(results) < 1, f"{substr} NotFound"
+        if len(results) > 1:
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if  len(results) < 1:
+            raise NoResultError(f"{substr}")
         return results[0]
 
     def search_many(self, substr):
@@ -63,7 +76,8 @@ class AddrBook:
         for deployment, contractData in self.deployments_only.items():
             if list(contractData.keys())[0] == contract_name:
                 deployments.append(deployment)
-        assert len(deployments) > 0, "NotFound"
+        if len(deployments) > 0:
+            raise NoResultError(contract_name)
         deployments.sort(reverse=True)
         return self.deployments_only[deployments[0]][contract_name]
 
