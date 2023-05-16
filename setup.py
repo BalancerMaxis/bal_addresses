@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.3.5'
+VERSION = '0.4.0'
 DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
 LONG_DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
 
