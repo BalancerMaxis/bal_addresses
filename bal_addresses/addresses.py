@@ -48,8 +48,15 @@ class AddrBook:
         self.chain = chain
         self.dotmap = self.build_dotmap()
         deployments = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/deployments.json").json()
-        self.deployments_only = DotMap(deployments["active"][chain] | deployments["old"][chain])
-
+        try:
+            dold =  deployments["old"][chain]
+        except:
+            dold = {}
+        try:
+            dactive = deployments["active"][chain]
+        except:
+            dactive = {}
+        self.deployments_only = DotMap(dactive | dold)
         try:
             self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
             self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
