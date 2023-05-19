@@ -9,7 +9,6 @@
     "goerli": 42,
     "sepolia": 11155111
   },
-
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
     "polygon": "https://polygonscan.com",
