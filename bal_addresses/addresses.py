@@ -5,6 +5,10 @@ import requests
 from dotmap import DotMap
 
 
+
+
+
+### Main class
 class AddrBook:
     GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
     GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
@@ -32,13 +36,27 @@ class AddrBook:
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
+    ### Errors
+    class MultipleMatchesError(Exception):
+        pass
+
+    class NoResultError(Exception):
+        pass
+
     def __init__(self, chain, jsonfile=False):
         self.jsonfile=jsonfile
         self.chain = chain
         self.dotmap = self.build_dotmap()
         deployments = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/deployments.json").json()
-        self.deployments_only = DotMap(deployments["active"][chain] | deployments["old"][chain])
-
+        try:
+            dold =  deployments["old"][chain]
+        except:
+            dold = {}
+        try:
+            dactive = deployments["active"][chain]
+        except:
+            dactive = {}
+        self.deployments_only = DotMap(dactive | dold)
         try:
             self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
             self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
@@ -50,11 +68,9 @@ class AddrBook:
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
-            print(f"search_contract: Multiple matches found, returning False: {results}")
-            return False
-        elif len(results) < 1:
-            print(f"search_contract: {substr} Not Found, returning false")
-            return False
+            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if  len(results) < 1:
+            raise self.NoResultError(f"{substr}")
         return results[0]
 
     def search_many(self, substr):
@@ -65,17 +81,12 @@ class AddrBook:
     def latest_contract(self, contract_name):
         deployments = []
         for deployment, contractData in self.deployments_only.items():
-            if list(contractData.keys())[0] == contract_name:
+            if contract_name in contractData.keys():
                 deployments.append(deployment)
         if len(deployments) == 0:
-            return
-        else:
-            deployments.sort(reverse=True)
-            return self.deployments_only[deployments[0]][contract_name]
-
-
-
-
+            raise self.NoResultError(contract_name)
+        deployments.sort(reverse=True)
+        return self.deployments_only[deployments[0]][contract_name]
 
 
     def checksum_address_dict(addresses):
