@@ -35,6 +35,13 @@
     "emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
     "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab"
   },
+  "zkevm": {
+    "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
+    "emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
+    "fees": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
+    "feesManager": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
+    "lm": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
+  },
   "gnosis": {
     "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
     "dao": "0x2a5AEcE0bb9EfFD7608213AE1745873385515c18",

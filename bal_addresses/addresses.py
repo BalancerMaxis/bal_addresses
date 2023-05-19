@@ -20,6 +20,7 @@ class AddrBook:
         "arbitrum": 42161,
         "optimism": 10,
         "gnosis": 100,
+        "zkevm": 1101,
         "goerli": 42,
         "sepolia": 11155111
     }
@@ -30,8 +31,10 @@ class AddrBook:
         "arbitrum": "https://arbiscan.io",
         "optimism": "https://optimistic.etherscan.io",
         "gnosis": "https://gnosisscan.io",
+        "zkevm": "https://zkevm.polygonscan.com/",
         "goerli": "https://goerli.etherscan.io/",
         "sepolia": "https://sepolia.etherscan.io/"
+
     }
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
