@@ -1,4 +1,5 @@
 {
+   "0x0000000000000000000000000000000000000000": "zero/zero",
    "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7": "20230223-protocol-id-registry/ProtocolIdRegistry",
    "0x5F6848976C2914403B425F18B589A65772F082E3": "20230314-batch-relayer-v5/BatchRelayerLibrary",
    "0x6d5342d716c13d9a3F072a2B11498624ADe27f90": "20230314-batch-relayer-v5/BalancerRelayer",
