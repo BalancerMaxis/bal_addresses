@@ -7,7 +7,8 @@
     "gnosis": 100,
     "zkevm": 1101,
     "goerli": 42,
-    "sepolia": 11155111
+    "sepolia": 11155111,
+    "avalanche": 43114
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -17,6 +18,7 @@
     "gnosis": "https://gnosisscan.io",
     "zkevm": "https://zkevm.polygonscan.com/",
     "goerli": "https://goerli.etherscan.io/",
-    "sepolia": "https://sepolia.etherscan.io/"
+    "sepolia": "https://sepolia.etherscan.io/",
+    "avalanche": "https://snowtrace.io/"
   }
 }
