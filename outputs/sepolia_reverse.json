@@ -1,12 +1,15 @@
 {
    "0x0000000000000000000000000000000000000000": "zero/zero",
    "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7": "20230223-protocol-id-registry/ProtocolIdRegistry",
+   "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5": "20230504-vebal-remapper/OmniVotingEscrowAdaptor",
+   "0xF24917fB88261a37Cc57F686eBC831a5c0B9fD39": "20230504-vebal-remapper/VotingEscrowRemapper",
    "0x5F6848976C2914403B425F18B589A65772F082E3": "20230314-batch-relayer-v5/BatchRelayerLibrary",
    "0x6d5342d716c13d9a3F072a2B11498624ADe27f90": "20230314-batch-relayer-v5/BalancerRelayer",
    "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7": "20230404-l2-layer0-bridge-forwarder/L2LayerZeroBridgeForwarder",
    "0xAcf05BE5134d64d150d153818F8C67EE36996650": "20230409-yearn-linear-pool-v2/YearnLinearPoolFactory",
    "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC": "20230409-yearn-linear-pool-v2/MockYearnTokenVault",
    "0x016B7366F76aa2794097798B90CF239796AEff8d": "20230409-yearn-linear-pool-v2/MockYearnLinearPool",
+   "0xE42FFA682A26EF8F25891db4882932711D42e467": "20230519-gauge-adder-v4/GaugeAdder",
    "0xC49Ca921c4CD1117162eAEEc0ee969649997950c": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",
    "0xC370cD86d5488c1788b62f11b09adb0C47F47440": "20230316-child-chain-gauge-factory-v2/ChildChainGaugeFactory",
    "0xf7D5DcE55E6D47852F054697BAB6A1B48A00ddbd": "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider",
@@ -38,7 +41,6 @@
    "0x7d2248F194755DCa9A1887099394F39476d28C9a": "20220325-balancer-token-admin/BalancerTokenAdmin",
    "0x927906bbAc747c13c75F6447FE8abb490EAB456C": "20221205-veboost-v2/VeBoostV2",
    "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f": "20220530-preseeded-voting-escrow-delegation/PreseededVotingEscrowDelegation",
-   "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a": "20230109-gauge-adder-v3/GaugeAdder",
    "0x475D18169BE8a89357A9ee3Ab00ca386d20fA229": "20230316-l2-ve-delegation-proxy/NullVotingEscrow",
    "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD": "20230316-l2-ve-delegation-proxy/VotingEscrowDelegationProxy",
    "0x7EE4D172Ae50C627a1BFA9A99E1260C54dA26fdF": "20230215-single-recipient-gauge-factory-v2/SingleRecipientGaugeFactory",
@@ -97,5 +99,6 @@
    "0x9F7dfAb2222A473284205cdDF08a677726d786A0": "EOA/dao/StefanDGeorge",
    "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600": "EOA/dao/bonustrack87",
    "0x823DF0278e4998cD0D06FB857fBD51e85b18A250": "EOA/dao/nanexcool",
-   "0xAc1aA53108712d7f38093A67d380aD54B562a650": "EOA/dao/davgarai"
+   "0xAc1aA53108712d7f38093A67d380aD54B562a650": "EOA/dao/davgarai",
+   "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a": "20230109-gauge-adder-v3/GaugeAdder"
 }
