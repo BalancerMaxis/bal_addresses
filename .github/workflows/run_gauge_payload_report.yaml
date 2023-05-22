@@ -19,15 +19,16 @@ jobs:
       with:
         python-version: '3.9'
 
+
     - name: Update Files
       id: update
       run: |
-        git clone https://github.com/balancer/balancer-v2-monorepo.git
-        export MONOREPO_ROOT=`pwd`/balancer-v2-monorepo
+        git clone https://github.com/balancer/balancer-deployments.git
+        export DEPLOYMENTS_REPO_ROOT_URL=`pwd`/balancer-deployments
         pip3 install -r bal_addresses/requirements.txt
         python3 bal_addresses/transform-deployments.py
         python3 bal_addresses/gen_addresses.py
-        rm -rf balancer-v2-monorepo
+        rm -rf balancer-deployments
         git add -A
 
     - name: pull-request
