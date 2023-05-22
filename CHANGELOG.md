@@ -1,3 +1,5 @@
+# 0.6.0
+Use new balancer deployments repo.
 # 0.4.0
 Use more exceptions
 
