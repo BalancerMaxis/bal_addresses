@@ -22,6 +22,8 @@ class AddrBook:
     GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
     GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
     ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
+    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
+    SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
 
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
