@@ -11,20 +11,21 @@ from pandas import DataFrame
 import requests
 from addresses import AddrBook
 
-monorepo = os.environ["MONOREPO_ROOT"]
-basepath = f"{monorepo}/pkg"
-
+#monorepo = os.environ["MONOREPO_ROOT"]
+deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
+#basepath = f"{monorepo}/pkg/deployments"
+basepath = deployments
 
 def main():
     # Get deployments
     active_deployments = []
     old_deployments = []
-    ls = os.listdir(f"{basepath}/deployments/tasks")
+    ls = os.listdir(f"{basepath}/tasks")
     for path in ls:
         if bool(re.search(r'^\d{8}', path)):
             active_deployments.append(path)
 
-    ls = os.listdir(f"{basepath}/deployments/tasks/deprecated")
+    ls = os.listdir(f"{basepath}/tasks/deprecated")
     for path in ls:
         if bool(re.search(r'^\d{8}', path)):
             old_deployments.append(path)
@@ -74,9 +75,9 @@ def process_deployments(deployments, old=False):
     result = {}
     for task in deployments:
         if old:
-            path = Path(f"{basepath}/deployments/tasks/deprecated/{task}/output")
+            path = Path(f"{basepath}/tasks/deprecated/{task}/output")
         else:
-            path = Path(f"{basepath}/deployments/tasks/{task}/output")
+            path = Path(f"{basepath}/tasks/{task}/output")
 
         for file in list(path.glob("*.json")):
             chain = file.stem

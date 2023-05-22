@@ -11,16 +11,18 @@ SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
 
 
 
+
 ### Main class
 class AddrBook:
     chains = DotMap(requests.get(
         f"https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json").json())
     GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
     GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
-    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
+    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal-maxi-addresses/main/outputs"
     CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
     SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
+    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
+
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
