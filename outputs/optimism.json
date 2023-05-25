@@ -10,6 +10,7 @@
    "20230316-child-chain-gauge-factory-v2/ChildChainGauge": "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310",
    "20230316-child-chain-gauge-factory-v2/ChildChainGaugeFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
    "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0",
+   "20230525-l2-veboost-v2/VeBoostV2": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
    "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider": "0xacAaC3e6D6Df918Bf3c809DFC7d42de0e4a72d4C",
    "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory": "0xf302f9F50958c5593770FDf4d4812309fF77414f",
    "20220517-protocol-fee-withdrawer/ProtocolFeesWithdrawer": "0xC128a9954e6c874eA3d62ce62B468bA073093F25",

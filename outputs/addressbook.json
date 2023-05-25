@@ -283,9 +283,6 @@
          "20220325-test-balancer-token": {
             "TestBalancerToken": "0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47"
          },
-         "20221205-l2-gauge-checkpointer": {
-            "L2GaugeCheckpointer": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
-         },
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0xC128a9954e6c874eA3d62ce62B468bA073093F25"
          },
@@ -623,9 +620,6 @@
             "PolygonZkEVMRootGaugeFactory": "0x9bF951848288cCD87d06FaC426150262cD3447De",
             "PolygonZkEVMRootGauge": "0x45bF48D996d22afc9BC150DF7FB4d13A49088602"
          },
-         "20221205-l2-gauge-checkpointer": {
-            "L2GaugeCheckpointer": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
-         },
          "20220707-distribution-scheduler": {
             "DistributionScheduler": "0xBd35248F8325DD1cB2bBf9D01E80A6bb99a792Dd"
          },
@@ -776,6 +770,9 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0xbfD9769b061E57e478690299011A028194D66e3C"
+         },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
          },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0x5ef4c5352882b10893b70DbcaA0C000965bd23c5"
@@ -936,6 +933,9 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x1802953277FD955f9a254B80Aa0582f193cF1d77"
+         },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
          },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0x41B953164995c11C81DA73D212ED8Af25741b7Ac"
@@ -1309,6 +1309,9 @@
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x1554ee754707D5C93b7934AF404747Aba521Aaf2"
          },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0xD961E30156C2E0D0d925A0De45f931CB7815e970"
+         },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0x42AC0e6FA47385D55Aff070d79eF0079868C48a6"
          },
@@ -1473,6 +1476,9 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0"
+         },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
          },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0xacAaC3e6D6Df918Bf3c809DFC7d42de0e4a72d4C"
