@@ -51,7 +51,6 @@
    "0x1b6DF1fF5db99F8a8A04D38f7478BAB056Fa35A7": "20220420-smart-wallet-checker/SmartWalletChecker",
    "0xacAaC3e6D6Df918Bf3c809DFC7d42de0e4a72d4C": "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint",
    "0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47": "00000000-tokens/BAL",
-   "0xf23b4DB826DbA14c0e857029dfF076b1c0264843": "20221205-l2-gauge-checkpointer/L2GaugeCheckpointer",
    "0xC128a9954e6c874eA3d62ce62B468bA073093F25": "20220812-child-chain-reward-helper/ChildChainGaugeRewardHelper",
    "0x05a0BF0540F346b6Dac25550738343BEb51C0f65": "20220707-distribution-scheduler/DistributionScheduler",
    "0x33A99Dcc4C85C014cf12626959111D5898bbCAbF": "20220325-gauge-controller/VotingEscrow",
