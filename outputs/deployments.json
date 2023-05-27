@@ -394,6 +394,9 @@
             "PolygonZkEVMRootGaugeFactory": "0x9bF951848288cCD87d06FaC426150262cD3447De",
             "PolygonZkEVMRootGauge": "0x45bF48D996d22afc9BC150DF7FB4d13A49088602"
          },
+         "20230527-l2-gauge-checkpointer": {
+            "L2GaugeCheckpointer": "0x343688C5cB92115a52cA485af7f62B4B7A2e9CcC"
+         },
          "20220707-distribution-scheduler": {
             "DistributionScheduler": "0xBd35248F8325DD1cB2bBf9D01E80A6bb99a792Dd"
          },
