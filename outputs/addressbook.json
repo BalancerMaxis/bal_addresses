@@ -432,6 +432,9 @@
          "helpers": {
             "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72"
          },
+         "layerzero": {
+            "OmniVotingEscrow": "0xE241C6e48CA045C7f631600a0f1403b2bFea05ad"
+         },
          "across": {
             "spoke_pool": "0x4D9079Bb4165aeb4084c526a32695dCfd2F77381"
          },
@@ -619,6 +622,9 @@
          "20230526-zkevm-root-gauge-factory": {
             "PolygonZkEVMRootGaugeFactory": "0x9bF951848288cCD87d06FaC426150262cD3447De",
             "PolygonZkEVMRootGauge": "0x45bF48D996d22afc9BC150DF7FB4d13A49088602"
+         },
+         "20230527-l2-gauge-checkpointer": {
+            "L2GaugeCheckpointer": "0x343688C5cB92115a52cA485af7f62B4B7A2e9CcC"
          },
          "20220707-distribution-scheduler": {
             "DistributionScheduler": "0xBd35248F8325DD1cB2bBf9D01E80A6bb99a792Dd"
