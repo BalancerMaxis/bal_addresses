@@ -235,6 +235,10 @@
             "MockERC4626Token": "0xB99eDc4b289B0F2284fCF3f66884191BdCe29624",
             "MockERC4626LinearPool": "0x9516a2d25958EdB8da246a320f2c7d94A0DBe25d"
          },
+         "20230529-avalanche-root-gauge-factory": {
+            "AvalancheRootGaugeFactory": "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC",
+            "AvalancheRootGauge": "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f"
+         },
          "20210812-wsteth-rate-provider": {
             "WstETHRateProvider": "0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768"
          },

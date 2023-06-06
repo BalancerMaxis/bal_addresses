@@ -121,6 +121,8 @@
    "0x813EE7a840CE909E7Fea2117A44a90b8063bd4fd": "20230409-erc4626-linear-pool-v4/ERC4626LinearPoolFactory",
    "0xB99eDc4b289B0F2284fCF3f66884191BdCe29624": "20230409-erc4626-linear-pool-v4/MockERC4626Token",
    "0x9516a2d25958EdB8da246a320f2c7d94A0DBe25d": "20230409-erc4626-linear-pool-v4/MockERC4626LinearPool",
+   "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC": "20230529-avalanche-root-gauge-factory/AvalancheRootGaugeFactory",
+   "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f": "20230529-avalanche-root-gauge-factory/AvalancheRootGauge",
    "0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768": "20210812-wsteth-rate-provider/WstETHRateProvider",
    "0x97207B095e4D5C9a6e4cfbfcd2C3358E03B90c4A": "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider",
    "0x1b300C86980a5195bCF49bD419A068D98dC133Db": "20221123-pool-recovery-helper/PoolRecoveryHelper",

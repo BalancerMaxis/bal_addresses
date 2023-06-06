@@ -406,6 +406,10 @@
             "MockERC4626Token": "0xB99eDc4b289B0F2284fCF3f66884191BdCe29624",
             "MockERC4626LinearPool": "0x9516a2d25958EdB8da246a320f2c7d94A0DBe25d"
          },
+         "20230529-avalanche-root-gauge-factory": {
+            "AvalancheRootGaugeFactory": "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC",
+            "AvalancheRootGauge": "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f"
+         },
          "20210812-wsteth-rate-provider": {
             "WstETHRateProvider": "0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768"
          },
@@ -1680,7 +1684,12 @@
             "ChildChainGauge": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
             "ChildChainGaugeFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846"
          },
-         "multisigs": {},
+         "multisigs": {
+            "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
+            "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
+            "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
+            "fees": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6"
+         },
          "EOA": {
             "maxis": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
