@@ -34,8 +34,6 @@
    "20230316-l2-ve-delegation-proxy/NullVotingEscrow": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
    "20230316-l2-ve-delegation-proxy/VotingEscrowDelegationProxy": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
    "20210812-wsteth-rate-provider/WstETHRateProvider": "0x80a94F458491CA88F09767E58a92FD23Cbf1196F",
-   "20230403-timelock-authorizer/TimelockAuthorizerMigrator": "0x7159c4b96bfCfCA232355B55778e85Cf9E245192",
-   "20230403-timelock-authorizer/TimelockAuthorizer": "0x70E26F740bAd6a2CDd762e2478496268882C21d4",
    "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e",
    "20221123-pool-recovery-helper/PoolRecoveryHelper": "0x1cbbE6cEa5E4fE7D69c586b4e362A646DEEf105d",
    "20210418-authorizer/Authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
