@@ -42,6 +42,7 @@
    "0x8239a6b877804206c7799028232a7188da487cec": "00000000-tokens/BAL",
    "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7": "00000000-tokens/WETH",
    "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B": "20230316-l2-balancer-pseudo-minter/L2BalancerPseudoMinter",
+   "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5": "20230525-l2-veboost-v2/VeBoostV2",
    "0x687b8C9b41E01Be8B591725fac5d5f52D0564d79": "20230526-gauge-working-balance-helper/GaugeWorkingBalanceHelper",
    "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca": "20220325-authorizer-adaptor/AuthorizerAdaptor",
    "0x4b7b369989e613ff2C65768B7Cf930cC927F901E": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",

@@ -75,10 +75,6 @@
          "20210812-wsteth-rate-provider": {
             "WstETHRateProvider": "0x80a94F458491CA88F09767E58a92FD23Cbf1196F"
          },
-         "20230403-timelock-authorizer": {
-            "TimelockAuthorizerMigrator": "0x7159c4b96bfCfCA232355B55778e85Cf9E245192",
-            "TimelockAuthorizer": "0x70E26F740bAd6a2CDd762e2478496268882C21d4"
-         },
          "20220725-protocol-fee-percentages-provider": {
             "ProtocolFeePercentagesProvider": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
          },
@@ -276,7 +272,8 @@
             "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
          },
          "helpers": {
-            "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72"
+            "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
+            "rebalancerForPool": "0x3FBbB48ad78051982688a5a2Bc45eB6E2046a136"
          },
          "layerzero": {
             "OmniVotingEscrow": "0xE241C6e48CA045C7f631600a0f1403b2bFea05ad"
@@ -334,6 +331,10 @@
          },
          "gauntlet": {
             "GauntletFeeSetter": "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B"
+         },
+         "maxiKeepers": {
+            "gasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+            "LZRateProviderPoker": "0x8e1b1d475dB8B11B75C18187D3d7320832146991"
          },
          "20220325-ve-delegation": {
             "VotingEscrowDelegation": "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647",
@@ -963,6 +964,9 @@
             "YearnLinearPoolFactory": "0x44d33798dddCdAbc93Fe6a40C80588033Dc502d3",
             "MockYearnTokenVault": "0xDBf7B9F1d2Bfba14e42709f84dda3187eE410e38",
             "MockYearnLinearPool": "0x02c9DCB975262719A61f9B40bDf0987eAD9Add3a"
+         },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
          "20230526-gauge-working-balance-helper": {
             "GaugeWorkingBalanceHelper": "0xEF454a7B3f965D3f6723E462405246f8Cd865425"
@@ -1673,6 +1677,9 @@
          },
          "20230316-l2-balancer-pseudo-minter": {
             "L2BalancerPseudoMinter": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B"
+         },
+         "20230525-l2-veboost-v2": {
+            "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
          "20230526-gauge-working-balance-helper": {
             "GaugeWorkingBalanceHelper": "0x687b8C9b41E01Be8B591725fac5d5f52D0564d79"
