@@ -53,7 +53,8 @@
         "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
     },
     "helpers": {
-        "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72"
+        "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
+        "rebalancerForPool": "0x3FBbB48ad78051982688a5a2Bc45eB6E2046a136"
     },
     "layerzero": {
         "OmniVotingEscrow": "0xe241c6e48ca045c7f631600a0f1403b2bfea05ad"
@@ -111,5 +112,9 @@
     },
     "gauntlet": {
         "GauntletFeeSetter": "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B"
+    },
+    "maxiKeepers": {
+        "gasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+        "LZRateProviderPoker": "0x8e1b1d475dB8B11B75C18187D3d7320832146991"
     }
 }
