@@ -114,7 +114,7 @@
         "GauntletFeeSetter": "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B"
     },
     "maxiKeepers": {
-        "gasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+        "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
         "LZRateProviderPoker": "0x8e1b1d475dB8B11B75C18187D3d7320832146991"
     }
 }
