@@ -26,6 +26,7 @@ class AddrBook:
     SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
 
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
+
     fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
     ### Errors
