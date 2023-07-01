@@ -62,9 +62,22 @@ class AddrBook:
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
             raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
-        if  len(results) < 1:
+        if len(results) < 1:
             raise self.NoResultError(f"{substr}")
         return results[0]
+
+    def search_unique_deployment(self, substr):
+        results = [s for s in self.deployments_only.keys() if substr in s]
+        if len(results) > 1:
+            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise self.NoResultError(f"{substr}")
+        return results[0]
+
+    def search_many_deployments(self, substr):
+        search = [s for s in self.deployments_only.keys() if substr in s]
+        results = {key: self.deployments_only[key] for key in search if key in self.flatbook}
+        return results
 
     def search_many(self, substr):
         search = [s for s in self.flatbook.keys() if substr in s]
