@@ -81,6 +81,7 @@ class BalPermissions:
             raise self.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
         if len(results) < 1:
             raise self.NoResultError(f"{fx_substr}")
+        return results[0]
 
     def needs_authorizer(self, contract, deployment):
         return self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT[deployment][contract]["useAdaptor"]
