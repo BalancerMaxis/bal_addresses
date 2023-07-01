@@ -5,11 +5,6 @@ import requests
 from dotmap import DotMap
 from bal_addresses import AddrBook
 
-## Expose some config for bootstrapping, maybe there is a better way to do this without so many github hits but allowing this to be used before invoking the class.
-chains = requests.get(f"https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json").json()
-CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
-SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
-
 
 ### Errors
 class MultipleMatchesError(Exception):
@@ -22,18 +17,11 @@ class NoResultError(Exception):
 
 ### Main class
 class BalPermissions:
-    chains = DotMap(requests.get(
-        f"https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json").json())
     GITHUB_DEPLOYMENTS_RAW = "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
-    GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
     ## TODO switch back to main branch
     #GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
     GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/generate_permissions_jsons/outputs"
-    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
-    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
-    SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
 
-    fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
 
     ### Errors
     class MultipleMatchesError(Exception):
@@ -98,36 +86,3 @@ class BalPermissions:
         except KeyError:
             raise self.NoResultError(f"{action_id} has no authorized callers")
 
-
-    def checksum_address_dict(addresses):
-        """
-        convert addresses to their checksum variant taken from a (nested) dict
-        """
-        checksummed = {}
-        for k, v in addresses.items():
-            if isinstance(v, str):
-                checksummed[k] = Web3.toChecksumAddress(v)
-            elif isinstance(v, dict):
-                checksummed[k] = checksum_address_dict(v)
-            else:
-                print(k, v, "formatted incorrectly")
-        return checksummed
-
-
-
-
-
-#  Version outside class to allow for recursion on the uninitialized class
-def checksum_address_dict(addresses):
-    """
-    convert addresses to their checksum variant taken from a (nested) dict
-    """
-    checksummed = {}
-    for k, v in addresses.items():
-        if isinstance(v, str):
-            checksummed[k] = Web3.toChecksumAddress(v)
-        elif isinstance(v, dict):
-            checksummed[k] = checksum_address_dict(v)
-        else:
-            print(k, v, "formatted incorrectly")
-    return checksummed
