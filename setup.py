@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.6.0'
-DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
-LONG_DESCRIPTION = 'Balancer Maxi Monorepo Addressbook'
+VERSION = '0.7.0'
+DESCRIPTION = 'Balancer Maxi Addressbook'
+LONG_DESCRIPTION = 'Balancer Maxi Addressbook and Balancer Permissions helper'
 
 # Setting up
 setup(
