@@ -1,1248 +1,365 @@
 {
-  "0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30": {
-    "Fx": "batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[],address[],(address,bool,address,bool),int256[],uint256)",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34": {
-    "Fx": "exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653": {
-    "Fx": "joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498": {
-    "Fx": "manageUserBalance((uint8,address,uint256,address,address)[])",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8": {
-    "Fx": "setRelayerApproval(address,address,bool)",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff": {
-    "Fx": "swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)",
-    "Contract": "Vault",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
-      "0x42E49B48573c725ee32d2579060Ed06894f97002",
-      "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
-      "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-    ],
-    "Authorized_Caller_Names": [
-      "20211203-batch-relayer/BalancerRelayer",
-      "20220720-batch-relayer-v3/BalancerRelayer",
-      "20220916-batch-relayer-v4/BalancerRelayer",
-      "20230314-batch-relayer-v5/BalancerRelayer"
-    ]
-  },
-  "0xbe2a180d5cc5d803a8eec4cea569989fc1c593d7eeadd1f262f360a68b0e842e": {
-    "Fx": "setFlashLoanFeePercentage(uint256)",
-    "Contract": "ProtocolFeesCollector",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x5ef4c5352882b10893b70DbcaA0C000965bd23c5"
-    ],
-    "Authorized_Caller_Names": [
-      "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider"
-    ]
-  },
-  "0xb28b769768735d011b267f781c3be90bce51d5059ba015bc7a28b3e882fb2083": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ProtocolFeesCollector",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x6207ed574152496c9B072C24FD87cE9cd9E17320",
-      "0x5ef4c5352882b10893b70DbcaA0C000965bd23c5"
-    ],
-    "Authorized_Caller_Names": [
-      "undef",
-      "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider"
-    ]
-  },
-  "0xb2b6e48fa160a7c887d9d7a68b6a9bb9d47d4953d33e07f3a39e175d75e97796": {
-    "Fx": "withdrawCollectedFees(address[],uint256[],address)",
-    "Contract": "ProtocolFeesCollector",
-    "Deployment": "20210418-vault",
-    "Authorized_Caller_Addresses": [
-      "0x70Bbd023481788e443472e123AB963e5EBF58D06"
-    ],
-    "Authorized_Caller_Names": [
-      "20220517-protocol-fee-withdrawer/ProtocolFeesWithdrawer"
-    ]
-  },
-  "0x80d8e99e3b5fd50648b67ce84571603afc8ed8ea28310c743deef793d7a98d00": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "WeightedPool2Tokens",
-    "Deployment": "20210418-weighted-pool",
-    "Authorized_Caller_Addresses": [
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "undef"
-    ]
-  },
-  "0xacd79fece79849ae1a4976901a4c2a22bc3489bd83836ad8fbd3e2b75efcae66": {
-    "Fx": "setPaused(bool)",
-    "Contract": "WeightedPool",
-    "Deployment": "20210418-weighted-pool",
-    "Authorized_Caller_Addresses": [
-      "0xE8E4ee488363A032aA57AbE2c0E8BfD6c66685b5"
-    ],
-    "Authorized_Caller_Names": [
-      "undef"
-    ]
-  },
-  "0x6213e9042b9814b9567bde72d3c7a61372862c3ac88c2df77d3205221af6c871": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "WeightedPool",
-    "Deployment": "20210418-weighted-pool",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm",
-      "undef"
-    ]
-  },
-  "0xbe1515c6c371fbc1aead7b0ed2f23f3bc176eb727e587494ac0055414c5b4c11": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "StablePool",
-    "Deployment": "20210624-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x5e17ae1cf12bb5687db91810d22dafb70b8d05aa5e42310d0f6e467300e20077": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "StablePool",
-    "Deployment": "20210624-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x626821cc3a36dc57111047c78af64c430da2e604f1d676ab7f9209a98a63addd": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "StablePool",
-    "Deployment": "20210624-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xdb0e2ca147bb165fcfd2631fb8cb87ab34aa8fb9d2a81e95334a207f753f0302": {
-    "Fx": "disable()",
-    "Contract": "NoProtocolFeeLiquidityBootstrappingPoolFactory",
-    "Deployment": "20211202-no-protocol-fee-lbp",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency"
-    ]
-  },
-  "0x6164875d6ae7cbe0f88dcb6a153aeb65fec7e8fabf50f3e512288f01417a4d48": {
-    "Fx": "set_rewards(address,bytes32,address[8])",
-    "Contract": "RewardsOnlyGauge",
-    "Deployment": "20220413-child-chain-gauge-factory",
-    "Authorized_Caller_Addresses": [
-      "0xbfD9769b061E57e478690299011A028194D66e3C"
-    ],
-    "Authorized_Caller_Names": [
-      "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder"
-    ]
-  },
-  "0x848a449d6f3fea1c1e229330f28bbd34ce15b8828b8e59f6b046fe937ef76b76": {
-    "Fx": "add_reward(address,address,uint256)",
-    "Contract": "ChildChainStreamer",
-    "Deployment": "20220413-child-chain-gauge-factory",
-    "Authorized_Caller_Addresses": [
-      "0xbfD9769b061E57e478690299011A028194D66e3C"
-    ],
-    "Authorized_Caller_Names": [
-      "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder"
-    ]
-  },
-  "0x89b7ba31942baff990c50eb0f3ab487a6fc09c45e0333af59e2cae0b87ad9b3a": {
-    "Fx": "notify_reward_amount(address)",
-    "Contract": "ChildChainStreamer",
-    "Deployment": "20220413-child-chain-gauge-factory",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops"
-    ]
-  },
-  "0xf2eeb5b536a9b3c485a4815e2bc32d58341045b2c6b8710f2a1e04e856789c3d": {
-    "Fx": "denylistToken(address)",
-    "Contract": "ProtocolFeesWithdrawer",
-    "Deployment": "20220517-protocol-fee-withdrawer",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x93b1b7dba9fb074b573d5edb3c983e0490a00925f709289485f0c75988e100cf": {
-    "Fx": "withdrawCollectedFees(address[],uint256[],address)",
-    "Contract": "ProtocolFeesWithdrawer",
-    "Deployment": "20220517-protocol-fee-withdrawer",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x00970aa128369a6b7225384e0de035b547a6d56c2faeee4c3f3735de381d1ff7": {
-    "Fx": "addTokenToGauge(address,address,address)",
-    "Contract": "ChildChainGaugeTokenAdder",
-    "Deployment": "20220527-child-chain-gauge-token-adder",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0xa0ace5c52c8f0974c521244ccf49a5a7166a9a6fcef623779b42d55fb2c5fbbe": {
-    "Fx": "setFeeTypePercentage(uint256,uint256)",
-    "Contract": "ProtocolFeePercentagesProvider",
-    "Deployment": "20220725-protocol-fee-percentages-provider",
-    "Authorized_Caller_Addresses": [
-      "0x6207ed574152496c9B072C24FD87cE9cd9E17320"
-    ],
-    "Authorized_Caller_Names": [
-      "undef"
-    ]
-  },
-  "0xe59ccea4d4a98c33b7c0b3c05a3d65ff930273fa5ee03855a3104befc6d1d362": {
-    "Fx": "disable()",
-    "Contract": "AaveLinearPoolFactory",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency"
-    ]
-  },
-  "0xa7508bde3c3d65fa21321ca35b2d1da564bc4a772cff9947de3c3e1a467e9dec": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x25ec546c5f4dfc2fe31ba04f5cf65a8098b35111075a5fd114ea3475e4254ac6": {
-    "Fx": "pause()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe9d4a41f6bb25c8862c0c2c860268861488f862a3702115587343e3c3d6ea29a": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x2095feae5b22289753af2b83be023818aa08f8d76f2083e5fb8a393a2c8a4836": {
-    "Fx": "setTargets(uint256,uint256)",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xb48ae0b045f774f177ab4b36d641b3bfaeb28e42f6da1a418a80f696f3a21703": {
-    "Fx": "unpause()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20220817-aave-rebalanced-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xf3376f86bc88f72d48761be5427c44395f7ee6a01d0d984b27ccc4340b29a770": {
-    "Fx": "disable()",
-    "Contract": "ComposableStablePoolFactory",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency"
-    ]
-  },
-  "0xcbe9cebc4f91f7165ea5e4f69b52df3f2ece32ffa2ea75701ece149b4ab59b28": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "20221123-pool-recovery-helper/PoolRecoveryHelper",
-      "multisigs/emergency"
-    ]
-  },
-  "0x79ec0b88111fa72b837fed3ecc182ad192cf3f55a79781b1277a1c85a6908585": {
-    "Fx": "pause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe4ae7db31fa76b12846f2837e5b8ee34891b1b170470345521a088bd662e4571": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x2620ee35568e28137005f8f175537badd5862933f53cc13eaf083bb5c06a043d": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x75787838691ff488bcd08777a81793f36c82ac2a4fe7d8bdc74339f7aabd15ef": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xaf671adda59b68d2ffa622bd2572e3517e5ff29dc90dba711cb6099fc64c81b0": {
-    "Fx": "unpause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20220906-composable-stable-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x1180cd5efd53e784faf032ed74af8c1ca90ec2063bcc81ccb5df9cba24f7a844": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "StablePool",
-    "Deployment": "20220609-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x79cf7f42fcb330293c1d98b9ac2db3a3122a615e3630596ebc2584c6bf0d1346": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "StablePool",
-    "Deployment": "20220609-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x0dc09b40b8cf6fe6a29ebfed496944af74a8fb14ace7220c222e17e83b46fe09": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "StablePool",
-    "Deployment": "20220609-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x39a4eccad75e66b9c85b00fd5dcba46bc190f4391e3e6e9af1d74e6f242edba8": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "StablePool",
-    "Deployment": "20220609-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x3fe7719468a7e48b37513ec7a41d9931375244942fe6c328691db3415d9517c1": {
-    "Fx": "disable()",
-    "Contract": "WeightedPoolFactory",
-    "Deployment": "20220908-weighted-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency"
-    ]
-  },
-  "0xe677a5af244fbd50b51cf114dd0bdbf7b73c262382c7704c359c6c2148820d33": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "WeightedPool",
-    "Deployment": "20220908-weighted-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "20221123-pool-recovery-helper/PoolRecoveryHelper",
-      "multisigs/emergency"
-    ]
-  },
-  "0xcd7e0ee0107ef7cac4d00d3821101a9ba6f02158f7f4dd52693e82ad3c91e918": {
-    "Fx": "pause()",
-    "Contract": "WeightedPool",
-    "Deployment": "20220908-weighted-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xcf5e03a737e4f5ba6d13e23f893a1e0255b362d8ce22e9568e1565fcf92789c7": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "WeightedPool",
-    "Deployment": "20220908-weighted-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x07b4fb5e12466b66136a430edadfe74892e0cbfc410f6268a2d1d24cc09a6e05": {
-    "Fx": "unpause()",
-    "Contract": "WeightedPool",
-    "Deployment": "20220908-weighted-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xda62096c4d8f1d48218270a8cfece514fe2fb09e756e8d76aa98186a68f5c35c": {
-    "Fx": "addPoolFactory(address)",
-    "Contract": "PoolRecoveryHelper",
-    "Deployment": "20221123-pool-recovery-helper",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops"
-    ]
-  },
-  "0xa450560b4243ca4b627c589e0f1f51c3022ac250bb247dc70009744aee0fe13b": {
-    "Fx": "removePoolFactory(address)",
-    "Contract": "PoolRecoveryHelper",
-    "Deployment": "20221123-pool-recovery-helper",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops"
-    ]
-  },
-  "0x0a35dcf04fdcf4e2119802287b94a1cf758427e74e9bb450cb31af7c660d7735": {
-    "Fx": "disable()",
-    "Contract": "ComposableStablePoolFactory",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency"
-    ]
-  },
-  "0x7d89412e7c8893c1c85589d68187b2ee925cd2d27c10393980897d1fa4346b0a": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x6e25be22eb210da3359f4afb977d53109dad5ed4801e736bf6c5239e0028bd48": {
-    "Fx": "pause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xdee20d81c6075dcc437dbaaf02d316ab255cfcae4a154e04b17abdebc70a5b48": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0xf766fa63021f6e696e70c339ab7246118c3da74fcbf80dbe6d603189209afed7": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x1c36fdcc08f18f6fb33519d9491400a58c2c03b6f1222f8385cc36e6fb837110": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x09f210f1a6e3730856cd101645ba1c0594f63ca6ed48e7768b5421ae698858db": {
-    "Fx": "unpause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20221122-composable-stable-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x0ebf042d38f8e1bb630c3010c686232d7334f90360a82eb23623fd01fbe8e656": {
-    "Fx": "disable()",
-    "Contract": "ManagedPoolFactory",
-    "Deployment": "20221021-managed-pool",
-    "Authorized_Caller_Addresses": [
-      "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/blabs_ops",
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x5fd274813b31ce95c712e49fe755d0b075329e0579e5f04cd7126ed1470d4354": {
-    "Fx": "disable()",
-    "Contract": "AaveLinearPoolFactory",
-    "Deployment": "20221207-aave-rebalanced-linear-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x9254542b345e99990640c1b9525771201fcd60edbe6ff1b6b4179bd86dcd5fbc": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20221207-aave-rebalanced-linear-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x3f476d79932a277fc0be18747fc314f1db33802d38a900d529db018c01de81a4": {
-    "Fx": "disable()",
-    "Contract": "WeightedPoolFactory",
-    "Deployment": "20230206-weighted-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x1e3379f440ccd8ad4fbacfa446ce3de718eda1a091b271c9053bdedff90cdf1c": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "WeightedPool",
-    "Deployment": "20230206-weighted-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0xbbb29600025604666f66b68dff00546068c5be9c0a5a0fbe825550f6c3519c27": {
-    "Fx": "pause()",
-    "Contract": "WeightedPool",
-    "Deployment": "20230206-weighted-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x92253d002d63e0211f775527924e2891f18bb060ff2ab3be19c6b242bafa5fec": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "WeightedPool",
-    "Deployment": "20230206-weighted-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0xa23cd4468cbe8403f6163d16350699bab6b407aee02d6a29755b0cffa52dd023": {
-    "Fx": "disable()",
-    "Contract": "ComposableStablePoolFactory",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0xe6321aecff7f0051958627890aa2a16d7221f860dfa3359a1cea6f4a3f87933e": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0xcf96d782d1bc8dd12869fb51374544f9c037fd559b8811972f35756f204c6012": {
-    "Fx": "pause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xc383be2c6e87a9b18ae919e677f011279a8d98346dbcd5cb326053f5f873b753": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager",
-      "undef"
-    ]
-  },
-  "0x79f0094a409615c52fb7491ca130145e7ec31efb578af4019db59e6636c07ebf": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xfaede3ef05348eea541571b87b87560ae56292ed04fd5e08fcced4d41916dfb1": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230206-composable-stable-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x06efe7e891755c060de5033e398e2d4d9f1bc713591717209ef84b7e021bd154": {
-    "Fx": "disable()",
-    "Contract": "AaveLinearPoolFactory",
-    "Deployment": "20230206-aave-rebalanced-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x6e1c8947d790e79a7f8b6b195b2ec3231b6b9bd27a74f04b192aacd8e93f3660": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20230206-aave-rebalanced-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xb78893595b75c70259cbe387580b752c333e0a52d40fb98d6bcdf4b54b0cef91": {
-    "Fx": "setTargets(uint256,uint256)",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20230206-aave-rebalanced-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x4e369965828f3a76cdcb37d24a69a3ddf1f0bbfa9110f9978e25d804504b279f": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ERC4626LinearPool",
-    "Deployment": "20230206-erc4626-linear-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x342f10e709ad2a053a4e5035c4b3b703fea94c19f458d3887a6323472f0e42cd": {
-    "Fx": "setTargets(uint256,uint256)",
-    "Contract": "ERC4626LinearPool",
-    "Deployment": "20230206-erc4626-linear-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x5ec883ecf16774e6b304f1e06322669694ffb90c13167afeac8ed7b68ab0869e": {
-    "Fx": "disable()",
-    "Contract": "ERC4626LinearPoolFactory",
-    "Deployment": "20230206-erc4626-linear-pool-v3",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x204435acb6f76b6cfa0ef594fc0e4379b943252865ff8edb9a6d07e718ca12e8": {
-    "Fx": "disable()",
-    "Contract": "YearnLinearPoolFactory",
-    "Deployment": "20230213-yearn-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "multisigs/dao"
-    ]
-  },
-  "0x3e6c904353f81ad8c8ed1a0e926cebf468aeaba4c280147e2d32030a359746f5": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "YearnLinearPool",
-    "Deployment": "20230213-yearn-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0x4cc8eb383f0521484d9a2bc36774c7eb2c8fcc5a9170f797b9509164f5e449fc": {
-    "Fx": "setTargets(uint256,uint256)",
-    "Contract": "YearnLinearPool",
-    "Deployment": "20230213-yearn-linear-pool",
-    "Authorized_Caller_Addresses": [
-      "0x7c68c42De679ffB0f16216154C996C354cF1161B"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/feeManager"
-    ]
-  },
-  "0xfed0eb6041728fc141bad70d04446ff0e9c8289a4f53cc060addc832c914b44f": {
-    "Fx": "registerProtocolId(uint256,string)",
-    "Contract": "ProtocolIdRegistry",
-    "Deployment": "20230223-protocol-id-registry",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0xdc8681b640b547e98ee6f4d708df559b807526d976644c3aca24bc12c4f839c3": {
-    "Fx": "renameProtocolId(uint256,string)",
-    "Contract": "ProtocolIdRegistry",
-    "Deployment": "20230223-protocol-id-registry",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x06cafebf5a6142d1acfc442d8a4f2b4d40a7cdfa6c1311679adc8fd679a559a7": {
-    "Fx": "disable()",
-    "Contract": "WeightedPoolFactory",
-    "Deployment": "20230320-weighted-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe184fa0d5bfa8981c4a008826c1302ad4a0235d114bd82980681f620c748abc1": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "WeightedPool",
-    "Deployment": "20230320-weighted-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0xd98740b6136649627930e4de42dd9232af00b3ded6023d9d9202b47f0356ff43": {
-    "Fx": "pause()",
-    "Contract": "WeightedPool",
-    "Deployment": "20230320-weighted-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x70368640683195889d0f146ab060210f43fbb1c317a87bdf17a4dca8d8feed86": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "WeightedPool",
-    "Deployment": "20230320-weighted-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm",
-      "undef"
-    ]
-  },
-  "0x2459196cb4ed0fe6ae2ab5497be53008d92acf640cb0174ce413b1e613d56e35": {
-    "Fx": "disable()",
-    "Contract": "ComposableStablePoolFactory",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xa7152bc948bf07e3c3fff4953f5f4962d845ee3261d784e6e9b31f160d99da54": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x4af83a29926fe55935b85568f0f0cab066e294993eaba067cdef68541ccf0195": {
-    "Fx": "pause()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x50ccb689033ea83f58a1b54b091916255bb56c2334a12ed908ecb06f72d2a688": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860",
-      "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm",
-      "undef"
-    ]
-  },
-  "0x197a2915652227e96ce9367b8488b59f12fa838f0ae2381b1437dcf3992b8349": {
-    "Fx": "startAmplificationParameterUpdate(uint256,uint256)",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x76fe94a15b02391aba1fbac69e9d2f37f355fe1e5031c218535568ee6bb98219": {
-    "Fx": "stopAmplificationParameterUpdate()",
-    "Contract": "ComposableStablePool",
-    "Deployment": "20230320-composable-stable-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x56245c361d1ed9e55e6f9889e49f36d9991761b712de544f847b557a84ccd62f": {
-    "Fx": "add_reward(address,address)",
-    "Contract": "ChildChainGauge",
-    "Deployment": "20230316-child-chain-gauge-factory-v2",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x8d305e761700b38cf2bc3f9e2c4ad60807e843cf2efd2415b902b1163f8f9a22": {
-    "Fx": "disable()",
-    "Contract": "ManagedPoolFactory",
-    "Deployment": "20230411-managed-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xb213b9fefdba263a47d6449bab5d563a39489f656d504fd24d5b9efe6fe23a61": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ManagedPool",
-    "Deployment": "20230411-managed-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency",
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x6c331c074092fbc25cd1032630ed25155aa5b81afa1d296bf5a0f0e9e0c6e846": {
-    "Fx": "pause()",
-    "Contract": "ManagedPool",
-    "Deployment": "20230411-managed-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x66db2fcfa4b70b33f43f7867dfaa73830a40a9c21793ab4a4181017cec69c0f4": {
-    "Fx": "disable()",
-    "Contract": "YearnLinearPoolFactory",
-    "Deployment": "20230409-yearn-linear-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe92818032e649cabfbbf9828641b240d0c8a4ac9437a937f8e99c6b9f92d0fb8": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "YearnLinearPool",
-    "Deployment": "20230409-yearn-linear-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x7da8797db7760574755019e2675d1f816315b7c76c7977ec6c618ffbc4f260b9": {
-    "Fx": "pause()",
-    "Contract": "YearnLinearPool",
-    "Deployment": "20230409-yearn-linear-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xb74250de83c56252b0309fc8272338dbe9fac2232b39897af72c3df142d55e20": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "YearnLinearPool",
-    "Deployment": "20230409-yearn-linear-pool-v2",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x5cdea6ae677e1afa17c4dba1377e544c6f83a79c1e3cc7341290a0e7d8a23251": {
-    "Fx": "disable()",
-    "Contract": "ERC4626LinearPoolFactory",
-    "Deployment": "20230409-erc4626-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x04105ccf7d08e1e33d81a35a5ced3da44c613e81d864b1e22b1f3d54c5c37c8b": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "ERC4626LinearPool",
-    "Deployment": "20230409-erc4626-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x1df6fb8357a54c9e82f443013986d6c1fdfdd7561c49f474fe9000fa1ddfb5e1": {
-    "Fx": "pause()",
-    "Contract": "ERC4626LinearPool",
-    "Deployment": "20230409-erc4626-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0x430c53d88f8da9ce15fbc710a70e95543153a914f3fd38afd4ded87b4d32b273": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "ERC4626LinearPool",
-    "Deployment": "20230409-erc4626-linear-pool-v4",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  },
-  "0x6b623ee459a550297f0b0660446eef4dbf89e9d7e9d29addbbe907763506089b": {
-    "Fx": "disable()",
-    "Contract": "AaveLinearPoolFactory",
-    "Deployment": "20230410-aave-linear-pool-v5",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe5346592e9128cab4378e32315f1836824e56d46f901b9e6bafa554e72c9585a": {
-    "Fx": "enableRecoveryMode()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20230410-aave-linear-pool-v5",
-    "Authorized_Caller_Addresses": [
-      "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
-    ],
-    "Authorized_Caller_Names": [
-      "20221123-pool-recovery-helper/PoolRecoveryHelper"
-    ]
-  },
-  "0x2e3db35aff883a61c66722429d09c6fa8afb1b3fd23a906453a02c3ad7a5156c": {
-    "Fx": "pause()",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20230410-aave-linear-pool-v5",
-    "Authorized_Caller_Addresses": [
-      "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/emergency"
-    ]
-  },
-  "0xe2034e57b6e5473c618804022a6b6a56a83df1c39435869038988698f9137b73": {
-    "Fx": "setSwapFeePercentage(uint256)",
-    "Contract": "AaveLinearPool",
-    "Deployment": "20230410-aave-linear-pool-v5",
-    "Authorized_Caller_Addresses": [
-      "0xc38c5f97B34E175FFd35407fc91a937300E33860"
-    ],
-    "Authorized_Caller_Names": [
-      "multisigs/lm"
-    ]
-  }
+  "0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff": [
+    "0x466262c2a275aB106E54D95B5B04603e12b58cA1",
+    "0x42E49B48573c725ee32d2579060Ed06894f97002",
+    "0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5",
+    "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
+  ],
+  "0xbe2a180d5cc5d803a8eec4cea569989fc1c593d7eeadd1f262f360a68b0e842e": [
+    "0x5ef4c5352882b10893b70DbcaA0C000965bd23c5"
+  ],
+  "0xb28b769768735d011b267f781c3be90bce51d5059ba015bc7a28b3e882fb2083": [
+    "0x6207ed574152496c9B072C24FD87cE9cd9E17320",
+    "0x5ef4c5352882b10893b70DbcaA0C000965bd23c5"
+  ],
+  "0xb2b6e48fa160a7c887d9d7a68b6a9bb9d47d4953d33e07f3a39e175d75e97796": [
+    "0x70Bbd023481788e443472e123AB963e5EBF58D06"
+  ],
+  "0x80d8e99e3b5fd50648b67ce84571603afc8ed8ea28310c743deef793d7a98d00": [
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0xacd79fece79849ae1a4976901a4c2a22bc3489bd83836ad8fbd3e2b75efcae66": [
+    "0xE8E4ee488363A032aA57AbE2c0E8BfD6c66685b5"
+  ],
+  "0x6213e9042b9814b9567bde72d3c7a61372862c3ac88c2df77d3205221af6c871": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0xbe1515c6c371fbc1aead7b0ed2f23f3bc176eb727e587494ac0055414c5b4c11": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x5e17ae1cf12bb5687db91810d22dafb70b8d05aa5e42310d0f6e467300e20077": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x626821cc3a36dc57111047c78af64c430da2e604f1d676ab7f9209a98a63addd": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xdb0e2ca147bb165fcfd2631fb8cb87ab34aa8fb9d2a81e95334a207f753f0302": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x6164875d6ae7cbe0f88dcb6a153aeb65fec7e8fabf50f3e512288f01417a4d48": [
+    "0xbfD9769b061E57e478690299011A028194D66e3C"
+  ],
+  "0x848a449d6f3fea1c1e229330f28bbd34ce15b8828b8e59f6b046fe937ef76b76": [
+    "0xbfD9769b061E57e478690299011A028194D66e3C"
+  ],
+  "0x89b7ba31942baff990c50eb0f3ab487a6fc09c45e0333af59e2cae0b87ad9b3a": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
+  ],
+  "0xf2eeb5b536a9b3c485a4815e2bc32d58341045b2c6b8710f2a1e04e856789c3d": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x93b1b7dba9fb074b573d5edb3c983e0490a00925f709289485f0c75988e100cf": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7"
+  ],
+  "0x00970aa128369a6b7225384e0de035b547a6d56c2faeee4c3f3735de381d1ff7": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0xa0ace5c52c8f0974c521244ccf49a5a7166a9a6fcef623779b42d55fb2c5fbbe": [
+    "0x6207ed574152496c9B072C24FD87cE9cd9E17320"
+  ],
+  "0xe59ccea4d4a98c33b7c0b3c05a3d65ff930273fa5ee03855a3104befc6d1d362": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xa7508bde3c3d65fa21321ca35b2d1da564bc4a772cff9947de3c3e1a467e9dec": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x25ec546c5f4dfc2fe31ba04f5cf65a8098b35111075a5fd114ea3475e4254ac6": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe9d4a41f6bb25c8862c0c2c860268861488f862a3702115587343e3c3d6ea29a": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x2095feae5b22289753af2b83be023818aa08f8d76f2083e5fb8a393a2c8a4836": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xb48ae0b045f774f177ab4b36d641b3bfaeb28e42f6da1a418a80f696f3a21703": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xf3376f86bc88f72d48761be5427c44395f7ee6a01d0d984b27ccc4340b29a770": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xcbe9cebc4f91f7165ea5e4f69b52df3f2ece32ffa2ea75701ece149b4ab59b28": [
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x79ec0b88111fa72b837fed3ecc182ad192cf3f55a79781b1277a1c85a6908585": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe4ae7db31fa76b12846f2837e5b8ee34891b1b170470345521a088bd662e4571": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x2620ee35568e28137005f8f175537badd5862933f53cc13eaf083bb5c06a043d": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x75787838691ff488bcd08777a81793f36c82ac2a4fe7d8bdc74339f7aabd15ef": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xaf671adda59b68d2ffa622bd2572e3517e5ff29dc90dba711cb6099fc64c81b0": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x1180cd5efd53e784faf032ed74af8c1ca90ec2063bcc81ccb5df9cba24f7a844": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x79cf7f42fcb330293c1d98b9ac2db3a3122a615e3630596ebc2584c6bf0d1346": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x0dc09b40b8cf6fe6a29ebfed496944af74a8fb14ace7220c222e17e83b46fe09": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x39a4eccad75e66b9c85b00fd5dcba46bc190f4391e3e6e9af1d74e6f242edba8": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x3fe7719468a7e48b37513ec7a41d9931375244942fe6c328691db3415d9517c1": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe677a5af244fbd50b51cf114dd0bdbf7b73c262382c7704c359c6c2148820d33": [
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xcd7e0ee0107ef7cac4d00d3821101a9ba6f02158f7f4dd52693e82ad3c91e918": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xcf5e03a737e4f5ba6d13e23f893a1e0255b362d8ce22e9568e1565fcf92789c7": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x07b4fb5e12466b66136a430edadfe74892e0cbfc410f6268a2d1d24cc09a6e05": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xda62096c4d8f1d48218270a8cfece514fe2fb09e756e8d76aa98186a68f5c35c": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
+  ],
+  "0xa450560b4243ca4b627c589e0f1f51c3022ac250bb247dc70009744aee0fe13b": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
+  ],
+  "0x0a35dcf04fdcf4e2119802287b94a1cf758427e74e9bb450cb31af7c660d7735": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x7d89412e7c8893c1c85589d68187b2ee925cd2d27c10393980897d1fa4346b0a": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x6e25be22eb210da3359f4afb977d53109dad5ed4801e736bf6c5239e0028bd48": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xdee20d81c6075dcc437dbaaf02d316ab255cfcae4a154e04b17abdebc70a5b48": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0xf766fa63021f6e696e70c339ab7246118c3da74fcbf80dbe6d603189209afed7": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x1c36fdcc08f18f6fb33519d9491400a58c2c03b6f1222f8385cc36e6fb837110": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x09f210f1a6e3730856cd101645ba1c0594f63ca6ed48e7768b5421ae698858db": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x0ebf042d38f8e1bb630c3010c686232d7334f90360a82eb23623fd01fbe8e656": [
+    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x5fd274813b31ce95c712e49fe755d0b075329e0579e5f04cd7126ed1470d4354": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x9254542b345e99990640c1b9525771201fcd60edbe6ff1b6b4179bd86dcd5fbc": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x3f476d79932a277fc0be18747fc314f1db33802d38a900d529db018c01de81a4": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x1e3379f440ccd8ad4fbacfa446ce3de718eda1a091b271c9053bdedff90cdf1c": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0xbbb29600025604666f66b68dff00546068c5be9c0a5a0fbe825550f6c3519c27": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x92253d002d63e0211f775527924e2891f18bb060ff2ab3be19c6b242bafa5fec": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0xa23cd4468cbe8403f6163d16350699bab6b407aee02d6a29755b0cffa52dd023": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0xe6321aecff7f0051958627890aa2a16d7221f860dfa3359a1cea6f4a3f87933e": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0xcf96d782d1bc8dd12869fb51374544f9c037fd559b8811972f35756f204c6012": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xc383be2c6e87a9b18ae919e677f011279a8d98346dbcd5cb326053f5f873b753": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x79f0094a409615c52fb7491ca130145e7ec31efb578af4019db59e6636c07ebf": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xfaede3ef05348eea541571b87b87560ae56292ed04fd5e08fcced4d41916dfb1": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x06efe7e891755c060de5033e398e2d4d9f1bc713591717209ef84b7e021bd154": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x6e1c8947d790e79a7f8b6b195b2ec3231b6b9bd27a74f04b192aacd8e93f3660": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xb78893595b75c70259cbe387580b752c333e0a52d40fb98d6bcdf4b54b0cef91": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x4e369965828f3a76cdcb37d24a69a3ddf1f0bbfa9110f9978e25d804504b279f": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x342f10e709ad2a053a4e5035c4b3b703fea94c19f458d3887a6323472f0e42cd": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x5ec883ecf16774e6b304f1e06322669694ffb90c13167afeac8ed7b68ab0869e": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x204435acb6f76b6cfa0ef594fc0e4379b943252865ff8edb9a6d07e718ca12e8": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xaF23DC5983230E9eEAf93280e312e57539D098D0"
+  ],
+  "0x3e6c904353f81ad8c8ed1a0e926cebf468aeaba4c280147e2d32030a359746f5": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0x4cc8eb383f0521484d9a2bc36774c7eb2c8fcc5a9170f797b9509164f5e449fc": [
+    "0x7c68c42De679ffB0f16216154C996C354cF1161B"
+  ],
+  "0xfed0eb6041728fc141bad70d04446ff0e9c8289a4f53cc060addc832c914b44f": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0xdc8681b640b547e98ee6f4d708df559b807526d976644c3aca24bc12c4f839c3": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x06cafebf5a6142d1acfc442d8a4f2b4d40a7cdfa6c1311679adc8fd679a559a7": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe184fa0d5bfa8981c4a008826c1302ad4a0235d114bd82980681f620c748abc1": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0xd98740b6136649627930e4de42dd9232af00b3ded6023d9d9202b47f0356ff43": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x70368640683195889d0f146ab060210f43fbb1c317a87bdf17a4dca8d8feed86": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x2459196cb4ed0fe6ae2ab5497be53008d92acf640cb0174ce413b1e613d56e35": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xa7152bc948bf07e3c3fff4953f5f4962d845ee3261d784e6e9b31f160d99da54": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x4af83a29926fe55935b85568f0f0cab066e294993eaba067cdef68541ccf0195": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x50ccb689033ea83f58a1b54b091916255bb56c2334a12ed908ecb06f72d2a688": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860",
+    "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+  ],
+  "0x197a2915652227e96ce9367b8488b59f12fa838f0ae2381b1437dcf3992b8349": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x76fe94a15b02391aba1fbac69e9d2f37f355fe1e5031c218535568ee6bb98219": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x56245c361d1ed9e55e6f9889e49f36d9991761b712de544f847b557a84ccd62f": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x8d305e761700b38cf2bc3f9e2c4ad60807e843cf2efd2415b902b1163f8f9a22": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xb213b9fefdba263a47d6449bab5d563a39489f656d504fd24d5b9efe6fe23a61": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x6c331c074092fbc25cd1032630ed25155aa5b81afa1d296bf5a0f0e9e0c6e846": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x66db2fcfa4b70b33f43f7867dfaa73830a40a9c21793ab4a4181017cec69c0f4": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe92818032e649cabfbbf9828641b240d0c8a4ac9437a937f8e99c6b9f92d0fb8": [
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x7da8797db7760574755019e2675d1f816315b7c76c7977ec6c618ffbc4f260b9": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xb74250de83c56252b0309fc8272338dbe9fac2232b39897af72c3df142d55e20": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x5cdea6ae677e1afa17c4dba1377e544c6f83a79c1e3cc7341290a0e7d8a23251": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x04105ccf7d08e1e33d81a35a5ced3da44c613e81d864b1e22b1f3d54c5c37c8b": [
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x1df6fb8357a54c9e82f443013986d6c1fdfdd7561c49f474fe9000fa1ddfb5e1": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0x430c53d88f8da9ce15fbc710a70e95543153a914f3fd38afd4ded87b4d32b273": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ],
+  "0x6b623ee459a550297f0b0660446eef4dbf89e9d7e9d29addbbe907763506089b": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe5346592e9128cab4378e32315f1836824e56d46f901b9e6bafa554e72c9585a": [
+    "0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2"
+  ],
+  "0x2e3db35aff883a61c66722429d09c6fa8afb1b3fd23a906453a02c3ad7a5156c": [
+    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D"
+  ],
+  "0xe2034e57b6e5473c618804022a6b6a56a83df1c39435869038988698f9137b73": [
+    "0xc38c5f97B34E175FFd35407fc91a937300E33860"
+  ]
 }
