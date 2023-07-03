@@ -36,7 +36,10 @@ class BalPermissions:
         self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
 
         # Define
-        self.fx_paths_by_action_id = defaultdict(list)
+        self.fx_paths_by_action_id = defaultdict(set)
+        self.deployments_by_fx = defaultdict(set)
+        self.contracts_by_fx = defaultdict(set)
+        self.contracts_by_deployment = defaultdict(set)
         self.action_id_by_fx = {}
         self.action_id_by_fx_path = {}
         # Populate
@@ -44,26 +47,30 @@ class BalPermissions:
             for contract, contract_data in contracts.items():
                 for fx, action_id in contract_data["actionIds"].items():
                     fx_path = f"{deployment}/{contract}/{fx}"
-                    self.fx_paths_by_action_id[action_id].append(fx_path)
                     assert fx_path not in self.action_id_by_fx_path.values(), f"{fx_path} shows up twice?"
                     self.action_id_by_fx_path[fx_path] = action_id
                     self.action_id_by_fx[fx] = action_id
+                    self.deployments_by_fx[fx].add(deployment)
+                    self.contracts_by_fx[fx].add(contract)
+                    self.contracts_by_deployment[deployment].add(contract)
+                    self.fx_paths_by_action_id[action_id].add(fx_path)
+
 
     def search_fx(self, substr):
         search = [s for s in self.action_id_by_fx.keys() if substr in s]
-        results = {key: self.action_id_by_fx[key] for key in search if key in self.action_id_by_fx}
+        results = [fx for fx in search if fx in self.action_id_by_fx]
         return results
 
-    def search_fx_path(self, substr):
+    def search_path(self, substr):
         search = [s for s in self.action_id_by_fx_path.keys() if substr in s]
-        results = {key: self.action_id_by_fx_path[key] for key in search if key in self.action_id_by_fx_path}
+        results = [path for path in search if path in self.action_id_by_fx_path]
         return results
 
-    def search_many_fxs_by_unique_deployment(self, deployment_substr, fx_substr):
+    def search_many_paths_by_unique_deployment(self, deployment_substr, fx_substr):
         a = AddrBook(self.chain)
         results = []
         deployment = a.search_unique_deployment(deployment_substr)
-        deployment_fxs = self.search_fx_path(deployment).keys()
+        deployment_fxs = self.search_path(deployment)
         search = [s for s in deployment_fxs if fx_substr in s]
         for r in search:
             result = DotMap({
@@ -73,8 +80,8 @@ class BalPermissions:
             results.append(result)
         return results
 
-    def search_unique_fx_by_unique_deployment(self, deployment_substr, fx_substr):
-        results = self.search_many_fxs_by_unique_deployment(deployment_substr, fx_substr)
+    def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr):
+        results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
         if len(results) > 1:
             raise self.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
         if len(results) < 1:
