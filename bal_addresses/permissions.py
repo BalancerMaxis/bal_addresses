@@ -36,24 +36,24 @@ class BalPermissions:
         self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
 
         # Define
-        self.fx_paths_by_action_id = defaultdict(set)
+        self.paths_by_action_id = defaultdict(set)
         self.deployments_by_fx = defaultdict(set)
         self.contracts_by_fx = defaultdict(set)
         self.contracts_by_deployment = defaultdict(set)
         self.action_id_by_fx = {}
-        self.action_id_by_fx_path = {}
+        self.action_id_by_path = {}
         # Populate
         for deployment, contracts in self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT.items():
             for contract, contract_data in contracts.items():
                 for fx, action_id in contract_data["actionIds"].items():
-                    fx_path = f"{deployment}/{contract}/{fx}"
-                    assert fx_path not in self.action_id_by_fx_path.values(), f"{fx_path} shows up twice?"
-                    self.action_id_by_fx_path[fx_path] = action_id
+                    path = f"{deployment}/{contract}/{fx}"
+                    assert path not in self.action_id_by_path.values(), f"{path} shows up twice?"
+                    self.action_id_by_path[path] = action_id
                     self.action_id_by_fx[fx] = action_id
                     self.deployments_by_fx[fx].add(deployment)
                     self.contracts_by_fx[fx].add(contract)
                     self.contracts_by_deployment[deployment].add(contract)
-                    self.fx_paths_by_action_id[action_id].add(fx_path)
+                    self.paths_by_action_id[action_id].add(path)
 
 
     def search_fx(self, substr):
@@ -62,8 +62,8 @@ class BalPermissions:
         return results
 
     def search_path(self, substr):
-        search = [s for s in self.action_id_by_fx_path.keys() if substr in s]
-        results = [path for path in search if path in self.action_id_by_fx_path]
+        search = [s for s in self.action_id_by_path.keys() if substr in s]
+        results = [path for path in search if path in self.action_id_by_path]
         return results
 
     def search_many_paths_by_unique_deployment(self, deployment_substr, fx_substr):
@@ -74,8 +74,8 @@ class BalPermissions:
         search = [s for s in deployment_fxs if fx_substr in s]
         for r in search:
             result = DotMap({
-                "fx_path": r,
-                "action_id": self.action_id_by_fx_path[r]
+                "path": r,
+                "action_id": self.action_id_by_path[r]
             })
             results.append(result)
         return results
