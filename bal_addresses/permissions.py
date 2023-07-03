@@ -40,7 +40,6 @@ class BalPermissions:
         self.deployments_by_fx = defaultdict(set)
         self.contracts_by_fx = defaultdict(set)
         self.contracts_by_deployment = defaultdict(set)
-        self.action_id_by_fx = {}
         self.action_id_by_path = {}
         # Populate
         for deployment, contracts in self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT.items():
@@ -49,7 +48,6 @@ class BalPermissions:
                     path = f"{deployment}/{contract}/{fx}"
                     assert path not in self.action_id_by_path.values(), f"{path} shows up twice?"
                     self.action_id_by_path[path] = action_id
-                    self.action_id_by_fx[fx] = action_id
                     self.deployments_by_fx[fx].add(deployment)
                     self.contracts_by_fx[fx].add(contract)
                     self.contracts_by_deployment[deployment].add(contract)
