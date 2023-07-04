@@ -78,7 +78,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -208,7 +208,8 @@
             "GauntletFeeSetter": "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B"
          },
          "maxiKeepers": {
-            "gasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+            "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
+            "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
             "veBalFeeInjector": "0x8bCDE6BA5E194cCb9957B38FE6085dA31BC69880",
             "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
          },
@@ -403,7 +404,8 @@
             "maxi_ops": "0x166f54F44F271407f24AA1BE415a730035637325",
             "blabs_ops": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B",
             "linearPoolController": "0x75a52c0e32397A3FC0c052E2CeB3479802713Cf4",
-            "foundation": "0x3B8910F378034FD6E103Df958863e5c684072693"
+            "foundation": "0x3B8910F378034FD6E103Df958863e5c684072693",
+            "beets_treasury": "0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86"
          },
          "EOA": {
             "maxis": {
@@ -441,7 +443,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -654,7 +656,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -872,7 +874,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -991,7 +993,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -1151,7 +1153,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -1337,7 +1339,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -1503,7 +1505,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -1664,7 +1666,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -1838,7 +1840,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -2042,7 +2044,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
@@ -2102,7 +2104,7 @@
             "dao": {
                "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
                "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-               "0xSolarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+               "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
                "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
                "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
                "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
