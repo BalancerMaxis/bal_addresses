@@ -53,18 +53,12 @@ class BalPermissions:
                     self.contracts_by_deployment[deployment].add(contract)
                     self.paths_by_action_id[action_id].add(path)
 
-
-    def search_fx(self, substr):
-        search = [s for s in self.action_id_by_fx.keys() if substr in s]
-        results = [fx for fx in search if fx in self.action_id_by_fx]
-        return results
-
-    def search_path(self, substr):
+    def search_path(self, substr) -> list[str]:
         search = [s for s in self.action_id_by_path.keys() if substr in s]
         results = [path for path in search if path in self.action_id_by_path]
         return results
 
-    def search_many_paths_by_unique_deployment(self, deployment_substr, fx_substr):
+    def search_many_paths_by_unique_deployment(self, deployment_substr, fx_substr) -> list[dict[str, str]]:
         a = AddrBook(self.chain)
         results = []
         deployment = a.search_unique_deployment(deployment_substr)
@@ -78,7 +72,7 @@ class BalPermissions:
             results.append(result)
         return results
 
-    def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr):
+    def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
         if len(results) > 1:
             raise self.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
@@ -86,16 +80,16 @@ class BalPermissions:
             raise self.NoResultError(f"{fx_substr}")
         return results[0]
 
-    def needs_authorizer(self, contract, deployment):
+    def needs_authorizer(self, contract, deployment) -> bool:
         return self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT[deployment][contract]["useAdaptor"]
 
-    def allowed_addesses(self, action_id):
+    def allowed_addresses(self, action_id) -> list[str]:
         try:
             return self.ACTIVE_PERMISSIONS_BY_ACTION_ID[action_id]
         except KeyError:
             raise self.NoResultError(f"{action_id} has no authorized callers")
 
-    def allowed_caller_names(self, action_id):
+    def allowed_caller_names(self, action_id) -> list[str]:
         a = AddrBook(self.chain)
         try:
             addresslist = self.ACTIVE_PERMISSIONS_BY_ACTION_ID[action_id]
