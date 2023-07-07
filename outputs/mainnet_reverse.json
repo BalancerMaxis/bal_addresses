@@ -90,7 +90,7 @@
    "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B": "gauntlet/GauntletFeeSetter",
    "0x7fb8f5D04b521B6880158819E69538655AABD5c4": "maxiKeepers/gasStation",
    "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A": "maxiKeepers/oldGasStation",
-   "0x8bCDE6BA5E194cCb9957B38FE6085dA31BC69880": "maxiKeepers/veBalFeeInjector",
+   "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255": "maxiKeepers/veBalFeeInjector",
    "0xdDd5FF0E581f097573B13f247F6BE736f602F839": "maxiKeepers/LZRateProviderPoker",
    "0x4148bf5B0688eD0a87F317c6534Cb841f503349e": "20230411-managed-pool-v2/ManagedPoolAddRemoveTokenLib",
    "0x4967b3353Cdf9E5C67421a3890d35f2f3BB50527": "20230411-managed-pool-v2/CircuitBreakerLib",
