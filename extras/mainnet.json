@@ -74,13 +74,18 @@
         "factoryV2": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
         "quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6"
     },
-    "hidden_hand": {
+    "hidden_hand_OLD": {
         "bribe_vault": "0x9DDb2da7Dd76612e0df237B89AF2CF4413733212",
         "tokenmak_briber": "0x7816b3D0935D668bCfc9A4aaB5a84EBc7fF320cf",
         "balancer_briber": "0x7Cdf753b45AB0729bcFe33DC12401E55d28308A9",
         "rewards_distributor": "0x0b139682D5C9Df3e735063f46Fb98c689540Cf3A",
         "aura_briber": "0x642c59937A62cf7dc92F70Fd78A13cEe0aa2Bd9c",
         "frax_briber": "0x123683885310851Ca29e83AE3FF3e2490D4420Cd"
+    },
+    "hidden_hand2": {
+        "bribe_vault": "0xE00fe722e5bE7ad45b1A16066E431E47Df476CeC",
+        "balancer_briber": "0x45Bc37b18E73A42A4a826357a8348cDC042cCBBc",
+        "aura_briber": "0xcBf242F20D183B4116C22Dd5e441b9aE15b0d35A"
     },
     "chainlink": {
         "feed_registry": "0x47Fb2585D2C56Fe188D0E6ec628a38b74fCeeeDf",
@@ -116,10 +121,13 @@
     "maxiKeepers": {
         "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
         "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
-        "veBalFeeInjector": "0x8bCDE6BA5E194cCb9957B38FE6085dA31BC69880",
+        "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
         "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
     },
     "maxiGelatoW3F": {
         "gearboxAutoBriberV0": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79"
+    },
+    "payees": {
+        "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
     }
 }
