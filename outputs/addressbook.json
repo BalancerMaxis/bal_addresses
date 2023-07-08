@@ -1011,6 +1011,9 @@
             "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
             "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
          },
+         "payees": {
+            "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
+         },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0x4148bf5B0688eD0a87F317c6534Cb841f503349e",
             "CircuitBreakerLib": "0x4967b3353Cdf9E5C67421a3890d35f2f3BB50527",
@@ -1203,7 +1206,8 @@
             "blabs_ops": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B",
             "linearPoolController": "0x75a52c0e32397A3FC0c052E2CeB3479802713Cf4",
             "foundation": "0x3B8910F378034FD6E103Df958863e5c684072693",
-            "beets_treasury": "0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86"
+            "beets_treasury": "0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+            "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597"
          },
          "EOA": {
             "maxis": {
