@@ -1,0 +1,40 @@
+name: Generate Active Permissions
+
+on:
+  schedule:
+    - cron: "0 0 * * 6"
+  workflow_dispatch:
+
+jobs:
+  refersh_books:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+
+    - name: Update Files
+      id: update
+      run: |
+        pip3 install -r bal_addresses/requirements.txt
+        python3 bal_addresses/generate_current_permissions.py
+        python3 bal_addresses/gen_addresses.py
+        rm -rf balancer-deployments
+        git add -A
+
+    - name: pull-request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: "Scheduled update from changes to monorepo"
+        title: "Scheduled update from changes to monorepo"
+
+        reviewers: "Tritum-VLK"
+        assignees: "Tritum-VLK"
+        labels: "Automatic"
