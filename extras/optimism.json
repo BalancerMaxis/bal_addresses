@@ -1,4 +1,8 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
-    "tokens": {}
+    "tokens": {},
+    "chainlink": {
+        "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4"
+    }
+
 }
