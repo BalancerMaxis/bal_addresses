@@ -1,5 +1,6 @@
 {
    "zero/zero": "0x0000000000000000000000000000000000000000",
+   "chainlink/keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
    "20230411-managed-pool-v2/ManagedPoolAddRemoveTokenLib": "0x59562f93c447656F6E4799fC1FC7c3d977C3324F",
    "20230411-managed-pool-v2/CircuitBreakerLib": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95",
    "20230411-managed-pool-v2/ManagedPoolAmmLib": "0xDEd7Fef7D8eCdcB74F22f0169e1A9EC696e6695d",
@@ -32,6 +33,8 @@
    "20210418-vault/BalancerHelpers": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
    "20210418-vault/ProtocolFeesCollector": "0xce88686553686DA562CE7Cea497CE749DA109f9F",
    "20220812-child-chain-reward-helper/ChildChainGaugeRewardHelper": "0x8aB784368A1883DA90D8513b48801e2Db1cb2D5D",
+   "20230711-composable-stable-pool-v5/ComposableStablePoolFactory": "0x043A2daD730d585C44FB79D2614F295D2d625412",
+   "20230711-composable-stable-pool-v5/MockComposableStablePool": "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96",
    "20230223-protocol-id-registry/ProtocolIdRegistry": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
    "20230409-erc4626-linear-pool-v4/ERC4626LinearPoolFactory": "0x7ADbdabaA80F654568421887c12F09E0C7BD9629",
    "20230409-erc4626-linear-pool-v4/MockERC4626Token": "0x4bE0E4d6184348c5BA845a4010528CFC779610b8",
@@ -50,8 +53,6 @@
    "20230314-batch-relayer-v5/BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9",
    "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint": "0xed86ff0c507D3AF5F35d3523B77C17415FCfFaCb",
    "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0",
-   "20230320-composable-stable-pool-v4/ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
-   "20230320-composable-stable-pool-v4/MockComposableStablePool": "0x11A4cF51Bb0Bb4D925CAdFDA61FcDA952d64889C",
    "20230525-l2-veboost-v2/VeBoostV2": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
    "multisigs/dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
    "multisigs/fees": "0x09Df1626110803C7b3b07085Ef1E053494155089",
@@ -132,5 +133,7 @@
    "20210418-weighted-pool/WeightedPoolFactory": "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca",
    "20210418-weighted-pool/WeightedPool2TokensFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e",
    "20220906-composable-stable-pool/ComposableStablePoolFactory": "0xf145caFB67081895EE80eB7c04A30Cf87f07b745",
+   "20230320-composable-stable-pool-v4/ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
+   "20230320-composable-stable-pool-v4/MockComposableStablePool": "0x11A4cF51Bb0Bb4D925CAdFDA61FcDA952d64889C",
    "20220609-stable-pool-v2/StablePoolFactory": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
 }

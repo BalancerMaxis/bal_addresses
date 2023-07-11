@@ -32,6 +32,8 @@
    "20210418-vault/Vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
    "20210418-vault/ProtocolFeesCollector": "0xce88686553686DA562CE7Cea497CE749DA109f9F",
    "20210418-vault/BalancerHelpers": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
+   "20230711-composable-stable-pool-v5/ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
+   "20230711-composable-stable-pool-v5/MockComposableStablePool": "0x7682e108Cd89d86303625c8478c21Ff86f401166",
    "20230223-protocol-id-registry/ProtocolIdRegistry": "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7",
    "20230409-erc4626-linear-pool-v4/ERC4626LinearPoolFactory": "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c",
    "20230409-erc4626-linear-pool-v4/MockERC4626Token": "0x0c6052254551EAe3ECac77B01DFcf1025418828f",
@@ -49,8 +51,6 @@
    "20230314-batch-relayer-v5/BatchRelayerLibrary": "0x54f8F9d28e26Fa5864cfA80f50A5Df95fD85f46a",
    "20230314-batch-relayer-v5/BalancerRelayer": "0x4678731DC41142A902a114aC5B2F77b63f4a259D",
    "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065",
-   "20230320-composable-stable-pool-v4/ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
-   "20230320-composable-stable-pool-v4/MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0",
    "20230525-l2-veboost-v2/VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5",
    "multisigs/dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
    "multisigs/emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
@@ -92,5 +92,7 @@
    "EOA/dao/bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
    "EOA/dao/nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
    "EOA/dao/davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650",
-   "EOA/ozDefender/checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+   "EOA/ozDefender/checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+   "20230320-composable-stable-pool-v4/ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
+   "20230320-composable-stable-pool-v4/MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0"
 }

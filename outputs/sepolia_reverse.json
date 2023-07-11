@@ -38,6 +38,8 @@
    "0xce88686553686DA562CE7Cea497CE749DA109f9F": "20210418-vault/ProtocolFeesCollector",
    "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca": "20210418-vault/BalancerHelpers",
    "0x7d2248F194755DCa9A1887099394F39476d28C9a": "20220325-balancer-token-admin/BalancerTokenAdmin",
+   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
+   "0xE24Aba051aaeB07f981bD449f4B0b3250e08d4fB": "20230711-composable-stable-pool-v5/MockComposableStablePool",
    "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7": "20230223-protocol-id-registry/ProtocolIdRegistry",
    "0x59562f93c447656F6E4799fC1FC7c3d977C3324F": "20230409-erc4626-linear-pool-v4/ERC4626LinearPoolFactory",
    "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95": "20230409-erc4626-linear-pool-v4/MockERC4626Token",
@@ -71,8 +73,6 @@
    "0x82416Ce6eA7dD4923d4A3ED70a79B4A432a382C4": "20220822-mainnet-gauge-factory-v2/LiquidityGaugeV5",
    "0x2FF226CD12C80511a641A6101F071d853A4e5363": "20220822-mainnet-gauge-factory-v2/LiquidityGaugeFactory",
    "0xA6971317Fb06c76Ef731601C64433a4846fCa707": "20220714-fee-distributor-v2/FeeDistributor",
-   "0xA3fd20E29358c056B727657E83DFd139abBC9924": "20230320-composable-stable-pool-v4/ComposableStablePoolFactory",
-   "0xA8D865FE1D68a405B29f884358468c9B52d4841d": "20230320-composable-stable-pool-v4/MockComposableStablePool",
    "0x150A72e4D4d81BbF045565E232c50Ed0931ad795": "20220325-gauge-controller/VotingEscrow",
    "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4": "20220325-gauge-controller/GaugeController",
    "0x1783Cd84b3d01854A96B4eD5843753C2CcbD574A": "20220325-gauge-controller/BalancerMinter",
@@ -105,5 +105,7 @@
    "0x823DF0278e4998cD0D06FB857fBD51e85b18A250": "EOA/dao/nanexcool",
    "0xAc1aA53108712d7f38093A67d380aD54B562a650": "EOA/dao/davgarai",
    "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/ozDefender/checkpointer",
-   "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a": "20230109-gauge-adder-v3/GaugeAdder"
+   "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a": "20230109-gauge-adder-v3/GaugeAdder",
+   "0xA3fd20E29358c056B727657E83DFd139abBC9924": "20230320-composable-stable-pool-v4/ComposableStablePoolFactory",
+   "0xA8D865FE1D68a405B29f884358468c9B52d4841d": "20230320-composable-stable-pool-v4/MockComposableStablePool"
 }
