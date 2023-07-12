@@ -84,3 +84,23 @@ There is also search and lookup commands
 ```
 Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis.  You can explore them if you would like.  
 
+## Using deployments:
+`.deployments` attribute is an object that is lazy loaded on first access.
+It has first class support in IDEs, so you can use it as a normal object.
+
+To use deployments information you can do the following:
+```python
+from bal_addresses.addresses import AddrBook
+
+a = AddrBook("mainnet")
+# At the stage when you try to access the deployments, the data will be loaded:
+a.deployments
+```
+
+Now you can extract information:
+```
+>>> a.deployments.vault.contracts.Vault.address
+'0xBA12222222228d8Ba445958a75a0704d566BF2C8'
+>>> a.deployments.vault.contracts.Vault.name
+'Vault'
+```
