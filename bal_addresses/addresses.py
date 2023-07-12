@@ -1,5 +1,6 @@
 import json
 from typing import Dict
+from typing import Optional
 
 import requests
 from dotmap import DotMap
@@ -57,22 +58,26 @@ class AddrBook:
         self._deployments = None
 
     @property
-    def deployments(self) -> Munch:
+    def deployments(self) -> Optional[Munch]:
         """
         Get the deployments for all chains in a form of a Munch object
         """
         if self._deployments is not None:
             return self._deployments
-        self._deployments = Munch()
-        for chain_name in self.chains['CHAIN_IDS_BY_NAME'].keys():
-            chain_deployments = requests.get(
-                f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{chain_name}.json"
-            )
-            if chain_deployments.ok:
-                # Remove date from key
-                processed_deployment = self._process_deployment(chain_deployments.json())
-                setattr(self._deployments, chain_name, Munch.fromDict(processed_deployment))
+        else:
+            self.populate_deployments()
+
         return self._deployments
+
+    def populate_deployments(self) -> None:
+        chain_deployments = requests.get(
+            f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{self.chain}.json"
+        )
+        if chain_deployments.ok:
+            self._deployments = Munch()
+            # Remove date from key
+            processed_deployment = self._process_deployment(chain_deployments.json())
+            self._deployments = Munch.fromDict(processed_deployment)
 
     def _process_deployment(self, deployment: Dict) -> Dict:
         """
