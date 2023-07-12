@@ -1,7 +1,9 @@
 import json
+from typing import Dict
 
 import requests
 from dotmap import DotMap
+from munch import Munch
 from web3 import Web3
 
 from bal_addresses.exceptions import MultipleMatchesError
@@ -55,11 +57,33 @@ class AddrBook:
         self._deployments = None
 
     @property
-    def deployments(self):
+    def deployments(self) -> Munch:
+        """
+        Get the deployments for all chains in a form of a Munch object
+        """
         if self._deployments is not None:
             return self._deployments
+        self._deployments = Munch()
         for chain_name in self.chains['CHAIN_IDS_BY_NAME'].keys():
-            print(chain_name)
+            chain_deployments = requests.get(
+                f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{chain_name}.json"
+            )
+            if chain_deployments.ok:
+                # Remove date from key
+                processed_deployment = self._process_deployment(chain_deployments.json())
+                setattr(self._deployments, chain_name, Munch.fromDict(processed_deployment))
+        return self._deployments
+
+    def _process_deployment(self, deployment: Dict) -> Dict:
+        """
+        Process deployment to remove date from key and replace - with _
+        """
+        processed_deployment = {}
+        for k, v in deployment.items():
+            # lstrip date in format YYYYMMDD-:
+            # Change all - to underscores
+            processed_deployment[k.lstrip("0123456789-").replace("-", "_")] = v
+        return processed_deployment
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
