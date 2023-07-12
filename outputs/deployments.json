@@ -59,6 +59,10 @@
             "ProtocolFeesCollector": "0xce88686553686DA562CE7Cea497CE749DA109f9F",
             "BalancerHelpers": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
+            "MockComposableStablePool": "0x7682e108Cd89d86303625c8478c21Ff86f401166"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7"
          },
@@ -99,10 +103,6 @@
          },
          "20221124-authorizer-adaptor-entrypoint": {
             "AuthorizerAdaptorEntrypoint": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
-            "MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
@@ -182,6 +182,10 @@
          "20220325-balancer-token-admin": {
             "BalancerTokenAdmin": "0x0F32D7D830E20809Bcb9071581A696135dD472B7"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+            "MockComposableStablePool": "0x21cb3534c12E956a600cB3102b825686D10888e7"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968"
          },
@@ -257,10 +261,6 @@
          "20210812-wsteth-rate-provider": {
             "WstETHRateProvider": "0x80a94F458491CA88F09767E58a92FD23Cbf1196F"
          },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
-            "MockComposableStablePool": "0x5D343D374A769D1AB102e0418a516DadB08A86E4"
-         },
          "20220325-gauge-controller": {
             "VotingEscrow": "0x33A99Dcc4C85C014cf12626959111D5898bbCAbF",
             "GaugeController": "0xBB1CE49b16d55A1f2c6e88102f32144C7334B116",
@@ -314,6 +314,10 @@
             "ProtocolFeesCollector": "0xce88686553686DA562CE7Cea497CE749DA109f9F",
             "BalancerHelpers": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
+            "MockComposableStablePool": "0x6bDa27339629e2d031F19555D3E44c205c31a13a"
+         },
          "20220325-authorizer-adaptor": {
             "AuthorizerAdaptor": "0x41B953164995c11C81DA73D212ED8Af25741b7Ac"
          },
@@ -335,10 +339,6 @@
          },
          "20221124-authorizer-adaptor-entrypoint": {
             "AuthorizerAdaptorEntrypoint": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
-            "MockComposableStablePool": "0x7C53dBf28a23faB07E322fb35eC53A296f548a45"
          }
       },
       "gnosis": {
@@ -401,6 +401,10 @@
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0xf7D5DcE55E6D47852F054697BAB6A1B48A00ddbd"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+            "MockComposableStablePool": "0xa359b6BB0a89ED9f237C83f32fF05c658DA8b3aB"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
          },
@@ -434,10 +438,6 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x1802953277FD955f9a254B80Aa0582f193cF1d77"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
-            "MockComposableStablePool": "0xf3678A0b54C61ccD88Ce321c2e07f87aC75F08B9"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
@@ -506,6 +506,10 @@
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0xA0DAbEBAAd1b243BBb243f933013d560819eB66f"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1",
+            "MockComposableStablePool": "0xd60020Ec34Ccf9A4385f917DE8F6956B77853ABF"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9"
          },
@@ -552,10 +556,6 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0xbfD9769b061E57e478690299011A028194D66e3C"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95",
-            "MockComposableStablePool": "0xFF7e6B102516e071dcDA763EE9D02c1515481db5"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
@@ -635,6 +635,10 @@
          },
          "20220325-balancer-token-admin": {
             "BalancerTokenAdmin": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
+         },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
+            "MockComposableStablePool": "0x20356663C17D31549d1210379749E2aE36722D8f"
          },
          "20220823-arbitrum-root-gauge-factory-v2": {
             "ArbitrumRootGaugeFactory": "0x1c99324EDC771c82A0DCCB780CC7DDA0045E50e7",
@@ -734,10 +738,6 @@
          "20210812-wsteth-rate-provider": {
             "WstETHRateProvider": "0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768"
          },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76",
-            "MockComposableStablePool": "0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8"
-         },
          "20220325-gauge-controller": {
             "VotingEscrow": "0xC128a9954e6c874eA3d62ce62B468bA073093F25",
             "GaugeController": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD",
@@ -804,6 +804,10 @@
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0xE42FFA682A26EF8F25891db4882932711D42e467",
+            "MockComposableStablePool": "0x9FD66B741ac546055E04E768Dd52edD33574D453"
+         },
          "20230409-erc4626-linear-pool-v4": {
             "ERC4626LinearPoolFactory": "0x4507d91Cd2C0D51D9B4F30Bf0B93AFC938A70BA5",
             "MockERC4626Token": "0x2EbE41E1aa44D61c206A94474932dADC7D3FD9E3",
@@ -842,10 +846,6 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
-            "MockComposableStablePool": "0xEa4643102dFC03d5e382e7827Bf767f6587E9965"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
@@ -914,6 +914,10 @@
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0xaEb406b0E430BF5Ea2Dc0B9Fe62E4E53f74B3a33"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
+            "MockComposableStablePool": "0xD35325DfC0B02718a41De7c94Ac9FC10D0AD5624"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0xa523f47A933D5020b23629dDf689695AA94612Dc"
          },
@@ -960,10 +964,6 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x1554ee754707D5C93b7934AF404747Aba521Aaf2"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x6Ab5549bBd766A43aFb687776ad8466F8b42f777",
-            "MockComposableStablePool": "0x0f25823cF786b78696b16536e2F2B9835289AB51"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xD961E30156C2E0D0d925A0De45f931CB7815e970"
@@ -1032,6 +1032,10 @@
          "20220812-child-chain-reward-helper": {
             "ChildChainGaugeRewardHelper": "0x8aB784368A1883DA90D8513b48801e2Db1cb2D5D"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0x043A2daD730d585C44FB79D2614F295D2d625412",
+            "MockComposableStablePool": "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
          },
@@ -1075,10 +1079,6 @@
          },
          "20220527-child-chain-gauge-token-adder": {
             "ChildChainGaugeTokenAdder": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
-            "MockComposableStablePool": "0x11A4cF51Bb0Bb4D925CAdFDA61FcDA952d64889C"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
@@ -1159,6 +1159,10 @@
          "20220325-balancer-token-admin": {
             "BalancerTokenAdmin": "0x7d2248F194755DCa9A1887099394F39476d28C9a"
          },
+         "20230711-composable-stable-pool-v5": {
+            "ComposableStablePoolFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
+            "MockComposableStablePool": "0xE24Aba051aaeB07f981bD449f4B0b3250e08d4fB"
+         },
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0x6CaD2ea22BFA7F4C14Aae92E47F510Cd5C509bc7"
          },
@@ -1231,10 +1235,6 @@
          },
          "20220714-fee-distributor-v2": {
             "FeeDistributor": "0xA6971317Fb06c76Ef731601C64433a4846fCa707"
-         },
-         "20230320-composable-stable-pool-v4": {
-            "ComposableStablePoolFactory": "0xA3fd20E29358c056B727657E83DFd139abBC9924",
-            "MockComposableStablePool": "0xA8D865FE1D68a405B29f884358468c9B52d4841d"
          },
          "20220325-gauge-controller": {
             "VotingEscrow": "0x150A72e4D4d81BbF045565E232c50Ed0931ad795",
@@ -1431,6 +1431,10 @@
          "20220906-composable-stable-pool": {
             "ComposableStablePoolFactory": "0xB848f50141F3D4255b37aC288C25C109104F2158"
          },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
+            "MockComposableStablePool": "0x5D343D374A769D1AB102e0418a516DadB08A86E4"
+         },
          "20230315-silo-linear-pool": {
             "SiloLinearPoolFactory": "0x18C100415988bEF4354EfFAd1188d1c22041B046",
             "MockSiloRepository": "0xac190662aD9b53A4E6D4CD321dbf5d3ECD0E29b0",
@@ -1583,6 +1587,10 @@
          "20220906-composable-stable-pool": {
             "ComposableStablePoolFactory": "0xf9ac7B9dF2b3454E841110CcE5550bD5AC6f875F"
          },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76",
+            "MockComposableStablePool": "0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8"
+         },
          "20220628-optimism-root-gauge-factory": {
             "OptimismRootGaugeFactory": "0x3083A1C455ff38d39e58Dbac5040f465cF73C5c8",
             "OptimismRootGauge": "0xcA734aD0b286EA7dD6367a504a48FB75cd12a97F"
@@ -1635,6 +1643,10 @@
          },
          "20220906-composable-stable-pool": {
             "ComposableStablePoolFactory": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
+         },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
+            "MockComposableStablePool": "0x7C53dBf28a23faB07E322fb35eC53A296f548a45"
          }
       },
       "gnosis": {
@@ -1674,6 +1686,10 @@
          "20220916-batch-relayer-v4": {
             "BatchRelayerLibrary": "0xD7FAD3bd59D6477cbe1BE7f646F7f1BA25b230f8",
             "BalancerRelayer": "0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3"
+         },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
+            "MockComposableStablePool": "0xf3678A0b54C61ccD88Ce321c2e07f87aC75F08B9"
          },
          "20220609-stable-pool-v2": {
             "StablePoolFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
@@ -1782,6 +1798,10 @@
          "20220906-composable-stable-pool": {
             "ComposableStablePoolFactory": "0xaEb406b0E430BF5Ea2Dc0B9Fe62E4E53f74B3a33"
          },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95",
+            "MockComposableStablePool": "0xFF7e6B102516e071dcDA763EE9D02c1515481db5"
+         },
          "20220609-stable-pool-v2": {
             "StablePoolFactory": "0xEF44D6786b2b4d544b7850Fe67CE6381626Bf2D6"
          }
@@ -1886,6 +1906,10 @@
          "20220304-erc4626-linear-pool": {
             "ERC4626LinearPoolFactory": "0xC6bD2497332d24094eC16a7261eec5C412B5a2C1"
          },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x6Ab5549bBd766A43aFb687776ad8466F8b42f777",
+            "MockComposableStablePool": "0x0f25823cF786b78696b16536e2F2B9835289AB51"
+         },
          "20220609-stable-pool-v2": {
             "StablePoolFactory": "0xcA96C4f198d343E251b1a01F3EBA061ef3DA73C1"
          }
@@ -1964,6 +1988,10 @@
          "20220906-composable-stable-pool": {
             "ComposableStablePoolFactory": "0xf145caFB67081895EE80eB7c04A30Cf87f07b745"
          },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
+            "MockComposableStablePool": "0x11A4cF51Bb0Bb4D925CAdFDA61FcDA952d64889C"
+         },
          "20220609-stable-pool-v2": {
             "StablePoolFactory": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
          }
@@ -1976,6 +2004,10 @@
          "20220916-batch-relayer-v4": {
             "BatchRelayerLibrary": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0",
             "BalancerRelayer": "0x9A7b723101ba5A4672960A3b65840AB3b7805048"
+         },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
+            "MockComposableStablePool": "0xEa4643102dFC03d5e382e7827Bf767f6587E9965"
          }
       },
       "kovan": {
@@ -2068,6 +2100,16 @@
       "sepolia": {
          "20230109-gauge-adder-v3": {
             "GaugeAdder": "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a"
+         },
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0xA3fd20E29358c056B727657E83DFd139abBC9924",
+            "MockComposableStablePool": "0xA8D865FE1D68a405B29f884358468c9B52d4841d"
+         }
+      },
+      "zkevm": {
+         "20230320-composable-stable-pool-v4": {
+            "ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
+            "MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0"
          }
       }
    }
