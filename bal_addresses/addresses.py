@@ -87,7 +87,11 @@ class AddrBook:
         for k, v in deployment.items():
             # lstrip date in format YYYYMMDD-:
             # Change all - to underscores
-            processed_deployment[k.lstrip("0123456789-").replace("-", "_")] = v
+            deployment_identifier = k.lstrip("0123456789-").replace("-", "_")
+            # Flatten contracts list to dict with name as key
+            if isinstance(v.get('contracts'), list):
+                v['contracts'] = {contract['name']: contract for contract in v['contracts']}
+            processed_deployment[deployment_identifier] = v
         return processed_deployment
 
     def search_unique(self, substr):

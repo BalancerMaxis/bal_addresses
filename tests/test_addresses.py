@@ -42,11 +42,44 @@ def test_deployments_populated():
 
     a.populate_deployments()
     assert a.deployments.vault.status == "ACTIVE"
-    assert a.deployments.vault.contracts[0].name == "Vault"
-    assert a.deployments.vault.contracts[1].name == "BalancerHelpers"
+    assert a.deployments.vault.contracts.Vault.name == "Vault"
+    assert (
+        a.deployments.vault.contracts.Vault.address == "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
+    )
+    assert a.deployments.vault.contracts.BalancerHelpers.name == "BalancerHelpers"
     # Make sure that when we try to access a non-existing attribute, we get an error
     with pytest.raises(AttributeError):
         assert a.deployments.vault.non_existing_attribute
+
+
+@responses.activate
+def test_deployments_invalid_format():
+    """
+    Make sure that library is data agnostic and can handle different formats
+    """
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/outputs/deployments.json",
+        json={
+            "BFactory": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
+        }
+    )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/balancer"
+        "/balancer-deployments/master/addresses/mainnet.json",
+        json={
+            "20210418-vault": {
+                "contracts": {'name': 'Vault'},
+                "status": "ACTIVE"
+            }
+        }
+    )
+    a = AddrBook("mainnet")
+
+    a.populate_deployments()
+    assert a.deployments.vault.contracts.name == "Vault"
 
 
 @responses.activate
