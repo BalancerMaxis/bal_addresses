@@ -28,7 +28,7 @@
    "20230404-l2-layer0-bridge-forwarder/L2LayerZeroBridgeForwarder": "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7",
    "20230316-l2-ve-delegation-proxy/NullVotingEscrow": "0x475D18169BE8a89357A9ee3Ab00ca386d20fA229",
    "20230316-l2-ve-delegation-proxy/VotingEscrowDelegationProxy": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
-   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
+   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089",
    "20230522-timelock-authorizer/TimelockAuthorizerMigrator": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
    "20230522-timelock-authorizer/TimelockAuthorizer": "0x2A154bc57D8584566B018A100fF20b94459E27eb",
    "20220325-bal-token-holder-factory/BALTokenHolderFactory": "0xEF454a7B3f965D3f6723E462405246f8Cd865425",

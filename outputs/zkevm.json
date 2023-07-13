@@ -26,7 +26,7 @@
    "20230404-l2-layer0-bridge-forwarder/L2LayerZeroBridgeForwarder": "0xDEd7Fef7D8eCdcB74F22f0169e1A9EC696e6695d",
    "20230316-l2-ve-delegation-proxy/NullVotingEscrow": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
    "20230316-l2-ve-delegation-proxy/VotingEscrowDelegationProxy": "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7",
-   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0xF24917fB88261a37Cc57F686eBC831a5c0B9fD39",
+   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089",
    "20230320-weighted-pool-v4/WeightedPoolFactory": "0x03F3Fb107e74F2EAC9358862E91ad3c692712054",
    "20230320-weighted-pool-v4/MockWeightedPool": "0x78385153d2f356C87001F09BB5424137c618D38b",
    "20210418-vault/Vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
