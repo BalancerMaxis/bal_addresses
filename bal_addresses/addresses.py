@@ -7,9 +7,6 @@ from dotmap import DotMap
 from munch import Munch
 from web3 import Web3
 
-from bal_addresses.exceptions import MultipleMatchesError
-from bal_addresses.exceptions import NoResultError
-
 GITHUB_MONOREPO_RAW = (
     "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
 )
@@ -24,6 +21,14 @@ GITHUB_RAW_OUTPUTS = (
     "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
 )
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
+
+
+class MultipleMatchesError(Exception):
+    pass
+
+
+class NoResultError(Exception):
+    pass
 
 
 class AddrBook:
