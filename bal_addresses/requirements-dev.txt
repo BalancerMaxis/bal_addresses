@@ -1,0 +1,4 @@
+pytest-mock
+responses
+pytest-cov
+pytest==7.4.0
