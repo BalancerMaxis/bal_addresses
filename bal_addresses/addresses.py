@@ -37,6 +37,7 @@ class AddrBook:
     chains = requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
     ).json()
+    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
