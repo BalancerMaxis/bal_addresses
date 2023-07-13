@@ -116,7 +116,7 @@
    "20230409-gearbox-linear-pool-v2/MockGearboxLinearPool": "0x0d05Aac44aC7Dd3c7ba5d50Be93EB884A057d234",
    "20220513-double-entrypoint-fix-relayer/DoubleEntrypointFixRelayer": "0xcA96C4f198d343E251b1a01F3EBA061ef3DA73C1",
    "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e",
-   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0xf5CDdF6feD9C589f1Be04899F48f9738531daD59",
+   "20230613-balancer-pool-data-queries/BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089",
    "20220823-optimism-root-gauge-factory-v2/OptimismRootGaugeFactory": "0x866D4B65694c66fbFD15Dd6fa933D0A6b3940A36",
    "20220823-optimism-root-gauge-factory-v2/OptimismRootGauge": "0xBC230b1a66A138cD9cFC7b352390025978dFAdde",
    "20220325-bal-token-holder-factory/BALTokenHolderFactory": "0xB848f50141F3D4255b37aC288C25C109104F2158",
