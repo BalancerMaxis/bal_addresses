@@ -122,7 +122,8 @@ class AddrBook:
         deployments.sort(reverse=True)
         return self.deployments_only[deployments[0]][contract_name]
 
-    def checksum_address_dict(self, addresses):
+    @staticmethod
+    def checksum_address_dict(addresses):
         """
         convert addresses to their checksum variant taken from a (nested) dict
         """
