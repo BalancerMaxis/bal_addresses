@@ -77,6 +77,8 @@
    "20220325-gauge-controller/GaugeController": "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4",
    "20220325-gauge-controller/BalancerMinter": "0x1783Cd84b3d01854A96B4eD5843753C2CcbD574A",
    "20220325-test-balancer-token/TestBalancerToken": "0xb19382073c7A0aDdbb56Ac6AF1808Fa49e377B75",
+   "20230712-child-chain-gauge-checkpointer/BatchRelayerLibrary": "0x043A2daD730d585C44FB79D2614F295D2d625412",
+   "20230712-child-chain-gauge-checkpointer/BalancerRelayer": "0xBeA696c7761734d9e66f4F372EB35059C1aeD1e0",
    "EOA/maxis/solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
    "EOA/maxis/zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
    "EOA/maxis/zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",

@@ -50,6 +50,8 @@
    "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint": "0x4E7bBd911cf1EFa442BC1b2e9Ea01ffE785412EC",
    "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder": "0xf302f9F50958c5593770FDf4d4812309fF77414f",
    "20230525-l2-veboost-v2/VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5",
+   "20230712-child-chain-gauge-checkpointer/BatchRelayerLibrary": "0x36caC20dd805d128c1a6Dd16eeA845C574b5A17C",
+   "20230712-child-chain-gauge-checkpointer/BalancerRelayer": "0xE63e90EeC6860a0Bc163BB26f7333cbE55559fb5",
    "multisigs/emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
    "multisigs/dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
    "multisigs/lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",

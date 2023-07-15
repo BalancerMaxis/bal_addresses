@@ -111,6 +111,10 @@
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062",
+            "BalancerRelayer": "0x20E6Fe801Aa275e199AA253F48E6B0C612E4e1C4"
+         },
          "multisigs": {
             "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
             "emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
@@ -334,6 +338,10 @@
          "20220325-test-balancer-token": {
             "TestBalancerToken": "0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47"
          },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x1702067424096F07A60e62cceE3dE9420068492D",
+            "BalancerRelayer": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
+         },
          "multisigs": {
             "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
             "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
@@ -459,6 +467,10 @@
          },
          "20221124-authorizer-adaptor-entrypoint": {
             "AuthorizerAdaptorEntrypoint": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
+         },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
+            "BalancerRelayer": "0xF27D53f21d024643d50de50183932F17638229F6"
          },
          "multisigs": {},
          "EOA": {
@@ -616,6 +628,10 @@
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
+         },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x1702067424096F07A60e62cceE3dE9420068492D",
+            "BalancerRelayer": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
          },
          "multisigs": {
             "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
@@ -826,6 +842,10 @@
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
+         },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
+            "BalancerRelayer": "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7"
          },
          "multisigs": {
             "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -1375,6 +1395,10 @@
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x36caC20dd805d128c1a6Dd16eeA845C574b5A17C",
+            "BalancerRelayer": "0xE63e90EeC6860a0Bc163BB26f7333cbE55559fb5"
+         },
          "multisigs": {
             "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
             "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
@@ -1568,6 +1592,10 @@
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xD961E30156C2E0D0d925A0De45f931CB7815e970"
          },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+            "BalancerRelayer": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1"
+         },
          "multisigs": {
             "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
             "dao": "0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85",
@@ -1747,6 +1775,10 @@
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
+         },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
+            "BalancerRelayer": "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7"
          },
          "multisigs": {
             "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
@@ -1970,6 +2002,10 @@
          },
          "20220325-test-balancer-token": {
             "TestBalancerToken": "0xb19382073c7A0aDdbb56Ac6AF1808Fa49e377B75"
+         },
+         "20230712-child-chain-gauge-checkpointer": {
+            "BatchRelayerLibrary": "0x043A2daD730d585C44FB79D2614F295D2d625412",
+            "BalancerRelayer": "0xBeA696c7761734d9e66f4F372EB35059C1aeD1e0"
          },
          "multisigs": {},
          "EOA": {
