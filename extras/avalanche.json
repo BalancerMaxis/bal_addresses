@@ -2,5 +2,13 @@
       "zero": {"zero": "0x0000000000000000000000000000000000000000"},
       "chainlink": {
         "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
+    },
+    "maxiKeepers": {
+      "avax_rewards_injector":"0xf23d8342881edecced51ea694ac21c2b68440929",
+      "usdc_rewards_injector":"0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
+      "qi_rewards_injector":"0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
+      "yyavax_rewards_injector":"0x95008946F2773f24588AEEE44d643016381265FF",
+      "ggp_rewards_injector":"0x39C441560e83e02452e4B4789934aC031A85c1d5",
+      "ankr_rewards_injector":"0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
     }
 }
