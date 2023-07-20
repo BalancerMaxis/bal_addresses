@@ -7,9 +7,6 @@ from dotmap import DotMap
 from munch import Munch
 from web3 import Web3
 
-from bal_addresses.exceptions import MultipleMatchesError
-from bal_addresses.exceptions import NoResultError
-
 GITHUB_MONOREPO_RAW = (
     "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
 )
@@ -26,12 +23,21 @@ GITHUB_RAW_OUTPUTS = (
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
+class MultipleMatchesError(Exception):
+    pass
+
+
+class NoResultError(Exception):
+    pass
+
+
 class AddrBook:
 
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     chains = requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
     ).json()
+    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
@@ -117,7 +123,8 @@ class AddrBook:
         deployments.sort(reverse=True)
         return self.deployments_only[deployments[0]][contract_name]
 
-    def checksum_address_dict(self, addresses):
+    @staticmethod
+    def checksum_address_dict(addresses):
         """
         convert addresses to their checksum variant taken from a (nested) dict
         """

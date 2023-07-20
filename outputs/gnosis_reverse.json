@@ -21,7 +21,7 @@
    "0xeb151668006CD04DAdD098AFd0a82e78F77076c3": "20230404-l2-layer0-bridge-forwarder/L2LayerZeroBridgeForwarder",
    "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92": "20230316-l2-ve-delegation-proxy/NullVotingEscrow",
    "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05": "20230316-l2-ve-delegation-proxy/VotingEscrowDelegationProxy",
-   "0x3f170631ed9821Ca51A59D996aB095162438DC10": "20230613-balancer-pool-data-queries/BalancerPoolDataQueries",
+   "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089": "20230613-balancer-pool-data-queries/BalancerPoolDataQueries",
    "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B": "20220413-child-chain-gauge-factory/RewardsOnlyGauge",
    "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a": "20220413-child-chain-gauge-factory/ChildChainStreamer",
    "0x809B79b53F18E9bc08A961ED4678B901aC93213a": "20220413-child-chain-gauge-factory/ChildChainLiquidityGaugeFactory",

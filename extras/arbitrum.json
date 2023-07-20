@@ -24,5 +24,8 @@
     "arbitrum": {
         "node": "0x00000000000000000000000000000000000000C8",
         "gateway_router": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933"
+    },
+    "maxiKeepers": {
+        "arb_rewards_injector":"0xF23d8342881eDECcED51EA694AC21C2B68440929"
     }
 }
