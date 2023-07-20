@@ -71,6 +71,8 @@
    "20230222-merkle-orchard-v2/MerkleOrchard": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
    "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder": "0xbfD9769b061E57e478690299011A028194D66e3C",
    "20230525-l2-veboost-v2/VeBoostV2": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e",
+   "20230712-child-chain-gauge-checkpointer/BatchRelayerLibrary": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
+   "20230712-child-chain-gauge-checkpointer/BalancerRelayer": "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7",
    "multisigs/lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
    "multisigs/dao": "0xaF23DC5983230E9eEAf93280e312e57539D098D0",
    "multisigs/fees": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
