@@ -14,6 +14,7 @@
    "20220420-smart-wallet-checker/SmartWalletChecker": "0x1b6DF1fF5db99F8a8A04D38f7478BAB056Fa35A7",
    "20230414-authorizer-wrapper/AuthorizerWithAdaptorValidation": "0x8eA89804145c007e7D226001A96955ad53836087",
    "20220513-double-entrypoint-fix-relayer/DoubleEntrypointFixRelayer": "0xBe9458ab5B6F289e524410141c8d5E20A6b035fe",
+   "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
    "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory": "0xB0C726778C3AE4B3454D85557A48e8fa502bDD6A",
    "20230316-child-chain-gauge-factory-v2/ChildChainGauge": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e",
    "20230316-child-chain-gauge-factory-v2/ChildChainGaugeFactory": "0x7Ba29fE8E83dd6097A7298075C4AFfdBda3121cC",

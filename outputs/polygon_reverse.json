@@ -23,6 +23,7 @@
    "0x0889b240A5876aae745Ac19f1771853671dC5d36": "20230410-aave-linear-pool-v5/MockAaveLinearPool",
    "0x020301b0a99EFB6816B41007765Fb577259eC418": "20230414-authorizer-wrapper/AuthorizerWithAdaptorValidation",
    "0x79d0011892fe558FC5a4ec7D4Ca5db59069f460f": "20220513-double-entrypoint-fix-relayer/DoubleEntrypointFixRelayer",
+   "0xa3b370092aeb56770B23315252aB5E16DAcBF62B": "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory",
    "0x41B953164995c11C81DA73D212ED8Af25741b7Ac": "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory",
    "0xc9b36096f5201ea332Db35d6D195774ea0D5988f": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",
    "0x22625eEDd92c81a219A83e1dc48f88d54786B017": "20230316-child-chain-gauge-factory-v2/ChildChainGaugeFactory",
