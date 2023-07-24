@@ -36,6 +36,9 @@
             "MockGearboxDieselToken": "0x698CaED853bE9cEA96C268f565e2b61D3b2BcDA4",
             "MockGearboxLinearPool": "0x32f03464FdF909FDf3798f87Ff3712b10c59bd86"
          },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
+         },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
             "MockLiquidityBootstrappingPool": "0x3c87FF3e9307dbEbfAe720E04C6439e49f79BF9B"
@@ -205,6 +208,9 @@
          },
          "20220513-double-entrypoint-fix-relayer": {
             "DoubleEntrypointFixRelayer": "0xBe9458ab5B6F289e524410141c8d5E20A6b035fe"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0xB0C726778C3AE4B3454D85557A48e8fa502bDD6A"
@@ -424,6 +430,9 @@
          "20230414-authorizer-wrapper": {
             "AuthorizerWithAdaptorValidation": "0xAcf05BE5134d64d150d153818F8C67EE36996650"
          },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
+         },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD"
          },
@@ -553,6 +562,9 @@
          },
          "20230414-authorizer-wrapper": {
             "AuthorizerWithAdaptorValidation": "0x03F3Fb107e74F2EAC9358862E91ad3c692712054"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
@@ -754,6 +766,9 @@
          },
          "20220513-double-entrypoint-fix-relayer": {
             "DoubleEntrypointFixRelayer": "0x8E5698dC4897DC12243c8642e77B4f21349Db97C"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77"
@@ -1077,6 +1092,9 @@
          "20220513-double-entrypoint-fix-relayer": {
             "DoubleEntrypointFixRelayer": "0xcA96C4f198d343E251b1a01F3EBA061ef3DA73C1"
          },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
+         },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
          },
@@ -1290,6 +1308,14 @@
          "chainlink": {
             "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
          },
+         "maxiKeepers": {
+            "avax_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
+            "usdc_rewards_injector": "0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
+            "qi_rewards_injector": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
+            "yyavax_rewards_injector": "0x95008946F2773f24588AEEE44d643016381265FF",
+            "ggp_rewards_injector": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
+            "ankr_rewards_injector": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+         },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0xAcf05BE5134d64d150d153818F8C67EE36996650",
             "CircuitBreakerLib": "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC",
@@ -1303,7 +1329,7 @@
             "BalancerQueries": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD"
          },
          "00000000-tokens": {
-            "BAL": "0x8239a6b877804206c7799028232a7188da487cec",
+            "BAL": "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
             "WETH": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
          },
          "20230410-aave-linear-pool-v5": {
@@ -1315,12 +1341,15 @@
          "20230414-authorizer-wrapper": {
             "AuthorizerWithAdaptorValidation": "0x8df317a729fcaA260306d7de28888932cb579b88"
          },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
+         },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
          },
          "20230316-child-chain-gauge-factory-v2": {
-            "ChildChainGauge": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
-            "ChildChainGaugeFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846"
+            "ChildChainGauge": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8",
+            "ChildChainGaugeFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
          },
          "20230404-l2-layer0-bridge-forwarder": {
             "L2LayerZeroBridgeForwarder": "0x4638ab64022927C9bD5947607459D13f57f1551C"
@@ -1331,11 +1360,6 @@
          },
          "20230613-balancer-pool-data-queries": {
             "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
-         },
-         "20220413-child-chain-gauge-factory": {
-            "RewardsOnlyGauge": "0x41B953164995c11C81DA73D212ED8Af25741b7Ac",
-            "ChildChainStreamer": "0xD7FAD3bd59D6477cbe1BE7f646F7f1BA25b230f8",
-            "ChildChainLiquidityGaugeFactory": "0xb08E16cFc07C684dAA2f93C70323BAdb2A6CBFd2"
          },
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a",
@@ -1377,7 +1401,7 @@
             "ProtocolFeePercentagesProvider": "0x239e55F427D44C3cc793f49bFB507ebe76638a2b"
          },
          "20230316-l2-balancer-pseudo-minter": {
-            "L2BalancerPseudoMinter": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B"
+            "L2BalancerPseudoMinter": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
          },
          "20210418-authorizer": {
             "Authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6"
@@ -1388,9 +1412,6 @@
          },
          "20221124-authorizer-adaptor-entrypoint": {
             "AuthorizerAdaptorEntrypoint": "0x4E7bBd911cf1EFa442BC1b2e9Ea01ffE785412EC"
-         },
-         "20220527-child-chain-gauge-token-adder": {
-            "ChildChainGaugeTokenAdder": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
          },
          "20230525-l2-veboost-v2": {
             "VeBoostV2": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
@@ -1503,6 +1524,9 @@
          },
          "20220513-double-entrypoint-fix-relayer": {
             "DoubleEntrypointFixRelayer": "0x79d0011892fe558FC5a4ec7D4Ca5db59069f460f"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x41B953164995c11C81DA73D212ED8Af25741b7Ac"
@@ -1690,6 +1714,9 @@
          },
          "20220513-double-entrypoint-fix-relayer": {
             "DoubleEntrypointFixRelayer": "0x3b8cA519122CdD8efb272b0D3085453404B25bD0"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0x83E443EF4f9963C77bd860f94500075556668cb8"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0xf302f9F50958c5593770FDf4d4812309fF77414f"
@@ -1880,6 +1907,9 @@
             "MockGearboxVault": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
             "MockGearboxDieselToken": "0x4C32a8a8fDa4E24139B51b456B42290f51d6A1c4",
             "MockGearboxLinearPool": "0x112a7b7ca66E6963C49BC523A415F7D8CDB806B9"
+         },
+         "20230717-chainlink-rate-provider-factory": {
+            "ChainlinkRateProviderFactory": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1"
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
@@ -2913,9 +2943,19 @@
          }
       },
       "avalanche": {
+         "20230316-avax-child-chain-gauge-factory-v2": {
+            "ChildChainGauge": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
+            "ChildChainGaugeFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846"
+         },
          "20230206-weighted-pool-v3": {
             "WeightedPoolFactory": "0x94f68b54191F62f781Fe8298A8A5Fa3ed772d227",
             "MockWeightedPool": "0xE867AD0a48e8f815DC0cda2CDb275e0F163A480b"
+         },
+         "20230316-avax-l2-balancer-pseudo-minter": {
+            "L2BalancerPseudoMinter": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B"
+         },
+         "00000000-avax-tokens": {
+            "BAL": "0x8239a6b877804206c7799028232a7188da487cec"
          },
          "20220916-batch-relayer-v4": {
             "BatchRelayerLibrary": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0",

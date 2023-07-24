@@ -21,6 +21,7 @@
    "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98": "20230409-gearbox-linear-pool-v2/MockGearboxVault",
    "0x4C32a8a8fDa4E24139B51b456B42290f51d6A1c4": "20230409-gearbox-linear-pool-v2/MockGearboxDieselToken",
    "0x112a7b7ca66E6963C49BC523A415F7D8CDB806B9": "20230409-gearbox-linear-pool-v2/MockGearboxLinearPool",
+   "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1": "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory",
    "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B": "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory",
    "0xe90472ffc41D7Ddf8E3B456bBA748e3F22c59C6f": "20211202-no-protocol-fee-lbp/MockLiquidityBootstrappingPool",
    "0xC49Ca921c4CD1117162eAEEc0ee969649997950c": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",
