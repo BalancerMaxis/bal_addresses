@@ -5,6 +5,7 @@ import requests
 from dotmap import DotMap
 from bal_addresses import AddrBook
 from collections import defaultdict
+from munch import Munch
 
 ### Errors
 class MultipleMatchesError(Exception):
@@ -32,8 +33,8 @@ class BalPermissions:
 
     def __init__(self, chain):
         self.chain = chain
-        self.ACTIVE_PERMISSIONS_BY_ACTION_ID = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
-        self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
+        self.active_permissions_by_action_id = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
+        self.action_ids_by_contract_by_deployment = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
 
         # Define
         self.paths_by_action_id = defaultdict(set)
@@ -42,7 +43,7 @@ class BalPermissions:
         self.contracts_by_deployment = defaultdict(set)
         self.action_id_by_path = {}
         # Populate
-        for deployment, contracts in self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT.items():
+        for deployment, contracts in self.action_ids_by_contract_by_deployment.items():
             for contract, contract_data in contracts.items():
                 for fx, action_id in contract_data["actionIds"].items():
                     path = f"{deployment}/{contract}/{fx}"
@@ -70,7 +71,7 @@ class BalPermissions:
                 "action_id": self.action_id_by_path[r]
             })
             results.append(result)
-        return results
+        return Munch.fromDict(results)
 
     def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
@@ -81,18 +82,18 @@ class BalPermissions:
         return results[0]
 
     def needs_authorizer(self, contract, deployment) -> bool:
-        return self.ACTION_IDS_BY_CONTRACT_BY_DEPLOYMENT[deployment][contract]["useAdaptor"]
+        return self.action_ids_by_contract_by_deployment[deployment][contract]["useAdaptor"]
 
     def allowed_addresses(self, action_id) -> list[str]:
         try:
-            return self.ACTIVE_PERMISSIONS_BY_ACTION_ID[action_id]
+            return self.active_permissions_by_action_id[action_id]
         except KeyError:
             raise self.NoResultError(f"{action_id} has no authorized callers")
 
     def allowed_caller_names(self, action_id) -> list[str]:
         a = AddrBook(self.chain)
         try:
-            addresslist = self.ACTIVE_PERMISSIONS_BY_ACTION_ID[action_id]
+            addresslist = self.active_permissions_by_action_id[action_id]
         except KeyError:
             raise self.NoResultError(f"{action_id} has no authorized callers")
         names = [a.flatbook.get(item, 'undef') for item in addresslist]
