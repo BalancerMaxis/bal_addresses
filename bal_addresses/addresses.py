@@ -30,14 +30,15 @@ class MultipleMatchesError(Exception):
 class NoResultError(Exception):
     pass
 
-
 class AddrBook:
 
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
-    chains = requests.get(
+    chains = DotMap(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
-    ).json()
-    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
+    ).json())
+    fx_description_by_name = DotMap(requests.get(
+        "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
+    ).json())
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
@@ -107,6 +108,19 @@ class AddrBook:
         if len(results) < 1:
             raise NoResultError(f"{substr}")
         return results[0]
+
+    def search_unique_deployment(self, substr):
+        results = [s for s in self.deployments_only.keys() if substr in s]
+        if len(results) > 1:
+            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise self.NoResultError(f"{substr}")
+        return results[0]
+
+    def search_many_deployments(self, substr):
+        search = [s for s in self.deployments_only.keys() if substr in s]
+        results = {key: self.deployments_only[key] for key in search if key in self.flatbook}
+        return results
 
     def search_many(self, substr):
         search = [s for s in self.flatbook.keys() if substr in s]
