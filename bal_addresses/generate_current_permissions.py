@@ -7,7 +7,7 @@ from permissions import BalPermissions
 from web3 import Web3
 import datetime
 
-INFURA_KEY = os.getenv('WEB3_INFURA_PROJECT_ID')
+INFURA_KEY = os.getenv('INFURA_KEY')
 
 w3_by_chain = {
     "gnosis": Web3(Web3.HTTPProvider(f"https://gnosischain-rpc.gateway.pokt.network")),
