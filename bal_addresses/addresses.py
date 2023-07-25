@@ -53,16 +53,18 @@ class AddrBook:
             dactive = deployments["active"][chain]
         except Exception:
             dactive = {}
-        self.deployments_only = DotMap(dactive | dold)
+        self.deployments_only = Munch.fromDict(dactive | dold)
         try:
             self.flatbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json").json()
-            self.reversebook = DotMap(
-                requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+            self.reversebook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json()
         except Exception:
             self.flatbook = {"zero/zero": ZERO_ADDRESS}
             self.reversebook = {ZERO_ADDRESS: "zero/zero"}
 
         self._deployments = None
+        self._extras = None
+        self._multisigs = None
+
 
     @property
     def deployments(self) -> Optional[Munch]:
@@ -73,8 +75,29 @@ class AddrBook:
             return self._deployments
         else:
             self.populate_deployments()
-
         return self._deployments
+
+    @property
+    def extras(self) -> Optional[Munch]:
+        """
+        Get the extras for all chains in a form of a Munch object
+        """
+        if self._extras is not None:
+            return self._extras
+        else:
+            self.populate_extras()
+        return self._extras
+
+    @property
+    def multisigs(self) -> Optional[Munch]:
+        """
+        Get the multisigs for all chains in a form of a Munch object
+        """
+        if self._multisigs is not None:
+            return self._multisigs
+        else:
+            self.populate_multisigs()
+        return self._extras
 
     def populate_deployments(self) -> None:
         chain_deployments = requests.get(
@@ -115,17 +138,20 @@ class AddrBook:
             raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
             raise self.NoResultError(f"{substr}")
-        return results[0]
+        return Munch.fromDict({
+            "deployment": results[0],
+            "addresses_by_contract": self.deployments_only[results[0]]
+        })
 
     def search_many_deployments(self, substr):
         search = [s for s in self.deployments_only.keys() if substr in s]
-        results = {key: self.deployments_only[key] for key in search if key in self.flatbook}
-        return results
+        return search
 
     def search_many(self, substr):
-        search = [s for s in self.flatbook.keys() if substr in s]
-        results = {key: self.flatbook[key] for key in search if key in self.flatbook}
-        return results
+        output = []
+        results = {path: address for path, address in self.flatbook.items() if substr in path}
+        outputs = [Munch.fromDict({"path": path, "address": address}) for path, address in results.items()]
+        return outputs
 
     def latest_contract(self, contract_name):
         deployments = []
@@ -135,7 +161,12 @@ class AddrBook:
         if len(deployments) == 0:
             raise NoResultError(contract_name)
         deployments.sort(reverse=True)
-        return self.deployments_only[deployments[0]][contract_name]
+        address =  self.deployments_only[deployments[0]][contract_name]
+        return Munch.fromDict({
+            "path": self.reversebook[address],
+            "address": address
+        })
+
 
     @staticmethod
     def checksum_address_dict(addresses):
@@ -158,8 +189,7 @@ class AddrBook:
                 fullbook = json.load(f)
         else:
             fullbook = self.fullbook
-        return (
-            DotMap(fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {})))
+        return (fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {}))
         # Checksum one more time for good measure
 
     def flatten_dict(self, d, parent_key='', sep='/'):
@@ -174,7 +204,7 @@ class AddrBook:
 
     def generate_flatbook(self):
         print(f"Generating Addressbook for {self.chain}")
-        ab = dict(self.dotmap)
+        ab = dict(self.merge_deployments())
         return self.flatten_dict(ab)
 
 
