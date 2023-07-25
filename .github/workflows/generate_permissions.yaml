@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  refersh_books:
+  refresh_active_perms:
     runs-on: ubuntu-latest
 
     steps:
