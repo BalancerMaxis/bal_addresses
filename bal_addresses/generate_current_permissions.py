@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 import os
-from bal_addresses import AddrBook
+from addresses import AddrBook
 from web3 import Web3
 import datetime
 

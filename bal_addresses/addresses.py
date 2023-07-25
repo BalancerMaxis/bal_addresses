@@ -32,9 +32,10 @@ class NoResultError(Exception):
 
 class AddrBook:
     fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
-    chains = DotMap(requests.get(
+    chains = Munch(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
     ).json())
+    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
     fx_description_by_name = DotMap(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
     ).json())
