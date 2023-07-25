@@ -18,7 +18,8 @@ def write_addressbooks(chainlist=AddrBook.CHAIN_IDS_BY_NAME.keys()):
             json.dump(reverse_dict(flatbook), f, indent=3)
 
 def main():
-    chains = AddrBook.chains.    print(f"Generating new addressbook jsons for {chains}")
+    chains = AddrBook.CHAIN_IDS_BY_NAME.keys()
+    print(f"Generating new addressbook jsons for {chains}")
     write_addressbooks(chains)
 
 if __name__ == "__main__":
