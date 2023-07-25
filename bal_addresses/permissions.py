@@ -3,7 +3,7 @@ import json
 from web3 import Web3
 import requests
 from dotmap import DotMap
-from bal_addresses import AddrBook
+from .addresses import AddrBook
 from collections import defaultdict
 from munch import Munch
 

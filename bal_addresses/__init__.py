@@ -1,2 +1,2 @@
 from .addresses import AddrBook
-from . permissions import BalPermissions
+from .permissions import BalPermissions
