@@ -1,3 +1,5 @@
+# 0.8.0
+added andd dotmaps + permissions
 # 0.6.0
 Use new balancer deployments repo.
 # 0.4.0

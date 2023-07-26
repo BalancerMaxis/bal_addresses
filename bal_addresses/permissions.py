@@ -3,7 +3,7 @@ import json
 from web3 import Web3
 import requests
 from dotmap import DotMap
-from bal_addresses import AddrBook
+from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
 from collections import defaultdict
 from munch import Munch
 
@@ -18,10 +18,8 @@ class NoResultError(Exception):
 
 ### Main class
 class BalPermissions:
-    GITHUB_DEPLOYMENTS_RAW = "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
     ## TODO switch back to main branch
     #GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/generate_permissions_jsons/outputs"
 
 
     ### Errors
@@ -33,8 +31,8 @@ class BalPermissions:
 
     def __init__(self, chain):
         self.chain = chain
-        self.active_permissions_by_action_id = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
-        self.action_ids_by_contract_by_deployment = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
+        self.active_permissions_by_action_id = requests.get(f"{GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
+        self.action_ids_by_contract_by_deployment = requests.get(f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
 
         # Define
         self.paths_by_action_id = defaultdict(set)
