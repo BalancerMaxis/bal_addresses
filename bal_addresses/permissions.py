@@ -61,7 +61,7 @@ class BalPermissions:
         a = AddrBook(self.chain)
         results = []
         deployment = a.search_unique_deployment(deployment_substr)
-        deployment_fxs = self.search_path(deployment)
+        deployment_fxs = self.search_path(deployment.deployment)
         search = [s for s in deployment_fxs if fx_substr in s]
         for r in search:
             result = DotMap({
