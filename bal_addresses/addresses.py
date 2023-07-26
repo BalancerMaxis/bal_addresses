@@ -155,7 +155,10 @@ class AddrBook:
             raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
             raise NoResultError(f"{substr}")
-        return results[0]
+        return Munch.fromDict({
+            "path": results[0],
+            "address": self.flatbook[results[0]]
+        })
 
     def search_unique_deployment(self, substr):
         results = [s for s in self.deployments_only.keys() if substr in s]
