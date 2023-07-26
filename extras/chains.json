@@ -8,7 +8,8 @@
     "zkevm": 1101,
     "goerli": 42,
     "sepolia": 11155111,
-    "avalanche": 43114
+    "avalanche": 43114,
+    "base": 8453
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -19,6 +20,7 @@
     "zkevm": "https://zkevm.polygonscan.com/",
     "goerli": "https://goerli.etherscan.io/",
     "sepolia": "https://sepolia.etherscan.io/",
-    "avalanche": "https://snowtrace.io/"
+    "avalanche": "https://snowtrace.io/",
+    "base": "https://basescan.org/"
   }
 }
