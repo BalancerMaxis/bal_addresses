@@ -38,6 +38,28 @@ def test_deployments_populated():
             }
         }
     )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/mainnet.json",
+        json={
+            "zero": {
+                "zero": "0x0000000000000000000000000000000000000000"
+            },
+            "balancer": {}
+
+            }
+    )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/multisigs.json",
+        json={
+            "mainnet": {
+                "dao": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
+            }
+        }
+    )
     a = AddrBook("mainnet")
 
     a.populate_deployments()
@@ -50,7 +72,14 @@ def test_deployments_populated():
     # Make sure that when we try to access a non-existing attribute, we get an error
     with pytest.raises(AttributeError):
         assert a.deployments.vault.non_existing_attribute
-
+    a.populate_extras()
+    assert a.extras.zero.zero == "0x0000000000000000000000000000000000000000"
+    # Make sure that when we try to access a non-existing attribute, we get an error
+    with pytest.raises(AttributeError):
+        assert a.extras.balancer.non_existing_attribute
+    a.populate_multisigs()
+    print(a.multisigs)
+    assert a.multisigs.dao == "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f"
 
 @responses.activate
 def test_deployments_invalid_format():
@@ -76,10 +105,36 @@ def test_deployments_invalid_format():
             }
         }
     )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/mainnet.json",
+        json={
+            "vault": {
+                "contracts": {'name': 'Vault'},
+                "status": "ACTIVE"
+            }
+        }
+    )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/multisigs.json",
+        json={
+            "mainnet": {
+                "contracts": {'name': 'Vault'},
+                "status": "ACTIVE"
+            }
+        }
+    )
     a = AddrBook("mainnet")
 
     a.populate_deployments()
     assert a.deployments.vault.contracts.name == "Vault"
+    a.populate_extras()
+    assert a.extras.vault.status == "ACTIVE"
+    a.populate_multisigs()
+    assert a.multisigs.status == "ACTIVE"
 
 
 @responses.activate
@@ -99,7 +154,27 @@ def test_deployments_not_populated():
         json={},
         status=404
     )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/mainnet.json",
+        json={},
+        status=404
+    )
+    responses.add(
+        responses.GET,
+        "https://raw.githubusercontent.com/BalancerMaxis"
+        "/bal_addresses/main/extras/multisigs.json",
+        json={},
+        status=404
+    )
     a = AddrBook("mainnet")
     assert a.deployments is None
     with pytest.raises(AttributeError):
         assert a.deployments.vault.non_existing_attribute
+    assert a.extras is None
+    with pytest.raises(AttributeError):
+        assert a.extras.non_existing_attribute
+    assert a.multisigs is None
+    with pytest.raises(AttributeError):
+        assert a.multisigs.non_existing_attribute

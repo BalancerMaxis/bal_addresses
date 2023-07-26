@@ -20,6 +20,9 @@ GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob
 GITHUB_RAW_OUTPUTS = (
     "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
 )
+GITHUB_RAW_EXTRAS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
+)
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
@@ -39,6 +42,7 @@ class AddrBook:
     fx_description_by_name = DotMap(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
     ).json())
+    chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
@@ -123,6 +127,27 @@ class AddrBook:
                 v['contracts'] = {contract['name']: contract for contract in v['contracts']}
             processed_deployment[deployment_identifier] = v
         return processed_deployment
+
+
+    def populate_extras(self) -> None:
+        chain_extras = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/{self.chain}.json"
+        )
+        if chain_extras.ok:
+            self._extras = Munch.fromDict(chain_extras.json())
+
+
+    def populate_multisigs(self) -> None:
+        msigs = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/multisigs.json"
+        ).json()
+        if msigs.get(self.chain):
+            self._multisigs = Munch.fromDict(msigs[self.chain])
+        else:
+            print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
+            self._multisigs = {}
+
+
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
