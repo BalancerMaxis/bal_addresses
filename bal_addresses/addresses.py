@@ -1,5 +1,5 @@
 import json
-from bal_addresses import Errors
+from .errors import Errors
 from typing import Dict
 from typing import Optional
 
