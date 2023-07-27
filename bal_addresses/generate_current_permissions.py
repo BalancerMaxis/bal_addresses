@@ -2,11 +2,12 @@ import requests
 import json
 import pandas as pd
 import os
-from bal_addresses import AddrBook
+from addresses import AddrBook
+from permissions import BalPermissions
 from web3 import Web3
 import datetime
 
-INFURA_KEY = os.getenv('WEB3_INFURA_PROJECT_ID')
+INFURA_KEY = os.getenv('INFURA_KEY')
 
 w3_by_chain = {
     "gnosis": Web3(Web3.HTTPProvider(f"https://gnosischain-rpc.gateway.pokt.network")),
@@ -27,7 +28,7 @@ def build_chain_permissions_list(chain_name):
     r = a.flatbook
     results = {}
     address_names = a.reversebook
-    action_ids_list = f"{a.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
+    action_ids_list = f"{BalPermissions.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
     w3 = w3_by_chain[chain_name]
     authorizer = w3.eth.contract(address=r["20210418-authorizer/Authorizer"], abi=json.load(open("bal_addresses/abis/Authorizer.json")))
     try:

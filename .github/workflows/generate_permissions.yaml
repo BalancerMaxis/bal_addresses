@@ -6,9 +6,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  refersh_books:
+  refresh_active_perms:
     runs-on: ubuntu-latest
-
+    env:
+         INFURA_KEY: ${{ secrets.INFURA_KEY }}
     steps:
 
     - name: Checkout code
