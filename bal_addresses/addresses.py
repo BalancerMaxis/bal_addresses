@@ -1,5 +1,5 @@
 import json
-from .errors import Errors
+from .errors import MultipleMatchesError, NoResultError
 from typing import Dict
 from typing import Optional
 
@@ -141,16 +141,16 @@ class AddrBook:
             self._multisigs = Munch.fromDict(msigs[self.chain])
         else:
             print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
-            self._multisigs = {}
+            self._multisigs = Munch
 
 
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
-            raise Errors.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise Errors.NoResultError(f"{substr}")
+            raise NoResultError(f"{substr}")
         return Munch.fromDict({
             "path": results[0],
             "address": self.flatbook[results[0]]
@@ -159,9 +159,9 @@ class AddrBook:
     def search_unique_deployment(self, substr):
         results = [s for s in self.deployments_only.keys() if substr in s]
         if len(results) > 1:
-            raise Errors.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise Errors.NoResultError(f"{substr}")
+            raise NoResultError(f"{substr}")
         return Munch.fromDict({
             "deployment": results[0],
             "addresses_by_contract": self.deployments_only[results[0]]
@@ -183,7 +183,7 @@ class AddrBook:
             if contract_name in contractData.keys():
                 deployments.append(deployment)
         if len(deployments) == 0:
-            raise Errors.NoResultError(contract_name)
+            raise NoResultError(contract_name)
         deployments.sort(reverse=True)
         address =  self.deployments_only[deployments[0]][contract_name]
         return Munch.fromDict({

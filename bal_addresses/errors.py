@@ -1,8 +1,6 @@
 
-class Errors():
+class MultipleMatchesError(Exception):
+    pass
 
-    class MultipleMatchesError(Exception):
-        pass
-
-    class NoResultError(Exception):
-        pass
+class NoResultError(Exception):
+    pass

@@ -1,4 +1,4 @@
-from .errors import Errors
+from .errors import NoResultError, MultipleMatchesError
 import requests
 from dotmap import DotMap
 from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
@@ -53,9 +53,9 @@ class BalPermissions:
     def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
         if len(results) > 1:
-            raise Errors.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
+            raise MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise Errors.NoResultError(f"{fx_substr}")
+            raise NoResultError(f"{fx_substr}")
         return results[0]
 
     def needs_authorizer(self, contract, deployment) -> bool:
@@ -65,14 +65,14 @@ class BalPermissions:
         try:
             return self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise Errors.NoResultError(f"{action_id} has no authorized callers")
+            raise NoResultError(f"{action_id} has no authorized callers")
 
     def allowed_caller_names(self, action_id) -> list[str]:
         a = AddrBook(self.chain)
         try:
             addresslist = self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise Errors.NoResultError(f"{action_id} has no authorized callers")
+            raise NoResultError(f"{action_id} has no authorized callers")
         names = [a.flatbook.get(item, 'undef') for item in addresslist]
         return names
 
