@@ -4,7 +4,6 @@ from typing import Dict
 from typing import Optional
 
 import requests
-from dotmap import DotMap
 from munch import Munch
 from web3 import Web3
 

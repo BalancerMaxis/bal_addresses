@@ -1,7 +1,6 @@
 from .errors import NoResultError, MultipleMatchesError
 import requests
-from dotmap import DotMap
-from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
+from .addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
 from collections import defaultdict
 from munch import Munch
 
@@ -43,7 +42,7 @@ class BalPermissions:
         deployment_fxs = self.search_path(deployment.deployment)
         search = [s for s in deployment_fxs if fx_substr in s]
         for r in search:
-            result = DotMap({
+            result = Munch.fromDict({
                 "path": r,
                 "action_id": self.action_id_by_path[r]
             })
