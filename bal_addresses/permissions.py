@@ -18,10 +18,6 @@ class NoResultError(Exception):
 
 ### Main class
 class BalPermissions:
-    ## TODO switch back to main branch
-    #GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-
-
     ### Errors
     class MultipleMatchesError(Exception):
         pass
