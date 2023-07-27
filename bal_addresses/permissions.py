@@ -1,30 +1,13 @@
-
-import json
-from web3 import Web3
+from errors import Errors
 import requests
 from dotmap import DotMap
 from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
 from collections import defaultdict
 from munch import Munch
 
-### Errors
-class MultipleMatchesError(Exception):
-    pass
-
-
-class NoResultError(Exception):
-    pass
-
 
 ### Main class
 class BalPermissions:
-    ### Errors
-    class MultipleMatchesError(Exception):
-        pass
-
-    class NoResultError(Exception):
-        pass
-
     def __init__(self, chain):
         self.chain = chain
         self.active_permissions_by_action_id = requests.get(f"{GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
@@ -70,9 +53,9 @@ class BalPermissions:
     def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
         if len(results) > 1:
-            raise self.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
+            raise Errors.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise self.NoResultError(f"{fx_substr}")
+            raise Errors.NoResultError(f"{fx_substr}")
         return results[0]
 
     def needs_authorizer(self, contract, deployment) -> bool:
@@ -82,14 +65,14 @@ class BalPermissions:
         try:
             return self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise self.NoResultError(f"{action_id} has no authorized callers")
+            raise Errors.NoResultError(f"{action_id} has no authorized callers")
 
     def allowed_caller_names(self, action_id) -> list[str]:
         a = AddrBook(self.chain)
         try:
             addresslist = self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise self.NoResultError(f"{action_id} has no authorized callers")
+            raise Errors.NoResultError(f"{action_id} has no authorized callers")
         names = [a.flatbook.get(item, 'undef') for item in addresslist]
         return names
 

@@ -1,4 +1,5 @@
 import json
+from errors import Errors
 from typing import Dict
 from typing import Optional
 
@@ -26,12 +27,7 @@ GITHUB_RAW_EXTRAS = (
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
-class MultipleMatchesError(Exception):
-    pass
 
-
-class NoResultError(Exception):
-    pass
 
 class AddrBook:
 
@@ -152,9 +148,9 @@ class AddrBook:
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
-            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+            raise Errors.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise NoResultError(f"{substr}")
+            raise Errors.NoResultError(f"{substr}")
         return Munch.fromDict({
             "path": results[0],
             "address": self.flatbook[results[0]]
@@ -163,9 +159,9 @@ class AddrBook:
     def search_unique_deployment(self, substr):
         results = [s for s in self.deployments_only.keys() if substr in s]
         if len(results) > 1:
-            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+            raise Errors.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise self.NoResultError(f"{substr}")
+            raise Errors.NoResultError(f"{substr}")
         return Munch.fromDict({
             "deployment": results[0],
             "addresses_by_contract": self.deployments_only[results[0]]
@@ -187,7 +183,7 @@ class AddrBook:
             if contract_name in contractData.keys():
                 deployments.append(deployment)
         if len(deployments) == 0:
-            raise NoResultError(contract_name)
+            raise Errors.NoResultError(contract_name)
         deployments.sort(reverse=True)
         address =  self.deployments_only[deployments[0]][contract_name]
         return Munch.fromDict({
