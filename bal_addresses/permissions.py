@@ -1,4 +1,4 @@
-from bal_addresses import Errors
+from .errors import Errors
 import requests
 from dotmap import DotMap
 from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
