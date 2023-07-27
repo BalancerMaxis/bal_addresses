@@ -1,3 +1,6 @@
+# 0.8.0
+Added extra Munch based explorable dotmaps + permissions
+Restructured function returns to be more consistent.
 # 0.6.0
 Use new balancer deployments repo.
 # 0.4.0

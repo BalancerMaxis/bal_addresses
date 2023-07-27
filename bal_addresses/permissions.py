@@ -1,40 +1,17 @@
-
-import json
-from web3 import Web3
+from .errors import NoResultError, MultipleMatchesError
 import requests
 from dotmap import DotMap
-from addresses import AddrBook
+from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
 from collections import defaultdict
 from munch import Munch
-
-### Errors
-class MultipleMatchesError(Exception):
-    pass
-
-
-class NoResultError(Exception):
-    pass
 
 
 ### Main class
 class BalPermissions:
-    GITHUB_DEPLOYMENTS_RAW = "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
-    ## TODO switch back to main branch
-    #GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/generate_permissions_jsons/outputs"
-
-
-    ### Errors
-    class MultipleMatchesError(Exception):
-        pass
-
-    class NoResultError(Exception):
-        pass
-
     def __init__(self, chain):
         self.chain = chain
-        self.active_permissions_by_action_id = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
-        self.action_ids_by_contract_by_deployment = requests.get(f"{self.GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
+        self.active_permissions_by_action_id = requests.get(f"{GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json").json()
+        self.action_ids_by_contract_by_deployment = requests.get(f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json").json()
 
         # Define
         self.paths_by_action_id = defaultdict(set)
@@ -63,7 +40,7 @@ class BalPermissions:
         a = AddrBook(self.chain)
         results = []
         deployment = a.search_unique_deployment(deployment_substr)
-        deployment_fxs = self.search_path(deployment)
+        deployment_fxs = self.search_path(deployment.deployment)
         search = [s for s in deployment_fxs if fx_substr in s]
         for r in search:
             result = DotMap({
@@ -76,9 +53,9 @@ class BalPermissions:
     def search_unique_path_by_unique_deployment(self, deployment_substr, fx_substr) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(deployment_substr, fx_substr)
         if len(results) > 1:
-            raise self.MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
+            raise MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
         if len(results) < 1:
-            raise self.NoResultError(f"{fx_substr}")
+            raise NoResultError(f"{fx_substr}")
         return results[0]
 
     def needs_authorizer(self, contract, deployment) -> bool:
@@ -88,14 +65,14 @@ class BalPermissions:
         try:
             return self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise self.NoResultError(f"{action_id} has no authorized callers")
+            raise NoResultError(f"{action_id} has no authorized callers")
 
     def allowed_caller_names(self, action_id) -> list[str]:
         a = AddrBook(self.chain)
         try:
             addresslist = self.active_permissions_by_action_id[action_id]
         except KeyError:
-            raise self.NoResultError(f"{action_id} has no authorized callers")
+            raise NoResultError(f"{action_id} has no authorized callers")
         names = [a.flatbook.get(item, 'undef') for item in addresslist]
         return names
 
