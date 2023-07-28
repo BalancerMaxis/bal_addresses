@@ -1,4 +1,4 @@
-from .errors import NoResultError, MultipleMatchesError
+from errors import NoResultError, MultipleMatchesError
 import requests
 from .addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, GITHUB_RAW_OUTPUTS
 from collections import defaultdict

@@ -1,5 +1,5 @@
 import json
-from .errors import MultipleMatchesError, NoResultError
+from errors import MultipleMatchesError, NoResultError
 from typing import Dict
 from typing import Optional
 
