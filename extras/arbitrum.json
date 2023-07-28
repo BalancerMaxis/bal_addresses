@@ -27,5 +27,8 @@
     },
     "maxiKeepers": {
         "arb_rewards_injector":"0xF23d8342881eDECcED51EA694AC21C2B68440929"
+    },
+    "one_inch":{
+        "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
     }
 }

@@ -16,5 +16,8 @@
     },
     "maxiKeepers": {
         "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F"
+    },
+    "one_inch":{
+        "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
     }
 }
