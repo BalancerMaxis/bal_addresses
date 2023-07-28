@@ -739,6 +739,9 @@
          "maxiKeepers": {
             "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929"
          },
+         "one_inch": {
+            "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+         },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0xA69E0Ccf150a29369D8Bbc0B3f510849dB7E8EEE",
             "CircuitBreakerLib": "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025",
@@ -990,6 +993,9 @@
          "cow": {
             "vault_relayer": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
             "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41"
+         },
+         "one_inch": {
+            "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
          },
          "uniswap": {
             "factoryV3": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
@@ -1670,6 +1676,9 @@
          },
          "maxiKeepers": {
             "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F"
+         },
+         "one_inch": {
+            "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
          },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0xf553bf40DB86c35f3058434039D51Aad29c6180b",
