@@ -7,7 +7,7 @@ import os
 import re
 import json
 from pathlib import Path
-from addresses import AddrBook
+from bal_addresses import AddrBook
 
 deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
 basepath = deployments

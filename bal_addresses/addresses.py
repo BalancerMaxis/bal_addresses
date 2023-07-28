@@ -1,5 +1,5 @@
 import json
-from errors import MultipleMatchesError, NoResultError
+from .errors import MultipleMatchesError, NoResultError
 from typing import Dict
 from typing import Optional
 
@@ -96,6 +96,7 @@ class AddrBook:
         else:
             self.populate_eoas()
         return self._eoas
+
     @property
     def multisigs(self) -> Optional[Munch]:
         """
@@ -139,13 +140,15 @@ class AddrBook:
         )
         if chain_extras.ok:
             self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
-
+        else:
+            print(f"Warning: No extras for chain {self.chain}, multisigs must be added in extras/chain.json")
+            self._extras = Munch
     def populate_eoas(self) -> None:
         eoas = requests.get(
             f"{GITHUB_RAW_EXTRAS}/signers.json"
         )
         if eoas.ok:
-            self._extras = Munch.fromDict(self.checksum_address_dict(eoas.json()))
+            self._eoas = Munch.fromDict(self.checksum_address_dict(eoas.json()))
 
     def populate_multisigs(self) -> None:
         msigs = requests.get(
