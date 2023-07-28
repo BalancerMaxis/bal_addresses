@@ -1,5 +1,5 @@
 import os
-from addresses import AddrBook
+from bal_addresses import AddrBook
 import requests
 import json
 

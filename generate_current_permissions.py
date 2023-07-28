@@ -1,11 +1,8 @@
 import requests
 import json
-import pandas as pd
 import os
-from addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW
-from permissions import BalPermissions
+from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW
 from web3 import Web3
-import datetime
 
 INFURA_KEY = os.getenv('INFURA_KEY')
 

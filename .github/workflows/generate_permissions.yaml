@@ -25,8 +25,8 @@ jobs:
       id: update
       run: |
         pip3 install -r bal_addresses/requirements.txt
-        python3 bal_addresses/generate_current_permissions.py
-        python3 bal_addresses/gen_addresses.py
+        python3 generate_current_permissions.py
+        python3 gen_addresses.py
         rm -rf balancer-deployments
         git add -A
 
