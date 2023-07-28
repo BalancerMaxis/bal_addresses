@@ -7,13 +7,9 @@ import os
 import re
 import json
 from pathlib import Path
-from pandas import DataFrame
-import requests
 from addresses import AddrBook
 
-#monorepo = os.environ["MONOREPO_ROOT"]
 deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
-#basepath = f"{monorepo}/pkg/deployments"
 basepath = deployments
 
 def main():

@@ -42,7 +42,6 @@ class AddrBook:
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
         self.chain = chain
-        self.dotmap = self.build_dotmap()
         deployments = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
         try:
             dold = deployments["old"][chain]
@@ -54,7 +53,7 @@ class AddrBook:
             dactive = {}
         self.deployments_only = Munch.fromDict(dactive | dold)
         try:
-            self.flatbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json").json()
+            self.flatbook = self.generate_flatbook()
             self.reversebook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json()
         except Exception:
             self.flatbook = {"zero/zero": ZERO_ADDRESS}
@@ -206,15 +205,6 @@ class AddrBook:
                 print(k, v, "formatted incorrectly")
         return checksummed
 
-    def build_dotmap(self):
-        if self.jsonfile:
-            with open(self.jsonfile, "r") as f:
-                fullbook = json.load(f)
-        else:
-            fullbook = self.fullbook
-        return (fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {}))
-        # Checksum one more time for good measure
-
     def flatten_dict(self, d, parent_key='', sep='/'):
         items = []
         for k, v in d.items():
@@ -227,8 +217,8 @@ class AddrBook:
 
     def generate_flatbook(self):
         print(f"Generating Addressbook for {self.chain}")
-        ab = dict(self.merge_deployments())
-        return self.flatten_dict(ab)
+        flatbook = {**self.extras, **self.deployments_only, "multisigs": self.multisigs}
+        return self.flatten_dict(flatbook)
 
 
 # Version outside class to allow for recursion on the uninitialized class
