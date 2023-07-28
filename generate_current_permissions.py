@@ -23,12 +23,12 @@ w3_by_chain = {
 
 def build_chain_permissions_list(chain_name):
     a = AddrBook(chain_name)
-    r = a.flatbook
     results = {}
     address_names = a.reversebook
     action_ids_list = f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
     w3 = w3_by_chain[chain_name]
-    authorizer = w3.eth.contract(address=r["20210418-authorizer/Authorizer"], abi=json.load(open("bal_addresses/abis/Authorizer.json")))
+    authorizer = w3.eth.contract(address=a.search_unique("20210418-authorizer/Authorizer").address,
+                                 abi=json.load(open("bal_addresses/abis/Authorizer.json")))
     try:
         result = requests.get(action_ids_list)
     except requests.exceptions.HTTPError as err:
