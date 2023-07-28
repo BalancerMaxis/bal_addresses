@@ -62,7 +62,7 @@ class AddrBook:
         self._deployments = None
         self._extras = None
         self._multisigs = None
-
+        self._eoas = None
 
     @property
     def deployments(self) -> Optional[Munch]:
@@ -86,6 +86,16 @@ class AddrBook:
             self.populate_extras()
         return self._extras
 
+    @property
+    def EOAs(self) -> Optional[Munch]:
+        """
+        Get the extras for all chains in a form of a Munch object
+        """
+        if self._eoas is not None:
+            return self._eoas
+        else:
+            self.populate_eoas()
+        return self._eoas
     @property
     def multisigs(self) -> Optional[Munch]:
         """
@@ -128,15 +138,21 @@ class AddrBook:
             f"{GITHUB_RAW_EXTRAS}/{self.chain}.json"
         )
         if chain_extras.ok:
-            self._extras = Munch.fromDict(chain_extras.json())
+            self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
 
+    def populate_eoas(self) -> None:
+        eoas = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/signers.json"
+        )
+        if eoas.ok:
+            self._extras = Munch.fromDict(self.checksum_address_dict(eoas.json()))
 
     def populate_multisigs(self) -> None:
         msigs = requests.get(
             f"{GITHUB_RAW_EXTRAS}/multisigs.json"
         ).json()
         if msigs.get(self.chain):
-            self._multisigs = Munch.fromDict(msigs[self.chain])
+            self._multisigs = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
         else:
             print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
             self._multisigs = Munch
@@ -217,7 +233,7 @@ class AddrBook:
 
     def generate_flatbook(self):
         print(f"Generating Addressbook for {self.chain}")
-        flatbook = {**self.extras, **self.deployments_only, "multisigs": self.multisigs}
+        flatbook = {**self.extras, **self.deployments_only, "multisigs": self.multisigs, "EOAs": self.EOAs}
         return self.flatten_dict(flatbook)
 
 
