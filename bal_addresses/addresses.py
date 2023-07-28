@@ -106,7 +106,7 @@ class AddrBook:
             return self._multisigs
         else:
             self.populate_multisigs()
-        return self._extras
+        return self._multisigs
 
     def populate_deployments(self) -> None:
         chain_deployments = requests.get(
