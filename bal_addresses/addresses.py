@@ -233,7 +233,9 @@ class AddrBook:
 
     def generate_flatbook(self):
         print(f"Generating Addressbook for {self.chain}")
-        flatbook = {**self.extras, **self.deployments_only, "multisigs": self.multisigs, "EOAs": self.EOAs}
+        flatbook = {**self.extras, **self.deployments_only}
+        flatbook["multisigs"] = self.multisigs
+        flatbook["EOAs"] = self.EOAs
         return self.flatten_dict(flatbook)
 
 
