@@ -53,7 +53,7 @@ class AddrBook:
             dactive = {}
         self.deployments_only = Munch.fromDict(dactive | dold)
         try:
-            self.reversebook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json").json()
+            self.flatbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json").json()
             self.reversebook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json()
         except Exception:
             self.flatbook = {"zero/zero": ZERO_ADDRESS}
