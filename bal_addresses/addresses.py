@@ -252,7 +252,7 @@ class AddrBook:
         flatbook = {**flatbook,
                     **self.flatten_dict(self.extras)}
         flatbook["multisigs"] = self.flatten_dict(self.multisigs)
-        flatbook["EOAs"] = self.flatten_dict(self.EOAs)
+        flatbook["EOA"] = self.flatten_dict(self.EOAs)
         return self.flatten_dict(flatbook)
 
 
