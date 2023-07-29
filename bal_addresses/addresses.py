@@ -117,6 +117,9 @@ class AddrBook:
             # Remove date from key
             processed_deployment = self._process_deployment(chain_deployments.json())
             self._deployments = Munch.fromDict(processed_deployment)
+        else:
+            print(f"Warning: No deploys for chain {self.chain}")
+            return Munch
 
     def _process_deployment(self, deployment: Dict) -> Dict:
         """
