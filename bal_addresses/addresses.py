@@ -142,7 +142,7 @@ class AddrBook:
         if chain_extras.ok:
             self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
         else:
-            print(f"Warning: No extras for chain {self.chain}, multisigs must be added in extras/chain.json")
+            print(f"Warning: No extras for chain {self.chain}, extras must be added in extras/chain.json")
             self._extras = Munch.fromDict({})
     def populate_eoas(self) -> None:
         eoas = requests.get(
@@ -217,12 +217,16 @@ class AddrBook:
         """
         checksummed = {}
         for k, v in addresses.items():
-            if isinstance(v, str):
-                checksummed[k] = Web3.toChecksumAddress(v)
-            elif isinstance(v, dict):
+            if isinstance(v, dict):
                 checksummed[k] = checksum_address_dict(v)
+            elif isinstance(v, str):
+                try:
+                    checksummed[k] = Web3.toChecksumAddress(v)
+                except:
+                    checksummed[k] = v
             else:
                 print(k, v, "formatted incorrectly")
+                checksummed[k] = v
         return checksummed
 
     def flatten_dict(self, d, parent_key='', sep='/'):
@@ -259,10 +263,14 @@ def checksum_address_dict(addresses):
     """
     checksummed = {}
     for k, v in addresses.items():
-        if isinstance(v, str):
-            checksummed[k] = Web3.toChecksumAddress(v)
-        elif isinstance(v, dict):
+        if isinstance(v, dict):
             checksummed[k] = checksum_address_dict(v)
+        elif isinstance(v, str):
+            try:
+                checksummed[k] = Web3.toChecksumAddress(v)
+            except:
+                checksummed[k] = v
         else:
             print(k, v, "formatted incorrectly")
+            checksummed[k] = v
     return checksummed
