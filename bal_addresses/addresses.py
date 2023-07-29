@@ -135,10 +135,6 @@ class AddrBook:
             processed_deployment[deployment_identifier] = v
         return processed_deployment
 
-    def popupate_flatbook(self):
-        self._flatbook = self.generate_flatbook()
-        self._reversebook = {value: key for key, value in self._flatbook.items()}
-
     def populate_extras(self) -> None:
         chain_extras = requests.get(
             f"{GITHUB_RAW_EXTRAS}/{self.chain}.json"

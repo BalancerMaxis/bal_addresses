@@ -24,6 +24,7 @@ jobs:
       id: update
       run: |
         pip3 install -r bal_addresses/requirements.txt
+        python3 transform-deployments.py
         python3 gen_addresses.py
         rm -rf balancer-deployments
         git add -A
