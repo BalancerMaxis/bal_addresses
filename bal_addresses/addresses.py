@@ -112,13 +112,12 @@ class AddrBook:
             f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{self.chain}.json"
         )
         if chain_deployments.ok:
-            self._deployments = Munch()
             # Remove date from key
             processed_deployment = self._process_deployment(chain_deployments.json())
             self._deployments = Munch.fromDict(processed_deployment)
         else:
             print(f"Warning: No deploys for chain {self.chain}")
-            return Munch
+            return Munch.fromDict({})
 
     def _process_deployment(self, deployment: Dict) -> Dict:
         """
@@ -150,7 +149,7 @@ class AddrBook:
             self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
         else:
             print(f"Warning: No extras for chain {self.chain}, multisigs must be added in extras/chain.json")
-            self._extras = Munch
+            self._extras = Munch.fromDict({})
     def populate_eoas(self) -> None:
         eoas = requests.get(
             f"{GITHUB_RAW_EXTRAS}/signers.json"
