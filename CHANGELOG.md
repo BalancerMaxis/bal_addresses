@@ -1,3 +1,5 @@
+# 0.8.4
+Lots of bug fixes to get everything working in all contexts
 # 0.8.0
 Added extra Munch based explorable dotmaps + permissions
 Restructured function returns to be more consistent.
