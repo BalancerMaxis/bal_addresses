@@ -52,12 +52,8 @@ class AddrBook:
         except Exception:
             dactive = {}
         self.deployments_only = Munch.fromDict(dactive | dold)
-        try:
-            self.flatbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}.json").json()
-            self.reversebook = requests.get(f"{GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json()
-        except Exception:
-            self.flatbook = {"zero/zero": ZERO_ADDRESS}
-            self.reversebook = {ZERO_ADDRESS: "zero/zero"}
+        self.flatbook = self.generate_flatbook()
+        self.reversebook = {value: key for key, value in self.flatbook.items()}
 
         self._deployments = None
         self._extras = None
@@ -132,10 +128,16 @@ class AddrBook:
             deployment_identifier = k.lstrip("0123456789-").replace("-", "_")
             # Flatten contracts list to dict with name as key
             if isinstance(v.get('contracts'), list):
-                v['contracts'] = {contract['name']: contract for contract in v['contracts']}
+                contracts = {contract['name']: {**contract, 'deployment': k, 'path': f"{k}/{contract['name']}"} for
+                             contract in v['contracts']}
+                contracts_by_contract = {contract: data for contract, data in contracts.items()}
+                v["contracts"] = contracts_by_contract
             processed_deployment[deployment_identifier] = v
         return processed_deployment
 
+    def popupate_flatbook(self):
+        self._flatbook = self.generate_flatbook()
+        self._reversebook = {value: key for key, value in self._flatbook.items()}
 
     def populate_extras(self) -> None:
         chain_extras = requests.get(
@@ -238,10 +240,18 @@ class AddrBook:
         return dict(items)
 
     def generate_flatbook(self):
-        print(f"Generating Addressbook for {self.chain}")
-        flatbook = {**self.extras, **self.deployments_only}
-        flatbook["multisigs"] = self.multisigs
-        flatbook["EOAs"] = self.EOAs
+        flatbook = {}
+        self.populate_eoas()
+        self.populate_deployments()
+        self.populate_multisigs()
+        self.populate_extras()
+        for deployment, ddata in self.deployments.items():
+            for contract, infodict in ddata["contracts"].items():
+                flatbook[infodict.path] = infodict.address
+        flatbook = {**flatbook,
+                    **self.flatten_dict(self.extras)}
+        flatbook["multisigs"] = self.flatten_dict(self.multisigs)
+        flatbook["EOAs"] = self.flatten_dict(self.EOAs)
         return self.flatten_dict(flatbook)
 
 
