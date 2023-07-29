@@ -29,8 +29,6 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
 class AddrBook:
-
-    fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     chains = Munch.fromDict(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
     ).json())
