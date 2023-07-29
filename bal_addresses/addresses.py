@@ -29,6 +29,8 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
 class AddrBook:
+
+    fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
     chains = Munch.fromDict(requests.get(
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
     ).json())
@@ -134,10 +136,6 @@ class AddrBook:
                 v["contracts"] = contracts_by_contract
             processed_deployment[deployment_identifier] = v
         return processed_deployment
-
-    def popupate_flatbook(self):
-        self._flatbook = self.generate_flatbook()
-        self._reversebook = {value: key for key, value in self._flatbook.items()}
 
     def populate_extras(self) -> None:
         chain_extras = requests.get(
