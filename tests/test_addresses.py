@@ -132,9 +132,10 @@ def test_deployments_invalid_format():
     a.populate_deployments()
     assert a.deployments.vault.contracts.name == "Vault"
     a.populate_extras()
+    print(a.extras.vault.status)
     assert a.extras.vault.status == "ACTIVE"
     a.populate_multisigs()
-    assert a.multisigs.status == "ACTIVE"
+    assert str(a.multisigs.status) == "ACTIVE"
 
 
 @responses.activate
@@ -172,9 +173,9 @@ def test_deployments_not_populated():
     assert a.deployments is None
     with pytest.raises(AttributeError):
         assert a.deployments.vault.non_existing_attribute
-    assert a.extras is None
+    assert a.extras == {}
     with pytest.raises(AttributeError):
         assert a.extras.non_existing_attribute
-    assert a.multisigs is None
+    assert a.multisigs == {}
     with pytest.raises(AttributeError):
         assert a.multisigs.non_existing_attribute
