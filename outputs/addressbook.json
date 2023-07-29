@@ -538,6 +538,13 @@
             "zero": "0x0000000000000000000000000000000000000000"
          },
          "tokens": {},
+         "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+         },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0x4C32a8a8fDa4E24139B51b456B42290f51d6A1c4",
             "CircuitBreakerLib": "0x54f8F9d28e26Fa5864cfA80f50A5Df95fD85f46a",
@@ -741,6 +748,13 @@
          },
          "one_inch": {
             "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+         },
+         "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
          },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0xA69E0Ccf150a29369D8Bbc0B3f510849dB7E8EEE",
@@ -1057,6 +1071,13 @@
          },
          "payees": {
             "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
+         },
+         "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
          },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0x4148bf5B0688eD0a87F317c6534Cb841f503349e",
@@ -1680,6 +1701,13 @@
          "one_inch": {
             "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
          },
+         "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+         },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0xf553bf40DB86c35f3058434039D51Aad29c6180b",
             "CircuitBreakerLib": "0xEDFd0A7005A7c72c44Ff13bEa370c86A9D11beE1",
@@ -1869,6 +1897,13 @@
          "tokens": {},
          "chainlink": {
             "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4"
+         },
+         "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
          },
          "20230411-managed-pool-v2": {
             "ManagedPoolAddRemoveTokenLib": "0x59562f93c447656F6E4799fC1FC7c3d977C3324F",
