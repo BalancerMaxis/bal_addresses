@@ -52,9 +52,12 @@ class AddrBook:
         except Exception:
             dactive = {}
         self.deployments_only = Munch.fromDict(dactive | dold)
-        self.flatbook = self.generate_flatbook()
-        self.reversebook = {value: key for key, value in self.flatbook.items()}
-
+        try:
+            self.flatbook = self.generate_flatbook()
+            self.reversebook = {value: key for key, value in self.flatbook.items()}
+        except:
+            self.flatbook = {}
+            self.reversebook = {}
         self._deployments = None
         self._extras = None
         self._multisigs = None
@@ -163,7 +166,7 @@ class AddrBook:
             self._multisigs = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
         else:
             print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
-            self._multisigs = Munch
+            self._multisigs = Munch.fromDict({})
 
 
 
@@ -231,6 +234,7 @@ class AddrBook:
 
     def flatten_dict(self, d, parent_key='', sep='/'):
         items = []
+        d = dict(d)
         for k, v in d.items():
             new_key = f"{parent_key}{sep}{k}" if parent_key else k
             if isinstance(v, dict):
