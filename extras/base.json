@@ -1,4 +1,7 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
-    "tokens": {}
+    "tokens": {},
+    "maxiKeepers": {
+        "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340"
+    }
 }
