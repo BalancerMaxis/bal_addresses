@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.8.4'
+VERSION = '0.8.5'
 DESCRIPTION = 'Balancer Maxi Addressbook'
 LONG_DESCRIPTION = 'Balancer Maxi Addressbook and Balancer Permissions helper'
 

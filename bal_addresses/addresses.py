@@ -37,9 +37,10 @@ class AddrBook:
     ).json())
     chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
 
-    def __init__(self, chain, jsonfile=False):
-        self.jsonfile = jsonfile
+    def __init__(self, chain):
         self.chain = chain
+        self.chain_names_by_id = {}
+        self.chain_names_by_id = {v: k for k, v in self.chain_ids_by_name.items()}
         deployments = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
         try:
             dold = deployments["old"][chain]

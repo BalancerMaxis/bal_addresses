@@ -1,3 +1,5 @@
+# 0.8.5
+added chain_names_by_id
 # 0.8.4
 Lots of bug fixes to get everything working in all contexts
 # 0.8.0
