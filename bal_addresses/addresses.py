@@ -36,11 +36,11 @@ class AddrBook:
         "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
     ).json())
     chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
+    chain_names_by_id = {v: k for k, v in chain_ids_by_name.items()}
 
     def __init__(self, chain):
         self.chain = chain
         self.chain_names_by_id = {}
-        self.chain_names_by_id = {v: k for k, v in self.chain_ids_by_name.items()}
         deployments = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
         try:
             dold = deployments["old"][chain]
