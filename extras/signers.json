@@ -51,9 +51,9 @@
       "xeonus": "0xb66941ffab0bad8f118c022921d8ac6f238c2eeb"
     },
     "aura": {
-      "jack": "0x374631880f03Ee04bFa263A30b72affCCE0c8DAf",
       "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
-      "lamentations": "0x196421298af44afb88b978fbd333dc49218b3d38"
+      "lamentations": "0x196421298af44afb88b978fbd333dc49218b3d38",
+      "jack": "0x374631880f03Ee04bFa263A30b72affCCE0c8DAf"
     },
     "emergency": {
       "arb_foundation_treasury": "0xf3fc178157fb3c87548baa86f9d24ba38e649b58"
