@@ -122,11 +122,13 @@
         "GauntletFeeSetter": "0xE4a8ed6c1D8d048bD29A00946BFcf2DB10E7923B"
     },
     "maxiKeepers": {
-
         "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
         "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
         "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
         "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
+    },
+    "tokenLogic": {
+        "aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1"
     },
     "payees": {
         "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
