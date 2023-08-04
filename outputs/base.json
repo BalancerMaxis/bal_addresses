@@ -53,6 +53,7 @@
    "20230712-child-chain-gauge-checkpointer/BalancerRelayer": "0x7B25d5712fB49627534012327E46455b3fF7b26C",
    "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory": "0x0A973B6DB16C2ded41dC91691Cc347BEb0e2442B",
    "zero/zero": "0x0000000000000000000000000000000000000000",
+   "maxiKeepers/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
    "multisigs/dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
    "multisigs/lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
    "multisigs/emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
