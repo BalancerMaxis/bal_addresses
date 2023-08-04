@@ -266,6 +266,7 @@
    "maxiKeepers/oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
    "maxiKeepers/veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
    "maxiKeepers/LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839",
+   "gelatoW3f/gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225",
    "tokenLogic/aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
    "payees/karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C",
    "mimic/smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
