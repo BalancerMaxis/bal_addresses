@@ -1,6 +1,7 @@
 {
-    "zero": {"zero": "0x0000000000000000000000000000000000000000"},
-
+    "zero": {
+        "zero": "0x0000000000000000000000000000000000000000"
+    },
     "tokens": {
         "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
         "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
@@ -19,24 +20,29 @@
         "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
         "keeper_registrar": "0x4F3AF332A30973106Fe146Af0B4220bBBeA748eC"
     },
-    "sushi": {"router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"},
-    "swapr": {"router": "0x530476d5583724A89c8841eB6Da76E7Af4C0F17E"},
+    "sushi": {
+        "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+    },
+    "swapr": {
+        "router": "0x530476d5583724A89c8841eB6Da76E7Af4C0F17E"
+    },
     "arbitrum": {
         "node": "0x00000000000000000000000000000000000000C8",
         "gateway_router": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933"
     },
     "maxiKeepers": {
-        "arb_rewards_injector":"0xF23d8342881eDECcED51EA694AC21C2B68440929"
-    },
-    "one_inch":{
-        "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
-    },
-    "mimic": {
-        "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
-        "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
-        "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
-        "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
-        "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
-
+        "gaugeRewardsInjectors": {
+            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929"
+        },
+        "one_inch": {
+            "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+        },
+        "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+        }
     }
 }
