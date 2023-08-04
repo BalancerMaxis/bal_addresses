@@ -1,74 +1,199 @@
-
 import json
-from web3 import Web3
+from .errors import MultipleMatchesError, NoResultError
+from typing import Dict
+from typing import Optional
+
 import requests
-from dotmap import DotMap
+from munch import Munch
+from web3 import Web3
 
-## Expose some config for bootstrapping, maybe there is a better way to do this without so many github hits but allowing this to be used before invoking the class.
-chains = requests.get(f"https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json").json()
-CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
-SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
+GITHUB_MONOREPO_RAW = (
+    "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
+)
+GITHUB_MONOREPO_NICE = (
+    "https://github.com/balancer/balancer-v2-monorepo/blob/master"
+)
+GITHUB_DEPLOYMENTS_RAW = (
+    "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
+)
+GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
+GITHUB_RAW_OUTPUTS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
+)
+GITHUB_RAW_EXTRAS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
+)
+ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
 
 
-### Main class
 class AddrBook:
-    chains = DotMap(requests.get(
-        f"https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json").json())
-    GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
-    GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
-    GITHUB_DEPLOYMENTS_RAW = "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
-    GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
-    GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-    ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
-    CHAIN_IDS_BY_NAME = chains["CHAIN_IDS_BY_NAME"]
-    SCANNERS_BY_CHAIN = chains["SCANNERS_BY_CHAIN"]
-
-    fullbook = requests.get(f"{GITHUB_RAW_OUTPUTS}/addressbook.json").json()
-    fx_description_by_name = requests.get("https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json").json
-
-    ### Errors
-    class MultipleMatchesError(Exception):
-        pass
-
-    class NoResultError(Exception):
-        pass
+    chains = Munch.fromDict(requests.get(
+        "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
+    ).json())
+    fx_description_by_name = Munch.fromDict(requests.get(
+        "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
+    ).json())
+    chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
 
     def __init__(self, chain, jsonfile=False):
-        self.jsonfile=jsonfile
+        self.jsonfile = jsonfile
         self.chain = chain
-        self.dotmap = self.build_dotmap()
-        deployments = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/deployments.json").json()
+        deployments = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
         try:
-            dold =  deployments["old"][chain]
-        except:
+            dold = deployments["old"][chain]
+        except Exception:
             dold = {}
         try:
             dactive = deployments["active"][chain]
-        except:
+        except Exception:
             dactive = {}
-        self.deployments_only = DotMap(dactive | dold)
+        self.deployments_only = Munch.fromDict(dactive | dold)
         try:
-            self.flatbook = requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}.json").json()
-            self.reversebook = DotMap(requests.get(f"{self.GITHUB_RAW_OUTPUTS}/{chain}_reverse.json").json())
+            self.flatbook = self.generate_flatbook()
+            self.reversebook = {value: key for key, value in self.flatbook.items()}
         except:
-            self.flatbook = {"zero/zero": self.ZERO_ADDRESS }
-            self.reversebook = {self.ZERO_ADDRESS: "zero/zero"}
+            self.flatbook = {}
+            self.reversebook = {}
+        self._deployments = None
+        self._extras = None
+        self._multisigs = None
+        self._eoas = None
+
+    @property
+    def deployments(self) -> Optional[Munch]:
+        """
+        Get the deployments for all chains in a form of a Munch object
+        """
+        if self._deployments is not None:
+            return self._deployments
+        else:
+            self.populate_deployments()
+        return self._deployments
+
+    @property
+    def extras(self) -> Optional[Munch]:
+        """
+        Get the extras for all chains in a form of a Munch object
+        """
+        if self._extras is not None:
+            return self._extras
+        else:
+            self.populate_extras()
+        return self._extras
+
+    @property
+    def EOAs(self) -> Optional[Munch]:
+        """
+        Get the extras for all chains in a form of a Munch object
+        """
+        if self._eoas is not None:
+            return self._eoas
+        else:
+            self.populate_eoas()
+        return self._eoas
+
+    @property
+    def multisigs(self) -> Optional[Munch]:
+        """
+        Get the multisigs for all chains in a form of a Munch object
+        """
+        if self._multisigs is not None:
+            return self._multisigs
+        else:
+            self.populate_multisigs()
+        return self._multisigs
+
+    def populate_deployments(self) -> None:
+        chain_deployments = requests.get(
+            f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{self.chain}.json"
+        )
+        if chain_deployments.ok:
+            # Remove date from key
+            processed_deployment = self._process_deployment(chain_deployments.json())
+            self._deployments = Munch.fromDict(processed_deployment)
+        else:
+            print(f"Warning: No deploys for chain {self.chain}")
+            return Munch.fromDict({})
+
+    def _process_deployment(self, deployment: Dict) -> Dict:
+        """
+        Process deployment to remove date from key and replace - with _
+        """
+        processed_deployment = {}
+        for k, v in deployment.items():
+            # lstrip date in format YYYYMMDD-:
+            # Change all - to underscores
+            deployment_identifier = k.lstrip("0123456789-").replace("-", "_")
+            # Flatten contracts list to dict with name as key
+            if isinstance(v.get('contracts'), list):
+                contracts = {contract['name']: {**contract, 'deployment': k, 'path': f"{k}/{contract['name']}"} for
+                             contract in v['contracts']}
+                contracts_by_contract = {contract: data for contract, data in contracts.items()}
+                v["contracts"] = contracts_by_contract
+            processed_deployment[deployment_identifier] = v
+        return processed_deployment
+
+    def populate_extras(self) -> None:
+        chain_extras = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/{self.chain}.json"
+        )
+        if chain_extras.ok:
+            self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
+        else:
+            print(f"Warning: No extras for chain {self.chain}, extras must be added in extras/chain.json")
+            self._extras = Munch.fromDict({})
+    def populate_eoas(self) -> None:
+        eoas = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/signers.json"
+        )
+        if eoas.ok:
+            self._eoas = Munch.fromDict(self.checksum_address_dict(eoas.json()))
+
+    def populate_multisigs(self) -> None:
+        msigs = requests.get(
+            f"{GITHUB_RAW_EXTRAS}/multisigs.json"
+        ).json()
+        if msigs.get(self.chain):
+            self._multisigs = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+        else:
+            print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
+            self._multisigs = Munch.fromDict({})
+
 
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
-            raise self.MultipleMatchesError(f"{substr} Multiple matches found: {results}")
-        if  len(results) < 1:
-            raise self.NoResultError(f"{substr}")
-        return results[0]
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise NoResultError(f"{substr}")
+        return Munch.fromDict({
+            "path": results[0],
+            "address": self.flatbook[results[0]]
+        })
+
+    def search_unique_deployment(self, substr):
+        results = [s for s in self.deployments_only.keys() if substr in s]
+        if len(results) > 1:
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise NoResultError(f"{substr}")
+        return Munch.fromDict({
+            "deployment": results[0],
+            "addresses_by_contract": self.deployments_only[results[0]]
+        })
+
+    def search_many_deployments(self, substr):
+        search = [s for s in self.deployments_only.keys() if substr in s]
+        return search
 
     def search_many(self, substr):
-        search = [s for s in self.flatbook.keys() if substr in s]
-        results = {key: self.flatbook[key] for key in search if key in self.flatbook}
-        return results
+        output = []
+        results = {path: address for path, address in self.flatbook.items() if substr in path}
+        outputs = [Munch.fromDict({"path": path, "address": address}) for path, address in results.items()]
+        return outputs
 
     def latest_contract(self, contract_name):
         deployments = []
@@ -76,36 +201,37 @@ class AddrBook:
             if contract_name in contractData.keys():
                 deployments.append(deployment)
         if len(deployments) == 0:
-            raise self.NoResultError(contract_name)
+            raise NoResultError(contract_name)
         deployments.sort(reverse=True)
-        return self.deployments_only[deployments[0]][contract_name]
+        address =  self.deployments_only[deployments[0]][contract_name]
+        return Munch.fromDict({
+            "path": self.reversebook[address],
+            "address": address
+        })
 
 
+    @staticmethod
     def checksum_address_dict(addresses):
         """
         convert addresses to their checksum variant taken from a (nested) dict
         """
         checksummed = {}
         for k, v in addresses.items():
-            if isinstance(v, str):
-                checksummed[k] = Web3.toChecksumAddress(v)
-            elif isinstance(v, dict):
+            if isinstance(v, dict):
                 checksummed[k] = checksum_address_dict(v)
+            elif isinstance(v, str):
+                try:
+                    checksummed[k] = Web3.toChecksumAddress(v)
+                except:
+                    checksummed[k] = v
             else:
                 print(k, v, "formatted incorrectly")
+                checksummed[k] = v
         return checksummed
-
-    def build_dotmap(self):
-        if self.jsonfile:
-            with open(self.jsonfile, "r") as f:
-                fullbook = json.load(f)
-        else:
-            fullbook = self.fullbook
-        return(DotMap(fullbook["active"].get(self.chain, {}) | fullbook["old"].get(self.chain, {})))
-        ### Checksum one more time for good measure
 
     def flatten_dict(self, d, parent_key='', sep='/'):
         items = []
+        d = dict(d)
         for k, v in d.items():
             new_key = f"{parent_key}{sep}{k}" if parent_key else k
             if isinstance(v, dict):
@@ -115,25 +241,36 @@ class AddrBook:
         return dict(items)
 
     def generate_flatbook(self):
-        print(f"Generating Addressbook for {self.chain}")
-        monorepo_addresses = {}
-        dupContracts = {}
-        ab = dict(self.dotmap)
-        return(self.flatten_dict(ab))
+        flatbook = {}
+        self.populate_eoas()
+        self.populate_deployments()
+        self.populate_multisigs()
+        self.populate_extras()
+        for deployment, ddata in self.deployments.items():
+            for contract, infodict in ddata["contracts"].items():
+                flatbook[infodict.path] = infodict.address
+        flatbook = {**flatbook,
+                    **self.flatten_dict(self.extras)}
+        flatbook["multisigs"] = self.flatten_dict(self.multisigs)
+        flatbook["EOA"] = self.flatten_dict(self.EOAs)
+        return self.flatten_dict(flatbook)
 
 
-
-#  Version outside class to allow for recursion on the uninitialized class
+# Version outside class to allow for recursion on the uninitialized class
 def checksum_address_dict(addresses):
     """
     convert addresses to their checksum variant taken from a (nested) dict
     """
     checksummed = {}
     for k, v in addresses.items():
-        if isinstance(v, str):
-            checksummed[k] = Web3.toChecksumAddress(v)
-        elif isinstance(v, dict):
+        if isinstance(v, dict):
             checksummed[k] = checksum_address_dict(v)
+        elif isinstance(v, str):
+            try:
+                checksummed[k] = Web3.toChecksumAddress(v)
+            except:
+                checksummed[k] = v
         else:
             print(k, v, "formatted incorrectly")
+            checksummed[k] = v
     return checksummed

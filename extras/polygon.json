@@ -10,5 +10,22 @@
     },
     "across": {
         "spoke_pool": "0x69B5c72837769eF1e7C164Abc6515DcFf217F920"
+    },
+    "chainlink": {
+        "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
+    },
+    "maxiKeepers": {
+        "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F"
+    },
+    "one_inch":{
+        "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+    },
+    "mimic": {
+        "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+        "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+        "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+        "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+        "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+
     }
 }

@@ -4,6 +4,7 @@
   "stopAmplificationParameterUpdate()": "Stop A-factor change leaving the A-Factor at its currently set value on a stableswap pool that delegated ownership to Balancer Governance: 0xba1ba1...",
   "pause()": "Stops trading in a pool.  Proportinal withdraws are still possible.",
   "disable()": "Disables new creation of pools from a pool factory.",
+  "disableRecoveryMode()": "Removes a pool from [Recovery Mode](https://medium.com/@0xSkly/inside-balancer-code-recoverymode-9af34ce5ab72).",
   "enableRecoveryMode()": "Puts a pool into [Recovery Mode](https://medium.com/@0xSkly/inside-balancer-code-recoverymode-9af34ce5ab72).",
   "setTargets(uint256,uint256)": "Allows setting the targets of the linear pools. Targets determine the ideal amount of unwrapped tokens.",
   "exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))": "Allow a relayer to remove liquidity from a pool on the user's behalf.  [Relayer permissions notes](https://github.com/BalancerMaxis/multisig-ops/blob/staging/docs/Authorizer/vault_permissions.md).",
@@ -38,5 +39,8 @@
   "add_gauge(address,int128)": "Add a gauge to veBAL, allowing it to be voted on to receive BAL emissions.",
   "mint(address,uint256)": "Mint BAL tokens up to the current max supply as defined by the [emissions schedule.](https://docs.balancer.fi/concepts/governance/bal-token.html#supply-inflation-schedule)",
   "addZKSyncGauge(address)": "Adds a gauge to veBAL so it can be voted on to receive BAL emissions.",
-  "addGnosisGauge(address)":"Adds a gauge to veBAL so it can be voted on to receive BAL emissions."
+  "addGnosisGauge(address)":"Adds a gauge to veBAL so it can be voted on to receive BAL emissions.",
+  "add_reward(address,address)": "Enables a reward token for direct incentives on a gauge.",
+  "renameProtocolId(uint256,string)": "Rename a protocolId in the linear pool protocol registry.",
+  "registerProtocolId(uint256,string)": "Registers a protocol in the linear pool protocol registry."
 }

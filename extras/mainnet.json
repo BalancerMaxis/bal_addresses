@@ -66,6 +66,9 @@
         "vault_relayer": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
         "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41"
     },
+    "one_inch":{
+        "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+    },
     "uniswap": {
         "factoryV3": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
         "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
@@ -127,7 +130,18 @@
     "gelatoW3f": {
         "gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225"
     },
+    "tokenLogic": {
+        "aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1"
+    },
     "payees": {
         "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
+    },
+    "mimic": {
+        "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+        "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+        "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+        "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+        "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+
     }
 }
