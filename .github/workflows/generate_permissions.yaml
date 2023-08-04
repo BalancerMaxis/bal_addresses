@@ -35,7 +35,7 @@ jobs:
       with:
         commit-message: "Scheduled update from changes to monorepo"
         title: "Scheduled update from changes to monorepo"
-
+        branch: "gha-permissions"
         reviewers: "Tritum-VLK"
         assignees: "Tritum-VLK"
         labels: "Automatic"
