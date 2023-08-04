@@ -33,17 +33,19 @@
             "gateway_router": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933"
          },
          "maxiKeepers": {
-            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929"
-         },
-         "one_inch": {
-            "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
-         },
-         "mimic": {
-            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
-            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
-            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
-            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
-            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+            "gaugeRewardsInjectors": {
+               "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929"
+            },
+            "one_inch": {
+               "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
+            },
+            "mimic": {
+               "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+               "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+               "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+               "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+               "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+            }
          },
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7",
@@ -637,7 +639,12 @@
          },
          "tokens": {},
          "maxiKeepers": {
-            "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340"
+            "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
+            "maxiKeepers": {
+               "gaugeRewardsInjectors": {
+                  "usdc": "0xA6E7840Fc8193cFeBDdf177fa410038E5DD08f7A"
+               }
+            }
          },
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0x4C32a8a8fDa4E24139B51b456B42290f51d6A1c4",
@@ -753,6 +760,7 @@
             "VotingEscrowDelegationProxy": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD"
          },
          "multisigs": {
+            "blab_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
             "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
             "lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
             "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a"
@@ -1010,12 +1018,14 @@
             "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
          },
          "maxiKeepers": {
-            "avax_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
-            "usdc_rewards_injector": "0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
-            "qi_rewards_injector": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
-            "yyavax_rewards_injector": "0x95008946F2773f24588AEEE44d643016381265FF",
-            "ggp_rewards_injector": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
-            "ankr_rewards_injector": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+            "gaugeRewardsInjectors": {
+               "avax": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
+               "usdc": "0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
+               "qi": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
+               "yyavax": "0x95008946F2773f24588AEEE44d643016381265FF",
+               "ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
+               "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+            }
          },
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a",
@@ -1615,6 +1625,9 @@
             "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
             "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
             "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
+         },
+         "tokenLogic": {
+            "aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1"
          },
          "payees": {
             "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
