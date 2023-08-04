@@ -265,6 +265,7 @@
    "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A": "maxiKeepers/oldGasStation",
    "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255": "maxiKeepers/veBalFeeInjector",
    "0xdDd5FF0E581f097573B13f247F6BE736f602F839": "maxiKeepers/LZRateProviderPoker",
+   "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1": "tokenLogic/aaveDelegate",
    "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C": "payees/karpatkey_payments",
    "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7": "mimic/smartvault",
    "0xdF818E63341767d5F5A9827088f1892e9C604A2D": "mimic/claimer",
