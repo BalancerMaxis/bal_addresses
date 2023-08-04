@@ -402,9 +402,9 @@
             "VotingEscrowDelegationProxy": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
          },
          "multisigs": {
-            "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
+            "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
             "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
-            "blab_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
+            "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
          },
          "EOA": {
             "maxis": {
@@ -576,11 +576,11 @@
             "VotingEscrowDelegationProxy": "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7"
          },
          "multisigs": {
+            "blabs_ops": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
             "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
             "emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
             "fees": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
-            "feesManager": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
-            "lm": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
+            "feesManager": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
          },
          "EOA": {
             "maxis": {
@@ -1132,6 +1132,7 @@
             "VotingEscrowDelegationProxy": "0x0c6052254551EAe3ECac77B01DFcf1025418828f"
          },
          "multisigs": {
+            "blabs_ops": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
             "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
             "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
             "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
