@@ -143,7 +143,7 @@
    "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB": "20230712-child-chain-gauge-checkpointer/BalancerRelayer",
    "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A": "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory",
    "0x0000000000000000000000000000000000000000": "zero/zero",
-   "0x040E995520F92F96142d1a76c16D4af21A2eFDE7": "multisigs/blab_ops",
+   "0x040E995520F92F96142d1a76c16D4af21A2eFDE7": "multisigs/maxi_ops",
    "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emergency/solarcurve",
    "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17": "EOA/emergency/zendragon",
    "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/emergency/zekraken",
