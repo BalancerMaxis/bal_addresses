@@ -124,8 +124,8 @@
         "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
         "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
     },
-    "maxiGelatoW3F": {
-        "gearboxAutoBriberV0": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79"
+    "gelatoW3f": {
+        "gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225"
     },
     "payees": {
         "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
