@@ -1033,10 +1033,6 @@
             "MockShareToken": "0x192E67544694a7bAA2DeA94f9B1Df58BB3395A12",
             "MockSiloLinearPool": "0x74CBfAF94A3577c539a9dCEE9870A6349a33b34f"
          },
-         "20230529-avalanche-root-gauge-factory": {
-            "AvalancheRootGaugeFactory": "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC",
-            "AvalancheRootGauge": "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f"
-         },
          "20230409-yearn-linear-pool-v2": {
             "YearnLinearPoolFactory": "0x5F5222Ffa40F2AEd6380D022184D6ea67C776eE0",
             "MockYearnTokenVault": "0x806E02Dea8d4a0882caD9fA3Fa75B212328692dE",
@@ -2040,6 +2036,10 @@
          },
          "20230109-gauge-adder-v3": {
             "GaugeAdder": "0x5efBb12F01f27F0E020565866effC1dA491E91A4"
+         },
+         "20230529-avalanche-root-gauge-factory": {
+            "AvalancheRootGaugeFactory": "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC",
+            "AvalancheRootGauge": "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f"
          },
          "20230527-l2-gauge-checkpointer": {
             "L2GaugeCheckpointer": "0x343688C5cB92115a52cA485af7f62B4B7A2e9CcC"
