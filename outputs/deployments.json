@@ -251,6 +251,10 @@
          "20230223-protocol-id-registry": {
             "ProtocolIdRegistry": "0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68"
          },
+         "20230911-base-root-gauge-factory": {
+            "BaseRootGaugeFactory": "0x8e3B64b3737097F283E965869e3503AA20F31E4D",
+            "BaseRootGauge": "0x9a4d642b9876231BB9062559521A48097abFe6CB"
+         },
          "20230217-gnosis-root-gauge-factory": {
             "GnosisRootGaugeFactory": "0x2a18B396829bc29F66a1E59fAdd7a0269A6605E8",
             "GnosisRootGauge": "0x05277CE7D1e365d660624612d8b8b9B55bFD4518"
@@ -280,6 +284,10 @@
          },
          "20211202-no-protocol-fee-lbp": {
             "NoProtocolFeeLiquidityBootstrappingPoolFactory": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
+         },
+         "20230811-avalanche-root-gauge-factory-v2": {
+            "AvalancheRootGaugeFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+            "AvalancheRootGauge": "0x3Eae4a1c2E36870A006E816930d9f55DF0a72a13"
          },
          "20210418-vault": {
             "Vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
@@ -706,7 +714,7 @@
             "TestBalancerToken": "0xA1Fa945425eD2e08Acb932E000bCc2f21B21588A"
          },
          "00000000-tokens": {
-            "BAL": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
+            "BAL": "0x4158734d47fc9692176b5085e0f52ee0da5d47f1",
             "WETH": "0x4200000000000000000000000000000000000006"
          },
          "20230409-erc4626-linear-pool-v4": {
@@ -762,8 +770,8 @@
             "MockManagedPool": "0xE50AD96Af9370D05D3C1cE85F17C31557B29C4Ee"
          },
          "20230316-child-chain-gauge-factory-v2": {
-            "ChildChainGauge": "0x59562f93c447656F6E4799fC1FC7c3d977C3324F",
-            "ChildChainGaugeFactory": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95"
+            "ChildChainGauge": "0x9f7E65887413a8497b87bA2058cE6E4Ef4B37013",
+            "ChildChainGaugeFactory": "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f"
          },
          "20230526-gauge-working-balance-helper": {
             "GaugeWorkingBalanceHelper": "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48"
@@ -772,7 +780,7 @@
             "BalancerQueries": "0x300Ab2038EAc391f26D9F895dc61F8F66a548833"
          },
          "20230316-l2-balancer-pseudo-minter": {
-            "L2BalancerPseudoMinter": "0xc7E5ED1054A24Ef31D827E6F86caA58B3Bc168d7"
+            "L2BalancerPseudoMinter": "0x0c5538098EBe88175078972F514C9e101D325D4F"
          },
          "20230711-composable-stable-pool-v5": {
             "ComposableStablePoolFactory": "0x8df317a729fcaA260306d7de28888932cb579b88",
