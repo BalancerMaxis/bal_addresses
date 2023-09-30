@@ -5,9 +5,10 @@ from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW
 from web3 import Web3
 
 INFURA_KEY = os.getenv('INFURA_KEY')
+ALCHEMY_KEY = os.getenv('ALCHEMY_KEY')
 
 w3_by_chain = {
-    "base": Web3(Web3.HTTPProvider("https://developer-access-mainnet.base.org")),
+    "base": Web3(Web3.HTTPProvider(f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")),
     "gnosis": Web3(Web3.HTTPProvider(f"https://gnosischain-rpc.gateway.pokt.network")),
     "zkevm": Web3(Web3.HTTPProvider(f"https://zkevm-rpc.com")),
     "avalanche": Web3(Web3.HTTPProvider(f"https://api.avax.network/ext/bc/C/rpc")),

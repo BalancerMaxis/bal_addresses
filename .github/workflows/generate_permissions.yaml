@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
          INFURA_KEY: ${{ secrets.INFURA_KEY }}
+         ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
     steps:
 
     - name: Checkout code
