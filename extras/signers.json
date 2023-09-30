@@ -1,12 +1,12 @@
 {
   "maxis": {
-    "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
     "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
     "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
     "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
     "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
     "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-    "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F"
+    "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+    "shakotan": "0x8053484489b110181a6dba0b59dda887e433f470"
   },
   "blabs_ops": {
     "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
@@ -17,7 +17,6 @@
     "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
   },
   "maxi_deployers": {
-    "solarcurve": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
     "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
     "mikeb": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
     "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
@@ -46,5 +45,9 @@
   },
   "ozDefender": {
     "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+  },
+  "emeritus": {
+    "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+    "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
   }
 }
