@@ -872,6 +872,12 @@
             "zero": "0x0000000000000000000000000000000000000000"
          },
          "tokens": {},
+         "maxiKeepers": {
+            "gaugeRewardsInjectors": {
+               "usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+               "matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02"
+            }
+         },
          "20230410-aave-linear-pool-v5": {
             "AaveLinearPoolFactory": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
             "MockAaveLendingPool": "0x161f4014C27773840ccb4EC1957113e6DD028846",
@@ -2320,7 +2326,8 @@
             "fees": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
             "feeManager": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
             "emergency": "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
-            "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892"
+            "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
+            "maxi_ops": "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD"
          },
          "EOA": {
             "maxis": {
