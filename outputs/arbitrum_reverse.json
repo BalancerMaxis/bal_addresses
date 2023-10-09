@@ -134,6 +134,7 @@
    "0x7c68c42De679ffB0f16216154C996C354cF1161B": "multisigs/feeManager",
    "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D": "multisigs/emergency",
    "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892": "multisigs/blabs_ops",
+   "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD": "multisigs/maxi_ops",
    "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17": "EOA/emergency/zendragon",
    "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/emergency/zekraken",
    "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D": "EOA/maxi_deployers/mikeb",
