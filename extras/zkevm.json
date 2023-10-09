@@ -1,4 +1,12 @@
 {
-    "zero": {"zero": "0x0000000000000000000000000000000000000000"},
-    "tokens": {}
+    "zero": {
+        "zero": "0x0000000000000000000000000000000000000000"
+    },
+    "tokens": {},
+    "maxiKeepers": {
+        "gaugeRewardsInjectors": {
+            "usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
+            "matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02"
+        }
+    }
 }
