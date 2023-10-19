@@ -134,7 +134,8 @@
         "aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1"
     },
     "payees": {
-        "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C"
+        "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C",
+        "hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15"
     },
     "mimic": {
         "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
