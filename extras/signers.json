@@ -53,5 +53,12 @@
   "emeritus": {
     "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
     "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
+  },
+  "kyc": {
+    "Arbitrum": {
+      "kycsigner1": "0x5c43d19ee1b9f93143c7c258501ef3ada1204524",
+      "kycsigner2": "0x224d2324c24a066e14831922fec4e052dd4860a3",
+      "kycsigner3": ""
+    }
   }
 }
