@@ -46,6 +46,10 @@
   "ozDefender": {
     "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
   },
+  "keepers": {
+    "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+    "github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f"
+  },
   "emeritus": {
     "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
     "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
