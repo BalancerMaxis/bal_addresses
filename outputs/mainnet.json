@@ -274,6 +274,7 @@
    "gelatoW3f/gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225",
    "tokenLogic/aaveDelegate": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
    "payees/karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C",
+   "payees/hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15",
    "mimic/smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
    "mimic/claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
    "mimic/bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
@@ -326,6 +327,8 @@
    "EOA/dao/nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
    "EOA/dao/davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650",
    "EOA/ozDefender/checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+   "EOA/keepers/oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+   "EOA/keepers/github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f",
    "EOA/emeritus/solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
    "EOA/emeritus/solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
 }
