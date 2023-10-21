@@ -57,7 +57,7 @@
   "kyc": {
     "Arbitrum": {
       "kycsigner1": "0x5c43d19ee1b9f93143c7c258501ef3ada1204524",
-      "kycsigner2": "0x224d2324c24a066e14831922fec4e052dd4860a3",
+      "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
       "kycsigner3": "0x6edbc5bb151d0bfb203a48b378e88dc5912318f1"
     }
   }
