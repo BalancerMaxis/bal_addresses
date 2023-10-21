@@ -96,6 +96,8 @@
    "EOA/dao/nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
    "EOA/dao/davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650",
    "EOA/ozDefender/checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+   "EOA/keepers/oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+   "EOA/keepers/github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f",
    "EOA/emeritus/solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
    "EOA/emeritus/solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
 }
