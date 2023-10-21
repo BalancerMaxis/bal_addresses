@@ -74,6 +74,7 @@
    "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498": "mimic/bptSwapper",
    "0xd712A863766dE7e7cA13289A97997E01832A6571": "mimic/oneinchSwapper",
    "0x95676AaEcD59B19C5B79008F86d3A291628b0947": "mimic/paraswapSwapper",
+   "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9": "maxiKeepers/gaugeRewardsInjectors/usdc_rewards_injector",
    "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962": "multisigs/emergency",
    "0x2a5AEcE0bb9EfFD7608213AE1745873385515c18": "multisigs/dao",
    "0x14969B55a675d13a1700F71A37511bc22D90155a": "multisigs/lm",
