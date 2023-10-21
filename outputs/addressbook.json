@@ -1248,6 +1248,11 @@
             "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
             "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
          },
+         "maxiKeepers": {
+            "gaugeRewardsInjectors": {
+               "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
+            }
+         },
          "20230314-batch-relayer-v5": {
             "BatchRelayerLibrary": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065",
             "BalancerRelayer": "0x3536fD480CA495Ac91E698A703248A8915c137a3"
