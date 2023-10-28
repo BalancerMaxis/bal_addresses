@@ -174,5 +174,8 @@
    "0xAc1aA53108712d7f38093A67d380aD54B562a650": "EOA/dao/davgarai",
    "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/oz_defender_checkpointer",
    "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
-   "0x6409C2C1aC1B26aaaEF982572efd38412075586D": "EOA/emeritus/solarcurve_deployer"
+   "0x6409C2C1aC1B26aaaEF982572efd38412075586D": "EOA/emeritus/solarcurve_deployer",
+   "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524": "EOA/kyc/Arbitrum/kycsigner1",
+   "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2": "EOA/kyc/Arbitrum/kycsigner2",
+   "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1": "EOA/kyc/Arbitrum/kycsigner3"
 }
