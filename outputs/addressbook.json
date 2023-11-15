@@ -332,10 +332,6 @@
             "MockShareToken": "0x192E67544694a7bAA2DeA94f9B1Df58BB3395A12",
             "MockSiloLinearPool": "0x74CBfAF94A3577c539a9dCEE9870A6349a33b34f"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0xf77018c0d817dA22caDbDf504C00c0d32cE1e5C2",
-            "BalancerRelayer": "0xfeA793Aa415061C483D2390414275AD314B3F621"
-         },
          "multisigs": {
             "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
             "dao": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
@@ -371,7 +367,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -397,6 +394,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -478,7 +478,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -504,6 +505,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -694,10 +698,6 @@
             "MockShareToken": "0xB8BDCbF8ccf443D055d5Ffe1d8154fAc8187fC94",
             "MockSiloLinearPool": "0xBbb66a4fFf47701EC6c528dB615f5E7bF1AbDAAF"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
-            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
-         },
          "multisigs": {
             "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
             "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
@@ -724,7 +724,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -750,6 +751,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -917,10 +921,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x4271de2595c3d85d2D455C5778adF2d7Ad54322C",
-            "BalancerRelayer": "0xd18d5D377eb23362e54Fa496597d7E962d56C554"
-         },
          "multisigs": {
             "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
             "dao": "0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85",
@@ -950,7 +950,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -976,6 +977,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -1160,10 +1164,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
-            "BalancerRelayer": "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
-         },
          "multisigs": {
             "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
             "dao": "0xaF23DC5983230E9eEAf93280e312e57539D098D0",
@@ -1195,7 +1195,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -1221,6 +1222,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -1370,10 +1374,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
-            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
-         },
          "multisigs": {
             "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
             "fees": "0x09Df1626110803C7b3b07085Ef1E053494155089",
@@ -1403,7 +1403,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -1429,6 +1430,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -1573,10 +1577,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0x300Ab2038EAc391f26D9F895dc61F8F66a548833"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025",
-            "BalancerRelayer": "0x76f7204B62f554b79d444588EDac9dfA7032c71a"
-         },
          "multisigs": {
             "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
             "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
@@ -1604,7 +1604,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -1630,6 +1631,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -1765,10 +1769,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
-            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
-         },
          "multisigs": {
             "blabs_ops": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
             "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
@@ -1797,7 +1797,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -1823,6 +1824,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2011,10 +2015,6 @@
             "MockShareToken": "0x0c6052254551EAe3ECac77B01DFcf1025418828f",
             "MockSiloLinearPool": "0xA149CF2D795AaB83a15673f5Beade9361e4e3F65"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x5F6848976C2914403B425F18B589A65772F082E3",
-            "BalancerRelayer": "0x6d5342d716c13d9a3F072a2B11498624ADe27f90"
-         },
          "multisigs": {},
          "EOA": {
             "maxis": {
@@ -2037,7 +2037,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2063,6 +2064,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2201,10 +2205,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065",
-            "BalancerRelayer": "0x3536fD480CA495Ac91E698A703248A8915c137a3"
-         },
          "multisigs": {
             "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
             "dao": "0x2a5AEcE0bb9EfFD7608213AE1745873385515c18",
@@ -2234,7 +2234,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2260,6 +2261,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2302,8 +2306,8 @@
             "ChainlinkRateProviderFactory": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
          },
          "20230711-composable-stable-pool-v5": {
-            "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
-            "MockComposableStablePool": "0x7682e108Cd89d86303625c8478c21Ff86f401166"
+            "ComposableStablePoolFactory": "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4",
+            "MockComposableStablePool": "0xA76C92aaF1FE0f4c3be46edd1Ab020F5774eDf46"
          },
          "20230712-child-chain-gauge-checkpointer": {
             "BatchRelayerLibrary": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062",
@@ -2398,10 +2402,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0x809B79b53F18E9bc08A961ED4678B901aC93213a"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x54f8F9d28e26Fa5864cfA80f50A5Df95fD85f46a",
-            "BalancerRelayer": "0x4678731DC41142A902a114aC5B2F77b63f4a259D"
-         },
          "multisigs": {
             "blabs_ops": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
             "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
@@ -2431,7 +2431,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2457,6 +2458,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2548,10 +2552,6 @@
          "20220721-balancer-queries": {
             "BalancerQueries": "0x239e55F427D44C3cc793f49bFB507ebe76638a2b"
          },
-         "20230314-batch-relayer-v5": {
-            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
-            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
-         },
          "multisigs": {},
          "EOA": {
             "maxis": {
@@ -2574,7 +2574,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2600,6 +2601,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2662,7 +2666,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2688,6 +2693,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2739,7 +2747,8 @@
             "maxi_deployers": {
                "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
                "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb"
+               "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+               "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
             },
             "emergency": {
                "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -2765,6 +2774,9 @@
             },
             "ozDefender": {
                "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
+            },
+            "maxiPay": {
+               "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
             },
             "keepers": {
                "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -2953,6 +2965,10 @@
             "MockSilo": "0xE719Aef17468c7e10c0c205be62C990754DFF7E5",
             "MockShareToken": "0xBc4099300E69Ff4e52F3b18728054EF00449b9e5",
             "MockSiloLinearPool": "0x395d8A1D9aD82B5ABE558F8AbbFe183B27138af4"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0xf77018c0d817dA22caDbDf504C00c0d32cE1e5C2",
+            "BalancerRelayer": "0xfeA793Aa415061C483D2390414275AD314B3F621"
          }
       },
       "polygon": {
@@ -3061,6 +3077,10 @@
          },
          "20220817-aave-rebalanced-linear-pool": {
             "AaveLinearPoolFactory": "0x8df6EfEc5547e31B0eb7d1291B511FF8a2bf987c"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x4271de2595c3d85d2D455C5778adF2d7Ad54322C",
+            "BalancerRelayer": "0xd18d5D377eb23362e54Fa496597d7E962d56C554"
          }
       },
       "arbitrum": {
@@ -3172,6 +3192,10 @@
          },
          "20220817-aave-rebalanced-linear-pool": {
             "AaveLinearPoolFactory": "0xe2E901AB09f37884BA31622dF3Ca7FC19AA443Be"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
+            "BalancerRelayer": "0x598ce0f1ab64B27256759ef99d883EE51138b9bd"
          }
       },
       "optimism": {
@@ -3254,6 +3278,10 @@
          },
          "20220817-aave-rebalanced-linear-pool": {
             "AaveLinearPoolFactory": "0x994086630773dC6cB54D3A5E0Ef0963532789E75"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
+            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
          }
       },
       "avalanche": {
@@ -3278,6 +3306,10 @@
          },
          "00000000-avax-tokens": {
             "BAL": "0x8239a6b877804206c7799028232a7188da487cec"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
+            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
          }
       },
       "bsc": {
@@ -3321,6 +3353,10 @@
          },
          "20220817-aave-rebalanced-linear-pool": {
             "AaveLinearPoolFactory": "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
+            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
          }
       },
       "gnosis": {
@@ -3367,6 +3403,10 @@
             "MockAaveLendingPool": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
             "MockStaticAToken": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
             "MockAaveLinearPool": "0x581Ec1f5e7CeD12B186deaE32256AdB53BDd5B08"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065",
+            "BalancerRelayer": "0x3536fD480CA495Ac91E698A703248A8915c137a3"
          }
       },
       "goerli": {
@@ -3512,6 +3552,10 @@
             "MockSilo": "0x144245D4223FC7e4D463401a30522C960298a16e",
             "MockShareToken": "0x3eFCeb450fb799f67cd97cDC27a0F4Cd7B02B63B",
             "MockSiloLinearPool": "0x58cA9F130d2e27EC94d19e53a6BEb2C4084f2638"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
+            "BalancerRelayer": "0x03F1ab8b19bcE21EB06C364aEc9e40322572a1e9"
          }
       },
       "kovan": {
@@ -3611,12 +3655,26 @@
          },
          "20230109-gauge-adder-v3": {
             "GaugeAdder": "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x5F6848976C2914403B425F18B589A65772F082E3",
+            "BalancerRelayer": "0x6d5342d716c13d9a3F072a2B11498624ADe27f90"
          }
       },
       "zkevm": {
          "20230320-composable-stable-pool-v4": {
             "ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
             "MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0"
+         },
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0x54f8F9d28e26Fa5864cfA80f50A5Df95fD85f46a",
+            "BalancerRelayer": "0x4678731DC41142A902a114aC5B2F77b63f4a259D"
+         }
+      },
+      "base": {
+         "20230314-batch-relayer-v5": {
+            "BatchRelayerLibrary": "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025",
+            "BalancerRelayer": "0x76f7204B62f554b79d444588EDac9dfA7032c71a"
          }
       }
    }
