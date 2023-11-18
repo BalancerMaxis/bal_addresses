@@ -9,6 +9,10 @@
         "usdc": "0xA6E7840Fc8193cFeBDdf177fa410038E5DD08f7A",
         "gold": "0x79D0F97D4D8c1Dd30b1Ea09746dB8847036AD92d"
     }
+  },
+    "mimic": {
+      "smartVaultV2": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   }
+
 }
 

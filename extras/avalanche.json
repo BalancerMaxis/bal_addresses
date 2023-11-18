@@ -14,5 +14,9 @@
       "ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
       "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
     }
+  },
+   "mimic": {
+      "smartVaultV2": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   }
+
 }
