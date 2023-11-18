@@ -146,6 +146,11 @@
          "20221205-veboost-v2": {
             "VeBoostV2": "0x67F8DF125B796B05895a6dc8Ecf944b9556ecb0B"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0xeA66501dF1A00261E3bB79D1E90444fc6A186B62",
+            "BatchRelayerQueryLibrary": "0x481Ca759BABB6fF011E11890e183bE00de3714e7",
+            "BalancerRelayer": "0x35Cea9e57A393ac66Aaa7E25C391D52C74B5648f"
+         },
          "20230222-merkle-orchard-v2": {
             "MerkleOrchard": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7"
          },
@@ -351,6 +356,11 @@
          "20221205-veboost-v2": {
             "VeBoostV2": "0xd13AFc362F619b840C8f4AaC1D957cE219eF37Ca"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c",
+            "BatchRelayerQueryLibrary": "0xE21c4FF088d6829A8a4A17Ff2EE2c99CD202073e",
+            "BalancerRelayer": "0x7f36A11750F225De646b0de7b26BC74e797c310B"
+         },
          "20230222-merkle-orchard-v2": {
             "MerkleOrchard": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9"
          },
@@ -494,6 +504,11 @@
             "MockERC4626Token": "0x19DFEF0a828EEC0c85FbB335aa65437417390b85",
             "MockERC4626LinearPool": "0xc55eC796A4dEBE625d95436a3531f4950b11bdcf"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0xFf8b3b627a6959C85A8e82DBf8BEFB38579c2280",
+            "BatchRelayerQueryLibrary": "0xD5a7820Ad07ffB7F79bD5a36a53FaD651e557960",
+            "BalancerRelayer": "0xB1ED8d3b5059b3281D43306cC9D043cE8B22599b"
+         },
          "20230222-merkle-orchard-v2": {
             "MerkleOrchard": "0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68"
          },
@@ -614,6 +629,11 @@
             "ERC4626LinearPoolFactory": "0x7ADbdabaA80F654568421887c12F09E0C7BD9629",
             "MockERC4626Token": "0x4bE0E4d6184348c5BA845a4010528CFC779610b8",
             "MockERC4626LinearPool": "0x3f53A862919ccFA023CB6AcE91378a79Fb0F6Bf5"
+         },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
+            "BatchRelayerQueryLibrary": "0xc4367195532c9bF11d76D2b3DA9a208E5FB72Df3",
+            "BalancerRelayer": "0x9B892E515D2Ab8869F17488d64B3b918731cc70d"
          },
          "20230222-merkle-orchard-v2": {
             "MerkleOrchard": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
@@ -736,6 +756,11 @@
             "MockERC4626Token": "0x4bE0E4d6184348c5BA845a4010528CFC779610b8",
             "MockERC4626LinearPool": "0x2DA61Ef3Cdcb97efb0f7099c02527fabFe94Dee5"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0xA69E0Ccf150a29369D8Bbc0B3f510849dB7E8EEE",
+            "BatchRelayerQueryLibrary": "0xA876B2DBcC73f28347677c4Be589E11910CC10Eb",
+            "BalancerRelayer": "0x015ACA20a1422F3c729086c17f15F10e0CfbC75A"
+         },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310",
             "ChildChainGaugeFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc"
@@ -849,6 +874,11 @@
             "MockERC4626Token": "0x4638ab64022927C9bD5947607459D13f57f1551C",
             "MockERC4626LinearPool": "0x1CC2E10C486Ffb7228810B9c7C183d0CD92cdF44"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x82416Ce6eA7dD4923d4A3ED70a79B4A432a382C4",
+            "BatchRelayerQueryLibrary": "0x41f59C2B8a4d16dBbd900162450FB2B3Bf35cDa6",
+            "BalancerRelayer": "0x7C3C773C878d2238a9b64d8CEE02377BF07ED06a"
+         },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x9f7E65887413a8497b87bA2058cE6E4Ef4B37013",
             "ChildChainGaugeFactory": "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f"
@@ -951,6 +981,11 @@
             "ERC4626LinearPoolFactory": "0x4507d91Cd2C0D51D9B4F30Bf0B93AFC938A70BA5",
             "MockERC4626Token": "0x2EbE41E1aa44D61c206A94474932dADC7D3FD9E3",
             "MockERC4626LinearPool": "0xEd3E2F496cbCd8e212192fb8D1499842f04A0D19"
+         },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x88ED12A90142fDBFe2a28f7d5b48927254C7e760",
+            "BatchRelayerQueryLibrary": "0x2F8BD5b2Efc56EF068d1647a92AeE4Aa2e42b43E",
+            "BalancerRelayer": "0xA084c11cb55e67C9becf9607f1DBB20ec4D5E7b2"
          },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8",
@@ -1099,6 +1134,11 @@
          "20221205-veboost-v2": {
             "VeBoostV2": "0x927906bbAc747c13c75F6447FE8abb490EAB456C"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0xEDFd0A7005A7c72c44Ff13bEa370c86A9D11beE1",
+            "BatchRelayerQueryLibrary": "0xCD2A81Af5d5B485164709dCC4b3791B9f504cFc6",
+            "BalancerRelayer": "0x7852fB9d0895e6e8b3EedA553c03F6e2F9124dF9"
+         },
          "20220530-preseeded-voting-escrow-delegation": {
             "PreseededVotingEscrowDelegation": "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f"
          },
@@ -1224,6 +1264,11 @@
          "20230613-balancer-pool-data-queries": {
             "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x8eA89804145c007e7D226001A96955ad53836087",
+            "BatchRelayerQueryLibrary": "0x884976294666ccF6dd61006BBcDafe74ca889504",
+            "BalancerRelayer": "0x2163c2FcD0940e84B8a68991bF926eDfB0Cd926C"
+         },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
             "ChildChainGaugeFactory": "0x83E443EF4f9963C77bd860f94500075556668cb8"
@@ -1337,6 +1382,11 @@
             "MockERC4626Token": "0x0c6052254551EAe3ECac77B01DFcf1025418828f",
             "MockERC4626LinearPool": "0xac4b72c01072A52b73ca71105504F1372eFcCE0d"
          },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x0c5538098EBe88175078972F514C9e101D325D4F",
+            "BatchRelayerQueryLibrary": "0x4Dbf624Ffc95ceD541e6C9E786AF87848dC3F3d9",
+            "BalancerRelayer": "0x8e620FfCa2580ed87241D7e10F85EE75d0a906F5"
+         },
          "20230316-child-chain-gauge-factory-v2": {
             "ChildChainGauge": "0x59562f93c447656F6E4799fC1FC7c3d977C3324F",
             "ChildChainGaugeFactory": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95"
@@ -1415,6 +1465,11 @@
          },
          "20230613-balancer-pool-data-queries": {
             "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
+         },
+         "20231031-batch-relayer-v6": {
+            "BatchRelayerLibrary": "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC",
+            "BatchRelayerQueryLibrary": "0x38939A6F9EBb39aaaF25E5627e60B3651868Fb4E",
+            "BalancerRelayer": "0xf41D6De4bbE9919d87BC1E5cc3335549e2A1A6c0"
          },
          "20230320-weighted-pool-v4": {
             "WeightedPoolFactory": "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a",
