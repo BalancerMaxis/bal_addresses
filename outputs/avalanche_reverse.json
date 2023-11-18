@@ -65,6 +65,7 @@
    "0x95008946F2773f24588AEEE44d643016381265FF": "maxiKeepers/gaugeRewardsInjectors/yyavax",
    "0x39C441560e83e02452e4B4789934aC031A85c1d5": "maxiKeepers/gaugeRewardsInjectors/ggp",
    "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f": "maxiKeepers/gaugeRewardsInjectors/ankr",
+   "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97": "mimic/smartVaultV2",
    "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6": "multisigs/fees",
    "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0": "multisigs/emergency",
    "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3": "multisigs/dao",
