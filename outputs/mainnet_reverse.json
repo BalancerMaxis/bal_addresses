@@ -278,6 +278,7 @@
    "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C": "payees/karpatkey_payments",
    "0x5CA24e2A586834A7B96216D68b26A82405e3DC15": "payees/hypernative_payments",
    "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7": "mimic/smartvault",
+   "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97": "mimic/smartVaultV2",
    "0xdF818E63341767d5F5A9827088f1892e9C604A2D": "mimic/claimer",
    "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498": "mimic/bptSwapper",
    "0xd712A863766dE7e7cA13289A97997E01832A6571": "mimic/oneinchSwapper",
