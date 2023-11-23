@@ -12,27 +12,25 @@ from bal_addresses import AddrBook
 deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
 basepath = deployments
 
+
 def main():
     # Get deployments
     active_deployments = []
     old_deployments = []
     ls = os.listdir(f"{basepath}/tasks")
     for path in ls:
-        if bool(re.search(r'^\d{8}', path)):
+        if bool(re.search(r"^\d{8}", path)):
             active_deployments.append(path)
 
     ls = os.listdir(f"{basepath}/tasks/deprecated")
     for path in ls:
-        if bool(re.search(r'^\d{8}', path)):
+        if bool(re.search(r"^\d{8}", path)):
             old_deployments.append(path)
 
     active = process_deployments(active_deployments, False)
     old = process_deployments(old_deployments, True)
 
-    results = {
-        "active": active,
-        "old": old
-    }
+    results = {"active": active, "old": old}
     with open("outputs/deployments.json", "w") as f:
         json.dump(results, f, indent=3)
     ### Add extras
@@ -60,12 +58,10 @@ def main():
         except:
             data = {}
         active[chain] = data | active[chain]
-    results = {
-        "active": active,
-        "old": old
-    }
+    results = {"active": active, "old": old}
     with open("outputs/addressbook.json", "w") as f:
         json.dump(results, f, indent=3)
+
 
 def process_deployments(deployments, old=False):
     result = {}
@@ -74,8 +70,7 @@ def process_deployments(deployments, old=False):
             path = Path(f"{basepath}/tasks/deprecated/{task}/output")
         else:
             path = Path(f"{basepath}/tasks/{task}/output")
-
-        for file in list(path.glob("*.json")):
+        for file in list(sorted(path.glob("*.json"))):
             chain = file.stem
             if chain not in result.keys():
                 result[chain] = {}
