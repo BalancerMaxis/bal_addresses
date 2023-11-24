@@ -33,7 +33,6 @@ w3_by_chain = {
 def build_chain_permissions_list(chain_name):
     a = AddrBook(chain_name)
     results = {}
-    address_names = a.reversebook
     action_ids_list = (
         f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
     )
@@ -49,8 +48,8 @@ def build_chain_permissions_list(chain_name):
     input = result.json()
     for deployment, contracts in input.items():
         print(f"Processing {deployment}")
-        for contract, data in contracts.items():
-            for fx, action_id in data["actionIds"].items():
+        for data in contracts.values():
+            for action_id in data["actionIds"].values():
                 if action_id in results:
                     continue  # already have data
                 numMembers = authorizer.functions.getRoleMemberCount(action_id).call()
