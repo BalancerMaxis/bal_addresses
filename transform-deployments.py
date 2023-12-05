@@ -6,8 +6,14 @@
 import os
 import re
 import json
+import urllib.request
 from pathlib import Path
+
+import pandas as pd
+import requests
+
 from bal_addresses import AddrBook
+
 
 deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
 basepath = deployments
@@ -57,6 +63,15 @@ def main():
                 data = AddrBook.checksum_address_dict(data)
         except:
             data = {}
+        ### add gauges
+        print(chain)
+        if chain in ["bsc", "kovan", "fantom", "rinkeby"]:
+            # no (gauge) subgraph exists for this chain
+            continue
+        active[chain]["gauges"] = process_query_preferential_gauges(
+            query_preferential_gauges(chain)
+        )
+
         active[chain] = data | active[chain]
     results = {"active": active, "old": old}
     with open("outputs/addressbook.json", "w") as f:
@@ -81,6 +96,54 @@ def process_deployments(deployments, old=False):
             for contract, address in data.items():
                 result[chain][task][contract] = address
     return result
+
+
+def get_gauges_subgraph_url(chain_name):
+    chain_name = "gnosis-chain" if chain_name == "gnosis" else chain_name
+    frontend_file = f"https://raw.githubusercontent.com/balancer/frontend-v2/develop/src/lib/config/{chain_name}/index.ts"
+    with urllib.request.urlopen(frontend_file) as f:
+        found_gauge_line = False
+        for line in f:
+            if found_gauge_line:
+                return line.decode("utf-8").strip().strip(",").strip("'")
+            if "gauge:" in str(line):
+                found_gauge_line = True
+
+
+def query_preferential_gauges(chain_name, skip=0, step_size=100) -> list:
+    url = get_gauges_subgraph_url(chain_name)
+    query = f"""{{
+        liquidityGauges(
+            skip: {skip}
+            first: {step_size}
+            where: {{isPreferentialGauge: true}}
+        ) {{
+            id
+            symbol
+        }}
+    }}"""
+    r = requests.post(url, json={"query": query})
+    r.raise_for_status()
+    try:
+        result = r.json()["data"]["liquidityGauges"]
+    except KeyError:
+        result = []
+    if len(result) > 0:
+        # didnt reach end of results yet, collect next page
+        result += query_preferential_gauges(chain_name, skip + step_size, step_size)
+    return result
+
+
+def process_query_preferential_gauges(result) -> dict:
+    df = pd.DataFrame(result)
+    if len(df) == 0:
+        return
+    assert len(df["id"].unique()) == len(df)
+    if len(df["symbol"].unique()) != len(df):
+        # TODO
+        print("found duplicate symbols!")
+        print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
+    return df.set_index("symbol")["id"].to_dict()
 
 
 if __name__ == "__main__":
