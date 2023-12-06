@@ -17,12 +17,12 @@ def main():
     # Get deployments
     active_deployments = []
     old_deployments = []
-    ls = os.listdir(f"{basepath}/tasks")
+    ls = sorted(os.listdir(f"{basepath}/tasks"))
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             active_deployments.append(path)
 
-    ls = os.listdir(f"{basepath}/tasks/deprecated")
+    ls = sorted(os.listdir(f"{basepath}/tasks/deprecated"))
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             old_deployments.append(path)
