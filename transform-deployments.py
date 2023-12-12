@@ -138,11 +138,17 @@ def process_query_preferential_gauges(result) -> dict:
     df = pd.DataFrame(result)
     if len(df) == 0:
         return
+    # assert no duplicate addresses exist
     assert len(df["id"].unique()) == len(df)
+
+    # solve issue of duplicate gauge symbols
+    df["symbol"] = df["symbol"] + "-" + df["id"].str[2:6]
+
+    # confirm no duplicate symbols exist, raise if so
     if len(df["symbol"].unique()) != len(df):
-        # TODO
         print("found duplicate symbols!")
         print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
+        raise
     return df.set_index("symbol")["id"].to_dict()
 
 
