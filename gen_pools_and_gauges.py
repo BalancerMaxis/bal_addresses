@@ -64,10 +64,9 @@ def process_query_swap_enabled_pools(result) -> dict:
 
     # confirm no duplicate symbols exist, raise if so
     if len(df["symbol"].unique()) != len(df):
-        print("found duplicate symbols!")
+        print("Found duplicate symbols!")
         print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
         raise
-    print(df.info())
     return df.set_index("symbol")["address"].to_dict()
 
 
