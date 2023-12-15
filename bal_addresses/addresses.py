@@ -60,6 +60,8 @@ class AddrBook:
         self._extras = None
         self._multisigs = None
         self._eoas = None
+        self._pools = None
+        self._gauges = None
 
     @property
     def deployments(self) -> Optional[Munch]:
@@ -104,6 +106,28 @@ class AddrBook:
         else:
             self.populate_multisigs()
         return self._multisigs
+
+    @property
+    def pools(self) -> Optional[Munch]:
+        """
+        Get the pools for all chains in a form of a Munch object
+        """
+        if self._pools is not None:
+            return self._pools
+        else:
+            self.populate_pools()
+        return self._pools
+
+    @property
+    def gauges(self) -> Optional[Munch]:
+        """
+        Get the gauges for all chains in a form of a Munch object
+        """
+        if self._gauges is not None:
+            return self._gauges
+        else:
+            self.populate_gauges()
+        return self._gauges
 
     def populate_deployments(self) -> None:
         chain_deployments = requests.get(
@@ -171,6 +195,24 @@ class AddrBook:
                 f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json"
             )
             self._multisigs = Munch.fromDict({})
+
+    def populate_pools(self) -> None:
+        with open("extras/pools.json", "r") as f:
+            msigs = json.load(f)
+        if msigs.get(self.chain):
+            self._pools = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+        else:
+            print(f"Warning: No pools for chain {self.chain}")
+            self._pools = Munch.fromDict({})
+
+    def populate_gauges(self) -> None:
+        with open("extras/gauges.json", "r") as f:
+            msigs = json.load(f)
+        if msigs.get(self.chain):
+            self._gauges = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+        else:
+            print(f"Warning: No gauges for chain {self.chain}")
+            self._gauges = Munch.fromDict({})
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
@@ -256,12 +298,16 @@ class AddrBook:
         self.populate_eoas()
         self.populate_deployments()
         self.populate_multisigs()
+        self.populate_pools()
+        self.populate_gauges()
         self.populate_extras()
         for deployment, ddata in self.deployments.items():
             for contract, infodict in ddata["contracts"].items():
                 flatbook[infodict.path] = infodict.address
         flatbook = {**flatbook, **self.flatten_dict(self.extras)}
         flatbook["multisigs"] = self.flatten_dict(self.multisigs)
+        flatbook["pools"] = self.flatten_dict(self.pools)
+        flatbook["gauges"] = self.flatten_dict(self.gauges)
         flatbook["EOA"] = self.flatten_dict(self.EOAs)
         return self.flatten_dict(flatbook)
 
