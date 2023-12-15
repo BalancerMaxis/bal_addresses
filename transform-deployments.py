@@ -6,11 +6,7 @@
 import os
 import re
 import json
-import urllib.request
 from pathlib import Path
-
-import pandas as pd
-import requests
 
 from bal_addresses import AddrBook
 
@@ -56,6 +52,22 @@ def main():
             data = json.load(f)
             data = AddrBook.checksum_address_dict(data)
             active[chain]["EOA"] = data
+        ### add pools
+        if "pools" not in active[chain]:
+            active[chain]["pools"] = {}
+        with open("extras/pools.json", "r") as f:
+            data = json.load(f)
+            data = data.get(chain, {})
+            data = AddrBook.checksum_address_dict(data)
+            active[chain]["pools"] = data
+        ### add gauges
+        if "gauges" not in active[chain]:
+            active[chain]["gauges"] = {}
+        with open("extras/gauges.json", "r") as f:
+            data = json.load(f)
+            data = data.get(chain, {})
+            data = AddrBook.checksum_address_dict(data)
+            active[chain]["gauges"] = data
         ### add extras
         try:
             with open(f"extras/{chain}.json") as f:
@@ -63,14 +75,6 @@ def main():
                 data = AddrBook.checksum_address_dict(data)
         except:
             data = {}
-        ### add gauges
-        print(chain)
-        if chain in ["bsc", "kovan", "fantom", "rinkeby"]:
-            # no (gauge) subgraph exists for this chain
-            continue
-        active[chain]["gauges"] = process_query_preferential_gauges(
-            query_preferential_gauges(chain)
-        )
 
         active[chain] = data | active[chain]
     results = {"active": active, "old": old}
@@ -96,60 +100,6 @@ def process_deployments(deployments, old=False):
             for contract, address in data.items():
                 result[chain][task][contract] = address
     return result
-
-
-def get_gauges_subgraph_url(chain_name):
-    chain_name = "gnosis-chain" if chain_name == "gnosis" else chain_name
-    frontend_file = f"https://raw.githubusercontent.com/balancer/frontend-v2/develop/src/lib/config/{chain_name}/index.ts"
-    with urllib.request.urlopen(frontend_file) as f:
-        found_gauge_line = False
-        for line in f:
-            if found_gauge_line:
-                return line.decode("utf-8").strip().strip(",").strip("'")
-            if "gauge:" in str(line):
-                found_gauge_line = True
-
-
-def query_preferential_gauges(chain_name, skip=0, step_size=100) -> list:
-    url = get_gauges_subgraph_url(chain_name)
-    query = f"""{{
-        liquidityGauges(
-            skip: {skip}
-            first: {step_size}
-            where: {{isPreferentialGauge: true}}
-        ) {{
-            id
-            symbol
-        }}
-    }}"""
-    r = requests.post(url, json={"query": query})
-    r.raise_for_status()
-    try:
-        result = r.json()["data"]["liquidityGauges"]
-    except KeyError:
-        result = []
-    if len(result) > 0:
-        # didnt reach end of results yet, collect next page
-        result += query_preferential_gauges(chain_name, skip + step_size, step_size)
-    return result
-
-
-def process_query_preferential_gauges(result) -> dict:
-    df = pd.DataFrame(result)
-    if len(df) == 0:
-        return
-    # assert no duplicate addresses exist
-    assert len(df["id"].unique()) == len(df)
-
-    # solve issue of duplicate gauge symbols
-    df["symbol"] = df["symbol"] + "-" + df["id"].str[2:6]
-
-    # confirm no duplicate symbols exist, raise if so
-    if len(df["symbol"].unique()) != len(df):
-        print("found duplicate symbols!")
-        print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
-        raise
-    return df.set_index("symbol")["id"].to_dict()
 
 
 if __name__ == "__main__":
