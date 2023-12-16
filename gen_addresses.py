@@ -1,10 +1,11 @@
-from bal_addresses import AddrBook
 import json
+
+from bal_addresses import AddrBook
 
 
 def reverse_dict(d):
     d = dict(d)
-    inv_map = {v: k for k, v in d.items()}
+    inv_map = dict(sorted({v: k for k, v in d.items()}.items()))
     return inv_map
 
 
