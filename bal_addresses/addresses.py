@@ -301,6 +301,8 @@ class AddrBook:
         self.populate_pools()
         self.populate_gauges()
         self.populate_extras()
+        # write pools and gauges first, so they get overwritten by deployments later
+        # deployment label should take precedence over pool/gauge label
         flatbook["pools"] = self.flatten_dict(self.pools)
         flatbook["gauges"] = self.flatten_dict(self.gauges)
         for deployment, ddata in self.deployments.items():
