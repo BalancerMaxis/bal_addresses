@@ -301,13 +301,13 @@ class AddrBook:
         self.populate_pools()
         self.populate_gauges()
         self.populate_extras()
+        flatbook["pools"] = self.flatten_dict(self.pools)
+        flatbook["gauges"] = self.flatten_dict(self.gauges)
         for deployment, ddata in self.deployments.items():
             for contract, infodict in ddata["contracts"].items():
                 flatbook[infodict.path] = infodict.address
         flatbook = {**flatbook, **self.flatten_dict(self.extras)}
         flatbook["multisigs"] = self.flatten_dict(self.multisigs)
-        flatbook["pools"] = self.flatten_dict(self.pools)
-        flatbook["gauges"] = self.flatten_dict(self.gauges)
         flatbook["EOA"] = self.flatten_dict(self.EOAs)
         return self.flatten_dict(flatbook)
 
