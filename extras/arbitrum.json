@@ -32,7 +32,8 @@
     },
     "maxiKeepers": {
         "gaugeRewardsInjectors": {
-            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929"
+            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
+            "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D"
         },
         "one_inch": {
             "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
