@@ -165,6 +165,7 @@
    "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88": "20230206-aave-rebalanced-linear-pool-v4/MockStaticAToken",
    "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb": "EOA/emergency/Fernando",
    "0xbfD9769b061E57e478690299011A028194D66e3C": "20220527-child-chain-gauge-token-adder/ChildChainGaugeTokenAdder",
+   "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D": "maxiKeepers/gaugeRewardsInjectors/fox_rewards_injector",
    "0xc38c5f97B34E175FFd35407fc91a937300E33860": "multisigs/lm",
    "0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68": "20230316-l2-balancer-pseudo-minter/L2BalancerPseudoMinter",
    "0xc4367195532c9bF11d76D2b3DA9a208E5FB72Df3": "20231031-batch-relayer-v6/BatchRelayerQueryLibrary",
