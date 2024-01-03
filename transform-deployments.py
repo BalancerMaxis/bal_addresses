@@ -34,7 +34,7 @@ def main():
 
     results = {"active": active, "old": old}
     with open("outputs/deployments.json", "w") as f:
-        json.dump(results, f, indent=3)
+        json.dump(results, f, indent=2)
     ### Add extras
     for chain in active.keys():
         with open("extras/multisigs.json", "r") as f:
@@ -79,7 +79,7 @@ def main():
         active[chain] = data | active[chain]
     results = {"active": active, "old": old}
     with open("outputs/addressbook.json", "w") as f:
-        json.dump(results, f, indent=3)
+        json.dump(results, f, indent=2)
 
 
 def process_deployments(deployments, old=False):
