@@ -7,7 +7,9 @@ import os
 import re
 import json
 from pathlib import Path
+
 from bal_addresses import AddrBook
+
 
 deployments = os.environ["DEPLOYMENTS_REPO_ROOT_URL"]
 basepath = deployments
@@ -32,7 +34,7 @@ def main():
 
     results = {"active": active, "old": old}
     with open("outputs/deployments.json", "w") as f:
-        json.dump(results, f, indent=3)
+        json.dump(results, f, indent=2)
     ### Add extras
     for chain in active.keys():
         with open("extras/multisigs.json", "r") as f:
@@ -50,6 +52,22 @@ def main():
             data = json.load(f)
             data = AddrBook.checksum_address_dict(data)
             active[chain]["EOA"] = data
+        ### add pools
+        if "pools" not in active[chain]:
+            active[chain]["pools"] = {}
+        with open("extras/pools.json", "r") as f:
+            data = json.load(f)
+            data = data.get(chain, {})
+            data = AddrBook.checksum_address_dict(data)
+            active[chain]["pools"] = data
+        ### add gauges
+        if "gauges" not in active[chain]:
+            active[chain]["gauges"] = {}
+        with open("extras/gauges.json", "r") as f:
+            data = json.load(f)
+            data = data.get(chain, {})
+            data = AddrBook.checksum_address_dict(data)
+            active[chain]["gauges"] = data
         ### add extras
         try:
             with open(f"extras/{chain}.json") as f:
@@ -57,10 +75,11 @@ def main():
                 data = AddrBook.checksum_address_dict(data)
         except:
             data = {}
+
         active[chain] = data | active[chain]
     results = {"active": active, "old": old}
     with open("outputs/addressbook.json", "w") as f:
-        json.dump(results, f, indent=3)
+        json.dump(results, f, indent=2)
 
 
 def process_deployments(deployments, old=False):

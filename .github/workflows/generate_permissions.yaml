@@ -9,34 +9,32 @@ jobs:
   refresh_active_perms:
     runs-on: ubuntu-latest
     env:
-         INFURA_KEY: ${{ secrets.INFURA_KEY }}
-         ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+      INFURA_KEY: ${{ secrets.INFURA_KEY }}
+      ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
 
-    - name: Install Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Update Files
+        id: update
+        run: |
+          pip3 install -r bal_addresses/requirements.txt
+          python3 generate_current_permissions.py
+          python3 gen_addresses.py
+          rm -rf balancer-deployments
+          git add -A
 
-
-    - name: Update Files
-      id: update
-      run: |
-        pip3 install -r bal_addresses/requirements.txt
-        python3 generate_current_permissions.py
-        python3 gen_addresses.py
-        rm -rf balancer-deployments
-        git add -A
-
-    - name: pull-request
-      uses: peter-evans/create-pull-request@v5
-      with:
-        commit-message: "Scheduled update from changes to monorepo"
-        title: "Scheduled update from changes to monorepo"
-        branch: "gha-permissions"
-        reviewers: "Tritum-VLK"
-        assignees: "Tritum-VLK"
-        labels: "Automatic"
+      - name: pull-request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Scheduled update from changes to monorepo"
+          title: "Scheduled update from changes to monorepo"
+          branch: "gha-permissions"
+          reviewers: "Tritum-VLK"
+          assignees: "Tritum-VLK"
+          labels: "Automatic"
