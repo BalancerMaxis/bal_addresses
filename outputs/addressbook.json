@@ -261,6 +261,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -274,6 +277,7 @@
         "30WETH-70USDC-00ca": "0x00caaeDaB8b9a984FA7CdE48991A6888991FC84F",
         "25LDO-25wstETH-25RPL-25rETH-00e7": "0x00E7CcB0e16fC07D0cB528Efea2c130c41c2fc16",
         "50USDT-50USDC-0116": "0x0116fF81DDD6F541e89d017b75E810cC0325b44f",
+        "KEKS_LBP-011e": "0x011E612c57EA6932755bD5EC839D291Ecf7CA691",
         "50VSTA-50DAI-0149": "0x0149e95bFC4623C9388d194bDaA67Fadb6E28A04",
         "50LINK-50USDC-017a": "0x017a3C76fa7Ad9F54Bf48B66D5F402Eb950e9162",
         "Stafi rETH/WETH-0199": "0x01990f1e6f7F32296f125eE9469705C1C070054D",
@@ -1026,6 +1030,7 @@
         "50DFX-50WETH-a231": "0xa231aEa07Bb5e79aE162f95903806FC5AD65fF11",
         "50wstETH-50LINK-a2a9": "0xA2a9Ebd6f4dEA4802083F2C8D08066A4e695e64B",
         "50LINK-50GMX-a2ad": "0xA2ad83b012e09B3f3e3770c8cF25066B37C9741a",
+        "50USDT-50USDC.e-a352": "0xA35229bc4c149a25A73b9338F946CA5c7796Fca7",
         "50wstETH-50ARB-a35c": "0xa35Cb2539E6885df99afC123C98f6B492c8675A8",
         "50VSTA-50USDC-a391": "0xa39149794bf103c72328c01B8Cd0A394669626E0",
         "50MAGIC-50WETH-a39f": "0xA39fE91dC225Bb2CB03E7f8D82195dFebb8BdAb2",
@@ -1415,6 +1420,7 @@
         "50RDNT-50USDC.e-fcc9": "0xfCC9a8d58E41CBF582CFF798148750637EADB1ff",
         "90fxUSD-10USDC-fd29": "0xFd29298041eA355cF7e15652689F2865443C3144",
         "50WBTC-50WETH-fdcc": "0xFdcC5c65E4BB4e73D61cecaDEF049751FbD4D74e",
+        "50BAL-50ARB-fe03": "0xfE03621e739bdCD2eE9Db70b66eff781e470D7F6",
         "33BAL-33USDT-33USDC-fe23": "0xFE23e933B88508a306D4603EC510131dA026A3f9",
         "50VSTA-50USDT-fe78": "0xfe7896784fCa7aa8CD106C963BF94B18D6d3B186",
         "33 USDC 33 3L-WTI+USDC 33 3S-WTI+USDC-fe7b": "0xfE7b8F8FcA690AB0CD2B8D979ABEeaC94C06805D",
@@ -1722,6 +1728,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -2005,6 +2014,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -2170,6 +2182,7 @@
         "33DAI-33USDC-33USDbC-bab2": "0xbAb21DD456F9dceC8D87e81B458622c935900Fbc",
         "50WETH-50WELL-bbb4": "0xbbB493817418C769e3799Ea9AD2228a38C0950B7",
         "50WETH-50axlUSDC-bbf9": "0xbBf9A86D6C09C298C0b41c05A3786aB0C3aBa00E",
+        "50WETH-50rETH-bc34": "0xBC342F8e096A4205f8d66945fC67Ed1F437e0866",
         "50WETH-50USDbC-c0ac": "0xC0AcF3ae162A8398a5172791CA8DBa216119862B",
         "axlUSD-USDbC-DAI-c561": "0xc561540C16d49D0bFc69c99F9fc66145b1D5DDbd",
         "STG-USDbC-BPT-c697": "0xc69793563A8F0a2C5B25BCFB8661DE50da8EAe10",
@@ -2398,6 +2411,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {},
@@ -2493,6 +2509,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {},
@@ -2699,6 +2718,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -3095,6 +3117,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -3929,6 +3954,7 @@
         "stADS_Test_3-9a3f": "0x9A3F9408917393DecB2846B6ACC2B593b02613b4",
         "50USDC-50BAL-9a69": "0x9A6956fa9367e2e368cc213B2e0804b400A94931",
         "80HOTBODY-20WETH-9a8b": "0x9a8B37BDF329713360c5201f05Cb76b8338d56f1",
+        "50DAI-50transfer/channel-0/ppica-9ad2": "0x9AD23317c8FD202b8c819382fa075CAC4E3a10c8",
         "DUSDDAI-9ad8": "0x9ad8b2B55BC061A5BF4b4CDB1E1230269d296184",
         "VE3D-9b2d": "0x9b2Db817Ec2A2ee5e043295bF0D564dfE80722D8",
         "LAW_LBP-9b48": "0x9B4888A52f30D9bdc644C7b1C7E6579f448bB8A8",
@@ -4280,6 +4306,7 @@
         "VE3D-dcce": "0xDCcEAf57bB3D7EDb30f93C7f11bcE02d43E1d560",
         "staBAL3-dcdd": "0xDcdd4A3D36dEC8D57594E89763D069a7E9B223E2",
         "50miMATIC-50USDC-dd34": "0xdd34052108597fbbF9F82e75953aB4244A67D38E",
+        "90USDT-10BAL-dd3b": "0xdd3Ba261adadCE2fe225a7ADD30E4D473755B87F",
         "80HOTBODY-20WETH-dd42": "0xdD421dB33976789e965EeB5ce6238d65F5f000d2",
         "VE3D-dd77": "0xdD771c47056a4f7c7cB917e77ba27Caaf9E03243",
         "WETH--WBTC-dd8b": "0xDd8B9A9d6fE0482e7688cfF3C9f990e1D4d0b338",
@@ -4910,6 +4937,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -5288,7 +5318,6 @@
         "50USDC50AURA-5210": "0x5210287a2a440c06d7F3fcC4CC7B119BA8DE4339",
         "CAW_LBP-5262": "0x526217F24E8F427Fdb369A23f133C8a046e5B04e",
         "98EDOGE-2ETHMNY-5281": "0x52819AB9Ec2eCA4a00830C261bDd59A92ce9572C",
-        "SB_LBP-533c": "0x533ca6E978446860621F4e42E3bf351229399BD4",
         "TUSD BSP-53bc": "0x53BC3cBa3832ebeCBFa002c12023F8ab1AA3a3a0",
         "SIDHU_LBP-53d9": "0x53d97F23E8d984b75cDea79C12D4Ecf1469965a3",
         "ROCKET_F9_LBP-53f9": "0x53f9128f0668CdCf3bB3728c61f2AA030dE4f7fd",
@@ -5312,6 +5341,7 @@
         "B2-50WETH-50DAI-5710": "0x571046EaE58C783f29f95ADBa17Dd561Af8a8712",
         "20MANA-20SAND-20APE-20AXS-20ENJ-5757": "0x5757B37098d65b097cBcb78E22ae862817a82702",
         "BAL-20WETH-80VCX-577a": "0x577A7f7EE659Aa14Dc16FD384B3F8078E23F1920",
+        "PND_F9_LBP-57ad": "0x57aD37D016373FB78A21169B68504A23251694A1",
         "POOR_LBP-57ce": "0x57ce7bfb3E3379E1b3A1A1E852E82e775a5C8135",
         "15UNI-40WBTC-15CHZ-15LINK-15COMP-5833": "0x5833f33c5Acec4eEbcd0B5f9d2C35952669C3F1f",
         "50WETH-50BTCTRADE-5844": "0x5844D529E20bA8040670E2F19A3F139E88791ffe",
@@ -6434,6 +6464,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -6481,6 +6514,7 @@
         "TEST-2da6": "0x2DA61Ef3Cdcb97efb0f7099c02527fabFe94Dee5",
         "bb-rfWETH-2e2b": "0x2e2b8b82123789D895fD79913F6dFa51F5b5a0e6",
         "80AURA-20WETH-2f6b": "0x2F6B6973F38381Fe453EA819b7e0f0897AdeAae7",
+        "bpt-yieldconcerto-2feb": "0x2FEb76966459d7841fa8A7Ed0aa4bf574d6111Bf",
         "BPT-USDEAD-3292": "0x32923892C34858B48FC2e1a0DcA5f112604D18e6",
         "BPT-OP-32f0": "0x32F0DC9E2D890BAC95106a65eB82db70Bc58BaDB",
         "TEST-3455": "0x34557eF500Bfc060B8e3f2DA58EF725Bb7D32202",
@@ -6737,6 +6771,7 @@
         "ECLP-USDT-USDC-gauge-6da0": "0x6da0597f0072428Ea116f99047ba191aFc66C533",
         "80OVN/20wUSD+-gauge-7053": "0x70535841c362F83B4e1425066bfBA9BF87e1b984",
         "bpt-onsteady-gauge-74aa": "0x74aa3d1D937452e1611CE378FeACA3C506943DC9",
+        "bpt-yieldconcerto-gauge-758d": "0x758D3297d9D9325EFb6DD424a7B2EdCaB47e309E",
         "BPT-OATHUSD-gauge-78d4": "0x78D414Ef057f6148bee2CefDDA5DE8323b5CFcE6",
         "BPT-LOVE-gauge-7b56": "0x7b561BacfC637319685fa9a2EffA562625815e2f",
         "BPT-USD+-gauge-7f9e": "0x7f9e33c5b325a3a1017c18af81Da20537ECc3612",
@@ -6998,6 +7033,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -9432,6 +9470,7 @@
         "50USDT-50AAVE-c1d8": "0xC1d83a907d9db6969773dE32E642A868f903a11A",
         "BALAAVE3POOL-c1e2": "0xc1e29303D8B8cEEf9e022EBa5B127DF2a7bED9f0",
         "20USDC-80miMATIC-c227": "0xc227f321A78dCf2e6D0aeC71438A0450ce49554b",
+        "$KKF-c22b": "0xC22bb237A5B8b7260190cb9e4998A9901a68af6f",
         "40DFX-20USDC-40TEL-c260": "0xc260F3c5A57Caf193d1813D8fd0A02442073D6fa",
         "50USDC-50NEX-c261": "0xC261802973adD2cedbbFD8b074a4A8b15c769AEE",
         "50WMATIC-50MaticX-c298": "0xC2984295b613F94916bd254655E3b96F2eD87b08",
@@ -10023,6 +10062,7 @@
         "2CLP-USDC-DAI-f16a": "0xf16a66320Fafe03c9bf6daaAEBE9418f17620de6",
         "STARV3-wstETH-WMATIC-MiMATIC-Retro-oRetro-liveRetro/Growth/StarSeeds_Protocol-f16d": "0xf16Dc9F530aD9a68B7321911a85844A45B90Bd67",
         "CHI-f184": "0xf18490e198777Ef4b29B3C77419900944f378Eec",
+        "40SOL-10BAL-50GROSH-f19f": "0xF19F347166665bFb0fA954D9B0B8eb74dd3841B3",
         "50DAI-50AAVE-f1cc": "0xF1Cc359BBcdd413F6f56711F5371D26A023FC5D1",
         "bb-t-MATIC-f22a": "0xF22a66046B5307842F21B311ECB4C462c24C0635",
         "50plox-50TEL-f256": "0xF2566AF67b38c9cA41676E35d29B9C167EA0598e",
@@ -10547,6 +10587,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -10819,6 +10862,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {
@@ -11039,6 +11085,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {},
@@ -11123,6 +11172,9 @@
             "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
             "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1"
           }
+        },
+        "contributors": {
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
         }
       },
       "pools": {},

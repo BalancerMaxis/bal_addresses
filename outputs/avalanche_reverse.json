@@ -139,6 +139,7 @@
   "0xD8B6b96c88ad626EB6209c4876e3B14f45f8803A": "20230410-aave-linear-pool-v5/MockStaticAToken",
   "0xD9710759D76b0c46b3B1A1D2AeC087Ee7FDDf394": "pools/33BTC.b-33USDt-33USDC-d971",
   "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025": "20230411-managed-pool-v2/ExternalWeightedMath",
+  "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2": "EOA/contributors/json",
   "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5": "20230525-l2-veboost-v2/VeBoostV2",
   "0xE42FFA682A26EF8F25891db4882932711D42e467": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
   "0xE63e90EeC6860a0Bc163BB26f7333cbE55559fb5": "20230712-child-chain-gauge-checkpointer/BalancerRelayer",
