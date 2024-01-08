@@ -65,5 +65,8 @@
       "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
       "kycsigner3": "0x6edbc5bb151d0bfb203a48b378e88dc5912318f1"
     }
+  },
+  "contributors": {
+    "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
   }
 }
