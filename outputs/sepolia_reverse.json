@@ -137,6 +137,7 @@
   "0xDe615cc5712B4954BeB613BCF32E61C137Cc64f9": "20230522-timelock-authorizer/TimelockAuthorizer",
   "0xE0306C89A0784CC263dc89D7f500d2dd230C1b53": "pools/BAL-LP-e030",
   "0xE24Aba051aaeB07f981bD449f4B0b3250e08d4fB": "20230711-composable-stable-pool-v5/MockComposableStablePool",
+  "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2": "EOA/contributors/json",
   "0xE2Db39a64b39d928DAC892f98Ed2A3ee544D9416": "pools/BAL-LP-e2db",
   "0xE39B5e3B6D74016b2F6A9673D7d7493B6DF549d5": "20230504-vebal-remapper/OmniVotingEscrowAdaptor",
   "0xE42FFA682A26EF8F25891db4882932711D42e467": "20230519-gauge-adder-v4/GaugeAdder",
