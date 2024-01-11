@@ -152,6 +152,7 @@
   "0xa30aDE89E6af5b0Ca515cd78e44f9aD0c63989b2": "20230411-managed-pool-v2/ManagedPoolAmmLib",
   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
   "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48": "20230410-silo-linear-pool-v2/MockSiloRepository",
+  "0xa818F80F49A154F7703391c91E85b33450359406": "pools/80ASX-20WETH-a818",
   "0xa890403EDc1cF07D7D4BcF2f299Dd96fBB3466ee": "pools/test1WT-a890",
   "0xaEcE6E5D188d44045B6BcD9B8B0424a20A5a4519": "pools/B-eBTC-WBTC-aece",
   "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/emergency/zekraken",
