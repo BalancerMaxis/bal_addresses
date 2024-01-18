@@ -8,9 +8,8 @@ from gen_pools_and_gauges import get_subgraph_url
 def get_stable_pools_with_rate_provider():
     """
     for every chain, query the official balancer subgraph and retrieve pools that:
-    - have "stable" or "gyro" in their poolType
     - have a rate provider different from address(0)
-    - have a liquidity greater than $300k
+    - have a liquidity greater than $250k
     - have a yield fee > 0
     """
     core_pools = {}
@@ -32,13 +31,7 @@ def get_stable_pools_with_rate_provider():
                             }
                         },
                         {
-                            or: [
-                                {poolType_contains_nocase: "stable"},
-                                {poolType_contains_nocase: "gyro"}
-                            ]
-                        },
-                        {
-                            totalLiquidity_gt: 300000
+                            totalLiquidity_gt: 250000
                         },
                         {
                             protocolYieldFeeCache_gt: 0
