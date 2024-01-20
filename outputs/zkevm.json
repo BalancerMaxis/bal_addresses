@@ -116,6 +116,7 @@
   "gauges/ECLP-wETH-rETH-gauge-157a": "0x157a6dFD77F527efef0b36b5B2156B1aB710E32F",
   "gauges/ECLP-wETH-rETH-gauge-edea": "0xEdEa3E93b914E2654F8c7e0C2bb5E6205f9742b0",
   "gauges/bb-o-USD-gauge-ef97": "0xeF97b54F69060f4D5304f79734D01c2Da12114d8",
+  "gauges/rsETH/wETH-gauge-a442": "0xA442C9cB6Fafb6Fb2a722A1BAa54f9b8ff0A55D3",
   "gauges/wstETH/ankrETH -gauge-2279": "0x2279abf4bdAb8CF29EAe4036262c62dBA6460306",
   "maxiKeepers/gaugeRewardsInjectors/matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02",
   "maxiKeepers/gaugeRewardsInjectors/usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
@@ -215,6 +216,7 @@
   "pools/bb-o-USD-e274": "0xe274c9deb6ed34cfe4130F8D0A8a948deA5bB286",
   "pools/bb-o-USDC-16c9": "0x16C9a4D841E88E52b51936106010F27085a529EC",
   "pools/bb-o-USDT-4b71": "0x4B718E0E2fEA1dA68b763CD50C446FbA03CEB2Ea",
+  "pools/rsETH/wETH-ffc8": "0xfFC865fCb34e754Fad4B0144139b9c28c81C3eFF",
   "pools/wstETH/ankrETH -65da": "0x65dA876A95CD5b6A5880710628C436409B1B29fa",
   "pools/wsteth/ankrETH -4e40": "0x4E406fa1676FC1DE63bbdb241dCCF3c10B55c65A",
   "zero/zero": "0x0000000000000000000000000000000000000000"
