@@ -57,11 +57,42 @@ def get_pools_with_rate_provider(chain: str = None):
     return core_pools
 
 
+def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
+    url = get_subgraph_url(chain, "gauges")
+    query = f"""{{
+        liquidityGauges(
+            where: {{
+                poolId: "{pool_id}",
+                isKilled: false,
+                isPreferentialGauge: true
+            }}
+        ) {{
+            id
+        }}
+    }}"""
+    r = requests.post(url, json={"query": query})
+    r.raise_for_status()
+    try:
+        result = r.json()["data"]["liquidityGauges"]
+    except KeyError:
+        result = []
+    if len(result) > 0:
+        return True
+    else:
+        print(f"Pool {pool_id} on {chain} has no alive preferential gauge")
+
+
 def build_core_pools(chain: str = None):
     """
     chain string format is the same as in extras/chains.json
     """
     core_pools = get_pools_with_rate_provider(chain)
+
+    # filter out pools without an alive preferential gauge
+    for chain in core_pools:
+        for pool_id in list(core_pools[chain]):
+            if not has_alive_preferential_gauge(chain, pool_id):
+                del core_pools[chain][pool_id]
 
     # add pools from whitelist
     with open("config/core_pools_whitelist.json", "r") as f:
@@ -103,7 +134,5 @@ def is_core_pool(chain: str, pool_id: str) -> bool:
 
 
 if __name__ == "__main__":
-    core_pools = build_core_pools()
-
     # dump result to json
-    json.dump(core_pools, open("outputs/core_pools.json", "w"), indent=2)
+    json.dump(build_core_pools(), open("outputs/core_pools.json", "w"), indent=2)
