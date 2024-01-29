@@ -36,9 +36,14 @@ def get_pools_with_rate_provider(chain: str = None):
                         {
                             totalLiquidity_gt: 250000
                         },
-                        {
-                            protocolYieldFeeCache_gt: 0
-                        }
+                        { or: [
+                            { protocolYieldFeeCache_gt: 0 },
+                            { and: [
+                                { swapFee_gt: 0 },
+                                { poolType_contains: "MetaStable" },
+                                { poolTypeVersion: 1 }
+                            ] }
+                        ] }
                     ]
                 }
             ) {
