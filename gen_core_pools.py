@@ -5,7 +5,7 @@ import requests
 from gen_pools_and_gauges import get_subgraph_url
 
 
-def get_stable_pools_with_rate_provider():
+def get_pools_with_rate_provider(chain: str = None):
     """
     for every chain, query the official balancer subgraph and retrieve pools that:
     - have a rate provider different from address(0)
@@ -13,8 +13,11 @@ def get_stable_pools_with_rate_provider():
     - have a yield fee > 0
     """
     core_pools = {}
-    with open("extras/chains.json", "r") as f:
-        chains = json.load(f)
+    if chain:
+        chains = {"CHAIN_IDS_BY_NAME": [chain]}
+    else:
+        with open("extras/chains.json", "r") as f:
+            chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
         if chain in ["sepolia", "goerli"]:
             continue
@@ -54,24 +57,53 @@ def get_stable_pools_with_rate_provider():
     return core_pools
 
 
-if __name__ == "__main__":
-    core_pools = get_stable_pools_with_rate_provider()
+def build_core_pools(chain: str = None):
+    """
+    chain string format is the same as in extras/chains.json
+    """
+    core_pools = get_pools_with_rate_provider(chain)
 
     # add pools from whitelist
     with open("config/core_pools_whitelist.json", "r") as f:
         whitelist = json.load(f)
     for chain in whitelist:
-        for pool, symbol in whitelist[chain].items():
-            if pool not in core_pools[chain]:
-                core_pools[chain][pool] = symbol
+        try:
+            for pool, symbol in whitelist[chain].items():
+                if pool not in core_pools[chain]:
+                    core_pools[chain][pool] = symbol
+        except KeyError:
+            # no results for this chain
+            pass
 
     # remove pools from blacklist
     with open("config/core_pools_blacklist.json", "r") as f:
         blacklist = json.load(f)
     for chain in blacklist:
-        for pool in blacklist[chain]:
-            if pool in core_pools[chain]:
-                del core_pools[chain][pool]
+        try:
+            for pool in blacklist[chain]:
+                if pool in core_pools[chain]:
+                    del core_pools[chain][pool]
+        except KeyError:
+            # no results for this chain
+            pass
+
+    return core_pools
+
+
+def is_core_pool(chain: str, pool_id: str) -> bool:
+    """
+    check if a pool is a core pool using a fresh query to the subgraph
+
+    params:
+    chain: string format is the same as in extras/chains.json
+    pool_id: this is the long version of a pool id, so contract address + addition
+    """
+    core_pools = build_core_pools(chain)
+    return pool_id in core_pools[chain]
+
+
+if __name__ == "__main__":
+    core_pools = build_core_pools()
 
     # dump result to json
     json.dump(core_pools, open("outputs/core_pools.json", "w"), indent=2)
