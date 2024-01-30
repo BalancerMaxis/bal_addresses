@@ -7,10 +7,14 @@ from gen_pools_and_gauges import get_subgraph_url
 
 def get_pools_with_rate_provider(chain: str = None):
     """
-    for every chain, query the official balancer subgraph and retrieve pools that:
+    for every chain, query the official balancer subgraph and retrieve pools that meets
+    all three of the following conditions:
     - have a rate provider different from address(0)
     - have a liquidity greater than $250k
-    - have a yield fee > 0
+    - either:
+      - have a yield fee > 0
+      - be a meta stable pool with swap fee > 0
+      - be a gyro pool
     """
     core_pools = {}
     if chain:
@@ -42,7 +46,8 @@ def get_pools_with_rate_provider(chain: str = None):
                                 { swapFee_gt: 0 },
                                 { poolType_contains: "MetaStable" },
                                 { poolTypeVersion: 1 }
-                            ] }
+                            ] },
+                            { poolType_contains_nocase: "Gyro" },
                         ] }
                     ]
                 }
@@ -63,6 +68,9 @@ def get_pools_with_rate_provider(chain: str = None):
 
 
 def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
+    """
+    return True if the pool has a preferential gauge which is not killed
+    """
     url = get_subgraph_url(chain, "gauges")
     query = f"""{{
         liquidityGauges(
@@ -89,11 +97,11 @@ def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
 
 def build_core_pools(chain: str = None):
     """
-    chain string format is the same as in extras/chains.json
+    note: chain string format is the same as in extras/chains.json
     """
     core_pools = get_pools_with_rate_provider(chain)
 
-    # filter out pools without an alive preferential gauge
+    # make sure the pools have an alive preferential gauge
     for chain in core_pools:
         for pool_id in list(core_pools[chain]):
             if not has_alive_preferential_gauge(chain, pool_id):
@@ -132,7 +140,7 @@ def is_core_pool(chain: str, pool_id: str) -> bool:
 
     params:
     chain: string format is the same as in extras/chains.json
-    pool_id: this is the long version of a pool id, so contract address + addition
+    pool_id: this is the long version of a pool id, so contract address + suffix
     """
     core_pools = build_core_pools(chain)
     return pool_id in core_pools[chain]
