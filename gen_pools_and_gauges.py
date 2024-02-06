@@ -1,31 +1,12 @@
 import json
-import urllib.request
 
 import pandas as pd
 import requests
 
+from bal_addresses.utils import get_subgraph_url
+
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
-
-
-def get_subgraph_url(chain_name: str, subgraph="core"):
-    chain_name = "gnosis-chain" if chain_name == "gnosis" else chain_name
-    frontend_file = f"https://raw.githubusercontent.com/balancer/frontend-v2/develop/src/lib/config/{chain_name}/index.ts"
-    if subgraph == "core":
-        magic_word = "subgraph:"
-    elif subgraph == "gauges":
-        magic_word = "gauge:"
-    found_magic_word = False
-    with urllib.request.urlopen(frontend_file) as f:
-        for line in f:
-            if found_magic_word:
-                return line.decode("utf-8").strip().strip(" ,'")
-            if magic_word + " " in str(line):
-                # url is on same line
-                return line.decode("utf-8").split(magic_word)[1].strip().strip(",'")
-            if magic_word in str(line):
-                # url is on next line, return it on the next iteration
-                found_magic_word = True
 
 
 def query_swap_enabled_pools(chain_name, skip=0, step_size=100) -> list:
