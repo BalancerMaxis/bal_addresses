@@ -1,4 +1,4 @@
-from bal_addresses.utils import build_core_pools, has_alive_preferential_gauge
+import bal_addresses.utils
 
 
 def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
@@ -12,10 +12,10 @@ def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
     returns:
     True if the pool has an alive preferential gauge
     """
-    return has_alive_preferential_gauge(chain, pool_id)
+    return bal_addresses.utils.has_alive_preferential_gauge(chain, pool_id)
 
 
-def get_core_pools(chain: str) -> dict:
+def get_core_pools(chain: str = None) -> dict:
     """
     get the core pools for a chain
 
@@ -25,8 +25,8 @@ def get_core_pools(chain: str) -> dict:
     returns:
     dictionary of the format {pool_id: symbol}
     """
-    core_pools = build_core_pools(chain)
-    return core_pools[chain]
+    core_pools = bal_addresses.utils.build_core_pools(chain)
+    return core_pools
 
 
 def is_core_pool(chain: str, pool_id: str) -> bool:
@@ -40,5 +40,5 @@ def is_core_pool(chain: str, pool_id: str) -> bool:
     returns:
     True if the pool is a core pool
     """
-    core_pools = build_core_pools(chain)
+    core_pools = bal_addresses.utils.build_core_pools(chain)
     return pool_id in core_pools[chain]
