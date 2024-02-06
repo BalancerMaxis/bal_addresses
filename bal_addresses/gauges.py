@@ -6,6 +6,7 @@ import requests
 class BalGauges:
     def __init__(self, chain):
         self.chain = chain
+        # TODO move build_core_pools into lib and figure out how to deal with the need for a global call.
         self.core_pools = BalUtils.build_core_pools(chain)
 
 
