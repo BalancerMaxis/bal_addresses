@@ -1,4 +1,4 @@
-from gen_core_pools import is_core_pool
+from bal_addresses.api import is_core_pool
 
 
 def test_is_core_pool():
