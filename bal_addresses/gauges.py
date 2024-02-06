@@ -23,6 +23,7 @@ class BalGauges:
         return BalUtils.has_alive_preferential_gauge(self.chain, pool_id)
 
 
+    # TODO remove and/or move description to var somehow?
     def get_core_pools(self) -> dict:
         """
         get the core pools for a chain
@@ -33,8 +34,7 @@ class BalGauges:
         returns:
         dictionary of the format {pool_id: symbol}
         """
-        core_pools = BalUtils.build_core_pools(self.chain)
-        return core_pools
+        return self.core_pools
 
 
     def is_core_pool(self, pool_id: str) -> bool:
@@ -48,8 +48,7 @@ class BalGauges:
         returns:
         True if the pool is a core pool
         """
-        core_pools = BalUtils.build_core_pools(self.chain)
-        return pool_id in core_pools[self.chain]
+        return pool_id in self.core_pools
 
 
     def query_preferential_gauges(self, skip=0, step_size=100) -> list:
