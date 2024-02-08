@@ -99,9 +99,9 @@ class BalGauges:
         print(ecosystem_balances)
         for address, amount in ecosystem_balances.items():
             total_bpts_counted += float(amount)
+        print(f"Found {total_circulating_bpts} of which {bpts_in_bal_gauge} where staked by an address in a bal gauge and {bpts_in_aura} where deposited on aura at block {block}")
         if total_bpts_counted != total_circulating_bpts:
             raise SumsDoNotMatchError(f"initial bpts found{total_circulating_bpts}, final bpts counted:{total_bpts_counted}")
-        print(f"Success:  Found {total_circulating_bpts} of which {bpts_in_bal_gauge} where staked by an address in a bal gauge and {bpts_in_aura} where deposited on aura at block {block}")
         return ecosystem_balances
 
 
