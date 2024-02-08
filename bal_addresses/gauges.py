@@ -19,20 +19,19 @@ class BalGauges:
         Returns a map like {"gauge_address": int(pid_number)} with all aura gauges on the operating chain
         """
         query = self.queries.AURA_GAUGE_MAPPINGS_QUERY
-        response = requests.post(query.endpoint, json=query.query)
-        response.raise_for_status()
+        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"])
         aura_pid_by_gauge = {}
-        for result_item in response["data"]["gauges"]:
-            aura_pid_by_gauge[result_item["pool"]["id"]] = result_item["pool"]["gauge"]["id"]
+        for result_item in data["data"]["gauges"]:
+            aura_pid_by_gauge[result_item["pool"]["gauge"]["id"]] = [result_item["pool"]["id"]]
         return aura_pid_by_gauge
 
     def get_aura_pid_from_gauge(self, deposit_gauge_address: str) -> int:
-        return self.get_aura_gauge_mappings()[deposit_gauge_address]
+        return int(self.get_aura_gauge_mappings()[deposit_gauge_address][0])
 
     def get_bpt_balances(self, pool_id, block) -> Dict[str, int]:
         query = self.queries.BALANCER_POOL_SHARES_QUERY
         variables = {"poolId": pool_id, "block": block}
-        data = BalUtils.fetch_graphql_data(query.endpoint, query.query, variables)
+        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
         if data and 'data' in data and 'pool' in data['data'] and data['data']['pool']:
             for share in data['data']['pool']['shares']:
@@ -45,7 +44,7 @@ class BalGauges:
             "gaugeAddress": gauge_address,
             "block": block
         }
-        data = BalUtils.fetch_graphql_data(query.endpoint, query.query, variables)
+        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
         if 'data' in data and 'gaugeShares' in data['data']:
             for share in data['data']['gaugeShares']:
@@ -57,7 +56,7 @@ class BalGauges:
         aura_pid = self.get_aura_pid_from_gauge(gauge_address)
         query = self.queries.AURA_SHARES_QUERY
         variables = {"poolId": aura_pid, "block": block}
-        data = BalUtils.fetch_graphql_data(query.endpoint, query.query, variables)
+        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
 
         # Parse the data if the query was successful
@@ -73,8 +72,8 @@ class BalGauges:
         total_bpts_counted=0
         ## Start with raw BPTS
         ecosystem_balances = defaultdict(int,  self.get_bpt_balances(pool_id, block))
-        for address, amount in ecosystem_balances:
-            total_circulating_bpts += amount
+        for address, amount in ecosystem_balances.items():
+            total_circulating_bpts += float(amount)
         ## Factor in Gauge Deposits
         if gauge_address in ecosystem_balances.keys():
             # Verify that there are some gauge deposits and null them out so balances add up
@@ -85,7 +84,7 @@ class BalGauges:
             print(f"WARNING: there are no BPTs from {pool_id} staked in the gauge at {gauge_address} did you cross wires, or is there no one staked?")
 
         for address, amount in  self.get_gauge_deposit_shares(gauge_address, block):
-            ecosystem_balances[address] += amount
+            ecosystem_balances[address] += float(amount)
 
         ## Factor in Aura Deposits
         if AURA_BOOSTER_ADDRESS in ecosystem_balances.keys():
@@ -94,11 +93,12 @@ class BalGauges:
         else:
             print(f"WARNING: there are no BPTs from {pool_id} staked in Aura did you cross wires, or is there no one staked?")
         for address,amount in self.get_aura_pool_shares(gauge_address, block):
-            ecosystem_balances[address] += amount
+            ecosystem_balances[address] += float(amount)
 
         ## CHeck everything
-        for address, amount in ecosystem_balances:
-            total_circulating_bpts += amount
+        print(ecosystem_balances)
+        for address, amount in ecosystem_balances.items():
+            total_bpts_counted += float(amount)
         if total_bpts_counted != total_circulating_bpts:
             raise SumsDoNotMatchError(f"initial bpts found{total_circulating_bpts}, final bpts counted:{total_bpts_counted}")
         print(f"Success:  Found {total_circulating_bpts} of which {bpts_in_bal_gauge} where staked by an address in a bal gauge and {bpts_in_aura} where deposited on aura at block {block}")

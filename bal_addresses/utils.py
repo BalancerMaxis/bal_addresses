@@ -1,6 +1,7 @@
 import json
 from urllib.request import urlopen
 import requests
+from .errors import  GraphQLRequestError
 
 def get_subgraph_url(chain: str, subgraph="core") -> str:
     """
@@ -189,9 +190,11 @@ def fetch_graphql_data(endpoint, query, variables=None):
         response = requests.post(endpoint, json={'query': query, 'variables': variables})
     else:
         response = requests.post(endpoint, json={'query': query})
-    response.raise_for_status()
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as e:
+        raise GraphQLRequestError(f"HTTP Error: {e}")
     data = response.json()
     if 'errors' in data:
-        print(f"Error: {data['errors']}")
-        return None
+        raise GraphQLRequestError(f"Error: {data['errors']}")
     return data

@@ -7,3 +7,6 @@ class NoResultError(Exception):
 
 class SumsDoNotMatchError(Exception):
     pass
+
+class GraphQLRequestError(Exception):
+    pass

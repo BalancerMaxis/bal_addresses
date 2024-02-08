@@ -110,7 +110,7 @@ class GraphQueries:
         """
             }
 
-        self.AURA_GAUGE_MAPPINGS_QUERY={"endpoint": GraphEndpoints.aura["chain"], "query": """
+        self.AURA_GAUGE_MAPPINGS_QUERY={"endpoint": GraphEndpoints.aura[chain], "query": """
 query getAuraGaugeMappings {
   gauges(first: 1000) {
     pool {
