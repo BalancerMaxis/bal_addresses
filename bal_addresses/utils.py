@@ -136,3 +136,51 @@ def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
         return True
     else:
         print(f"Pool {pool_id} on {chain} has no alive preferential gauge")
+
+
+def build_core_pools(chain: str = None):
+    """
+    build the core pools dictionary by taking pools from `get_pools_with_rate_provider` and:
+    - check if the pool has an alive preferential gauge
+    - add pools from whitelist
+    - remove pools from blacklist
+
+    params:
+    chain: name of the chain, if None, all chains will be queried
+
+    returns:
+    dictionary of the format {chain_name: {pool_id: symbol}}
+    """
+    core_pools = get_pools_with_rate_provider(chain)
+
+    # make sure the pools have an alive preferential gauge
+    for chain in core_pools:
+        for pool_id in list(core_pools[chain]):
+            if not has_alive_preferential_gauge(chain, pool_id):
+                del core_pools[chain][pool_id]
+
+    # add pools from whitelist
+    with open("config/core_pools_whitelist.json", "r") as f:
+        whitelist = json.load(f)
+    for chain in whitelist:
+        try:
+            for pool, symbol in whitelist[chain].items():
+                if pool not in core_pools[chain]:
+                    core_pools[chain][pool] = symbol
+        except KeyError:
+            # no results for this chain
+            pass
+
+    # remove pools from blacklist
+    with open("config/core_pools_blacklist.json", "r") as f:
+        blacklist = json.load(f)
+    for chain in blacklist:
+        try:
+            for pool in blacklist[chain]:
+                if pool in core_pools[chain]:
+                    del core_pools[chain][pool]
+        except KeyError:
+            # no results for this chain
+            pass
+
+    return core_pools
