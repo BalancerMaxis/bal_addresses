@@ -73,5 +73,5 @@ class BalGauges:
             result = []
         if len(result) > 0:
             # didnt reach end of results yet, collect next page
-            result += self.query_preferential_gauges(self.chain, skip + step_size, step_size)
+            result += self.query_preferential_gauges(skip + step_size, step_size)
         return result
