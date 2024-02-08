@@ -184,3 +184,14 @@ def build_core_pools(chain: str = None):
             pass
 
     return core_pools
+def fetch_graphql_data(endpoint, query, variables=None):
+    if variables:
+        response = requests.post(endpoint, json={'query': query, 'variables': variables})
+    else:
+        response = requests.post(endpoint, json={'query': query})
+    response.raise_for_status()
+    data = response.json()
+    if 'errors' in data:
+        print(f"Error: {data['errors']}")
+        return None
+    return data

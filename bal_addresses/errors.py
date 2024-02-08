@@ -4,3 +4,6 @@ class MultipleMatchesError(Exception):
 
 class NoResultError(Exception):
     pass
+
+class SumsDoNotMatchError(Exception):
+    pass
