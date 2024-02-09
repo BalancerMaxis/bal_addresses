@@ -2,6 +2,7 @@ import json
 from urllib.request import urlopen
 import requests
 
+
 def get_subgraph_url(chain: str, subgraph="core") -> str:
     """
     perform some soup magic to determine the latest subgraph url used in the official frontend
@@ -32,7 +33,7 @@ def get_subgraph_url(chain: str, subgraph="core") -> str:
                 found_magic_word = True
 
 
-def get_pools_with_rate_provider(chain: str = None) -> dict:
+def get_pools_with_rate_provider(chain: str) -> dict:
     """
     for every chain, query the official balancer subgraph and retrieve pools that meets
     all three of the following conditions:
@@ -44,63 +45,51 @@ def get_pools_with_rate_provider(chain: str = None) -> dict:
       - be a gyro pool
 
     params:
-    - chain: name of the chain, if None, all chains will be queried
+    - chain: name of the chain
 
     returns:
     dictionary of the format {chain_name: {pool_id: symbol}}
     """
-    core_pools = {}
-    if chain:
-        chains = {"CHAIN_IDS_BY_NAME": [chain]}
-    else:
-        with open("extras/chains.json", "r") as f:
-            chains = json.load(f)
-    for chain in chains["CHAIN_IDS_BY_NAME"]:
-        if chain in ["sepolia", "goerli"]:
-            continue
-        core_pools[chain] = {}
-        url = get_subgraph_url(chain)
-        query = """{
-            pools(
-                first: 1000,
-                where: {
-                    and: [
-                        {
-                            priceRateProviders_: {
-                                address_not: "0x0000000000000000000000000000000000000000"
-                            }
-                        },
-                        {
-                            totalLiquidity_gt: 250000
-                        },
-                        { or: [
-                            { protocolYieldFeeCache_gt: 0 },
-                            { and: [
-                                { swapFee_gt: 0 },
-                                { poolType_contains: "MetaStable" },
-                                { poolTypeVersion: 1 }
-                            ] },
-                            { poolType_contains_nocase: "Gyro" },
-                        ] }
-                    ]
-                }
-            ) {
-                id,
-                symbol
+    filtered_pools = {}
+    url = get_subgraph_url(chain)
+    query = """{
+        pools(
+            first: 1000,
+            where: {
+                and: [
+                    {
+                        priceRateProviders_: {
+                            address_not: "0x0000000000000000000000000000000000000000"
+                        }
+                    },
+                    {
+                        totalLiquidity_gt: 250000
+                    },
+                    { or: [
+                        { protocolYieldFeeCache_gt: 0 },
+                        { and: [
+                            { swapFee_gt: 0 },
+                            { poolType_contains: "MetaStable" },
+                            { poolTypeVersion: 1 }
+                        ] },
+                        { poolType_contains_nocase: "Gyro" },
+                    ] }
+                ]
             }
-        }"""
-        r = requests.post(url, json={"query": query})
-        r.raise_for_status()
-        try:
-            for pool in r.json()["data"]["pools"]:
-                core_pools[chain][pool["id"]] = pool["symbol"]
-        except KeyError:
-            # no results for this chain
-            pass
-    return core_pools
-
-
-
+        ) {
+            id,
+            symbol
+        }
+    }"""
+    r = requests.post(url, json={"query": query})
+    r.raise_for_status()
+    try:
+        for pool in r.json()["data"]["pools"]:
+            filtered_pools[pool["id"]] = pool["symbol"]
+    except KeyError:
+        # no results for this chain
+        pass
+    return filtered_pools
 
 
 def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
@@ -138,7 +127,7 @@ def has_alive_preferential_gauge(chain: str, pool_id: str) -> bool:
         print(f"Pool {pool_id} on {chain} has no alive preferential gauge")
 
 
-def build_core_pools(chain: str = None):
+def build_core_pools(chain: str):
     """
     build the core pools dictionary by taking pools from `get_pools_with_rate_provider` and:
     - check if the pool has an alive preferential gauge
@@ -146,41 +135,38 @@ def build_core_pools(chain: str = None):
     - remove pools from blacklist
 
     params:
-    chain: name of the chain, if None, all chains will be queried
+    chain: name of the chain
 
     returns:
-    dictionary of the format {chain_name: {pool_id: symbol}}
+    dictionary of the format {pool_id: symbol}
     """
     core_pools = get_pools_with_rate_provider(chain)
 
     # make sure the pools have an alive preferential gauge
-    for chain in core_pools:
-        for pool_id in list(core_pools[chain]):
-            if not has_alive_preferential_gauge(chain, pool_id):
-                del core_pools[chain][pool_id]
+    for pool_id in core_pools.copy():
+        if not has_alive_preferential_gauge(chain, pool_id):
+            del core_pools[pool_id]
 
     # add pools from whitelist
     with open("config/core_pools_whitelist.json", "r") as f:
         whitelist = json.load(f)
-    for chain in whitelist:
-        try:
-            for pool, symbol in whitelist[chain].items():
-                if pool not in core_pools[chain]:
-                    core_pools[chain][pool] = symbol
-        except KeyError:
-            # no results for this chain
-            pass
+    try:
+        for pool, symbol in whitelist[chain].items():
+            if pool not in core_pools:
+                core_pools[pool] = symbol
+    except KeyError:
+        # no results for this chain
+        pass
 
     # remove pools from blacklist
     with open("config/core_pools_blacklist.json", "r") as f:
         blacklist = json.load(f)
-    for chain in blacklist:
-        try:
-            for pool in blacklist[chain]:
-                if pool in core_pools[chain]:
-                    del core_pools[chain][pool]
-        except KeyError:
-            # no results for this chain
-            pass
+    try:
+        for pool in blacklist[chain]:
+            if pool in core_pools:
+                del core_pools[pool]
+    except KeyError:
+        # no results for this chain
+        pass
 
     return core_pools
