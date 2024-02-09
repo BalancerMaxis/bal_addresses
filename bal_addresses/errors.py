@@ -5,8 +5,11 @@ class MultipleMatchesError(Exception):
 class NoResultError(Exception):
     pass
 
-class SumsDoNotMatchError(Exception):
+class ChecksumError(Exception):
     pass
 
 class GraphQLRequestError(Exception):
+    pass
+
+class UnexpectedListLength(Exception):
     pass

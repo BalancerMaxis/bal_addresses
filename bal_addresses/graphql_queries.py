@@ -71,7 +71,7 @@ class GraphQueries:
         query FetchGaugeShares($gaugeAddress: String!, $block: Int) {
           gaugeShares(
             block: {number: $block}
-            where: {gauge_contains_nocase: $gaugeAddress, balance_gt: "1"}
+            where: {gauge_contains_nocase: $gaugeAddress, balance_gt: "0"}
             orderBy: balance
             orderDirection: desc
             first: 1000
@@ -92,7 +92,7 @@ class GraphQueries:
           leaderboard: pool(id: $poolId, block: {number: $block}) {
             accounts(
               first: 1000
-              where: {staked_gt: 1}
+              where: {staked_gt: 0}
               orderBy: staked
               orderDirection: desc
             ) {
