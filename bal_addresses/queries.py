@@ -1,4 +1,6 @@
 from bal_addresses import AddrBook
+from .errors import  GraphQLRequestError
+import requests
 
 NO_BALANCER_SUBGRAPH = []
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
@@ -35,6 +37,21 @@ class GraphEndpoints:
 
 
 class GraphQueries:
+    def fetch_graphql_data(self, query_object, variables=None):
+        if variables:
+            response = requests.post(query_object["endpoint"],
+                                     json={'query': query_object["query"], 'variables': variables})
+        else:
+            response = requests.post(query_object["endpoint"], json={'query': query_object["query"]})
+        try:
+            response.raise_for_status()
+        except requests.HTTPError as e:
+            raise GraphQLRequestError(f"HTTP Error: {e}")
+        data = response.json()
+        if 'errors' in data:
+            raise GraphQLRequestError(f"Error: {data['errors']}")
+        return data
+
     def __init__(self, chain):
         self.chain = chain
         self.AURA_GAUGE_MAPPINGS_QUERY = {"endpoint": GraphEndpoints.aura[chain], "query": """
@@ -124,4 +141,3 @@ query getAuraGaugeMappings {
 """
             }
 
-                                  

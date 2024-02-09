@@ -117,8 +117,7 @@ class Aura:
         """
         Returns a map like {"gauge_address": int(pid_number)} with all aura gauges on the operating chain
         """
-        query = self.queries.AURA_GAUGE_MAPPINGS_QUERY
-        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"])
+        data = self.queries.fetch_graphql_data(self.queries.AURA_GAUGE_MAPPINGS_QUERY)
         aura_pid_by_gauge = {}
         for result_item in data["data"]["gauges"]:
             gauge_address = Web3.toChecksumAddress(result_item["pool"]["gauge"]["id"])
@@ -138,9 +137,8 @@ class Aura:
     def get_aura_pool_shares(self, gauge_address, block) -> Dict[str, int]:
         # Prepare the GraphQL query and variables
         aura_pid = self.get_aura_pid_from_gauge(gauge_address)
-        query = self.queries.AURA_SHARES_QUERY
         variables = {"poolId": aura_pid, "block": int(block)}
-        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
+        data = self.queries.fetch_graphql_data(self.queries.AURA_SHARES_QUERY, variables)
         results = {}
         # Parse the data if the query was successful
         if data and 'data' in data and 'leaderboard' in data['data'] and data['data']['leaderboard']['accounts']:

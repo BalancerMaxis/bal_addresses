@@ -17,9 +17,8 @@ class BalGauges:
 
 
     def get_bpt_balances(self, pool_id: str, block: int) -> Dict[str, int]:
-        query = self.queries.BALANCER_POOL_SHARES_QUERY
         variables = {"poolId": pool_id, "block": int(block)}
-        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
+        data = self.queries.fetch_graphql_data(self.queries.BALANCER_POOL_SHARES_QUERY, variables)
         results = {}
         if data and 'data' in data and 'pool' in data['data'] and data['data']['pool']:
             for share in data['data']['pool']['shares']:
@@ -29,9 +28,8 @@ class BalGauges:
 
     def get_gauge_deposit_shares(self, gauge_address: str, block: int) -> Dict[str, int]:
         gauge_address = Web3.toChecksumAddress(gauge_address)
-        query = self.queries.BALANCER_GAUGES_SHARES_QUERY
         variables = {"gaugeAddress": gauge_address, "block": int(block)}
-        data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
+        data = self.queries.fetch_graphql_data(self.queries.BALANCER_GAUGES_SHARES_QUERY, variables)
         results = {}
         if 'data' in data and 'gaugeShares' in data['data']:
             for share in data['data']['gaugeShares']:
