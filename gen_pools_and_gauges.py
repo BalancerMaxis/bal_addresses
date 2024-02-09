@@ -2,7 +2,7 @@ import json
 
 import pandas as pd
 import requests
-from bal_addresses.gauges import BalGauges
+from bal_addresses.pools_gauges import BalPoolsGauges
 
 from bal_addresses import utils as BalUtils
 
@@ -52,7 +52,6 @@ def process_query_swap_enabled_pools(result) -> dict:
     return df.set_index("symbol")["address"].to_dict()
 
 
-
 def process_query_preferential_gauges(result) -> dict:
     df = pd.DataFrame(result)
     if len(df) == 0:
@@ -77,9 +76,9 @@ def main():
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
-        gauge_info = BalGauges(chain)
+        gauge_info = BalPoolsGauges(chain)
         # pools
-        # TODO Consider moving to gauges or another pools api
+        # TODO: consider moving to query object??
         result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
         if result:
             pools[chain] = result
@@ -90,7 +89,9 @@ def main():
         if chain in NO_GAUGE_SUBGRAPH:
             # no (gauge) subgraph exists for this chain
             continue
-        result = process_query_preferential_gauges(gauge_info.query_preferential_gauges())
+        result = process_query_preferential_gauges(
+            gauge_info.query_preferential_gauges()
+        )
         if result:
             gauges[chain] = result
         with open("extras/gauges.json", "w") as f:
