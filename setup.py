@@ -14,7 +14,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     url="https://github.com/BalancerMaxis/bal_addresses",
-    install_requires=["setuptools>=42", "wheel", "munch", "web3"],  # add any additional packages that
+    install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3==5.31.1"],  # add any additional packages that
     # needs to be installed along with your package. Eg: 'caer'
 
     keywords=['python', 'first package'],
