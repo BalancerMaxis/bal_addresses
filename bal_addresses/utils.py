@@ -152,6 +152,8 @@ def build_core_pools(chain: str = None):
     returns:
     dictionary of the format {chain_name: {pool_id: symbol}}
     """
+    WHITELIST_URL = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/config/core_pools_whitelist.json"
+    BLACKLIST_URL = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/config/core_pools_blacklist.json"
     core_pools = get_pools_with_rate_provider(chain)
 
     # make sure the pools have an alive preferential gauge
@@ -161,8 +163,10 @@ def build_core_pools(chain: str = None):
                 del core_pools[chain][pool_id]
 
     # add pools from whitelist
-    with open("config/core_pools_whitelist.json", "r") as f:
-        whitelist = json.load(f)
+    r = requests.get(WHITELIST_URL)
+    r.raise_for_status()
+    whitelist = r.json()
+
     for chain in whitelist:
         try:
             for pool, symbol in whitelist[chain].items():
@@ -173,8 +177,9 @@ def build_core_pools(chain: str = None):
             pass
 
     # remove pools from blacklist
-    with open("config/core_pools_blacklist.json", "r") as f:
-        blacklist = json.load(f)
+    r = requests.get(BLACKLIST_URL)
+    r.raise_for_status()
+    blacklist = r.json()
     for chain in blacklist:
         try:
             for pool in blacklist[chain]:
