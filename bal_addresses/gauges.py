@@ -1,5 +1,5 @@
-from bal_addresses import utils as BalUtils, Aura
-from bal_addresses import GraphQueries
+from bal_addresses import utils as BalUtils
+from .queries import GraphQueries
 from typing import Dict
 from .errors import ChecksumError, UnexpectedListLength
 import json
@@ -14,16 +14,11 @@ class BalGauges:
         # TODO move build_core_pools into lib and figure out how to deal with the need for a global call.
         self.core_pools = BalUtils.build_core_pools(chain)
         self.queries = GraphQueries(self.chain)
-        self.aura = Aura(self.chain)
-        try:
-            self.aura_pids_by_address = Aura.get_aura_gauge_mappings()
-        except Exception as e:
-            print(f"Failed to populate aura pids from aura subgraph: {e}")
-            self.aura_pids_by_address = None
 
-    def get_bpt_balances(self, pool_id, block) -> Dict[str, int]:
+
+    def get_bpt_balances(self, pool_id: str, block: int) -> Dict[str, int]:
         query = self.queries.BALANCER_POOL_SHARES_QUERY
-        variables = {"poolId": pool_id, "block": block}
+        variables = {"poolId": pool_id, "block": int(block)}
         data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
         if data and 'data' in data and 'pool' in data['data'] and data['data']['pool']:
@@ -32,9 +27,10 @@ class BalGauges:
                 results[user_address] = float(share['balance'])
         return results
 
-    def get_gauge_deposit_shares(self, gauge_address, block) -> Dict[str, int]:
+    def get_gauge_deposit_shares(self, gauge_address: str, block: int) -> Dict[str, int]:
+        gauge_address = Web3.toChecksumAddress(gauge_address)
         query = self.queries.BALANCER_GAUGES_SHARES_QUERY
-        variables = {"gaugeAddress": gauge_address, "block": block}
+        variables = {"gaugeAddress": gauge_address, "block": int(block)}
         data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
         if 'data' in data and 'gaugeShares' in data['data']:

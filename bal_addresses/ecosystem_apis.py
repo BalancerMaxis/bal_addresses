@@ -1,4 +1,6 @@
-from bal_addresses import AddrBook, GraphQueries, BalGauges
+from  .addresses import AddrBook
+from .queries import GraphQueries
+from .gauges import BalGauges
 from .errors import ChecksumError, UnexpectedListLength, MultipleMatchesError
 import requests
 import re
@@ -21,7 +23,8 @@ class Ecosystem:
         self.aura = Aura(chain)
         self.beefy = Beefy(chain)
 
-    def get_ecosystem_balances(self, pool_id, gauge_address, block) -> Dict[str, int]:
+    def get_ecosystem_balances(self, pool_id: str, gauge_address: str, block: int) -> Dict[str, int]:
+        gauge_address = Web3.toChecksumAddress(gauge_address)
         bpts_in_bal_gauge = 0
         bpts_in_aura = 0
         total_circulating_bpts = 0
@@ -68,10 +71,13 @@ class Ecosystem:
             total_bpts_counted += float(amount)
         print(
             f"Found {total_circulating_bpts} of which {bpts_in_bal_gauge} where staked by an address in a bal gauge and {bpts_in_aura} where deposited on aura at block {block}")
-        if total_bpts_counted != total_circulating_bpts:
+        ## Slight tolerance for rounding
+        delta = abs(total_circulating_bpts - total_bpts_counted)
+        if delta > 1e-10:
             raise ChecksumError(
                 f"initial bpts found {total_circulating_bpts}, final bpts counted:{total_bpts_counted} the delta is {total_circulating_bpts - total_bpts_counted}" )
         return ecosystem_balances
+
 
 class Beefy:
     API_URL = "https://api.beefy.finance/vaults/"
@@ -94,14 +100,19 @@ class Beefy:
         results.raise_for_status()
         self.API_CHAIN_RESULTS = results.json()
 
+
 class Aura:
     AURA_GAUGE_STAKER_BY_CHAIN ={
         "mainnet": "0xaF52695E1bB01A16D33D7194C28C42b10e0Dbec2"
     }
     def __init__(self, chain):
         self.chain = chain
-        self.ueries = GraphQueries(chain)
-
+        self.queries = GraphQueries(chain)
+        try:
+            self.aura_pids_by_address = Aura.get_aura_gauge_mappings(self)
+        except Exception as e:
+            print(f"Failed to populate aura pids from aura subgraph: {e}")
+            self.aura_pids_by_address = None
     def get_aura_gauge_mappings(self) -> Dict[str, int]:
         """
         Returns a map like {"gauge_address": int(pid_number)} with all aura gauges on the operating chain
@@ -111,7 +122,15 @@ class Aura:
         aura_pid_by_gauge = {}
         for result_item in data["data"]["gauges"]:
             gauge_address = Web3.toChecksumAddress(result_item["pool"]["gauge"]["id"])
-            pid = result_item["pool"]["id"][0]
+            pid = result_item["pool"]["id"]
+            # Seems like pid can be a string or a list
+            if isinstance(pid, list):
+                if len(pid > 1):
+                    raise MultipleMatchesError(f"Gauge: {gauge_address} is returning multiple aura PIDs: {pid}")
+                else:
+                    pid=[pid][0]
+
+
             if gauge_address in aura_pid_by_gauge:
                 raise MultipleMatchesError(f"Gauge with address{gauge_address} already found with PID {aura_pid_by_gauge[gauge_address]} when trying to insert new PID {pid}")
             aura_pid_by_gauge[gauge_address] = pid
@@ -120,7 +139,7 @@ class Aura:
         # Prepare the GraphQL query and variables
         aura_pid = self.get_aura_pid_from_gauge(gauge_address)
         query = self.queries.AURA_SHARES_QUERY
-        variables = {"poolId": aura_pid, "block": block}
+        variables = {"poolId": aura_pid, "block": int(block)}
         data = BalUtils.fetch_graphql_data(query["endpoint"], query["query"], variables)
         results = {}
         # Parse the data if the query was successful
@@ -133,11 +152,16 @@ class Aura:
         return results
 
 
-    def get_aura_pid_from_gauge(self, deposit_gauge_address: str) -> int:
-        result = self.get_aura_gauge_mappings()[deposit_gauge_address]
+    def get_aura_pid_from_gauge(self, deposit_gauge_address: str) -> str:
+        deposit_gauge_address = Web3.toChecksumAddress(deposit_gauge_address)
+        try:
+            result = self.aura_pids_by_address[deposit_gauge_address]
+        except KeyError as e:
+            print(f"WARNING: Gauge {deposit_gauge_address} does is not returning any deposits on Aura, is Aura Empty for this pool?")
+
         if isinstance(result, str):
-            return int(result)
+            return result
         else:
             if len(result) != 1:
                 raise UnexpectedListLength(f"Got a list result with something other than 1 memeber when compling aura PID mapping: {result}")
-            return int(result[0])
+            return result[0]
