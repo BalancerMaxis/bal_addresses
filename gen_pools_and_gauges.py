@@ -1,35 +1,17 @@
 import json
-import urllib.request
 
 import pandas as pd
 import requests
+from bal_addresses.pools_gauges import BalPoolsGauges
+
+from bal_addresses import utils as BalUtils
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 
 
-def get_subgraph_url(chain_name: str, subgraph="core"):
-    chain_name = "gnosis-chain" if chain_name == "gnosis" else chain_name
-    frontend_file = f"https://raw.githubusercontent.com/balancer/frontend-v2/develop/src/lib/config/{chain_name}/index.ts"
-    if subgraph == "core":
-        magic_word = "subgraph:"
-    elif subgraph == "gauges":
-        magic_word = "gauge:"
-    found_magic_word = False
-    with urllib.request.urlopen(frontend_file) as f:
-        for line in f:
-            if found_magic_word:
-                return line.decode("utf-8").strip().strip(" ,'")
-            if magic_word + " " in str(line):
-                # url is on same line
-                return line.decode("utf-8").split(magic_word)[1].strip().strip(",'")
-            if magic_word in str(line):
-                # url is on next line, return it on the next iteration
-                found_magic_word = True
-
-
 def query_swap_enabled_pools(chain_name, skip=0, step_size=100) -> list:
-    url = get_subgraph_url(chain_name, "core")
+    url = BalUtils.get_subgraph_url(chain_name, "core")
     query = f"""{{
         pools(
             skip: {skip}
@@ -70,30 +52,6 @@ def process_query_swap_enabled_pools(result) -> dict:
     return df.set_index("symbol")["address"].to_dict()
 
 
-def query_preferential_gauges(chain_name, skip=0, step_size=100) -> list:
-    url = get_subgraph_url(chain_name, "gauges")
-    query = f"""{{
-        liquidityGauges(
-            skip: {skip}
-            first: {step_size}
-            where: {{isPreferentialGauge: true}}
-        ) {{
-            id
-            symbol
-        }}
-    }}"""
-    r = requests.post(url, json={"query": query})
-    r.raise_for_status()
-    try:
-        result = r.json()["data"]["liquidityGauges"]
-    except KeyError:
-        result = []
-    if len(result) > 0:
-        # didnt reach end of results yet, collect next page
-        result += query_preferential_gauges(chain_name, skip + step_size, step_size)
-    return result
-
-
 def process_query_preferential_gauges(result) -> dict:
     df = pd.DataFrame(result)
     if len(df) == 0:
@@ -118,7 +76,9 @@ def main():
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
+        gauge_info = BalPoolsGauges(chain)
         # pools
+        # TODO: consider moving to query object??
         result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
         if result:
             pools[chain] = result
@@ -129,7 +89,9 @@ def main():
         if chain in NO_GAUGE_SUBGRAPH:
             # no (gauge) subgraph exists for this chain
             continue
-        result = process_query_preferential_gauges(query_preferential_gauges(chain))
+        result = process_query_preferential_gauges(
+            gauge_info.query_preferential_gauges()
+        )
         if result:
             gauges[chain] = result
         with open("extras/gauges.json", "w") as f:
