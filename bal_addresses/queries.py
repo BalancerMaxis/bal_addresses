@@ -7,9 +7,6 @@ NO_BALANCER_SUBGRAPH = []
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 NO_AURA_SUBGRAPH = ["avalanche"]
 
-class KeyAsDefaultDict(defaultdict):
-    def __missing__(self, key):
-        return None
 
 class GraphEndpoints:
     balancer = defaultdict(lambda: None)
