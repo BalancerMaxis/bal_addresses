@@ -1,3 +1,6 @@
 [build-system]
 requires = ["setuptools>=42","wheel","munch","web3"]
 build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-rA"
