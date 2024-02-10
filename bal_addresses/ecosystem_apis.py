@@ -1,6 +1,6 @@
 from  .addresses import AddrBook
 from .queries import GraphQueries
-from .gauges import BalGauges
+from .pools_gauges import BalPoolsGauges
 from .errors import ChecksumError, UnexpectedListLength, MultipleMatchesError, NoResultError
 import requests
 import re
@@ -19,7 +19,7 @@ class Ecosystem:
     def __init__(self, chain):
         self.chain = chain
         self.queries = GraphQueries(chain)
-        self.gauges = BalGauges(chain)
+        self.gauges = BalPoolsGauges(chain)
         self.aura = Aura(chain)
         self.beefy = Beefy(chain)
 

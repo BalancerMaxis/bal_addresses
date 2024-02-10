@@ -3,4 +3,4 @@ from .permissions import BalPermissions
 from .errors import MultipleMatchesError, NoResultError
 from .queries import GraphQueries, GraphEndpoints
 from .ecosystem_apis import Aura, Beefy, Ecosystem
-from .gauges import BalGauges
+from .pools_gauges import BalPoolsGauges

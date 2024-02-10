@@ -1,4 +1,4 @@
-from bal_addresses import Ecosystem, BalGauges, Aura, GraphQueries
+from bal_addresses import Ecosystem, BalPoolsGauges, Aura, GraphQueries
 import csv
 import os
 from collections import defaultdict
@@ -36,7 +36,7 @@ POOLS_TO_RUN_ON = [
     }
 ]
 def get_ecosystem_balances_w_csv(pool_id: str, gauge_address: str, block: int, name: str, chain="mainnet") -> Dict[str, int]:
-    gauges = BalGauges(chain)
+    gauges = BalPoolsGauges(chain)
     aura = Aura(chain)
     gauge_address = Web3.toChecksumAddress(gauge_address)
     bpt_balances = defaultdict(float)
