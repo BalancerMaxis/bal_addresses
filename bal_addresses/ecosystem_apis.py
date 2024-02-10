@@ -1,7 +1,7 @@
 from  .addresses import AddrBook
 from .queries import GraphQueries
 from .gauges import BalGauges
-from .errors import ChecksumError, UnexpectedListLength, MultipleMatchesError
+from .errors import ChecksumError, UnexpectedListLength, MultipleMatchesError, NoResultError
 import requests
 import re
 import json
@@ -152,11 +152,9 @@ class Aura:
 
     def get_aura_pid_from_gauge(self, deposit_gauge_address: str) -> str:
         deposit_gauge_address = Web3.toChecksumAddress(deposit_gauge_address)
-        try:
-            result = self.aura_pids_by_address[deposit_gauge_address]
-        except KeyError as e:
-            print(f"WARNING: Gauge {deposit_gauge_address} does is not returning any deposits on Aura, is Aura Empty for this pool?")
-
+        result = self.aura_pids_by_address.get(deposit_gauge_address, None)
+        if not result:
+            raise NoResultError(f"Gauge {deposit_gauge_address} has no Aura PID")
         if isinstance(result, str):
             return result
         else:

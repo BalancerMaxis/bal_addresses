@@ -11,6 +11,16 @@ class GraphEndpoints:
     balancer = {}
     gauges = {}
     aura = {}
+    blocks =  {
+        "mainnet": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
+        "arbitrum": "https://api.thegraph.com/subgraphs/name/ianlapham/arbitrum-one-blocks",
+        "polygon": "https://api.thegraph.com/subgraphs/name/ianlapham/polygon-blocks",
+        "base": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
+        "gnosis": "https://api.thegraph.com/subgraphs/name/rebase-agency/gnosis-chain-blocks",
+        "avalanche": "https://api.thegraph.com/subgraphs/name/iliaazhel/avalanche-blocks",
+        "zkevm": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
+    }
+
     for chain in AddrBook.chain_ids_by_name.keys():
         ## Mainnet often has a different URL string format
         if chain == "mainnet":
@@ -37,6 +47,10 @@ class GraphEndpoints:
 
 
 class GraphQueries:
+    def get_first_block_after_utc_timestamp(self, timestamp: int):
+        result = self.fetch_graphql_data(self.GET_FIRST_BLOCK_AFTER_TIMESTAMP, {"timestamp": timestamp})
+        return int(result["data"]["blocks"][0]["number"])
+
     def fetch_graphql_data(self, query_object, variables=None):
         if variables:
             response = requests.post(query_object["endpoint"],
@@ -140,4 +154,12 @@ query getAuraGaugeMappings {
 }
 """
             }
-
+        self.GET_FIRST_BLOCK_AFTER_TIMESTAMP={"endpoint": GraphEndpoints.blocks[chain], "query": """
+query FirstBlockAfterTimestamp($timestamp: Int) {
+  blocks(first: 1, orderBy: number, orderDirection: asc, where: {timestamp_gt: $timestamp}) {
+    number,
+    timestamp
+  }
+}
+"""
+            }
