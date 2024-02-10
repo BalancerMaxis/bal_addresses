@@ -1,5 +1,5 @@
 from bal_addresses import AddrBook
-from .errors import  GraphQLRequestError
+from .errors import GraphQLRequestError
 import requests
 from collections import defaultdict
 
@@ -13,17 +13,14 @@ class GraphEndpoints:
 
     gauges = defaultdict(lambda: None)
     aura = defaultdict(lambda: None)
-    blocks =   {
-        "mainnet": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
+    blocks = {"mainnet": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
         "arbitrum": "https://api.thegraph.com/subgraphs/name/ianlapham/arbitrum-one-blocks",
         "polygon": "https://api.thegraph.com/subgraphs/name/ianlapham/polygon-blocks",
         "base": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
         "gnosis": "https://api.thegraph.com/subgraphs/name/rebase-agency/gnosis-chain-blocks",
         "avalanche": "https://api.thegraph.com/subgraphs/name/iliaazhel/avalanche-blocks",
-        "zkevm": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
-    }
-    blocks=defaultdict(lambda: None, blocks)
-
+        "zkevm": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest", }
+    blocks = defaultdict(lambda: None, blocks)
 
     for chain in AddrBook.chain_ids_by_name.keys():
         ## Mainnet often has a different URL string format
@@ -76,18 +73,7 @@ class GraphQueries:
 
     def __init__(self, chain):
         self.chain = chain
-        self.AURA_GAUGE_MAPPINGS_QUERY = {"endpoint": GraphEndpoints.aura[chain], "query": """
-    query getAuraGaugeMappings {
-      gauges(first: 1000) {
-        pool {
-          id
-          gauge {
-            id
-          }
-        }
-      }
-    }
-"""}
+        
         ## TODO add asert that result list is < 1000 due to first: 1000 in the query
         self.BALANCER_POOL_SHARES_QUERY = {"endpoint": GraphEndpoints.balancer[chain], "query": """
     query GetUserPoolBalances($poolId: ID!, $block: Int) {
@@ -100,13 +86,10 @@ class GraphQueries:
             }
         }
     }
-"""
-        }
+"""}
         ## TODO think about pagination above
 
-
-
-        self.BALANCER_GAUGES_SHARES_QUERY = {"endpoint": GraphEndpoints.gauges[chain], "query":"""
+        self.BALANCER_GAUGES_SHARES_QUERY = {"endpoint": GraphEndpoints.gauges[chain], "query": """
         query FetchGaugeShares($gaugeAddress: String!, $block: Int) {
           gaugeShares(
             block: {number: $block}
@@ -122,10 +105,9 @@ class GraphQueries:
             }
           }
         }
-        """
-            }
+        """}
 
-    # --- AURA QUERIES ---
+        # --- AURA QUERIES ---
         self.AURA_SHARES_QUERY = {"endpoint": GraphEndpoints.aura[chain], "query": """
         query PoolLeaderboard($poolId: ID!, $block: Int) {
           leaderboard: pool(id: $poolId, block: {number: $block}) {
@@ -146,10 +128,9 @@ class GraphQueries:
             totalStaked
           }
         }
-        """
-            }
+        """}
 
-        self.AURA_GAUGE_MAPPINGS_QUERY={"endpoint": GraphEndpoints.aura[chain], "query": """
+        self.AURA_GAUGE_MAPPINGS_QUERY = {"endpoint": GraphEndpoints.aura[chain], "query": """
 query getAuraGaugeMappings {
   gauges(first: 1000) {
     pool {
@@ -160,14 +141,15 @@ query getAuraGaugeMappings {
     }
   }
 }
+
 """
-            }
-        self.GET_FIRST_BLOCK_AFTER_TIMESTAMP={"endpoint": GraphEndpoints.blocks[chain], "query": """
+     # --- GENERAL QUERIES ---
+                                          }
+        self.GET_FIRST_BLOCK_AFTER_TIMESTAMP = {"endpoint": GraphEndpoints.blocks[chain], "query": """
 query FirstBlockAfterTimestamp($timestamp: Int) {
   blocks(first: 1, orderBy: number, orderDirection: asc, where: {timestamp_gt: $timestamp}) {
     number,
     timestamp
   }
 }
-"""
-            }
+"""}
