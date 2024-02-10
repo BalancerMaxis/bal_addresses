@@ -51,6 +51,10 @@ class GraphEndpoints:
                 aura[chain] = f"https://graph.aura.finance/subgraphs/name/aura/aura-{chain}-v2-1"
             else:
                 aura[chain] = None
+        ## Overrides that are known to work
+        aura['zkevm'] = "https://subgraph.satsuma-prod.com/ab0804deff79/1xhub-ltd/aura-finance-zkevm/api"
+        gauges["zkevm"] = "https://api.studio.thegraph.com/query/24660/balancer-gauges-polygon-zk/version/latest"
+        balancer['zkevm'] = 'https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest'
 
 
 class GraphQueries:
