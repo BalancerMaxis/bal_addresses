@@ -48,7 +48,7 @@ class GraphEndpoints:
 
 class GraphQueries:
     def get_first_block_after_utc_timestamp(self, timestamp: int):
-        result = self.fetch_graphql_data(self.GET_FIRST_BLOCK_AFTER_TIMESTAMP, {"timestamp": timestamp})
+        result = self.fetch_graphql_data(self.GET_FIRST_BLOCK_AFTER_TIMESTAMP, {"timestamp": int(timestamp)})
         return int(result["data"]["blocks"][0]["number"])
 
     def fetch_graphql_data(self, query_object, variables=None):
