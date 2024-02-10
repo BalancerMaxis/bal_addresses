@@ -11,5 +11,5 @@ class ChecksumError(Exception):
 class GraphQLRequestError(Exception):
     pass
 
-class UnexpectedListLength(Exception):
+class UnexpectedListLengthError(Exception):
     pass

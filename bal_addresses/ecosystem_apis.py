@@ -1,7 +1,7 @@
 from  .addresses import AddrBook
 from .queries import GraphQueries
 from .pools_gauges import BalPoolsGauges
-from .errors import ChecksumError, UnexpectedListLength, MultipleMatchesError, NoResultError
+from .errors import ChecksumError, UnexpectedListLengthError, MultipleMatchesError, NoResultError
 import requests
 import re
 import json
@@ -159,5 +159,5 @@ class Aura:
             return result
         else:
             if len(result) != 1:
-                raise UnexpectedListLength(f"Got a list result with something other than 1 memeber when compling aura PID mapping: {result}")
+                raise UnexpectedListLengthError(f"Got a list result with something other than 1 memeber when compling aura PID mapping: {result}")
             return result[0]

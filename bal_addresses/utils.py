@@ -2,6 +2,8 @@ import json
 from urllib.request import urlopen
 import requests
 
+
+
 def get_subgraph_url(chain: str, subgraph="core") -> str:
     """
     perform some soup magic to determine the latest subgraph url used in the official frontend

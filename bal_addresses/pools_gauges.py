@@ -1,7 +1,7 @@
 from bal_addresses import utils as BalUtils
 from .queries import GraphQueries
 from typing import Dict
-from .errors import ChecksumError, UnexpectedListLength
+from .errors import ChecksumError, UnexpectedListLengthError
 import json
 from urllib.request import urlopen
 import requests

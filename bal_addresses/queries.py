@@ -1,17 +1,22 @@
 from bal_addresses import AddrBook
 from .errors import  GraphQLRequestError
 import requests
+from collections import defaultdict
 
 NO_BALANCER_SUBGRAPH = []
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 NO_AURA_SUBGRAPH = ["avalanche"]
 
+class KeyAsDefaultDict(defaultdict):
+    def __missing__(self, key):
+        return None
 
 class GraphEndpoints:
-    balancer = {}
-    gauges = {}
-    aura = {}
-    blocks =  {
+    balancer = defaultdict(lambda: None)
+
+    gauges = defaultdict(lambda: None)
+    aura = defaultdict(lambda: None)
+    blocks =   {
         "mainnet": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
         "arbitrum": "https://api.thegraph.com/subgraphs/name/ianlapham/arbitrum-one-blocks",
         "polygon": "https://api.thegraph.com/subgraphs/name/ianlapham/polygon-blocks",
@@ -20,6 +25,8 @@ class GraphEndpoints:
         "avalanche": "https://api.thegraph.com/subgraphs/name/iliaazhel/avalanche-blocks",
         "zkevm": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     }
+    blocks=defaultdict(lambda: None, blocks)
+
 
     for chain in AddrBook.chain_ids_by_name.keys():
         ## Mainnet often has a different URL string format
