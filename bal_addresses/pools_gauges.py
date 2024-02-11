@@ -1,18 +1,14 @@
-from bal_addresses import utils as BalUtils
+from bal_addresses.utils import get_subgraph_url
 from .queries import GraphQueries
 from typing import Dict
-from .errors import ChecksumError, UnexpectedListLengthError
 import json
-from urllib.request import urlopen
 import requests
-from collections import defaultdict
 from web3 import Web3
 
 
 class BalPoolsGauges:
     def __init__(self, chain):
         self.chain = chain
-        # TODO move build_core_pools into lib and figure out how to deal with the need for a global call.
         self.core_pools = self.build_core_pools()
         self.queries = GraphQueries(self.chain)
 
@@ -38,31 +34,6 @@ class BalPoolsGauges:
                 results[user_address] = float(share['balance'])
         return results
 
-    def has_alive_preferential_gauge(self, pool_id: str) -> bool:
-        """
-        check if a pool has an alive preferential gauge
-
-        params:
-        chain: string format is the same as in extras/chains.json
-        pool_id: this is the long version of a pool id, so contract address + suffix
-
-        returns:
-        True if the pool has an alive preferential gauge
-        """
-        return BalUtils.has_alive_preferential_gauge(self.chain, pool_id)
-
-    # TODO remove and/or move description to var somehow?
-    def get_core_pools(self) -> dict:
-        """
-        get the core pools for a chain
-
-        params:
-        chain: string format is the same as in extras/chains.json
-
-        returns:
-        dictionary of the format {pool_id: symbol}
-        """
-        return self.core_pools
 
     def is_core_pool(self, pool_id: str) -> bool:
         """
@@ -79,7 +50,7 @@ class BalPoolsGauges:
 
     def query_preferential_gauges(self, skip=0, step_size=100) -> list:
         ## Todo
-        url = BalUtils.get_subgraph_url(self.chain, "gauges")
+        url = get_subgraph_url(self.chain, "gauges")
         query = f"""{{
             liquidityGauges(
                 skip: {skip}
@@ -119,7 +90,7 @@ class BalPoolsGauges:
         dictionary of the format {chain_name: {pool_id: symbol}}
         """
         filtered_pools = {}
-        url = BalUtils.get_subgraph_url(self.chain)
+        url = get_subgraph_url(self.chain)
         query = """{
             pools(
                 first: 1000,
@@ -170,7 +141,7 @@ class BalPoolsGauges:
         returns:
         - True if the pool has a preferential gauge which is not killed
         """
-        url = BalUtils.get_subgraph_url(self.chain, "gauges")
+        url = get_subgraph_url(self.chain, "gauges")
         query = f"""{{
             liquidityGauges(
                 where: {{
