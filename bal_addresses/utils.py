@@ -1,8 +1,4 @@
-import json
 from urllib.request import urlopen
-import requests
-
-
 
 def get_subgraph_url(chain: str, subgraph="core") -> str:
     """
