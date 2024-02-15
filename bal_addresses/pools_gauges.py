@@ -1,39 +1,43 @@
-from bal_addresses.utils import get_subgraph_url
-from .queries import GraphQueries
 from typing import Dict
 import json
 import requests
 from web3 import Web3
 
+from bal_addresses.queries import SubgraphQueries
+
 
 class BalPoolsGauges:
     def __init__(self, chain):
         self.chain = chain
+        self.queries = SubgraphQueries(self.chain)
         self.core_pools = self.build_core_pools()
-        self.queries = GraphQueries(self.chain)
-
 
     def get_bpt_balances(self, pool_id: str, block: int) -> Dict[str, int]:
         variables = {"poolId": pool_id, "block": int(block)}
-        data = self.queries.fetch_graphql_data(self.queries.BALANCER_POOL_SHARES_QUERY, variables)
+        data = self.queries.fetch_graphql_data(
+            self.queries.BALANCER_POOL_SHARES_QUERY, variables
+        )
         results = {}
-        if data and 'data' in data and 'pool' in data['data'] and data['data']['pool']:
-            for share in data['data']['pool']['shares']:
-                user_address = Web3.toChecksumAddress(share['userAddress']['id'])
-                results[user_address] = float(share['balance'])
+        if data and "data" in data and "pool" in data["data"] and data["data"]["pool"]:
+            for share in data["data"]["pool"]["shares"]:
+                user_address = Web3.toChecksumAddress(share["userAddress"]["id"])
+                results[user_address] = float(share["balance"])
         return results
 
-    def get_gauge_deposit_shares(self, gauge_address: str, block: int) -> Dict[str, int]:
+    def get_gauge_deposit_shares(
+        self, gauge_address: str, block: int
+    ) -> Dict[str, int]:
         gauge_address = Web3.toChecksumAddress(gauge_address)
         variables = {"gaugeAddress": gauge_address, "block": int(block)}
-        data = self.queries.fetch_graphql_data(self.queries.BALANCER_GAUGES_SHARES_QUERY, variables)
+        data = self.queries.fetch_graphql_data(
+            self.queries.BALANCER_GAUGES_SHARES_QUERY, variables
+        )
         results = {}
-        if 'data' in data and 'gaugeShares' in data['data']:
-            for share in data['data']['gaugeShares']:
-                user_address = Web3.toChecksumAddress(share['user']['id'])
-                results[user_address] = float(share['balance'])
+        if "data" in data and "gaugeShares" in data["data"]:
+            for share in data["data"]["gaugeShares"]:
+                user_address = Web3.toChecksumAddress(share["user"]["id"])
+                results[user_address] = float(share["balance"])
         return results
-
 
     def is_core_pool(self, pool_id: str) -> bool:
         """
@@ -49,8 +53,10 @@ class BalPoolsGauges:
         return pool_id in self.core_pools
 
     def query_preferential_gauges(self, skip=0, step_size=100) -> list:
-        ## Todo
-        url = get_subgraph_url(self.chain, "gauges")
+        """
+        TODO: add docstring
+        """
+        url = self.queries.subgraph_url["gauges"]
         query = f"""{{
             liquidityGauges(
                 skip: {skip}
@@ -90,7 +96,7 @@ class BalPoolsGauges:
         dictionary of the format {chain_name: {pool_id: symbol}}
         """
         filtered_pools = {}
-        url = get_subgraph_url(self.chain)
+        url = self.queries.subgraph_url["balancer"]
         query = """{
             pools(
                 first: 1000,
@@ -141,7 +147,7 @@ class BalPoolsGauges:
         returns:
         - True if the pool has a preferential gauge which is not killed
         """
-        url = get_subgraph_url(self.chain, "gauges")
+        url = self.queries.subgraph_url["gauges"]
         query = f"""{{
             liquidityGauges(
                 where: {{

@@ -2,16 +2,16 @@ import json
 
 import pandas as pd
 import requests
-from bal_addresses.pools_gauges import BalPoolsGauges
 
-from bal_addresses import utils as BalUtils
+from bal_addresses.pools_gauges import BalPoolsGauges
+from bal_addresses.queries import SubgraphQueries
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 
 
-def query_swap_enabled_pools(chain_name, skip=0, step_size=100) -> list:
-    url = BalUtils.get_subgraph_url(chain_name, "core")
+def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
+    url = SubgraphQueries(chain).subgraph_url["balancer"]
     query = f"""{{
         pools(
             skip: {skip}
@@ -30,7 +30,7 @@ def query_swap_enabled_pools(chain_name, skip=0, step_size=100) -> list:
         result = []
     if len(result) > 0:
         # didnt reach end of results yet, collect next page
-        result += query_swap_enabled_pools(chain_name, skip + step_size, step_size)
+        result += query_swap_enabled_pools(chain, skip + step_size, step_size)
     return result
 
 
