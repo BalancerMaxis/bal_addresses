@@ -3,13 +3,14 @@ import json
 import requests
 
 from bal_addresses.utils import get_subgraph_url
+from bal_addresses import AddrBook
 
 
 class BalPoolsGauges:
     def __init__(self, chain):
         self.chain = chain
         self.core_pools = self.build_core_pools()
-
+        self.addresses = AddrBook(self.chain)
     def is_core_pool(self, pool_id: str) -> bool:
         """
         check if a pool is a core pool using a fresh query to the subgraph
@@ -137,7 +138,7 @@ class BalPoolsGauges:
         if len(result) > 0:
             return True
         else:
-            print(f"Pool {pool_id} on {self.chain} has no alive preferential gauge")
+            print(f"Pool {pool_id}({self.addresses.reversebook(pool_id)}) on {self.chain} has no alive preferential gauge. Query: \n{query}")
 
     def build_core_pools(self):
         """
