@@ -118,26 +118,30 @@ class BalPoolsGauges:
         """
         url = get_subgraph_url(self.chain, "gauges")
         query = f"""{{
-            liquidityGauges(
+            pools(
                 where: {{
                     poolId: "{pool_id}",
-                    isKilled: false,
-                    isPreferentialGauge: true
+                    preferentialGauge_not: null
                 }}
             ) {{
-                id
+                preferentialGauge {{
+                    isKilled
+                }}
             }}
         }}"""
         r = requests.post(url, json={"query": query})
         r.raise_for_status()
         try:
-            result = r.json()["data"]["liquidityGauges"]
+            result = r.json()["data"]["pools"]
         except KeyError:
             result = []
-        if len(result) > 0:
-            return True
-        else:
-            print(f"Pool {pool_id} on {self.chain} has no alive preferential gauge")
+        if len(result) == 0:
+            print(f"Pool {pool_id} on {self.chain} has no preferential gauge")
+            return False
+        for gauge in result:
+            if gauge["preferentialGauge"]["isKilled"] == False:
+                return True
+        print(f"Pool {pool_id} on {self.chain} has no alive preferential gauge")
 
     def build_core_pools(self):
         """
