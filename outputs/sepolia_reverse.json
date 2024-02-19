@@ -169,6 +169,7 @@
   "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8": "EOA/emergency/mikeb",
   "0xF24917fB88261a37Cc57F686eBC831a5c0B9fD39": "20230504-vebal-remapper/VotingEscrowRemapper",
   "0xa30aDE89E6af5b0Ca515cd78e44f9aD0c63989b2": "20230411-managed-pool-v2/ManagedPoolAmmLib",
+  "0xa3682Af0185471e72F82701C6770158C577E5349": "pools/50WETH-50USDC-a368",
   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
   "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48": "20230410-silo-linear-pool-v2/MockSiloRepository",
   "0xa818F80F49A154F7703391c91E85b33450359406": "pools/80ASX-20WETH-a818",
