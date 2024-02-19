@@ -2,7 +2,9 @@
   "mainnet": { "0xxxx": "BLACKLIST-ME" },
   "polygon": {},
   "zkevm": {},
-  "arbitrum": {},
+  "arbitrum": {
+    "0x36bf227d6bac96e2ab1ebb5492ecec69c691943f000200000000000000000316": "old wstETH/ETH gauge"
+  },
   "gnosis": {},
   "base": {},
   "avalanche": {},
