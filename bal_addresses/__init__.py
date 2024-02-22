@@ -12,5 +12,5 @@ from .errors import (
     ChecksumError,
     UnexpectedListLengthError,
 )
-from .queries import SubgraphQueries
+from .subgraph import Subgraph
 from .pools_gauges import BalPoolsGauges

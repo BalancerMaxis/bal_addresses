@@ -4,14 +4,14 @@ import pandas as pd
 import requests
 
 from bal_addresses.pools_gauges import BalPoolsGauges
-from bal_addresses.queries import SubgraphQueries
+from bal_addresses.subgraph import Subgraph
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 
 
 def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
-    url = SubgraphQueries(chain).subgraph_url["balancer"]
+    url = Subgraph(chain).get_subgraph_url("balancer")
     query = f"""{{
         pools(
             skip: {skip}
