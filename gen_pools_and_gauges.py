@@ -11,7 +11,7 @@ NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
 
 
 def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
-    url = Subgraph(chain).get_subgraph_url("balancer")
+    url = Subgraph(chain).get_subgraph_url("core")
     query = f"""{{
         pools(
             skip: {skip}

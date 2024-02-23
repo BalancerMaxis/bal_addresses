@@ -67,7 +67,7 @@ class BalPoolsGauges:
         """
         TODO: add docstring
         """
-        url = self.subgraph.subgraph_url["gauges"]
+        url = self.subgraph.get_subgraph_url("gauges")
         query = f"""{{
             liquidityGauges(
                 skip: {skip}
@@ -107,7 +107,7 @@ class BalPoolsGauges:
         dictionary of the format {chain_name: {pool_id: symbol}}
         """
         filtered_pools = {}
-        url = self.subgraph.subgraph_url["balancer"]
+        url = self.subgraph.get_subgraph_url("core")
         query = """{
             pools(
                 first: 1000,
@@ -158,7 +158,7 @@ class BalPoolsGauges:
         returns:
         - True if the pool has a preferential gauge which is not killed
         """
-        url = self.subgraph.subgraph_url["gauges"]
+        url = self.subgraph.get_subgraph_url("gauges")
         query = f"""{{
             liquidityGauges(
                 where: {{
