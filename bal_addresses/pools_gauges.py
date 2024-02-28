@@ -55,7 +55,6 @@ class BalPoolsGauges:
         check if a pool is a core pool using a fresh query to the subgraph
 
         params:
-        chain: string format is the same as in extras/chains.json
         pool_id: this is the long version of a pool id, so contract address + suffix
 
         returns:
@@ -67,21 +66,10 @@ class BalPoolsGauges:
         """
         TODO: add docstring
         """
-        url = self.subgraph.get_subgraph_url("gauges")
-        query = f"""{{
-            liquidityGauges(
-                skip: {skip}
-                first: {step_size}
-                where: {{isPreferentialGauge: true}}
-            ) {{
-                id
-                symbol
-            }}
-        }}"""
-        r = requests.post(url, json={"query": query})
-        r.raise_for_status()
+        variables = {"skip": skip, "step_size": step_size}
+        data = self.subgraph.fetch_graphql_data("gauges", "pref_gauges", variables)
         try:
-            result = r.json()["data"]["liquidityGauges"]
+            result = data["liquidityGauges"]
         except KeyError:
             result = []
         if len(result) > 0:
@@ -96,51 +84,17 @@ class BalPoolsGauges:
         - have a rate provider different from address(0)
         - have a liquidity greater than $250k
         - either:
-        - have a yield fee > 0
-        - be a meta stable pool with swap fee > 0
-        - be a gyro pool
-
-        params:
-        - chain: name of the chain
+          - have a yield fee > 0
+          - be a meta stable pool with swap fee > 0
+          - be a gyro pool
 
         returns:
         dictionary of the format {chain_name: {pool_id: symbol}}
         """
         filtered_pools = {}
-        url = self.subgraph.get_subgraph_url("core")
-        query = """{
-            pools(
-                first: 1000,
-                where: {
-                    and: [
-                        {
-                            priceRateProviders_: {
-                                address_not: "0x0000000000000000000000000000000000000000"
-                            }
-                        },
-                        {
-                            totalLiquidity_gt: 250000
-                        },
-                        { or: [
-                            { protocolYieldFeeCache_gt: 0 },
-                            { and: [
-                                { swapFee_gt: 0 },
-                                { poolType_contains: "MetaStable" },
-                                { poolTypeVersion: 1 }
-                            ] },
-                            { poolType_contains_nocase: "Gyro" },
-                        ] }
-                    ]
-                }
-            ) {
-                id,
-                symbol
-            }
-        }"""
-        r = requests.post(url, json={"query": query})
-        r.raise_for_status()
+        data = self.subgraph.fetch_graphql_data("core", "pools_rate_provider")
         try:
-            for pool in r.json()["data"]["pools"]:
+            for pool in data["pools"]:
                 filtered_pools[pool["id"]] = pool["symbol"]
         except KeyError:
             # no results for this chain
@@ -152,28 +106,17 @@ class BalPoolsGauges:
         check if a pool has an alive preferential gauge using a fresh query to the subgraph
 
         params:
-        - chain: name of the chain
         - pool_id: id of the pool
 
         returns:
         - True if the pool has a preferential gauge which is not killed
         """
-        url = self.subgraph.get_subgraph_url("gauges")
-        query = f"""{{
-            liquidityGauges(
-                where: {{
-                    poolId: "{pool_id}",
-                    isKilled: false,
-                    isPreferentialGauge: true
-                }}
-            ) {{
-                id
-            }}
-        }}"""
-        r = requests.post(url, json={"query": query})
-        r.raise_for_status()
+        variables = {"pool_id": pool_id}
+        data = self.subgraph.fetch_graphql_data(
+            "gauges", "alive_preferential_gauge", variables
+        )
         try:
-            result = r.json()["data"]["liquidityGauges"]
+            result = data["liquidityGauges"]
         except KeyError:
             result = []
         if len(result) > 0:
@@ -187,9 +130,6 @@ class BalPoolsGauges:
         - check if the pool has an alive preferential gauge
         - add pools from whitelist
         - remove pools from blacklist
-
-        params:
-        chain: name of the chain
 
         returns:
         dictionary of the format {pool_id: symbol}
