@@ -108,6 +108,8 @@
   "20231031-batch-relayer-v6/BalancerRelayer": "0x9B892E515D2Ab8869F17488d64B3b918731cc70d",
   "20231031-batch-relayer-v6/BatchRelayerLibrary": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
   "20231031-batch-relayer-v6/BatchRelayerQueryLibrary": "0xc4367195532c9bF11d76D2b3DA9a208E5FB72Df3",
+  "20240223-composable-stable-pool-v6/ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+  "20240223-composable-stable-pool-v6/MockComposableStablePool": "0xA38e07BcF8793E6e907EfFAD031081A99eFDa898",
   "EOA/blabs_ops/EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
   "EOA/blabs_ops/Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
   "EOA/blabs_ops/Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
