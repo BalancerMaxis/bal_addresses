@@ -18,6 +18,7 @@
     "20WETH-80ALCX-gauge-183d": "0x183d73da7adc5011ec3c46e33bb50271e59ec976",
     "50PENDLE-50WETH-gauge-190a": "0x190ae1f6ee5c0b7bc193fa9cd9bbe9b335f69c65",
     "80OETH/20WETH-gauge-1c9e": "0x1c9e55ae29541f2d29cdf83a38f53e1143db278e",
+    "ECLP-pxETH-frxETH-gauge-2169": "0x21693d09df79d4297a1ed9622fb1d2e4eeec5bc5",
     "2BTC-gauge-21c3": "0x21c377cbb2beddd8534308e5cdfebe35fdf817e8",
     "weETH/ezETH/rswETH-gauge-253e": "0x253ed65fff980aee7e94a0dc57be304426048b35",
     "ETHx-WETH-BPT-gauge-274f": "0x274fda0d445097dccc55c7f7ef85bfd3877a132e",
@@ -82,6 +83,7 @@
     "B-80GNO-20WETH-gauge-cb66": "0xcb664132622f29943f67fa56ccfd1e24cc8b4995",
     "80T-20TBTC-gauge-cc6a": "0xcc6a23446f6388d78f3037bd55f2eb820352d982",
     "sDOLA-DOLA BSP-gauge-cd19": "0xcd19892916929f013930ed628547cc1f439b230e",
+    "InstETH/wstETH-gauge-cda1": "0xcda1b6704b108df230d2a36da4c088c6afd6f335",
     "wbETH-wstETH-gauge-d1c0": "0xd1c070ebc7ec77f2134b3ef75283b6c1fb31a157",
     "B-baoETH-ETH-BPT-gauge-d449": "0xd449efa0a587f2cb6be3ae577bc167a774525810",
     "50ELFI-50WETH-gauge-d541": "0xd5417acb575c799ceb373f85adf100c7cd84c8c8",
@@ -143,6 +145,7 @@
     "ECLP-WMATIC-stMATIC-gauge-5141": "0x51416c00388bb4644e28546c77aee768036f17a8",
     "FRAX-UST-USDC-USDT-BSP-gauge-55c9": "0x55c9ab915d2a83819b0e3a28e6876256dd281739",
     "2eur (PAR)-gauge-5c13": "0x5c13c3b72b031b6405046c319b2d840d3c1403c7",
+    "2CLP-WBTC-WETH-gauge-5f7d": "0x5f7d543c682ad38f37d0823b8c96fee8f7e59bba",
     "tetuBAL-BALWETH-gauge-608f": "0x608f2b6f31c102ad4b956761956e2362e2ba8941",
     "BPSP-TUSD-gauge-6b00": "0x6b0068a4408f2adb633ceb90e6df6de28ba73696",
     "20WETH-80MIMO-gauge-6db8": "0x6db85d4f903fa719d4ee7b6a6434a49c82ad845a",
@@ -259,6 +262,7 @@
     "B-33WETH-33WBTC-33USDC-gauge-820a": "0x820a9f3897b2abfeece95df4aa71d8a4fb448c3b",
     "55auraBal-45wsteth-gauge-82d2": "0x82d2c7b67eaa5028c89be86cea8e1df5bd2119a1",
     "rETH/wETH BPT-gauge-8ba2": "0x8ba2d53f34159c5c5e7add60b56c7de3bbc1da68",
+    "weETH/rETH-gauge-8c20": "0x8c206459a557aa736f698401bd6029fc0db3f3c8",
     "B-wstETH-WETH-Stable-gauge-8f0b": "0x8f0b53f3ba19ee31c0a73a6f6d84106340fadf5f",
     "80FOX-20WETH-gauge-9010": "0x901079a908fd3a228a1dc7548dd67e10a911e580",
     "bb-rf-USD-BPT-gauge-914e": "0x914ec5f93ccd6362ba925bedd0bd68107b85d2ca",
@@ -437,6 +441,9 @@
     "MAI BSP-gauge-dc3f": "0xdc3f6fc8898830e53c777543fe252b14f22680d4",
     "B-stETH-STABLE-gauge-ec94": "0xec94b0453e14cde7fe1a66b54dca29e9547c57ef",
     "B-50WBTC-50WETH-gauge-f0f5": "0xf0f572ad66baacdd07d8c7ea3e0e5efa56a76081"
+  },
+  "sepolia": {
+    "20WETH-80PRF-gauge-4887": "0x4887e877cfe4fc984b2f129732f879b34745599e"
   },
   "avalanche": {
     "BPT-gauge-0c22": "0x0c22ff3f93b5c9f13e41fa9d270680e97ac13b28",
