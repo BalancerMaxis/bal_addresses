@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 
 from gql import Client, gql
-from gql.transport.aiohttp import AIOHTTPTransport
+from gql.transport.requests import RequestsHTTPTransport
 
 
 class Subgraph:
@@ -42,7 +42,9 @@ class Subgraph:
         with urlopen(frontend_file) as f:
             for line in f:
                 if found_magic_word:
-                    return line.decode("utf-8").strip().strip(" ,'")
+
+                    url = line.decode("utf-8").strip().strip(" ,'")
+                    return url
                 if magic_word + " " in str(line):
                     # url is on same line
                     return line.decode("utf-8").split(magic_word)[1].strip().strip(",'")
@@ -63,7 +65,9 @@ class Subgraph:
         """
         # build the client
         url = self.get_subgraph_url(subgraph)
-        transport = AIOHTTPTransport(url=url)
+        transport = RequestsHTTPTransport(
+            url=url,
+        )
         client = Client(transport=transport, fetch_schema_from_transport=True)
 
         # retrieve the query from its file and execute it
