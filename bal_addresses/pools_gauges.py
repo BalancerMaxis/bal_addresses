@@ -116,13 +116,16 @@ class BalPoolsGauges:
             "gauges", "alive_preferential_gauge", variables
         )
         try:
-            result = data["liquidityGauges"]
+            result = data["pools"]
         except KeyError:
             result = []
-        if len(result) > 0:
-            return True
-        else:
-            print(f"Pool {pool_id} on {self.chain} has no alive preferential gauge")
+        if len(result) == 0:
+            print(f"Pool {pool_id} on {self.chain} has no preferential gauge")
+            return False
+        for gauge in result:
+            if gauge["preferentialGauge"]["isKilled"] == False:
+                return True
+        print(f"Pool {pool_id} on {self.chain} has no alive preferential gauge")
 
     def build_core_pools(self):
         """
