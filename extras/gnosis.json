@@ -5,6 +5,7 @@
     "tokens": {},
     "mimic": {
         "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+        "smartVaultV2": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",
         "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
         "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
         "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
