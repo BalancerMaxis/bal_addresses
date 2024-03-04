@@ -10744,7 +10744,9 @@
         "BatchRelayerQueryLibrary": "0xCD2A81Af5d5B485164709dCC4b3791B9f504cFc6",
         "BalancerRelayer": "0x7852fB9d0895e6e8b3EedA553c03F6e2F9124dF9"
       },
-      "multisigs": {},
+      "multisigs": {
+        "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce"
+      },
       "EOA": {
         "maxis": {
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
