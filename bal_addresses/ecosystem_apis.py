@@ -1,5 +1,5 @@
 from  .addresses import AddrBook
-from .queries import GraphQueries
+from .subgraph import Subgraph
 from .pools_gauges import BalPoolsGauges
 from .errors import ChecksumError, UnexpectedListLengthError, MultipleMatchesError, NoResultError
 import requests
@@ -8,7 +8,6 @@ import json
 from collections import defaultdict
 from typing import Dict
 from web3 import Web3
-from bal_addresses import utils as BalUtils
 
 
 class KeyAsDefaultDict(defaultdict):
@@ -18,10 +17,9 @@ class KeyAsDefaultDict(defaultdict):
 class Ecosystem:
     def __init__(self, chain):
         self.chain = chain
-        self.queries = GraphQueries(chain)
+        self.subgraph = Subgraph(chain)
         self.gauges = BalPoolsGauges(chain)
         self.aura = Aura(chain)
-        self.beefy = Beefy(chain)
 
     def get_ecosystem_balances(self, pool_id: str, gauge_address: str, block: int) -> Dict[str, int]:
         gauge_address = Web3.toChecksumAddress(gauge_address)
@@ -107,7 +105,7 @@ class Aura:
     }
     def __init__(self, chain):
         self.chain = chain
-        self.queries = GraphQueries(chain)
+        self.subgraph = Subgraph(chain)
         try:
             self.aura_pids_by_address = Aura.get_aura_gauge_mappings(self)
         except Exception as e:
@@ -117,7 +115,7 @@ class Aura:
         """
         Returns a map like {"gauge_address": int(pid_number)} with all aura gauges on the operating chain
         """
-        data = self.queries.fetch_graphql_data(self.queries.AURA_GAUGE_MAPPINGS_QUERY)
+        data = self.subgraph.fetch_graphql_data("aura", "get_aura_gauge_mappings")
         aura_pid_by_gauge = {}
         for result_item in data["data"]["gauges"]:
             gauge_address = Web3.toChecksumAddress(result_item["pool"]["gauge"]["id"])
@@ -138,7 +136,7 @@ class Aura:
         # Prepare the GraphQL query and variables
         aura_pid = self.get_aura_pid_from_gauge(gauge_address)
         variables = {"poolId": aura_pid, "block": int(block)}
-        data = self.queries.fetch_graphql_data(self.queries.AURA_SHARES_QUERY, variables)
+        data = self.queries.fetch_graphql_data("aura", "get_aura_user_pool_balances", variables)
         results = {}
         # Parse the data if the query was successful
         if data and 'data' in data and 'leaderboard' in data['data'] and data['data']['leaderboard']['accounts']:
@@ -147,6 +145,8 @@ class Aura:
                 amount = float(int(account['staked']) / 1e18)
                 user_address = Web3.toChecksumAddress(account['account']['id'])
                 results[user_address] = amount
+        #TODO better handle pagination with the query and this function/pull multiple pages if required
+        assert len(results) < 1000, "Pagination limit hit on Aura query"
         return results
 
 
