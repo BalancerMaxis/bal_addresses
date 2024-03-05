@@ -14,4 +14,4 @@ from .errors import (
 )
 from .subgraph import Subgraph
 from .pools_gauges import BalPoolsGauges
-from .ecosystem_apis import Aura, Beefy, Ecosystem
+from .ecosystem import Aura
