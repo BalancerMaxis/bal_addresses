@@ -96,6 +96,7 @@
   "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089": "20230613-balancer-pool-data-queries/BalancerPoolDataQueries",
   "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0": "20230320-composable-stable-pool-v4/MockComposableStablePool",
   "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516": "EOA/maxis/xeonus",
+  "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
   "0x7385FeB96Fa203E35527322Ca233271834306d60": "pools/50WETH-50USDC-7385",
   "0x7682e108Cd89d86303625c8478c21Ff86f401166": "20230711-zkevm-composable-stable-pool-v5/MockComposableStablePool",
