@@ -174,6 +174,7 @@
   "0x712e23a9B91Aa30EE7997d1c7a1a285d4C7912D1": "20230410-aave-linear-pool-v5/MockAaveLinearPool",
   "0x71528afe250438e184b2deAF7947f0f45931DF3b": "20211202-no-protocol-fee-lbp/MockLiquidityBootstrappingPool",
   "0x7308E18Fccb00B11454F08140E7EfAd8161a6A2c": "pools/50WETH-50USDbC-7308",
+  "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
   "0x7564AdBF90fd823a74E5b4821729B679CeCae23D": "pools/50BALD-50DAI-7564",
   "0x76f7204B62f554b79d444588EDac9dfA7032c71a": "20230314-batch-relayer-v5/BalancerRelayer",

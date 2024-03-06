@@ -79,6 +79,7 @@
     "osETH-ETH BPT-gauge-c316": "0xc31624bb62132d9a55a76128158d4cb864eb0c46",
     "ePENDLE/PENDLE-gauge-c40f": "0xc40f4abc616ab3136a002a667a7830f3f7dec5fa",
     "osETH/wETH-BPT-gauge-c592": "0xc592c33e51a764b94db0702d8baf4035ed577aed",
+    "50KEP/50rsETH-gauge-c6b6": "0xc6b65bc6bf4a5ff4d90fdf7f568cbf8c99419da1",
     "weETH/rETH-gauge-c859": "0xc859bf9d7b8c557bbd229565124c2c09269f3aef",
     "B-80GNO-20WETH-gauge-cb66": "0xcb664132622f29943f67fa56ccfd1e24cc8b4995",
     "80T-20TBTC-gauge-cc6a": "0xcc6a23446f6388d78f3037bd55f2eb820352d982",
@@ -104,6 +105,7 @@
     "sDAI/3Pool-gauge-f6a7": "0xf6a7ad46b00300344c7d4739c0518db70e722dc4",
     "GHO/USDT/USDC-gauge-f720": "0xf720e9137baa9c7612e6ca59149a5057ab320cfa",
     "50wstETH-50ACX-gauge-f7b0": "0xf7b0751fea697cf1a541a5f57d11058a8fb794ee",
+    "pyUSD/sDOLA BSP-gauge-f849": "0xf849d20a927c892ad2c476a5cc7e2cdbd9bbc18f",
     "ECLP-GYD-sDAI-gauge-fc3f": "0xfc3f916c28f32deba1cc04b1f6011f28a691134c",
     "DOLA-CUSD BSP-gauge-fc45": "0xfc4541437265945f13368f9f61c19da427d41a02",
     "ECLP-GYD-USDT-gauge-fc7d": "0xfc7d964f1676831d8105506b1f0c3b3e2b55c467"
@@ -378,6 +380,7 @@
     "bb-STG-USD-gauge-e7d2": "0xe7d2e422098d8b3af11695a734d347563ae160cb",
     "BPT-rETH-ETH-gauge-f27d": "0xf27d53f21d024643d50de50183932f17638229f6",
     "bb-rf-aUSD-asUSD-gauge-f5d4": "0xf5d49cca719dd06e12a7901cbd4180ed1d9ea260",
+    "bpt-fraxsym-gauge-f6b4": "0xf6b4ace2d69a0c6f966d44448692ca392f29029a",
     "bb-rf-SOTRI-gauge-fe15": "0xfe1538a8efb7adcfc4ee0621f38e319d9e1cb302"
   },
   "gnosis": {
