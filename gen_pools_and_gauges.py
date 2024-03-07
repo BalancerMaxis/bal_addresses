@@ -73,6 +73,8 @@ def process_query_preferential_gauges(result) -> dict:
 def main():
     pools = {}
     gauges = {}
+    core_pools = {}
+
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
@@ -82,8 +84,6 @@ def main():
         result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
         if result:
             pools[chain] = result
-        with open(f"extras/pools.json", "w") as f:
-            json.dump(pools, f, indent=2)
 
         # gauges
         if chain in NO_GAUGE_SUBGRAPH:
@@ -94,8 +94,18 @@ def main():
         )
         if result:
             gauges[chain] = result
-        with open("extras/gauges.json", "w") as f:
-            json.dump(gauges, f, indent=2)
+
+        if chain in ["sepolia", "goerli"]:
+            continue
+        core_pools[chain] = BalPoolsGauges(chain).core_pools
+
+    # dump all collected dicts to json files
+    with open(f"extras/pools.json", "w") as f:
+        json.dump(pools, f, indent=2)
+    with open("extras/gauges.json", "w") as f:
+        json.dump(gauges, f, indent=2)
+    with open("outputs/core_pools.json", "w") as f:
+        json.dump(core_pools, f, indent=2)
 
 
 if __name__ == "__main__":
