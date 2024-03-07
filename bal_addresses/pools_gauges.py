@@ -77,22 +77,25 @@ class BalPoolsGauges:
             result += self.query_preferential_gauges(skip + step_size, step_size)
         return result
 
-    def get_pools_with_rate_provider(self) -> dict:
+    def get_liquid_pools_with_protocol_yield_fee(self) -> dict:
         """
-        for every chain, query the official balancer subgraph and retrieve pools that meets
-        all three of the following conditions:
-        - have a rate provider different from address(0)
+        query the official balancer subgraph and retrieve pools that
+        meet all three of the following conditions:
+        - have at least one underlying asset that is yield bearing
         - have a liquidity greater than $250k
-        - either:
-          - have a yield fee > 0
-          - be a meta stable pool with swap fee > 0
-          - be a gyro pool
+        - provide the protocol with a fee on the yield; by either:
+          - having a yield fee > 0
+          - being a meta stable pool with swap fee > 0 (these old style pools dont have
+            the yield fee field yet)
+          - being a gyro pool (take yield fee by default in case of a rate provider)
 
         returns:
-        dictionary of the format {chain_name: {pool_id: symbol}}
+        dictionary of the format {pool_id: symbol}
         """
         filtered_pools = {}
-        data = self.subgraph.fetch_graphql_data("core", "pools_rate_provider")
+        data = self.subgraph.fetch_graphql_data(
+            "core", "liquid_pools_protocol_yield_fee"
+        )
         try:
             for pool in data["pools"]:
                 filtered_pools[pool["id"]] = pool["symbol"]
@@ -137,7 +140,7 @@ class BalPoolsGauges:
         returns:
         dictionary of the format {pool_id: symbol}
         """
-        core_pools = self.get_pools_with_rate_provider()
+        core_pools = self.get_liquid_pools_with_protocol_yield_fee()
 
         # make sure the pools have an alive preferential gauge
         for pool_id in core_pools.copy():

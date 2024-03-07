@@ -1,4 +1,4 @@
-query PoolsRateProvider {
+query LiquidPoolsProtocolYieldFee {
   pools(
     first: 1000
     where: {
