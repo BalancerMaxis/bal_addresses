@@ -70,9 +70,44 @@ def process_query_preferential_gauges(result) -> dict:
     return df.set_index("symbol")["id"].to_dict()
 
 
+def process_query_root_gauges(result, gauges) -> dict:
+    # map to child gauges
+    df = []
+    for root_gauge in result:
+        for chain in gauges:
+            for symbol, gauge in gauges[chain].items():
+                if "chain" not in root_gauge:
+                    # mainnet root gauge == child gauge
+                    continue
+                if root_gauge["recipient"] == gauge:
+                    root_gauge["symbol"] = symbol[:-4].replace(
+                        "-gauge-", f"-{root_gauge['chain'].lower()}-root-"
+                    )
+                    root_gauge["symbol"] += f"{root_gauge['id'][2:6]}"
+                    df.append(root_gauge)
+
+    if len(df) == 0:
+        return
+    df = pd.DataFrame(df)
+
+    # drop duplicates
+    df = df[~df.duplicated()]
+
+    # assert no duplicate addresses exist
+    assert len(df["id"].unique()) == len(df)
+
+    # confirm no duplicate symbols exist, raise if so
+    if len(df["symbol"].unique()) != len(df):
+        print("Found duplicate symbols!")
+        print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
+        raise
+    return df.set_index("symbol")["id"].to_dict()
+
+
 def main():
     pools = {}
     gauges = {}
+    root_gauges = {}
     core_pools = {}
 
     with open("extras/chains.json", "r") as f:
@@ -95,15 +130,27 @@ def main():
         if result:
             gauges[chain] = result
 
+        # core pools
         if chain in ["sepolia", "goerli"]:
             continue
         core_pools[chain] = BalPoolsGauges(chain).core_pools
+
+        # cache mainnet BalPoolsGauges
+        if chain == "mainnet":
+            gauge_info_mainnet = gauge_info
+
+    # root gauges; only on mainnet
+    result = process_query_root_gauges(gauge_info_mainnet.query_root_gauges(), gauges)
+    if result:
+        root_gauges["mainnet"] = result
 
     # dump all collected dicts to json files
     with open(f"extras/pools.json", "w") as f:
         json.dump(pools, f, indent=2)
     with open("extras/gauges.json", "w") as f:
         json.dump(gauges, f, indent=2)
+    with open("extras/root_gauges.json", "w") as f:
+        json.dump(root_gauges, f, indent=2)
     with open("outputs/core_pools.json", "w") as f:
         json.dump(core_pools, f, indent=2)
 

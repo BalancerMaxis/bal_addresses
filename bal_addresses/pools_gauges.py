@@ -47,6 +47,30 @@ class BalPoolsGauges:
             result += self.query_preferential_gauges(skip + step_size, step_size)
         return result
 
+    def query_root_gauges(self, skip=0, step_size=100) -> list:
+        url = get_subgraph_url(self.chain, "gauges")
+        query = f"""{{
+            rootGauges(
+                skip: {skip}
+                first: {step_size}
+                where: {{isKilled: false}}
+            ) {{
+                id
+                chain
+                recipient
+            }}
+        }}"""
+        r = requests.post(url, json={"query": query})
+        r.raise_for_status()
+        try:
+            result = r.json()["data"]["rootGauges"]
+        except KeyError:
+            result = []
+        if len(result) > 0:
+            # didnt reach end of results yet, collect next page
+            result += self.query_preferential_gauges(skip + step_size, step_size)
+        return result
+
     def get_pools_with_rate_provider(self) -> dict:
         """
         for every chain, query the official balancer subgraph and retrieve pools that meets

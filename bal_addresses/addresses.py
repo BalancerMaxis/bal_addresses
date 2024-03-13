@@ -62,6 +62,7 @@ class AddrBook:
         self._eoas = None
         self._pools = None
         self._gauges = None
+        self._root_gauges = None
 
     @property
     def deployments(self) -> Optional[Munch]:
@@ -128,6 +129,17 @@ class AddrBook:
         else:
             self.populate_gauges()
         return self._gauges
+
+    @property
+    def root_gauges(self) -> Optional[Munch]:
+        """
+        Get the root gauges for all chains in a form of a Munch object
+        """
+        if self._root_gauges is not None:
+            return self._root_gauges
+        else:
+            self.populate_root_gauges()
+        return self._root_gauges
 
     def populate_deployments(self) -> None:
         chain_deployments = requests.get(
@@ -198,21 +210,34 @@ class AddrBook:
 
     def populate_pools(self) -> None:
         with open("extras/pools.json", "r") as f:
-            msigs = json.load(f)
-        if msigs.get(self.chain):
-            self._pools = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+            pools = json.load(f)
+        if pools.get(self.chain):
+            self._pools = Munch.fromDict(self.checksum_address_dict(pools[self.chain]))
         else:
             print(f"Warning: No pools for chain {self.chain}")
             self._pools = Munch.fromDict({})
 
     def populate_gauges(self) -> None:
         with open("extras/gauges.json", "r") as f:
-            msigs = json.load(f)
-        if msigs.get(self.chain):
-            self._gauges = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+            gauges = json.load(f)
+        if gauges.get(self.chain):
+            self._gauges = Munch.fromDict(
+                self.checksum_address_dict(gauges[self.chain])
+            )
         else:
             print(f"Warning: No gauges for chain {self.chain}")
             self._gauges = Munch.fromDict({})
+
+    def populate_root_gauges(self) -> None:
+        with open("extras/root_gauges.json", "r") as f:
+            root_gauges = json.load(f)
+        if root_gauges.get(self.chain):
+            self._root_gauges = Munch.fromDict(
+                self.checksum_address_dict(root_gauges[self.chain])
+            )
+        else:
+            print(f"Warning: No root gauges for chain {self.chain}")
+            self._root_gauges = Munch.fromDict({})
 
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
@@ -300,11 +325,13 @@ class AddrBook:
         self.populate_multisigs()
         self.populate_pools()
         self.populate_gauges()
+        self.populate_root_gauges()
         self.populate_extras()
         # write pools and gauges first, so they get overwritten by deployments later
         # deployment label should take precedence over pool/gauge label
         flatbook["pools"] = self.flatten_dict(self.pools)
         flatbook["gauges"] = self.flatten_dict(self.gauges)
+        flatbook["root_gauges"] = self.flatten_dict(self.root_gauges)
         for deployment, ddata in self.deployments.items():
             for contract, infodict in ddata["contracts"].items():
                 flatbook[infodict.path] = infodict.address
