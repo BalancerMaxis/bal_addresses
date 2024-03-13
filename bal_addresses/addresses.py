@@ -36,6 +36,7 @@ class AddrBook:
         ).json()
     )
     chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
+    chain_names_by_id = {v: k for k, v in chain_ids_by_name.items()}
 
     def __init__(self, chain, jsonfile=False):
         self.jsonfile = jsonfile
