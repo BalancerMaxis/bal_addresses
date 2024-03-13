@@ -1,0 +1,10 @@
+query PreferentialGauges($skip: Int!, $step_size: Int!) {
+  liquidityGauges(
+    skip: $skip
+    first: $step_size
+    where: { isPreferentialGauge: true }
+  ) {
+    id
+    symbol
+  }
+}

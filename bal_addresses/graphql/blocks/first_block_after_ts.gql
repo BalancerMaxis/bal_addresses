@@ -1,0 +1,11 @@
+query FirstBlockAfterTimestamp($timestamp: BigInt) {
+  blocks(
+    first: 1
+    orderBy: number
+    orderDirection: asc
+    where: { timestamp_gt: $timestamp }
+  ) {
+    number
+    timestamp
+  }
+}
