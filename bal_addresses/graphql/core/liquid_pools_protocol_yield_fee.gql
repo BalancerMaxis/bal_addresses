@@ -1,0 +1,31 @@
+query LiquidPoolsProtocolYieldFee {
+  pools(
+    first: 1000
+    where: {
+      and: [
+        {
+          priceRateProviders_: {
+            address_not: "0x0000000000000000000000000000000000000000"
+          }
+        }
+        { totalLiquidity_gt: 250000 }
+        {
+          or: [
+            { protocolYieldFeeCache_gt: 0 }
+            {
+              and: [
+                { swapFee_gt: 0 }
+                { poolType_contains: "MetaStable" }
+                { poolTypeVersion: 1 }
+              ]
+            }
+            { poolType_contains_nocase: "Gyro" }
+          ]
+        }
+      ]
+    }
+  ) {
+    id
+    symbol
+  }
+}
