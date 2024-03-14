@@ -1,7 +1,6 @@
 from typing import Dict
 import json
-import requests
-from web3 import Web3
+from utils import to_checksum_address
 
 from bal_addresses.subgraph import Subgraph
 from bal_addresses.errors import NoResultError
@@ -31,14 +30,14 @@ class BalPoolsGauges:
         results = {}
         if "pool" in data and data["pool"]:
             for share in data["pool"]["shares"]:
-                user_address = Web3.toChecksumAddress(share["userAddress"]["id"])
+                user_address = to_checksum_address(share["userAddress"]["id"])
                 results[user_address] = float(share["balance"])
         return results
 
     def get_gauge_deposit_shares(
         self, gauge_address: str, block: int
     ) -> Dict[str, int]:
-        gauge_address = Web3.toChecksumAddress(gauge_address)
+        gauge_address = to_checksum_address(gauge_address)
         variables = {"gaugeAddress": gauge_address, "block": int(block)}
         data = self.subgraph.fetch_graphql_data(
             self.subgraph.BALANCER_GAUGES_SHARES_QUERY, variables
@@ -46,7 +45,7 @@ class BalPoolsGauges:
         results = {}
         if "data" in data and "gaugeShares" in data["data"]:
             for share in data["data"]["gaugeShares"]:
-                user_address = Web3.toChecksumAddress(share["user"]["id"])
+                user_address = to_checksum_address(share["user"]["id"])
                 results[user_address] = float(share["balance"])
         return results
 
@@ -95,7 +94,7 @@ class BalPoolsGauges:
         - provide the protocol with a fee on the yield; by either:
           - having a yield fee > 0
           - being a meta stable pool with swap fee > 0 (these old style pools dont have
-            the yield fee field yet)
+            the yield fee field yet)˚
           - being a gyro pool (take yield fee by default in case of a rate provider)
 
         returns:

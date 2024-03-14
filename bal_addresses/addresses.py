@@ -5,8 +5,7 @@ from typing import Optional
 
 import requests
 from munch import Munch
-from web3 import Web3
-
+from utils import to_checksum_address
 GITHUB_MONOREPO_RAW = (
     "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
 )
@@ -275,7 +274,7 @@ class AddrBook:
                 checksummed[k] = checksum_address_dict(v)
             elif isinstance(v, str):
                 try:
-                    checksummed[k] = Web3.toChecksumAddress(v)
+                    checksummed[k] = to_checksum_address(v)
                 except:
                     checksummed[k] = v
             else:
@@ -326,7 +325,7 @@ def checksum_address_dict(addresses):
             checksummed[k] = checksum_address_dict(v)
         elif isinstance(v, str):
             try:
-                checksummed[k] = Web3.toChecksumAddress(v)
+                checksummed[k] = to_checksum_address(v)
             except:
                 checksummed[k] = v
         else:
