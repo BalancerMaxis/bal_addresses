@@ -133,7 +133,7 @@ def main():
         # core pools
         if chain in ["sepolia", "goerli"]:
             continue
-        core_pools[chain] = BalPoolsGauges(chain).core_pools
+        core_pools[chain] = gauge_info.core_pools
 
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
