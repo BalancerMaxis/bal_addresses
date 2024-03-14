@@ -5,7 +5,7 @@ from typing import Optional
 
 import requests
 from munch import Munch
-from utils import to_checksum_address
+from .utils import to_checksum_address
 GITHUB_MONOREPO_RAW = (
     "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
 )

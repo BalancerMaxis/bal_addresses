@@ -1,6 +1,6 @@
 from typing import Dict
 import json
-from utils import to_checksum_address
+from .utils import to_checksum_address
 
 from bal_addresses.subgraph import Subgraph
 from bal_addresses.errors import NoResultError
