@@ -145,11 +145,11 @@ def main():
         root_gauges["mainnet"] = result
 
     # dump all collected dicts to json files
-    with open(f"extras/pools.json", "w") as f:
+    with open(f"outputs/pools.json", "w") as f:
         json.dump(pools, f, indent=2)
-    with open("extras/gauges.json", "w") as f:
+    with open("outputs/gauges.json", "w") as f:
         json.dump(gauges, f, indent=2)
-    with open("extras/root_gauges.json", "w") as f:
+    with open("outputs/root_gauges.json", "w") as f:
         json.dump(root_gauges, f, indent=2)
     with open("outputs/core_pools.json", "w") as f:
         json.dump(core_pools, f, indent=2)
