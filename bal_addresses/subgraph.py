@@ -7,7 +7,6 @@ graphql_base_path = f"{os.path.dirname(os.path.abspath(__file__))}/bal_addresses
 class Subgraph:
     def __init__(self, chain):
         self.chain = chain
-        self.graphql_path = os.path.dirname(os.path.abspath(__file__))
 
 
     def get_subgraph_url(self, subgraph="core") -> str:
