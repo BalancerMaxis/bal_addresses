@@ -13,6 +13,9 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
+    package_data={
+        'bal_addresses': ['graphql/*', 'abis/*'],
+    },
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3", "gql[requests]", "requests"],  # add any additional packages that
     # needs to be installed along with your package. Eg: 'caer'
@@ -25,4 +28,14 @@ setup(
         "Operating System :: Microsoft :: Windows",
         "Operating System :: Linux :: Linux"
     ]
+)
+
+setup(
+    name='your_package_name',
+    version='1.0',
+    packages=find_packages(),
+    package_data={
+        'your_package_name': ['subdirectory/*', 'subdirectory/*.txt', 'subdirectory/*.json'],
+    },
+    # Other setup configurations...
 )
