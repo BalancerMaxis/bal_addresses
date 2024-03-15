@@ -28,13 +28,3 @@ setup(
         "Operating System :: Linux :: Linux"
     ]
 )
-
-setup(
-    # ...,
-    packages=find(where="src"),
-    package_dir={"": "src"},
-    include_package_data=True
-)
-packages = find_namespace_packages(where="src"),
-package_dir = {"": "src"},
-include_package_data = True,
