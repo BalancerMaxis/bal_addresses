@@ -1,12 +1,14 @@
 from urllib.request import urlopen
-
+import os
 from gql import Client, gql
 from gql.transport.requests import RequestsHTTPTransport
 
-
+graphql_base_path = f"{os.path.dirname(os.path.abspath(__file__))}/graphql"
 class Subgraph:
     def __init__(self, chain):
         self.chain = chain
+        self.graphql_path = os.path.dirname(os.path.abspath(__file__))
+
 
     def get_subgraph_url(self, subgraph="core") -> str:
         """
@@ -71,7 +73,7 @@ class Subgraph:
         client = Client(transport=transport, fetch_schema_from_transport=True)
 
         # retrieve the query from its file and execute it
-        with open(f"bal_addresses/graphql/{subgraph}/{query}.gql") as f:
+        with open(f"{graphql_base_path}/{subgraph}/{query}.gql") as f:
             gql_query = gql(f.read())
         result = client.execute(gql_query, variable_values=params)
 
