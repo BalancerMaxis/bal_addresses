@@ -12,13 +12,7 @@ setup(
     author_email="<nospam@balancer.community>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    include_package_data=True,
-    package_data={
-        'graphql': ['graphql/*'],
-        'abis': ['abis/*'],
-    },
     packages=find_packages(),
-    print(find_packages)
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3", "gql[requests]", "requests"],
     keywords=['python', 'first package'],
