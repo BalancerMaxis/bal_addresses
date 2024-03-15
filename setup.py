@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 VERSION = '0.9.0'
 DESCRIPTION = 'Balancer Maxi Addressbook'
@@ -12,10 +12,9 @@ setup(
     author_email="<nospam@balancer.community>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    packages=find_packages(),
-    package_data={
-        'bal_addresses': ['graphql/*', 'abis/*'],
-    },
+    packages = find_namespace_packages(where="bal_addresses"),
+    package_dir = {"": "bal_addresses"},
+    include_package_data = True,
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3", "gql[requests]", "requests"],  # add any additional packages that
     # needs to be installed along with your package. Eg: 'caer'
@@ -31,11 +30,11 @@ setup(
 )
 
 setup(
-    name='your_package_name',
-    version='1.0',
-    packages=find_packages(),
-    package_data={
-        'your_package_name': ['subdirectory/*', 'subdirectory/*.txt', 'subdirectory/*.json'],
-    },
-    # Other setup configurations...
+    # ...,
+    packages=find(where="src"),
+    package_dir={"": "src"},
+    include_package_data=True
 )
+packages = find_namespace_packages(where="src"),
+package_dir = {"": "src"},
+include_package_data = True,
