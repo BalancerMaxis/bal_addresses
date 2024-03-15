@@ -12,6 +12,6 @@ if __name__ == "__main__":
     for chain in chains["CHAIN_IDS_BY_NAME"]:
         if chain in ["sepolia", "goerli"]:
             continue
-        all_core_pools[chain] = BalPoolsGauges(chain).core_pools
+        all_core_pools[chain] = BalPoolsGauges(chain).build_core_pools()
 
     json.dump(all_core_pools, open("outputs/core_pools.json", "w"), indent=2)

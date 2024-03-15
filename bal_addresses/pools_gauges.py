@@ -1,15 +1,26 @@
 from typing import Dict
 import json
+import requests
 from .utils import to_checksum_address
-
 from bal_addresses.subgraph import Subgraph
 from bal_addresses.errors import NoResultError
 
+GITHUB_RAW_OUTPUTS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
+)
+
 class BalPoolsGauges:
-    def __init__(self, chain):
+    def __init__(self, chain, use_cached_core_pools=True):
         self.chain = chain
         self.subgraph = Subgraph(self.chain)
-        self.core_pools = self.build_core_pools()
+        if use_cached_core_pools:
+            try:
+                self.core_pools = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
+            except:
+                self.core_pools = self.build_core_pools()
+        else:
+            self.core_pools = self.build_core_pools()
+
 
     def is_pool_exempt_from_yield_fee(self, pool_id: str) -> bool:
         data = self.subgraph.fetch_graphql_data(
