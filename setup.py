@@ -15,8 +15,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'bal_addresses.graphql': ['graphql/*'],
-        'bal_addresses.abis': ['abis/*'],
+        'graphql': ['graphql/*'],
+        'abis': ['abis/*'],
     },
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3", "gql[requests]", "requests"],
