@@ -15,7 +15,7 @@ class BalPoolsGauges:
         self.subgraph = Subgraph(self.chain)
         if use_cached_core_pools:
             try:
-                self.core_pools = requests.get(f"{GITHUB_RAW_OUTPUTS}/deployments.json").json()
+                self.core_pools = requests.get(f"{GITHUB_RAW_OUTPUTS}/core_pools.json").json()
             except:
                 self.core_pools = self.build_core_pools()
         else:
