@@ -13,6 +13,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
+    include_package_data=True,  # Automatically include non-Python files
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=["setuptools>=42", "wheel", "munch==4.0.0", "web3", "gql[requests]", "requests"],
     keywords=['python', 'first package'],
