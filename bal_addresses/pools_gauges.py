@@ -4,7 +4,7 @@ import requests
 from web3 import Web3
 
 from bal_addresses.subgraph import Subgraph
-
+from bal_addresses.errors import NoResultError
 
 class BalPoolsGauges:
     def __init__(self, chain):
@@ -88,6 +88,16 @@ class BalPoolsGauges:
             # didnt reach end of results yet, collect next page
             result += self.query_root_gauges(skip + step_size, step_size)
         return result
+
+    def get_last_join_exit(self, pool_id: int) -> int:
+        """
+        Returns a timestamp of the last join/exit for a given pool id
+        """
+        data = self.subgraph.fetch_graphql_data("core", "last_join_exit", {"poolId": pool_id})
+        try:
+            return data["joinExits"][0]["timestamp"]
+        except:
+            raise NoResultError(f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}")
 
     def get_liquid_pools_with_protocol_yield_fee(self) -> dict:
         """
