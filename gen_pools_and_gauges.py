@@ -108,7 +108,6 @@ def main():
     pools = {}
     gauges = {}
     root_gauges = {}
-    core_pools = {}
 
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
@@ -130,11 +129,6 @@ def main():
         if result:
             gauges[chain] = result
 
-        # core pools
-        if chain in ["sepolia", "goerli"]:
-            continue
-        core_pools[chain] = gauge_info.core_pools
-
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
             gauge_info_mainnet = gauge_info
@@ -151,8 +145,6 @@ def main():
         json.dump(gauges, f, indent=2)
     with open("outputs/root_gauges.json", "w") as f:
         json.dump(root_gauges, f, indent=2)
-    with open("outputs/core_pools.json", "w") as f:
-        json.dump(core_pools, f, indent=2)
 
 
 if __name__ == "__main__":
