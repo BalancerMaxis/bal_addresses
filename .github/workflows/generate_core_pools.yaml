@@ -23,7 +23,6 @@ jobs:
         run: |
           pip3 install -r bal_addresses/requirements.txt
           python3 gen_core_pools.py
-          python3 gen_addresses.py
           git add -A
 
       - name: pull-request
