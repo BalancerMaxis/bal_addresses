@@ -8,7 +8,9 @@ from bal_addresses.errors import NoResultError
 GITHUB_RAW_OUTPUTS = (
     "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
 )
-
+GITHUB_RAW_CONFIG = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/config"
+)
 
 class BalPoolsGauges:
     def __init__(self, chain, use_cached_core_pools=True):
@@ -171,8 +173,10 @@ class BalPoolsGauges:
                 del core_pools[pool_id]
 
         # add pools from whitelist
-        with open("config/core_pools_whitelist.json", "r") as f:
-            whitelist = json.load(f)
+        whitelist= requests.get(
+            f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
+        whitelist.raise_for_status()
+        whitelist = whitelist.json()
         try:
             for pool, symbol in whitelist[self.chain].items():
                 if pool not in core_pools:
@@ -182,8 +186,10 @@ class BalPoolsGauges:
             pass
 
         # remove pools from blacklist
-        with open("config/core_pools_blacklist.json", "r") as f:
-            blacklist = json.load(f)
+        blacklist = requests.get(
+            f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
+        blacklist.raise_for_status()
+        blacklist = whitelist.json()
         try:
             for pool in blacklist[self.chain]:
                 if pool in core_pools:
