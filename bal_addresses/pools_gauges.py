@@ -9,15 +9,17 @@ GITHUB_RAW_OUTPUTS = (
     "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
 )
 
+
 class BalPoolsGauges:
     def __init__(self, chain, use_cached_core_pools=True):
         self.chain = chain
         self.subgraph = Subgraph(self.chain)
         if use_cached_core_pools:
-            self.core_pools = requests.get(f"{GITHUB_RAW_OUTPUTS}/core_pools.json").json()
+            self.core_pools = requests.get(
+                f"{GITHUB_RAW_OUTPUTS}/core_pools.json"
+            ).json()[chain]
         else:
             self.core_pools = self.build_core_pools()
-
 
     def is_pool_exempt_from_yield_fee(self, pool_id: str) -> bool:
         data = self.subgraph.fetch_graphql_data(
@@ -88,11 +90,16 @@ class BalPoolsGauges:
         """
         Returns a timestamp of the last join/exit for a given pool id
         """
-        data = self.subgraph.fetch_graphql_data("core", "last_join_exit", {"poolId": pool_id})
+        data = self.subgraph.fetch_graphql_data(
+            "core", "last_join_exit", {"poolId": pool_id}
+        )
         try:
             return data["joinExits"][0]["timestamp"]
         except:
-            raise NoResultError(f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}")
+            raise NoResultError(
+                f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}"
+            )
+
     def get_liquid_pools_with_protocol_yield_fee(self) -> dict:
         """
         query the official balancer subgraph and retrieve pools that
