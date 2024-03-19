@@ -109,7 +109,7 @@ class BalPoolsGauges:
         - provide the protocol with a fee on the yield; by either:
           - having a yield fee > 0
           - being a meta stable pool with swap fee > 0 (these old style pools dont have
-            the yield fee field yet)˚
+            the yield fee field yet)
           - being a gyro pool (take yield fee by default in case of a rate provider)
 
         returns:
