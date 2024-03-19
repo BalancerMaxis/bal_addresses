@@ -187,9 +187,9 @@ class BalPoolsGauges:
 
         # remove pools from blacklist
         blacklist = requests.get(
-            f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
+            f"{GITHUB_RAW_CONFIG}/core_pools_blacklist.json")
         blacklist.raise_for_status()
-        blacklist = whitelist.json()
+        blacklist = blacklist.json()
         try:
             for pool in blacklist[self.chain]:
                 if pool in core_pools:
