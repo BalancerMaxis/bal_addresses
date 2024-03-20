@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  refersh_books:
+  refresh_books:
     runs-on: ubuntu-latest
 
     steps:
