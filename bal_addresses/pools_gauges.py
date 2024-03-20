@@ -12,14 +12,17 @@ GITHUB_RAW_CONFIG = (
     "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/config"
 )
 
+
 class BalPoolsGauges:
     def __init__(self, chain, use_cached_core_pools=True):
         self.chain = chain
         self.subgraph = Subgraph(self.chain)
         if use_cached_core_pools:
-            self.core_pools = requests.get(
-                f"{GITHUB_RAW_OUTPUTS}/core_pools.json"
-            ).json()[chain]
+            self.core_pools = (
+                requests.get(f"{GITHUB_RAW_OUTPUTS}/core_pools.json")
+                .json()
+                .get(chain, {})
+            )
         else:
             self.core_pools = self.build_core_pools()
 
@@ -173,8 +176,7 @@ class BalPoolsGauges:
                 del core_pools[pool_id]
 
         # add pools from whitelist
-        whitelist= requests.get(
-            f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
+        whitelist = requests.get(f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
         whitelist.raise_for_status()
         whitelist = whitelist.json()
         try:
@@ -186,8 +188,7 @@ class BalPoolsGauges:
             pass
 
         # remove pools from blacklist
-        blacklist = requests.get(
-            f"{GITHUB_RAW_CONFIG}/core_pools_blacklist.json")
+        blacklist = requests.get(f"{GITHUB_RAW_CONFIG}/core_pools_blacklist.json")
         blacklist.raise_for_status()
         blacklist = blacklist.json()
         try:
