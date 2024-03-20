@@ -59,7 +59,8 @@
         "Mike B": "0x81DE849AdB5883d089cdFd66bB399b4Af74a16bb",
         "Danko": "0x2304488F0eddF15227C21b021739448B51E791C0",
         "Dubstard": "0x01B894622C7aa890d758C8a0E8156480F0Fa5f6C",
-        "gosuto": "0xd411b886e96291b089273a5835D2BE4406700352"
+        "gosuto": "0xd411b886e96291b089273a5835D2BE4406700352",
+        "lipman": "0xB209a59A9F3CC7FA5A25dF152a01f9dF8B969A3a"
       },
       "00000000-tokens": {
         "BAL": "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8",
@@ -265,7 +266,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -1267,6 +1269,7 @@
         "30WBTC-30wstETH-20ARB-20USDC-d1c0": "0xd1c070eBc7Ec77f2134b3Ef75283b6C1fb31a157",
         "33MAGIC-33VST-33LINK-d217": "0xd2171180b78fB2E6507E3c83A64D22Ea364a4C99",
         "33WBTC-33WETH-33USDC-d259": "0xD259027Cea522A0545778F8Ea5dEbddF20feA826",
+        "ECLP-wstETH-WETH-d25c": "0xd25C02e5704e87fA7Ca2727730e7cA6cC733339E",
         "50RDNT-50wstETH-d27d": "0xd27d2DB5e7DaA6D2D28e74519716bffEDFE05F7d",
         "B-80DXD-20WETH-d2c1": "0xD2C1BFE1C24b3AB2590325e91e3dE28359e68158",
         "50UNI-50USDC-d2d4": "0xD2d43eb7f3150f5659a7df5C74E7CB57c23a25d9",
@@ -1781,7 +1784,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -1821,6 +1825,7 @@
         "80BAL/20WAVAX-a39d": "0xA39d8651689c8b6e5a9e0AA4362629aeF2c58F55",
         "LP-VEUR-USDC-a759": "0xa759Ef6699A7a10DDC734e5Ba1957fB79D3D248C",
         "TEST-a826": "0xA826a114B0c7dB4d1FF4a4BE845a78998c64564C",
+        "KIMBOTECHCOQAVAXUSDC-aa4e": "0xAA4Eee23426Bff1AF8D79d6179e5a5c311f6aDcC",
         "93BTC.b-7USDC-ab56": "0xAb567C27450E3Fa1b4eE4E67Ca7D1003C49E7ea8",
         "BPT-ad0e": "0xAd0e5e0778cAC28f1ff459602b31351871B5754a",
         "80HATCHY-20WAVAX-b06f": "0xb06FdBD2941d2f42d60accEe85086198Ac729236",
@@ -1855,6 +1860,7 @@
         "sAVAX-bb-a-WAVAX-BPT-gauge-301a": "0x301A121D1d0d72C4005B354854a842A55D23251f",
         "LP-EURC-USDC-gauge-35ad": "0x35Ade969237697BA794bdDb9045aF06eDC96a47f",
         "BPT-gauge-3a9d": "0x3A9D7506A235A52CfA30399361426709A08578bb",
+        "KIMBOTECHCOQAVAXUSDC-gauge-5308": "0x5308e6fa8451BD12E8EB672124B6cf058D380C0E",
         "50BTC.b-50USD-BPT-gauge-5a9d": "0x5a9dBAeD7921538d16C96510489B16e62a6e79aF",
         "yyAVAX-WAVAX-BPT-gauge-7201": "0x720158c329E6558287c4539b0Ed21742B0B73436",
         "USDC-USDT-BPT-gauge-74ab": "0x74AbfE305bc0D729f29a2da26C5b7EF0BD1e3A8C",
@@ -2076,7 +2082,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -2507,7 +2514,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {},
@@ -2605,7 +2613,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {},
@@ -2815,7 +2824,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -3228,7 +3238,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -5060,7 +5071,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -6642,7 +6654,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -7227,7 +7240,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -10961,7 +10975,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -11274,7 +11289,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {
@@ -11505,7 +11521,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {},
@@ -11592,7 +11609,8 @@
           }
         },
         "contributors": {
-          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
         }
       },
       "pools": {},
