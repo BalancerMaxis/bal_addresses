@@ -1,15 +1,24 @@
 import json
-
-from bal_addresses import AddrBook
 from bal_addresses.pools_gauges import BalPoolsGauges
 
 
-if __name__ == "__main__":
-    chains = AddrBook.chains
+def main():
+    core_pools = {}
 
-    # build core pools for every chain and dump result to json
-    all_core_pools = {}
+    with open("extras/chains.json", "r") as f:
+        chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
-        all_core_pools[chain] = BalPoolsGauges(chain).build_core_pools()
+        gauge_info = BalPoolsGauges(chain)
 
-    json.dump(all_core_pools, open("outputs/core_pools.json", "w"), indent=2)
+        # core pools
+        if chain in ["sepolia", "goerli"]:
+            continue
+        core_pools[chain] = gauge_info.core_pools
+
+    # dump the collected dict to json file
+    with open("outputs/core_pools.json", "w") as f:
+        json.dump(core_pools, f, indent=2)
+
+
+if __name__ == "__main__":
+    main()

@@ -55,7 +55,7 @@ def main():
         ### add pools
         if "pools" not in active[chain]:
             active[chain]["pools"] = {}
-        with open("extras/pools.json", "r") as f:
+        with open("outputs/pools.json", "r") as f:
             data = json.load(f)
             data = data.get(chain, {})
             data = AddrBook.checksum_address_dict(data)
@@ -63,7 +63,7 @@ def main():
         ### add gauges
         if "gauges" not in active[chain]:
             active[chain]["gauges"] = {}
-        with open("extras/gauges.json", "r") as f:
+        with open("outputs/gauges.json", "r") as f:
             data = json.load(f)
             data = data.get(chain, {})
             data = AddrBook.checksum_address_dict(data)
