@@ -1,0 +1,7 @@
+query RootGauges($skip: Int!, $step_size: Int!) {
+  rootGauges(skip: $skip, first: $step_size, where: { isKilled: false }) {
+    id
+    chain
+    recipient
+  }
+}

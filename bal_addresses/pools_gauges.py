@@ -76,6 +76,18 @@ class BalPoolsGauges:
             result += self.query_preferential_gauges(skip + step_size, step_size)
         return result
 
+    def query_root_gauges(self, skip=0, step_size=100) -> list:
+        variables = {"skip": skip, "step_size": step_size}
+        data = self.subgraph.fetch_graphql_data("gauges", "root_gauges", variables)
+        try:
+            result = data["rootGauges"]
+        except KeyError:
+            result = []
+        if len(result) > 0:
+            # didnt reach end of results yet, collect next page
+            result += self.query_root_gauges(skip + step_size, step_size)
+        return result
+
     def get_last_join_exit(self, pool_id: int) -> int:
         """
         Returns a timestamp of the last join/exit for a given pool id
@@ -85,6 +97,7 @@ class BalPoolsGauges:
             return data["joinExits"][0]["timestamp"]
         except:
             raise NoResultError(f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}")
+
     def get_liquid_pools_with_protocol_yield_fee(self) -> dict:
         """
         query the official balancer subgraph and retrieve pools that

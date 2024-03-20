@@ -1,4 +1,4 @@
-name: Generate Active Permissions
+name: Generate Core Pools JSON
 
 on:
   schedule:
@@ -6,11 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  refresh_active_perms:
+  refersh_books:
     runs-on: ubuntu-latest
-    env:
-      INFURA_KEY: ${{ secrets.INFURA_KEY }}
-      ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,7 +22,7 @@ jobs:
         id: update
         run: |
           pip3 install -r bal_addresses/requirements.txt
-          python3 generate_current_permissions.py
+          python3 gen_core_pools.py
           git add -A
 
       - name: pull-request
@@ -32,7 +30,7 @@ jobs:
         with:
           commit-message: "Scheduled update from changes to monorepo"
           title: "Scheduled update from changes to monorepo"
-          branch: "gha-permissions"
+          branch: "gha-addressbook"
           reviewers: "Tritum-VLK"
           assignees: "Tritum-VLK"
           labels: "Automatic"
