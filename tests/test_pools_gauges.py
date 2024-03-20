@@ -82,3 +82,10 @@ def test_is_pool_exempt_from_yield_fee(bal_pools_gauges):
         )
 
     assert bal_pools_gauges.is_pool_exempt_from_yield_fee(example)
+
+
+def test_build_core_pools(bal_pools_gauges):
+    """
+    confirm core_pools can be built and is a dict
+    """
+    assert isinstance(bal_pools_gauges.build_core_pools(), dict)
