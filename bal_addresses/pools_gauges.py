@@ -1,15 +1,31 @@
 from typing import Dict
 import json
+import requests
 from .utils import to_checksum_address
 
 from bal_addresses.subgraph import Subgraph
 from bal_addresses.errors import NoResultError
 
+GITHUB_RAW_OUTPUTS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
+)
+GITHUB_RAW_CONFIG = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/config"
+)
+
+
 class BalPoolsGauges:
-    def __init__(self, chain):
+    def __init__(self, chain, use_cached_core_pools=True):
         self.chain = chain
         self.subgraph = Subgraph(self.chain)
-        self.core_pools = self.build_core_pools()
+        if use_cached_core_pools:
+            self.core_pools = (
+                requests.get(f"{GITHUB_RAW_OUTPUTS}/core_pools.json")
+                .json()
+                .get(chain, {})
+            )
+        else:
+            self.core_pools = self.build_core_pools()
 
     def is_pool_exempt_from_yield_fee(self, pool_id: str) -> bool:
         data = self.subgraph.fetch_graphql_data(
@@ -92,11 +108,15 @@ class BalPoolsGauges:
         """
         Returns a timestamp of the last join/exit for a given pool id
         """
-        data = self.subgraph.fetch_graphql_data("core", "last_join_exit", {"poolId": pool_id})
+        data = self.subgraph.fetch_graphql_data(
+            "core", "last_join_exit", {"poolId": pool_id}
+        )
         try:
             return data["joinExits"][0]["timestamp"]
         except:
-            raise NoResultError(f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}")
+            raise NoResultError(
+                f"empty or malformed results looking for last join/exit on pool {self.chain}:{pool_id}"
+            )
 
     def get_liquid_pools_with_protocol_yield_fee(self) -> dict:
         """
@@ -169,8 +189,9 @@ class BalPoolsGauges:
                 del core_pools[pool_id]
 
         # add pools from whitelist
-        with open("config/core_pools_whitelist.json", "r") as f:
-            whitelist = json.load(f)
+        whitelist = requests.get(f"{GITHUB_RAW_CONFIG}/core_pools_whitelist.json")
+        whitelist.raise_for_status()
+        whitelist = whitelist.json()
         try:
             for pool, symbol in whitelist[self.chain].items():
                 if pool not in core_pools:
@@ -180,8 +201,9 @@ class BalPoolsGauges:
             pass
 
         # remove pools from blacklist
-        with open("config/core_pools_blacklist.json", "r") as f:
-            blacklist = json.load(f)
+        blacklist = requests.get(f"{GITHUB_RAW_CONFIG}/core_pools_blacklist.json")
+        blacklist.raise_for_status()
+        blacklist = blacklist.json()
         try:
             for pool in blacklist[self.chain]:
                 if pool in core_pools:
