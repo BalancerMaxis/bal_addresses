@@ -55,12 +55,10 @@ class BalPoolsGauges:
     ) -> Dict[str, int]:
         gauge_address = to_checksum_address(gauge_address)
         variables = {"gaugeAddress": gauge_address, "block": int(block)}
-        data = self.subgraph.fetch_graphql_data(
-            self.subgraph.BALANCER_GAUGES_SHARES_QUERY, variables
-        )
+        data = self.subgraph.fetch_graphql_data("gauges", "fetch_gauge_shares", variables)
         results = {}
-        if "data" in data and "gaugeShares" in data["data"]:
-            for share in data["data"]["gaugeShares"]:
+        if "gaugeShares" in data:
+            for share in data["gaugeShares"]:
                 user_address = to_checksum_address(share["user"]["id"])
                 results[user_address] = float(share["balance"])
         return results
