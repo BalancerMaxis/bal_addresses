@@ -1,0 +1,19 @@
+query PoolLeaderboard($poolId: ID!, $block: Int) {
+    leaderboard: pool(id: $poolId, block: {number: $block}) {
+        accounts(
+            first: 1000
+            where: {staked_gt: 0}
+            orderBy: staked
+            orderDirection: desc
+        ) {
+            staked
+            pool {
+                id
+            }
+            account {
+                id
+            }
+        }
+        totalStaked
+    }
+}

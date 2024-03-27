@@ -14,3 +14,4 @@ from .errors import (
 )
 from .subgraph import Subgraph
 from .pools_gauges import BalPoolsGauges
+from .ecosystem import Aura
