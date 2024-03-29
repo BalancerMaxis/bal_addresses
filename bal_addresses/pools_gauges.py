@@ -183,9 +183,12 @@ class BalPoolsGauges:
         """
         core_pools = self.get_liquid_pools_with_protocol_yield_fee()
 
-        # make sure the pools have an alive preferential gauge
         for pool_id in core_pools.copy():
+            # make sure the pools have an alive preferential gauge
             if not self.has_alive_preferential_gauge(pool_id):
+                del core_pools[pool_id]
+            # exclude pools with yield fee exemption
+            elif self.is_pool_exempt_from_yield_fee(pool_id):
                 del core_pools[pool_id]
 
         # add pools from whitelist
