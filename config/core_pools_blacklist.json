@@ -1,9 +1,13 @@
 {
-  "mainnet": { "0xxxx": "BLACKLIST-ME" },
+  "mainnet": {
+    "0x68e3266c9c8bbd44ad9dca5afbfe629022aee9fe000200000000000000000512": "B-wjAura-wETH: dead rate provider"
+  },
   "polygon": {},
   "zkevm": {},
   "arbitrum": {
-    "0x36bf227d6bac96e2ab1ebb5492ecec69c691943f000200000000000000000316": "old wstETH/ETH gauge"
+    "0x2e8ea681fd59c9dc5f32b29de31f782724ef4dcb0001000000000000000004bc": "50GOLD-25USDC-25WSTETH: <50% ib",
+    "0x49b2de7d214070893c038299a57bac5acb8b8a340001000000000000000004be": "GOLD-BAL-AURA-wstETH: <50% ib",
+    "0x36bf227d6bac96e2ab1ebb5492ecec69c691943f000200000000000000000316": "B-wstETH-WETH-Stable: old gauge"
   },
   "gnosis": {},
   "base": {},
