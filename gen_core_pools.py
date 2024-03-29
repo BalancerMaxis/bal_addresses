@@ -10,10 +10,13 @@ def main():
     for chain in chains["CHAIN_IDS_BY_NAME"]:
         gauge_info = BalPoolsGauges(chain)
 
-        # core pools
+        # skip testnets
         if chain in ["sepolia", "goerli"]:
             continue
-        core_pools[chain] = gauge_info.core_pools
+        # skip optimism: beets handles core pools there
+        if chain == "optimism":
+            continue
+        core_pools[chain] = gauge_info.build_core_pools()
 
     # dump the collected dict to json file
     with open("outputs/core_pools.json", "w") as f:
