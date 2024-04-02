@@ -15,6 +15,7 @@ def main():
             continue
         # skip optimism: beets handles core pools there
         if chain == "optimism":
+            core_pools[chain] = {}
             continue
         core_pools[chain] = gauge_info.build_core_pools()
 
