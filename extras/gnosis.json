@@ -1,18 +1,18 @@
 {
-    "zero": {
-        "zero": "0x0000000000000000000000000000000000000000"
-    },
-    "tokens": {},
-    "mimic": {
-        "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
-        "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
-        "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
-        "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
-        "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
-    },
-    "maxiKeepers": {
-        "gaugeRewardsInjectors": {
-            "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
-        }
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
+  "tokens": {},
+  "mimic": {
+    "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+    "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+    "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+    "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+    "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+  },
+  "maxiKeepers": {
+    "gaugeRewardsInjectors": {
+      "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
     }
+  }
 }

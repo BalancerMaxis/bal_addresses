@@ -1,5 +1,7 @@
 {
-  "mainnet": { "0xxxx": "BLACKLIST-ME" },
+  "mainnet": {
+    "0xxxx": "BLACKLIST-ME"
+  },
   "polygon": {},
   "zkevm": {},
   "arbitrum": {},
