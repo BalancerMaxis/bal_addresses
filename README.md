@@ -5,7 +5,7 @@ This repo is setup to make it easy to find up to date addresses at balancer.
 ## Outputs - structured data
 The [outputs](./outputs) directory has a number of different address books that you can use in code or with your eyeballs.
 
-### [chain].json Files 
+### [chain].json Files
 Have keys of deployment/contract as well as some other extra stuff all with / notation.  It includes multisigs and signers known to the maxis as well as other addresses we have touched sorted by protocol.
 
 ### addressbook.json
@@ -27,7 +27,7 @@ Then you can do this with the flatbook:
 '0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76'
 >>> a.flatbook["multisigs/lm"]
 '0xc38c5f97B34E175FFd35407fc91a937300E33860'
->>> 
+>>>
 ```
 
 This with the reversebook:
@@ -79,10 +79,10 @@ There is also search and lookup commands
 '0xBA12222222228d8Ba445958a75a0704d566BF2C8'
 >>> a.reversebook[a.latest_contract("ComposableStablePoolFactory")]
 '20230320-composable-stable-pool-v4/ComposableStablePoolFactory'
->>> 
+>>>
 
 ```
-Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis.  You can explore them if you would like.  
+Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis.  You can explore them if you would like.
 
 ## Using deployments:
 `.deployments` attribute is an object that is lazy loaded on first access.

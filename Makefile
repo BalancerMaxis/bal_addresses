@@ -4,4 +4,4 @@ init:
 	pip install -r bal_addresses/requirements.txt
 	pip install -r bal_addresses/requirements-dev.txt
 ci:
-	pytest 
+	pytest
