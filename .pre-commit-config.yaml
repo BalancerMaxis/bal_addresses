@@ -15,4 +15,3 @@ repos:
     rev: 24.3.0
     hooks:
       - id: black
-exclude: "outputs/.*"
