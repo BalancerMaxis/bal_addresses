@@ -1,61 +1,61 @@
 {
-  "zero": {
-    "zero": "0x0000000000000000000000000000000000000000"
-  },
-  "tokens": {
-    "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
-    "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
-    "USDC": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-    "CRV": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
-    "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-    "renBTC": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
-    "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-    "USDT": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-    "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
-  },
-  "across": {
-    "spoke_pool": "0xB88690461dDbaB6f04Dfad7df66B7725942FEb9C"
-  },
-  "chainlink": {
-    "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
-    "keeper_registrar": "0x4F3AF332A30973106Fe146Af0B4220bBBeA748eC"
-  },
-  "sushi": {
-    "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
-  },
-  "swapr": {
-    "router": "0x530476d5583724A89c8841eB6Da76E7Af4C0F17E"
-  },
-  "arbitrum": {
-    "node": "0x00000000000000000000000000000000000000C8",
-    "gateway_router": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933"
-  },
-  "maxiKeepers": {
-    "gaugeRewardsInjectors": {
-      "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
-      "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D"
+    "zero": {
+        "zero": "0x0000000000000000000000000000000000000000"
     },
-    "one_inch": {
-      "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+    "tokens": {
+        "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+        "USDC": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "CRV": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+        "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+        "renBTC": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "USDT": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
     },
-    "mimic": {
-      "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
-      "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
-      "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
-      "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
-      "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
-    }
-  },
-  "maxiVestingContracts": {
-    "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce",
-    "Tritium": "0x2b03b15E4A26D858DD594649988255eCEb832787",
-    "shak": "0x3e7EC248fd5BE044C0efcE9fAA778AC374350efc",
-    "Xeonus": "0xCE49aeFDDdDBa966cd69e6A4670f4F795F577264",
-    "zekraken": "0x5C8260f4eB66eC847018BBC5f68694864eF094Fe",
-    "Zen Dragon": "0x2466f62D52005AaB7A8F637CC3152361D4CC210c",
-    "Mike B": "0x81DE849AdB5883d089cdFd66bB399b4Af74a16bb",
-    "Danko": "0x2304488F0eddF15227C21b021739448B51E791C0",
-    "Dubstard": "0x01B894622C7aa890d758C8a0E8156480F0Fa5f6C",
-    "gosuto": "0xd411b886e96291b089273a5835D2BE4406700352"
-  }
+    "across": {
+        "spoke_pool": "0xB88690461dDbaB6f04Dfad7df66B7725942FEb9C"
+    },
+    "chainlink": {
+        "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
+        "keeper_registrar": "0x4F3AF332A30973106Fe146Af0B4220bBBeA748eC"
+    },
+    "sushi": {
+        "router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+    },
+    "swapr": {
+        "router": "0x530476d5583724A89c8841eB6Da76E7Af4C0F17E"
+    },
+    "arbitrum": {
+        "node": "0x00000000000000000000000000000000000000C8",
+        "gateway_router": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933"
+    },
+    "maxiKeepers": {
+        "gaugeRewardsInjectors": {
+            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
+            "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D"
+        },
+        "one_inch": {
+            "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+        },
+        "mimic": {
+            "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+            "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+            "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+            "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+            "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+        }
+    },
+    "maxiVestingContracts": {
+        "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce",
+        "Tritium": "0x2b03b15E4A26D858DD594649988255eCEb832787",
+        "shak": "0x3e7EC248fd5BE044C0efcE9fAA778AC374350efc",
+        "Xeonus": "0xCE49aeFDDdDBa966cd69e6A4670f4F795F577264",
+        "zekraken": "0x5C8260f4eB66eC847018BBC5f68694864eF094Fe",
+        "Zen Dragon": "0x2466f62D52005AaB7A8F637CC3152361D4CC210c",
+        "Mike B": "0x81DE849AdB5883d089cdFd66bB399b4Af74a16bb",
+        "Danko": "0x2304488F0eddF15227C21b021739448B51E791C0",
+        "Dubstard": "0x01B894622C7aa890d758C8a0E8156480F0Fa5f6C",
+        "gosuto": "0xd411b886e96291b089273a5835D2BE4406700352"
+    } 
 }
