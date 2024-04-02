@@ -1,0 +1,13 @@
+query ExaminePoolLiquidProtocolYieldFee($poolId: String!) {
+  pools(where: { id: $poolId }) {
+    symbol
+    priceRateProviders {
+      address
+    }
+    totalLiquidity
+    protocolYieldFeeCache
+    swapFee
+    poolType
+    poolTypeVersion
+  }
+}
