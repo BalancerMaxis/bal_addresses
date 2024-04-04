@@ -109,10 +109,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1",
-        "MockComposableStablePool": "0xd60020Ec34Ccf9A4385f917DE8F6956B77853ABF"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
         "BalancerRelayer": "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7"
@@ -124,6 +120,10 @@
         "BatchRelayerLibrary": "0x4b7b369989e613ff2C65768B7Cf930cC927F901E",
         "BatchRelayerQueryLibrary": "0xc4367195532c9bF11d76D2b3DA9a208E5FB72Df3",
         "BalancerRelayer": "0x9B892E515D2Ab8869F17488d64B3b918731cc70d"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+        "MockComposableStablePool": "0xA38e07BcF8793E6e907EfFAD031081A99eFDa898"
       }
     },
     "avalanche": {
@@ -216,10 +216,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0xE42FFA682A26EF8F25891db4882932711D42e467",
-        "MockComposableStablePool": "0x9FD66B741ac546055E04E768Dd52edD33574D453"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x36caC20dd805d128c1a6Dd16eeA845C574b5A17C",
         "BalancerRelayer": "0xE63e90EeC6860a0Bc163BB26f7333cbE55559fb5"
@@ -231,6 +227,10 @@
         "BatchRelayerLibrary": "0x88ED12A90142fDBFe2a28f7d5b48927254C7e760",
         "BatchRelayerQueryLibrary": "0x2F8BD5b2Efc56EF068d1647a92AeE4Aa2e42b43E",
         "BalancerRelayer": "0xA084c11cb55e67C9becf9607f1DBB20ec4D5E7b2"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
+        "MockComposableStablePool": "0xc6057Da8673bE26378470A302628a07f70775F3A"
       }
     },
     "base": {
@@ -335,10 +335,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x8df317a729fcaA260306d7de28888932cb579b88",
-        "MockComposableStablePool": "0x7F6E9d6a4093Af9d09bAE92d24bfE42Fc5369aE6"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0xaf779e58dafb4307b998C7b3C9D3f788DFc80632",
         "BalancerRelayer": "0x7B25d5712fB49627534012327E46455b3fF7b26C"
@@ -350,6 +346,10 @@
         "BatchRelayerLibrary": "0x82416Ce6eA7dD4923d4A3ED70a79B4A432a382C4",
         "BatchRelayerQueryLibrary": "0x41f59C2B8a4d16dBbd900162450FB2B3Bf35cDa6",
         "BalancerRelayer": "0x7C3C773C878d2238a9b64d8CEE02377BF07ED06a"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
+        "MockComposableStablePool": "0xe98F9e1aD609A48b7af16F0772144eB117b59b45"
       }
     },
     "bsc": {
@@ -414,10 +414,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
-        "MockComposableStablePool": "0x6bDa27339629e2d031F19555D3E44c205c31a13a"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
         "BalancerRelayer": "0xF27D53f21d024643d50de50183932F17638229F6"
@@ -429,6 +425,10 @@
         "BatchRelayerLibrary": "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC",
         "BatchRelayerQueryLibrary": "0x38939A6F9EBb39aaaF25E5627e60B3651868Fb4E",
         "BalancerRelayer": "0xf41D6De4bbE9919d87BC1E5cc3335549e2A1A6c0"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e",
+        "MockComposableStablePool": "0x513E5C8678996951FFA07EDB7217A1cF30CF8653"
       }
     },
     "fantom": {
@@ -547,10 +547,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
-        "MockComposableStablePool": "0xa359b6BB0a89ED9f237C83f32fF05c658DA8b3aB"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x1702067424096F07A60e62cceE3dE9420068492D",
         "BalancerRelayer": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
@@ -562,6 +558,10 @@
         "BatchRelayerLibrary": "0x8eA89804145c007e7D226001A96955ad53836087",
         "BatchRelayerQueryLibrary": "0x884976294666ccF6dd61006BBcDafe74ca889504",
         "BalancerRelayer": "0x2163c2FcD0940e84B8a68991bF926eDfB0Cd926C"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x47B489bf5836f83ABD928C316F8e39bC0587B020",
+        "MockComposableStablePool": "0x5d98909Aa2b3d964907B3735597F47E06b04D8b4"
       }
     },
     "goerli": {
@@ -721,10 +721,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
-        "MockComposableStablePool": "0x21cb3534c12E956a600cB3102b825686D10888e7"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x1702067424096F07A60e62cceE3dE9420068492D",
         "BalancerRelayer": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
@@ -736,6 +732,10 @@
         "BatchRelayerLibrary": "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c",
         "BatchRelayerQueryLibrary": "0xE21c4FF088d6829A8a4A17Ff2EE2c99CD202073e",
         "BalancerRelayer": "0x7f36A11750F225De646b0de7b26BC74e797c310B"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockComposableStablePool": "0x36814bFD45f285fEfc0383Edd410D0f127c8E778"
       }
     },
     "mainnet": {
@@ -905,10 +905,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
-        "MockComposableStablePool": "0x20356663C17D31549d1210379749E2aE36722D8f"
-      },
       "20230717-chainlink-rate-provider-factory": {
         "ChainlinkRateProviderFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
       },
@@ -927,6 +923,10 @@
         "BatchRelayerLibrary": "0xeA66501dF1A00261E3bB79D1E90444fc6A186B62",
         "BatchRelayerQueryLibrary": "0x481Ca759BABB6fF011E11890e183bE00de3714e7",
         "BalancerRelayer": "0x35Cea9e57A393ac66Aaa7E25C391D52C74B5648f"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9",
+        "MockComposableStablePool": "0xF1C849190Ecfae64d0Bd0a0708708E1De906aaB5"
       }
     },
     "optimism": {
@@ -1035,10 +1035,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x043A2daD730d585C44FB79D2614F295D2d625412",
-        "MockComposableStablePool": "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
         "BalancerRelayer": "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7"
@@ -1050,6 +1046,10 @@
         "BatchRelayerLibrary": "0xA69E0Ccf150a29369D8Bbc0B3f510849dB7E8EEE",
         "BatchRelayerQueryLibrary": "0xA876B2DBcC73f28347677c4Be589E11910CC10Eb",
         "BalancerRelayer": "0x015ACA20a1422F3c729086c17f15F10e0CfbC75A"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+        "MockComposableStablePool": "0x287E4A89d03deCdF7ac372c7B5332AbCDb3D912A"
       }
     },
     "polygon": {
@@ -1161,10 +1161,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
-        "MockComposableStablePool": "0xD35325DfC0B02718a41De7c94Ac9FC10D0AD5624"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
         "BalancerRelayer": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1"
@@ -1176,6 +1172,10 @@
         "BatchRelayerLibrary": "0xFf8b3b627a6959C85A8e82DBf8BEFB38579c2280",
         "BatchRelayerQueryLibrary": "0xD5a7820Ad07ffB7F79bD5a36a53FaD651e557960",
         "BalancerRelayer": "0xB1ED8d3b5059b3281D43306cC9D043cE8B22599b"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
+        "MockComposableStablePool": "0xd78b8a04498a15c54cf96d3e201cdd85D4ba524d"
       }
     },
     "sepolia": {
@@ -1330,10 +1330,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
-        "MockComposableStablePool": "0xE24Aba051aaeB07f981bD449f4B0b3250e08d4fB"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x043A2daD730d585C44FB79D2614F295D2d625412",
         "BalancerRelayer": "0xBeA696c7761734d9e66f4F372EB35059C1aeD1e0"
@@ -1348,6 +1344,10 @@
         "BatchRelayerLibrary": "0xEDFd0A7005A7c72c44Ff13bEa370c86A9D11beE1",
         "BatchRelayerQueryLibrary": "0xCD2A81Af5d5B485164709dCC4b3791B9f504cFc6",
         "BalancerRelayer": "0x7852fB9d0895e6e8b3EedA553c03F6e2F9124dF9"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
+        "MockComposableStablePool": "0x7b0d669142FEDe0eB9065E3B9140a7c90a934a27"
       }
     },
     "zkevm": {
@@ -1449,10 +1449,6 @@
       "20230613-balancer-pool-data-queries": {
         "BalancerPoolDataQueries": "0x6d3197d069F8F9f1Fe7e23665Bc64CB77ED8b089"
       },
-      "20230711-composable-stable-pool-v5": {
-        "ComposableStablePoolFactory": "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4",
-        "MockComposableStablePool": "0xA76C92aaF1FE0f4c3be46edd1Ab020F5774eDf46"
-      },
       "20230712-child-chain-gauge-checkpointer": {
         "BatchRelayerLibrary": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062",
         "BalancerRelayer": "0x20E6Fe801Aa275e199AA253F48E6B0C612E4e1C4"
@@ -1464,6 +1460,10 @@
         "BatchRelayerLibrary": "0x0c5538098EBe88175078972F514C9e101D325D4F",
         "BatchRelayerQueryLibrary": "0x4Dbf624Ffc95ceD541e6C9E786AF87848dC3F3d9",
         "BalancerRelayer": "0x8e620FfCa2580ed87241D7e10F85EE75d0a906F5"
+      },
+      "20240223-composable-stable-pool-v6": {
+        "ComposableStablePoolFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843",
+        "MockComposableStablePool": "0x6Db6e2d95acF228bC0c9a98e0EB55144962Fe6c0"
       }
     },
     "kovan": {
@@ -1548,6 +1548,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98",
         "MockComposableStablePool": "0xEa4643102dFC03d5e382e7827Bf767f6587E9965"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0xE42FFA682A26EF8F25891db4882932711D42e467",
+        "MockComposableStablePool": "0x9FD66B741ac546055E04E768Dd52edD33574D453"
       }
     },
     "arbitrum": {
@@ -1663,6 +1667,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x2498A2B0d6462d2260EAC50aE1C3e03F4829BA95",
         "MockComposableStablePool": "0xFF7e6B102516e071dcDA763EE9D02c1515481db5"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1",
+        "MockComposableStablePool": "0xd60020Ec34Ccf9A4385f917DE8F6956B77853ABF"
       }
     },
     "goerli": {
@@ -1812,6 +1820,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
         "MockComposableStablePool": "0x5D343D374A769D1AB102e0418a516DadB08A86E4"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+        "MockComposableStablePool": "0x21cb3534c12E956a600cB3102b825686D10888e7"
       }
     },
     "kovan": {
@@ -2045,6 +2057,10 @@
         "AvalancheRootGaugeFactory": "0x10f3e79911A490aa5B5D5CDA6F111029c4Eab5AC",
         "AvalancheRootGauge": "0xc57b4BE50BF6BBe5f6a4fE379DA342B32b37bF2f"
       },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
+        "MockComposableStablePool": "0x20356663C17D31549d1210379749E2aE36722D8f"
+      },
       "20230731-stakeless-gauge-checkpointer": {
         "StakelessGaugeCheckpointer": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
       }
@@ -2133,6 +2149,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
         "MockComposableStablePool": "0x11A4cF51Bb0Bb4D925CAdFDA61FcDA952d64889C"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x043A2daD730d585C44FB79D2614F295D2d625412",
+        "MockComposableStablePool": "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96"
       }
     },
     "polygon": {
@@ -2245,6 +2265,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x6Ab5549bBd766A43aFb687776ad8466F8b42f777",
         "MockComposableStablePool": "0x0f25823cF786b78696b16536e2F2B9835289AB51"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
+        "MockComposableStablePool": "0xD35325DfC0B02718a41De7c94Ac9FC10D0AD5624"
       }
     },
     "rinkeby": {
@@ -2321,6 +2345,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD",
         "MockComposableStablePool": "0xf3678A0b54C61ccD88Ce321c2e07f87aC75F08B9"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
+        "MockComposableStablePool": "0xa359b6BB0a89ED9f237C83f32fF05c658DA8b3aB"
       }
     },
     "bsc": {
@@ -2368,6 +2396,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x1802953277FD955f9a254B80Aa0582f193cF1d77",
         "MockComposableStablePool": "0x7C53dBf28a23faB07E322fb35eC53A296f548a45"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
+        "MockComposableStablePool": "0x6bDa27339629e2d031F19555D3E44c205c31a13a"
       }
     },
     "sepolia": {
@@ -2382,6 +2414,10 @@
         "ComposableStablePoolFactory": "0xA3fd20E29358c056B727657E83DFd139abBC9924",
         "MockComposableStablePool": "0xA8D865FE1D68a405B29f884358468c9B52d4841d"
       },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0xa523f47A933D5020b23629dDf689695AA94612Dc",
+        "MockComposableStablePool": "0xE24Aba051aaeB07f981bD449f4B0b3250e08d4fB"
+      },
       "20230731-stakeless-gauge-checkpointer": {
         "StakelessGaugeCheckpointer": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d"
       }
@@ -2390,6 +2426,10 @@
       "20230314-batch-relayer-v5": {
         "BatchRelayerLibrary": "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025",
         "BalancerRelayer": "0x76f7204B62f554b79d444588EDac9dfA7032c71a"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x8df317a729fcaA260306d7de28888932cb579b88",
+        "MockComposableStablePool": "0x7F6E9d6a4093Af9d09bAE92d24bfE42Fc5369aE6"
       }
     },
     "zkevm": {
@@ -2400,6 +2440,10 @@
       "20230320-composable-stable-pool-v4": {
         "ComposableStablePoolFactory": "0x8eA89804145c007e7D226001A96955ad53836087",
         "MockComposableStablePool": "0x6f5F794A3CeF904b8517C4c311DE2FA837Ff24a0"
+      },
+      "20230711-composable-stable-pool-v5": {
+        "ComposableStablePoolFactory": "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4",
+        "MockComposableStablePool": "0xA76C92aaF1FE0f4c3be46edd1Ab020F5774eDf46"
       },
       "20230711-zkevm-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
