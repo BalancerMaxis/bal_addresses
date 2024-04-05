@@ -1,6 +1,7 @@
 pathlib>=1.0
 requests
 pandas
-web3==5.31.3
+web3
 dotmap
 munch==4.0.0
+gql[requests]

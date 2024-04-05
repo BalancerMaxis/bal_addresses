@@ -6,7 +6,6 @@
     "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
     "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
     "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-    "shakotan": "0x8053484489b110181a6dba0b59dda887e433f470",
     "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
   },
   "blabs_ops": {
@@ -21,7 +20,7 @@
     "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
     "mikeb": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
     "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
-    "shakotan": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
+    "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493"
   },
   "emergency": {
     "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -57,7 +56,8 @@
   },
   "emeritus": {
     "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
-    "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D"
+    "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
+    "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B"
   },
   "kyc": {
     "Arbitrum": {
@@ -67,6 +67,8 @@
     }
   },
   "contributors": {
-    "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2"
+    "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+    "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+    "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
   }
 }

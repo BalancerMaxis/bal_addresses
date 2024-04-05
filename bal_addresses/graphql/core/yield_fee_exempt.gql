@@ -1,0 +1,9 @@
+query IsPoolIdExemptFromYieldProtocolFee($poolId: String!) {
+  poolTokens(where: { poolId: $poolId }) {
+    poolId {
+      address
+    }
+    id
+    isExemptFromYieldProtocolFee
+  }
+}

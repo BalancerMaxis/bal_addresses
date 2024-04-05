@@ -1,0 +1,10 @@
+query getAuraGaugeMappings {
+  gauges(first: 1000) {
+    pool {
+      id
+      gauge {
+        id
+      }
+    }
+  }
+}
