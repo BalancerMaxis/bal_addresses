@@ -26,6 +26,7 @@
   "0x1f43A5286c57813f75fB8EdEeF8b2c5e1878Ec2d": "pools/33BTC.b-33USDt-33USDC-1f43",
   "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438": "EOA/maxis/danko",
   "0x20Fa4DBa0E5baA7da26faD0F45514A5280Eb08b1": "pools/$ICE-20fa",
+  "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F": "EOA/contributors/hyferion",
   "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a": "20230320-weighted-pool-v4/WeightedPoolFactory",
   "0x231d84C37b2C4B5a2E2Fe325BB77DAa65bF71D92": "gauges/ggAVAX-WAVAX-BPT-gauge-231d",
   "0x239e55F427D44C3cc793f49bFB507ebe76638a2b": "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider",
