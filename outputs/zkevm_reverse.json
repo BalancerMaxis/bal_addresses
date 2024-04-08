@@ -24,6 +24,7 @@
   "0x1eff97f8C47d3c60C11aEADd46764164732C8113": "pools/50USDT-50DAI-1eff",
   "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438": "EOA/maxis/danko",
   "0x20E6Fe801Aa275e199AA253F48E6B0C612E4e1C4": "20230712-child-chain-gauge-checkpointer/BalancerRelayer",
+  "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F": "EOA/contributors/hyferion",
   "0x2279abf4bdAb8CF29EAe4036262c62dBA6460306": "gauges/wstETH/ankrETH -gauge-2279",
   "0x22df11c7Bc3cc80470D377010aA49d6Ef16688c6": "gauges/B-rETH-bboUSD-gauge-22df",
   "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a": "20220517-protocol-fee-withdrawer/ProtocolFeesWithdrawer",
