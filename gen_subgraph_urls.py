@@ -13,6 +13,7 @@ def main():
         for subgraph_type in ["core", "gauges", "blocks", "aura"]:
             subgraph = Subgraph(chain)
             url = subgraph.get_subgraph_url(subgraph_type)
+            url = url if url else ""
             urls[chain].update({subgraph_type: url})
 
     # dump the collected dict to json file

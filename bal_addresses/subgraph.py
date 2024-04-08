@@ -37,7 +37,7 @@ class Subgraph:
             if chain == "zkevm":
                 return "https://subgraph.satsuma-prod.com/ab0804deff79/1xhub-ltd/aura-finance-zkevm/api"
             elif chain in ["avalanche"]:  # list of chains without an aura subgraph
-                return ""
+                return None
             else:
                 return (
                     f"https://graph.aura.finance/subgraphs/name/aura/aura-{chain}-v2-1"
