@@ -1,4 +1,7 @@
 import json
+
+import requests
+
 from bal_addresses.subgraph import Subgraph
 
 
@@ -13,8 +16,16 @@ def main():
         for subgraph_type in ["core", "gauges", "blocks", "aura"]:
             subgraph = Subgraph(chain)
             url = subgraph.get_subgraph_url(subgraph_type)
-            url = url if url else ""
-            urls[chain].update({subgraph_type: url})
+            if url:
+                code = requests.get(url).status_code
+                if code == 200:
+                    urls[chain].update({subgraph_type: url})
+                else:
+                    # if code not in urls[chain]:
+                    #     urls[chain][code] = {}
+                    urls[chain].update({subgraph_type: {code: url}})
+            else:
+                continue
 
     # dump the collected dict to json file
     with open("outputs/subgraph_urls.json", "w") as f:
