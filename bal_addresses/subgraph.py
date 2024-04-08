@@ -3,11 +3,17 @@ import os
 from gql import Client, gql
 from gql.transport.requests import RequestsHTTPTransport
 
-graphql_base_path = f"{os.path.dirname(os.path.abspath(__file__))}/graphql"
-class Subgraph:
-    def __init__(self, chain):
-        self.chain = chain
+from bal_addresses import AddrBook
 
+
+graphql_base_path = f"{os.path.dirname(os.path.abspath(__file__))}/graphql"
+
+
+class Subgraph:
+    def __init__(self, chain: str):
+        if chain not in AddrBook.chain_ids_by_name.keys():
+            raise ValueError(f"Invalid chain: {chain}")
+        self.chain = chain
 
     def get_subgraph_url(self, subgraph="core") -> str:
         """
