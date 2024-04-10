@@ -59,5 +59,8 @@
         "Dubstard": "0x01B894622C7aa890d758C8a0E8156480F0Fa5f6C",
         "gosuto": "0xd411b886e96291b089273a5835D2BE4406700352",
         "lipman": "0xB209a59A9F3CC7FA5A25dF152a01f9dF8B969A3a"
+    },
+    "TreasuryExtentions": {
+        "AURA_ARB_BAL_LP_BIP_322": "0x8D803f7f7e26E586ee90E5A872cf7830e21f7727"
     }
 }
