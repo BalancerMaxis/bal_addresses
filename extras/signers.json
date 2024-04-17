@@ -44,14 +44,12 @@
     "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
     "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
   },
-  "ozDefender": {
-    "checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7"
-  },
   "maxiPay": {
     "factory": "0x7bbac709a9535464690a435ca7361256496f13ce"
   },
   "keepers": {
-    "oz_defender_checkpointer": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+    "old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+    "oz_relayer_v2" : "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",
     "github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f"
   },
   "emeritus": {
