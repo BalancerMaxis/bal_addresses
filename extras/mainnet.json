@@ -147,7 +147,8 @@
     },
     "myso": {
         "QuoteHandler": "0x71E1cc2F7574C798ED893Ef04D55D1E573bE95B1",
-        "LenderVaultFactory": "0x1874a08f7975b25944feb989bbaaa464f61ab3bc"
+        "LenderVaultFactory": "0x1874a08f7975b25944feb989bbaaa464f61ab3bc",
+        "BAL_Vault": "0xdC84A5e6Bf288af75CC821226634644Ed6a7aB54"
 
     }
 }
