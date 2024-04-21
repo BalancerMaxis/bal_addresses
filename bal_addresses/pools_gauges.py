@@ -55,7 +55,9 @@ class BalPoolsGauges:
     ) -> Dict[str, int]:
         gauge_address = to_checksum_address(gauge_address)
         variables = {"gaugeAddress": gauge_address, "block": int(block)}
-        data = self.subgraph.fetch_graphql_data("gauges", "fetch_gauge_shares", variables)
+        data = self.subgraph.fetch_graphql_data(
+            "gauges", "fetch_gauge_shares", variables
+        )
         results = {}
         if "gaugeShares" in data:
             for share in data["gaugeShares"]:
