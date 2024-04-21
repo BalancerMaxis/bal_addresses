@@ -1,0 +1,38 @@
+query GetBalancerPool($id: ID!, $block_height: Block_height) {
+    pool(id: $id, block: $block_height){
+        id
+    address
+    poolType
+    symbol
+    name
+    swapFee
+    totalWeight
+    totalSwapVolume
+    totalSwapFee
+    totalLiquidity
+    totalProtocolFee
+    totalShares
+    swapsCount
+    holdersCount
+    createTime
+    owner
+    amp
+    factory
+    strategyType
+    swapEnabled
+    tokens(first: 10) {
+        id
+    symbol
+    name
+    decimals
+    address
+    balance
+    weight
+    priceRate
+    poolId {
+        id
+        address
+    }
+    }
+    }
+}
