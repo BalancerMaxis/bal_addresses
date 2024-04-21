@@ -16,8 +16,10 @@ AURA_SUBGRAPHS_BY_CHAIN = {
     "base": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-base",
     "polygon": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-polygon",
     "zkevm": "https://api.studio.thegraph.com/query/69982/aura-finance-zkevm/version/latest",
-    "avalanche": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/version/v0.0.1/api"
+    "avalanche": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/version/v0.0.1/api",
 }
+
+
 class Subgraph:
     def __init__(self, chain: str):
         if chain not in AddrBook.chain_ids_by_name.keys():
