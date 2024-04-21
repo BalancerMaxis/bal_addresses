@@ -21,7 +21,7 @@ setup(
         "wheel",
         "munch==4.0.0",
         "web3",
-        "gql[requests]",
+        "gql",
         "requests",
     ],
     keywords=["python", "first package"],
