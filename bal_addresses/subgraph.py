@@ -44,6 +44,9 @@ class Subgraph:
             magic_word = "gauge:"
         elif subgraph == "blocks":
             magic_word = "blocks:"
+            ## UI has no blocks subgraph for op
+            if chain == "optimism":
+                return "https://api.thegraph.com/subgraphs/name/blocklytics/optimism-blocks"
         elif subgraph == "aura":
             return AURA_SUBGRAPHS_BY_CHAIN.get(chain, None)
 
