@@ -72,9 +72,13 @@ class Aura:
         gauge_address = to_checksum_address(gauge_address)
         aura_pid = self.aura_pids_by_address.get(gauge_address)
         variables = {"poolId": aura_pid, "block": int(block)}
-        data = self.subgraph.fetch_graphql_data(
-            "aura", "get_aura_user_pool_balances", variables
-        )
+        try:
+            data = self.subgraph.fetch_graphql_data(
+                "aura", "get_aura_user_pool_balances", variables
+            )
+        except Exception as e:
+            raise NoResultError(f"Problem executing subgraph query: {e}")
+
         results = {}
         # Parse the data if the query was successful
         if data and "leaderboard" in data and data["leaderboard"]["accounts"]:
