@@ -98,7 +98,10 @@ class Aura:
         - The Aura PID of the specified gauge
         """
         deposit_gauge_address = to_checksum_address(deposit_gauge_address)
-        result = self.aura_pids_by_address.get(deposit_gauge_address, None)
+        try:
+            result = self.aura_pids_by_address.get(deposit_gauge_address, None)
+        except Exception as e:
+            raise NoResultError(f"Problem executing subgraph query: {e}")
         if not result:
             raise NoResultError(f"Gauge {deposit_gauge_address} has no Aura PID")
         if isinstance(result, str):
