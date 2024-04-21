@@ -46,7 +46,7 @@ class Subgraph:
             magic_word = "blocks:"
             ## UI has no blocks subgraph for op
             if chain == "optimism":
-                return "https://api.thegraph.com/subgraphs/name/blocklytics/optimism-blocks"
+                return "https://thegraph.com/hosted-service/subgraph/iliaazhel/optimism-blocklytics"
         elif subgraph == "aura":
             return AURA_SUBGRAPHS_BY_CHAIN.get(chain, None)
 
