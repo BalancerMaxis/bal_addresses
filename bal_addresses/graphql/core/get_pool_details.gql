@@ -1,5 +1,5 @@
-query GetBalancerPool($id: ID!, $block_height: Block_height) {
-    pool(id: $id, block: $block_height){
+query GetBalancerPool($id: ID!, $block: Int) {
+    pool(id: $id, block: {number: $block}){
         id
     address
     poolType
