@@ -1,0 +1,36 @@
+name: Generate Core Pools JSON
+
+on:
+  schedule:
+    - cron: "0 0 * * 3"
+  workflow_dispatch:
+
+jobs:
+  refersh_books:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Update Files
+        id: update
+        run: |
+          pip3 install -r bal_addresses/requirements.txt
+          python3 gen_core_pools.py
+          git add -A
+
+      - name: pull-request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Scheduled update from changes to monorepo"
+          title: "Scheduled update from changes to monorepo"
+          branch: "gha-addressbook"
+          reviewers: "Tritum-VLK"
+          assignees: "Tritum-VLK"
+          labels: "Automatic"

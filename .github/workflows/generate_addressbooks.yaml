@@ -1,4 +1,4 @@
-name: Generate Addressbooks
+name: Generate Addressbooks Deployments
 
 on:
   schedule:
@@ -6,15 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  refersh_books:
+  refresh_books:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -24,15 +24,14 @@ jobs:
           git clone https://github.com/balancer/balancer-deployments.git
           export DEPLOYMENTS_REPO_ROOT_URL=`pwd`/balancer-deployments
           pip3 install -r bal_addresses/requirements.txt
-          python3 gen_core_pools.py
           python3 gen_pools_and_gauges.py
-          python3 transform-deployments.py
+          python3 gen_mono_addressbook.py
           python3 gen_addresses.py
           rm -rf balancer-deployments
           git add -A
 
       - name: pull-request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Scheduled update from changes to monorepo"
           title: "Scheduled update from changes to monorepo"
