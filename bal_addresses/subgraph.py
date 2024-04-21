@@ -8,7 +8,16 @@ from bal_addresses import AddrBook
 
 graphql_base_path = f"{os.path.dirname(os.path.abspath(__file__))}/graphql"
 
-
+AURA_SUBGRAPHS_BY_CHAIN = {
+    "mainnet": "https://graph.data.aura.finance/subgraphs/name/aura/aura-mainnet-v2-1",
+    "arbitrum": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-arbitrum",
+    "optimism": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-optimism",
+    "gnosis": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-gnosis-chain",
+    "base": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-base",
+    "polygon": "https://api.thegraph.com/subgraphs/name/aurafinance/aura-finance-polygon",
+    "zkevm": "https://api.studio.thegraph.com/query/69982/aura-finance-zkevm/version/latest",
+    "avalanche": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/version/v0.0.1/api"
+}
 class Subgraph:
     def __init__(self, chain: str):
         if chain not in AddrBook.chain_ids_by_name.keys():
@@ -34,14 +43,7 @@ class Subgraph:
         elif subgraph == "blocks":
             magic_word = "blocks:"
         elif subgraph == "aura":
-            if chain == "zkevm":
-                return "https://subgraph.satsuma-prod.com/ab0804deff79/1xhub-ltd/aura-finance-zkevm/api"
-            elif chain in ["avalanche"]:  # list of chains without an aura subgraph
-                return None
-            else:
-                return (
-                    f"https://graph.aura.finance/subgraphs/name/aura/aura-{chain}-v2-1"
-                )
+            return AURA_SUBGRAPHS_BY_CHAIN.get(chain, None)
 
         # get subgraph url from production frontend
         frontend_file = f"https://raw.githubusercontent.com/balancer/frontend-v2/develop/src/lib/config/{chain}/index.ts"
