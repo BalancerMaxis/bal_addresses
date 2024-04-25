@@ -23,7 +23,7 @@ setup(
         "web3",
         "gql[requests]",
         "requests",
-        "git+https://github.com/BalancerMaxis/bal_tools@v0.0.1"
+        "git+https://github.com/BalancerMaxis/bal_tools@v0.0.1",
     ],
     keywords=["python", "first package"],
     classifiers=[

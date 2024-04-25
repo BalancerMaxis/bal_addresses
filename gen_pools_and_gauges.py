@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 from bal_tools import BalPoolsGauges
-from bal_tools  import Subgraph
+from bal_tools import Subgraph
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]

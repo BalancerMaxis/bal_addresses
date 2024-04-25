@@ -12,4 +12,3 @@ from .errors import (
     ChecksumError,
     UnexpectedListLengthError,
 )
-
