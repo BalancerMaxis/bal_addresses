@@ -14,6 +14,7 @@ w3_by_chain = {
     "gnosis": Web3(Web3.HTTPProvider(f"https://rpc.gnosischain.com")),
     "zkevm": Web3(Web3.HTTPProvider(f"https://zkevm-rpc.com")),
     "avalanche": Web3(Web3.HTTPProvider(f"https://api.avax.network/ext/bc/C/rpc")),
+    "fantom": Web3(Web3.HTTPProvider("https://rpc.fantom.network")),
     ### Less reliable RPCs first to fail fast :)
     "mainnet": Web3(Web3.HTTPProvider(f"https://mainnet.infura.io/v3/{INFURA_KEY}")),
     "arbitrum": Web3(
