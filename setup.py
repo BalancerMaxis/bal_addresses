@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.1"
+VERSION = "0.9.2"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -14,7 +14,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     include_package_data=True,  # Automatically include non-Python files
-    package_data={"": ["graphql/**/*.gql", "abis/*.json"]},
+    package_data={"": ["abis/*.json"]},
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=[
         "setuptools>=42",
@@ -23,6 +23,7 @@ setup(
         "web3",
         "gql[requests]",
         "requests",
+        "git+https://github.com/BalancerMaxis/bal_tools@v0.0.1"
     ],
     keywords=["python", "first package"],
     classifiers=[

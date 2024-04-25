@@ -12,5 +12,4 @@ from .errors import (
     ChecksumError,
     UnexpectedListLengthError,
 )
-from .subgraph import Subgraph
-from .pools_gauges import BalPoolsGauges
+
