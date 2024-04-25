@@ -270,7 +270,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -1825,7 +1825,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -1846,6 +1846,7 @@
         "ankrAVAX-ankrETH-BPT-3bde": "0x3bDe1563903EbB564cA37D5736afbB850929Cfd7",
         "TEST-3fb8": "0x3Fb81f6FB0dd94c6fC7e138887f1CA4CDB5E2999",
         "50USDC-50EUROC-3fc2": "0x3Fc26A34594eC8aDFD9431fF3b9e8fCE00BEDd19",
+        "LP-AUX-USDC-4646": "0x46463A97da555DBa53dcD71dbbC256436eb65684",
         "50BAL/50WAVAX-516d": "0x516db57BAc67FCb68f26c885EaCc4E842BD4Cf5B",
         "BPT-55be": "0x55bEC22f8f6C69137cEAf284d9B441Db1B9bFedc",
         "20BTC.b-20USDt-20WAVAX-20USDC-20BAL-5889": "0x58892cCBAf25F585862a3b8504d7A69dCA2cC661",
@@ -2128,7 +2129,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -2586,7 +2587,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {},
@@ -2700,7 +2701,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {},
@@ -2911,7 +2912,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -3330,7 +3331,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -5168,7 +5169,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -5331,6 +5332,7 @@
         "80BADGER-20graviAURA-1ee7": "0x1eE71e1Ed744AE6D4058F5c7797C2e583DbfB095",
         "B-20AGI-80WETH-1f73": "0x1F733D026a3E62716787EDE9130d9302bB8F0E8a",
         "TEST-2035": "0x20356663C17D31549d1210379749E2aE36722D8f",
+        "ECLP-PAR-EURA-2044": "0x2044aFEF1268100918F88De66a3532Eab3D8f3ef",
         "R-DAI-BLP-20a6": "0x20a61B948E33879ce7F23e535CC7BAA3BC66c5a9",
         "bb-yv-USD-20b1": "0x20b156776114E8a801e9767D90c6ccCCc8Adf398",
         "50WETH-50REALTY-20e5": "0x20e5509f5C0e361862A0f96dBC08C1B7B2677fe9",
@@ -6029,6 +6031,7 @@
         "B-80RARI-20WETH-ad30": "0xad302e620FEDb60078B33514757335545ba05c6D",
         "25REN-4wstETH-3SLP-39COW-29renBTC-ad6a": "0xaD6A8c18b62EB914604Ec1EEc7FBCf132799Fe09",
         "50SFIC-50USDC-adf6": "0xadF6ae8A9256dEB22796E65D42Dc27394F812873",
+        "ECLP-paUSD-GYD-ae2d": "0xae2D97CbBc13B67988ECEd2abA0F6939655eD3De",
         "50EVA-50WETH-ae34": "0xaE345d50107AA82D11384D2A12204CFBCBb9f0E8",
         "bb-a-DAI-ae37": "0xae37D54Ae477268B9997d4161B96b8200755935c",
         "25wstETH-25rETH-25WETH-25aETHc-ae4d": "0xae4d08895B1F0F14C7Ab5f5B2E9bf54e6e1e5C6F",
@@ -6767,7 +6770,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -7361,7 +7364,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -7402,6 +7405,7 @@
         "6ETH-S-6MATIC-S-18SP-6USD-S-6BTC-S-40STAR-L-18STARV3-M/StarSeeds_Protocol-033b": "0x033bdE353D7D3eA611E964ACF0DE445aF8CCb665",
         "JARVIS-ETH 8020 1%-0354": "0x035476819E3D074D8d734552BE7738E055F773CC",
         "50WMATIC-50USDC-0364": "0x03642b8912E0473c6D7FDB16cfa84abb665b8997",
+        "50mOCEAN-50USDT-0366": "0x03662F6003Cb75aE3a1659C994446e99b9b88b3B",
         "10N/A-50N/A-10N/A-25N/A-3N/A-2N/A-0371": "0x0371C272fDD28Ac13c434F1ef6b8B52ea3e6d844",
         "25RAI-25USDC-25WETH-25gOHM-037c": "0x037c08AC83C40B517B56F6658a39f637cb50C24c",
         "50STARV4-50STARV3/StarSeeds_Protocol-038e": "0x038Ea3611fe46D441680Ee72134D60e68f90599E",
@@ -7973,6 +7977,7 @@
         "20USDC-40TEL-40DFX-2dbc": "0x2dbC9Ab0160087AE59474FB7bed95B9E808fA6bc",
         "STARV3-LINK/65-35/StarSeeds_Protocol-2dc4": "0x2DC47abcE2A3d5644139C663493C2bb825d2b103",
         "80WMATIC-20CYC-2dc5": "0x2dc5056E7F3b578489d57B62F19D2863a116e3eA",
+        "50mOCEAN-50USDT-2dc5": "0x2DC55e27787aC8296ab0Ef8B082D68BA4b71FaCd",
         "50DAI-50USDT-2dd7": "0x2DD73658B2351da4c8fee8AF2135B007db37B362",
         "10USDC-25WETH-33DPI-33MVI-2de3": "0x2dE32a7c98C3ef6ec79e703500e8CA5b2eC819aa",
         "20WMATIC-80VNT-2de8": "0x2DE8509A0e022CB11c031Fa76291E3Ee789FD735",
@@ -11146,7 +11151,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -11507,7 +11512,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {
@@ -11742,7 +11747,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {},
@@ -11830,7 +11835,7 @@
         "contributors": {
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "hyferion": "0x2236aEc8Fc4629a07cA2b79aC7851c687feF493F"
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
         }
       },
       "pools": {},
