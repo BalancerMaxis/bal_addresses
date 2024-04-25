@@ -84,6 +84,12 @@
     "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
     "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
   },
+  "fantom": {
+    "dao": "0xFe2022da08d17ac8388F5bEFE4F71456255105A4"
+  },
+  "bnb": {
+    "dao": "0x58099b94e660bBe19848547F6c5d76DcA7282E45"
+  },
   "sepolia": {
     "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce"
   }
