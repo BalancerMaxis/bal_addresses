@@ -1,5 +1,5 @@
 import json
-from bal_addresses.pools_gauges import BalPoolsGauges
+from bal_tools import BalPoolsGauges
 
 
 def main():
