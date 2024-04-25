@@ -13,6 +13,8 @@ def chain(request):
 
 @pytest.fixture(scope="module")
 def bal_pools_gauges(chain):
+    if chain == "fantom":
+        pytest.skip("Skipping Fantom, no pools/gauges")
     return BalPoolsGauges(chain)
 
 

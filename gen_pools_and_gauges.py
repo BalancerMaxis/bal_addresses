@@ -112,6 +112,10 @@ def main():
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
+        print(chain)
+        if chain == "fantom":
+            # not a balancer native chain
+            continue
         gauge_info = BalPoolsGauges(chain)
         # pools
         # TODO: consider moving to query object??
