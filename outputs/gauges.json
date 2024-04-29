@@ -142,6 +142,7 @@
     "B-wUSDR-STABLE-gauge-33cf": "0x33cf5bb2fc3182d7c504cefc7e22faf3bbcf3e9f",
     "truMATIC-bb-a-WMATIC-BPT-gauge-33de": "0x33deb631b644ff0246a106d108292e7226e7602b",
     "B-33AVAX-33WETH-33SOL-gauge-34d9": "0x34d91862ce57063ee58c2c71524d5d9f8c3bd633",
+    "ECLP-PAR-EUROe-gauge-3c4f": "0x3c4f0af51cdd80bb294463ade48faec746bbfef0",
     "2CHF (VCHF)-gauge-3dd3": "0x3dd3787c70e32d6b9298bde4a73fcd6555c2fbab",
     "LP-XSGD-USDC-gauge-3dd7": "0x3dd7f73d807b7aa4a1112b30319201e9798d27c4",
     "bb-am-USD-gauge-3eae": "0x3eae4a1c2e36870a006e816930d9f55df0a72a13",
@@ -178,8 +179,10 @@
     "bb-t-MATIC-gauge-975f": "0x975f5cec0351ff5a9f49cdbe1c47c9922ced4557",
     "B-stMATIC-STABLE-gauge-9928": "0x9928340f9e1aaad7df1d95e27bd9a5c715202a56",
     "Mai BSP-gauge-9a10": "0x9a105ef22a59484aa2731c357049f6a13d0891f5",
+    "ECLP-paUSD-USDC-rh-gauge-9d8f": "0x9d8f6d7aca6b71133f04d608da235594b7bbe048",
     "B-tetuQi-Stable-gauge-a028": "0xa02883e738854a17a7cd37f0871e9c2c0ed8cf7f",
     "bb-am-usd-gauge-a453": "0xa4532b1bb0d050062e7cb0ab74d017e5c5b5bc13",
+    "ECLP-PAR-EURe-gauge-a6b1": "0xa6b15ff334e170368c6f578587ac6b382774e3fd",
     "BPT-gauge-a716": "0xa7165e1e3defe55dada5c4289268d57faba6dad2",
     "80TETU-20USDC-gauge-a86e": "0xa86e8e8cfae8c9847fa9381d4631c13c7b3466bd",
     "20USDC-40TEL-40DFX-gauge-a919": "0xa919fb0b1073f3279caa54cc05c9660ae869faa8",
@@ -445,6 +448,7 @@
   "zkevm": {
     "B-wstETH/rETH-STABLE-gauge-0525": "0x05257970368efd323aeffec95f7e28c806c2e37f",
     "50wstETH-BPT-50-bboUSD-gauge-1020": "0x10207c093cc0562367fb2e7f382de2f615b5168b",
+    "50BAL-50WETH-gauge-11a7": "0x11a72ebfc318c977a6a1b9b6e4565e068f9b3c12",
     "ECLP-wETH-rETH-gauge-157a": "0x157a6dfd77f527efef0b36b5b2156b1ab710e32f",
     "wstETH/ankrETH -gauge-2279": "0x2279abf4bdab8cf29eae4036262c62dba6460306",
     "B-rETH-bboUSD-gauge-22df": "0x22df11c7bc3cc80470d377010aa49d6ef16688c6",
@@ -525,6 +529,7 @@
     "BPT-stabal3-gauge-c97f": "0xc97fa65107ae7b94fb749cf05abb01005c14351e",
     "50GOLD/25WETH/25USDC-gauge-dae8": "0xdae8ac766eb1c4bb76bc814fde22ac46f467c51b",
     "50WETH-50GOLD-gauge-e2f2": "0xe2f2aed19fa245aff66342c2b849be6f411fb28f",
-    " 50tBTC-50USD-gauge-ef97": "0xef97b54f69060f4d5304f79734d01c2da12114d8"
+    " 50tBTC-50USD-gauge-ef97": "0xef97b54f69060f4d5304f79734d01c2da12114d8",
+    "weETH/wETH-gauge-f786": "0xf7862a614ffea2bf8ef2d66a872be2df735d22e6"
   }
 }
