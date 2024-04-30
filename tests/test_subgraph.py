@@ -1,5 +1,7 @@
 import pytest
 
+from bal_addresses.subgraph import Subgraph
+
 
 def test_get_first_block_after_utc_timestamp(chain, subgraph):
     """
@@ -11,3 +13,12 @@ def test_get_first_block_after_utc_timestamp(chain, subgraph):
         assert block == 19283331
     else:
         pytest.skip(f"Skipping {chain}")
+
+
+def test_invalid_chain():
+    """
+    we should get a raise when passing an invalid chain
+    """
+
+    with pytest.raises(ValueError):
+        Subgraph("invalid_chain")

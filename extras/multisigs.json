@@ -14,7 +14,8 @@
     "beets_treasury": "0xea06e1b4259730724885a39ce3ca670efb020e26",
     "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
-    "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a"
+    "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
+    "wonderland": "0x74fea3fb0ed030e9228026e7f413d66186d3d107"
   },
   "polygon": {
     "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -71,16 +72,25 @@
     "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
-  "goerli": {
-    "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
-    "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
-    "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
-  },
   "base": {
     "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
     "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
     "lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
     "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+  },
+  "goerli": {
+    "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
+    "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
+    "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
+  },
+  "fantom": {
+    "dao": "0xFe2022da08d17ac8388F5bEFE4F71456255105A4"
+  },
+  "bnb": {
+    "dao": "0x58099b94e660bBe19848547F6c5d76DcA7282E45"
+  },
+  "sepolia": {
+    "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce"
   }
 }
