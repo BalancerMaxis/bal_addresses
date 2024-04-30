@@ -8,15 +8,16 @@ INFURA_KEY = os.getenv("INFURA_KEY")
 ALCHEMY_KEY = os.getenv("ALCHEMY_KEY")
 
 w3_by_chain = {
-    #  "base": Web3(
-    #      Web3.HTTPProvider(f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
-    ##  ),
     "gnosis": Web3(Web3.HTTPProvider(f"https://rpc.gnosischain.com")),
     "zkevm": Web3(Web3.HTTPProvider(f"https://zkevm-rpc.com")),
     "avalanche": Web3(Web3.HTTPProvider(f"https://api.avax.network/ext/bc/C/rpc")),
-    #    "fantom": Web3(Web3.HTTPProvider("https://rpc.fantom.network")),
     ### Less reliable RPCs first to fail fast :)
-    "mainnet": Web3(Web3.HTTPProvider(f"https://mainnet.infura.io/v3/{INFURA_KEY}")),
+    "mainnet": Web3(
+        Web3.HTTPProvider(f"https://eth-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
+    ),
+    "base": Web3(
+        Web3.HTTPProvider(f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
+    ),
     "arbitrum": Web3(
         Web3.HTTPProvider(f"https://arbitrum-mainnet.infura.io/v3/{INFURA_KEY}")
     ),
