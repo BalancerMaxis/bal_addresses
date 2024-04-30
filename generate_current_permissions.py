@@ -19,15 +19,17 @@ w3_by_chain = {
         Web3.HTTPProvider(f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
     ),
     "arbitrum": Web3(
-        Web3.HTTPProvider(f"https://arbitrum-mainnet.infura.io/v3/{INFURA_KEY}")
+        Web3.HTTPProvider(f"https://arb-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
     ),
     "optimism": Web3(
-        Web3.HTTPProvider(f"https://optimism-mainnet.infura.io/v3/{INFURA_KEY}")
+        Web3.HTTPProvider(f"https://opt-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
     ),
     "polygon": Web3(
-        Web3.HTTPProvider(f"https://polygon-mainnet.infura.io/v3/{INFURA_KEY}")
+        Web3.HTTPProvider(f"https://polygon-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
     ),
-    "sepolia": Web3(Web3.HTTPProvider(f"https://sepolia.infura.io/v3/{INFURA_KEY}")),
+    "sepolia": Web3(
+        Web3.HTTPProvider(f"https://eth-sepolia.g.alchemy.com/v2/{ALCHEMY_KEY}")
+    ),
 }
 
 
