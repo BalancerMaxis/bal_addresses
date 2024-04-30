@@ -8,7 +8,7 @@ query LiquidPoolsProtocolYieldFee {
             address_not: "0x0000000000000000000000000000000000000000"
           }
         }
-        { totalLiquidity_gt: 250000 }
+        { totalLiquidity_gt: 100000 }
         {
           or: [
             { protocolYieldFeeCache_gt: 0 }
