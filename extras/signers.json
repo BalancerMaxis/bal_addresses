@@ -20,7 +20,9 @@
     "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
     "mikeb": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
     "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
-    "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493"
+    "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
+    "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
+    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
   },
   "emergency": {
     "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
@@ -65,9 +67,10 @@
       "kycsigner4": "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4"
     }
   },
-  "contributors": {
+  "contributors-payees": {
     "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
     "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-    "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096"
+    "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
+    "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62"
   }
 }
