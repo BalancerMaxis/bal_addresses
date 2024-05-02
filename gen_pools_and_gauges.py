@@ -3,8 +3,8 @@ import json
 import pandas as pd
 import requests
 
-from bal_addresses.pools_gauges import BalPoolsGauges
-from bal_addresses.subgraph import Subgraph
+from bal_tools import BalPoolsGauges
+from bal_tools import Subgraph
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
