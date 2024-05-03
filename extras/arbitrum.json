@@ -32,7 +32,7 @@
     },
     "maxiKeepers": {
         "gaugeRewardsInjectors": {
-            "arb_rewards_injector": "0xdcDAFd9E4cc10Ec5dCf1411eE2EdBc4E204aE9Bf",
+            "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
             "arb_STIP_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
             "arb_origin_injector": "0xdcDAFd9E4cc10Ec5dCf1411eE2EdBc4E204aE9Bf",
             "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D",
