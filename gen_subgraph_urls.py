@@ -1,8 +1,7 @@
 import json
 
 import requests
-
-from bal_addresses.subgraph import Subgraph
+from bal_tools.subgraph import Subgraph
 
 
 def main():

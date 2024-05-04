@@ -145,6 +145,9 @@
         "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
         "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
     },
+    "circle": {
+        "cctp_messenger": "0xBd3fa81B58Ba92a82136038B25aDec7066af3155"
+    },
     "myso": {
         "QuoteHandler": "0x71E1cc2F7574C798ED893Ef04D55D1E573bE95B1",
         "LenderVaultFactory": "0x1874a08f7975b25944feb989bbaaa464f61ab3bc"

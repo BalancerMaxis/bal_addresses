@@ -9,8 +9,8 @@
     "goerli": 42,
     "sepolia": 11155111,
     "avalanche": 43114,
-    "base": 8453,
-    "fantom": 250
+    "fantom": 250,
+    "base": 8453
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -22,7 +22,7 @@
     "goerli": "https://goerli.etherscan.io/",
     "sepolia": "https://sepolia.etherscan.io/",
     "avalanche": "https://snowtrace.io/",
-    "base": "https://basescan.org/",
-    "fantom": "https://ftmscan.com/"
+    "fantom": "https://ftmscan.com/",
+    "base": "https://basescan.org/"
   }
 }

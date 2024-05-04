@@ -3,8 +3,8 @@ import json
 import pandas as pd
 import requests
 
-from bal_addresses.pools_gauges import BalPoolsGauges
-from bal_addresses.subgraph import Subgraph
+from bal_tools import BalPoolsGauges
+from bal_tools import Subgraph
 
 
 NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
@@ -112,6 +112,10 @@ def main():
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
     for chain in chains["CHAIN_IDS_BY_NAME"]:
+        print(chain)
+        if chain == "fantom":
+            # not a balancer native chain
+            continue
         gauge_info = BalPoolsGauges(chain)
         # pools
         # TODO: consider moving to query object??
