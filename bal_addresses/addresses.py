@@ -160,7 +160,7 @@ class AddrBook:
             self._deployments = Munch.fromDict(processed_deployment)
         else:
             print(f"Warning: No deploys for chain {self.chain}")
-            return Munch.fromDict({})
+            self._deployments = Munch.fromDict({})
 
     def _process_deployment(self, deployment: Dict) -> Dict:
         """
