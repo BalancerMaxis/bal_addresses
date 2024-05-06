@@ -154,7 +154,7 @@ def test_deployments_not_populated():
         status=404,
     )
     a = AddrBook("mainnet")
-    assert a.deployments is None
+    assert a.deployments is {}
     with pytest.raises(AttributeError):
         assert a.deployments.vault.non_existing_attribute
     assert a.extras == {}
