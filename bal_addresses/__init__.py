@@ -6,10 +6,7 @@ from .addresses import (
     GITHUB_RAW_EXTRAS,
 )
 from .permissions import BalPermissions
-from .utils import (
-    to_checksum_address,
-    is_address
-)
+from .utils import to_checksum_address, is_address
 from .errors import (
     MultipleMatchesError,
     NoResultError,
