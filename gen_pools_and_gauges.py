@@ -6,6 +6,7 @@ import requests
 from bal_tools import BalPoolsGauges
 from bal_tools import Subgraph
 
+
 def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
     url = Subgraph(chain).get_subgraph_url("core")
     query = f"""{{
@@ -131,7 +132,6 @@ def main():
                 gauges[chain] = result
         except Exception as e:
             print(f"Error using gauge subgraph for {chain}, skipping: {e}")
-
 
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
