@@ -20,10 +20,10 @@ GITHUB_DEPLOYMENTS_RAW = (
 )
 GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
 GITHUB_RAW_OUTPUTS = (
-    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/mode-baseline/outputs"
 )
 GITHUB_RAW_EXTRAS = (
-    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/mode-baseline/extras"
 )
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
@@ -33,14 +33,14 @@ class AddrBook:
         json.load(open("extras/chains.json"))
         if os.path.exists("extras/chains.json")
         else requests.get(
-            "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/chains.json"
+            f"{GITHUB_RAW_EXTRAS}/chains.json"
         ).json()
     )
     fx_description_by_name = Munch.fromDict(
         json.load(open("extras/func_desc_by_name.json"))
         if os.path.exists("extras/func_desc_by_name.json")
         else requests.get(
-            "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras/func_desc_by_name.json"
+            f"{GITHUB_RAW_EXTRAS}//func_desc_by_name.json"
         ).json()
     )
     chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
