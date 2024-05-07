@@ -82,6 +82,7 @@
   "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
   "0x4cdABE9E07ca393943AcFB9286bBbd0D0a310Ff6": "pools/B-50wstETH-50COW-4cda",
   "0x4d13d387f372dbe5125B7d78E75094ac85B31eDc": "gauges/B-50sDAI-50wstETH-gauge-4d13",
+  "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e": "multisigs/omnichain_dao",
   "0x4fb47126Fa83A8734991E41B942Ac29A3266C968": "20220425-unbutton-aave-linear-pool/UnbuttonAaveLinearPoolFactory",
   "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emeritus/solarcurve_signer",
   "0x5237A12E9D9095CC085F2BDD4e32393993f73C15": "pools/50agEUR-50EURe-5237",
