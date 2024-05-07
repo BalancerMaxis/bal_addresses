@@ -20,10 +20,10 @@ GITHUB_DEPLOYMENTS_RAW = (
 )
 GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
 GITHUB_RAW_OUTPUTS = (
-    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/mode-baseline/outputs"
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
 )
 GITHUB_RAW_EXTRAS = (
-    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/mode-baseline/extras"
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
 )
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
