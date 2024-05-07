@@ -51,13 +51,5 @@
   "EOA/maxis/tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
   "EOA/maxis/xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
   "EOA/maxis/zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-  "EOA/maxis/zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-  "beethoven_x/deployer": "0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C",
-  "beethoven_x/friendly_fork_vesting": "0x8D381EC09356C3F1805c54B2BB0867e8b417DC3a",
-  "beethoven_x/treasury": "0xa1E849B1d6c2Fd31c63EEf7822e9E0632411ada7",
-  "beethoven_x/vault": "0x20dd72Ed959b6147912C2e529F0a0C651c33c9ce",
-  "multisigs/dao": "0xFe2022da08d17ac8388F5bEFE4F71456255105A4",
-  "tokens/BEETS": "0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e",
-  "tokens/WFTM": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-  "zero/zero": "0x0000000000000000000000000000000000000000"
+  "EOA/maxis/zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17"
 }
