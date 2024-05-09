@@ -14,7 +14,7 @@ def main():
         if chain in ["sepolia", "goerli"]:
             continue
         # skip optimism: beets handles core pools there
-        if chain == "optimism":
+        if chain in ["optimism", "fantom"]:
             core_pools[chain] = {}
             continue
         core_pools[chain] = gauge_info.build_core_pools()
