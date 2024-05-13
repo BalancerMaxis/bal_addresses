@@ -37,7 +37,7 @@ class AddrBook:
     fx_description_by_name = Munch.fromDict(
         json.load(open("extras/func_desc_by_name.json"))
         if os.path.exists("extras/func_desc_by_name.json")
-        else requests.get(f"{GITHUB_RAW_EXTRAS}//func_desc_by_name.json").json()
+        else requests.get(f"{GITHUB_RAW_EXTRAS}/func_desc_by_name.json").json()
     )
     chain_ids_by_name = chains.CHAIN_IDS_BY_NAME
     chain_names_by_id = {v: k for k, v in chain_ids_by_name.items()}
