@@ -869,6 +869,7 @@
   "0x74CBfAF94A3577c539a9dCEE9870A6349a33b34f": "20230410-silo-linear-pool-v2/MockSiloLinearPool",
   "0x74E5E53056526b2609d82E85486005EF2A2Db001": "pools/TruMATIC-MATIC-74e5",
   "0x74fEa3FB0eD030e9228026E7F413D66186d3D107": "multisigs/wonderland",
+  "0x1ACfEEA57d2ac674d7E65964f155AB9348A6C290": "preferentialGauges/eventEmitter",
   "0x751A0bC0e3f75b38e01Cf25bFCE7fF36DE1C87DE": "20210721-liquidity-bootstrapping-pool/LiquidityBootstrappingPoolFactory",
   "0x7542967F91fD6EE8433A41B22C2be8972A002CA5": "root_gauges/jitoSOL/wSOL-arbitrum-root-7542",
   "0x759FABc513AccD292ADA967C4DD7Bb94Da39232e": "pools/80RATE/20WETH-BPT-759f",

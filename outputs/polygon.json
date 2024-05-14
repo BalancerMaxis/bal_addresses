@@ -283,6 +283,7 @@
   "multisigs/fees": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
   "multisigs/lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
   "multisigs/vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+  "preferentialGauges/eventEmitter":   "0xcdcECFa416EE3022030E707dC3EA13a8997D74c8",
   "one_inch/settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f",
   "pools/ B-MaticX-Stable-b20f": "0xb20fC01D21A50d2C734C4a1262B4404d41fA7BF0",
   "pools/ B-MaticX-Stable-b553": "0xB553C155f95AB42b674D6Fe501693E30d54a47E2",

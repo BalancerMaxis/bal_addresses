@@ -24,6 +24,7 @@
   "0x161f4014C27773840ccb4EC1957113e6DD028846": "20230316-avax-child-chain-gauge-factory-v2/ChildChainGaugeFactory",
   "0x170027069fd114BFF2f57B0FC796df93290C02a6": "EOA/blabs_ops/EmergencyPauser",
   "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3": "multisigs/dao",
+  "0xf04378a3ff97b3f979a46f91f9b2d5A1D2394773": "preferentialGauges/EventEmitter",
   "0x1f43A5286c57813f75fB8EdEeF8b2c5e1878Ec2d": "pools/33BTC.b-33USDt-33USDC-1f43",
   "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438": "EOA/maxis/danko",
   "0x20Fa4DBa0E5baA7da26faD0F45514A5280Eb08b1": "pools/$ICE-20fa",
