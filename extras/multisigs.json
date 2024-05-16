@@ -71,7 +71,8 @@
     "feeManager": "0x14969B55a675d13a1700F71A37511bc22D90155a",
     "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
     "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
-    "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+    "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "omnichain_dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
   },
   "base": {
     "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
@@ -84,6 +85,18 @@
     "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
     "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
     "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
+  },
+  "mode": {
+    "lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
+  },
+  "linea": {
+    "lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
+  },
+  "fraxtal": {
+    "lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
   },
   "fantom": {
     "dao": "0xFe2022da08d17ac8388F5bEFE4F71456255105A4"

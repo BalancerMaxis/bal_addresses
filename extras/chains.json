@@ -10,7 +10,10 @@
     "sepolia": 11155111,
     "avalanche": 43114,
     "fantom": 250,
-    "base": 8453
+    "base": 8453,
+    "mode": 34443,
+    "linea": 59114,
+    "fraxtal": 252
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -23,6 +26,25 @@
     "sepolia": "https://sepolia.etherscan.io/",
     "avalanche": "https://snowtrace.io/",
     "fantom": "https://ftmscan.com/",
-    "base": "https://basescan.org/"
+    "base": "https://basescan.org/",
+    "mode": "https://modescan.io/",
+    "linea": "https://lineascan.build/",
+    "fraxtal": "https://fraxscan.com/"
+  },
+  "SCANNER_API_BY_CHAIN": {
+    "mainnet": "https://api.etherscan.io/api",
+    "polygon": "https://api.polygonscan.com/api",
+    "arbitrum": "https://api.arbiscan.io/api",
+    "optimism": "https://api-optimistic.etherscan.io/api",
+    "gnosis": "https://api.gnosisscan.io/api",
+    "zkevm": "https://api.zkevm.polygonscan.com/api",
+    "goerli": "https://api-goerli.etherscan.io/api",
+    "sepolia": "https://api-sepolia.etherscan.io/api",
+    "avalanche": "https://api.snowtrace.io/api",
+    "fantom": "https://api.ftmscan.com/api",
+    "base": "https://api.basescan.org/api",
+    "mode": "https://api.routescan.io/v2/network/mainnet/evm/34443/etherscan/api",
+    "linea": "https://api.lineascan.build/api",
+    "fraxtal": "https://api.fraxscan.com/api"
   }
 }
