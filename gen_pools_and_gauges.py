@@ -122,7 +122,7 @@ def main():
                 pools[chain] = result
         except Exception as e:
             print(f"Error using core subgraph for {chain}, skipping: {e}")
-            continue
+            pools[chain] = {}
         # gauges
         try:
             result = process_query_preferential_gauges(
@@ -132,7 +132,7 @@ def main():
                 gauges[chain] = result
         except Exception as e:
             print(f"Error using gauge subgraph for {chain}, skipping: {e}")
-
+            gauges[chain] = {}
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
             gauge_info_mainnet = gauge_info
