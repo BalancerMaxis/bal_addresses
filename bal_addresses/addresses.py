@@ -3,7 +3,7 @@ import os.path
 from .errors import MultipleMatchesError, NoResultError
 from typing import Dict
 from typing import Optional
-from .rate_providers import  RateProviders
+from .rate_providers import RateProviders
 import requests
 from munch import Munch
 from web3 import Web3
@@ -70,8 +70,6 @@ class AddrBook:
         self._gauges = None
         self._root_gauges = None
         self._rate_providers = None
-
-
 
     @property
     def deployments(self) -> Optional[Munch]:

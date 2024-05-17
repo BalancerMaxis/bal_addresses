@@ -20,6 +20,7 @@ class RateProviders:
         f"{GITHUB_CODEREVIEW_RAW}/rate-providers/registry.json"
     ).json()
     SUPPORTED_CHAINS = source_data.keys()
+
     def __init__(self, chain):
         self.chain = chain
         if chain not in self.SUPPORTED_CHAINS:
