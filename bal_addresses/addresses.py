@@ -3,10 +3,11 @@ import os.path
 from .errors import MultipleMatchesError, NoResultError
 from typing import Dict
 from typing import Optional
-
+from .rate_providers import  RateProviders
 import requests
 from munch import Munch
 from web3 import Web3
+from collections import defaultdict
 
 from .utils import to_checksum_address
 
@@ -68,6 +69,9 @@ class AddrBook:
         self._pools = None
         self._gauges = None
         self._root_gauges = None
+        self._rate_providers = None
+
+
 
     @property
     def deployments(self) -> Optional[Munch]:
@@ -145,6 +149,17 @@ class AddrBook:
         else:
             self.populate_root_gauges()
         return self._root_gauges
+
+    @property
+    def rate_providers(self) -> Optional[Munch]:
+        """
+        Get the rate_providers for all chains in a form of a Munch object
+        """
+        if self._rate_providers is not None:
+            return self._rate_providers
+        else:
+            self.process_rate_providers()
+        return self._rate_providers
 
     def populate_deployments(self) -> None:
         chain_deployments = requests.get(
@@ -256,6 +271,22 @@ class AddrBook:
         else:
             self._root_gauges = Munch.fromDict({})
 
+    def process_rate_providers(self) -> Optional[Munch]:
+        """
+        Parse rate_providers into an addressbook style munch
+        """
+        rate_providers = defaultdict(dict)
+        r = RateProviders(self.chain)
+        for rate_provider, infodict in r.info_by_rate_provider.items():
+            name = infodict.get("name")
+            summary = infodict.get("summary")
+            token_address = infodict.get("asset")
+            print(f"{name}/{summary}/{token_address}")
+            ## create a nested dict with name/summary/token_address as keys and rate_provider as value
+            rate_providers[name] = {summary: {token_address: rate_provider}}
+        self._rate_providers = Munch.fromDict(rate_providers)
+        return self._rate_providers
+
     def search_unique(self, substr):
         results = [s for s in self.flatbook.keys() if substr in s]
         if len(results) > 1:
@@ -344,6 +375,7 @@ class AddrBook:
         self.populate_gauges()
         self.populate_root_gauges()
         self.populate_extras()
+        self.process_rate_providers()
         # write pools and gauges first, so they get overwritten by deployments later
         # deployment label should take precedence over pool/gauge label
         flatbook["pools"] = self.flatten_dict(self.pools)
@@ -355,6 +387,7 @@ class AddrBook:
         flatbook = {**flatbook, **self.flatten_dict(self.extras)}
         flatbook["multisigs"] = self.flatten_dict(self.multisigs)
         flatbook["EOA"] = self.flatten_dict(self.EOAs)
+        flatbook["rate_providers"] = self.flatten_dict(self.rate_providers)
         return self.flatten_dict(flatbook)
 
 
