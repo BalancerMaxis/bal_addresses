@@ -45,6 +45,7 @@
     "ECLP-GHO-GYD-gauge-4a74": "0x4a7475d32ccd29edd65b2a1712b091aa741ba9bb",
     "ECLP-wstETH-cbETH-gauge-4d42": "0x4d4264aebf65bb1727bb5438e0b2aaf86186da50",
     "50SD-50USDC-gauge-4dc3": "0x4dc35ec8562596dda6aee8ecee59a76d4d72b83e",
+    "99goldCOMP-1WETH-gauge-4dcf": "0x4dcfb8105c663f199c1a640549fc3579db4e3e65",
     "50STG-503POOL-BPT-gauge-4f3f": "0x4f3f3501f376d93e4e5fd61d4168f871cbf67c97",
     "80psdnOCEAN-20OCEAN-gauge-53fa": "0x53fa0546f307317daa82371e94e8dcd5cad3345f",
     "USDC-DAI-USDT-gauge-5612": "0x5612876e6f6ca370d93873fe28c874e89e741fb9",
@@ -93,6 +94,7 @@
     "weETH/rETH-gauge-c859": "0xc859bf9d7b8c557bbd229565124c2c09269f3aef",
     "B-80GNO-20WETH-gauge-cb66": "0xcb664132622f29943f67fa56ccfd1e24cc8b4995",
     "80T-20TBTC-gauge-cc6a": "0xcc6a23446f6388d78f3037bd55f2eb820352d982",
+    "inankrETH/ankrETH-gauge-cc97": "0xcc9723faded81a9448a9664c39c0df2e77fdfa2e",
     "sDOLA-DOLA BSP-gauge-cd19": "0xcd19892916929f013930ed628547cc1f439b230e",
     "InstETH/wstETH-gauge-cda1": "0xcda1b6704b108df230d2a36da4c088c6afd6f335",
     "wbETH-wstETH-gauge-d1c0": "0xd1c070ebc7ec77f2134b3ef75283b6c1fb31a157",
@@ -289,6 +291,7 @@
     "rETH/wETH BPT-gauge-8ba2": "0x8ba2d53f34159c5c5e7add60b56c7de3bbc1da68",
     "weETH/rETH-gauge-8c20": "0x8c206459a557aa736f698401bd6029fc0db3f3c8",
     "B-wstETH-WETH-Stable-gauge-8f0b": "0x8f0b53f3ba19ee31c0a73a6f6d84106340fadf5f",
+    "ETHx/wstETH-gauge-8f57": "0x8f57378cad866a46ea702b7acaebf21dd93b4804",
     "80FOX-20WETH-gauge-9010": "0x901079a908fd3a228a1dc7548dd67e10a911e580",
     "bb-rf-USD-BPT-gauge-914e": "0x914ec5f93ccd6362ba925bedd0bd68107b85d2ca",
     "50WSTETH-50USDC-gauge-9232": "0x9232ee56ab3167e2d77e491fba82babf963ccace",
@@ -392,6 +395,7 @@
     "BPT-MAISELF-I-gauge-97ff": "0x97ff1e71620b7638bf82204763e5c04a6d554a40",
     "ECLP-wstETH-WETH-gauge-9f9f": "0x9f9f8d58496691d541c40dbc2b1b20f8c43e8d8c",
     "BPT-USD+-gauge-a066": "0xa066243ba7dad6c779caa1f9417910a4ae83cf4d",
+    "wrsETH/wETH-gauge-a15c": "0xa15c762974ba3ac59abc305fba097a0e564f7470",
     "BPT-WSTETH-WETH-gauge-a309": "0xa30992b40a0cb4b2da081ddbd843f9cce25c2fe3",
     "BPT-WGRAIN-gauge-a762": "0xa762c3fa717fcf3aa2e3f3e0b90ebb185ea524cc",
     "bb-ern-usd-gauge-a8c1": "0xa8c12e71265a24cf6bded60cb746db2d4798fb13",
@@ -535,5 +539,8 @@
     "50WETH-50GOLD-gauge-e2f2": "0xe2f2aed19fa245aff66342c2b849be6f411fb28f",
     " 50tBTC-50USD-gauge-ef97": "0xef97b54f69060f4d5304f79734d01c2da12114d8",
     "weETH/wETH-gauge-f786": "0xf7862a614ffea2bf8ef2d66a872be2df735d22e6"
-  }
+  },
+  "mode": {},
+  "linea": {},
+  "fraxtal": {}
 }
