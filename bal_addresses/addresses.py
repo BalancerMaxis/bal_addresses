@@ -280,7 +280,7 @@ class AddrBook:
             summary = infodict.get("summary")
             token_address = infodict.get("asset")
             ## create a nested dict with name/summary/token_address as keys and rate_provider as value
-            rate_providers[name] = {summary: {token_address: rate_provider}}
+            rate_providers[summary] = {name: {token_address: rate_provider}}
         self._rate_providers = Munch.fromDict(rate_providers)
         return self._rate_providers
 
