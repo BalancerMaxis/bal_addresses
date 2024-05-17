@@ -431,29 +431,6 @@
         "MockComposableStablePool": "0x513E5C8678996951FFA07EDB7217A1cF30CF8653"
       }
     },
-    "fantom": {
-      "00000000-tokens": {
-        "BAL": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B",
-        "WETH": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
-      },
-      "20210418-authorizer": {
-        "Authorizer": "0x974D3FF709D84Ba44cde3257C0B5B0b14C081Ce9"
-      },
-      "20210418-vault": {
-        "Vault": "0x20dd72Ed959b6147912C2e529F0a0C651c33c9ce",
-        "ProtocolFeesCollector": "0xC6920d3a369E7c8BD1A22DbE385e11d1F7aF948F",
-        "BalancerHelpers": "0x230a59F4d9ADc147480f03B0D3fFfeCd56c3289a"
-      },
-      "20220325-authorizer-adaptor": {
-        "AuthorizerAdaptor": "0xf7D5DcE55E6D47852F054697BAB6A1B48A00ddbd"
-      },
-      "20220325-test-balancer-token": {
-        "TestBalancerToken": "0x45fFd460cC6642B8D8Fb12373DFd77Ceb0f4932B"
-      },
-      "20220721-balancer-queries": {
-        "BalancerQueries": "0x1B0A42663DF1edeA171cD8732d288a81EFfF6d23"
-      }
-    },
     "gnosis": {
       "00000000-tokens": {
         "BAL": "0x7eF541E2a22058048904fE5744f9c7E4C57AF717",
