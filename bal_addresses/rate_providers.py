@@ -22,9 +22,9 @@ class RateProviders:
     SUPPORTED_CHAINS = source_data.keys()
 
     def __init__(self, chain):
-        self.chain = chain
-        if chain not in self.SUPPORTED_CHAINS:
-            print(f"WARNING: Chain {chain} has no reviewed rate providers")
+        self.chain = "ethereum" if chain == "mainnet" else chain
+        if self.chain not in self.SUPPORTED_CHAINS:
+            print(f"WARNING: Chain {self.chain} has no reviewed rate providers")
             self.info_by_rate_provider = {}
             self.rate_providers_by_token = {}
         else:
