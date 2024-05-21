@@ -9,12 +9,18 @@ from munch import Munch
 class BalPermissions:
     def __init__(self, chain):
         self.chain = chain
-        self.active_permissions_by_action_id = requests.get(
-            f"{GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json"
-        ).json()
-        self.action_ids_by_contract_by_deployment = requests.get(
-            f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json"
-        ).json()
+        try:
+            self.active_permissions_by_action_id = requests.get(
+                f"{GITHUB_RAW_OUTPUTS}/permissions/active/{chain}.json"
+            ).json()
+        except:
+            self.active_permissions_by_action_id = {}
+        try:
+            self.action_ids_by_contract_by_deployment = requests.get(
+                f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain}/action-ids.json"
+            ).json()
+        except:
+            self.action_ids_by_contract_by_deployment = {}
 
         # Define
         self.paths_by_action_id = defaultdict(set)

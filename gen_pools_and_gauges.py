@@ -7,9 +7,6 @@ from bal_tools import BalPoolsGauges
 from bal_tools import Subgraph
 
 
-NO_GAUGE_SUBGRAPH = ["bsc", "kovan", "fantom", "rinkeby"]
-
-
 def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
     url = Subgraph(chain).get_subgraph_url("core")
     query = f"""{{
@@ -119,20 +116,23 @@ def main():
         gauge_info = BalPoolsGauges(chain)
         # pools
         # TODO: consider moving to query object??
-        result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
-        if result:
-            pools[chain] = result
-
+        try:
+            result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
+            if result:
+                pools[chain] = result
+        except Exception as e:
+            print(f"Error using core subgraph for {chain}, skipping: {e}")
+            pools[chain] = {}
         # gauges
-        if chain in NO_GAUGE_SUBGRAPH:
-            # no (gauge) subgraph exists for this chain
-            continue
-        result = process_query_preferential_gauges(
-            gauge_info.query_preferential_gauges()
-        )
-        if result:
-            gauges[chain] = result
-
+        try:
+            result = process_query_preferential_gauges(
+                gauge_info.query_preferential_gauges()
+            )
+            if result:
+                gauges[chain] = result
+        except Exception as e:
+            print(f"Error using gauge subgraph for {chain}, skipping: {e}")
+            gauges[chain] = {}
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
             gauge_info_mainnet = gauge_info

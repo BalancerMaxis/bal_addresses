@@ -1,7 +1,0 @@
-query AlivePreferentialGauge($pool_id: Bytes!) {
-  pools(where: { poolId: $pool_id, preferentialGauge_not: null }) {
-    preferentialGauge {
-      isKilled
-    }
-  }
-}
