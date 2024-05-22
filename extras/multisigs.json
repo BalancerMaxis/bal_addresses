@@ -81,9 +81,6 @@
     "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
-  "fantom": {
-    "dao": "0xFe2022da08d17ac8388F5bEFE4F71456255105A4"
-}
   "goerli": {
     "blabs_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
     "lm": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7",
