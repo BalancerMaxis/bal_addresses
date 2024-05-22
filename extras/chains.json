@@ -46,5 +46,15 @@
     "mode": "https://api.routescan.io/v2/network/mainnet/evm/34443/etherscan/api",
     "linea": "https://api.lineascan.build/api",
     "fraxtal": "https://api.fraxscan.com/api"
-  }
+  },
+  "BALANCER_PRODUCTION_CHAINS": [
+    "mainnet",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "gnosis",
+    "zkevm",
+    "avalanche",
+    "base"
+  ]
 }
