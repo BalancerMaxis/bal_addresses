@@ -28,9 +28,8 @@ jobs:
       - name: pull-request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Scheduled update from changes to monorepo"
-          title: "Scheduled update from changes to monorepo"
-          branch: "gha-addressbook"
-          reviewers: "Tritum-VLK"
-          assignees: "Tritum-VLK"
-          labels: "Automatic"
+          commit-message: "Scheduled updates to Core Pools list"
+          title: "Scheduled updates to Core Pools list"
+          branch: "gha-corepools"
+          reviewers: "gosuto-inzasheru"
+          labels: "Core Pools"
