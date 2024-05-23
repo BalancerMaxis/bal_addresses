@@ -13,3 +13,5 @@ from .errors import (
     ChecksumError,
     UnexpectedListLengthError,
 )
+
+from .rate_providers import RateProviders
