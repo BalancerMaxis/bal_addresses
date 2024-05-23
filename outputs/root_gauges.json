@@ -2,6 +2,7 @@
   "mainnet": {
     "Friend Tech Index-polygonzkevm-root-0473": "0x047301b311741ce6c007ffef7f182ec93ab07968",
     "bpt-allrdsfrx-optimism-root-057e": "0x057e7b14dc461f071958e0bbf42b5597564d4e6c",
+    "ETHx/wstETH-arbitrum-root-0580": "0x058059cb764a98c18b937222ed06c1ad2f174dce",
     "50WETH-50DFX-arbitrum-root-05e8": "0x05e8c6a2c84d03c715d6829afc952583ac724263",
     "80OVN/20wUSD+-optimism-root-0a27": "0x0a2738a1eeada91da6d5375a2e6f620c85c287f3",
     "80SD-20maticX-polygon-root-0a65": "0x0a650f4e0c416c24c8713c322d5aaa531a5a0112",
@@ -63,6 +64,7 @@
     "crvUSD/sDAI-base-root-6114": "0x61145af87446bc906bd7531e321f367f6a137d39",
     "sFRAX/4POOL-arbitrum-root-62a8": "0x62a82fe26e21a8807599374cac8024fae342ef83",
     "B-50wstETH-25BAL-25AURA-gnosis-root-64fc": "0x64fced4684f4b065e6b900c4e99a0cbacc5e5fe1",
+    "wrsETH/wETH-optimism-root-65a5": "0x65a5c255cfddb99caccacee6f0fa63f3ab886e79",
     "axlBAL/BAL-arbitrum-root-66e9": "0x66e9a9d0a35c6a368a66a432abd9db4fb248f212",
     "ankrETH/wstETH-BPT-arbitrum-root-671e": "0x671ed21480acf63b0ab7297b901505f5bccafa9b",
     "axlBAL/BAL-base-root-6731": "0x67313e858fb87cc4b30ad56b6b461d7450738950",

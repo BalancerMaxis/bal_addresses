@@ -15,7 +15,10 @@
         "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
     },
     "maxiKeepers": {
-        "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F"
+        "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F",
+        "gaugeRewardsInjectors": {
+            "wmatic": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79"
+        }
     },
     "one_inch":{
         "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"

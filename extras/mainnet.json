@@ -152,5 +152,8 @@
         "QuoteHandler": "0x71E1cc2F7574C798ED893Ef04D55D1E573bE95B1",
         "LenderVaultFactory": "0x1874a08f7975b25944feb989bbaaa464f61ab3bc"
 
+    },
+    "paladin": {
+        "QuestBoardV2": "0xf0CeABf99Ddd591BbCC962596B228007eD4624Ae"
     }
 }
