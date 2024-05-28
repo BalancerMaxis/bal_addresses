@@ -9,10 +9,10 @@ ALCHEMY_KEY = os.getenv("ALCHEMY_KEY")
 
 w3_by_chain = {
     "gnosis": Web3(Web3.HTTPProvider(f"https://rpc.gnosischain.com")),
-    "zkevm": Web3(Web3.HTTPProvider(f"https://zkevm-rpc.com")),
+    "zkevm": Web3(Web3.HTTPProvider(f"https://polygonzkevm-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")),
     "avalanche": Web3(Web3.HTTPProvider(f"https://api.avax.network/ext/bc/C/rpc")),
     ### Less reliable RPCs first to fail fast :)
-#    "linea": Web3(Web3.HTTPProvider(f"https://linea-mainnet.infura.io/v3/{INFURA_KEY}")),
+    #    "linea": Web3(Web3.HTTPProvider(f"https://linea-mainnet.infura.io/v3/{INFURA_KEY}")),
     "mainnet": Web3(Web3.HTTPProvider(f"https://eth-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")),
     "base": Web3(Web3.HTTPProvider(f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")),
     "arbitrum": Web3(Web3.HTTPProvider(f"https://arb-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")),
