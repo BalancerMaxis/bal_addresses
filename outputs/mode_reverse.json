@@ -28,6 +28,7 @@
   "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9": "20230316-l2-balancer-pseudo-minter/L2BalancerPseudoMinter",
   "0x6409C2C1aC1B26aaaEF982572efd38412075586D": "EOA/emeritus/solarcurve_deployer",
   "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8": "20231031-batch-relayer-v6/BatchRelayerLibrary",
+  "0x66C4b8Ba38a7B57495b7D0581f25784E629516c2": "multisigs/emergency",
   "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0": "20230411-managed-pool-v2/ManagedPoolAmmLib",
   "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e": "20230411-managed-pool-v2/ExternalWeightedMath",
   "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1": "EOA/kyc/Arbitrum/kycsigner3",
