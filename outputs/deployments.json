@@ -697,6 +697,10 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9",
         "MockComposableStablePool": "0xF1C849190Ecfae64d0Bd0a0708708E1De906aaB5"
+      },
+      "20240522-fraxtal-root-gauge-factory": {
+        "OptimisticRootGaugeFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
+        "OptimisticRootGauge": "0x37302B98918382c43a176e5f3Bc7B11448cC6498"
       }
     },
     "mode": {
