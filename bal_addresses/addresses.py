@@ -276,11 +276,11 @@ class AddrBook:
         rate_providers = defaultdict(dict)
         r = RateProviders(self.chain)
         for rate_provider, infodict in r.info_by_rate_provider.items():
-            name = infodict.get("name")
+            name = infodict.get("name").replace(" ", "_")
             summary = infodict.get("summary")
             token_address = infodict.get("asset")
             ## create a nested dict with name/summary/token_address as keys and rate_provider as value
-            rate_providers[summary] = {name: {token_address: rate_provider}}
+            rate_providers[summary].update({name: {token_address: rate_provider}})
         self._rate_providers = Munch.fromDict(rate_providers)
         return self._rate_providers
 
