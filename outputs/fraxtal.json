@@ -90,7 +90,7 @@
   "EOA/maxis/xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
   "EOA/maxis/zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
   "EOA/maxis/zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-  "maxiKeepers/gaugeRewardsInjectors/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
+  "maxiKeepers/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
   "multisigs/dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e",
   "multisigs/emergency": "0xC66d0Ba27b8309D27cCa70064dfb40b73DB6de9E",
   "multisigs/lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
