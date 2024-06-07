@@ -12,6 +12,7 @@
         "spoke_pool": "0x69B5c72837769eF1e7C164Abc6515DcFf217F920"
     },
     "chainlink": {
+        "keeper_registry_v2_1": "0x08a8eea76D2395807Ce7D1FC942382515469cCA1",
         "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
     },
     "maxiKeepers": {
