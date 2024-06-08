@@ -17,9 +17,6 @@
   "base": {
     "0x0c659734f1eef9c63b7ebdf78a164cdd745586db000000000000000000000046": "USDC/USDbC/axlUSDC"
   },
-  "avalanche": {
-    "0xb26f0e66317846bd5fe0cbaa1d269f0efeb05c9600000000000000000000001e": "USDC-USDT",
-    "0x9fa6ab3d78984a69e712730a2227f20bcc8b5ad900000000000000000000001f": "yyAVAX-WAVAX-BPT"
-  },
+  "avalanche": {},
   "optimism": {}
 }
