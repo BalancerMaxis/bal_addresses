@@ -18,6 +18,7 @@
   "0x3f170631ed9821Ca51A59D996aB095162438DC10": "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory",
   "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8": "20220721-balancer-queries/BalancerQueries",
   "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3": "EOA/dao/trentmc0",
+  "0x4BC8121278056BFCaC2BD14D455659224d6dDf48": "EOA/maxi_deployers/gosuto",
   "0x4DdFc173C8F67808AE8F7913DccFfa6bdBFE5b0e": "20231031-batch-relayer-v6/BatchRelayerQueryLibrary",
   "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7": "20240223-composable-stable-pool-v6/ComposableStablePoolFactory",
   "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e": "multisigs/dao",

@@ -279,6 +279,7 @@
     "USDF/USDC-gauge-5a5f": "0x5a5f940409fcac49c3a3aac6547c6991339ce428",
     "B-stETH-Stable-gauge-5b67": "0x5b6776cd9c51768fc915cad7a7e8f5c4a6331131",
     "B-DOLA-USDC-gauge-5bfd": "0x5bfd29238d9a103f149fc1742a7a18738679aaa7",
+    "osETH/wETH-gauge-5da3": "0x5da32f4724373c91fdc657e0ad7b1836c70a4e52",
     "Stafi rETH/WETH-gauge-641a": "0x641a430b13a99bfe6ac217d85efe9bc09cac0cb7",
     "USDV/USDC-gauge-65cb": "0x65cbc124ac6b605bbd23538bd8cb4b257cab3643",
     "DOLA/bbaUSD-BPT-gauge-6a08": "0x6a081723a0c03f4355de4d69f38e30ca9bdd40de",
@@ -481,7 +482,18 @@
     "ECLP-wETH-rETH-gauge-edea": "0xedea3e93b914e2654f8c7e0c2bb5e6205f9742b0",
     "bb-o-USD-gauge-ef97": "0xef97b54f69060f4d5304f79734d01c2da12114d8"
   },
-  "goerli": {},
+  "goerli": {
+    "IT2-gauge-0056": "0x0056196b9b6b379de0a6cfe05e9fa88493d17e5e",
+    "50WBTC-50USDC-gauge-0fc8": "0x0fc855f77ce75bb6a5d650d0c4cc92e460c03e25",
+    "B-50WETH-50USDC-gauge-2002": "0x2002f2006303748665af4cff8ce37a42fb72f170",
+    "BPSP-gauge-5814": "0x58141bdcecb7fbae006964f4131cf6f65c948357",
+    "SWMSP-gauge-66f8": "0x66f875d14c2613fb364758c419cf63b44727f5f2",
+    "TEST-gauge-7009": "0x700934b9795591ec653dfbeaa60e5ab1747aedcf",
+    "MAI-MSP-gauge-8438": "0x84383120351358ef73e31897521abcb60609582d",
+    "MAI BSP-gauge-dc3f": "0xdc3f6fc8898830e53c777543fe252b14f22680d4",
+    "B-stETH-STABLE-gauge-ec94": "0xec94b0453e14cde7fe1a66b54dca29e9547c57ef",
+    "B-50WBTC-50WETH-gauge-f0f5": "0xf0f572ad66baacdd07d8c7ea3e0e5efa56a76081"
+  },
   "sepolia": {
     "20WETH-80PRF-gauge-4887": "0x4887e877cfe4fc984b2f129732f879b34745599e"
   },
