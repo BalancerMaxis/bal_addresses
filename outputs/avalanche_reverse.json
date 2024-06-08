@@ -66,6 +66,7 @@
   "0x46463A97da555DBa53dcD71dbbC256436eb65684": "pools/LP-AUX-USDC-4646",
   "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3": "EOA/dao/trentmc0",
   "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE": "maxiKeepers/gaugeRewardsInjectors/qi",
+  "0x4BC8121278056BFCaC2BD14D455659224d6dDf48": "EOA/maxi_deployers/gosuto",
   "0x4E7bBd911cf1EFa442BC1b2e9Ea01ffE785412EC": "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint",
   "0x4b7b369989e613ff2C65768B7Cf930cC927F901E": "20230316-avax-child-chain-gauge-factory-v2/ChildChainGauge",
   "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emeritus/solarcurve_signer",
