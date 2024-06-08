@@ -4,8 +4,8 @@
     },
     "tokens": {},
     "maxiKeepers": {
+        "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
         "gaugeRewardsInjectors": {
-            "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340"
         }
     }
 }
