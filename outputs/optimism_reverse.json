@@ -503,6 +503,7 @@
   "0xeFb0D9F51EFd52d7589A9083A6d0CA4de416c249": "pools/BPT-IBETH-efb0",
   "0xeb151668006CD04DAdD098AFd0a82e78F77076c3": "20220609-stable-pool-v2/StablePoolFactory",
   "0xed86ff0c507D3AF5F35d3523B77C17415FCfFaCb": "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint",
+  "0xef42D000a3e85C4e71C57e2C6A1E600e86f5a91B": "rate_providers/safe/weETH_Rate_Provider/0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF",
   "0xf145caFB67081895EE80eB7c04A30Cf87f07b745": "20220906-composable-stable-pool/ComposableStablePoolFactory",
   "0xf23b4DB826DbA14c0e857029dfF076b1c0264843": "20230206-aave-rebalanced-linear-pool-v4/AaveLinearPoolFactory",
   "0xf302f9F50958c5593770FDf4d4812309fF77414f": "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory",
