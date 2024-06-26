@@ -14,7 +14,10 @@ def main():
             urls[chain] = {}
         for subgraph_type in ["core", "gauges", "blocks", "aura"]:
             subgraph = Subgraph(chain)
-            url = subgraph.get_subgraph_url(subgraph_type)
+            try:
+                url = subgraph.get_subgraph_url(subgraph_type)
+            except:
+                continue
             if url:
                 code = requests.get(url).status_code
                 if code == 200:
