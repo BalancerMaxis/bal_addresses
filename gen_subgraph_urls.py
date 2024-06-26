@@ -19,12 +19,11 @@ def main():
             except:
                 continue
             if url:
+                print(url)
                 code = requests.get(url).status_code
                 if code == 200:
                     urls[chain].update({subgraph_type: url})
                 else:
-                    # if code not in urls[chain]:
-                    #     urls[chain][code] = {}
                     urls[chain].update({subgraph_type: {code: url}})
             else:
                 continue
