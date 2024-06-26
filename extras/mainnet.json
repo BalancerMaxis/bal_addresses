@@ -108,6 +108,7 @@
         "booster": "0x7818A1DA7BD1E64c199029E86Ba244a9798eEE10",
         "claim_zap": "0x623B83755a39B12161A63748f3f595A530917Ab2",
         "extra_rewards_distributor": "0xa3739b206097317c72ef416f0e75bb8f58fbd308",
+        "aura_vested_escrow": "0xFd72170339AC6d7bdda09D1eACA346B21a30D422",
         "gauge_migrator": "0x7954bcDce86e86BeE7b1dEff48c3a0b9BCCe578B"
     },
     "ens": {
