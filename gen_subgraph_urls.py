@@ -14,14 +14,16 @@ def main():
             urls[chain] = {}
         for subgraph_type in ["core", "gauges", "blocks", "aura"]:
             subgraph = Subgraph(chain)
-            url = subgraph.get_subgraph_url(subgraph_type)
+            try:
+                url = subgraph.get_subgraph_url(subgraph_type)
+            except:
+                continue
             if url:
+                print(url)
                 code = requests.get(url).status_code
                 if code == 200:
                     urls[chain].update({subgraph_type: url})
                 else:
-                    # if code not in urls[chain]:
-                    #     urls[chain][code] = {}
                     urls[chain].update({subgraph_type: {code: url}})
             else:
                 continue
