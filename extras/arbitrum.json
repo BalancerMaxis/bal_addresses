@@ -36,6 +36,7 @@
             "arb_rewards_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
             "arb_STIP_injector": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
             "arb_origin_injector": "0xdcDAFd9E4cc10Ec5dCf1411eE2EdBc4E204aE9Bf",
+            "arb_aave_injector": "0xE23eb92f0C76bF47f77F80D144e30F31b98450A9",
             "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D",
             "usdc_rewards_injector": "0xabC414cEE2F6E8Ee262d6dc106c86A3f627f84D2"
         },
