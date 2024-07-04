@@ -1933,6 +1933,7 @@
   "root_gauges/crvUSD/sDAI-gnosis-root-ceb1": "0xCEB17D5C8ef8556ed0424A4bebC35a5d562d96E2",
   "root_gauges/ezETH/wstETH-arbitrum-root-cd41": "0xCD41Bc6DC6e9821C4C36848Ff3397493e458A5d1",
   "root_gauges/frxETH-WETH-BPT-polygon-root-a0c9": "0xa0c90BbC0f7506BAba46436F7302838FA96eBad6",
+  "root_gauges/gUSDC/USDC-arbitrum-root-5a48": "0x5A482e8478d63219bC33C7F1d7Cdb599039ABad7",
   "root_gauges/ggAVAX-WAVAX-BPT-avalanche-root-a86e": "0xa86e8e8CfAe8C9847fA9381d4631c13c7b3466bd",
   "root_gauges/inETH/wstETH-arbitrum-root-e3a2": "0xE3A23a49128Aa55d0705E4F97ac4dc3149dFf729",
   "root_gauges/instETH/wstETH-arbitrum-root-82bc": "0x82bc385C57447188de50Ba8237210cAaA43a0BB3",
