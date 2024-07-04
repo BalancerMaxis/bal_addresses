@@ -11,6 +11,11 @@
         "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
         "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
     },
+    "hidden_hand2": {
+        "bribe_vault": "0xa9b08B4CeEC1EF29EdEC7F9C94583270337D6416",
+        "balancer_briber": "0xeA1aaC67b6Ad9005E1551A4085FfFE5aeF0F3f09",
+        "aura_briber": "0x679c5C5828367db9005FdEa80faA45AE7B881791"
+    },
     "maxiKeepers": {
         "gaugeRewardsInjectors": {
               "op": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340"
