@@ -1,5 +1,6 @@
 {
   "mainnet": {
+    "B-baoETH-wstETH-BPT-gauge-001e": "0x001edf44d8aa79922dbe74f57c703ebce2e13b43",
     "wstETH-rETH-sfrxETH-BPT-gauge-0021": "0x0021e01b9fab840567a8291b864ff783894eabc6",
     "LP-EURS-USDC-gauge-008e": "0x008eb79dbe2efcf8a9586f8f697464be65d39eff",
     "50KNC-25WETH-25USDC-BPT-gauge-02ea": "0x02ea1c2702ecd478082d4b3ae902b6d10d26b920",
@@ -19,6 +20,7 @@
     "80SD-20ETHx-gauge-13dd": "0x13dd3eaecfb09a1ea9ced4a21ca47ca7852c9694",
     "STG/USDC-gauge-15c8": "0x15c84754c7445d0df6c613f1490ca07654347c1b",
     "ECLP-swETH-wstETH-gauge-1774": "0x17748aa07a6a1be2ace8bcc546919c006b40de34",
+    "B-baoUSD-sDAI-BPT-gauge-1775": "0x17753fc89894a5ebd8b327f7d6121038e9240437",
     "20WETH-80ALCX-gauge-183d": "0x183d73da7adc5011ec3c46e33bb50271e59ec976",
     "50PENDLE-50WETH-gauge-190a": "0x190ae1f6ee5c0b7bc193fa9cd9bbe9b335f69c65",
     "saETH/wstETH-gauge-192e": "0x192e80145d8a78b4ef6ec5de5c8fd51afc7f9c5e",
@@ -77,6 +79,7 @@
     "genETH/wstETH-gauge-7d63": "0x7d631e72eb15285da57eeaf40a971724a94ced05",
     "20WETH-80T-gauge-7fc1": "0x7fc115bf013844d6ef988837f7ae6398af153532",
     "ECLP-GHO-USDC-gauge-80ae": "0x80aef246f9926b52622f4e74cdc7acb5c4344ffe",
+    "B-baoETH-rETH-BPT-gauge-80f1": "0x80f129622dc60f5a7de85cbc98f7e3a99b09e57f",
     "sUSDe/USDC-gauge-84f7": "0x84f7f5cd2218f31b750e7009bb6fd34e0b945dac",
     "BAL-20WETH-80VCX-gauge-85d6": "0x85d6840eab7473b60f10d1a3e2452243eb702c97",
     "50rETH-50BADGER-gauge-8701": "0x87012b0c3257423fd74a5986f81a0f1954c17a1d",
@@ -114,6 +117,7 @@
     "50WETH-50-3pool-gauge-d9cd": "0xd9cde95efed2d426f2741e2c44de9573116b8f07",
     "B-sdBAL-STABLE-gauge-dc2d": "0xdc2df969ee5e66236b950f5c4c5f8abe62035df2",
     "pxETH/wETH-gauge-dee2": "0xdee29b7b6df3576280bfbbc088ee9ebaa767c0bd",
+    "rsETH / WETH-gauge-df04": "0xdf04e3a7ab9857a16fb97174e0f1001aa44380af",
     "ECLP-wstETH-wETH-gauge-df54": "0xdf54d2dd06f8be3b0c4ffc157be54ec9cca91f3c",
     "uniETH/wstETH/rETH-gauge-e628": "0xe6281fc01607366794597d7fa6b32931ff986969",
     "uniETH-WETH-gauge-e77d": "0xe77d45b5de97ac7717e4ede6be16e3d805ff02a5",
@@ -126,6 +130,7 @@
     "GHO/USDT/USDC-gauge-f720": "0xf720e9137baa9c7612e6ca59149a5057ab320cfa",
     "50wstETH-50ACX-gauge-f7b0": "0xf7b0751fea697cf1a541a5f57d11058a8fb794ee",
     "pyUSD/sDOLA BSP-gauge-f849": "0xf849d20a927c892ad2c476a5cc7e2cdbd9bbc18f",
+    "B-baoUSD-sUSDe-BPT-gauge-f91b": "0xf91ba601c53f831869da4aceaaec11c479413972",
     "ECLP-GYD-sDAI-gauge-fc3f": "0xfc3f916c28f32deba1cc04b1f6011f28a691134c",
     "DOLA-CUSD BSP-gauge-fc45": "0xfc4541437265945f13368f9f61c19da427d41a02",
     "ECLP-GYD-USDT-gauge-fc7d": "0xfc7d964f1676831d8105506b1f0c3b3e2b55c467"
@@ -571,13 +576,15 @@
   "mode": {
     "80MODE/20wETH-gauge-5612": "0x56124eb16441a1ef12a4ccaeabdd3421281b795a",
     "80MODE/20USDC-gauge-5b79": "0x5b79494824bc256cd663648ee1aad251b32693a9",
-    "80MODE/20ezETH-gauge-b200": "0xb2007b8b7e0260042517f635cfd8e6dd2dd7f007"
+    "80MODE/20ezETH-gauge-b200": "0xb2007b8b7e0260042517f635cfd8e6dd2dd7f007",
+    "USDT/USDC -gauge-d7c5": "0xd7c5c2b75d4133f5914f4239824d0c789ac2d3ce"
   },
   "linea": {},
   "fraxtal": {
     "sFRAX/sDAI/sUSDe-gauge-275e": "0x275e8514b83479f526673327b279753abc666a05",
     "sFRAX/sDAI-gauge-34e0": "0x34e040bc0342ebbfbc7a6306eb1b8e6579185c94",
     "sFRAX/sfrxETH-gauge-71c3": "0x71c365fb739fafdba44b1564558849216de69958",
+    "FRAX/USDe/DAI/USDT/USDC -gauge-9826": "0x982653b874b059871a46f66120c69503fe391979",
     "FRAX/USDe-gauge-f99d": "0xf99d875dd868277cf3780f51d69c6e1f8522a1e9"
   }
 }
