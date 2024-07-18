@@ -165,6 +165,9 @@
     "safe": {
         "token_locker": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2"
     },
+    "karpatkey": {
+        "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a"
+    },
     "paladin": {
         "QuestBoardLatest": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB",
         "QuestBoardV2": "0xf0CeABf99Ddd591BbCC962596B228007eD4624Ae",
