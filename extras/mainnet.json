@@ -166,6 +166,7 @@
         "token_locker": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2"
     },
     "karpatkey": {
+        "roles_v1": "0xd8dd9164E765bEF903E429c9462E51F0Ea8514F9",
         "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a"
     },
     "paladin": {
