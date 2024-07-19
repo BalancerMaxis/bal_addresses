@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW
+from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, NoResultError
 from web3 import Web3
 
 INFURA_KEY = os.getenv("INFURA_KEY")
@@ -47,8 +47,13 @@ def build_chain_permissions_list(chain_name):
     action_ids_list = f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
     w3 = W3_RPC(chain_name, os.getenv("DRPC_KEY"))
 
+    try:
+        authorizer_address = a.search_unique("20210418-authorizer/Authorizer").address
+    except NoResultError as e:
+        print(f"WARNING: Authorizer not found: {e}")
+        return results
     authorizer = w3.eth.contract(
-        address=a.search_unique("20210418-authorizer/Authorizer").address,
+        address=authorizer_address,
         abi=json.load(open("bal_addresses/abis/Authorizer.json")),
     )
     try:
