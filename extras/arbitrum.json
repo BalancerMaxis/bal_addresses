@@ -53,6 +53,11 @@
             "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
         }
     },
+    "hidden_hand2": {
+        "bribe_vault": "0x8d89593c199Cb763bDEF04529F978f82503E4669",
+        "aura_briber": "0x928b06229a3f4Bc7806d80Fe54e48E777BB74536"
+    },
+
     "maxiVestingContracts": {
         "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce",
         "Tritium": "0x2b03b15E4A26D858DD594649988255eCEb832787",
