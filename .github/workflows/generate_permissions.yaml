@@ -11,6 +11,7 @@ jobs:
     env:
       INFURA_KEY: ${{ secrets.INFURA_KEY }}
       ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+      DRPC_KEY: ${{ secrets.DRPC_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
