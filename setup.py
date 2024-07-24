@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.8"
+VERSION = "0.9.7"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -23,7 +23,7 @@ setup(
         "web3",
         "gql[requests]",
         "requests",
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools@v0.1.1",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools@v0.0.6",
     ],
     keywords=["python", "first package"],
     classifiers=[
