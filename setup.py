@@ -8,7 +8,7 @@ LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 setup(
     name="bal_addresses",
     version=VERSION,
-    author="Tritium",
+    author="The Balancer Maxis",
     author_email="<nospam@balancer.community>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
