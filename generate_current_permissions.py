@@ -16,7 +16,6 @@ w3_by_chain = {
     ),
     "avalanche": Web3(Web3.HTTPProvider(f"https://api.avax.network/ext/bc/C/rpc")),
     ### Less reliable RPCs first to fail fast :)
-    #    "linea": Web3(Web3.HTTPProvider(f"https://linea-mainnet.infura.io/v3/{INFURA_KEY}")),
     "mainnet": Web3(
         Web3.HTTPProvider(f"https://eth-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}")
     ),
