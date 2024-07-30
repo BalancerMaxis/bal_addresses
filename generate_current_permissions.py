@@ -18,11 +18,7 @@ DRPC_NAME_OVERRIDES = {
 class W3_RPC:
     def __init__(self, chain, DRPC_KEY):
         drpc_chain = DRPC_NAME_OVERRIDES.get(chain, chain)
-        self.w3 = Web3(
-            Web3.HTTPProvider(
-                f"https://lb.drpc.org/ogrpc?network={drpc_chain}&dkey={DRPC_KEY}"
-            )
-        )
+        self.w3 = Web3(Web3.HTTPProvider(f"https://lb.drpc.org/ogrpc?network={drpc_chain}&dkey={DRPC_KEY}"))
 
     def __getattr__(self, name):
         return getattr(self.w3, name)
@@ -48,9 +44,7 @@ class W3_RPC_BY_CHAIN:
 def build_chain_permissions_list(chain_name):
     a = AddrBook(chain_name)
     results = {}
-    action_ids_list = (
-        f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
-    )
+    action_ids_list = f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
     w3 = W3_RPC(chain_name, os.getenv("DRPC_KEY"))
 
     try:
@@ -77,9 +71,7 @@ def build_chain_permissions_list(chain_name):
                 if numMembers > 0:
                     memberAddressList = []
                     for i in range(0, numMembers, 1):
-                        caller = str(
-                            authorizer.functions.getRoleMember(action_id, i).call()
-                        )
+                        caller = str(authorizer.functions.getRoleMember(action_id, i).call())
                         memberAddressList.append(caller)
 
                     results[action_id] = memberAddressList
@@ -93,7 +85,7 @@ def generate_chain_files(chain):
 
 
 def main():
-    for chain in AddrBook.chain_ids_by_name.keys():
+    for chain in AddrBook.chains.BALANCER_PRODUCTION_CHAINS:
         print(f"\n\n\nGenerating Permissions Data for {chain.capitalize()}\n\n\n")
         generate_chain_files(chain)
 
