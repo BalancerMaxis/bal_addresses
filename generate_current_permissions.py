@@ -11,7 +11,9 @@ DRPC_KEY = os.getenv("DRPC_KEY")
 def build_chain_permissions_list(chain_name):
     a = AddrBook(chain_name)
     results = {}
-    action_ids_list = f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
+    action_ids_list = (
+        f"{GITHUB_DEPLOYMENTS_RAW}/action-ids/{chain_name}/action-ids.json"
+    )
     w3 = Web3Rpc(chain_name, DRPC_KEY)
 
     try:
@@ -38,7 +40,9 @@ def build_chain_permissions_list(chain_name):
                 if numMembers > 0:
                     memberAddressList = []
                     for i in range(0, numMembers, 1):
-                        caller = str(authorizer.functions.getRoleMember(action_id, i).call())
+                        caller = str(
+                            authorizer.functions.getRoleMember(action_id, i).call()
+                        )
                         memberAddressList.append(caller)
 
                     results[action_id] = memberAddressList
