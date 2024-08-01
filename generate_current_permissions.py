@@ -5,6 +5,7 @@ from bal_addresses import AddrBook, GITHUB_DEPLOYMENTS_RAW, NoResultError
 from web3 import Web3
 from bal_tools import Web3Rpc
 
+
 DRPC_KEY = os.getenv("DRPC_KEY")
 
 
