@@ -104,7 +104,8 @@
         "keeper_registrar": "0xDb8e8e2ccb5C033938736aa89Fe4fa1eDfD15a1d"
     },
     "gnosis": {
-        "sign_message_lib": "0xA65387F16B013cf2Af4605Ad8aA5ec25a2cbA3a2"
+        "sign_message_lib": "0xA65387F16B013cf2Af4605Ad8aA5ec25a2cbA3a2",
+        "omnibridge": "0x88ad09518695c6c3712AC10a214bE5109a655671"
     },
     "aura": {
         "wrapper": "0x68655AD9852a99C87C0934c7290BB62CFa5D4123",
