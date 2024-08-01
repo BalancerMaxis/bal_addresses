@@ -54,6 +54,8 @@
     "gnosis",
     "zkevm",
     "avalanche",
-    "base"
+    "base",
+    "mode",
+    "fraxtal"
   ]
 }
