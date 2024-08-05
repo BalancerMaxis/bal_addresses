@@ -78,6 +78,7 @@
         "AURA_ARB_BAL_LP_BIP_322": "0x8D803f7f7e26E586ee90E5A872cf7830e21f7727"
     },
     "gyro": {
+        "L2GydDistributor": "0x401937B787277CB0680835303f013cf4d3D1cB14",
         "foundation_multisig": "0x823F70044351b213083F0ABc2169F95E2731064E"
     }
 }
