@@ -94,6 +94,7 @@
         "frax_briber": "0x123683885310851Ca29e83AE3FF3e2490D4420Cd"
     },
     "hidden_hand2": {
+        "ops_msig": "0x7f6494D4fBEA1c06daC2250A3FCa81003bF8D20C",
         "bribe_vault": "0xE00fe722e5bE7ad45b1A16066E431E47Df476CeC",
         "balancer_briber": "0x45Bc37b18E73A42A4a826357a8348cDC042cCBBc",
         "aura_briber": "0xcBf242F20D183B4116C22Dd5e441b9aE15b0d35A"
