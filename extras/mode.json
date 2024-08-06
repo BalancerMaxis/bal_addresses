@@ -1,11 +1,12 @@
 {
-    "zero": {
-        "zero": "0x0000000000000000000000000000000000000000"
-    },
-    "tokens": {},
-    "maxiKeepers": {
-        "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
-        "gaugeRewardsInjectors": {
-        }
-    }
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
+  "tokens": {
+    "LINK": "0x183E3691EfF3524B2315D3703D94F922CbE51F54"
+  },
+  "maxiKeepers": {
+    "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
+    "gaugeRewardsInjectors": {}
+  }
 }
