@@ -13,12 +13,15 @@
         "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
         "USDT": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "stkauraBAL": "0x4EA9317D90b61fc28C418C247ad0CA8939Bbb0e9",
+        "LINK": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
         "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
     },
     "across": {
         "spoke_pool": "0xB88690461dDbaB6f04Dfad7df66B7725942FEb9C"
     },
     "chainlink": {
+        "keeper_registry_v2_1": "0x37D9dC70bfcd8BC77Ec2858836B923c560E891D1",
+        "keeper_registrar_v2_1": "0x86EFBD0b6736Bed994962f9797049422A3A8E8Ad",
         "keeper_registry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
         "keeper_registrar": "0x4F3AF332A30973106Fe146Af0B4220bBBeA748eC"
     },
