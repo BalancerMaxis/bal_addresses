@@ -108,31 +108,20 @@ def main():
 
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
-    for chain in chains["CHAIN_IDS_BY_NAME"]:
-        print(chain)
-        if chain == "fantom":
-            # not a balancer native chain
-            continue
+    for chain in chains["BALANCER_PRODUCTION_CHAINS"]:
+        print(f"Generating pools and gauges for {chain}...")
         gauge_info = BalPoolsGauges(chain)
         # pools
         # TODO: consider moving to query object??
-        try:
-            result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
-            if result:
-                pools[chain] = result
-        except Exception as e:
-            print(f"Error using core subgraph for {chain}, skipping: {e}")
-            pools[chain] = {}
+        result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
+        if result:
+            pools[chain] = result
         # gauges
-        try:
-            result = process_query_preferential_gauges(
-                gauge_info.query_preferential_gauges()
-            )
-            if result:
-                gauges[chain] = result
-        except Exception as e:
-            print(f"Error using gauge subgraph for {chain}, skipping: {e}")
-            gauges[chain] = {}
+        result = process_query_preferential_gauges(
+            gauge_info.query_preferential_gauges()
+        )
+        if result:
+            gauges[chain] = result
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
             gauge_info_mainnet = gauge_info
