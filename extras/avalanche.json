@@ -2,7 +2,12 @@
   "zero": {
     "zero": "0x0000000000000000000000000000000000000000"
   },
+  "tokens": {
+    "LINK": "0x5947BB275c521040051D82396192181b413227A3"
+  },
   "chainlink": {
+    "keeper_registry_v2_1": "0x7f00a3Cd4590009C349192510D51F8e6312E08CB",
+    "keeper_registrar_v2_1": "0x5Cb7B29e621810Ce9a04Bee137F8427935795d00",
     "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6"
   },
   "maxiKeepers": {
@@ -15,8 +20,7 @@
       "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
     }
   },
-   "mimic": {
-      "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
+  "mimic": {
+    "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   }
-
 }
