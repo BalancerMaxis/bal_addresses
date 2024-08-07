@@ -134,7 +134,10 @@
         "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
         "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
         "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
-        "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
+        "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839",
+        "gaugeRewardsInjectors": {
+            "Balancer_BAL": "0x5a18FE4D7a2bd5A39CCa4F9D05D073F21FAE28EE"
+        }
     },
     "gelatoW3f": {
         "gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225"
