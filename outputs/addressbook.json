@@ -4,6 +4,9 @@
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
       },
+      "balancer": {
+        "EventEmitter": "0x8f32D631093B5418d0546f77442c5fa66187E59D"
+      },
       "tokens": {
         "ARB": "0x912CE59144191C1204E64559FE8253a0e49E6548",
         "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
@@ -213,7 +216,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -223,6 +227,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -589,6 +597,7 @@
         "50VST-50USDT-366f": "0x366F70cF82661DA1F6Ba483C6fCa70ea22A1a2Fb",
         "50RDNT-50LINK-36b1": "0x36b151fDE682A7E336F4cb04f762D8583c8Fe69A",
         "B-wstETH-WETH-Stable-36bf": "0x36bf227d6BaC96e2aB1EbB5492ECec69C691943f",
+        "ECLP-sFRAX-aFRAX-36c2": "0x36C2f879f446c3b6533f9703745C0504f3a84885",
         "50USDT-50USDC-36d7": "0x36d7cD617e68AD6a73634130a2c68C55CA45E452",
         "50wstETH-50WETH-370c": "0x370cAB118186aC60Af080c2de7CEFCCa5c165eDF",
         "TEST-373b": "0x373b347bc87998b151A5E9B6bB6ca692b766648a",
@@ -901,6 +910,7 @@
         "50VSTA-50USDC-716e": "0x716eAD38d27c082313f6d9bAa303cB16aC28270E",
         "65WBTC-31wstETH-2LINK-2UNI-7180": "0x71801f1CD722A78C079B8188242332e33D26D33F",
         "50ARB-50USDC-7189": "0x71894B7D1bb41bCe3A80211d77e371C2F3d9882A",
+        "ECLP-wUSDM-USDC-rh-71c6": "0x71c64ac8Ec1DA03f8A05C3cfEB6493E6DAd54a6F",
         "1WETH-99USDC-7242": "0x7242800620374bFd7F0059E9c38C84dd45c58b18",
         "ECLP-GYD-AUSDT-7272": "0x7272163A931DaC5BBe1CB5feFaF959BB65F7346F",
         "50USDC-50WBTC-72b8": "0x72b89bbC6434c6c4BC4C4c4722692893681DA201",
@@ -1165,6 +1175,7 @@
         "70WETH-30ARB-a83b": "0xA83B8D30F61D7554aD425D8067D8bA6EaeB6b042",
         "1MAGIC-99USDC-a83c": "0xA83c30327B7176756b8689C7BE475841Fcb39446",
         "50MAGIC-50USDT-a88c": "0xa88cba57C50fE49E5e6649701D45Aef557E4d194",
+        "ECLP-rETH-wstETH-a899": "0xa899c63BA9ff275d6bfc83E43ee8E58fF6987584",
         "KIN_LBP-a8c0": "0xa8C0141334e9dd7B14eD03DF45810F8e79f9ed12",
         "50BAL-50USDC-a901": "0xA90179d11fA92116FeFCf84926deB661a7d7a62b",
         "50USDT-50USDC-a904": "0xa904269924b6430e918DbAB6A494e34447106268",
@@ -1421,11 +1432,13 @@
         "50MAGIC-50USDC-da7c": "0xDA7C8a951c405A8C2eDc8f7cEb7cD08D47557696",
         "40cbETH/rETH/wstETH-60WBTC-da83": "0xda8322972ca71BE53e213A3eF1f17f7B76a9436E",
         "50VSTA-50USDC-db92": "0xDB92eca1bF4fB7713C25E02d0da51bD3d307296A",
+        "ECLP-GHO-GYD-dbdb": "0xDBdb84F5397ae3DA6f4A40470f07330C6B43aF4d",
         "50LINK-50USDC-dbfd": "0xDbFD9174A960F01AfE390B5429DA55fc41275D76",
         "50wstETH-50WETH-dc37": "0xDc37AA16C59Ab9243202ee986B9a926709e7a01e",
         "50VSTA-50DUSD-dcc4": "0xDCC497412c767B8485C224584955b774eebB312a",
         "50DAI-50DUSD-dd30": "0xDD3054cC8ec97Aa5293B8D3a9aEcd5A0864EFE95",
         "33FRY-33WETH-33DAI-deb3": "0xDEB317eCdac19DE9dd342f46D2A6D3a578Bed521",
+        "ECLP-sUSDe-GYD-deea": "0xdeEaF8B0A8Cf26217261b813e085418C7dD8F1eE",
         "50LINK-50USDT-def4": "0xDef4aC1BDeB108675626eb77e0430AE1F5C55445",
         "50WETH-50npvETH:GLP-df01": "0xDF0143B44151F613c492C6bB87eb88Ce7C106Cd6",
         "50CRV-50wstETH-df4a": "0xdf4A17132bbAD1c1e313C7877171af9Ad0B5C804",
@@ -1602,6 +1615,7 @@
         "50DPX-50VSTA-fecd": "0xFecD9028FC4b4D18215b34e62B808c41e81B07DF",
         "50MOLANDAK-50USDT-fed1": "0xfeD111077E0905eF2B2fbf3060cFa9a34BaB4383",
         "50ABAS-50WETH-fef6": "0xFeF68B249c9E2582E433cF59e097c74718728574",
+        "ECLP-GHO-GYD-rh-ff38": "0xff38cC0cE0DE4476C5a3e78675b48420A851035B",
         "50BAL-50wstETH-ff7c": "0xff7c044EEEE53092346A6661b476e4d8dEaf9E5e",
         "TEST-ff7e": "0xFF7e6B102516e071dcDA763EE9D02c1515481db5",
         "50USDT-50USDC-fffc": "0xFfFCc8d78c419E937Fc2168777AF5502DD53D524"
@@ -1635,6 +1649,7 @@
         "20WETH-80PAL-gauge-2cfb": "0x2cFBD7aCC62709396b3C8c7698808384720A0BbF",
         "inETH/wstETH-gauge-2dea": "0x2dEafe52b0bCb9801d3aaDc0D75c7879cB2E5825",
         "wstETH/rETH/cbETH-gauge-2eb5": "0x2eB5661002b68EBE887d29d415c3A3b52536912C",
+        "ECLP-GHO-GYD-rh-gauge-2ffa": "0x2ffa44fDd19B8d3d2b03842E34F1b4c7E9217591",
         "VST-USDC-USDT-DAI-BSP-gauge-3175": "0x3175B907Cbcf044C0b179958fAFB33e253A44929",
         "wstETH/rETH/sfrxETH-gauge-34bd": "0x34BDBEcd3B911a8DCB17aC68B961a8D16db52673",
         "VST BSP-gauge-3551": "0x3551510fE29ab57Fa1ac7D75954A7BdbcBCECEC1",
@@ -1668,6 +1683,7 @@
         "MAI-BSP-gauge-7254": "0x7254C5933DE13B3FD5235a7706fAfA7B0a4a44F6",
         "sUSDe/USDe-gauge-781e": "0x781E5B7A4FC6666e895Be44fa9590679CC049756",
         "20GYD-80D2D-gauge-795e": "0x795e075d31Da614a3D5F57FB530D07c2af07B1fE",
+        "ECLP-rETH-wstETH-gauge-7a45": "0x7a45919ca9Cf2176833492B9D049B34312AF90fa",
         "50VSTA-50WETH-gauge-7ba0": "0x7BA024dA8EeD561d776133412bFfBd1f522A9aff",
         "ezETH/wstETH-gauge-7c4a": "0x7C4A6B0c16cA99e65822Cc531403cE2f8A20A912",
         "GHO/USDC/USDT-gauge-7d90": "0x7d907D8D66B6CAd285D4349F507EcdfD11FD23D2",
@@ -1708,6 +1724,7 @@
         "2BTC-gauge-b438": "0xb438c6cc53315FfA3fcD1bc8b27d6c3155b0B56A",
         "USDF/4pool-gauge-b707": "0xB707aa8c7c8A277D788a2627121e20522a1249c5",
         "DOLA/bbaUSD-BPT -gauge-b74d": "0xB74DaC64913193eFa14bf08B0a07f9f1Eb35333f",
+        "ECLP-sFRAX-aFRAX-gauge-b76e": "0xB76ed1927F54C76DCdfC311f30dF2277dEAb93eF",
         "wstETH-bb-a-WETH-BPT-gauge-b9dd": "0xb9dd4c6FCB48691c8a63DF7b317cd0F079b90766",
         "DOLA/bbaUSD-BPT -gauge-bd1e": "0xbD1Ea5f6B1D428C050abC57952974C5E047CE895",
         "50wstETH-BPT-50bbaUSD-gauge-c01f": "0xc01F38a0557C53d3b0427F644998d1F76972ecA1",
@@ -1725,8 +1742,11 @@
         "DOLA/USDC BPT-gauge-d956": "0xd956246EA5b06DEa930F0A7feC1FFf000436e3f2",
         "ECLP-GYD-AUSDT-gauge-d964": "0xd9647eb5D6457bd7Adb39B335ab89eC3a1Ea6d09",
         "B-staBAL-3-gauge-d997": "0xD997f35c9b1281B82C8928039D14CdDaB5e13c20",
+        "ECLP-wUSDM-USDC-rh-gauge-d9be": "0xd9BE61a0a58A301B078033757bAC9474C276362E",
         "ECLP-weETH-wstETH-gauge-db66": "0xdB66fFFf713B1FA758E348e69E2f2e24595111cF",
+        "ECLP-gUSDC-AUSDC-gauge-ddbd": "0xdDbDca6213b4a03d8C6fC1419Ef7B0b16B61d363",
         "DUSD/bbaUSD-gauge-de4c": "0xdE4c39168B404A651BC97Fd29FD0f1D1956E894b",
+        "ECLP-sUSDe-GYD-gauge-dec0": "0xdEC026525FE4FEF54857bCF551aEA97aBc24A673",
         "2CLP-AUSDC-USDC-gauge-e39f": "0xe39fEEB09C4dDE420eAAADd066F949ab84c94bb8",
         "50WBTC-50tBTC-gauge-e7ec": "0xe7eCf3e7D2105f61020CDa5CE2256908CcF773dd",
         "ECLP-USDC-USDT-gauge-e882": "0xe882F63F74E5966c9D2424B745ad6655D24d1336",
@@ -1749,6 +1769,9 @@
     "avalanche": {
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "balancer": {
+        "EventEmitter": "0xf04378a3ff97b3f979a46f91f9b2d5A1D2394773"
       },
       "tokens": {
         "LINK": "0x5947BB275c521040051D82396192181b413227A3"
@@ -1889,7 +1912,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -1899,6 +1923,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -2065,6 +2093,9 @@
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
       },
+      "balancer": {
+        "EventEmitter": "0x94eA79f1dD4f1B89D87fE1E71c9723b8003AB3d3"
+      },
       "tokens": {
         "LINK": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
         "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -2205,7 +2236,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -2215,6 +2247,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -2769,7 +2805,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -2779,6 +2816,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -2968,7 +3009,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -2978,6 +3020,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -3067,6 +3113,9 @@
     "gnosis": {
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "balancer": {
+        "EventEmitter": "0xD8Bf95b44772213905A8A74881862347aCbaBC48"
       },
       "tokens": {
         "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
@@ -3208,7 +3257,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -3218,6 +3268,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -3491,7 +3545,8 @@
         "zero": "0x0000000000000000000000000000000000000000"
       },
       "balancer": {
-        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
+        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3",
+        "EventEmitter": "0x1ACfEEA57d2ac674d7E65964f155AB9348A6C290"
       },
       "tokens": {
         "bb_a_usd": "0xA13a9247ea42D743238089903570127DdA72fE44",
@@ -3628,7 +3683,10 @@
         "gasStation": "0x7fb8f5D04b521B6880158819E69538655AABD5c4",
         "oldGasStation": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
         "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
-        "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839"
+        "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839",
+        "gaugeRewardsInjectors": {
+          "Balancer_BAL": "0x5a18FE4D7a2bd5A39CCa4F9D05D073F21FAE28EE"
+        }
       },
       "gelatoW3f": {
         "gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225"
@@ -3638,7 +3696,8 @@
       },
       "payees": {
         "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C",
-        "hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15"
+        "hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15",
+        "nanexcool_payments": "0x72BA1965320ab5352FD6D68235Cc3C5306a6FFA2"
       },
       "mimic": {
         "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
@@ -3868,7 +3927,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -3878,6 +3938,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -4019,6 +4083,7 @@
         "WILDFIRE-0b55": "0x0b55C8D4f9d5DD4De88519A11BA84178f8B0c3c1",
         "O_LBP-0b6a": "0x0b6A810796dE16E5DE613ddf19AF7249bA398aB0",
         "B-bETH-ETHBP-BPT-0bbc": "0x0Bbc7B78Ff8453c40718E290b33F1d00ee67274E",
+        "40st-yETH-60GOLD-0be5": "0x0be5302a7D6B330AfE6A530e6625CA787E1071F6",
         "80NATION-20WETH-0bf3": "0x0BF37157d30dFe6f56757DCadff01AEd83b08cD6",
         "25MANA-25SAND-25APE-25ENJ-0c3a": "0x0C3A264adb2D95e077277867ACc03320224c6b09",
         "XYO/ETHMNY-0cda": "0x0CDAB06B07197D96369Fea6F3bEA6eFC7Ecdf709",
@@ -4549,6 +4614,7 @@
         "50UNI-50BAL-733b": "0x733BD33Dd0604028f31AacA029C6cc14BdA8a367",
         "AVOCADOS_LBP-73a9": "0x73A923649ec9F302bFb4b35FFC08B3ae94385ea7",
         "LP-GBPT-USDC-73f8": "0x73f8E7A9A19E284a9Ac85704Af58454cFe75f059",
+        "cdcETH/wstETH-740a": "0x740A691bd31c4176BCb6B8A7a40f1A723537D99d",
         "25DAI-75WETH-7433": "0x7433b0b66D39605b130Ca1B6ce654181e872643c",
         "80rETH-20WETH-748f": "0x748FfBB0702276952D399e786296274386002da8",
         "TEST-74cb": "0x74CBfAF94A3577c539a9dCEE9870A6349a33b34f",
@@ -5492,7 +5558,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -5502,6 +5569,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -5589,6 +5660,9 @@
     "optimism": {
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "balancer": {
+        "EventEmitter": "0x082990116f256E078572a1b69772115d2cF6b0a2"
       },
       "tokens": {
         "OP": "0x4200000000000000000000000000000000000042"
@@ -5738,7 +5812,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -5748,6 +5823,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -5819,6 +5898,9 @@
     "polygon": {
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "balancer": {
+        "EventEmitter": "0xcdcECFa416EE3022030E707dC3EA13a8997D74c8"
       },
       "tokens": {
         "USDC": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
@@ -5977,7 +6059,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -5987,6 +6070,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -9730,6 +9817,9 @@
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
       },
+      "balancer": {
+        "EventEmitter": "0x16e29e62cC00fCBa1234C7ad89BD731427c8D9aF"
+      },
       "tokens": {},
       "00000000-tokens": {
         "BAL": "0xb19382073c7A0aDdbb56Ac6AF1808Fa49e377B75",
@@ -9891,7 +9981,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -9901,6 +9992,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
@@ -9972,6 +10067,9 @@
     "zkevm": {
       "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "balancer": {
+        "EventEmitter": "0x16e29e62cC00fCBa1234C7ad89BD731427c8D9aF"
       },
       "tokens": {},
       "maxiKeepers": {
@@ -10099,7 +10197,8 @@
           "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
           "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
-          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6"
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
@@ -10109,6 +10208,10 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
         },
         "blabs_deployers": {
           "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"

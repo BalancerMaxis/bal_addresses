@@ -87,8 +87,11 @@
   "20231031-batch-relayer-v6/BatchRelayerQueryLibrary": "0xCD2A81Af5d5B485164709dCC4b3791B9f504cFc6",
   "20240223-composable-stable-pool-v6/ComposableStablePoolFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
   "20240223-composable-stable-pool-v6/MockComposableStablePool": "0x7b0d669142FEDe0eB9065E3B9140a7c90a934a27",
+  "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+  "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
   "EOA/blabs_ops/EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+  "EOA/blabs_ops/Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
   "EOA/blabs_ops/Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
   "EOA/blabs_ops/Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
   "EOA/blabs_ops/Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -150,6 +153,7 @@
   "EOA/maxis/xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
   "EOA/maxis/zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
   "EOA/maxis/zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+  "balancer/EventEmitter": "0x16e29e62cC00fCBa1234C7ad89BD731427c8D9aF",
   "multisigs/MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
   "zero/zero": "0x0000000000000000000000000000000000000000"
 }
