@@ -1,7 +1,8 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
     "balancer": {
-        "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
+      "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3",
+      "EventEmitter": "0x1ACfEEA57d2ac674d7E65964f155AB9348A6C290"
     },
     "tokens": {
         "bb_a_usd": "0xa13a9247ea42d743238089903570127dda72fe44",

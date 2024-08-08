@@ -2,6 +2,9 @@
     "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
     },
+  "balancer": {
+    "EventEmitter": "0x8f32D631093B5418d0546f77442c5fa66187E59D"
+  },
     "tokens": {
         "ARB": "0x912CE59144191C1204E64559FE8253a0e49E6548",
         "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
