@@ -2,6 +2,9 @@
   "zero": {
     "zero": "0x0000000000000000000000000000000000000000"
   },
+  "balancer": {
+    "EventEmitter": "0x94eA79f1dD4f1B89D87fE1E71c9723b8003AB3d3"
+  },
   "tokens": {
     "LINK": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
     "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",

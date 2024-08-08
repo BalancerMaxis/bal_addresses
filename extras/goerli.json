@@ -1,4 +1,7 @@
 {
     "zero": {"zero": "0x0000000000000000000000000000000000000000"},
+  "balancer": {
+    "EventEmitter": "0x4bcFCEDF1114030ff85a647dD436B7b3dEb45d9E"
+  },
     "tokens": {}
 }

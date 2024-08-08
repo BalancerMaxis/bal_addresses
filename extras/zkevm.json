@@ -2,6 +2,9 @@
     "zero": {
         "zero": "0x0000000000000000000000000000000000000000"
     },
+  "balancer": {
+    "EventEmitter": "0x16e29e62cC00fCBa1234C7ad89BD731427c8D9aF"
+  },
     "tokens": {},
     "maxiKeepers": {
         "gaugeRewardsInjectors": {
