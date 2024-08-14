@@ -245,7 +245,6 @@
     "BAL-VISION-LP-gauge-e62e": "0xe62e04bff6a4c9bc3d1ed4759116e639e3867686",
     "50THX-50stMATIC-gauge-e99a": "0xe99a452a65e5bb316febac5de83a1ca59f6a3a94",
     "B-rMATIC-MATIC-Stable-gauge-e9de": "0xe9de79976e0f9bfcd25cd06e15477ae7fc8d598f",
-    "20USDC-80THX-gauge-edb6": "0xedb67dd52156e7ae887f948ecf7b63092da33670",
     "20USDC-80THX-gauge-f16b": "0xf16becc1bcaf0ff0b865024a644a4da1a2f8585c",
     "TELX-60TEL-20BAL-20USDC-gauge-f220": "0xf2208b955e63855119a27a69a2ec38e0c8813ab3",
     "50stMATIC-BPT-50bbamUSD-gauge-f53b": "0xf53b66d40d166eb8f6e33ba2cd4af35c81a4c6c2",
@@ -282,6 +281,7 @@
     "inETH/wstETH-gauge-2dea": "0x2deafe52b0bcb9801d3aadc0d75c7879cb2e5825",
     "wstETH/rETH/cbETH-gauge-2eb5": "0x2eb5661002b68ebe887d29d415c3a3b52536912c",
     "ECLP-GHO-GYD-rh-gauge-2ffa": "0x2ffa44fdd19b8d3d2b03842e34f1b4c7e9217591",
+    "weETH/wETH-gauge-30b1": "0x30b1c88144313d561ae6763d953b68fba1ab78b5",
     "VST-USDC-USDT-DAI-BSP-gauge-3175": "0x3175b907cbcf044c0b179958fafb33e253a44929",
     "wstETH/rETH/sfrxETH-gauge-34bd": "0x34bdbecd3b911a8dcb17ac68b961a8d16db52673",
     "VST BSP-gauge-3551": "0x3551510fe29ab57fa1ac7d75954a7bdbcbcecec1",
@@ -398,6 +398,7 @@
     "50OOGABOOGA-50USDC -gauge-fd9d": "0xfd9d8729a7dbfb8abd473ce8a0f18326ec713601"
   },
   "gnosis": {
+    "osGNO/GNO-BPT-gauge-1350": "0x1350724a020b27c4f0e369bb00ae3127022d5465",
     "bb-agEUR-EURe-gauge-210a": "0x210abdfd989f3ee5c08614a8f4e096cf8408f5df",
     "ECLP-rETH-WETH-gauge-25f8": "0x25f822eb509177e393a32181182ae3981eee6e53",
     "bb-WETH-wstETH-gauge-2751": "0x27519f69b2ac912aeb6fe066180fb25a17c71755",
