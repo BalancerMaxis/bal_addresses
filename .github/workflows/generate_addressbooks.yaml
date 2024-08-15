@@ -27,6 +27,7 @@ jobs:
           python3 gen_pools_and_gauges.py
           python3 gen_mono_addressbook.py
           python3 gen_addresses.py
+          python3 gen_subgraph_urls.py
           rm -rf balancer-deployments
           git add -A
 
