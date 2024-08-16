@@ -8,7 +8,8 @@ on:
 jobs:
   refresh_books:
     runs-on: ubuntu-latest
-
+    env:
+      GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
