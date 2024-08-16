@@ -7,7 +7,7 @@ from bal_tools.subgraph import Subgraph
 
 def main():
     # make sure that if thegraph api key somehow finds its way into the env that it is wiped
-    os.environ['GRAPH_API_KEY'] = ""
+    os.environ["GRAPH_API_KEY"] = ""
 
     urls = {}
 
