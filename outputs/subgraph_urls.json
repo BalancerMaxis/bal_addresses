@@ -16,7 +16,9 @@
     }
   },
   "arbitrum": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
@@ -42,6 +44,7 @@
   "zkevm": {
     "core": "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-polygon-zk/version/latest",
+    "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": {
       "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-zkevm/api"
     }
@@ -52,7 +55,8 @@
     "blocks": "https://api.thegraph.com/subgraphs/name/blocklytics/goerli-blocks"
   },
   "sepolia": {
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-sepolia-v2/version/latest"
+    "core": "https://api.studio.thegraph.com/query/24660/balancer-sepolia-v2/version/latest",
+    "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-sepolia-beta/version/latest"
   },
   "avalanche": {
     "core": "https://api.studio.thegraph.com/query/75376/balancer-avalanche-v2/version/latest",
@@ -62,10 +66,7 @@
       "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/api"
     }
   },
-  "fantom": {
-    "core": "https://api.studio.thegraph.com/query/73674/beethovenx-v2-fantom/version/latest",
-    "blocks": "https://api.studio.thegraph.com/query/48427/fantom-blocks/version/latest"
-  },
+  "fantom": {},
   "base": {
     "core": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
@@ -75,13 +76,13 @@
     }
   },
   "mode": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
+    "core": "https://api.studio.thegraph.com/proxy/75376/balancer-mode-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
   "fraxtal": {
-    "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/1.0.0/gn",
-    "gauges": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-gauges-fraxtal/1.0.0/gn",
+    "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/latest/gn",
+    "gauges": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-gauges-fraxtal/latest/gn",
     "blocks": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/fraxtal-blocks/1.0.0/gn"
   }
 }
