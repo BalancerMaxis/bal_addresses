@@ -4,7 +4,7 @@
     },
     "tokens": {},
     "frax": {
-        "incentivizer_amo_v3_2": "0xe9b3f9cd8851216fBb828da590CCA8CE7F03E863"
+        "fxs_incentivizer_amo_v3_2": "0xe9b3f9cd8851216fBb828da590CCA8CE7F03E863"
     },
     "maxiKeepers": {
         "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
