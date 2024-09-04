@@ -86,5 +86,9 @@
     "gyro": {
         "L2GydDistributor": "0x401937B787277CB0680835303f013cf4d3D1cB14",
         "foundation_multisig": "0x823F70044351b213083F0ABc2169F95E2731064E"
-    }
+    },
+  "beefy": {
+    "wstETH-weETH_ECLP_boost": "0x6B970F0D1F0255b8E0B1c4515Ae827931b32312C",
+    "wstETH-ezETH_boost": "0xfcF293AFa58fa277935eddAa44E0f782EC41B09B"
+  }
 }
