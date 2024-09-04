@@ -145,6 +145,7 @@
   "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9": "20210418-vault/BalancerHelpers",
   "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba": "EOA/external-payees/discord-antiscam-bot",
   "0x8c76aa5b78357e1fa104ea2bc4a219f0870251f1": "rate_providers/safe/rETH_Rate_Provider/0xb23C20EFcE6e24Acca0Cef9B7B7aA196b84EC942",
+  "0x8dd590ebb702c21a41289A0a69b0C6F74bdece75": "rate_providers/safe/wstETH_Rate_Provider/0x5D8cfF95D7A57c0BF50B30b43c7CC0D52825D4a9",
   "0x8dd928a3Aa0274bBA3b42DD9F41756AaF1e78b2f": "gauges/ECLP-wstETH-WETH-gauge-8dd9",
   "0x8df317a729fcaA260306d7de28888932cb579b88": "20230414-authorizer-wrapper/AuthorizerWithAdaptorValidation",
   "0x8e620FfCa2580ed87241D7e10F85EE75d0a906F5": "20231031-batch-relayer-v6/BalancerRelayer",
