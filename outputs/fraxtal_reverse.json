@@ -116,6 +116,7 @@
   "0xce88686553686DA562CE7Cea497CE749DA109f9F": "20210418-vault/ProtocolFeesCollector",
   "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F": "EOA/dao/tritium",
   "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/old_oz_relayer_v1",
+  "0xe9b3f9cd8851216fBb828da590CCA8CE7F03E863": "frax/sfrax_incentivizer_amo_v3_2",
   "0xf23b4DB826DbA14c0e857029dfF076b1c0264843": "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider",
   "0xf99d875Dd868277cf3780f51D69c6E1F8522a1e9": "gauges/FRAX/USDe-gauge-f99d",
   "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F": "EOA/keepers/oz_relayer_v2"

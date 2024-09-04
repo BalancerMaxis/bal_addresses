@@ -1,6 +1,8 @@
 {
   "mainnet": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": {
@@ -16,7 +18,9 @@
     }
   },
   "arbitrum": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
@@ -24,7 +28,9 @@
     }
   },
   "optimism": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": {
