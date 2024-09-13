@@ -63,7 +63,6 @@
     "bribe_vault": "0x8d89593c199Cb763bDEF04529F978f82503E4669",
     "aura_briber": "0x928b06229a3f4Bc7806d80Fe54e48E777BB74536"
   },
-
   "maxiVestingContracts": {
     "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce",
     "Tritium": "0x2b03b15E4A26D858DD594649988255eCEb832787",
@@ -91,6 +90,9 @@
   "beefy": {
     "wstETH-weETH_ECLP_boost": "0x6B970F0D1F0255b8E0B1c4515Ae827931b32312C",
     "wstETH-ezETH_boost": "0xfcF293AFa58fa277935eddAa44E0f782EC41B09B"
+  },
+  "paladin": {
+    "QuestBoardV2Sidechain": "0x8EdcFE9Bc7d2a735117B94C16456D8303777abbb"
   },
   "stakewise": {
     "SWISE_Distributor_Safe": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
