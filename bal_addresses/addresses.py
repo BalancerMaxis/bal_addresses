@@ -32,7 +32,7 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 def get_address_all_chains(search_string: str) -> dict:
     """
     Finds addresses for a unique name across all chains
-    returns a dict with chain as keys and a dict with "path" and "address" as values
+    returns a dict with chain as keys and a dict with "path" and "address"
     Will throw MultipleMatchesError if the string is not unique on each and every chain
     """
     result = {}
