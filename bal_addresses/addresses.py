@@ -12,12 +12,20 @@ from collections import defaultdict
 from .utils import to_checksum_address
 
 
-GITHUB_MONOREPO_RAW = "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
+GITHUB_MONOREPO_RAW = (
+    "https://raw.githubusercontent.com/balancer-labs/balancer-v2-monorepo/master"
+)
 GITHUB_MONOREPO_NICE = "https://github.com/balancer/balancer-v2-monorepo/blob/master"
-GITHUB_DEPLOYMENTS_RAW = "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
+GITHUB_DEPLOYMENTS_RAW = (
+    "https://raw.githubusercontent.com/balancer/balancer-deployments/master"
+)
 GITHUB_DEPLOYMENTS_NICE = "https://github.com/balancer/balancer-deployments/blob/master"
-GITHUB_RAW_OUTPUTS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
-GITHUB_RAW_EXTRAS = "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
+GITHUB_RAW_OUTPUTS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/outputs"
+)
+GITHUB_RAW_EXTRAS = (
+    "https://raw.githubusercontent.com/BalancerMaxis/bal_addresses/main/extras"
+)
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
@@ -171,7 +179,9 @@ class AddrBook:
         return self._rate_providers
 
     def populate_deployments(self) -> None:
-        chain_deployments = requests.get(f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{self.chain}.json")
+        chain_deployments = requests.get(
+            f"{GITHUB_DEPLOYMENTS_RAW}/addresses/{self.chain}.json"
+        )
         if chain_deployments.ok:
             # Remove date from key
             processed_deployment = self._process_deployment(chain_deployments.json())
@@ -199,7 +209,9 @@ class AddrBook:
                     }
                     for contract in v["contracts"]
                 }
-                contracts_by_contract = {contract: data for contract, data in contracts.items()}
+                contracts_by_contract = {
+                    contract: data for contract, data in contracts.items()
+                }
                 v["contracts"] = contracts_by_contract
             processed_deployment[deployment_identifier] = v
         return processed_deployment
@@ -207,9 +219,13 @@ class AddrBook:
     def populate_extras(self) -> None:
         chain_extras = requests.get(f"{GITHUB_RAW_EXTRAS}/{self.chain}.json")
         if chain_extras.ok:
-            self._extras = Munch.fromDict(self.checksum_address_dict(chain_extras.json()))
+            self._extras = Munch.fromDict(
+                self.checksum_address_dict(chain_extras.json())
+            )
         else:
-            print(f"Warning: No extras for chain {self.chain}, extras must be added in extras/chain.json")
+            print(
+                f"Warning: No extras for chain {self.chain}, extras must be added in extras/chain.json"
+            )
             self._extras = Munch.fromDict({})
 
     def populate_eoas(self) -> None:
@@ -220,9 +236,13 @@ class AddrBook:
     def populate_multisigs(self) -> None:
         msigs = requests.get(f"{GITHUB_RAW_EXTRAS}/multisigs.json").json()
         if msigs.get(self.chain):
-            self._multisigs = Munch.fromDict(self.checksum_address_dict(msigs[self.chain]))
+            self._multisigs = Munch.fromDict(
+                self.checksum_address_dict(msigs[self.chain])
+            )
         else:
-            print(f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json")
+            print(
+                f"Warning: No multisigs for chain {self.chain}, multisigs must be added in extras/multisig.json"
+            )
             self._multisigs = Munch.fromDict({})
 
     def populate_pools(self) -> None:
@@ -244,7 +264,9 @@ class AddrBook:
             else requests.get(f"{GITHUB_RAW_OUTPUTS}/gauges.json").json()
         )
         if gauges.get(self.chain):
-            self._gauges = Munch.fromDict(self.checksum_address_dict(gauges[self.chain]))
+            self._gauges = Munch.fromDict(
+                self.checksum_address_dict(gauges[self.chain])
+            )
         else:
             print(f"Warning: No gauges for chain {self.chain}")
             self._gauges = Munch.fromDict({})
@@ -257,7 +279,9 @@ class AddrBook:
                 else requests.get(f"{GITHUB_RAW_OUTPUTS}/root_gauges.json").json()
             )
             if root_gauges.get(self.chain):
-                self._root_gauges = Munch.fromDict(self.checksum_address_dict(root_gauges[self.chain]))
+                self._root_gauges = Munch.fromDict(
+                    self.checksum_address_dict(root_gauges[self.chain])
+                )
             else:
                 print(f"Warning: No root gauges for chain {self.chain}")
                 self._root_gauges = Munch.fromDict({})
@@ -285,7 +309,9 @@ class AddrBook:
             raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
             raise NoResultError(f"{substr}")
-        return Munch.fromDict({"path": results[0], "address": self.flatbook[results[0]]})
+        return Munch.fromDict(
+            {"path": results[0], "address": self.flatbook[results[0]]}
+        )
 
     def search_unique_deployment(self, substr):
         results = [s for s in self.deployments_only.keys() if substr in s]
@@ -306,8 +332,13 @@ class AddrBook:
 
     def search_many(self, substr):
         output = []
-        results = {path: address for path, address in self.flatbook.items() if substr in path}
-        outputs = [Munch.fromDict({"path": path, "address": address}) for path, address in results.items()]
+        results = {
+            path: address for path, address in self.flatbook.items() if substr in path
+        }
+        outputs = [
+            Munch.fromDict({"path": path, "address": address})
+            for path, address in results.items()
+        ]
         return outputs
 
     def latest_contract(self, contract_name):
