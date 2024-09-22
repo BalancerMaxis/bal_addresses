@@ -24,6 +24,8 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 def get_address_all_chains(search_string: str) -> dict:
     """
     Finds addresses for a unqiue name acrosos all chains
+    returns a dict with chain as keys and a dict with "path" and "address" as values
+    Will throw MultipleMatchesError if the string is not unqiue on each and every chain
     """
     result = {}
     for chain in AddrBook.chain_ids_by_name.keys():
