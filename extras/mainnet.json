@@ -59,6 +59,8 @@
         "sETH2": "0xFe2e637202056d30016725477c5da089Ab0A043A",
         "SWISE": "0x48C3399719B582dD63eB5AADf12A40B4C3f52FA2",
         "rETH2": "0x20BC832ca081b91433ff6c17f85701B6e92486c5",
+        "GNO": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        "Locked GNO": "0x4f8AD938eBA0CD19155a835f617317a6E788c868",
         "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
     },
     "helpers": {
@@ -180,6 +182,9 @@
     },
     "gyro": {
         "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2"
+    },
+    "aave": {
+        "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
     },
     "paladin": {
         "QuestBoardLatest": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB",

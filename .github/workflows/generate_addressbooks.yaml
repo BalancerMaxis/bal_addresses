@@ -8,7 +8,8 @@ on:
 jobs:
   refresh_books:
     runs-on: ubuntu-latest
-
+    env:
+      GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -27,11 +28,12 @@ jobs:
           python3 gen_pools_and_gauges.py
           python3 gen_mono_addressbook.py
           python3 gen_addresses.py
+          python3 gen_subgraph_urls.py
           rm -rf balancer-deployments
           git add -A
 
       - name: pull-request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "Scheduled update from changes to monorepo"
           title: "Scheduled update from changes to monorepo"
