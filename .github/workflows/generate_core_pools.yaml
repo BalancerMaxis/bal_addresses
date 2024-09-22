@@ -26,7 +26,7 @@ jobs:
           git add -A
 
       - name: pull-request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "Scheduled updates to Core Pools list"
           title: "Scheduled updates to Core Pools list"

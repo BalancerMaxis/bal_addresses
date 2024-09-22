@@ -55,6 +55,12 @@
     "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
     "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
   },
+  "dao_backup": {
+    "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+    "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
+    "figue": "0x009d13e9bec94bf16791098ce4e5c168d27a9f07",
+    "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+  },
   "maxiPay": {
     "factory": "0x7bbac709a9535464690a435ca7361256496f13ce"
   },
@@ -89,6 +95,9 @@
     "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
     "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
     "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62"
+  },
+  "karpatkey": {
+    "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
   },
   "external-payees": {
     "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba"
