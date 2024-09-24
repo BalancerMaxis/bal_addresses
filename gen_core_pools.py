@@ -9,7 +9,7 @@ def main():
         chains = json.load(f)
     for chain in chains["BALANCER_PRODUCTION_CHAINS"]:
         gauge_info = BalPoolsGauges(chain)
-        core_pools[chain] = gauge_info.build_core_pools().pools
+        core_pools[chain] = gauge_info.build_core_pools()
 
     # dump the collected dict to json file
     with open("outputs/core_pools.json", "w") as f:
