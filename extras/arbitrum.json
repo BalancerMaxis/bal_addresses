@@ -94,6 +94,9 @@
   "paladin": {
     "QuestBoardV2Sidechain": "0x8EdcFE9Bc7d2a735117B94C16456D8303777abbb"
   },
+  "circle": {
+    "message_transmitter": "0xC30362313FBBA5cf9163F0bb16a0e01f01A896ca"
+},
   "stakewise": {
     "SWISE_Distributor_Safe": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
   }

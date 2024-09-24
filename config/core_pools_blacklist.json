@@ -1,6 +1,9 @@
 {
   "mainnet": {
-    "0x68e3266c9c8bbd44ad9dca5afbfe629022aee9fe000200000000000000000512": "B-wjAura-wETH: dead rate provider"
+    "0x68e3266c9c8bbd44ad9dca5afbfe629022aee9fe000200000000000000000512": "B-wjAura-wETH: dead rate provider",
+    "0xdb1f2e1655477d08fb0992f82eede0053b8cd3820000000000000000000006ae": "shezETH/wstETH: Shezmu hacked",
+    "0xed0df9cd16d806e8a523805e53cf0c56e6db4d1d000000000000000000000687": "ShezUSD/sDAI: Shezmu hacked",
+    "0xfe6517a5c3defc09bee9b52546dad91526a2836b0000000000000000000006cb": "ShezBTC/stBTC: Shezmu hacked"
   },
   "polygon": {},
   "zkevm": {
