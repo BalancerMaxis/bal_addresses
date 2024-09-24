@@ -31,25 +31,25 @@ def query_swap_enabled_pools(chain, skip=0, step_size=100) -> list:
     return result
 
 
-def process_query_swap_enabled_pools(result) -> dict:
+def process_query_pools(result) -> dict:
     df = pd.DataFrame(result)
     if len(df) == 0:
         return
     # assert no duplicate addresses exist
-    assert len(df["address"].unique()) == len(df)
+    assert len(df["id"].unique()) == len(df)
 
     # solve issue of duplicate gauge symbols
-    df["symbol"] = df["symbol"] + "-" + df["address"].str[2:6]
+    df["symbol"] = df["symbol"] + "-" + df["id"].str[2:6]
 
     # confirm no duplicate symbols exist, raise if so
     if len(df["symbol"].unique()) != len(df):
         print("Found duplicate symbols!")
         print(df[df["symbol"].duplicated(keep=False)].sort_values("symbol"))
         raise
-    return df.set_index("symbol")["address"].to_dict()
+    return df.set_index("symbol")["id"].to_dict()
 
 
-def process_query_preferential_gauges(result) -> dict:
+def process_query_gauges(result) -> dict:
     df = pd.DataFrame(result)
     if len(df) == 0:
         return
@@ -110,21 +110,18 @@ def main():
         chains = json.load(f)
     for chain in chains["BALANCER_PRODUCTION_CHAINS"]:
         print(f"Generating pools and gauges for {chain}...")
-        gauge_info = BalPoolsGauges(chain)
+        pool_gauge_info = BalPoolsGauges(chain)
         # pools
-        # TODO: consider moving to query object??
-        result = process_query_swap_enabled_pools(query_swap_enabled_pools(chain))
+        result = process_query_pools(query_swap_enabled_pools(chain))
         if result:
             pools[chain] = result
         # gauges
-        result = process_query_preferential_gauges(
-            gauge_info.query_preferential_gauges()
-        )
+        result = process_query_gauges(pool_gauge_info.query_preferential_gauges())
         if result:
             gauges[chain] = result
         # cache mainnet BalPoolsGauges
         if chain == "mainnet":
-            gauge_info_mainnet = gauge_info
+            gauge_info_mainnet = pool_gauge_info
 
     # root gauges; only on mainnet
     result = process_query_root_gauges(gauge_info_mainnet.query_root_gauges(), gauges)
