@@ -25,7 +25,7 @@ jobs:
         id: update
         run: |
           pip3 install -r bal_addresses/requirements.txt
-          python3 generate_current_permissions.py
+          python3 gen_current_permissions.py
           git add -A
 
       - name: pull-request
