@@ -13,10 +13,7 @@ def main():
 
     # dump the collected dict to json file
     with open("outputs/core_pools.json", "w") as f:
-        core_pools_dict = {}
-        for chain in core_pools:
-            core_pools_dict[chain] = core_pools[chain].pools
-        json.dump(core_pools_dict, f, indent=2)
+        json.dump(core_pools, f, indent=2)
 
 
 if __name__ == "__main__":
