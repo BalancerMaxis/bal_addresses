@@ -24,5 +24,8 @@
         "gaugeRewardsInjectors": {
             "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
         }
-    }
+    },
+    "stakewise": {
+        "SWISE_Distributor_EOA": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
+      }
 }
