@@ -27,7 +27,7 @@ setup(
         "dotmap",
         "munch==4.0.0",
         "gql[requests]",
-        "json-fix"
+        "json-fix",
     ],
     keywords=["python", "first package"],
     classifiers=[
