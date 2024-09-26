@@ -1,18 +1,25 @@
+[![Generate Addressbooks Deployments](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_addressbooks.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_addressbooks.yaml)
+[![Generate Core Pools JSON](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_core_pools.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_core_pools.yaml)
+[![Generate Active Permissions](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_permissions.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_permissions.yaml)
+
 # Monorepo Addresses
 
 This repo is setup to make it easy to find up to date addresses at balancer.
 
 ## Outputs - structured data
+
 The [outputs](./outputs) directory has a number of different address books that you can use in code or with your eyeballs.
 
-### [chain].json Files 
-Have keys of deployment/contract as well as some other extra stuff all with / notation.  It includes multisigs and signers known to the maxis as well as other addresses we have touched sorted by protocol.
+### [chain].json Files
+
+Have keys of deployment/contract as well as some other extra stuff all with / notation. It includes multisigs and signers known to the maxis as well as other addresses we have touched sorted by protocol.
 
 ### addressbook.json
-Has all the addresses sorted into 2 dicts (active, and old).  Each dict is then mapped like `{chain:{deployment:{contract: address}}}`
 
+Has all the addresses sorted into 2 dicts (active, and old). Each dict is then mapped like `{chain:{deployment:{contract: address}}}`
 
 ## Python helpers
+
 You can import this into python scripts by adding the following into your requirements.txt `git+https://github.com/BalancerMaxis/bal_addresses`.
 
 once imported like `from bal_addresses import AddrBook`.
@@ -22,21 +29,24 @@ Then you can invoke the Address Book on a chain like so
 `a = AddrBook(chain_name)` where chain_name is one of the chains listed in `AddrBook.CHAIN_IDS_BY_NAME.keys()`
 
 Then you can do this with the flatbook:
+
 ```
 >>> a.flatbook["20230320-composable-stable-pool-v4/ComposableStablePoolFactory"]
 '0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76'
 >>> a.flatbook["multisigs/lm"]
 '0xc38c5f97B34E175FFd35407fc91a937300E33860'
->>> 
+>>>
 ```
 
 This with the reversebook:
+
 ```text
 >>> a.reversebook["0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76"]
 '20230320-composable-stable-pool-v4/ComposableStablePoolFactory'
 ```
 
 You can also use the structured data as follows
+
 ```
 >>> r = a.dotmap
 >>> r.multisigs
@@ -45,12 +55,12 @@ DotMap(lm='0xc38c5f97B34E175FFd35407fc91a937300E33860', dao='0x10A19e7eE7d7F8a52
 '0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f'
 ```
 
-Note that for the deployments the dotmap has a problem with digit starting members.  For this reason you have to use it like this
+Note that for the deployments the dotmap has a problem with digit starting members. For this reason you have to use it like this
+
 ```text
 >>> r["20230320-composable-stable-pool-v4"]["ComposableStablePoolFactory"]
 '0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76'
 ```
-
 
 As you can see from the examples above, the dotmap works like a dict, so you can easily loop over any part of the structure.
 
@@ -61,13 +71,16 @@ r = a.dotmap
 for contract, address in r["20230320-composable-stable-pool-v4"].items():
     print(f"{contract} has {address}")
 ```
+
 Returns
+
 ```text
 ComposableStablePoolFactory has 0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76
 MockComposableStablePool has 0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8
 ```
 
 There is also search and lookup commands
+
 ```text
 >>> a.search_many("Composable")
 {'20230320-composable-stable-pool-v4/ComposableStablePoolFactory': '0xfADa0f4547AB2de89D1304A668C39B3E09Aa7c76', '20230320-composable-stable-pool-v4/MockComposableStablePool': '0x5537f945D8c3FCFDc1b8DECEEBD220FAD26aFdA8', '20230206-composable-stable-pool-v3/ComposableStablePoolFactory': '0xdba127fBc23fb20F5929C546af220A991b5C6e01', '20230206-composable-stable-pool-v3/MockComposableStablePool': '0x222bc81C6F3C17e9e9Aba47a12f55a1Dea42f163', '20220906-composable-stable-pool/ComposableStablePoolFactory': '0xf9ac7B9dF2b3454E841110CcE5550bD5AC6f875F', '20221122-composable-stable-pool-v2/ComposableStablePoolFactory': '0x85a80afee867aDf27B50BdB7b76DA70f1E853062', '20221122-composable-stable-pool-v2/MockComposableStablePool': '0x373b347bc87998b151A5E9B6bB6ca692b766648a'}
@@ -79,16 +92,19 @@ There is also search and lookup commands
 '0xBA12222222228d8Ba445958a75a0704d566BF2C8'
 >>> a.reversebook[a.latest_contract("ComposableStablePoolFactory")]
 '20230320-composable-stable-pool-v4/ComposableStablePoolFactory'
->>> 
+>>>
 
 ```
-Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis.  You can explore them if you would like.  
+
+Most of the other functions are used by a github action which regenerates files read in by those 2 functions on a weekly basis. You can explore them if you would like.
 
 ## Using deployments:
+
 `.deployments` attribute is an object that is lazy loaded on first access.
 It has first class support in IDEs, so you can use it as a normal object.
 
 To use deployments information you can do the following:
+
 ```python
 from bal_addresses.addresses import AddrBook
 
@@ -98,6 +114,7 @@ a.deployments
 ```
 
 Now you can extract information:
+
 ```
 >>> a.deployments.vault.contracts.Vault.address
 '0xBA12222222228d8Ba445958a75a0704d566BF2C8'
