@@ -86,6 +86,7 @@
   "EOA/emeritus/solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
   "EOA/emeritus/solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
   "EOA/external-payees/discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba",
+  "EOA/karpatkey/balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE",
   "EOA/keepers/github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f",
   "EOA/keepers/old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
   "EOA/keepers/oz_relayer_v2": "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",

@@ -95,6 +95,7 @@
   "0x7BBAc709a9535464690A435ca7361256496f13Ce": "EOA/maxiPay/factory",
   "0x7E13b8b95d887c2326C25e71815F33Ea10A2674e": "rate_providers/safe/sFRAX_Rate_Provider_Duplicate/0x2Dd1B4D4548aCCeA497050619965f91f78b3b532",
   "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17": "EOA/contributors-payees/zen_dragon",
+  "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE": "EOA/karpatkey/balancer_eoa",
   "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3": "EOA/emeritus/nico_emergency",
   "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",
   "0x81fC12C60ee5b753cf5fD0ADC342dFb5f3817E32": "20230213-yearn-linear-pool/MockYearnLinearPool",
