@@ -18,7 +18,9 @@
     }
   },
   "arbitrum": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
@@ -68,7 +70,9 @@
   },
   "fantom": {},
   "base": {
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
     "aura": {
@@ -76,7 +80,7 @@
     }
   },
   "mode": {
-    "core": "https://api.studio.thegraph.com/proxy/75376/balancer-mode-v2/version/latest",
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },

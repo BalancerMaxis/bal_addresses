@@ -82,6 +82,7 @@
   "EOA/emeritus/solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
   "EOA/emeritus/solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
   "EOA/external-payees/discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba",
+  "EOA/karpatkey/balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE",
   "EOA/keepers/github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f",
   "EOA/keepers/old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
   "EOA/keepers/oz_relayer_v2": "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",
@@ -123,7 +124,7 @@
   "pools/USDT/USDC -45ee": "0x45eecA37C02f4da7Fe000C32C6eaA0699CFB669C",
   "pools/ezETH/wETH-1645": "0x16453789feD619c7FA18c068dEC1Cb2766bA2E3e",
   "pools/sDAI/USDC-bdee": "0xbDEe91916B38BCA811f2c4c261Daf1A8953262Ca",
-  "rate_providers/safe/Api3AggregatorAdaptor/0x3f51c6c5927b88cdec4b61e2787f9bd0f5249138": "0x97e0E416dA48a0592E6ea8ac0dfD26D410Ba5C22",
+  "rate_providers/safe/Api3AggregatorAdaptor/0x98f96A4B34D03a2E6f225B28b8f8Cb1279562d81": "0xE91237236Bab7b39CA5CEE86F339a18C6C91F25c",
   "tokens/LINK": "0x183E3691EfF3524B2315D3703D94F922CbE51F54",
   "zero/zero": "0x0000000000000000000000000000000000000000"
 }
