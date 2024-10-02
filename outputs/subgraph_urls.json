@@ -1,8 +1,6 @@
 {
   "mainnet": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": {
@@ -18,9 +16,7 @@
     }
   },
   "arbitrum": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
@@ -44,7 +40,9 @@
     }
   },
   "zkevm": {
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-polygon-zk/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": {
