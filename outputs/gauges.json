@@ -94,11 +94,9 @@
     "ECLP-stdeUSD-deUSD-gauge-a00d": "0xa00db7d9c465e95e4aa814a9340b9a161364470a",
     "pxETH/frxETH-gauge-a1d5": "0xa1d5b81d0024809faa278ab72fe3d2fb467dd28b",
     "ECLP-GHO-USDC-2-gauge-a2f8": "0xa2f8bd6b95a0cb9094206075504cd0ed1cc717be",
-    "ShezUSD/sDAI-gauge-a71a": "0xa71adac76a2e34f8f988fa6992e3bdad08d92c01",
     "ezETH-WETH-BPT-gauge-a8b3": "0xa8b309a75f0d64ed632d45a003c68a30e59a1d8b",
     "80TRUF/20LINK-gauge-a992": "0xa99280581d6520d336231687fd8d673bba97c115",
     "ETHx/wstETH-gauge-ac08": "0xac08fde28aa2d123b61a5db3074caf72760ffeeb",
-    "shezETH/wstETH-gauge-b002": "0xb002073210698b0852e34da6a5e432a04d299205",
     "ECLP-GHO-pyUSD-gauge-b71c": "0xb71c90f165cf99d4004499ff058e265aa68fac85",
     "DOLA-USDC BSP-gauge-bc02": "0xbc02ef87f4e15ef78a571f3b2adcc726fee70d8b",
     "50wstETH-50sUSDe-gauge-bd00": "0xbd00c7cbe59dddbd784c899ac173b7ba514b9997",
@@ -116,6 +114,7 @@
     "inankrETH/ankrETH-gauge-cc97": "0xcc9723faded81a9448a9664c39c0df2e77fdfa2e",
     "sDOLA-DOLA BSP-gauge-cd19": "0xcd19892916929f013930ed628547cc1f439b230e",
     "InstETH/wstETH-gauge-cda1": "0xcda1b6704b108df230d2a36da4c088c6afd6f335",
+    "ECLP-wstETH-GYD-gauge-cda6": "0xcda69c40176b98bb1773109d1fea91e12f478451",
     "wbETH-wstETH-gauge-d1c0": "0xd1c070ebc7ec77f2134b3ef75283b6c1fb31a157",
     "B-baoETH-ETH-BPT-gauge-d449": "0xd449efa0a587f2cb6be3ae577bc167a774525810",
     "50ELFI-50WETH-gauge-d541": "0xd5417acb575c799ceb373f85adf100c7cd84c8c8",
@@ -140,6 +139,7 @@
     "B-baoUSD-sUSDe-BPT-gauge-f91b": "0xf91ba601c53f831869da4aceaaec11c479413972",
     "ECLP-GYD-sDAI-gauge-fc3f": "0xfc3f916c28f32deba1cc04b1f6011f28a691134c",
     "DOLA-CUSD BSP-gauge-fc45": "0xfc4541437265945f13368f9f61c19da427d41a02",
+    "balETH/wstETH-gauge-fc4b": "0xfc4bebf1f33594be59fdfb7e1c4a45759ecaec5a",
     "ECLP-GYD-USDT-gauge-fc7d": "0xfc7d964f1676831d8105506b1f0c3b3e2b55c467"
   },
   "polygon": {
@@ -292,6 +292,7 @@
     "BPT-DOLA-USD+-gauge-37d8": "0x37d887752760c95f4150de84cb81327f5c875a5d",
     "SWEEP-USDC-BPT-gauge-38e4": "0x38e434d74eabaf27169ac1c934886f344e332ba8",
     "wstETH-bb-a-WETH-BPT-gauge-3a96": "0x3a96d6f6050fd377e945073e60bfda6ec7ffe113",
+    "ECLP-MORE-GYD-gauge-3b9c": "0x3b9c6c47bd3ac2e5e284265757ea2f6a4aed5fcc",
     "alETH/wstETH-BPT-gauge-40e6": "0x40e6923c794bc01dfb0801b043bdc985249f79c2",
     "ECLP-WOETH-WETH-gauge-40e8": "0x40e86216712cb9871b9c698ea3afb22f88c00e6e",
     "80MAGIC-20WETH-gauge-40ee": "0x40ee510cb115e805a4adf56165f27db0433d0bea",
@@ -468,6 +469,7 @@
   },
   "avalanche": {
     "BPT-gauge-0c22": "0x0c22ff3f93b5c9f13e41fa9d270680e97ac13b28",
+    "LP-XSGD-USDC-gauge-108c": "0x108c6c9c59e4dc3c6c75def35bad59f20e999d81",
     "bb-a-USD-gauge-1188": "0x11884da90fb4221b3aa288a7741c51ec4fc43b2f",
     "ankrAVAX-ankrETH-BPT-gauge-1280": "0x1280ea1ca9e8d6bb62ab1c859a7bd38f88ed07d8",
     "sAVAX-ankrAVAX-BPT-gauge-1540": "0x1540a81271a7de3dc65a0c4cfd11872bf9b13109",

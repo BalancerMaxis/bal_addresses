@@ -28,8 +28,8 @@ jobs:
       - name: pull-request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Scheduled updates to Core Pools list"
-          title: "Scheduled updates to Core Pools list"
+          commit-message: "Scheduled updates to core pools JSON"
+          title: "Scheduled updates to core pools JSON"
           branch: "gha-corepools"
           reviewers: "gosuto-inzasheru"
           labels: "Core Pools"
