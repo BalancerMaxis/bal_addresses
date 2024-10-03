@@ -100,6 +100,8 @@
     "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
   },
   "external-payees": {
-    "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba"
+    "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba",
+    "drpc-usdc": "0x195A4B5583b2AB22C2a72Ef4E8f618adb0e29845",
+    "onchainification-labs": "0x94ac474B5Badc251Cf11C06713FB1E522de0747E"
   }
 }
