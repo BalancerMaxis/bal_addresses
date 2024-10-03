@@ -1,5 +1,5 @@
 pathlib>=1.0
-git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.10
+git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.11
 requests
 pandas
 web3
