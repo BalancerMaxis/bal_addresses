@@ -158,6 +158,8 @@
         "hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15",
         "wonderland_payments": "0x74fEa3FB0eD030e9228026E7F413D66186d3D107",
         "cantina_payments": "0x3Dcb7CFbB431A11CAbb6f7F2296E2354f488Efc2",
+        "drpc-usdc": "0x195A4B5583b2AB22C2a72Ef4E8f618adb0e29845",
+        "onchainification-labs": "0x94ac474B5Badc251Cf11C06713FB1E522de0747E",
         "nanexcool_payments": "0x72BA1965320ab5352FD6D68235Cc3C5306a6FFA2"
     },
     "mimic": {
