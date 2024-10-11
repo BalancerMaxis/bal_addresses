@@ -62,6 +62,8 @@
         "GNO": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
         "Locked GNO": "0x4f8AD938eBA0CD19155a835f617317a6E788c868",
         "GHO": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+        "USDS": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+        "sUSDS": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
         "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
     },
     "helpers": {
@@ -192,6 +194,9 @@
     },
     "aave": {
         "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
+    },
+    "sablier": {
+        "sablier_v2_batch_lockup": "0xB5Ec9706C3Be9d22326D208f491E5DEef7C8d9f0"
     },
     "paladin": {
         "QuestBoardLatest": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB",
