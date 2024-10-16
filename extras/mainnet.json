@@ -190,5 +190,8 @@
         "QuestBoardLatest": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB",
         "QuestBoardV2": "0xf0CeABf99Ddd591BbCC962596B228007eD4624Ae",
         "QuestBoardV2_1": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB"
+    },
+    "safe_harbor": {
+        "registry": "0x8f72fcf695523A6FC7DD97EafDd7A083c386b7b6"
     }
 }
