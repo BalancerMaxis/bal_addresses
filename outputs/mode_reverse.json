@@ -102,6 +102,7 @@
   "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718": "EOA/beethoven/netrim",
   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230411-managed-pool-v2/CircuitBreakerLib",
   "0xaFCFA565B8e00A3b3EB789dfa19261ed7DCA42C7": "20240223-composable-stable-pool-v6/MockComposableStablePool",
+  "0xac8fae65008cbb22a27103160452418aa3c84128": "rate_providers/safe/ERC4626RateProvider/0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
   "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/contributors-payees/zekraken",
   "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007": "gauges/80MODE/20ezETH-gauge-b200",
   "0xb541765F540447646A9545E0A4800A0Bacf9E13D": "20231031-batch-relayer-v6/BalancerRelayer",
