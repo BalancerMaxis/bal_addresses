@@ -35,6 +35,8 @@
         "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
         "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
         "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
-
+    },
+  "safe_harbor": {
+    "registry": "0x8f72fcf695523A6FC7DD97EafDd7A083c386b7b6"
     }
 }
