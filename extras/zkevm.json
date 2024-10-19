@@ -10,6 +10,10 @@
         "gaugeRewardsInjectors": {
             "usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
             "matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02"
+        },
+      "injectorV2": {
+        "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+        "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
         }
     }
 }
