@@ -7,6 +7,10 @@
   },
   "maxiKeepers": {
     "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
-    "gaugeRewardsInjectors": {}
+    "gaugeRewardsInjectors": {},
+    "injectorV2": {
+      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+    }
   }
 }

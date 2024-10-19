@@ -47,6 +47,10 @@
       "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D",
       "usdc_rewards_injector": "0xabC414cEE2F6E8Ee262d6dc106c86A3f627f84D2"
     },
+    "injectorV2": {
+      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+    },
     "one_inch": {
       "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
     },
@@ -96,7 +100,7 @@
   },
   "circle": {
     "message_transmitter": "0xC30362313FBBA5cf9163F0bb16a0e01f01A896ca"
-},
+  },
   "stakewise": {
     "SWISE_Distributor_Safe": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
   }
