@@ -25,14 +25,14 @@ jobs:
         id: update
         run: |
           pip3 install -r bal_addresses/requirements.txt
-          python3 generate_current_permissions.py
+          python3 gen_current_permissions.py
           git add -A
 
       - name: pull-request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Scheduled update from changes to monorepo"
-          title: "Scheduled update from changes to monorepo"
+          commit-message: "Scheduled update to active permissions"
+          title: "Scheduled update to active permissions"
           branch: "gha-permissions"
           reviewers: "Tritum-VLK"
           assignees: "Tritum-VLK"

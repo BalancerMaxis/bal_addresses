@@ -1,8 +1,9 @@
 pathlib>=1.0
-git+https://github.com/BalancerMaxis/bal_tools@v0.1.7
+git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.11
 requests
 pandas
 web3
 dotmap
 munch==4.0.0
 gql[requests]
+json-fix
