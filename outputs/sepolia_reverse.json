@@ -127,6 +127,7 @@
   "0xE4EfD99f3C03778ba913Eb578C599329634e2bd7": "20230410-aave-linear-pool-v5/MockAaveLinearPool",
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/contributors-payees/zen_dragon",
   "0xEDFd0A7005A7c72c44Ff13bEa370c86A9D11beE1": "20231031-batch-relayer-v6/BatchRelayerLibrary",
+  "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853": "EOA/maxi_deployers/single_use/injector_v2_deployer",
   "0xEF454a7B3f965D3f6723E462405246f8Cd865425": "20220325-bal-token-holder-factory/BALTokenHolderFactory",
   "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8": "EOA/emergency/mikeb",
   "0xF24917fB88261a37Cc57F686eBC831a5c0B9fD39": "20230504-vebal-remapper/VotingEscrowRemapper",
