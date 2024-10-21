@@ -1,5 +1,6 @@
 from .addresses import (
     AddrBook,
+    get_address_all_chains,
     GITHUB_DEPLOYMENTS_RAW,
     GITHUB_DEPLOYMENTS_NICE,
     GITHUB_RAW_OUTPUTS,
