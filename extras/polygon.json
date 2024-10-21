@@ -23,6 +23,10 @@
         "gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F",
         "gaugeRewardsInjectors": {
             "wmatic": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79"
+        },
+        "injectorV2": {
+          "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+          "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
         }
     },
     "one_inch":{

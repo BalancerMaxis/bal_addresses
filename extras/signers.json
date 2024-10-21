@@ -24,7 +24,10 @@
     "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
     "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
     "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+    "single_use": {
+      "injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853"
+    }
   },
   "beethoven": {
     "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",

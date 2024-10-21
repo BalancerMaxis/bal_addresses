@@ -23,7 +23,11 @@
     "maxiKeepers": {
         "gaugeRewardsInjectors": {
             "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
-        }
+        },
+      "injectorV2": {
+        "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+        "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+      }
     },
     "stakewise": {
         "SWISE_Distributor_SAFE": "0x5d1acdd0867d6F1FBe11ad8F1f48C87f19C0801E"
