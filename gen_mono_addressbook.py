@@ -15,9 +15,7 @@ from collections import defaultdict, OrderedDict
 from typing import Dict
 
 
-DEPLOYMENTS_ADDRESS_ROOT_URL = (
-    "https://raw.githubusercontent.com/balancer/balancer-deployments/refs/heads/master/addresses/"
-)
+DEPLOYMENTS_ADDRESS_ROOT_URL = "https://raw.githubusercontent.com/balancer/balancer-deployments/refs/heads/master/addresses/"
 
 
 def main():
@@ -71,7 +69,9 @@ def main():
         ### add injectors
         injectors = process_v2_injectors(chain)
 
-        active[chain].setdefault("maxiKeepers", {}).setdefault("injectorV2", {})["deployed"] = injectors
+        active[chain].setdefault("maxiKeepers", {}).setdefault("injectorV2", {})[
+            "deployed"
+        ] = injectors
         with open("outputs/addressbook.json", "w") as f:
             json.dump(results, f, indent=2)
 
@@ -95,7 +95,9 @@ def process_deloyments_json():
             for contract in contracts:
                 address = contract["address"]
                 name = contract["name"]
-                results[status].setdefault(chain, {}).setdefault(deployment_name, {})[name] = address
+                results[status].setdefault(chain, {}).setdefault(deployment_name, {})[
+                    name
+                ] = address
     ## Old method had chains alphabetized
     results["active"] = OrderedDict(sorted(results["active"].items()))
     return results
@@ -128,7 +130,11 @@ def process_v2_injectors(chain) -> Dict[str, str]:
     ## try to get a list of all injectors from the factory
     w3 = Web3Rpc(chain, os.getenv("DRPC_KEY"))
     try:
-        injectors = w3.eth.contract(address=factory, abi=factory_abi).functions.getDeployedInjectors().call()
+        injectors = (
+            w3.eth.contract(address=factory, abi=factory_abi)
+            .functions.getDeployedInjectors()
+            .call()
+        )
     except:
         print(f"Error fetching injectors from factory {factory}")
         return {}
