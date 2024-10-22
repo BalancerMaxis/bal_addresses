@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
+      DRPC_KEY: ${{ secrets.DRPC_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
