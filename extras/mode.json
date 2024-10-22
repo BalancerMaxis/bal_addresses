@@ -12,5 +12,10 @@
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
       "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
     }
+  },
+  "modeGovernance": {
+    "MODE-token": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+    "modeSingleStakingContract": "0xff8AB822b8A853b01F9a9E9465321d6Fe77c9D2F",
+    "mode8020BPTStakingContract": "0x9c2eFe2a1FBfb601125Bb07a3D5bC6EC91F91e01"
   }
 }
