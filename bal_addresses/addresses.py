@@ -29,7 +29,7 @@ GITHUB_RAW_EXTRAS = (
 ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
 
-def get_address_all_chains(search_string: str) -> dict[str, dict[str, str]]::
+def get_address_all_chains(search_string: str) -> dict[str, dict[str, str]]:
     """
     Finds addresses for a unique name across all chains
     returns a dict with chain as keys and a dict with "path" and "address"
