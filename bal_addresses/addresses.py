@@ -387,6 +387,25 @@ class AddrBook:
         flatbook["rate_providers"] = self.flatten_dict(self.rate_providers)
         return self.flatten_dict(flatbook)
 
+    @staticmethod
+    def get_address_all_chains(search_string: str) -> dict[str, dict[str, str]]:
+        """
+        Finds addresses for a unique name across all chains
+        returns a dict with chain as keys and a dict with "path" and "address"
+        Will throw MultipleMatchesError if the string is not unique on each and every chain
+        """
+        result = {}
+        for chain in AddrBook.chain_ids_by_name.keys():
+            print(f"Processing {chain}")
+            addr_book = AddrBook(chain)
+            try:
+                info = addr_book.search_unique(search_string)
+                result[chain] = info
+            except NoResultError:
+                result[chain] = None
+                print("Not Found")
+        return result
+
 
 # Version outside class to allow for recursion on the uninitialized class
 def checksum_address_dict(addresses):
