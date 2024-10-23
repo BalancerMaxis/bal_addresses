@@ -3,6 +3,7 @@
     "zero": "0x0000000000000000000000000000000000000000"
   },
   "tokens": {
+    "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "LINK": "0x183E3691EfF3524B2315D3703D94F922CbE51F54"
   },
   "maxiKeepers": {
@@ -14,7 +15,6 @@
     }
   },
   "modeGovernance": {
-    "MODE-token": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "modeSingleStakingContract": "0xff8AB822b8A853b01F9a9E9465321d6Fe77c9D2F",
     "mode8020BPTStakingContract": "0x9c2eFe2a1FBfb601125Bb07a3D5bC6EC91F91e01"
   }
