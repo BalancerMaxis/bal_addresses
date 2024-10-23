@@ -61,10 +61,14 @@
         "rETH2": "0x20BC832ca081b91433ff6c17f85701B6e92486c5",
         "GNO": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
         "Locked GNO": "0x4f8AD938eBA0CD19155a835f617317a6E788c868",
+        "GHO": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+        "USDS": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+        "sUSDS": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
         "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
     },
     "helpers": {
         "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
+        "vlaura_relocker_module": "0xfD20C63554A9916816dC5e5Df596A0333185F263",
         "rebalancerForPool": "0x3FBbB48ad78051982688a5a2Bc45eB6E2046a136"
     },
     "layerzero": {
@@ -75,7 +79,8 @@
     },
     "cow": {
         "vault_relayer": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
-        "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41"
+        "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+        "airdrop_merkle_distributor": "0x64646f112FfD6F1B7533359CFaAF7998F23C8c40"
     },
     "one_inch":{
         "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
@@ -155,6 +160,10 @@
     "payees": {
         "karpatkey_payments": "0x58e6c7ab55Aa9012eAccA16d1ED4c15795669E1C",
         "hypernative_payments": "0x5CA24e2A586834A7B96216D68b26A82405e3DC15",
+        "wonderland_payments": "0x74fEa3FB0eD030e9228026E7F413D66186d3D107",
+        "cantina_payments": "0x3Dcb7CFbB431A11CAbb6f7F2296E2354f488Efc2",
+        "drpc-usdc": "0x195A4B5583b2AB22C2a72Ef4E8f618adb0e29845",
+        "onchainification-labs": "0x94ac474B5Badc251Cf11C06713FB1E522de0747E",
         "nanexcool_payments": "0x72BA1965320ab5352FD6D68235Cc3C5306a6FFA2"
     },
     "mimic": {
@@ -186,9 +195,15 @@
     "aave": {
         "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
     },
+    "sablier": {
+        "sablier_v2_batch_lockup": "0xB5Ec9706C3Be9d22326D208f491E5DEef7C8d9f0"
+    },
     "paladin": {
         "QuestBoardLatest": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB",
         "QuestBoardV2": "0xf0CeABf99Ddd591BbCC962596B228007eD4624Ae",
         "QuestBoardV2_1": "0xfEb352930cA196a80B708CDD5dcb4eCA94805daB"
+    },
+    "safe_harbor": {
+        "registry": "0x8f72fcf695523A6FC7DD97EafDd7A083c386b7b6"
     }
 }

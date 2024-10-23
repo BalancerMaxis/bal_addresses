@@ -24,7 +24,10 @@
     "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
     "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
     "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01"
+    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+    "single_use": {
+      "injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853"
+    }
   },
   "beethoven": {
     "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
@@ -88,7 +91,7 @@
     "xeonus": "0x99AfD53f807766A8B98400B0C785E500c041F32B",
     "tritium": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
     "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
-    "zen_dragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+    "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
     "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
     "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
     "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",

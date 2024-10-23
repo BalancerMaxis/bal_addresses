@@ -21,9 +21,16 @@
       "yyavax": "0x95008946F2773f24588AEEE44d643016381265FF",
       "ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
       "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+    },
+    "injectorV2": {
+      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
     }
   },
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
+  },
+  "Gyroscope": {
+    "Qi-Rewards-Multisig": "0xeE17b1A400b009b7d05C659a5F17d77E45dfc161"
   }
 }
