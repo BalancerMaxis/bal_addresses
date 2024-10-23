@@ -113,7 +113,6 @@
   "maxiKeepers/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
   "maxiKeepers/injectorV2/factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
   "maxiKeepers/injectorV2/mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
-  "modeGovernance/MODE-token": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
   "modeGovernance/mode8020BPTStakingContract": "0x9c2eFe2a1FBfb601125Bb07a3D5bC6EC91F91e01",
   "modeGovernance/modeSingleStakingContract": "0xff8AB822b8A853b01F9a9E9465321d6Fe77c9D2F",
   "multisigs/dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e",
@@ -132,5 +131,6 @@
   "rate_providers/safe/Api3AggregatorAdaptor/0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d": "0x6Ad582604472DAdB4Af7B955388cAc6aDD6D511B",
   "rate_providers/safe/ERC4626RateProvider/0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776": "0xac8fae65008cbb22a27103160452418aa3c84128",
   "tokens/LINK": "0x183E3691EfF3524B2315D3703D94F922CbE51F54",
+  "tokens/MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
   "zero/zero": "0x0000000000000000000000000000000000000000"
 }
