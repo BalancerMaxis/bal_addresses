@@ -97,7 +97,7 @@
   "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264": "EOA/blabs_ops/Markus",
   "0xCb528CFe5EfC65a77901d20B3E899Ecd9A8190b7": "20230320-weighted-pool-v4/MockWeightedPool",
   "0xD914DB6f2cc29bf20AE157f5f9Cdbd638D9C93F6": "pools/aBTC/uBTC-d914",
-  "0xDfc7C877a950e49D2610114102175A06C2e3167a": "modeGovernance/MODE-token",
+  "0xDfc7C877a950e49D2610114102175A06C2e3167a": "tokens/MODE",
   "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096": "EOA/contributors-payees/hyferion",
   "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2": "EOA/contributors-payees/json",
   "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7": "20230316-child-chain-gauge-factory-v2/ChildChainGauge",

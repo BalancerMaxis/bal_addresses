@@ -235,6 +235,7 @@
   "0xe3F0B00Eb41395308120cc986286066725c6116E": "pools/vEUR-jEUR-e3f0",
   "0xe41978AcA73F93BF67c27B60232449F2F4a29168": "gauges/LP-VEUR-USDC-gauge-e419",
   "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/old_oz_relayer_v1",
+  "0xeE17b1A400b009b7d05C659a5F17d77E45dfc161": "Gyroscope/Qi-Rewards-Multisig",
   "0xf04378a3ff97b3f979a46f91f9b2d5A1D2394773": "balancer/EventEmitter",
   "0xf23b4DB826DbA14c0e857029dfF076b1c0264843": "20230316-child-chain-gauge-factory-v2/ChildChainGaugeFactory",
   "0xf9aE6D2D56f02304f72dcC61694eAD0dC8DB51f7": "gauges/sAVAX-WAVAX-BPT-gauge-f9ae",
