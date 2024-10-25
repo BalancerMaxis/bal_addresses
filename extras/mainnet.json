@@ -64,7 +64,8 @@
         "GHO": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
         "USDS": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
         "sUSDS": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
-        "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D"
+        "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
+        "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
     },
     "helpers": {
         "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
@@ -205,5 +206,11 @@
     },
     "safe_harbor": {
         "registry": "0x8f72fcf695523A6FC7DD97EafDd7A083c386b7b6"
+    },
+    "stake_dao": {
+        "delegation_address": "0x52ea58f4FC3CEd48fa18E909226c1f8A0EF887DC",
+        "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
+        "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859",
+        "delegate_Registry": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446"
     }
 }
