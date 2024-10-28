@@ -210,7 +210,9 @@
     "stake_dao": {
         "delegation_address": "0x52ea58f4FC3CEd48fa18E909226c1f8A0EF887DC",
         "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
-        "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859",
+        "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859"
+    },
+    "snapshot": {
         "delegate_Registry": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446"
     }
 }
