@@ -60,10 +60,10 @@
     "feesManager": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
   },
   "avalanche": {
-    "blabs_ops": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
     "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
     "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
     "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
+    "blabs_ops": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
     "fees": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
