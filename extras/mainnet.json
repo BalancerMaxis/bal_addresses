@@ -149,7 +149,8 @@
         "veBalFeeInjector": "0x8AD2512819A7eae1dd398973EFfaE48dafBe8255",
         "LZRateProviderPoker": "0xdDd5FF0E581f097573B13f247F6BE736f602F839",
         "gaugeRewardsInjectors": {
-            "Balancer_BAL": "0x5a18FE4D7a2bd5A39CCa4F9D05D073F21FAE28EE"
+          "Balancer_BAL": "0x5a18FE4D7a2bd5A39CCa4F9D05D073F21FAE28EE",
+          "usdc": "0x80D737BF3973D92a1B5FC4b166F89cb9e7445632"
         }
     },
     "gelatoW3f": {
