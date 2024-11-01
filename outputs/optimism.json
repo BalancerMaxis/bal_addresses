@@ -270,6 +270,7 @@
   "hidden_hand2/balancer_briber": "0xeA1aaC67b6Ad9005E1551A4085FfFE5aeF0F3f09",
   "hidden_hand2/bribe_vault": "0xa9b08B4CeEC1EF29EdEC7F9C94583270337D6416",
   "maxiKeepers/gaugeRewardsInjectors/op": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
+  "maxiKeepers/gaugeRewardsInjectors/usdc": "0x79D0F97D4D8c1Dd30b1Ea09746dB8847036AD92d",
   "maxiKeepers/injectorV2/factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
   "maxiKeepers/injectorV2/mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
   "mimic/bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
