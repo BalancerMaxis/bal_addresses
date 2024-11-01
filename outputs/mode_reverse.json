@@ -108,6 +108,7 @@
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/contributors-payees/zen_dragon",
   "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853": "EOA/maxi_deployers/single_use/injector_v2_deployer",
   "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8": "EOA/emergency/mikeb",
+  "0xFE1862BdCAf17ADf2D83eEb0Da98dAE04492F4f7": "rate_providers/safe/ChainlinkRateProvider/0x90993Ac1734b023dEEc548b87B11F5d2dcD3818E",
   "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718": "EOA/beethoven/netrim",
   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230411-managed-pool-v2/CircuitBreakerLib",
   "0xaFCFA565B8e00A3b3EB789dfa19261ed7DCA42C7": "20240223-composable-stable-pool-v6/MockComposableStablePool",
