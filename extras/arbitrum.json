@@ -65,7 +65,8 @@
   },
   "hidden_hand2": {
     "bribe_vault": "0x8d89593c199Cb763bDEF04529F978f82503E4669",
-    "aura_briber": "0x928b06229a3f4Bc7806d80Fe54e48E777BB74536"
+    "aura_briber": "0x928b06229a3f4Bc7806d80Fe54e48E777BB74536",
+    "bal_briber": "0xA8214b4Fb98936Ed45463956aFD24a862cC86Dc1"
   },
   "maxiVestingContracts": {
     "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce",
@@ -96,7 +97,9 @@
     "wstETH-ezETH_boost": "0xfcF293AFa58fa277935eddAa44E0f782EC41B09B"
   },
   "paladin": {
-    "QuestBoardV2Sidechain": "0x997523eF97E0b0a5625Ed2C197e61250acF4e5F1"
+    "QuestBoardV2Sidechain": "0x997523eF97E0b0a5625Ed2C197e61250acF4e5F1",
+    "DistributorV1": "0xB5757D5D93a26EaA3Bc6b0b25cb2364bE8d5b90E",
+    "DistributorV2": "0x5E90Fb83Bc3B733D028454f7372A80b2977d7e6a"
   },
   "circle": {
     "message_transmitter": "0xC30362313FBBA5cf9163F0bb16a0e01f01A896ca"
