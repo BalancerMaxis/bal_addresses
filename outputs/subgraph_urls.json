@@ -8,9 +8,7 @@
     }
   },
   "polygon": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-polygon-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-polygon-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-polygon/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/polygon-blocks/version/latest",
     "aura": {
@@ -28,9 +26,7 @@
     }
   },
   "optimism": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": {
@@ -46,7 +42,9 @@
     }
   },
   "zkevm": {
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/24660/balancer-polygon-zk-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-polygon-zk/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": {
