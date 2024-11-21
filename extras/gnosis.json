@@ -1,35 +1,35 @@
 {
-    "zero": {
-        "zero": "0x0000000000000000000000000000000000000000"
-    },
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
   "balancer": {
     "EventEmitter": "0xD8Bf95b44772213905A8A74881862347aCbaBC48"
   },
-    "tokens": {
-        "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
+  "tokens": {
+    "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
+  },
+  "mimic": {
+    "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
+    "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",
+    "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
+    "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
+    "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
+    "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
+  },
+  "chainlink": {
+    "keeper_registry_v2_1": "0x299c92a219F61a82E91d2062A262f7157F155AC1",
+    "keeper_registrar_v2_1": "0x0F7E163446AAb41DB5375AbdeE2c3eCC56D9aA32"
+  },
+  "maxiKeepers": {
+    "gaugeRewardsInjectors": {
+      "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
     },
-    "mimic": {
-        "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
-        "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",
-        "claimer": "0xdF818E63341767d5F5A9827088f1892e9C604A2D",
-        "bptSwapper": "0x6030331C9225Ee5ae3F3D08FBD19e8bF053dF498",
-        "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
-        "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
-    },
-    "chainlink": {
-        "keeper_registry_v2_1": "0x299c92a219F61a82E91d2062A262f7157F155AC1",
-        "keeper_registrar_v2_1": "0x0F7E163446AAb41DB5375AbdeE2c3eCC56D9aA32"
-    },
-    "maxiKeepers": {
-        "gaugeRewardsInjectors": {
-            "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
-        },
-      "injectorV2": {
-        "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-        "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
-      }
-    },
-    "stakewise": {
-        "SWISE_Distributor_SAFE": "0x5d1acdd0867d6F1FBe11ad8F1f48C87f19C0801E"
-      }
+    "injectorV2": {
+      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
+      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+    }
+  },
+  "stakewise": {
+    "SWISE_Distributor_SAFE": "0x5d1acdd0867d6F1FBe11ad8F1f48C87f19C0801E"
+  }
 }
