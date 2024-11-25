@@ -38,7 +38,6 @@
     "kyc_grant_safe": "0xb6BfF54589f269E248f99D5956f1fDD5b014D50e",
     "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
     "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
-
   },
   "optimism": {
     "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
