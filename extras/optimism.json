@@ -24,6 +24,9 @@
     "balancer_briber": "0xeA1aaC67b6Ad9005E1551A4085FfFE5aeF0F3f09",
     "aura_briber": "0x679c5C5828367db9005FdEa80faA45AE7B881791"
   },
+  "angle": {
+    "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+  },
   "maxiKeepers": {
     "gaugeRewardsInjectors": {
       "op": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
