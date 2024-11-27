@@ -122,6 +122,7 @@
   "0x79b131498355daa2cC740936fcb9A7dF76A86223": "multisigs/emergency",
   "0x7BBAc709a9535464690A435ca7361256496f13Ce": "EOA/maxiPay/factory",
   "0x7Da2bB31Cb168be60025f9122A95CBB3949e7E9e": "pools/50WETH-50MATIC-7da2",
+  "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4": "EOA/maxis/tritium-ops",
   "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17": "EOA/emergency/zendragon",
   "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE": "EOA/karpatkey/balancer_eoa",
   "0x809B79b53F18E9bc08A961ED4678B901aC93213a": "20220721-balancer-queries/BalancerQueries",
