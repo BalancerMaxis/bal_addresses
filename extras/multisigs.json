@@ -106,6 +106,7 @@
     "dao": "0x58099b94e660bBe19848547F6c5d76DcA7282E45"
   },
   "sepolia": {
-    "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce"
+    "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
+    "emergency": "0xb01D7bFE3C8c67A8E4e63895795f73CB3558b77e"
   }
 }
