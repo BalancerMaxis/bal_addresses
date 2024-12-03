@@ -140,6 +140,7 @@
   "0xa523f47A933D5020b23629dDf689695AA94612Dc": "20230711-composable-stable-pool-v5/ComposableStablePoolFactory",
   "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48": "20230410-silo-linear-pool-v2/MockSiloRepository",
   "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/contributors-payees/zekraken",
+  "0xb01D7bFE3C8c67A8E4e63895795f73CB3558b77e": "multisigs/emergency",
   "0xb19382073c7A0aDdbb56Ac6AF1808Fa49e377B75": "20220325-test-balancer-token/TestBalancerToken",
   "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f": "20220530-preseeded-voting-escrow-delegation/PreseededVotingEscrowDelegation",
   "0xb51f7fFc97CeDFb6922e8B9Bbf3eF7575fafD630": "20230316-l2-balancer-pseudo-minter/L2BalancerPseudoMinter",
