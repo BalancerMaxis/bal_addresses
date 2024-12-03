@@ -19,12 +19,12 @@ def main():
     # Get deployments
     active_deployments = []
     old_deployments = []
-    ls = sorted(os.listdir(f"{basepath}/tasks"))
+    ls = sorted(os.listdir(f"{basepath}/v2/tasks") + os.listdir(f"{basepath}/v3/tasks"))
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             active_deployments.append(path)
-
-    ls = sorted(os.listdir(f"{basepath}/tasks/deprecated"))
+    print(active_deployments)
+    ls = sorted(os.listdir(f"{basepath}/v2/deprecated") + os.listdir(f"{basepath}/v3/deprecated"))
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             old_deployments.append(path)
@@ -87,9 +87,9 @@ def process_deployments(deployments, old=False):
     for version in ["v2", "v3"]:
         for task in deployments:
             if old:
-                path = Path(f"{basepath}/{version}/tasks/{task}/output")
-            else:
                 path = Path(f"{basepath}/{version}/deprecated/{task}/output")
+            else:
+                path = Path(f"{basepath}/{version}/tasks/{task}/output")
             for file in list(sorted(path.glob("*.json"))):
                 chain = file.stem
                 if chain not in result.keys():

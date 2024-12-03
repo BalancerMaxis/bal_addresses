@@ -218,8 +218,8 @@
         "emergency": "0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D",
         "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
         "maxi_ops": "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "kyc_grant_safe": "0xb6BfF54589f269E248f99D5956f1fDD5b014D50e",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
       },
       "EOA": {
@@ -1597,7 +1597,7 @@
         "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
         "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
         "fees": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
       },
       "EOA": {
         "maxis": {
@@ -1824,7 +1824,8 @@
         },
         "injectorV2": {
           "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
-          "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB"
+          "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
+          "USDC-omnichain": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4"
         }
       },
       "chainlink": {
@@ -1937,7 +1938,7 @@
         "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
         "lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
         "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
       },
       "EOA": {
         "maxis": {
@@ -2731,7 +2732,7 @@
         "MockComposableStablePool": "0xA65bc2c42697494a53DC53bf1a45c9e72201467F"
       },
       "multisigs": {
-        "lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "emergency": "0xC66d0Ba27b8309D27cCa70064dfb40b73DB6de9E",
         "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
@@ -2997,7 +2998,7 @@
         "karpatkey": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
         "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
         "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "omnichain_dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
       "EOA": {
@@ -3706,13 +3707,13 @@
         "emergency": "0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888",
         "maxi_ops": "0x166f54F44F271407f24AA1BE415a730035637325",
         "maxi_team": "0x14EaC885d30a4A3e066bF9736BCfFd0B4A77aad4",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "blabs_ops": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B",
         "linearPoolController": "0x75a52c0e32397A3FC0c052E2CeB3479802713Cf4",
         "foundation_opco": "0x3B8910F378034FD6E103Df958863e5c684072693",
         "beets_service_provider": "0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
         "beets_treasury": "0xea06e1b4259730724885a39CE3ca670eFB020E26",
         "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
         "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
       },
@@ -5030,7 +5031,7 @@
         "MockComposableStablePool": "0xaFCFA565B8e00A3b3EB789dfa19261ed7DCA42C7"
       },
       "multisigs": {
-        "lm": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "emergency": "0x66C4b8Ba38a7B57495b7D0581f25784E629516c2",
         "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
@@ -5306,7 +5307,7 @@
         "lm": "0x09Df1626110803C7b3b07085Ef1E053494155089",
         "emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
         "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "beets_treasury": "0x2a185C8A3C63d7bFe63aD5d950244FFe9d0a4b60",
         "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
       },
@@ -5834,7 +5835,7 @@
         "feeManager": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
         "emergency": "0x3c58668054c299bE836a0bBB028Bee3aD4724846",
         "blabs_ops": "0xf9D6BdE5c2eef334AC88204CB2eEc07111DCBA97",
-        "vote_incentive_recycling": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+        "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
       },
       "EOA": {
         "maxis": {
@@ -7708,7 +7709,8 @@
         "MockComposableStablePool": "0x7b0d669142FEDe0eB9065E3B9140a7c90a934a27"
       },
       "multisigs": {
-        "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce"
+        "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
+        "emergency": "0xb01D7bFE3C8c67A8E4e63895795f73CB3558b77e"
       },
       "EOA": {
         "maxis": {
