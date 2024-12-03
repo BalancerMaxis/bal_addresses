@@ -24,7 +24,10 @@ def main():
         if bool(re.search(r"^\d{8}", path)):
             active_deployments.append(path)
     print(active_deployments)
-    ls = sorted(os.listdir(f"{basepath}/v2/deprecated") + os.listdir(f"{basepath}/v3/deprecated"))
+    ls = sorted(
+        os.listdir(f"{basepath}/v2/deprecated")
+        + os.listdir(f"{basepath}/v3/deprecated")
+    )
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             old_deployments.append(path)
