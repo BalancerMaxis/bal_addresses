@@ -84,21 +84,22 @@ def main():
 
 def process_deployments(deployments, old=False):
     result = {}
-    for task in deployments:
-        if old:
-            path = Path(f"{basepath}/tasks/deprecated/{task}/output")
-        else:
-            path = Path(f"{basepath}/tasks/{task}/output")
-        for file in list(sorted(path.glob("*.json"))):
-            chain = file.stem
-            if chain not in result.keys():
-                result[chain] = {}
-            if task not in result[chain].keys():
-                result[chain][task] = {}
-            with open(str(file), "r") as f:
-                data = json.load(f)
-            for contract, address in data.items():
-                result[chain][task][contract] = address
+    for version in ["v2", "v3"]:
+        for task in deployments:
+            if old:
+                path = Path(f"{basepath}/{version}/deprecated/{task}/output")
+            else:
+                path = Path(f"{basepath}/{version}/{task}/output")
+            for file in list(sorted(path.glob("*.json"))):
+                chain = file.stem
+                if chain not in result.keys():
+                    result[chain] = {}
+                if task not in result[chain].keys():
+                    result[chain][task] = {}
+                with open(str(file), "r") as f:
+                    data = json.load(f)
+                for contract, address in data.items():
+                    result[chain][task][contract] = address
     return result
 
 
