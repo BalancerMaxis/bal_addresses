@@ -87,9 +87,9 @@ def process_deployments(deployments, old=False):
     for version in ["v2", "v3"]:
         for task in deployments:
             if old:
-                path = Path(f"{basepath}/{version}/deprecated/{task}/output")
+                path = Path(f"{basepath}/{version}/tasks/{task}/output")
             else:
-                path = Path(f"{basepath}/{version}/{task}/output")
+                path = Path(f"{basepath}/{version}/deprecated/{task}/output")
             for file in list(sorted(path.glob("*.json"))):
                 chain = file.stem
                 if chain not in result.keys():
