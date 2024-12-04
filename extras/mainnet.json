@@ -193,7 +193,10 @@
     "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a"
   },
   "gyro": {
-    "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2"
+    "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2",
+    "AssociatedDAOVault": "0xA2321E23B3060e160195E138b62F8498546B0247",
+    "zen_dragon_delegate": "0x25B70c8050B7e327Ce62CfD80A0C60cCcf057Fa6",
+    "defi_naly_delegate": "0x29430750d7c3Ff58c9615490485deA50bdFD15f7"
   },
   "aave": {
     "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
