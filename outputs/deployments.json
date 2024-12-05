@@ -558,6 +558,13 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x47B489bf5836f83ABD928C316F8e39bC0587B020",
         "MockComposableStablePool": "0x5d98909Aa2b3d964907B3735597F47E06b04D8b4"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
       }
     },
     "mainnet": {
@@ -722,6 +729,13 @@
       "20240522-fraxtal-root-gauge-factory": {
         "OptimisticRootGaugeFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
         "OptimisticRootGauge": "0x37302B98918382c43a176e5f3Bc7B11448cC6498"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
       }
     },
     "mode": {
@@ -1147,6 +1161,13 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
         "MockComposableStablePool": "0x7b0d669142FEDe0eB9065E3B9140a7c90a934a27"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
       }
     },
     "zkevm": {
