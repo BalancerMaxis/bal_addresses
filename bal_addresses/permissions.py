@@ -60,10 +60,35 @@ class BalPermissions:
             results.append(result)
         return Munch.fromDict(results)
 
+    def search_many_paths_by_unique_deployment_strict(
+        self, deployment_substr, fx_substr
+    ) -> list[dict[str, str]]:
+        a = AddrBook(self.chain)
+        results = []
+        deployment = a.search_unique_deployment_strict(deployment_substr)
+        deployment_fxs = self.search_path(deployment.deployment)
+        search = [s for s in deployment_fxs if fx_substr == s]
+        for r in search:
+            result = Munch.fromDict({"path": r, "action_id": self.action_id_by_path[r]})
+            results.append(result)
+        return Munch.fromDict(results)
+
     def search_unique_path_by_unique_deployment(
         self, deployment_substr, fx_substr
     ) -> dict[str, str]:
         results = self.search_many_paths_by_unique_deployment(
+            deployment_substr, fx_substr
+        )
+        if len(results) > 1:
+            raise MultipleMatchesError(f"{fx_substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise NoResultError(f"{fx_substr}")
+        return results[0]
+
+    def search_unique_path_by_unique_deployment_strict(
+        self, deployment_substr, fx_substr
+    ) -> dict[str, str]:
+        results = self.search_many_paths_by_unique_deployment_strict(
             deployment_substr, fx_substr
         )
         if len(results) > 1:
