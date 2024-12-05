@@ -3002,6 +3002,14 @@
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
       },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockWeightedPool": "0xd43c36038250c66D46854e536Bf959fdDE5294c3"
+      },
       "multisigs": {
         "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
         "dao": "0x2a5AEcE0bb9EfFD7608213AE1745873385515c18",
@@ -3523,7 +3531,10 @@
         "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a"
       },
       "gyro": {
-        "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2"
+        "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2",
+        "AssociatedDAOVault": "0xA2321E23B3060e160195E138b62F8498546B0247",
+        "zen_dragon_delegate": "0x25B70c8050B7e327Ce62CfD80A0C60cCcf057Fa6",
+        "defi_naly_delegate": "0x29430750d7c3Ff58c9615490485deA50bdFD15f7"
       },
       "aave": {
         "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
@@ -3716,6 +3727,14 @@
         "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
+        "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockWeightedPool": "0x527d0E14acc53FB040DeBeae1cAb973D23FB3568"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -6001,7 +6020,6 @@
         "5wstETH-90AAVE-5MaticX-061b": "0x061b1bEF03E5ba324ea46dfA87fC1CE646cf6c64",
         "6wstETH-16WMATIC-8WBTC-8oRETRO-6stMATIC-8SP-8WETH-40STARV3/V-R44/StarSeeds_Protocol-061d": "0x061dffA319C0fF4A97eaAccdb723CF4f7513Ca02",
         "25WMATIC-25USDC-25WETH-25BAL-0656": "0x065636bE4325510D85176e12E1DFf26ef556C42e",
-        "50CRV-50QUICK-06b4": "0x06b4007E0d903c8187E1f9eE6daEF6695C42b0BE",
         "1USDC-4DAI-4USDT-1USDT-06bb": "0x06bBAfcb68C94AcdAb52d32B36dff09B7cEe5d09",
         "STARV2-wstETH-FBX-EP/Arbitrage/StarSeeds_Protocol-06c4": "0x06C4342D2C5Cd8ad26fE92b22789c2DA6dCf683C",
         "STARV3-oRETRO/Volume&Growth-V4/StarSeeds_Protocol-06d7": "0x06D78cb8eF46174C379Fd3433A7fb3D6Eb042D61",
@@ -7736,6 +7754,14 @@
         "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
+        "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C",
+        "MockWeightedPool": "0xFc253B433B7225AC7736EAbDF4115F7252aECb91"
       },
       "multisigs": {
         "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",

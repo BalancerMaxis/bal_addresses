@@ -565,6 +565,14 @@
         "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockWeightedPool": "0xd43c36038250c66D46854e536Bf959fdDE5294c3"
       }
     },
     "mainnet": {
@@ -736,6 +744,14 @@
         "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
+        "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockWeightedPool": "0x527d0E14acc53FB040DeBeae1cAb973D23FB3568"
       }
     },
     "mode": {
@@ -1168,6 +1184,14 @@
         "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
         "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
         "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
+        "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C",
+        "MockWeightedPool": "0xFc253B433B7225AC7736EAbDF4115F7252aECb91"
       }
     },
     "zkevm": {
