@@ -294,8 +294,31 @@ class AddrBook:
             {"path": results[0], "address": self.flatbook[results[0]]}
         )
 
+    def search_unique_strict(self, substr):
+        results = [s for s in self.flatbook.keys() if substr == s]
+        if len(results) > 1:
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise NoResultError(f"{substr}")
+        return Munch.fromDict(
+            {"path": results[0], "address": self.flatbook[results[0]]}
+        )
+
     def search_unique_deployment(self, substr):
         results = [s for s in self.deployments_only.keys() if substr in s]
+        if len(results) > 1:
+            raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
+        if len(results) < 1:
+            raise NoResultError(f"{substr}")
+        return Munch.fromDict(
+            {
+                "deployment": results[0],
+                "addresses_by_contract": self.deployments_only[results[0]],
+            }
+        )
+
+    def search_unique_deployment_strict(self, substr):
+        results = [s for s in self.deployments_only.keys() if substr == s]
         if len(results) > 1:
             raise MultipleMatchesError(f"{substr} Multiple matches found: {results}")
         if len(results) < 1:
