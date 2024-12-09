@@ -14,6 +14,7 @@ def main():
     # dump the collected dict to json file
     with open("outputs/core_pools.json", "w") as f:
         json.dump(core_pools, f, indent=2)
+        f.write("\n")
 
 
 if __name__ == "__main__":
