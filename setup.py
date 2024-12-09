@@ -20,7 +20,7 @@ setup(
         "setuptools>=42",
         "wheel",
         "pathlib>=1.0",
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@f9d5ee4622a8b7e949155ec380e12958a965facc",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.14",
         "requests",
         "pandas",
         "web3",
