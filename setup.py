@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.10"
+VERSION = "0.9.12"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -20,7 +20,7 @@ setup(
         "setuptools>=42",
         "wheel",
         "pathlib>=1.0",
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.12",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@v0.1.14",
         "requests",
         "pandas",
         "web3",
