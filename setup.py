@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.10"
+VERSION = "0.9.12"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -20,7 +20,7 @@ setup(
         "setuptools>=42",
         "wheel",
         "pathlib>=1.0",
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@ci/dependabot-add-pip",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@f9d5ee4622a8b7e949155ec380e12958a965facc",
         "requests",
         "pandas",
         "web3",
