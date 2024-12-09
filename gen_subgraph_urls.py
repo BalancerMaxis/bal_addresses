@@ -35,6 +35,7 @@ def main():
     # dump the collected dict to json file
     with open("outputs/subgraph_urls.json", "w") as f:
         json.dump(urls, f, indent=2)
+        f.write("\n")
 
 
 if __name__ == "__main__":

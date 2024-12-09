@@ -111,10 +111,13 @@ def main():
     # dump all collected dicts to json files
     with open(f"outputs/pools.json", "w") as f:
         json.dump(pools, f, indent=2)
+        f.write("\n")
     with open("outputs/gauges.json", "w") as f:
         json.dump(gauges, f, indent=2)
+        f.write("\n")
     with open("outputs/root_gauges.json", "w") as f:
         json.dump(root_gauges, f, indent=2)
+        f.write("\n")
 
 
 if __name__ == "__main__":

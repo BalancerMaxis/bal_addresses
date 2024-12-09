@@ -54,6 +54,7 @@ def generate_chain_files(chain):
     permissions = build_chain_permissions_list(chain)
     with open(f"outputs/permissions/active/{chain}.json", "w") as f:
         json.dump(permissions, f, indent=2)
+        f.write("\n")
 
 
 def main():
