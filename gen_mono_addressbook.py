@@ -24,7 +24,10 @@ def main():
         if bool(re.search(r"^\d{8}", path)):
             active_deployments.append(path)
     print(active_deployments)
-    ls = sorted(os.listdir(f"{basepath}/v2/deprecated") + os.listdir(f"{basepath}/v3/deprecated"))
+    ls = sorted(
+        os.listdir(f"{basepath}/v2/deprecated")
+        + os.listdir(f"{basepath}/v3/deprecated")
+    )
     for path in ls:
         if bool(re.search(r"^\d{8}", path)):
             old_deployments.append(path)
@@ -35,6 +38,7 @@ def main():
     results = {"active": active, "old": old}
     with open("outputs/deployments.json", "w") as f:
         json.dump(results, f, indent=2)
+        f.write("\n")
     ### Add extras
     for chain in active.keys():
         with open("extras/multisigs.json", "r") as f:
@@ -80,6 +84,7 @@ def main():
     results = {"active": active, "old": old}
     with open("outputs/addressbook.json", "w") as f:
         json.dump(results, f, indent=2)
+        f.write("\n")
 
 
 def process_deployments(deployments, old=False):
