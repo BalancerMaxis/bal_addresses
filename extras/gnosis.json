@@ -26,7 +26,9 @@
     },
     "injectorV2": {
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
+      "USDC": "0xfa7b21b30325dbbd4a71ee2b2ede74a7d8a2c0e4",
+      "USDC.e": "0x4ac87aea2a3a99f34fec78a6a73bc495893b2838"
     }
   },
   "stakewise": {
