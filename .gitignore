@@ -4,3 +4,4 @@ __pycache__/
 .env
 Pipfile*
 .pytest_cache
+.DS_Store
