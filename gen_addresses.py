@@ -15,8 +15,10 @@ def write_addressbooks(chainlist=AddrBook.chain_ids_by_name.keys()):
         flatbook = AddrBook(chain).generate_flatbook()
         with open(f"outputs/{chain}.json", "w") as f:
             json.dump(dict(sorted(flatbook.items())), f, indent=2)
+            f.write("\n")
         with open(f"outputs/{chain}_reverse.json", "w") as f:
             json.dump(reverse_dict(flatbook), f, indent=2)
+            f.write("\n")
 
 
 def main():
