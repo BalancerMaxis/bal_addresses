@@ -60,6 +60,7 @@
     "sfrxETH/cbETH-base-root-3cff": "0x3cffb5d5db1da8aa58908e54c03a7f8a7edb233c",
     "bpt-weethwsteth-optimism-root-3db8": "0x3db8e1ffe58ea99939efaef084ca23cc0195b531",
     "Balancer 50wstETH-50GNO -gnosis-root-3f72": "0x3f72e4ff37fcb27260426497a23dfb7610a869ca",
+    "50waWstETH-50waGNO-gnosis-root-40b0": "0x40b04058ff35fd3164e6cc66c4e6398c1e5e68c8",
     "staBAL3-WETH-WBTC-BPT-gnosis-root-41a8": "0x41a8243656bcf628ac92189558f70d371dd08b4e",
     "USDe/USDC-arbitrum-root-41de": "0x41de33d3b227677af277b6c29cb2545195df508c",
     "50WETH/50-4Pool-arbitrum-root-4215": "0x4215a70b944ffae8d8db3c9d5d73749370372387",
@@ -80,6 +81,7 @@
     "ECLP-sUSDe-GYD-arbitrum-root-5a47": "0x5a47e3f2e5009168af11c4b0198605f694805779",
     "gUSDC/USDC-arbitrum-root-5a48": "0x5a482e8478d63219bc33c7f1d7cdb599039abad7",
     "50DFX-50WETH-arbitrum-root-5b00": "0x5b006e53df539773e109dbbf392deff6e87e2781",
+    "aGNO/sDAI-gnosis-root-5c36": "0x5c36197a631649441649028110fa503a3be00162",
     "sFRAX/sfrxETH-fraxtal-root-5f0a": "0x5f0a99997ab2acc5097dc5349adf6985761336ac",
     "USDX/USDT-arbitrum-root-5f24": "0x5f244e8ac0ff2d2af14368fd8efd1e508a50cf68",
     "50WMATIC-50PORIGON-polygon-root-5fde": "0x5fdecb3baa4d12ac1190df57c3c8347ccb0c4432",
@@ -93,6 +95,7 @@
     "ankrETH/wstETH-BPT-arbitrum-root-671e": "0x671ed21480acf63b0ab7297b901505f5bccafa9b",
     "axlBAL/BAL-base-root-6731": "0x67313e858fb87cc4b30ad56b6b461d7450738950",
     "B-50sDAI-50wstETH-gnosis-root-6994": "0x6994e2055793fa2564b6758f4a0eea7750130a58",
+    "50bCSPX-50sDAI-gnosis-root-6a0c": "0x6a0cb0f906e69b5442f1e93263baaa6d12098878",
     "bpt-ethtri-optimism-root-6a2c": "0x6a2c2d4502335638d2c2f40f0171253fb2c2db88",
     "sUSDe/USDC-arbitrum-root-6a8b": "0x6a8b6f0177e273600c6bae84da3a9a3c8b29d778",
     "jitoSOL/wstETH-arbitrum-root-6bf6": "0x6bf6fb94027fde38b40c7adc154aa32c36174c8e",
@@ -104,6 +107,7 @@
     "USDC/USDT/DAI-polygon-root-73d6": "0x73d636e92b0f598252cc5fc916af132ea601d8cf",
     "jitoSOL/wSOL-arbitrum-root-7542": "0x7542967f91fd6ee8433a41b22c2be8972a002ca5",
     "2CLP-AUSDC-USDC-arbitrum-root-75ba": "0x75ba7f8733c154302cbe2e19fe3ec417e0679833",
+    "BRLA-sDAI-gnosis-root-7632": "0x7632c11c49e6091504bb0395c0c81c8be48f4a8c",
     "osGNO/GNO-BPT-gnosis-root-77be": "0x77be4d39598962210b702514219fbca4a6dc77ba",
     "33VCHF-33sAVAX-33VEUR-avalanche-root-78b6": "0x78b67fdb0613bfd7063c030d9b2a0766a8fdd5e8",
     "ECLP-WETH-USDC-base-root-7c2b": "0x7c2b79cdb3a258c9361c624b6023472154c0410f",
@@ -237,6 +241,7 @@
     "bb-WETH-wstETH-gnosis-root-f8c8": "0xf8c85bd74fee26831336b51a90587145391a27ba",
     "2CLP-AUSDT-USDT-arbitrum-root-f937": "0xf937bf168b33d8d10d555e9a039ec1b8e4c543d1",
     "bpt-wrseth-wsteth-optimism-root-f99b": "0xf99b2f358efec751a9071f30e541ab6c42c25b93",
-    "ECLP-GYD-AUSDC.e-gnosis-root-fa2f": "0xfa2f6be7cf4da6fae6a011a4efc53180c9cf0a1b"
+    "ECLP-GYD-AUSDC.e-gnosis-root-fa2f": "0xfa2f6be7cf4da6fae6a011a4efc53180c9cf0a1b",
+    "waWstETH-waWETH-gnosis-root-fd15": "0xfd151734ffc9a4a55c50fed4b66c15b06bbb390b"
   }
 }
