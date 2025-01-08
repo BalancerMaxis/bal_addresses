@@ -221,6 +221,8 @@
   },
   "stake_dao": {
     "delegation_address": "0x52ea58f4FC3CEd48fa18E909226c1f8A0EF887DC",
+    "sdBAL_vesting_factory": "0x032007EC766D7fD0061d20aC9130894878433bd0",
+    "sdBAL_vester_test": "0x8aB61e36265c162345b60cBAC8517e7d5dCE8381",
     "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
     "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859"
   },
