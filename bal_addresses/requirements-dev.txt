@@ -1,5 +1,5 @@
 pytest-mock
 responses
 pytest-cov
-pytest==7.4.0
+pytest==8.3.4
 black==24.3.0
