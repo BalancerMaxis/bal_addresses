@@ -16,6 +16,7 @@
     "beets_treasury": "0xea06e1b4259730724885a39ce3ca670efb020e26",
     "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597",
     "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
+    "aura_service_provider": "0x59e6749Dc4FF4375B30316cD0d34B15BEFc6c652",
     "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
   },
   "polygon": {
