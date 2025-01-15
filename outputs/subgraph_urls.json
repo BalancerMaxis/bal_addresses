@@ -1,8 +1,6 @@
 {
   "mainnet": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": {
@@ -86,6 +84,7 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
+  "sonic": {},
   "fraxtal": {
     "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/latest/gn",
     "gauges": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-gauges-fraxtal/latest/gn",
