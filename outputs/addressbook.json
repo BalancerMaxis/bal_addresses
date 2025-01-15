@@ -230,8 +230,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -246,7 +245,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -300,8 +298,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -442,7 +443,6 @@
         "RDNT-WETH-19a1": "0x19A13793af96f534F0027b4b6a3eB699647368e7",
         "50PRF-50USDC-19ad": "0x19AD01cDc68d831F8E97A2CF9f552D16315eF175",
         "PUPPET-WETH-19da": "0x19da41A2ccd0792b9b674777E72447903FE29074",
-        "pupupopo-1a15": "0x1A1535fb77ecB360F472747bEEd9D7303B11DfF6",
         "50ARB-50DAI-1a97": "0x1A971237d0CEFD78467287550122E02C8eDA7A04",
         "50BANANIA-20WETH-10agEUR-10rETH-5BTC.b-5USDT-1ab3": "0x1ab34f24B5b8F6984f521A20aFBa7C38Dd8DE5Fe",
         "PMM - DAI/USDC-1b25": "0x1B2554012e69b5D14056a8B80aF5c1274Ec9f7dA",
@@ -500,7 +500,6 @@
         "80xFORTUN-20FORTUN-29cc": "0x29CC3af7ed299866a4ee3eCBdE4b48BD1eCCFF9c",
         "50AURA-50WETH-2a35": "0x2a352b69B8187B77f6AD2718a49138bb80251dd9",
         "$aKKF-2ae2": "0x2Ae2BAeeC8Ccd16075d821832fFEe9172bAE3676",
-        "B-wstETH-WETH-Stable-2b2d": "0x2b2DA14C95B6DD31851Bd2993CD11BdDBE5510F6",
         "50LINK-50USDC-2b64": "0x2b6423925619eE954a48330e6a581C753aDCeca5",
         "ECLP-GHO-USDe-2b78": "0x2B783cD37774BB77d387D35683e8388937712f0a",
         "Symbol-2b8e": "0x2B8Efaa986E977a53De9c4041820b7f04c834666",
@@ -542,7 +541,6 @@
         "50RDNT-50WETH-31bd": "0x31bDcC600c46837596f859181AE1B71e7743F189",
         "50MAGIC-50wstETH-320e": "0x320eB58F97b9872FEfED670fC8db504667468662",
         "50WETH-50VSTA-322c": "0x322ca68e7379E099477A87Ca935f6D066275F26D",
-        "BCoW-50COW-50USDC-3252": "0x3252f34abe02C33CC973da783705F18BA6f97Cbd",
         "50RDNT-50WETH-3275": "0x327507245A65E24388c3c1a4AA3e1647886c668E",
         "50VSTA-50GMX-328d": "0x328d8d311Dbfa034947648E5144593AF3Ed55a11",
         "50wstETH-50WETH-329a": "0x329aa019aE4DaB37C77b7268Cd40d0ea262B4c17",
@@ -612,7 +610,6 @@
         "DOLA/bbaUSD-BPT -418d": "0x418dE00Ae109e6f874D872658767866d680eAA19",
         "BCoW-50WBTC-50wstETH-41f4": "0x41F4Dcc8c4F6a2A43EB69A4d9f6c1385446cB64d",
         "4POOL-BPT-423a": "0x423A1323c871aBC9d89EB06855bF5347048Fc4A5",
-        "\u27e0\u00b9\u00b9\u2070-426f": "0x426FFeCdEc0E15553701215143929FCF6814db1F",
         "50USDT-50USDC-4279": "0x427953E480a51cc397E3d7022C17665FA6eE32bC",
         "ECLP-MORE-GYD-4284": "0x4284c68f567903537E2d9Ff726fdF8591E431DDC",
         "50GMX-50USDC-429c": "0x429C7b5173aE85B4Cc72777524d40055a78C1028",
@@ -745,6 +742,7 @@
         "GMX_LBP-646e": "0x646eCa7369C13Ef9136F6AFa15A7e8329A4c91f2",
         "80AURA-20WETH-64ab": "0x64ABEAe398961c10cBB50eF359f1dB41fc3129ff",
         "B-80LINK-20WETH-651e": "0x651e00FfD5eCfA7F3d4F33d62eDe0a97Cf62EdE2",
+        "tETH/wstETH-65c2": "0x65c2d90b33F7bf693A7EF54662435f2Cf3251C21",
         "2CLP-AUSDC-USDC-65d8": "0x65D842eF3BE1076677DD9d78bd0ed92DcDEAdE04",
         "50VSTA-50LINK-65ff": "0x65Ff139Cb6eD328ff05F62cf6fAfe419829Be22c",
         "RealYield-65ff": "0x65Fff6d24ec5A4F2dB2BC3B354EEC833226593D9",
@@ -1180,6 +1178,7 @@
         "50wstETH-50WETH-dc37": "0xDc37AA16C59Ab9243202ee986B9a926709e7a01e",
         "uL1s-USDT-dc4b": "0xDc4bbB8928e97E913ba13f6a737caA45e8070E7d",
         "50VSTA-50DUSD-dcc4": "0xDCC497412c767B8485C224584955b774eebB312a",
+        "BCoW-80USDC-20WETH-dd2f": "0xDD2F14e9d346473236c4e41C4D360D72a84d0BA2",
         "50DAI-50DUSD-dd30": "0xDD3054cC8ec97Aa5293B8D3a9aEcd5A0864EFE95",
         "uMETIS-ddee": "0xdDeeD1A20169658c1F20F338b8158E89c78a0C22",
         "33FRY-33WETH-33DAI-deb3": "0xDEB317eCdac19DE9dd342f46D2A6D3a578Bed521",
@@ -1368,6 +1367,7 @@
         "50ANKR/50ankrETH-gauge-4d04": "0x4D0481dF5257d47560F036cFA5580Bc022ee9A91",
         "RDNT-WETH-gauge-4e64": "0x4E646F5d5ec30F8A09a9C9d7960989DCF4C426B5",
         "80GMX-20WETH-gauge-4fd6": "0x4Fd63966879300caFafBB35D157dC5229278Ed23",
+        "ECLP-WETH-USDC-gauge-5092": "0x50927cC8E5F6DdC4c5302df0158bCdF16E7E9833",
         "ECLP-GYD-USDC-gauge-5712": "0x571257922a187908052B80BFd4F771b2d3b1F801",
         "50DFX-50WETH-gauge-574c": "0x574c2146091Cced305A7ABa82d097DE36b736fac",
         "rsETH/wETH-gauge-5990": "0x59907f88C360D576Aa38dba84F26578367F96b6C",
@@ -1445,6 +1445,7 @@
         "50STG-50USDC-gauge-c422": "0xC422B5407C7717a3259A59738E05e74d6AA3302A",
         "80Y2K-20WETH-gauge-c718": "0xC7188b7779feB7DBDeD3913F3671188491cb61B3",
         "USDe/USDC-gauge-c76b": "0xc76bCF2221a1Be984FeA73E12429302AfC70feb2",
+        "tETH/wstETH-gauge-c799": "0xc7995A4bA51574Ecd93e777cded6900ce42ff805",
         "B-80TCR-20WETH-gauge-cb17": "0xCB17cf67e2abEC4220E57529ED9F11fCD1a47377",
         "wUSDL/GHO-gauge-cc01": "0xcC014e60585259dA1C8501b00789521659e7a4fC",
         "ECLP-MORE-GYD-gauge-ce1c": "0xcE1Ca8DDECCb3a2cD7fb1244C90f91Ee6A926f47",
@@ -1629,8 +1630,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -1645,7 +1645,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -1699,8 +1698,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -1744,6 +1746,7 @@
         "80WAVAX-20USDC-2476": "0x24760C9090EafeD160209fd012eb583ae5Df72bB",
         "33XPOW-33APOW-33WAVAX-26f2": "0x26f28215c57dC22560be2efB09e784892802eb02",
         "LP-VEUR-USDC-28f3": "0x28F3a9e42667519c83cB090b5c4f6bd34e9F5569",
+        "ECLP-ggAVAX-WAVAX-rh-296d": "0x296DF277579B38db06Fe5bDF179252f983672D6D",
         "LOL_LBP-32f0": "0x32F0DC9E2D890BAC95106a65eB82db70Bc58BaDB",
         "80BETS/20sAVAX-3396": "0x3396cCA90c9335565ECDBAE3a260daFB13A7959e",
         "50BTC.b-50USDC-3441": "0x3441A6f48f0F5a1aDa460885dF5B461deB2EE494",
@@ -1817,6 +1820,7 @@
         "AFCC-gauge-72dd": "0x72dD9b41FEc59cf58140cAb9C92CEfC8F212354D",
         "USDC-USDT-BPT-gauge-74ab": "0x74AbfE305bc0D729f29a2da26C5b7EF0BD1e3A8C",
         "50BTC.b-50bb-a-USD-gauge-87ed": "0x87Ed7550F24051b6A9E95513BB9665242D8167A6",
+        "ECLP-ggAVAX-WAVAX-rh-gauge-8fff": "0x8fff0bD6CadEBE9b36f42876727D9E30c76Fba02",
         "33VCHF-33sAVAX-33VEUR-gauge-a18d": "0xA18D642AF6fAbFbb8B9b24d93aC12114768A2538",
         "ECLP-sAVAX-WAVAX-rh-gauge-b4ef": "0xB4EFa48F32ba11dEeaaB9fcc0C2f29e91381705D",
         "ECLP-GYD-USDC-rh-gauge-c1d6": "0xC1d68db49B7C0615252AbC4ae86f224F75512Ff4",
@@ -1971,8 +1975,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -1987,7 +1990,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -2041,8 +2043,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -2145,6 +2150,7 @@
         "25cbETH-25SNUT-25NUT-25cbBTC-2a57": "0x2A5757b60987FF10385De1D4D923792f6fdCfFf1",
         "50WETH-50USDC-2acd": "0x2AcDFbB6418D4c73fB0941b817285E78BEcd6B7E",
         "MOREUSDC-2ae2": "0x2AE2fd72448afC7B29955f48f63b96cD6Cd72C2D",
+        "BCoW-50Mog-50cbETH-2c69": "0x2C69a3C9D9BD7e163995b4A70b40a4df6C31ef01",
         "51WETH-49USDC-2cdb": "0x2cdb094493b51C849EA9b0b11c90A5Df3F7cb787",
         "50OLAS-50WETH-2da6": "0x2da6e67C45aF2aaA539294D9FA27ea50CE4e2C5f",
         "BPT-50STABAL3-50WETH-2db5": "0x2Db50a0e0310723EF0C2a165CB9A9f80D772ba2F",
@@ -2342,6 +2348,7 @@
         "50USDbC-50axlUSDC-b47f": "0xb47fF49915A82c64899a821e11256Ba3Ec87aE80",
         "ECLP-USDT-GYD-b5ea": "0xB5eA08A3cB962B50474F5EDB3c38Cb4b2715b90d",
         "50BAL-50axlUSDC-b79e": "0xB79e50c4C4aDE28DF004cD552ECf8435DB56162D",
+        "ECLP-EURC-USDC-b7cf": "0xB7CfEd5e514f10b4Ed1dC0cc793E96B9eC830782",
         "50cbETH-50WETH-b877": "0xB8773Cd299B5e1319f6d06FE76F6d94e7b17c4ab",
         "50WETH-50USDC-b88b": "0xB88Bb8Ad8489f57d044C0ff9AAB490f9e8247205",
         "50WETH-50USDbC-b990": "0xb990D647787F702E384FB178ffd3C3f30196E51A",
@@ -2443,6 +2450,7 @@
         "cbETH/WETH-gauge-1e84": "0x1E8448976bD7D403e32304aEbe8b64c4A1fa7Ee8",
         "cbETH/WETH-gauge-2279": "0x2279abf4bdAb8CF29EAe4036262c62dBA6460306",
         "STG-USDbC-BPT-gauge-22df": "0x22df11c7Bc3cc80470D377010aA49d6Ef16688c6",
+        "ECLP-cbBTC-WETH-gauge-2477": "0x247775fC4046A648F01C4E4fdBF000b871501Af2",
         "80OVN/20wUSD+-gauge-2980": "0x29804db13E6032F41Fd926BEbd2981C4a549Fd18",
         "USDC/USDbC/axlUSDC-gauge-29b0": "0x29B0C494eD7d098F4930428F115DcAf42a92392b",
         "80OVN/20wUSD+-gauge-309b": "0x309B2b4549be6821b735E86B47DF3bEA1a7f6b08",
@@ -2470,6 +2478,7 @@
         "80SIS-20WETH-gauge-b4ad": "0xb4AD377Db4B6cd486CE22c2fE273096F50A47993",
         "USDbC/tUSDbC-gauge-c3e9": "0xc3E93F5Fa99Fb05aBB3a4a274D8B7e026f78A5c6",
         "BPT-stabal3-gauge-c97f": "0xC97fa65107AE7b94FB749cF05abb01005c14351E",
+        "ECLP-EURC-USDC-gauge-d6f5": "0xd6F568817288309cB11E07867110F2fe256fC619",
         "50GOLD/25WETH/25USDC-gauge-dae8": "0xdAe8AC766eB1c4Bb76Bc814FdE22AC46F467C51b",
         "50WETH-50GOLD-gauge-e2f2": "0xe2f2AED19fa245AFf66342c2b849BE6f411fB28f",
         "rETH-WETH-BPT-gauge-edea": "0xEdEa3E93b914E2654F8c7e0C2bb5E6205f9742b0",
@@ -2560,8 +2569,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -2576,7 +2584,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -2630,8 +2637,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -2784,8 +2794,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -2800,7 +2809,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -2854,8 +2862,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -3075,7 +3086,7 @@
         "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
         "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
         "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
-        "omnichain_dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
+        "dao_omni": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
       "EOA": {
         "maxis": {
@@ -3084,8 +3095,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -3100,7 +3110,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -3154,8 +3163,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -3190,6 +3202,7 @@
         "B-50wstETH-25BAL-25AURA-00df": "0x00dF7f58e1Cf932eBe5f54De5970Fb2Bdf0ef06D",
         "33WETH-33USDC-33WXDAI-013f": "0x013Fdedd2bD8a49D6EC9447125BF32dab2F5648e",
         "50WETH-50HOP-026e": "0x026e352458409dB7113CDa942149C1E19693AC80",
+        "circlesBackingLBP-s-CRC-02dd": "0x02ddfbd01b55fA23297F13dFd7b0022Fabf81e91",
         "80GROSH-20sDAI-0310": "0x031032eF4c0c9dc9710DAca530DE284c609e7aEE",
         "ECLP-sDAI-AUSDC-0452": "0x045200C6077f105023000D803F3F95B16B187D70",
         "wxdaiusdcweighted-0503": "0x0503Dd6b2D3Dd463c9BeF67fB5156870Af63393E",
@@ -3225,6 +3238,7 @@
         "50bNVDA-50sDAI-31a4": "0x31A43002E60D4B66084f4cC4E68585358c362b44",
         "osGNO/GNO-BPT-3220": "0x3220C83e953186f2B9dDFc0B5dD69483354EDCA2",
         "60REG-20sDAI-20USDC-327e": "0x327e7Fd9C7fd521305d35C513cE2E561F3C3126c",
+        "circlesBackingLBP-s-CRC-3299": "0x329904657c40b10e759b19956eB6a0517B6D1B45",
         "50USDC-50WXDAI-3306": "0x3306f9356f6645BeDd7Dc3803bd6872dFd48f058",
         "13REG-13staBAL3-13wstETH-13WBTC-13GNO-13sDAI-13OLAS-13WXDAI-333c": "0x333c19b134553Fdc75b2E252b7f56DD3ec34c1f9",
         "50MIVA-50GNO-360b": "0x360B4Ff22b268Af38Ced941193e48d183b924a95",
@@ -3234,6 +3248,7 @@
         "50SAFE-50OLAS-3b28": "0x3b28e683d0f7012e3194D2dbC0247D227b859B00",
         "50WETH-50EURe-3b7f": "0x3B7F9B579cb50B00bDb71672fA1a26F6EAdA9114",
         "B-50USD-50wstETH-3f3d": "0x3f3df4dEeE2067e7972d436980D2887103a3ED4d",
+        "50waGnoUSDCe-50s-HDGDL-3ffe": "0x3Ffea21B2f44FAfd6938E3946005c8f4a12988b7",
         "80WETH-20WXDAI-440d": "0x440dfa59B820e07677f4CBA29d64755Eb1c9508E",
         "20osGNO-80SWISE-4665": "0x4665228B80cF5cD016277157237c40b6d7bd2c65",
         "B-50wstETH-50GNO-4683": "0x4683e340a8049261057D5aB1b29C8d840E75695e",
@@ -3277,6 +3292,7 @@
         "50USDT-50WETH-7bcc": "0x7bCC01Ba7242E73CB5c93B29CbAAc22FBa44b6b3",
         "B-50wstETH-50NEXT-7cae": "0x7CAEf9e452CE161dEC936ace7eab571d1023B209",
         "BTC_to_MPS_and_back-7d69": "0x7D6947ec2c1d9aD65550Ac977Fe29b75FFb9A5Ce",
+        "50s-HDGDL-50WXDAI-7d9d": "0x7d9dC2c6A3288B96bC715d8B89844adC46d75446",
         "B-50wstETH-50COW-7dcf": "0x7DcfD0fE4493611eE9549b06ded97e4f22d938c2",
         "ECLP-GYD-sDAI-7e74": "0x7E7419eBef7171C84409B7A1C3a5D4538c98d4a1",
         "B-50sGBP3-50GBPe-7f96": "0x7F96d8a3D850f0C19F6263bE0250925529aB6e2F",
@@ -3358,8 +3374,7 @@
         "sBAL3-fc09": "0xfC095C811fE836Ed12f247BCf042504342B73FB7",
         "BCoW-50sDAI-50COW-fcd1": "0xfcd125f4c5030137634863A2d3E5d6D89158f19C",
         "50sDAI-50bIB01-fed8": "0xFed80d133fb70101dcb69c5a0598d31127e564C2",
-        "bb-ag-USD-fedb": "0xFEdb19Ec000d38d92Af4B21436870F115db22725",
-        "WETH-wstETH-ff54": "0xff5491e7c8EaaC69591e8655A89336E5924ff632"
+        "bb-ag-USD-fedb": "0xFEdb19Ec000d38d92Af4B21436870F115db22725"
       },
       "gauges": {
         "staBAL3-gauge-031f": "0x031fB3431D25f92F43694dBBEc6a2cb7451c101E",
@@ -3638,6 +3653,8 @@
       },
       "stake_dao": {
         "delegation_address": "0x52ea58f4FC3CEd48fa18E909226c1f8A0EF887DC",
+        "sdBAL_vesting_factory": "0x032007EC766D7fD0061d20aC9130894878433bd0",
+        "sdBAL_vester_test": "0x8aB61e36265c162345b60cBAC8517e7d5dCE8381",
         "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
         "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859"
       },
@@ -3856,6 +3873,7 @@
         "beets_treasury": "0xea06e1b4259730724885a39CE3ca670eFB020E26",
         "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597",
         "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
+        "aura_service_provider": "0x59e6749Dc4FF4375B30316cD0d34B15BEFc6c652",
         "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
       },
       "EOA": {
@@ -3865,8 +3883,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -3881,7 +3898,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -3935,8 +3951,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -4399,6 +4418,7 @@
         "weETH/ezETH/rswETH-848a": "0x848a5564158d84b8A8fb68ab5D004Fae11619A54",
         "50AAVE-50BAL-8517": "0x85177c679B84CB54e875A8F5112747b9438ed39e",
         "CREAM_ETH-8537": "0x85370D9e3bb111391cc89F6DE344E80176046183",
+        "Aave GHO/USDT/USDC-85b2": "0x85B2b559bC2D21104C4DEFdd6EFcA8A20343361D",
         "80ALLUO-20WETH-85be": "0x85Be1e46283f5f438D1f864c2d925506571d544f",
         "LPePyvDAI-08DEC23-85dc": "0x85DCA8667D020e694FDfF06E7eE85e0c5C7C61a4",
         "80BANK-20WETH-8716": "0x87165B659Ba7746907a48763063efA3B323C2B07",
@@ -4859,6 +4879,7 @@
         "80D2D-20USDC-gauge-5a48": "0x5A481455E62D5825429C8c416f3B8D2938755B64",
         "B-baoUSD-LUSD-BPT-gauge-5af3": "0x5aF3B93Fb82ab8691b82a09CBBae7b8D3eB5Ac11",
         "ECLP-GHO-USDC-gauge-5b0e": "0x5b0ed1fa8850012Db8B075602253335cACD53aD4",
+        "B-csUSDC-csUSDL-gauge-5bba": "0x5bBaeD1fADC08C5fb3e4ae3C8848777E2dA77103",
         "wstETH-WETH-BPT-gauge-5c0f": "0x5C0F23A5c1be65Fa710d385814a7Fd1Bda480b1C",
         "GHO/MAI-gauge-5c23": "0x5c23661E747F84E0c71d782e5f1513126041734B",
         "eBTC/wBTC-gauge-5d0a": "0x5d0AA3B7F4429e999C95D392E6c50c6555cD7816",
@@ -4929,6 +4950,7 @@
         "USDV/sDAI-gauge-835a": "0x835A597a030203f131988F523992B820d2c12206",
         "sUSDe/USDC-gauge-84f7": "0x84f7F5cD2218f31B750E7009Bb6fD34e0b945DaC",
         "50OHM-25DAI-25WETH-gauge-852c": "0x852CF729dEF9beB9De2f18c97a0ea6bf93a7dF8B",
+        "B-csUSDC-csUSDL-gauge-85c8": "0x85c8D48528A0daA6b00B95C2f67e450BE38E683e",
         "BAL-20WETH-80VCX-gauge-85d6": "0x85d6840EaB7473b60F10d1a3E2452243eb702C97",
         "20WETH-80WNCG-gauge-86ec": "0x86EC8Bd97622dc80B4a7346bc853760d99D14C7F",
         "50rETH-50BADGER-gauge-8701": "0x87012b0C3257423fD74a5986F81a0f1954C17a1d",
@@ -4960,6 +4982,7 @@
         "20USDC-80FLOAT-gauge-9d5d": "0x9D5d7CF33758f92Fb0F79B7b4A90EFF37ba7f505",
         "B-ETHx/bb-a-WETH -gauge-9e3f": "0x9e3f4FB69058244066801404e50889592d33cA11",
         "CREAM_ETH-gauge-9f65": "0x9F65d476DD77E24445A48b4FeCdeA81afAA63480",
+        "Aave GHO/USDT/USDC-gauge-9fdd": "0x9fdD52eFEb601E4Bc78b89C6490505B8aC637E9f",
         "ECLP-stdeUSD-deUSD-gauge-a00d": "0xA00DB7d9c465e95e4AA814A9340B9A161364470a",
         "pxETH/frxETH-gauge-a1d5": "0xA1D5B81d0024809FAA278Ab72fe3D2FB467Dd28b",
         "wstETH-rETH-sfrxETH-BPT-gauge-a2a9": "0xA2a9Ebd6f4dEA4802083F2C8D08066A4e695e64B",
@@ -5217,8 +5240,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -5233,7 +5255,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -5287,8 +5308,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -5494,8 +5518,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -5510,7 +5533,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -5564,8 +5586,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -5725,6 +5750,7 @@
         "50WETH-50USDC-c4cd": "0xc4cD76040A87604c78627DEe2450728Ac5e971E5",
         "SWEEP-USDC-BPT-c4ee": "0xc4EE406970047A70aED14621d97b3B460a7DEA0B",
         "50WETH-50COMP-c523": "0xc523Ec066e0ef4FA2dff4e4d336D8A03b3b0c8D5",
+        "ECLP-WETH-USDC-c52b": "0xc52bFbBC6f4F056443b14fDd21E37caA6801631f",
         "BPT-LDO-WSTEH-c77e": "0xc77E5645Dbe48d54afC06655e39D3Fe17eB76C1c",
         "BPT-W-c931": "0xc931b64E181a4a29416F55E67921BFe16e4Fe789",
         "BPT-DAOUSDC-c97d": "0xC97dEE022137a8c5F65B5138Cc690Fbe87806ED5",
@@ -5775,6 +5801,7 @@
         "BPT-LONG-gauge-07db": "0x07db07e3FDB6E071e22bF7eBd9Bc18D5CEF5B3A6",
         "BPT-O70EE15-gauge-08bb": "0x08bBFc60dbfc14a803D5Bd2Aaf1596116f581efB",
         "bpt-steamounrhyt-gauge-0fc7": "0x0fc7E27E4cB8e6FBCc5996444BE301d26Fc32f1a",
+        "ECLP-WETH-USDC-gauge-141b": "0x141B859297092aAF28f38df03F70Edbb36240C37",
         "bbrfaUSD-MAI-gauge-1bc5": "0x1bc536D34897603f562d94601d16F67b4d497eBC",
         "IBT-IBRETH-gauge-1c43": "0x1C438149E3e210233FCE91eeE1c097d34Fd655c2",
         "BPT-BOATH-gauge-1f24": "0x1F2464F29cA077F3C76D5528Ad2980f2Ea62cBb8",
@@ -6022,8 +6049,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -6038,7 +6064,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -6092,8 +6117,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -7328,6 +7356,7 @@
         "12WMATIC-12WBTC-12ETH-S-12MATIC-S-12WETH-12BTC-S-28STARV3/StarSeeds_Protocol-cdc1": "0xcDC143b295b4b4f2F8052b1AE57B68bcF8171B99",
         "50WBTC-50USDC-cdd8": "0xCDD834e63BCac9e12f31bcA2820426B374C71EbF",
         "20WETH-80PLAN-cde6": "0xcdE6A4711a3738943e686b23548125351448D7B2",
+        "AMP-ce1d": "0xcE1D15740322B4c2e7ae30846d582E4E5DaDDB41",
         "20wstETH-21WBTC-5AVAX-5SNX-12LINK-20WETH-12AAVE-5SOL-ce22": "0xCE220a47B80cc8eC2DFc62732448fBc17c13BD83",
         "33SUSHI-33USDC-33BCT-ce4b": "0xCE4b5eC4A619C7b33ef5108cfa3e54C1d7F4D848",
         "B-POLYDEFI-ce66": "0xce66904B68f1f070332Cbc631DE7ee98B650b499",
@@ -7939,8 +7968,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -7955,7 +7983,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -8009,8 +8036,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
@@ -8176,8 +8206,7 @@
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
           "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "tritium-ops": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
           "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
         },
         "blabs_ops": {
@@ -8192,7 +8221,6 @@
         "maxi_deployers": {
           "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
           "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "tritium": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
@@ -8246,8 +8274,11 @@
         },
         "emeritus": {
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
           "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
         },
