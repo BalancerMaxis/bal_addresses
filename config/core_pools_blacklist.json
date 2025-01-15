@@ -19,7 +19,9 @@
     "0xade4a71bb62bec25154cfc7e6ff49a513b491e81000000000000000000000497": "rETH-WETH-BPT: broken rate provider"
   },
   "gnosis": {},
-  "base": {},
+  "base": {
+    "0x4c42b5057a8663e2b1ac21685d1502c937a0381700020000000000000000019c": "ECLP-WETH-USDC"
+  },
   "avalanche": {},
   "optimism": {}
 }
