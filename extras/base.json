@@ -26,6 +26,9 @@
     "keeper_registry_v2_1": "0xE226D5aCae908252CcA3F6CEFa577527650a9e1e",
     "keeper_registrar_v2_1": "0xD8983a340A96b9C2Bb6855E46847aE134Db71fB1"
   },
+  "uniswap": {
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+  },
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   }
