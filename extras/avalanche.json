@@ -30,6 +30,9 @@
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   },
+  "uniswap": {
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+  },
   "Gyroscope": {
     "Qi-Rewards-Multisig": "0xeE17b1A400b009b7d05C659a5F17d77E45dfc161"
   }

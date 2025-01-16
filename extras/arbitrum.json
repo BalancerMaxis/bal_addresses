@@ -106,6 +106,9 @@
   "circle": {
     "message_transmitter": "0xC30362313FBBA5cf9163F0bb16a0e01f01A896ca"
   },
+  "uniswap": {
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+  },
   "stakewise": {
     "SWISE_Distributor_Safe": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
   }

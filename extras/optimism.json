@@ -27,6 +27,9 @@
   "angle": {
     "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
   },
+  "uniswap": {
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+  },
   "maxiKeepers": {
     "gaugeRewardsInjectors": {
       "op": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
