@@ -1,0 +1,12 @@
+{
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
+  "tokens": {
+    "BEETS": "0x2D0E0814E62D80056181F5cd932274405966e4f0",
+    "BEETS_opera": "0x1E5fe95fB90ac0530F581C617272cd0864626795"
+  },
+  "beethoven_x": {
+    "beets_migrator": "0x5f9a5CD0B77155AC1814EF6Cd9D82dA53d05E386"
+  }
+}

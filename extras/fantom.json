@@ -6,6 +6,9 @@
     "WFTM": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
     "BEETS": "0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e"
   },
+  "layer_zero": {
+    "BEETS_proxy_oft_v2": "0x8d038dA833b154EBcFB7965a9eE7C4Ad72671b21"
+  },
   "beethoven_x": {
     "treasury": "0xa1E849B1d6c2Fd31c63EEf7822e9E0632411ada7",
     "deployer": "0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C",
