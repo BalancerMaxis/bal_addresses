@@ -100,6 +100,39 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
         "MockComposableStablePool": "0xA38e07BcF8793E6e907EfFAD031081A99eFDa898"
+      },
+      "00000000-permit2": {
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20241205-v3-batch-router": {
+        "BatchRouter": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20241205-v3-buffer-router": {
+        "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
+      },
+      "20241205-v3-router": {
+        "Router": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockStablePool": "0xC8B43aa1C60c4caE0ACBf3db9C79e407E09b13dA"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x22625eEDd92c81a219A83e1dc48f88d54786B017"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
+        "MockWeightedPool": "0x681fae0CA3aE40CD3e3b5f17860bE960511a67e2"
       }
     },
     "avalanche": {
@@ -296,6 +329,39 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
         "MockComposableStablePool": "0xe98F9e1aD609A48b7af16F0772144eB117b59b45"
+      },
+      "00000000-permit2": {
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xa731C23D7c95436Baaae9D52782f966E1ed07cc8",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20241205-v3-batch-router": {
+        "BatchRouter": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
+      },
+      "20241205-v3-buffer-router": {
+        "BufferRouter": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
+      },
+      "20241205-v3-router": {
+        "Router": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
+        "MockStablePool": "0xd64da6d2f39Afe68479e68c5bAaEA81FdA39C360"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
+        "MockWeightedPool": "0xEcFfba4414bB9d52DA1598A313d9d3FEa11bFE99"
       }
     },
     "bsc": {
