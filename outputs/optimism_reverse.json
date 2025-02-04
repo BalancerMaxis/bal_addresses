@@ -454,7 +454,7 @@
   "0xe9949934c882c13D928e2FcF9D99138d3d16a52A": "pools/50BOB-50BAL-e994",
   "0xeA1aaC67b6Ad9005E1551A4085FfFE5aeF0F3f09": "hidden_hand2/balancer_briber",
   "0xeB7eE98165b305FBbF9E6BcE58229815570C654e": "pools/50AURA-50USDC.e-eb7e",
-  "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1": "multisigs/lido_partner_lm",
+  "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1": "multisigs/_deprecated/lido_partner_lm",
   "0xeFb0D9F51EFd52d7589A9083A6d0CA4de416c249": "pools/BPT-IBETH-efb0",
   "0xeb151668006CD04DAdD098AFd0a82e78F77076c3": "20220609-stable-pool-v2/StablePoolFactory",
   "0xed86ff0c507D3AF5F35d3523B77C17415FCfFaCb": "20221124-authorizer-adaptor-entrypoint/AuthorizerAdaptorEntrypoint",
