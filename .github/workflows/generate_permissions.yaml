@@ -34,6 +34,5 @@ jobs:
           commit-message: "Scheduled update to active permissions"
           title: "Scheduled update to active permissions"
           branch: "gha-permissions"
-          reviewers: "Tritum-VLK"
-          assignees: "Tritum-VLK"
+          reviewers: "gosuto-inzasheru"
           labels: "Automatic"
