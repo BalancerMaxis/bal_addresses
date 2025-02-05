@@ -67,6 +67,7 @@
     "GEAR": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
     "RPL": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
     "waEthLidoGHO": "0xC71Ea051a5F82c67ADcF634c36FFE6334793D24C",
+    "MORPHO": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
     "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
   },
   "helpers": {
@@ -228,6 +229,12 @@
     "sdBAL_vester_test": "0x8aB61e36265c162345b60cBAC8517e7d5dCE8381",
     "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
     "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859"
+  },
+  "morpho": {
+    "eth_bundler_v2": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+  },
+  "angle": {
+    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
   },
   "snapshot": {
     "delegate_Registry": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446"

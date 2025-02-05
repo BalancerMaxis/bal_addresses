@@ -117,9 +117,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20241205-v3-composite-liquidity-router": {
-        "CompositeLiquidityRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
-      },
       "20241205-v3-router": {
         "Router": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
       },
@@ -345,9 +342,6 @@
       },
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
-      },
-      "20241205-v3-composite-liquidity-router": {
-        "CompositeLiquidityRouter": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
       },
       "20241205-v3-router": {
         "Router": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
@@ -641,9 +635,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
-      "20241205-v3-composite-liquidity-router": {
-        "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
-      },
       "20241205-v3-router": {
         "Router": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
       },
@@ -837,9 +828,6 @@
       },
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
-      },
-      "20241205-v3-composite-liquidity-router": {
-        "CompositeLiquidityRouter": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       },
       "20241205-v3-router": {
         "Router": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
@@ -1296,9 +1284,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0xb5F3A41515457CC6E2716c62a011D260441CcfC9"
       },
-      "20241205-v3-composite-liquidity-router": {
-        "CompositeLiquidityRouter": "0xc6674C0c7694E9b990eAc939E74F8cc3DD39B4b0"
-      },
       "20241205-v3-router": {
         "Router": "0x0BF61f706105EA44694f2e92986bD01C39930280"
       },
@@ -1320,6 +1305,28 @@
         "LotteryHookExample": "0x2d8D157Fd6CF773624d97808D77081EE45caA7D4",
         "NftLiquidityPositionExample": "0xd06dD26c7209CfE0752725F068299bE69A7c9549",
         "VeBALFeeDiscountHookExample": "0xEDB47231A12bdf64b8D951dEd3351128f95B7e80"
+      },
+      "20250117-v3-contract-registry": {
+        "BalancerContractRegistry": "0x115A6FC12312a01E0B63E51dFa97DAeb8dE9D2F0"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x97701aa7c9ae4497874C54B1C779221d6F1081C9",
+        "MockGyro2CLPPool": "0xA8E4Fda34F4DcD7f6dFc887fE1E9dF536DC4779b"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0x9eB9867C1d4B6fd3a7D0dAd3101b5A153b1107Ec",
+        "StableSurgeHook": "0xC0cbcdD6b823A4f22aA6BbDDe44C17e754266AEF",
+        "MockStablePool": "0x132F4bAa39330d9062fC52d81dF72F601DF8C01f"
+      },
+      "20250123-v3-composite-liquidity-router-v2": {
+        "CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xaC06eD505b0d85e46Bf90590f835A12E5EAac86E",
+        "MockGyroECLPPool": "0xB546909185ad4dD905D4eBCa3c3b1d46Db4E4c82"
+      },
+      "20250125-v3-mev-tax-hook": {
+        "MevTaxHook": "0x18B10Fe9eC4815C31C4AB04fA6f91dCe0695132F"
       }
     },
     "zkevm": {
@@ -1611,6 +1618,9 @@
       "20230711-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1",
         "MockComposableStablePool": "0xd60020Ec34Ccf9A4385f917DE8F6956B77853ABF"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
       }
     },
     "mainnet": {
@@ -1823,6 +1833,9 @@
       },
       "20230731-stakeless-gauge-checkpointer": {
         "StakelessGaugeCheckpointer": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       }
     },
     "optimism": {
@@ -2154,6 +2167,9 @@
       "20230711-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
         "MockComposableStablePool": "0xa359b6BB0a89ED9f237C83f32fF05c658DA8b3aB"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
       }
     },
     "bsc": {
@@ -2260,6 +2276,9 @@
       },
       "20230731-stakeless-gauge-checkpointer": {
         "StakelessGaugeCheckpointer": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0xc6674C0c7694E9b990eAc939E74F8cc3DD39B4b0"
       }
     },
     "base": {
@@ -2292,6 +2311,9 @@
       "20230711-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0x8df317a729fcaA260306d7de28888932cb579b88",
         "MockComposableStablePool": "0x7F6E9d6a4093Af9d09bAE92d24bfE42Fc5369aE6"
+      },
+      "20241205-v3-composite-liquidity-router": {
+        "CompositeLiquidityRouter": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
       }
     },
     "zkevm": {
