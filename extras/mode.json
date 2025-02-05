@@ -6,6 +6,9 @@
     "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
     "LINK": "0x183E3691EfF3524B2315D3703D94F922CbE51F54"
   },
+  "helpers": {
+    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+  },
   "maxiKeepers": {
     "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
     "gaugeRewardsInjectors": {},

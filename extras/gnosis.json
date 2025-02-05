@@ -8,6 +8,9 @@
   "tokens": {
     "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
   },
+  "helpers": {
+    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+  },
   "mimic": {
     "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",

@@ -10,6 +10,9 @@
     "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "USDbC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA"
   },
+  "helpers": {
+    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+  },
   "maxiKeepers": {
     "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
     "gaugeRewardsInjectors": {
