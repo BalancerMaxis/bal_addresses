@@ -8,6 +8,9 @@
   "tokens": {
     "LINK": "0x5947BB275c521040051D82396192181b413227A3"
   },
+  "helpers": {
+    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+  },
   "chainlink": {
     "keeper_registry_v2_1": "0x7f00a3Cd4590009C349192510D51F8e6312E08CB",
     "keeper_registrar_v2_1": "0x5Cb7B29e621810Ce9a04Bee137F8427935795d00",

@@ -6,6 +6,9 @@
     "EventEmitter": "0x16e29e62cC00fCBa1234C7ad89BD731427c8D9aF"
   },
   "tokens": {},
+  "helpers": {
+    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+  },
   "maxiKeepers": {
     "gaugeRewardsInjectors": {
       "usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
