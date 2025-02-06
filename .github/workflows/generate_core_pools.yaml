@@ -30,6 +30,9 @@ jobs:
         with:
           commit-message: "Scheduled updates to core pools JSON"
           title: "Scheduled updates to core pools JSON"
+          body: |
+            Checks before merging:
+            - [ ] do whitelisted pools still give balancer dao a protocol fee share? https://dune.com/queries/4595154
           branch: "gha-corepools"
           reviewers: "gosuto-inzasheru"
           labels: "Core Pools"
