@@ -38,6 +38,5 @@ jobs:
           commit-message: "Scheduled update to addressbooks deployments"
           title: "Scheduled update to addressbooks deployments"
           branch: "gha-addressbook"
-          reviewers: "Tritum-VLK"
-          assignees: "Tritum-VLK"
+          reviewers: "gosuto-inzasheru"
           labels: "Automatic"
