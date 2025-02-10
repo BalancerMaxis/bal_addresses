@@ -55,5 +55,12 @@
     "base",
     "mode",
     "fraxtal"
+  ],
+  "BALANCER_PRODUCTION_CHAINS_V3": [
+    "mainnet",
+    "arbitrum",
+    "gnosis",
+    "base",
+    "sepolia"
   ]
 }
