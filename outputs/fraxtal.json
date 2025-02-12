@@ -118,6 +118,7 @@
   "gauges/sFRAX/sDAI-gauge-34e0": "0x34E040bC0342EbBfBC7a6306EB1B8E6579185c94",
   "gauges/sFRAX/sDAI/sUSDe-gauge-275e": "0x275e8514b83479f526673327B279753aBC666a05",
   "gauges/sFRAX/sfrxETH-gauge-71c3": "0x71c365fB739faFdba44B1564558849216de69958",
+  "helpers/hypernative_cspv6_pause_module": "0x5Afa3071Fa5D3d54EeE878Ee8Bc41e9A768072B6",
   "maxiKeepers/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
   "maxiKeepers/injectorV2/factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
   "maxiKeepers/injectorV2/mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",

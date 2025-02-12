@@ -39,6 +39,7 @@
   "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emeritus/solarcurve_signer",
   "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb": "EOA/emeritus/tritium_deployer",
   "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7": "EOA/dao/0xSausageDoge",
+  "0x5Afa3071Fa5D3d54EeE878Ee8Bc41e9A768072B6": "helpers/hypernative_cspv6_pause_module",
   "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd": "20230613-balancer-pool-data-queries/BalancerPoolDataQueries",
   "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524": "EOA/kyc/Arbitrum/kycsigner1_retired",
   "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9": "20230316-l2-ve-delegation-proxy/NullVotingEscrow",
