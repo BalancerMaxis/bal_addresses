@@ -312,6 +312,7 @@
   "gauges/wstETH-WETH-BPT-gauge-4dd4": "0x4Dd47E45E0B7ad0B72fE163CbBd59A17C09B3Eda",
   "gauges/wstETH-bb-a-WETH-BPT-gauge-afd0": "0xAFd027a8Dc3d35AAe5713e7B34863d0BC2482Ce3",
   "gauges/wstETH-bb-a-WETH-BPT-gauge-b953": "0xB95397A17ACbb5824535ebE69Cd9DCF8fA7aFC50",
+  "helpers/hypernative_cspv6_pause_module": "0x5Afa3071Fa5D3d54EeE878Ee8Bc41e9A768072B6",
   "maxiKeepers/gasStation": "0xD692B454255d072B1ACe1b624e6Ee2bFd939D80F",
   "maxiKeepers/gaugeRewardsInjectors/wmatic": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79",
   "maxiKeepers/injectorV2/factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",

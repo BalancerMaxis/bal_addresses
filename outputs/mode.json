@@ -112,6 +112,7 @@
   "gauges/80MODE/20ezETH-gauge-b200": "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007",
   "gauges/80MODE/20wETH-gauge-5612": "0x56124eb16441A1eF12A4CCAeAbDD3421281b795A",
   "gauges/USDT/USDC -gauge-d7c5": "0xd7C5C2B75d4133f5914f4239824D0C789aC2D3ce",
+  "helpers/hypernative_cspv6_pause_module": "0x5Afa3071Fa5D3d54EeE878Ee8Bc41e9A768072B6",
   "maxiKeepers/gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
   "maxiKeepers/injectorV2/factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
   "maxiKeepers/injectorV2/mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",

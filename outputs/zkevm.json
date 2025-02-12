@@ -156,6 +156,7 @@
   "gauges/bb-o-USD-gauge-ef97": "0xeF97b54F69060f4D5304f79734D01c2Da12114d8",
   "gauges/rsETH/wETH-gauge-a442": "0xA442C9cB6Fafb6Fb2a722A1BAa54f9b8ff0A55D3",
   "gauges/wstETH/ankrETH -gauge-2279": "0x2279abf4bdAb8CF29EAe4036262c62dBA6460306",
+  "helpers/hypernative_cspv6_pause_module": "0x5Afa3071Fa5D3d54EeE878Ee8Bc41e9A768072B6",
   "maxiKeepers/gaugeRewardsInjectors/matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02",
   "maxiKeepers/gaugeRewardsInjectors/usdc_rewards_injector": "0x2F1901f2A82fcC3Ee9010b809938816B3b06FA6A",
   "maxiKeepers/injectorV2/factory": "0xa30B47913556A5e1d146B8342F95Db3D3A6Ae469",
