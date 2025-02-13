@@ -112,7 +112,6 @@
   "20250121-v3-stable-surge/StableSurgeHook": "0x30CE53fA38a1399F0CA158b5c38362c80E423bA9",
   "20250121-v3-stable-surge/StableSurgePoolFactory": "0xD516c344413B4282dF1E4082EAE6B1081F3b1932",
   "20250123-v3-composite-liquidity-router-v2/CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb",
-  "20250125-v3-mev-tax-hook/MevTaxHook": "0x18B10Fe9eC4815C31C4AB04fA6f91dCe0695132F",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
