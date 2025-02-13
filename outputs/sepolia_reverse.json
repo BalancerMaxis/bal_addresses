@@ -23,7 +23,6 @@
   "0x170027069fd114BFF2f57B0FC796df93290C02a6": "EOA/blabs_ops/EmergencyPauser",
   "0x1783Cd84b3d01854A96B4eD5843753C2CcbD574A": "20220325-gauge-controller/BalancerMinter",
   "0x1802953277FD955f9a254B80Aa0582f193cF1d77": "20220721-balancer-queries/BalancerQueries",
-  "0x18B10Fe9eC4815C31C4AB04fA6f91dCe0695132F": "20250125-v3-mev-tax-hook/MevTaxHook",
   "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a": "20230109-gauge-adder-v3/GaugeAdder",
   "0x1b6F057520B4e826271D47b8bdab98E35Af17E59": "20221123-pool-recovery-helper/PoolRecoveryHelper",
   "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4": "EOA/contributors-payees/mikeb",
