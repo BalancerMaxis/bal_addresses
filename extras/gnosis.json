@@ -34,6 +34,9 @@
       "USDC.e": "0x4ac87aea2a3a99f34fec78a6a73bc495893b2838"
     }
   },
+  "gnosis": {
+    "gnosis_dao_treasury": "0x458cD345B4C05e8DF39d0A07220feb4Ec19F5e6f"
+  },
   "stakewise": {
     "SWISE_Distributor_SAFE": "0x5d1acdd0867d6F1FBe11ad8F1f48C87f19C0801E"
   }
