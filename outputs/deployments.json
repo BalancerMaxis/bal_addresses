@@ -141,6 +141,12 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       }
     },
     "avalanche": {
@@ -378,6 +384,12 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
       }
     },
     "bsc": {
@@ -681,6 +693,12 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
       }
     },
     "mainnet": {
@@ -886,6 +904,12 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
       }
     },
     "mode": {
@@ -1360,6 +1384,12 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0xEC9578e79d412537095501584284B092D2F6b9F7"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"
       }
     },
     "zkevm": {
