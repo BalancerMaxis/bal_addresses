@@ -147,6 +147,19 @@
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
       }
     },
     "avalanche": {
@@ -390,6 +403,19 @@
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+        "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
       }
     },
     "bsc": {
@@ -699,6 +725,19 @@
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0xAE563E3f8219521950555F5962419C8919758Ea2"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       }
     },
     "mainnet": {
@@ -910,6 +949,19 @@
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       }
     },
     "mode": {
@@ -1390,6 +1442,19 @@
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x3400AaFA47C6dC0D8Ffc2380D3665f701cD53eBc"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
+        "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0x5e315f96389C1aaF9324D97d3512ae1e0Bf3C21a"
       }
     },
     "zkevm": {
