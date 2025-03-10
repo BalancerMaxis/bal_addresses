@@ -229,7 +229,14 @@
     "sdBAL_vesting_factory": "0x032007EC766D7fD0061d20aC9130894878433bd0",
     "sdBAL_vester_test": "0x8aB61e36265c162345b60cBAC8517e7d5dCE8381",
     "sdBAL_deposit_contract": "0x3e0d44542972859de3CAdaF856B1a4FD351B4D2E",
-    "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859"
+    "sdBAL_gauge_contract": "0x3E8C72655e48591d93e6dfdA16823dB0fF23d859",
+    "Zen-Dragon-Vester": "0x08e828171d7503a34b7e20c1319296a6ee7ac676",
+    "Zekraken-Vester": "0xd02c136982413e567c373f001ef254c666ff1320",
+    "Xeonus-Vester": "0x3d592531167e5c7c2c7e07d83b4dc4fc74593df3",
+    "Gosuto-Vester": "0x40a69d7966295c6eea95633fa6c0a87f25a89d61",
+    "MikeB-Vester": "0xfe5e6765f820605ad7d58bec0f4e54893bd05bbb",
+    "Lipman-Vester": "0xeb90e2953b023d9496b963acd87ac3061fe8ea9e",
+    "Tritium-Vester": "0x17e26dd811ad09bd946f3b63a6f256f22c218da1"
   },
   "morpho": {
     "eth_bundler_v2": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
