@@ -69,6 +69,7 @@
   "keepers": {
     "old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
     "oz_relayer_v2": "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",
+    "v3_fee_bot": "0x74E283B985EA76c55C8B48d6bD1067a418188424",
     "github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f"
   },
   "emeritus": {
