@@ -118,6 +118,7 @@
   "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
   "0x7385FeB96Fa203E35527322Ca233271834306d60": "pools/50WETH-50USDC-7385",
+  "0x74E283B985EA76c55C8B48d6bD1067a418188424": "EOA/keepers/v3_fee_bot",
   "0x7682e108Cd89d86303625c8478c21Ff86f401166": "20230711-zkevm-composable-stable-pool-v5/MockComposableStablePool",
   "0x7733650c7aaF2074FD1fCf98f70cbC09138E1Ea5": "gauges/B-rETH-STABLE-gauge-7733",
   "0x78385153d2f356C87001F09BB5424137c618D38b": "20230320-weighted-pool-v4/MockWeightedPool",

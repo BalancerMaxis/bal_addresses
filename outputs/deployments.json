@@ -145,6 +145,9 @@
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0x4638ab64022927C9bD5947607459D13f57f1551C"
+      },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
@@ -400,6 +403,9 @@
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
+      },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0x2FF226CD12C80511a641A6101F071d853A4e5363"
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
@@ -723,6 +729,9 @@
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
       },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48"
+      },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
       },
@@ -946,6 +955,9 @@
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
+      },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0x212F884252792ebaaA811FB0678444b21c7C2879"
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
@@ -1439,6 +1451,9 @@
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xEC9578e79d412537095501584284B092D2F6b9F7"
+      },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0x931d2a630f6bdfe872F98ea967447c8F99d4823a"
       },
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"

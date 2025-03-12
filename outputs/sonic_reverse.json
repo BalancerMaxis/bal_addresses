@@ -14,6 +14,8 @@
   "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4": "EOA/contributors-payees/mikeb",
   "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438": "EOA/maxis/danko",
   "0x202B1AA0d702898CA474aB6ED31d53BA309308D9": "EOA/emergency/hypernative",
+  "0x2446b93ec86be9225d07379ee5dba6b0aa632c55": "rate_providers/safe/Wrapped_Aave_Sonic_USDC.e/0x6646248971427B80ce531bdD793e2Eb859347E55",
+  "0x25b5e53e3dfca480047b6e53f637ebe44abadd59": "rate_providers/safe/Wrapped_Aave_Sonic_wS/0x18B7B8695165290f2767BC63c36D3dFEa4C0F9bB",
   "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93": "EOA/contributors-payees/tritium",
   "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1": "EOA/dao/0xMaki",
   "0x28A6714B06B1241D1F339F9280553F115eCC285B": "EOA/emeritus/shakotan_deployer",
@@ -43,6 +45,7 @@
   "0x72658e9A5c55371A5e80559B8E07AbC14F212120": "EOA/contributors-payees/lipman",
   "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
+  "0x74E283B985EA76c55C8B48d6bD1067a418188424": "EOA/keepers/v3_fee_bot",
   "0x78557d8a83fe7c6d9f9983d00e5c0e08cc3335e6": "rate_providers/safe/Silo_bSolvBTC.bbn_Rateprovider/0x52Fc9E0a68b6a4C9b57b9D1d99fB71449A99DCd8",
   "0x7BBAc709a9535464690A435ca7361256496f13Ce": "EOA/maxiPay/factory",
   "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4": "EOA/emeritus/tritium-ops_signer",
@@ -82,6 +85,7 @@
   "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F": "EOA/emeritus/tritium_signer",
   "0xe5da20f15420ad15de0fa650600afc998bbe3955": "rate_providers/safe/stS_Rateprovider/0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
   "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/old_oz_relayer_v1",
+  "0xf05afb759f1bc07756329d7080987d5ccc2a26e7": "rate_providers/safe/Wrapped_Aave_Sonic_WETH/0xeB5e9B0ae5bb60274786C747A1A2A798c11271E0",
   "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F": "EOA/keepers/oz_relayer_v2",
   "0xfbcee1fcaa2db776b4b575a8da3e8c93ea5eef53": "rate_providers/safe/Wrapped_Origin_Sonic_Rateprovider/0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1"
 }
