@@ -57,7 +57,8 @@
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
       "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
       "USDC-omnichain": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4",
-      "ARB-omnichain": "0x4aC87aEa2A3A99f34Fec78A6A73Bc495893b2838"
+      "ARB-omnichain": "0x4aC87aEa2A3A99f34Fec78A6A73Bc495893b2838",
+      "USDC-ARB-Grant-omnichain": "0x08F02E2945C175272Acbb238ACCB6eda56129DE8"
     },
     "one_inch": {
       "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
