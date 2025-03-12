@@ -12,7 +12,7 @@
     "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
   },
   "helpers": {
-    "hypernative_cspv6_pause_module": "0x5afa3071fa5d3d54eee878ee8bc41e9a768072b6"
+    "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
   },
   "across": {
     "spoke_pool": "0x69B5c72837769eF1e7C164Abc6515DcFf217F920"
