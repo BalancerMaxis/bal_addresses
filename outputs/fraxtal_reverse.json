@@ -59,6 +59,7 @@
   "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
   "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB": "maxiKeepers/injectorV2/mockLogic",
+  "0x74E283B985EA76c55C8B48d6bD1067a418188424": "EOA/keepers/v3_fee_bot",
   "0x760b30Eb4BE3CCd840e91183E33e2953c6A31253": "pools/FRAX/USDe/DAI/USDT/USDC -760b",
   "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6": "20221123-pool-recovery-helper/PoolRecoveryHelper",
   "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05": "20230411-managed-pool-v2/ManagedPoolFactory",

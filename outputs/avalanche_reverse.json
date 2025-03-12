@@ -124,6 +124,7 @@
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
   "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB": "maxiKeepers/injectorV2/mockLogic",
   "0x74AbfE305bc0D729f29a2da26C5b7EF0BD1e3A8C": "gauges/USDC-USDT-BPT-gauge-74ab",
+  "0x74E283B985EA76c55C8B48d6bD1067a418188424": "EOA/keepers/v3_fee_bot",
   "0x7557090a2088Ea3F2CaA7327270DC4bd3F296431": "pools/ECLP-GYD-USDC-rh-7557",
   "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6": "20230717-chainlink-rate-provider-factory/ChainlinkRateProviderFactory",
   "0x7A1A919c033eBc0d9F23cBF2Aa41c24AEf826ca2": "pools/LP-EURC-USDC-7a1a",
