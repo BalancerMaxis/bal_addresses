@@ -168,6 +168,9 @@
       "GEAR": "0xfa7b21b30325dbbd4a71ee2b2ede74a7d8a2c0e4"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "gelatoW3f": {
     "gearboxAutoBriberV1": "0xe1deE84FD9A90723548b46AC23E8532BC31f9225"
   },

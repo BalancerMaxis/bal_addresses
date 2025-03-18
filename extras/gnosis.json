@@ -34,6 +34,9 @@
       "USDC.e": "0x4ac87aea2a3a99f34fec78a6a73bc495893b2838"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "gnosis": {
     "gnosis_dao_treasury": "0x458cD345B4C05e8DF39d0A07220feb4Ec19F5e6f"
   },

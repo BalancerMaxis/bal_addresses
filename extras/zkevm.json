@@ -19,6 +19,9 @@
       "mockLogic": "0x6142582f8946bf192a4f80ed643a5856d18a7060"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",
     "depositor": "0x68247248489fb0c1f55aea1bbac0aae829d9bf77"

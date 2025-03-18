@@ -31,6 +31,9 @@
       "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "one_inch": {
     "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
   },
