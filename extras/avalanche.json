@@ -20,10 +20,12 @@
     "gaugeRewardsInjectors": {
       "avax": "0xf23d8342881edecced51ea694ac21c2b68440929",
       "usdc": "0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
-      "qi": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
-      "yyavax": "0x95008946F2773f24588AEEE44d643016381265FF",
-      "ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
-      "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+      "_deprecated": {
+        "qi": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
+        "yyavax": "0x95008946F2773f24588AEEE44d643016381265FF",
+        "ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
+        "ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f"
+      }
     },
     "injectorV2": {
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
