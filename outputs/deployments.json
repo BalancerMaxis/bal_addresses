@@ -117,9 +117,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20241205-v3-router": {
-        "Router": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
-      },
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
         "MockStablePool": "0xC8B43aa1C60c4caE0ACBf3db9C79e407E09b13dA"
@@ -141,6 +138,10 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x88ED12A90142fDBFe2a28f7d5b48927254C7e760",
+        "MockGyroECLPPool": "0x875BED625E44D1cd03e512beBae085A440106529"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
@@ -376,9 +377,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
       },
-      "20241205-v3-router": {
-        "Router": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
-      },
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
         "MockStablePool": "0xd64da6d2f39Afe68479e68c5bAaEA81FdA39C360"
@@ -400,6 +398,10 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x5F6848976C2914403B425F18B589A65772F082E3",
+        "MockGyroECLPPool": "0x2196Ddb2b51F706857A2934eE79D9FBB463C5372"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
@@ -701,9 +703,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
-      "20241205-v3-router": {
-        "Router": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
-      },
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
         "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
@@ -725,6 +724,10 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B",
+        "MockGyroECLPPool": "0x3459bCF85E86d9415025c1d245f9af799875Ee07"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
@@ -928,9 +931,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
-      "20241205-v3-router": {
-        "Router": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
-      },
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
         "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
@@ -952,6 +952,10 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xE9B0a3bc48178D7FE2F5453C8bc1415d73F966d0",
+        "MockGyroECLPPool": "0xe912C791f7c4b6323EfBA294F66C0dE93c50eB5F"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
@@ -1416,9 +1420,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0xb5F3A41515457CC6E2716c62a011D260441CcfC9"
       },
-      "20241205-v3-router": {
-        "Router": "0x0BF61f706105EA44694f2e92986bD01C39930280"
-      },
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
         "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
@@ -1448,6 +1449,10 @@
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x589cA6855C348d831b394676c25B125BcdC7F8ce",
+        "MockGyroECLPPool": "0xD2fB2b142c27094833f48c8a4a950ecc2e139F66"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xEC9578e79d412537095501584284B092D2F6b9F7"
@@ -1764,6 +1769,9 @@
       },
       "20241205-v3-composite-liquidity-router": {
         "CompositeLiquidityRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
+      },
+      "20241205-v3-router": {
+        "Router": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
       }
     },
     "mainnet": {
@@ -1979,6 +1987,9 @@
       },
       "20241205-v3-composite-liquidity-router": {
         "CompositeLiquidityRouter": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
+      },
+      "20241205-v3-router": {
+        "Router": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
       }
     },
     "optimism": {
@@ -2313,6 +2324,9 @@
       },
       "20241205-v3-composite-liquidity-router": {
         "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
+      },
+      "20241205-v3-router": {
+        "Router": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
       }
     },
     "bsc": {
@@ -2422,6 +2436,9 @@
       },
       "20241205-v3-composite-liquidity-router": {
         "CompositeLiquidityRouter": "0xc6674C0c7694E9b990eAc939E74F8cc3DD39B4b0"
+      },
+      "20241205-v3-router": {
+        "Router": "0x0BF61f706105EA44694f2e92986bD01C39930280"
       }
     },
     "base": {
@@ -2457,6 +2474,9 @@
       },
       "20241205-v3-composite-liquidity-router": {
         "CompositeLiquidityRouter": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843"
+      },
+      "20241205-v3-router": {
+        "Router": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
       }
     },
     "zkevm": {
