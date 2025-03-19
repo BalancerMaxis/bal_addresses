@@ -203,6 +203,7 @@
   "multisigs/MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
   "multisigs/balancer_labs": "0x4F99ccB28e78886BEb4d08880e6555896ad7FDd8",
   "multisigs/emergency": "0xb01D7bFE3C8c67A8E4e63895795f73CB3558b77e",
+  "multisigs/maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
   "rate_providers/safe/waDAI_Rate_Provider/0xDE46e43F46ff74A23a65EBb0580cbe3dFE684a17": "0x22db61f3a8d81d3d427a157fdae8c7eb5b5fd373",
   "rate_providers/safe/waUSDC_Rate_Provider/0x8A88124522dbBF1E56352ba3DE1d9F78C143751e": "0x34101091673238545De8a846621823D9993c3085",
   "rate_providers/safe/waUSDT_Rate_Provider/0x978206fAe13faF5a8d293FB614326B237684B750": "0xB1B171A07463654cc1fE3df4eC05f754E41f0A65",
