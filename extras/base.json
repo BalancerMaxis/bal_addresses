@@ -28,6 +28,9 @@
       "GHO-omnichain": "0x08F02E2945C175272Acbb238ACCB6eda56129DE8"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "chainlink": {
     "keeper_registry_v2_1": "0xE226D5aCae908252CcA3F6CEFa577527650a9e1e",
     "keeper_registrar_v2_1": "0xD8983a340A96b9C2Bb6855E46847aE134Db71fB1",

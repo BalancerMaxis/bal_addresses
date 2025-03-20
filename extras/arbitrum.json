@@ -75,6 +75,9 @@
       "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
     }
   },
+  "gyroscope": {
+    "gyfi_rewards_distributor": "0x1382088fFeac391302407253e5C2323f10De4c40"
+  },
   "hidden_hand2": {
     "bribe_vault": "0x8d89593c199Cb763bDEF04529F978f82503E4669",
     "aura_briber": "0x928b06229a3f4Bc7806d80Fe54e48E777BB74536",
