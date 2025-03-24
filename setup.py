@@ -24,7 +24,9 @@ setup(
     keywords=["python", "first package"],
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
         "Operating System :: Linux",
