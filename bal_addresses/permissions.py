@@ -41,6 +41,9 @@ class BalPermissions:
                     self.contracts_by_fx[fx].add(contract)
                     self.contracts_by_deployment[deployment].add(contract)
                     self.paths_by_action_id[action_id].add(path)
+        self.paths_by_action_id[
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ].add("DEFAULT_ADMIN_ROLE")
 
     def search_path(self, substr) -> list[str]:
         search = [s for s in self.action_id_by_path.keys() if substr in s]
