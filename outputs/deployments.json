@@ -117,10 +117,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20241205-v3-stable-pool": {
-        "StablePoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
-        "MockStablePool": "0xC8B43aa1C60c4caE0ACBf3db9C79e407E09b13dA"
-      },
       "20241205-v3-vault-explorer": {
         "VaultExplorer": "0x22625eEDd92c81a219A83e1dc48f88d54786B017"
       },
@@ -164,6 +160,10 @@
       },
       "20250307-v3-router-v2": {
         "Router": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0x44d33798dddCdAbc93Fe6a40C80588033Dc502d3",
+        "MockStablePool": "0xcb2840553945dBc776d98DABC141f9b2CceC3c30"
       }
     },
     "avalanche": {
@@ -377,10 +377,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
       },
-      "20241205-v3-stable-pool": {
-        "StablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
-        "MockStablePool": "0xd64da6d2f39Afe68479e68c5bAaEA81FdA39C360"
-      },
       "20241205-v3-vault-explorer": {
         "VaultExplorer": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
       },
@@ -424,6 +420,10 @@
       },
       "20250307-v3-router-v2": {
         "Router": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0xC49Ca921c4CD1117162eAEEc0ee969649997950c",
+        "MockStablePool": "0xFC6f8a2f517E490eB46a1B09E8DFB47bF7175B53"
       }
     },
     "bsc": {
@@ -703,10 +703,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
-      "20241205-v3-stable-pool": {
-        "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
-        "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
-      },
       "20241205-v3-vault-explorer": {
         "VaultExplorer": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
       },
@@ -750,6 +746,10 @@
       },
       "20250307-v3-router-v2": {
         "Router": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846",
+        "MockStablePool": "0x52bca81419B7770911f8C1Ae1903Fad97D522FF1"
       }
     },
     "mainnet": {
@@ -931,10 +931,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
-      "20241205-v3-stable-pool": {
-        "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
-        "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
-      },
       "20241205-v3-vault-explorer": {
         "VaultExplorer": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
       },
@@ -978,6 +974,10 @@
       },
       "20250307-v3-router-v2": {
         "Router": "0xAE563E3f8219521950555F5962419C8919758Ea2"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0xe42C2E153BB0A8899b59C73F5Ff941f9742F1197",
+        "MockStablePool": "0x95BC5CA62Ed018b5206342479ded82e18e46dcbf"
       }
     },
     "mode": {
@@ -1420,10 +1420,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0xb5F3A41515457CC6E2716c62a011D260441CcfC9"
       },
-      "20241205-v3-stable-pool": {
-        "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
-        "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
-      },
       "20241205-v3-vault-explorer": {
         "VaultExplorer": "0xEB15EBBF9C1a4D7D243d57dE447Df0b97C40c324"
       },
@@ -1475,6 +1471,10 @@
       },
       "20250307-v3-router-v2": {
         "Router": "0x5e315f96389C1aaF9324D97d3512ae1e0Bf3C21a"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0xc274A11E09a3c92Ac64eAff5bEC4ee8f5dfEe207",
+        "MockStablePool": "0x1C72b94E0e291dEe39a239E6e9C47625b14dEA71"
       }
     },
     "zkevm": {
@@ -1772,6 +1772,10 @@
       },
       "20241205-v3-router": {
         "Router": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockStablePool": "0xC8B43aa1C60c4caE0ACBf3db9C79e407E09b13dA"
       }
     },
     "mainnet": {
@@ -1990,6 +1994,10 @@
       },
       "20241205-v3-router": {
         "Router": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
+        "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
       }
     },
     "optimism": {
@@ -2327,6 +2335,10 @@
       },
       "20241205-v3-router": {
         "Router": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
       }
     },
     "bsc": {
@@ -2439,6 +2451,10 @@
       },
       "20241205-v3-router": {
         "Router": "0x0BF61f706105EA44694f2e92986bD01C39930280"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
+        "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
       }
     },
     "base": {
@@ -2477,6 +2493,10 @@
       },
       "20241205-v3-router": {
         "Router": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6"
+      },
+      "20241205-v3-stable-pool": {
+        "StablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
+        "MockStablePool": "0xd64da6d2f39Afe68479e68c5bAaEA81FdA39C360"
       }
     },
     "zkevm": {

@@ -124,6 +124,8 @@
   "20250307-v3-liquidity-bootstrapping-pool/MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287",
   "20250307-v3-router-v2/Router": "0x5e315f96389C1aaF9324D97d3512ae1e0Bf3C21a",
   "20250314-balancer-registry-initializer/BalancerContractRegistryInitializer": "0x6B7C56698bEb33E1f0226e73C5D417e575315106",
+  "20250324-v3-stable-pool-v2/MockStablePool": "0x1C72b94E0e291dEe39a239E6e9C47625b14dEA71",
+  "20250324-v3-stable-pool-v2/StablePoolFactory": "0xc274A11E09a3c92Ac64eAff5bEC4ee8f5dfEe207",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
