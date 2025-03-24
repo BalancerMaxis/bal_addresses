@@ -23,7 +23,7 @@ setup(
         "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@fix/pin-web3-eth-brownie",
         "requests",
         "pandas",
-        "web3",
+        "web3==6.15.1",
         "dotmap",
         "munch==4.0.0",
         "gql[requests]",
