@@ -1,5 +1,5 @@
 pathlib>=1.0
-git+https://github.com/BalancerMaxis/bal_tools.git
+git+https://github.com/BalancerMaxis/bal_tools.git@fix/pin-web3-eth-brownie
 requests
 pandas
 web3
