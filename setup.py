@@ -20,7 +20,7 @@ setup(
         "setuptools>=42",
         "wheel",
         "pathlib>=1.0",
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@fix/pin-web3-eth-brownie",
         "requests",
         "pandas",
         "web3",
