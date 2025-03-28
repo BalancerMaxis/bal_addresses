@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  refresh_books:
+  refresh_core_pools:
     runs-on: ubuntu-latest
 
     steps:
