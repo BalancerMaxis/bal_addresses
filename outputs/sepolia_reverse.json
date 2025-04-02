@@ -83,6 +83,7 @@
   "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938": "20230522-timelock-authorizer/TimelockAuthorizerMigrator",
   "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516": "EOA/emergency/xeonus",
   "0x72658e9A5c55371A5e80559B8E07AbC14F212120": "EOA/contributors-payees/lipman",
+  "0x734f9B824a9bBb49a6872F1781EE540435Ce3488": "EOA/contributors-payees/raqqq",
   "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x7373C5b9610d43466395617c428eCAA5b47ac5AA": "20241205-v3-stable-pool/MockStablePool",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
