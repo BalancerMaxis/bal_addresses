@@ -28,6 +28,7 @@
     "fees": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
     "emergency": "0x3c58668054c299bE836a0bBB028Bee3aD4724846",
     "blabs_ops": "0xf9D6BdE5c2eef334AC88204CB2eEc07111DCBA97",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
   "arbitrum": {
@@ -38,6 +39,7 @@
     "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
     "maxi_ops": "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "kyc_grant_safe": "0xb6BfF54589f269E248f99D5956f1fDD5b014D50e",
       "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
@@ -51,6 +53,7 @@
     "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
     "beets_treasury": "0x2a185c8a3c63d7bfe63ad5d950244ffe9d0a4b60",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
     }
@@ -59,12 +62,14 @@
     "blabs_ops": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
     "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
     "emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "lm": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
   },
   "avalanche": {
     "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
     "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
     "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
   "gnosis": {
@@ -74,6 +79,7 @@
     "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
     "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "dao_omni": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
     }
@@ -83,6 +89,7 @@
     "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
     "lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
     "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
   "goerli": {
