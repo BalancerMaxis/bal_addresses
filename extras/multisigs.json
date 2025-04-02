@@ -17,6 +17,7 @@
     "grants_treasury": "0xE2c91f3409Ad6d8cE3a2E2eb330790398CB23597",
     "bizdev": "0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
     "aura_service_provider": "0x59e6749Dc4FF4375B30316cD0d34B15BEFc6c652",
+    "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
     }
