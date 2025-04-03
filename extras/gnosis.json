@@ -6,6 +6,7 @@
     "EventEmitter": "0xD8Bf95b44772213905A8A74881862347aCbaBC48"
   },
   "tokens": {
+    "sDAI": "0xaf204776c7245bF4147c2612BF6e5972Ee483701",
     "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
   },
   "helpers": {
