@@ -117,9 +117,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0x22625eEDd92c81a219A83e1dc48f88d54786B017"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
         "MockWeightedPool": "0x681fae0CA3aE40CD3e3b5f17860bE960511a67e2"
@@ -127,10 +124,9 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
       },
-      "20250121-v3-stable-surge": {
-        "StableSurgePoolFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
-        "StableSurgeHook": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417",
-        "MockStablePool": "0xfF4365FDb4b77B4D193F9Be42544c433D8223e63"
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x65A22Ec32c37835Ad5E77Eb6f7452Ac59E113a9F",
+        "MockGyro2CLPPool": "0xCa3372c28438D0905C96A01d834F5c14a34EE295"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
@@ -164,6 +160,16 @@
       "20250324-v3-stable-pool-v2": {
         "StablePoolFactory": "0x44d33798dddCdAbc93Fe6a40C80588033Dc502d3",
         "MockStablePool": "0xcb2840553945dBc776d98DABC141f9b2CceC3c30"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockStablePool": "0xe8788E22e04d82e0A2b0daE6DFa80B9627060597"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       }
     },
     "avalanche": {
@@ -277,15 +283,16 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0x7Ba29fE8E83dd6097A7298075C4AFfdBda3121cC",
         "MockWeightedPool": "0x1d45ba673A0B0918236642A5447b5a6429431878"
       },
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52",
+        "MockGyro2CLPPool": "0xe997Fb113001d357aEF75FcC0e9c4Af3130E1BEb"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d"
@@ -320,6 +327,16 @@
         "VaultAdmin": "0x73F136bD5353F067efF3E2E1dA552f132E88Ef06",
         "VaultExtension": "0x147c1DeCf8eea08BF7F5F71033076547d2BaaEe7",
         "Vault": "0xba1333333333cbcdB5D83c2e5d1D898E07eD00Dc"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x311334883921Fb1b813826E585dF1C2be4358615",
+        "MockStablePool": "0x855DfB67dD58491E488ec00dAdE740988B5d8247"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c"
       }
     },
     "base": {
@@ -437,9 +454,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x4132f7AcC9dB7A6cF7BE2Dd3A9DC8b30C7E6E6c8"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
         "MockWeightedPool": "0xEcFfba4414bB9d52DA1598A313d9d3FEa11bFE99"
@@ -447,10 +461,9 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310"
       },
-      "20250121-v3-stable-surge": {
-        "StableSurgePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
-        "StableSurgeHook": "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007",
-        "MockStablePool": "0xf551bD21bc0E568F2a0f54F9213E3dA7336e5625"
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xf5CDdF6feD9C589f1Be04899F48f9738531daD59",
+        "MockGyro2CLPPool": "0x1E919A507c9381119a4E9CF43795b100fc8c988b"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c"
@@ -484,6 +497,16 @@
       "20250324-v3-stable-pool-v2": {
         "StablePoolFactory": "0xC49Ca921c4CD1117162eAEEc0ee969649997950c",
         "MockStablePool": "0xFC6f8a2f517E490eB46a1B09E8DFB47bF7175B53"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52",
+        "MockStablePool": "0xb5539ceaaA0045ab10BE6CBF5E535b0DA4981B09"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
       }
     },
     "bsc": {
@@ -763,9 +786,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
         "MockWeightedPool": "0xd43c36038250c66D46854e536Bf959fdDE5294c3"
@@ -773,10 +793,9 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
       },
-      "20250121-v3-stable-surge": {
-        "StableSurgePoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
-        "StableSurgeHook": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1",
-        "MockStablePool": "0x825DC69A2FC808620eEd7377B19D204e6944c675"
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x7fA49Df302a98223d98D115fc4FCD275576f6faA",
+        "MockGyro2CLPPool": "0x69956192944017d04cbEcC29a42c684D675540E7"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
@@ -810,6 +829,16 @@
       "20250324-v3-stable-pool-v2": {
         "StablePoolFactory": "0x161f4014C27773840ccb4EC1957113e6DD028846",
         "MockStablePool": "0x52bca81419B7770911f8C1Ae1903Fad97D522FF1"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373",
+        "MockStablePool": "0x00A57f76Ee23302f7315DD773efDB7c89468C51E"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B"
       }
     },
     "mainnet": {
@@ -991,9 +1020,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
         "MockWeightedPool": "0x527d0E14acc53FB040DeBeae1cAb973D23FB3568"
@@ -1001,10 +1027,9 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
       },
-      "20250121-v3-stable-surge": {
-        "StableSurgePoolFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
-        "StableSurgeHook": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA",
-        "MockStablePool": "0xc05ff9851c2a000F3C319D2986D8712317583B79"
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockGyro2CLPPool": "0x4ffECD2dab8703a74BD13Ba10BcE3419B9f5fA80"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
@@ -1038,6 +1063,16 @@
       "20250324-v3-stable-pool-v2": {
         "StablePoolFactory": "0xe42C2E153BB0A8899b59C73F5Ff941f9742F1197",
         "MockStablePool": "0x95BC5CA62Ed018b5206342479ded82e18e46dcbf"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0xBDbADc891BB95DEE80eBC491699228EF0f7D6fF1"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
+        "MockStablePool": "0x0A8aFe82Eb901Cd5b19834ec9Ed764Ce4D85DD5D"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
       }
     },
     "mode": {
@@ -1218,6 +1253,80 @@
       "20240223-composable-stable-pool-v6": {
         "ComposableStablePoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
         "MockComposableStablePool": "0x287E4A89d03deCdF7ac372c7B5332AbCDb3D912A"
+      },
+      "00000000-permit2": {
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20241205-v3-batch-router": {
+        "BatchRouter": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20241205-v3-buffer-router": {
+        "BufferRouter": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
+        "MockWeightedPool": "0x79bd0f6623fb8B430AC43673dbb3996C6826e565"
+      },
+      "20250117-v3-contract-registry": {
+        "BalancerContractRegistry": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
+        "MockGyro2CLPPool": "0x21F0C1068EB8324cE5B6878BD6E50e497B8495D0"
+      },
+      "20250123-v3-composite-liquidity-router-v2": {
+        "CompositeLiquidityRouter": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockGyroECLPPool": "0x47234a234875e203826E737993eee6B673237848"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
+      },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
+      },
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
+        "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
+      },
+      "20250321-v3-vault-factory-v2": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+        "MockStablePool": "0x1f1f8f2d3cea43a1F65ADb480DE42F57a71e57A5"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockStablePool": "0x05BD88D143a2EdDF08B82632a358e9ED0e6eef9d"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
       }
     },
     "polygon": {
@@ -1480,9 +1589,6 @@
       "20241205-v3-buffer-router": {
         "BufferRouter": "0xb5F3A41515457CC6E2716c62a011D260441CcfC9"
       },
-      "20241205-v3-vault-explorer": {
-        "VaultExplorer": "0xEB15EBBF9C1a4D7D243d57dE447Df0b97C40c324"
-      },
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C",
         "MockWeightedPool": "0xFc253B433B7225AC7736EAbDF4115F7252aECb91"
@@ -1498,10 +1604,9 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x115A6FC12312a01E0B63E51dFa97DAeb8dE9D2F0"
       },
-      "20250121-v3-stable-surge": {
-        "StableSurgePoolFactory": "0xD516c344413B4282dF1E4082EAE6B1081F3b1932",
-        "StableSurgeHook": "0x30CE53fA38a1399F0CA158b5c38362c80E423bA9",
-        "MockStablePool": "0xD8D88e186AA7cfa3929dF79ab5a5f02316e7d77B"
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x38ce8e04EBC04A39BED4b097e8C9bb8Ca74e33d8",
+        "MockGyro2CLPPool": "0x4d1a7352311CA9f63AB8bEA96CA873796C72EBDf"
       },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb"
@@ -1535,6 +1640,16 @@
       "20250324-v3-stable-pool-v2": {
         "StablePoolFactory": "0xc274A11E09a3c92Ac64eAff5bEC4ee8f5dfEe207",
         "MockStablePool": "0x1C72b94E0e291dEe39a239E6e9C47625b14dEA71"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0x7dfca838fD5fCd70f876431D41CaA3E3E2ea1520"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x2f1d6F4C40047dC122cA7e46B0D1eC27739BFc66",
+        "MockStablePool": "0x781589d386e62ba7eB5D8382eE4DC86d8C64f882"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0xC82E329C832CAcc8DA65dbB57ac72B068e0CEb9B"
       }
     },
     "zkevm": {
@@ -1680,6 +1795,9 @@
       "20230711-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0xE42FFA682A26EF8F25891db4882932711D42e467",
         "MockComposableStablePool": "0x9FD66B741ac546055E04E768Dd52edD33574D453"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e"
       }
     },
     "arbitrum": {
@@ -1836,6 +1954,14 @@
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
         "MockStablePool": "0xC8B43aa1C60c4caE0ACBf3db9C79e407E09b13dA"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x22625eEDd92c81a219A83e1dc48f88d54786B017"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
+        "StableSurgeHook": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417",
+        "MockStablePool": "0xfF4365FDb4b77B4D193F9Be42544c433D8223e63"
       }
     },
     "mainnet": {
@@ -2058,6 +2184,14 @@
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
         "MockStablePool": "0x89Ef89Fd9a6ec73bcE588F309C1F65C406d2891C"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
+        "StableSurgeHook": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA",
+        "MockStablePool": "0xc05ff9851c2a000F3C319D2986D8712317583B79"
       }
     },
     "optimism": {
@@ -2175,6 +2309,9 @@
       "20230711-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0x043A2daD730d585C44FB79D2614F295D2d625412",
         "MockComposableStablePool": "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1"
       }
     },
     "polygon": {
@@ -2399,6 +2536,14 @@
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
         "MockStablePool": "0x5006082D252c6315C3A83BD621927551a20F3b44"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+        "StableSurgeHook": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1",
+        "MockStablePool": "0x825DC69A2FC808620eEd7377B19D204e6944c675"
       }
     },
     "bsc": {
@@ -2515,6 +2660,14 @@
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xd67F485C07D258B3e93835a3799d862ffcB55923",
         "MockStablePool": "0x7373C5b9610d43466395617c428eCAA5b47ac5AA"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0xEB15EBBF9C1a4D7D243d57dE447Df0b97C40c324"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0xD516c344413B4282dF1E4082EAE6B1081F3b1932",
+        "StableSurgeHook": "0x30CE53fA38a1399F0CA158b5c38362c80E423bA9",
+        "MockStablePool": "0xD8D88e186AA7cfa3929dF79ab5a5f02316e7d77B"
       }
     },
     "base": {
@@ -2557,6 +2710,14 @@
       "20241205-v3-stable-pool": {
         "StablePoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
         "MockStablePool": "0xd64da6d2f39Afe68479e68c5bAaEA81FdA39C360"
+      },
+      "20241205-v3-vault-explorer": {
+        "VaultExplorer": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
+      },
+      "20250121-v3-stable-surge": {
+        "StableSurgePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
+        "StableSurgeHook": "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007",
+        "MockStablePool": "0xf551bD21bc0E568F2a0f54F9213E3dA7336e5625"
       }
     },
     "zkevm": {
