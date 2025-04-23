@@ -8,6 +8,7 @@
   "tokens": {
     "LINK": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
     "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "axlOP": "0x994ac01750047B9d35431a7Ae4Ed312ee955E030",
     "USDbC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA"
   },
   "helpers": {
@@ -25,6 +26,7 @@
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
       "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
       "USDC-omnichain": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4",
+      "axlOP-omnichain": "0x6a71d17E50A67C54eae393323a8594cFdBb23F01",
       "GHO-omnichain": "0x08F02E2945C175272Acbb238ACCB6eda56129DE8"
     }
   },
@@ -32,7 +34,6 @@
     "keeper_registry_v2_1": "0xE226D5aCae908252CcA3F6CEFa577527650a9e1e",
     "keeper_registrar_v2_1": "0xD8983a340A96b9C2Bb6855E46847aE134Db71fB1",
     "keeper_registrar_v2_3": "0xe28adc50c7551cff69fcf32d45d037e5f6554264"
-
   },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
