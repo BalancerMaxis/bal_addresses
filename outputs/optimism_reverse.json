@@ -86,6 +86,7 @@
   "0x26743984e3357eFC59f2fd6C1aFDC310335a61c9": "20221123-pool-recovery-helper/PoolRecoveryHelper",
   "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42": "20250324-v3-stable-pool-v2/StablePoolFactory",
   "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93": "EOA/contributors-payees/tritium",
+  "0x284a37B375e69c8cB30a5633Ee55f3584dd26808": "multisigs/innovation_fund",
   "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1": "EOA/dao/0xMaki",
   "0x287E4A89d03deCdF7ac372c7B5332AbCDb3D912A": "20240223-composable-stable-pool-v6/MockComposableStablePool",
   "0x28A6714B06B1241D1F339F9280553F115eCC285B": "EOA/emeritus/shakotan_deployer",

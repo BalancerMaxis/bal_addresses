@@ -328,6 +328,7 @@
   "multisigs/dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
   "multisigs/emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
   "multisigs/fees": "0x09Df1626110803C7b3b07085Ef1E053494155089",
+  "multisigs/innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
   "multisigs/lm": "0x09Df1626110803C7b3b07085Ef1E053494155089",
   "multisigs/maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
   "pools/1-f552": "0xF5521ca6A3295bAbb4b2729931Cd358BE35da7e3",
