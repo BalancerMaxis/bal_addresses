@@ -20,7 +20,9 @@
     }
   },
   "arbitrum": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
@@ -28,7 +30,9 @@
     }
   },
   "optimism": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": {
@@ -36,9 +40,7 @@
     }
   },
   "gnosis": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-gnosis-chain/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/gnosis-blocks/version/latest",
     "aura": {
@@ -63,9 +65,7 @@
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-sepolia-beta/version/latest"
   },
   "avalanche": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-avalanche-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-avalanche-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-avalanche/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/avalanche-blocks/version/latest",
     "aura": {
@@ -84,9 +84,7 @@
     }
   },
   "mode": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },

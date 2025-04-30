@@ -526,6 +526,7 @@
   "arbitrum": {
     "rETH-bb-a-WETH-BPT-gauge-006e": "0x006e24591cda6b16c3a53641c5316b47441d84e5",
     "50tBTC-50WETH-gauge-0114": "0x011417bbed6fc9ceff36c032d431b0efcba7f8b3",
+    "osETH-WETH-gauge-046a": "0x046a1a415b5fe0bcdb2758d8fd261cb09e8b6f10",
     "80PRF-20WETH-gauge-04d3": "0x04d32f27ee3ff5efbcb855a1c2ee04a6191f23bf",
     "50DFX-50WETH-gauge-04fc": "0x04fc019017ed3f921d5ec11fff84b870744ba0d1",
     "sFRAX/4POOL-gauge-050f": "0x050fbe33699e56b577c3d6f090ece9870a0966bd",
@@ -693,6 +694,7 @@
     "ECLP-gUSDC-AUSDC-gauge-ddbd": "0xddbdca6213b4a03d8c6fc1419ef7b0b16b61d363",
     "DUSD/bbaUSD-gauge-de4c": "0xde4c39168b404a651bc97fd29fd0f1d1956e894b",
     "ECLP-sUSDe-GYD-gauge-dec0": "0xdec026525fe4fef54857bcf551aea97abc24a673",
+    "Balancer rETH-Aave wETH-gauge-e1ee": "0xe1ee6f4c68836be5b00d88d10bf57099bc8b428d",
     "2CLP-AUSDC-USDC-gauge-e39f": "0xe39feeb09c4dde420eaaadd066f949ab84c94bb8",
     "50WBTC-50tBTC-gauge-e7ec": "0xe7ecf3e7d2105f61020cda5ce2256908ccf773dd",
     "ECLP-USDC-USDT-gauge-e882": "0xe882f63f74e5966c9d2424b745ad6655d24d1336",
@@ -857,6 +859,7 @@
     "50BALD/50WETH-gauge-544b": "0x544bdce27174ea8ba829939bd3568efc6a6c9c53",
     "ECLP-GYFI-wstETH-gauge-549b": "0x549b362fefe9311fec739c53f1a62b075563ae74",
     "ECLP-WETH-USDT-gauge-5810": "0x5810b3ee98a34eb93659a12b62788d00e8f23afe",
+    "Balancer rETH-Aave wETH-gauge-5d2c": "0x5d2ca46c5ffd5cfc279cd05adcf2896436b6626e",
     "Aave wstETH-ezETH-gauge-5d49": "0x5d49fb47aef338a9f5ca554f59a875c17107457a",
     "ECLP-WETH-USDC-gauge-5ed3": "0x5ed3cd1d293cc96e15216f90d83aeeb00340e2f1",
     "MOREUSDC-gauge-60ed": "0x60ed9e5da6437a6e19b7815e013e3426161e8044",
