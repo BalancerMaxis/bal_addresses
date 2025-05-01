@@ -199,7 +199,12 @@
     "LenderVaultFactory": "0x1874a08f7975b25944feb989bbaaa464f61ab3bc"
   },
   "safe": {
+    "multisend": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
     "token_locker": "0x0a7CB434f96f65972D46A5c1A64a9654dC9959b2"
+  },
+  "zodiac": {
+    "roles_master_copy": "0x9646fDAD06d3e24444381f44362a3B0eB343D337",
+    "multisend_unwrapper": "0x93B7fCbc63ED8a3a24B59e1C3e6649D50B7427c0"
   },
   "karpatkey": {
     "roles_v1": "0xd8dd9164E765bEF903E429c9462E51F0Ea8514F9",
