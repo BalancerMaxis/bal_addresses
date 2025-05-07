@@ -90,6 +90,7 @@
   "20250407-v3-vault-explorer-v2/VaultExplorer": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d",
   "20250418-v3-wrapped-bpt/MockWrappedBalancerPoolToken": "0x3234658811D726835547FAE1dEfF3892a0D9D9A1",
   "20250418-v3-wrapped-bpt/WrappedBalancerPoolTokenFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+  "20250503-v3-protocol-fee-sweeper-v2/ProtocolFeeSweeper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
