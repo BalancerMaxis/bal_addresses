@@ -10,6 +10,7 @@
     "maxi_ops": "0x166f54F44F271407f24AA1BE415a730035637325",
     "maxi_team": "0x14EaC885d30a4A3e066bF9736BCfFd0B4A77aad4",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "blabs_ops": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B",
     "linearPoolController": "0x75a52c0e32397A3FC0c052E2CeB3479802713Cf4",
     "foundation_opco": "0x3B8910F378034FD6E103Df958863e5c684072693",
@@ -34,7 +35,8 @@
     "emergency": "0x3c58668054c299bE836a0bBB028Bee3aD4724846",
     "blabs_ops": "0xf9D6BdE5c2eef334AC88204CB2eEc07111DCBA97",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
-    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
   },
   "arbitrum": {
     "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -44,6 +46,7 @@
     "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
     "maxi_ops": "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "kyc_grant_safe": "0xb6BfF54589f269E248f99D5956f1fDD5b014D50e",
@@ -57,6 +60,7 @@
     "emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
     "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "beets_treasury": "0x2a185c8a3c63d7bfe63ad5d950244ffe9d0a4b60",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
@@ -84,6 +88,7 @@
     "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
     "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
       "dao_omni": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
@@ -95,7 +100,8 @@
     "lm": "0x65226673F3D202E0f897C862590d7e1A992B2048",
     "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
-    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
   },
   "goerli": {
     "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
