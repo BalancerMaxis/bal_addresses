@@ -40,5 +40,8 @@
   },
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
+  },
+  "paladin": {
+    "QuestBoardV2Sidechain": "0x12Da7E0c469CEeC4EFADa2F5E8CAedCD3F3E6748"
   }
 }
