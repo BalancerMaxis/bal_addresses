@@ -75,9 +75,7 @@
     "core": {
       "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
     },
-    "gauges": {
-      "429": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest"
-    },
+    "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
     "aura": {
       "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-base/api"
