@@ -270,7 +270,6 @@
   "0x74aa3d1D937452e1611CE378FeACA3C506943DC9": "gauges/bpt-onsteady-gauge-74aa",
   "0x752de5046A3f726d3165cb8CD4143F299949cE9D": "pools/BPT-BRINE-752d",
   "0x758D3297d9D9325EFb6DD424a7B2EdCaB47e309E": "gauges/bpt-yieldconcerto-gauge-758d",
-  "0x75C6B245515657Fd69f1645C051A2ba13a8D70c6": "pools/BPT-CRV-75c6",
   "0x75c0530885F385721fddA23C539AF3701d6183D4": "chainlink/keeper_registry",
   "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6": "20230206-aave-rebalanced-linear-pool-v4/MockAaveLendingPool",
   "0x77A0Df59d1d73B12B07Bcded0611279D8801ee96": "20230711-composable-stable-pool-v5/MockComposableStablePool",
