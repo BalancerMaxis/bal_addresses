@@ -35,6 +35,7 @@
     }
   },
   "mimic": {
+    "fee_burner": "0xdb9290CD55AAE8F03A6426B4a0d89AcAcC2778Cf",
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97"
   },
   "uniswap": {
