@@ -144,9 +144,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250221-v3-cow-swap-fee-burner": {
-        "CowSwapFeeBurner": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77"
-      },
       "20250307-v3-liquidity-bootstrapping-pool": {
         "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
         "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
@@ -177,6 +174,9 @@
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
       }
     },
     "avalanche": {
@@ -491,9 +491,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
       },
-      "20250221-v3-cow-swap-fee-burner": {
-        "CowSwapFeeBurner": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
-      },
       "20250307-v3-liquidity-bootstrapping-pool": {
         "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
         "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
@@ -524,6 +521,9 @@
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
       }
     },
     "bsc": {
@@ -830,9 +830,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
       },
-      "20250221-v3-cow-swap-fee-burner": {
-        "CowSwapFeeBurner": "0xAE563E3f8219521950555F5962419C8919758Ea2"
-      },
       "20250307-v3-liquidity-bootstrapping-pool": {
         "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
         "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
@@ -863,6 +860,9 @@
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7"
       }
     },
     "mainnet": {
@@ -1071,9 +1071,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
       },
-      "20250221-v3-cow-swap-fee-burner": {
-        "CowSwapFeeBurner": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106"
-      },
       "20250307-v3-liquidity-bootstrapping-pool": {
         "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
         "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
@@ -1104,6 +1101,9 @@
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c"
       }
     },
     "mode": {
@@ -1662,9 +1662,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"
       },
-      "20250221-v3-cow-swap-fee-burner": {
-        "CowSwapFeeBurner": "0x3400AaFA47C6dC0D8Ffc2380D3665f701cD53eBc"
-      },
       "20250307-v3-liquidity-bootstrapping-pool": {
         "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
         "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
@@ -1695,6 +1692,9 @@
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x0B93d60205b72A2d3279dE1380D94A2E1cC509B8"
       }
     },
     "zkevm": {
@@ -2008,6 +2008,9 @@
         "StableSurgeHook": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417",
         "MockStablePool": "0xfF4365FDb4b77B4D193F9Be42544c433D8223e63"
       },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
       }
@@ -2240,6 +2243,9 @@
         "StableSurgePoolFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "StableSurgeHook": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA",
         "MockStablePool": "0xc05ff9851c2a000F3C319D2986D8712317583B79"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106"
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
@@ -2599,6 +2605,9 @@
         "StableSurgeHook": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1",
         "MockStablePool": "0x825DC69A2FC808620eEd7377B19D204e6944c675"
       },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0xAE563E3f8219521950555F5962419C8919758Ea2"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
       }
@@ -2726,6 +2735,9 @@
         "StableSurgeHook": "0x30CE53fA38a1399F0CA158b5c38362c80E423bA9",
         "MockStablePool": "0xD8D88e186AA7cfa3929dF79ab5a5f02316e7d77B"
       },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x3400AaFA47C6dC0D8Ffc2380D3665f701cD53eBc"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
       }
@@ -2778,6 +2790,9 @@
         "StableSurgePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
         "StableSurgeHook": "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007",
         "MockStablePool": "0xf551bD21bc0E568F2a0f54F9213E3dA7336e5625"
+      },
+      "20250221-v3-cow-swap-fee-burner": {
+        "CowSwapFeeBurner": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
