@@ -8,6 +8,8 @@ from bal_tools import BalPoolsGauges
 def process_query_pools(result) -> dict:
     flattened_result = []
     for pool_data in result:
+        if pool_data.symbol.startswith("circlesBackingLBP"):
+            continue
         flattened_result.append(
             {"address": pool_data.address, "symbol": pool_data.symbol}
         )
