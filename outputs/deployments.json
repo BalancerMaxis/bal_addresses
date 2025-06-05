@@ -172,6 +172,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1"
       },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d"
+      },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
       }
@@ -341,6 +344,9 @@
       },
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
@@ -515,6 +521,9 @@
       },
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
@@ -852,6 +861,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB"
       },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x254F3A2974b97dc2E675f6115c845567C55f83b0"
+      },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
       }
@@ -1089,6 +1101,9 @@
       },
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x9958317b80ee5f10457017d54c2484D722059157"
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
@@ -1350,6 +1365,9 @@
       },
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7"
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
@@ -1677,6 +1695,9 @@
       },
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x0f3615e60b1D23a5DD98CE74865FAA79A6d9aF70"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0x3a57cDd9f3f6C9eC69dEe654ba7E07Ad5afc63e1"
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"

@@ -540,6 +540,7 @@
   "0xf302f9F50958c5593770FDf4d4812309fF77414f": "20211202-no-protocol-fee-lbp/NoProtocolFeeLiquidityBootstrappingPoolFactory",
   "0xf30dB0Ca4605e5115Df91B56BD299564dcA02666": "pools/BPT-BEET-WSTEH-f30d",
   "0xf3420D479d8DAa6ced1d48097Aad67eF38A1Fe1c": "pools/BPT-GTRAIN-f342",
+  "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7": "20250530-v3-cow-swap-fee-burner-v2/CowSwapFeeBurner",
   "0xf496794778D49e6ce1Af5cDbd3231Ee3Bd293EC0": "gauges/BPT-RESERVE-gauge-f496",
   "0xf572649606db4743D217A2fA6E8b8eb79742C24A": "pools/test-bb-USD-MAI-f572",
   "0xf6655d9F5C2060eF4836A067e61A78891F8fEB03": "rate_providers/safe/WrappedAaveOptimism_wstETHRateProvider.md/0xbaF95bB30CDab3d5b7a11B67EDeF5631bD62be86",

@@ -222,6 +222,7 @@
   "0x9062a576D3e6Cf6999e99e405608063033c4CFF6": "rate_providers/safe/EVKVaultesavUSD-2RateProvider.md/0x72F92a966f1874f74e1b601BEe7CF57031B53A03",
   "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673": "EOA/blabs_deployers/juani",
   "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC": "20230411-managed-pool-v2/CircuitBreakerLib",
+  "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45": "20250530-v3-cow-swap-fee-burner-v2/CowSwapFeeBurner",
   "0x91f4Df13350083eDb30515019cF527C6b0490c54": "EOA/blabs_ops/Mike",
   "0x94f68b54191F62f781Fe8298A8A5Fa3ed772d227": "20230206-weighted-pool-v3/WeightedPoolFactory",
   "0x95008946F2773f24588AEEE44d643016381265FF": "maxiKeepers/gaugeRewardsInjectors/_deprecated/yyavax",
