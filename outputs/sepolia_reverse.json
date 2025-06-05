@@ -49,6 +49,7 @@
   "0x38ce8e04EBC04A39BED4b097e8C9bb8Ca74e33d8": "20250120-v3-gyro-2clp/Gyro2CLPPoolFactory",
   "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA": "EOA/dao/AlexLangeVC",
   "0x3B1eb8EB7b43882b385aB30533D9A2BeF9052a98": "20230409-gearbox-linear-pool-v2/MockGearboxVault",
+  "0x3a57cDd9f3f6C9eC69dEe654ba7E07Ad5afc63e1": "20250530-v3-cow-swap-fee-burner-v2/CowSwapFeeBurner",
   "0x3d70C97879FDD61474637f8C39cf595078499C01": "EOA/maxi_deployers/hyferion",
   "0x3f993093c3917Fe7A117f37cFD008775249f59c8": "EOA/contributors-payees/gosuto",
   "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287": "20250307-v3-liquidity-bootstrapping-pool/MockLBPool",

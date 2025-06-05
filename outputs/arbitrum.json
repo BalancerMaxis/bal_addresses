@@ -154,6 +154,7 @@
   "20250418-v3-wrapped-bpt/WrappedBalancerPoolTokenFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
   "20250503-v3-protocol-fee-sweeper-v2/ProtocolFeeSweeper": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1",
   "20250507-v3-erc4626-cow-swap-fee-burner/ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
+  "20250530-v3-cow-swap-fee-burner-v2/CowSwapFeeBurner": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
   "20250530-v3-erc4626-cow-swap-fee-burner-v2/ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
