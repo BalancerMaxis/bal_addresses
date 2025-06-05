@@ -172,11 +172,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
       }
     },
     "avalanche": {
@@ -345,8 +342,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
       }
     },
     "base": {
@@ -519,11 +516,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       }
     },
     "bsc": {
@@ -858,11 +852,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
       }
     },
     "mainnet": {
@@ -1099,11 +1090,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
       }
     },
     "mode": {
@@ -1363,8 +1351,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       }
     },
     "polygon": {
@@ -1690,11 +1678,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x0f3615e60b1D23a5DD98CE74865FAA79A6d9aF70"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x0B93d60205b72A2d3279dE1380D94A2E1cC509B8"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"
       }
     },
     "zkevm": {
@@ -1843,6 +1828,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
       }
     },
     "arbitrum": {
@@ -2013,6 +2001,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       }
     },
     "mainnet": {
@@ -2249,6 +2240,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
       }
     },
     "optimism": {
@@ -2372,6 +2366,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
       }
     },
     "polygon": {
@@ -2610,6 +2607,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
       }
     },
     "bsc": {
@@ -2740,6 +2740,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
       }
     },
     "base": {
@@ -2796,6 +2799,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
       }
     },
     "zkevm": {

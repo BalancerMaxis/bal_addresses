@@ -294,11 +294,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -1075,6 +1072,7 @@
         "50wstETH-BPT-50bbaUSD-9fb7": "0x9fB7D6dCAC7b6aa20108BaD226c35B85A9e31B63",
         "50WBTC-50ARB-9fe9": "0x9FE9eE7c16d7569f31385611EF2f6D08A470fDAb",
         "ECLP-WETH-USDT-a013": "0xa01364561eE7d9EC7f234Af070993Ee6baE9B2a4",
+        "USDC-USDT-a04e": "0xa04E63d67052E5Bc71A9DfeeDf009fb500e83243",
         "50VSTA-50DAI-a0d0": "0xA0D0B6f41cc9cd828eD67654D15A9F5A72204368",
         "Gyro eBTC-Aave USDCn-a0e5": "0xA0E5e7728e026bDE02810D255a6b94A9aA47b5F9",
         "50WBTC-50GMX-a158": "0xa158da5f4E412a5C97503527EF5Aa2de26C62Bf1",
@@ -1859,8 +1857,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
       },
       "multisigs": {
         "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
@@ -2340,11 +2338,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
       "multisigs": {
         "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
@@ -2756,7 +2751,6 @@
         "46WETH-54USDC-821f": "0x821F38C1e93Be6DEBe090B8c07656AA8629dc6Bc",
         "33BAL-33USDbC-33axlUSDC-8365": "0x83650f1e76901A85D34bE8D3c8c4adFE7C2A55F4",
         "B-80VAULTX-20WETH-83cb": "0x83CB4349A796528CAb56f536D6f9Ad8f1CddD43a",
-        "USDC-WETH-cbBTC-VIR-EURC-847c": "0x847cC4B52B43d98606Efa1F78D04Ec1c2fC6914b",
         "50WETH-50USDbC-85ce": "0x85Ce855f7ffA3109A7d55894Eb102D980c88237A",
         "50BALD/50WETH-868f": "0x868F0Efc81A6c1DF16298Dcc82f7926B9099946B",
         "USDC-WETH-8739": "0x8739842cF01d55CF7C9faB11f1c01b2629C93D73",
@@ -2857,6 +2851,7 @@
         "Aave wstETH-ezETH-b5bf": "0xb5bfB5aDB736Ea852bD58fEc71db3B356C2a3938",
         "ECLP-USDT-GYD-b5ea": "0xB5eA08A3cB962B50474F5EDB3c38Cb4b2715b90d",
         "ZODIACSCORPIO-b615": "0xb61516Cc2623092c402ade4B4566d15F400d8931",
+        "waBasUSDC-waBasWETH-b6a4": "0xb6A4fa2a263A5eb35f1bb4C5d2EB1a5bB0807CD5",
         "Surge yUSD-Aave USDC-b6a9": "0xB6A9a815d98cb98fD9F2353eC59DE07B63f5B485",
         "BCoW-50B3-50sUSDS-b6df": "0xB6DfE41c298F06B43C6598599CA37cCAbdBeF28F",
         "50BAL-50axlUSDC-b79e": "0xB79e50c4C4aDE28DF004cD552ECf8435DB56162D",
@@ -3728,11 +3723,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
       },
       "multisigs": {
         "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
@@ -4163,6 +4155,7 @@
         "AURA-BAL-GROSH-8264": "0x8264b90052f7c6104b49f71d921344dDF93867a2",
         "circlesBackingLBP-s-CRC-832f": "0x832f03876ad5e69ba15a2b30aC371D82D85E9e65",
         "BCoW-50osGNO-50wstETH-834e": "0x834E968977Dc1F042dd5A98AFfB0Db0dCeF4b5aB",
+        "circlesBackingLBP-s-CRC-83e9": "0x83e9809e6F155907e286941f4969540806350e16",
         "33USDT-33USDC-33WXDAI-84bb": "0x84BB71A70685BD3F129314370431a2965E349380",
         "circlesBackingLBP-s-CRC-855b": "0x855B624c90C21384C1d80BDDF58b60856f4694E3",
         "circlesBackingLBP-s-CRC-85d6": "0x85D6e8FDF68A1bDb99DE53CB6e13531740a9bAcF",
@@ -4179,6 +4172,7 @@
         "circlesBackingLBP-s-CRC-8956": "0x89563a624a32b23fb8dab60d91aFDB976d889819",
         "circlesBackingLBP-s-CRC-89f3": "0x89f322ceB891492808704b2Ea7DD2766a68e1ff0",
         "circlesBackingLBP-s-CRC-8a5d": "0x8a5D3361aeBB3A64FDe4f06DFC10c56C21C2d1bb",
+        "circlesBackingLBP-s-CRC-8b5b": "0x8B5B14F13CE840A7437cE79876226927a6905e8e",
         "circlesBackingLBP-s-CRC-8be3": "0x8Be3597e13B4004De9817380752da7b3e10F04d3",
         "BCoW-50BZZ-50WXDAI-8db3": "0x8Db38b15ccAbd9D7f62c77E22a57D979501404d9",
         "ECLP-wstETH-WETH-8dd4": "0x8DD4df4Ce580b9644437f3375e54f1ab09808228",
@@ -4250,6 +4244,7 @@
         "50sDAI-50bCOIN-adf6": "0xADF65e3DA99f7D1EfE7c5deA899ABeC9720139D0",
         "50bCSPX-50sDAI-ae2a": "0xAE2a38545167Be5A2EBa9B931B28DE5A7d95315e",
         "circlesBackingLBP-s-CRC-aee1": "0xaEe1Ffedb5f4008d82048cA1d0BB46BCEAb0a2D6",
+        "circlesBackingLBP-s-CRC-b0bc": "0xB0bc01dF721be744F8Bb08d4C60b5187e118770A",
         "circlesBackingLBP-s-CRC-b13f": "0xb13F36939264b33B129f68d57e21Df8f57fDF038",
         "33PAXG-33WBTC-34waGnwstETH-b1ba": "0xB1BAF0d7c3A938B75A8Cd7Ef24EdD5ee9fbA62c1",
         "circlesBackingLBP-s-CRC-b1d9": "0xb1d9c2E173d9F9Fee9dCAe1E7068a7B81cc69Def",
@@ -4266,6 +4261,7 @@
         "50WETH-50GNO-b8bb": "0xB8bB1ce9C6E5401D66fE2126dB6E7387E1E24fFE",
         "circlesBackingLBP-s-CRC-b8ec": "0xB8ECbA19607C9CaE000EBDb3cBDf8BC21F4E17E7",
         "50bbagGNO-50bbagUSD-b973": "0xB973Ca96a3f0D61045f53255E319AEDb6ED49240",
+        "circlesBackingLBP-s-CRC-b994": "0xb994042b0eDD6BFC571fF8Fc37a61bf22a997765",
         "circlesBackingLBP-s-CRC-ba36": "0xBa36B8a75E599022c7D11EAfB1524301A39E358c",
         "bb-WETH-wstETH-bad2": "0xbAd20c15A773bf03ab973302F61FAbceA5101f0A",
         "circlesBackingLBP-s-CRC-bae2": "0xBAE2C20aF326a1ceE8FD4F094F8EeD7edD30598b",
@@ -4320,8 +4316,10 @@
         "wstETH-GROSH-d37b": "0xD37B12e79958FC7DCC9245fceA73e233C9C635e6",
         "circlesBackingLBP-s-CRC-d38a": "0xD38A763b78E8f97B080f29F2429faFcA225cABAA",
         "circlesBackingLBP-s-CRC-d3c0": "0xD3c04eaBC7518a7427f0a0262D16ed3e5aDF8fb5",
+        "circlesBackingLBP-s-CRC-d402": "0xD40273E598B3424e56c6C7fD9B4ac5adb1b57CA5",
         "circlesBackingLBP-s-CRC-d405": "0xd405611c90017781CE7D19016876899BDDD18D64",
         "circlesBackingLBP-s-CRC-d436": "0xD43632b1f2aBA6c4A9849AEe75177739A43b4833",
+        "circlesBackingLBP-s-CRC-d697": "0xD6979825Df703550f572118B897eFb8b138bdC48",
         "circlesBackingLBP-s-CRC-d703": "0xd70334399714334d3879b3C9F481558e48195799",
         "circlesBackingLBP-s-CRC-d7b1": "0xD7b1083f2b07689F986451400DE4018d3d425d31",
         "circlesBackingLBP-s-CRC-d7cc": "0xD7Cc9F6D9A3F5182e38a86A84995b9d1A717D615",
@@ -4963,11 +4961,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -5356,6 +5351,7 @@
         "FOURWP-494b": "0x494B26D4aEE801Cb1fabF498Ee24f0af20238743",
         "50COMP-50WSTETH-496f": "0x496ff26B76b8d23bbc6cF1Df1eeE4a48795490F7",
         "sDAI/3Pool-49cb": "0x49cbD67651fbabCE12d1df18499896ec87BEf46f",
+        "Aave GHO-Aave RLUSD-49e3": "0x49E34FDeBf5BcD010BaD2988103C2296E891E5b6",
         "XAUt-USDt-BPT-49f5": "0x49F5bAC6b54a983bEe731abbf5441d7C726bEB99",
         "4IR_LBP-4a17": "0x4a17BA69a7E8E901d2f4E94C2EA4bAdd32D0336E",
         "25PAXG-50USDC-25WETH-4aa4": "0x4aA462D59361fC0115B3aB7E447627534a8642ae",
@@ -5661,10 +5657,10 @@
         "33APU-33PEPE-33SPX-9d0d": "0x9D0D36cC9E989598F01A4656E0efFf73896c30ed",
         "DOG-9d0e": "0x9D0E8cDf137976E03eF92eDE4C30648D05E25285",
         "BTF-SH-9d43": "0x9D430BFE48f2FCFd9a3964987144Eee2d7d5b4E9",
-        "BOLD-LUSD-USDaf-9d64": "0x9d64024FFB6051F02Bd217185903F7774AB7AbC0",
         "ECLP-cbBTC-WBTC-9d73": "0x9D73398C54be236da189d937EACE8E6dccaD3616",
         "LPeYyvUSDC-28JAN22-9e03": "0x9e030b67a8384cbba09D5927533Aa98010C87d91",
         "50NIN-50WETH-9e75": "0x9e757D8EAcdA440999f21e9faa3bfa475516b98e",
+        "ReClamm Test 3-v3-m-9e79": "0x9e79501c27C772b5e3EFef3E6963027AEF0618b0",
         "BLC-9e7f": "0x9E7fD25Ad9D97F1e6716fa5bB04749A4621e892d",
         "ECLP-GHO-USD0-9ed2": "0x9ed2DbE178f5720eD6085630D3a0b76EE2cD3aB2",
         "Surge tETH-Lido wstETH-9ed5": "0x9ED5175aeCB6653C1BDaa19793c16fd74fBeEB37",
@@ -5938,6 +5934,7 @@
         "50DAI-35rETH-5rETH-10aETHc-f767": "0xF767F0a3FCf1EAfEc2180b7dE79D0c559D7E7e37",
         "50MIDAS-50WETH-f779": "0xf7795Ee348c197EAbfb5283d9f5A2231548e75CE",
         "ECLP-wstETH-cbETH-f7a8": "0xF7A826D47c8E02835D94fb0Aa40F0cC9505cb134",
+        "waEUSDC-BOLD-USDaf-Aav GHO-f871": "0xF871C23587B28d8F21a3fb663f6a6d9d3A699EA2",
         "B-80UMA-20WETH-f8a0": "0xf8a0623ab66F985EfFc1C69D05F1af4BaDB01b00",
         "80psdnOCEAN-20OCEAN-f8c4": "0xf8C4CD95c7496cB7c8d97202Cf7e5b8DA2204C2b",
         "BCoW-50BAL-50ETH-f8f5": "0xf8F5B88328DFF3d19E5f4F11A9700293Ac8f638F",
@@ -6258,6 +6255,7 @@
         "mBPT-gauge-bec2": "0xbeC2d02008Dc64A6AD519471048CF3D3aF5ca0C5",
         "50ZRS-50WETH-BPT-gauge-bf39": "0xbF39254fD93C81ac9F0ffd2E721c86C052793353",
         "ankrETH/wstETH-gauge-bf65": "0xbf65b3fA6c208762eD74e82d4AEfCDDfd0323648",
+        "Aave GHO-Aave RLUSD-gauge-c0b8": "0xc0B8B8A948c29e7757f66B553A419C1A3856E84C",
         "60GOLD-40WETH-gauge-c219": "0xC219821b1FE1bBe436f62D911F00Ef1C8542A8F7",
         "50WSTETH-50LDO-gauge-c2c2": "0xc2c2304E163e1aB53De2eEB08820a0B592bec20B",
         "VBPT-gauge-c2d3": "0xc2D343E2C9498E905F53C818B88eB8064B42D036",
@@ -6828,8 +6826,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
       "multisigs": {
         "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
@@ -9366,11 +9364,8 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x0f3615e60b1D23a5DD98CE74865FAA79A6d9aF70"
       },
-      "20250507-v3-erc4626-cow-swap-fee-burner": {
-        "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
-      },
-      "20250530-v3-cow-swap-fee-burner-v2": {
-        "CowSwapFeeBurner": "0x0B93d60205b72A2d3279dE1380D94A2E1cC509B8"
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"
       },
       "multisigs": {
         "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
@@ -9892,6 +9887,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
       }
     },
     "arbitrum": {
@@ -10062,6 +10060,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       }
     },
     "mainnet": {
@@ -10298,6 +10299,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
       }
     },
     "optimism": {
@@ -10421,6 +10425,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
       }
     },
     "polygon": {
@@ -10659,6 +10666,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
       }
     },
     "bsc": {
@@ -10789,6 +10799,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
       }
     },
     "base": {
@@ -10845,6 +10858,9 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
+      },
+      "20250507-v3-erc4626-cow-swap-fee-burner": {
+        "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
       }
     },
     "zkevm": {
