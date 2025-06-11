@@ -165,6 +165,10 @@
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+        "MockReClammPool": "0xe482ef529B8f7fFC6ECCDea7eaF29C717E9ed079"
+      },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
         "MockWrappedBalancerPoolToken": "0x580107Fe99A2d5bDf45d46014F8779aedDda4669"
@@ -337,6 +341,10 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
+        "MockReClammPool": "0x33608014e176139e0b9058B32EEae1A5ce795FD3"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
@@ -514,6 +522,10 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockReClammPool": "0x39110AD9A2Dbfe46c8674693838D8BA95ea1e7A9"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
@@ -854,6 +866,10 @@
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B"
       },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
+        "MockReClammPool": "0x02B4a4b0db94db44cb91290b2b5Eb5c5a8a1Cbc9"
+      },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
         "MockWrappedBalancerPoolToken": "0x63DFB4cdB6bD225ec41f669d8D26279714B4Ad6E"
@@ -1094,6 +1110,10 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
+        "MockReClammPool": "0x6A5127AE6df32f722e34B5b4aBc67b0d4e582B39"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xA3d11a39dEA14d245659816d35456B89FfBfB744",
@@ -1358,6 +1378,10 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockReClammPool": "0xaC1675219FbB81F2C53950a92dF3F95AAffeab8E"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
@@ -1688,6 +1712,10 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xC82E329C832CAcc8DA65dbB57ac72B068e0CEb9B"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
+        "MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xE47e1b8640e18F77BEC160D2Bb2481F65e580730",

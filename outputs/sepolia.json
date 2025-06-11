@@ -132,6 +132,8 @@
   "20250404-v3-stable-surge-pool-factory-v2/MockStablePool": "0x781589d386e62ba7eB5D8382eE4DC86d8C64f882",
   "20250404-v3-stable-surge-pool-factory-v2/StableSurgePoolFactory": "0x2f1d6F4C40047dC122cA7e46B0D1eC27739BFc66",
   "20250407-v3-vault-explorer-v2/VaultExplorer": "0xC82E329C832CAcc8DA65dbB57ac72B068e0CEb9B",
+  "20250409-v3-reclamm-pool/MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660",
+  "20250409-v3-reclamm-pool/ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
   "20250418-v3-wrapped-bpt/MockWrappedBalancerPoolToken": "0xeC2C01AE8BE49D9335157e2e0680c686e2629Bfb",
   "20250418-v3-wrapped-bpt/WrappedBalancerPoolTokenFactory": "0xE47e1b8640e18F77BEC160D2Bb2481F65e580730",
   "20250503-v3-protocol-fee-sweeper-v2/ProtocolFeeSweeper": "0x0f3615e60b1D23a5DD98CE74865FAA79A6d9aF70",
