@@ -34,5 +34,7 @@
     "0x007bb7a4bfc214df06474e39142288e99540f2b3000200000000000000000191": "20WETH-80IMO"
   },
   "avalanche": {},
-  "optimism": {}
+  "optimism": {
+    "0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5": "ECLP-wstETH-WETH"
+  }
 }
