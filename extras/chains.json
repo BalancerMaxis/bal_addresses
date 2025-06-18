@@ -50,11 +50,15 @@
     "polygon",
     "arbitrum",
     "gnosis",
-    "zkevm",
     "avalanche",
     "base",
-    "mode",
-    "fraxtal"
+    "mode"
   ],
-  "BALANCER_PRODUCTION_CHAINS_V3": ["mainnet", "gnosis", "arbitrum", "base"]
+  "BALANCER_PRODUCTION_CHAINS_V3": [
+    "mainnet",
+    "gnosis",
+    "arbitrum",
+    "base",
+    "avalanche"
+  ]
 }
