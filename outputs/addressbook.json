@@ -141,6 +141,9 @@
       "20220325-authorizer-adaptor": {
         "AuthorizerAdaptor": "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
       },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F"
+      },
       "20220513-double-entrypoint-fix-relayer": {
         "DoubleEntrypointFixRelayer": "0x8E5698dC4897DC12243c8642e77B4f21349Db97C"
       },
@@ -298,6 +301,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d"
       },
@@ -401,7 +407,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -417,12 +424,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -860,7 +868,6 @@
         "50VSTA-50LINK-65ff": "0x65Ff139Cb6eD328ff05F62cf6fAfe419829Be22c",
         "RealYield-65ff": "0x65Fff6d24ec5A4F2dB2BC3B354EEC833226593D9",
         "50DPX-50VSTA-6638": "0x663803d5a1539525a333CdB270684bD2d1E387ED",
-        "arb-ETH/USDC-70/30-6653": "0x66539bB1CE2Dc40054eeFaE023BafbE36f2C933a",
         "80AI-20USDC-6661": "0x6661136537dfDCA26EEA05c8500502d7D5796E5E",
         "10LINK-90USDC-6673": "0x6673400E053Cc20237461DFe589eAaFc90785566",
         "33MAGIC-33wstETH-33LINK-6957": "0x695771e2BE9D378242a66e7B61e344154cB2FDe7",
@@ -1010,6 +1017,7 @@
         "50wstETH-50ARB-8eec": "0x8EEC307491aD934F24f675bd5fd967E9F569fdf5",
         "80BAL-20WETH-8f02": "0x8f023508dB7ED646a5AD44f48A1B3A384FAfa9Cc",
         "80SNIPE-20waArbUSDCn-8f64": "0x8F64aab2dee930F6ACD8E6B0cA643A462e95156b",
+        "wstETH-WETH-8f8b": "0x8F8Bf1ABF7A8251dc39e8fEB906e3D3330B967B8",
         "50WBTC-50LINK-8f97": "0x8f97c6DdF16f75eEfCa0fAf44864Fc1f8fC9a131",
         "50wstETH-50WETH-8fa3": "0x8FA3214142f65748fC2d84343bC19f7E97CBFdeC",
         "50FRAX-50VST-9000": "0x900045E8429a667da8a41E22feaA426eA7bcCc19",
@@ -1044,7 +1052,6 @@
         "50WETH-50USDC-96c7": "0x96c7479FFbd8BcF56372d06a5C8EC34595326117",
         "50USDT-50USDC-971a": "0x971A8dE8f375dEA995C87126Ed7178407883B889",
         "B-800000000000000000LOL-200000000000000000USDC-973f": "0x973fb174Cdf9b1652e4213125a186f66684D899c",
-        "USDCLINK-975f": "0x975FaCADDBa3b92326Cc9BcBa01463051B41Afac",
         "50USDT-50USDC-9776": "0x97763ccC89fF3827C933eeee3ed0221C8451Acd3",
         "wstETH-WETH-BPT-9791": "0x9791d590788598535278552EEcD4b211bFc790CB",
         "MER/USD-97ae": "0x97AE0a49EeD95fb66684579d110FCc76D55b6c1C",
@@ -1057,7 +1064,6 @@
         "50USDT-50USDC-9b1a": "0x9B1ad42fbBC98241C5b704A78aCd5121189BA9ec",
         "pmm - WETH/USDC-9b24": "0x9B24Eda9c824936eB5D19372d60ade1d92EAf24f",
         "50MAGIC-50WETH-9b6e": "0x9b6E8612D8bE25370bD15796Ea1D0267839Bf5d8",
-        "50wstETH-50WETH-9bd5": "0x9Bd567851d654161741467dD39643EBbE374443E",
         "B-staBAL-2-9be7": "0x9Be7dE742865d021c0E8Fb9D64311b2c040c1ec1",
         "50DFX-50WETH-9bfc": "0x9bFCD4189Cf9062697746CE292350f42fDEE457C",
         "50wstETH-50USDT-9c0e": "0x9C0E4D0D42aA5c011e307D6f858d2d286256E392",
@@ -1196,7 +1202,6 @@
         "50SOL-50wstETH-bc45": "0xbC450dcB3A135a57448f8054bADaeC5C9F2aF571",
         "50WETH-50USDT-bc5f": "0xBC5F0f29883f1e2556D14c90fE84b91a945b4080",
         "50LINK-50GMX-bc6a": "0xBC6A8Da891fa70093C6cc00655d3d9B52c7D3835",
-        "USDC-LINK-bc83": "0xbC8310ee69Ed711c814dc5fFAB503936Dd9b6884",
         "ECLP-GHO-GYD-bc88": "0xBc88FA2aeb274326ae3F2c66139D5Eb33D1F5C2E",
         "33AURA-33ARB-33BAL-bcaa": "0xbcaA6c053cab3Dd73a2E898d89A4f84a180ae1CA",
         "50BAL-50WETH-bd6e": "0xbd6E3c0845dF846505E1126e689125EcB6aeBCfc",
@@ -1318,7 +1323,6 @@
         "33WETH-33USDT-33USDC-d9cd": "0xD9cde95eFeD2d426F2741E2c44De9573116B8F07",
         "50RDNT-50USDC-da3d": "0xda3D5118A4E924Da6Cce37379290cBfA255d0BE3",
         "40cbETH/rETH/wstETH-60WBTC-da83": "0xda8322972ca71BE53e213A3eF1f17f7B76a9436E",
-        "USDC-LINK-db3b": "0xdb3B0E8968bAda17F4532672BcA0A7f6D544eb1F",
         "50LINK-50USDC-dbfd": "0xDbFD9174A960F01AfE390B5429DA55fc41275D76",
         "50wstETH-50WETH-dc37": "0xDc37AA16C59Ab9243202ee986B9a926709e7a01e",
         "uL1s-USDT-dc4b": "0xDc4bbB8928e97E913ba13f6a737caA45e8070E7d",
@@ -1724,6 +1728,9 @@
       "20220325-authorizer-adaptor": {
         "AuthorizerAdaptor": "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca"
       },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
+      },
       "20220517-protocol-fee-withdrawer": {
         "ProtocolFeesWithdrawer": "0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75"
       },
@@ -1875,6 +1882,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
@@ -1970,7 +1980,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -1986,12 +1997,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -2025,7 +2037,6 @@
         "LP-VEUR-USDC-28f3": "0x28F3a9e42667519c83cB090b5c4f6bd34e9F5569",
         "ECLP-ggAVAX-WAVAX-rh-296d": "0x296DF277579B38db06Fe5bDF179252f983672D6D",
         "Aave USDT/USDC/AUSD-31ae": "0x31Ae873544658654CE767BDE179fD1BbCB84850b",
-        "WAVAX-PAIR-32b6": "0x32b608442FcdAba544565DF1da96822bcb3D47bF",
         "LOL_LBP-32f0": "0x32F0DC9E2D890BAC95106a65eB82db70Bc58BaDB",
         "USDC-PAIR-333e": "0x333E94C1901e965B532DAB7F6c6ddaD2a973eAB1",
         "80BETS/20sAVAX-3396": "0x3396cCA90c9335565ECDBAE3a260daFB13A7959e",
@@ -2072,6 +2083,7 @@
         "bb-a-USD-a1d1": "0xa1D14d922a575232066520EDA11E27760946c991",
         "80BAL/20WAVAX-a39d": "0xA39d8651689c8b6e5a9e0AA4362629aeF2c58F55",
         "Gyro AAVE WAVAX-USDC-a4e1": "0xa4E1B0DDFFC0E3Aa63dBCa462cf370E4f1dC9b8B",
+        "eK3 weETH/Aave wETH.e-a6a2": "0xa6a20C2786Bb7f79F3F4Fd0a958ea1Ab5658DDDe",
         "LP-VEUR-USDC-a759": "0xa759Ef6699A7a10DDC734e5Ba1957fB79D3D248C",
         "KIMBOTECHCOQAVAXUSDC-aa4e": "0xAA4Eee23426Bff1AF8D79d6179e5a5c311f6aDcC",
         "ECLP-GYD-aUSDC-ab05": "0xab0548A31519a799549e7954d430Df5bD01E6b7D",
@@ -2121,6 +2133,7 @@
         "sAVAX-ankrAVAX-BPT-gauge-4989": "0x4989f0c73bf38701E608147161f12111C64fd79d",
         "Aave wAVAX/wETH.e-gauge-4a35": "0x4a3550D03F702Ef61798bdfc2A57aAaa7B4Ec19a",
         "KIMBOTECHCOQAVAXUSDC-gauge-5308": "0x5308e6fa8451BD12E8EB672124B6cf058D380C0E",
+        "eK3 weETH/Aave wETH.e-gauge-575f": "0x575F82Bf474EC66E252Ab6850f6d55C59B3A95c4",
         "50BTC.b-50USD-BPT-gauge-5a9d": "0x5a9dBAeD7921538d16C96510489B16e62a6e79aF",
         "sAVAX/ggAVAX/yyAVAX-gauge-6a8e": "0x6A8eA33b5EEF4A8ef0Fa92383E155801997DB801",
         "yyAVAX-WAVAX-BPT-gauge-7201": "0x720158c329E6558287c4539b0Ed21742B0B73436",
@@ -2364,6 +2377,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
@@ -2461,7 +2477,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -2477,12 +2494,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -2828,6 +2846,7 @@
         "50USDbC-50axlUSDC-9c8b": "0x9C8b961754D6d839625F6C1953ee8b18e09A4d79",
         "33BAL-33WETH-33USDC-9d88": "0x9D884e09E0dDF816A1b3f31CCd94a0319793B11B",
         "33DAI-33USDbC-33STG-9dbb": "0x9dBbCaa385bb14fa0Ade71A07A72957cF79e5978",
+        "WETH-USDC-9e13": "0x9e1336F41A2ED102C26230d87Fe3fb713c45e5a6",
         "BCoW-50PEPE-50WETH-9e2f": "0x9E2f16DdADD1427c15908921849E596fF768d24a",
         "Surge sUSDz-Aave USDC-9e5e": "0x9E5eE75b752a372257c0007237a35D671203fb8C",
         "WETH-USDC-EZKLv2-9ef1": "0x9EF1236Af6180148A2b2D9ef8C24B55a557D674d",
@@ -2932,7 +2951,6 @@
         "ECLP-GYFI-GYD-cdc9": "0xCDc9574b4a07f47dA0150Fe67BAA2ff93766CaFD",
         "50DAI-50BAL-cde6": "0xcDe67B70e8144d7D2772De59845b3a67266c2CA7",
         "50BPT-stabal3-50axlUSDC-ce1e": "0xce1EdBf534B0D787CeA315eCdc27Bf857B735793",
-        "UNI-TWAP-USDC-WETH-ce28": "0xcE28d73A2B941e606CfFf1Ddc4c60c6b2D933562",
         "50USDC-50axlUSDC-cf00": "0xcf00fA263fa7Ebd63cbE7Dd34648329d16D330ff",
         "mit-cf02": "0xcF02bf3C7Ff2006CFe2bA3bb2d300f1FFC3DD7d7",
         "ECLP-WETH-USDT-cf4d": "0xcF4DA47A718b985Ef4cf96dFF1477Fc899f70897",
@@ -3078,6 +3096,7 @@
         "ECLP-weETH-wstETH-gauge-7d08": "0x7d08152dE696a5D44Ef032f9626e158048a408B1",
         "50WETH-50USDC-MEVTAXD-gauge-80db": "0x80db733644C60E891b3C7a96141430e4bAafF028",
         "ECLP-GYFI-GYD-gauge-888e": "0x888ECb1Be40323AC02A6b91aedC9E3ea291087FC",
+        "ExtraFi-exUSDC-exUSR-gauge-8930": "0x893035A8AA67e0989Ca433BC31d8024D65C32C10",
         "rETH-WETH-BPT-gauge-8d11": "0x8D118063B521e0CB9947A934BE90f7e32d02b158",
         "50WETH-50TAG-gauge-8d16": "0x8d16A8C9173c1e0044d07F976a15F90aBd9A1090",
         "50WETH-50SUS-gauge-8dd9": "0x8dd928a3Aa0274bBA3b42DD9F41756AaF1e78b2f",
@@ -3266,7 +3285,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -3282,12 +3302,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -3496,7 +3517,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -3512,12 +3534,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -3607,6 +3630,9 @@
       },
       "20220325-authorizer-adaptor": {
         "AuthorizerAdaptor": "0x5aDDCCa35b7A0D07C74063c48700C8590E87864E"
+      },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0xFD214210587Fb84798cbE7F37235e12898f3128f"
       },
       "20220517-protocol-fee-withdrawer": {
         "ProtocolFeesWithdrawer": "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca"
@@ -3759,6 +3785,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0x870F988484A4b3034b6Cca09829f6a1B4123fBC1"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x254F3A2974b97dc2E675f6115c845567C55f83b0"
       },
@@ -3860,7 +3889,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -3876,12 +3906,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -4082,7 +4113,6 @@
         "BAL-GROSH-crvUSD-c2e5": "0xc2E5Bb9902290165e9Bc8D314881389d6Ae4B75f",
         "B-50EURe-50GBPe-c5df": "0xC5Df11757F4A8DFACcC731d13b9577f67055c6c6",
         "EURe-jEUR-c669": "0xC66936a47E6D40DD050A8419B4352825D9082241",
-        "new4seasons-c6f0": "0xc6f05eBAf9171F2BdbcD2b0D15E7a64670eB9287",
         "BAL-GROSH-sDAI-c9ca": "0xc9Ca1a35A3ABB3607a91B4362923dF9CD2C0E8e0",
         "crvUSD/sDAI-c9f0": "0xc9F00C3a713008DDf69b768d90d4978549bFDF94",
         "40WBTC-10WETH-50USDT-ca13": "0xca13F615035965Ca6E9103a620B4Ce0157324F71",
@@ -4188,6 +4218,222 @@
         "50bCSPX-50sDAI-gauge-f81c": "0xF81c47609E19B1456dDC6acb730F8F5b64840429",
         "ECLP-sDAI-AUSDC-gauge-fd0d": "0xFd0D023CeDbb1690e6d602Bc051F06efED8460Dc"
       }
+    },
+    "hyperevm": {
+      "00000000-tokens": {
+        "WETH": "0x5555555555555555555555555555555555555555"
+      },
+      "20210418-authorizer": {
+        "Authorizer": "0x85a80afee867aDf27B50BdB7b76DA70f1E853062"
+      },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9"
+      },
+      "00000000-permit2": {
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
+      "20241204-v3-vault": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20241205-v3-batch-router": {
+        "BatchRouter": "0x9dd5Db2d38b50bEF682cE532bCca5DfD203915E1"
+      },
+      "20241205-v3-buffer-router": {
+        "BufferRouter": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
+      },
+      "20241205-v3-weighted-pool": {
+        "WeightedPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
+        "MockWeightedPool": "0xCEFea117D605909994E96cC686Af50adE55Ec99E"
+      },
+      "20250117-v3-contract-registry": {
+        "BalancerContractRegistry": "0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c",
+        "MockGyro2CLPPool": "0xB793C034CFC1635C104d28d483af0b1ace553E2d"
+      },
+      "20250123-v3-composite-liquidity-router-v2": {
+        "CompositeLiquidityRouter": "0xa523f47A933D5020b23629dDf689695AA94612Dc"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
+        "MockGyroECLPPool": "0xfCf895F83DF683d90F131697cC2c7a6843B2c431"
+      },
+      "20250212-v3-mev-capture-hook": {
+        "MevCaptureHook": "0x7Ba29fE8E83dd6097A7298075C4AFfdBda3121cC"
+      },
+      "20250214-v3-protocol-fee-controller-v2": {
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b"
+      },
+      "20250218-v3-aggregator-router": {
+        "AggregatorRouter": "0x043A2daD730d585C44FB79D2614F295D2d625412"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+        "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
+      },
+      "20250307-v3-router-v2": {
+        "Router": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1"
+      },
+      "20250321-v3-vault-factory-v2": {
+        "VaultFactory": "0xAc27df81663d139072E615855eF9aB0Af3FBD281",
+        "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b",
+        "VaultAdmin": "0x35fFB749B273bEb20F40f35EdeB805012C539864",
+        "VaultExtension": "0x0E8B07657D719B86e06bF0806D6729e3D528C9A9",
+        "Vault": "0xbA1333333333a1BA1108E8412f11850A5C319bA9"
+      },
+      "20250324-v3-stable-pool-v2": {
+        "StablePoolFactory": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
+        "MockStablePool": "0x254f3aC68528113508587DF2B30f71301b85D7E1"
+      },
+      "20250403-v3-stable-surge-hook-v2": {
+        "StableSurgeHook": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
+      },
+      "20250404-v3-stable-surge-pool-factory-v2": {
+        "StableSurgePoolFactory": "0x3f170631ed9821Ca51A59D996aB095162438DC10",
+        "MockStablePool": "0xe4b9ae240748eb2C39016B30010FDc6dcD28B338"
+      },
+      "20250407-v3-vault-explorer-v2": {
+        "VaultExplorer": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
+        "MockReClammPool": "0x493E0E14fCCB89925b507322f605b84629A8918a"
+      },
+      "20250418-v3-wrapped-bpt": {
+        "WrappedBalancerPoolTokenFactory": "0x1702067424096F07A60e62cceE3dE9420068492D",
+        "MockWrappedBalancerPoolToken": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
+      },
+      "20250503-v3-protocol-fee-sweeper-v2": {
+        "ProtocolFeeSweeper": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "multisigs": {},
+      "EOA": {
+        "maxis": {
+          "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+          "danko": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b"
+        },
+        "blabs_ops": {
+          "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
+          "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
+          "Mike": "0x91f4Df13350083eDb30515019cF527C6b0490c54",
+          "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
+          "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
+          "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
+          "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
+        },
+        "maxi_deployers": {
+          "zendragon": "0x854B004700885A61107B458f11eCC169A019b764",
+          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+          "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
+          "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
+          "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
+          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "single_use": {
+            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
+          }
+        },
+        "beethoven": {
+          "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
+          "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
+        },
+        "blabs_deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
+        },
+        "emergency": {
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
+          "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
+          "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
+          "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
+          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
+        },
+        "dao": {
+          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
+          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
+          "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
+          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
+          "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
+          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
+        },
+        "dao_backup": {
+          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+        },
+        "maxiPay": {
+          "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
+        },
+        "keepers": {
+          "old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
+          "oz_relayer_v2": "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",
+          "v3_fee_bot": "0x74E283B985EA76c55C8B48d6bD1067a418188424",
+          "github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f"
+        },
+        "emeritus": {
+          "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+          "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
+          "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
+          "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
+          "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
+          "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
+          "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
+        },
+        "kyc": {
+          "Arbitrum": {
+            "kycsigner1_retired": "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524",
+            "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
+            "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1",
+            "kycsigner4": "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4"
+          }
+        },
+        "contributors-payees": {
+          "xeonus": "0x99AfD53f807766A8B98400B0C785E500c041F32B",
+          "tritium": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
+          "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
+          "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
+          "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
+          "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
+          "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
+          "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
+        },
+        "karpatkey": {
+          "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
+        },
+        "external-payees": {
+          "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba"
+        }
+      },
+      "pools": {},
+      "gauges": {}
     },
     "mainnet": {
       "zero": {
@@ -4483,6 +4729,9 @@
         "GaugeController": "0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD",
         "BalancerMinter": "0x239e55F427D44C3cc793f49bFB507ebe76638a2b"
       },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7"
+      },
       "20220325-ve-delegation": {
         "VotingEscrowDelegation": "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647",
         "VotingEscrowDelegationProxy": "0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0"
@@ -4532,9 +4781,6 @@
       },
       "20221124-authorizer-adaptor-entrypoint": {
         "AuthorizerAdaptorEntrypoint": "0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA"
-      },
-      "20221205-veboost-v2": {
-        "VeBoostV2": "0x67F8DF125B796B05895a6dc8Ecf944b9556ecb0B"
       },
       "20230215-single-recipient-gauge-factory-v2": {
         "SingleRecipientGaugeFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
@@ -4688,6 +4934,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0xDADa7bE438bdD89416F4802B679E320b15c92D49"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x9958317b80ee5f10457017d54c2484D722059157"
       },
@@ -4805,7 +5054,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -4821,12 +5071,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -5074,6 +5325,7 @@
         "80PHONON-20WETH-472a": "0x472AFe4C35dC218A41736D4aceEaB650db43C584",
         "aETH/wstETH-47a4": "0x47a4f5440Ab097CF3ec7abEeDF1afeCC5749a4E2",
         "20WETH-80ALTR-47e1": "0x47E1Cf97A0586367349A14306A65F54Ba0b8f1B6",
+        "USDT-NNB-4819": "0x48193400a6b85aE2022472e9BA305e3EAfc58bCe",
         "TUSD-bb-e-USD-4830": "0x483006684f422a9448023b2382615C57c5ecF18f",
         "50Silo-50WETH-4860": "0x48607651416A943bF5AC71C41BE1420538e78f87",
         "50st-yETH-50WETH-487f": "0x487f94d114E41aF8D533a31AbC8A49E24D3FA38D",
@@ -5557,12 +5809,12 @@
         "syrupUSDC/sDAI-d7f6": "0xd7F6A3c844d431f083E576a9972E56192a6635F3",
         "80BIDS-20WETH-d872": "0xd8721E92BA0F8235B375E9ec9a7B697Ec4e2D6c6",
         "vNFT-d883": "0xd8833594420dB3D6589c1098dbDd073f52419Dba",
-        "USDC-BOLD-USDaf-Aave GHO-d8f3": "0xD8F3c9d4354A617333dA5d75ED34abD50A7Eb662",
         "rETH-xrETH-d900": "0xd9005569C381d57506BaefB69f90d1Bb52a023B9",
         "Aave USDC-Aave RLUSD-d993": "0xD99324D16b9a9ECA5a20fECee5d1989558B9d8eD",
         "bb-f-USD-d997": "0xD997f35c9b1281B82C8928039D14CdDaB5e13c20",
         "80SLR-20WETH-d9fb": "0xD9Fb1aE180Fbf88F28f14a04842bD17BCEb69fEf",
         "eBTC/wBTC-da17": "0xda17f3663C5D04C0B316cfA1A04Aa53eBBC8c12C",
+        "80TREE-20AavePrimeWETH-daba": "0xDABA3d8cCF79ef289a7e2dBCe51871B39Ea445a2",
         "B-jAura-wETH-dac7": "0xDac7eF49161bdBf0e8f0B4c8e2D38DF19D972874",
         "osETH/wETH-BPT-dacf": "0xDACf5Fa19b1f720111609043ac67A9818262850c",
         "50STG-503POOL-BPT-db02": "0xdB02F620a59F1B16146EDD0e8dBEb27D94e9C25c",
@@ -5604,6 +5856,7 @@
         "20USDC-80FOLD-e4af": "0xe4aF3c338260AAbf119B5023d497437974769413",
         "2BTC-e4e7": "0xe4e72f872c4048925a78E1e6Fddac411C9ae348A",
         "LPeYyvDAI-16OCT21-e54b": "0xE54B3F5c444a801e61BECDCa93e74CdC1C4C1F90",
+        "BCoW-80MS2-20WETH-e76a": "0xE76aF3f18e5892cdFc84dfB8A29C64D14710D1de",
         "WSB-MACRO-e7b1": "0xE7B1D394f3b40ABeAa0b64a545Dbcf89da1ecB3f",
         "swETH-WETH-BPT-e7e2": "0xE7e2c68d3b13d905BBb636709cF4DfD21076b9D2",
         "50SMT-50WETH-e805": "0xe805c864992e6a6cBf46E7E81C7154B78155D0ac",
@@ -5656,7 +5909,6 @@
         "BCoW-50AAVE-50ETH-f706": "0xf706c50513446d709f08d3e5126cd74fb6bFDA19",
         "20WBTC-20FTM-20MATIC-20SNX-20WETH-f751": "0xf751aC6835977294bB2c093124C372e57b8Edd29",
         "50DAI-35rETH-5rETH-10aETHc-f767": "0xF767F0a3FCf1EAfEc2180b7dE79D0c559D7E7e37",
-        "BCoW-50USDC-50USDaf-f775": "0xF7753cDf5B5BF86f0cdE27e9E27A7Ec3478D2bc6",
         "50MIDAS-50WETH-f779": "0xf7795Ee348c197EAbfb5283d9f5A2231548e75CE",
         "ECLP-wstETH-cbETH-f7a8": "0xF7A826D47c8E02835D94fb0Aa40F0cC9505cb134",
         "B-80UMA-20WETH-f8a0": "0xf8a0623ab66F985EfFc1C69D05F1af4BaDB01b00",
@@ -6027,6 +6279,7 @@
         "svETH/wstETH-gauge-d98e": "0xD98ed0426D18B115d6388923803e33ad8aaF11F8",
         "50WETH-50-3pool-gauge-d9cd": "0xD9cde95eFeD2d426F2741E2c44De9573116B8F07",
         "B-50WETH-50USDT-gauge-db7d": "0xdB7D7C535B4081Bb8B719237bdb7DB9f23Cc0b83",
+        "80TREE-20AavePrimeWETH-gauge-dbd4": "0xDbD4dD2d5E0b927022C2be8D493F20e79e60C2e7",
         "B-sdBAL-STABLE-gauge-dc2d": "0xDc2Df969EE5E66236B950F5c4c5f8aBe62035df2",
         "FUD-gauge-dd4d": "0xDD4Db3ff8A37FE418dB6FF34fC316655528B6bbC",
         "pxETH/wETH-gauge-dee2": "0xdee29b7b6dF3576280bFBbC088ee9eBAA767C0Bd",
@@ -6277,7 +6530,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -6293,12 +6547,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -6392,6 +6647,9 @@
       },
       "20220325-authorizer-adaptor": {
         "AuthorizerAdaptor": "0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75"
+      },
+      "20220325-test-balancer-token": {
+        "TestBalancerToken": "0x9179C06629ef7f17Cb5759F501D89997FE0E7b45"
       },
       "20220513-double-entrypoint-fix-relayer": {
         "DoubleEntrypointFixRelayer": "0x3b8cA519122CdD8efb272b0D3085453404B25bD0"
@@ -6554,6 +6812,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7"
       },
@@ -6656,7 +6917,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -6672,12 +6934,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -6843,6 +7106,7 @@
         "bpt-wrseth-wsteth-cb7d": "0xcb7D357c84B101e3d559fF4845cef63D7D0753ef",
         "BPT-TRIPOOL-cbac": "0xcBac17bC5Fa5285dF031AE20956632a3720866a9",
         "bb-rf-usd-cd7b": "0xCd7B2232B7435595bBc7FD7962f1f352fc2cC61a",
+        "weETH-waOptwstETH-cee3": "0xCEE3C0B23B0f505EfE4d8E56869230e154c8bC3d",
         "50STG-50WETH-cef9": "0xCEf953fb1563C5a2Bc89C3b54712d03d16689a17",
         "20WETH/80XYZ-cf9c": "0xcf9C3480927CeE119015841Cd5d85d970EE83e56",
         "50USDC-50BEETS-d0fa": "0xD0fAb195Ef9db5365b289Fb3e38d38EF6B5D0361",
@@ -7225,7 +7489,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -7241,12 +7506,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -8436,7 +8702,6 @@
         "6ETH-S-6MATIC-S-16SP-66SSG-6BTC-S/StarSeeds_Protocol-ca6f": "0xCa6FBE9A344868A5E7c8e48b239Bd43018a34c3d",
         "1USDC-98usd-1EROWAN-ca8b": "0xca8b8Ded7eC98F2F6b9b39324Cf82B55136D65bf",
         "50USDC-50USDT-cb14": "0xcb14b8be85093205D353a4cB9c712879f2E325a7",
-        "WM-SD-BAL-LDO-20GROSH-cb2e": "0xcB2E51484aF90f1a2BC10e8DDD06c8169c61Fb00",
         "50TUSD-50miMATIC-cb5f": "0xCb5f651CDA3bD979C9883C61A1cc6395d9556415",
         "WCASH-USDC-oRETRO-SP-mooCompoundPolygonUSDC-miMATIC-STARV3(-M)/StarSeeds_Protocol-cb78": "0xcb78065d1593dDe50a347D23b75595B5c26d34bc",
         "BANG STABLE -cb7a": "0xCb7A78d67C0305e27EF80e12c8Cf8dcDe7C5a176",
@@ -8943,9 +9208,6 @@
       "20221124-authorizer-adaptor-entrypoint": {
         "AuthorizerAdaptorEntrypoint": "0xb9aD3466cdd42015cc05d4804DC68D562b6a2065"
       },
-      "20221205-veboost-v2": {
-        "VeBoostV2": "0x927906bbAc747c13c75F6447FE8abb490EAB456C"
-      },
       "20230215-single-recipient-gauge-factory-v2": {
         "SingleRecipientGaugeFactory": "0x7EE4D172Ae50C627a1BFA9A99E1260C54dA26fdF",
         "SingleRecipientGauge": "0x9a5ddDE7056ceFFb03D9962c4549Ac1C4ad1F985"
@@ -9102,6 +9364,9 @@
       "20250503-v3-protocol-fee-sweeper-v2": {
         "ProtocolFeeSweeper": "0x0f3615e60b1D23a5DD98CE74865FAA79A6d9aF70"
       },
+      "20250507-v3-aggregator-batch-router": {
+        "AggregatorBatchRouter": "0x17a00FcDEafeE2E97b52083330B3B339Fb633dC1"
+      },
       "20250530-v3-cow-swap-fee-burner-v2": {
         "CowSwapFeeBurner": "0x3a57cDd9f3f6C9eC69dEe654ba7E07Ad5afc63e1"
       },
@@ -9196,7 +9461,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -9212,12 +9478,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -9438,7 +9705,8 @@
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
           "nico_emergency": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
-          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e "
+          "Markus_emergency": "0x6bB4720473d4D7133f944785e5EE1A650C07f34e",
+          "zekraken_payee": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae"
         },
         "kyc": {
           "Arbitrum": {
@@ -9454,12 +9722,13 @@
           "mikeb": "0x1b7D0C1d2A730fa791A2937AD75Fef11AeACa3D4",
           "zen_dragon": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "gosuto": "0x3f993093c3917Fe7A117f37cFD008775249f59c8",
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
+          "zekraken": "0x6c328C0A17D0F0E2f2AE8286823743e0aF8D4cCB",
           "json": "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2",
           "lipman": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
           "hyferion": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "jalbrekt": "0xA0c60A3Bf0934869f03955f3431E044059B03E62",
-          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488"
+          "raqqq": "0x734f9B824a9bBb49a6872F1781EE540435Ce3488",
+          "recon": "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B"
         },
         "karpatkey": {
           "balancer_eoa": "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE"
@@ -9914,6 +10183,9 @@
       "20221202-timelock-authorizer": {
         "TimelockAuthorizerMigrator": "0xf8ee6f1F9B54F9b2C192D703ea2d22112cBC062b",
         "TimelockAuthorizer": "0x9E3cD0606Db55ac68845bB60121847823712ae05"
+      },
+      "20221205-veboost-v2": {
+        "VeBoostV2": "0x67F8DF125B796B05895a6dc8Ecf944b9556ecb0B"
       },
       "20221207-aave-rebalanced-linear-pool-v3": {
         "AaveLinearPoolFactory": "0x7d833FEF5BB92ddb578DA85fc0c35cD5Cc00Fb3e",
@@ -10470,6 +10742,9 @@
       }
     },
     "sepolia": {
+      "20221205-veboost-v2": {
+        "VeBoostV2": "0x927906bbAc747c13c75F6447FE8abb490EAB456C"
+      },
       "20230109-gauge-adder-v3": {
         "GaugeAdder": "0x1DF32616fb1bBaEd07f42F1a1EfD1D0E232AcB4a"
       },
@@ -10642,6 +10917,11 @@
       "20230711-zkevm-composable-stable-pool-v5": {
         "ComposableStablePoolFactory": "0x956CCab09898C0AF2aCa5e6C229c3aD4E93d9288",
         "MockComposableStablePool": "0x7682e108Cd89d86303625c8478c21Ff86f401166"
+      }
+    },
+    "hyperevm": {
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
       }
     }
   }
