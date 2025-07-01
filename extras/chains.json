@@ -54,13 +54,15 @@
     "avalanche",
     "base",
     "mode",
-    "fraxtal"
+    "fraxtal",
+    "optimism"
   ],
   "BALANCER_PRODUCTION_CHAINS_V3": [
     "mainnet",
     "gnosis",
     "arbitrum",
     "base",
+    "optimism",
     "avalanche"
   ]
 }
