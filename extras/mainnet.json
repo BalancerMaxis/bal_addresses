@@ -69,6 +69,7 @@
     "waEthLidoGHO": "0xC71Ea051a5F82c67ADcF634c36FFE6334793D24C",
     "MORPHO": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
     "aEthPYUSD": "0x0C0d01AbF3e6aDfcA0989eBbA9d6e85dD58EaB1E",
+    "stkMTA": "0x8f2326316eC696F6d023E37A9931c2b2C177a3D7",
     "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
   },
   "helpers": {
@@ -88,6 +89,7 @@
   "cow": {
     "vault_relayer": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
     "settlement": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+    "gnosis_dao_cow_vesting": "0x68FFAaC7A431f276fe73604C127Bd78E49070c92",
     "airdrop_merkle_distributor": "0x64646f112FfD6F1B7533359CFaAF7998F23C8c40"
   },
   "one_inch": {
@@ -221,6 +223,7 @@
     "balancer_stk_aave_retrieval": "0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3"
   },
   "sablier": {
+    "sablier_v2_dynamic_lockup": "0x7CC7e125d83A581ff438608490Cc0f7bDff79127",
     "sablier_v2_batch_lockup": "0xB5Ec9706C3Be9d22326D208f491E5DEef7C8d9f0"
   },
   "paladin": {
