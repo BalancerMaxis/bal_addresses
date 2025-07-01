@@ -209,10 +209,10 @@
     "roles_master_copy": "0x9646fDAD06d3e24444381f44362a3B0eB343D337",
     "multisend_unwrapper": "0x93B7fCbc63ED8a3a24B59e1C3e6649D50B7427c0"
   },
-  "karpatkey": {
+  "kpk": {
     "roles_v1": "0xd8dd9164E765bEF903E429c9462E51F0Ea8514F9",
     "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a",
-    "roles_v2_kpk": "0xae7ee392Fd7C8aE7391b4Fc10fc4b942A994545C"
+    "roles_v2_kpk_submodule": "0xae7ee392Fd7C8aE7391b4Fc10fc4b942A994545C"
   },
   "gyro": {
     "GydDistributor": "0x7cC9eb3cbe2472e9CCa5398DC9A48710682359C2",
