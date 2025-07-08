@@ -39,8 +39,20 @@
       "USDC.e": "0x4ac87aea2a3a99f34fec78a6a73bc495893b2838"
     }
   },
+  "safe": {
+    "multisend": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+    "multisend_callonly": "0x9641d764fc13c8B624c04430C7356C1C7C8102e2"
+  },
   "gnosis": {
+    "module_proxy_factory": "0x000000000000aDdB49795b0f9bA5BC298cDda236",
     "gnosis_dao_treasury": "0x458cD345B4C05e8DF39d0A07220feb4Ec19F5e6f"
+  },
+  "kpk": {
+    "roles_v2": "0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a",
+    "roles_v2_kpk_submodule": "0xae7ee392Fd7C8aE7391b4Fc10fc4b942A994545C"
+  },
+  "zodiac": {
+    "multisend_unwrapper": "0x93B7fCbc63ED8a3a24B59e1C3e6649D50B7427c0"
   },
   "stakewise": {
     "SWISE_Distributor_SAFE": "0x5d1acdd0867d6F1FBe11ad8F1f48C87f19C0801E"
