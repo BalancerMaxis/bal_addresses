@@ -17,7 +17,7 @@ setup(
     package_data={"": ["abis/*.json"]},
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=[
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@optimism-integration",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git",
         "setuptools>=42",
         "wheel",
     ],
