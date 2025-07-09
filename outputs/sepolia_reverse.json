@@ -102,6 +102,7 @@
   "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C": "20241205-v3-weighted-pool/WeightedPoolFactory",
   "0x781589d386e62ba7eB5D8382eE4DC86d8C64f882": "20250404-v3-stable-surge-pool-factory-v2/MockStablePool",
   "0x7852fB9d0895e6e8b3EedA553c03F6e2F9124dF9": "20231031-batch-relayer-v6/BalancerRelayer",
+  "0x78bE2bd092045315D30D2b91d98CAbb15333e021": "20250702-v3-reclamm-pool-v2/MockReClammPool",
   "0x7920BFa1b2041911b354747CA7A6cDD2dfC50Cfd": "20230320-weighted-pool-v4/WeightedPoolFactory",
   "0x79232d3431463dC2B8Fd8fb28B352B9Ba92Eb280": "20250221-protocol-fee-controller-migration/ProtocolFeeControllerMigration",
   "0x7BBAc709a9535464690A435ca7361256496f13Ce": "EOA/maxiPay/factory",
@@ -222,6 +223,7 @@
   "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/old_oz_relayer_v1",
   "0xeC2C01AE8BE49D9335157e2e0680c686e2629Bfb": "20250418-v3-wrapped-bpt/MockWrappedBalancerPoolToken",
   "0xea672a54f0AA38FC5F0a1A481467BeBFe3C71046": "20241213-v3-hook-examples/ExitFeeHookExample",
+  "0xf58A574530Ea5cEB727095e6039170c1e8068fcA": "20250702-v3-reclamm-pool-v2/ReClammPoolFactory",
   "0xf7D5DcE55E6D47852F054697BAB6A1B48A00ddbd": "20220725-protocol-fee-percentages-provider/ProtocolFeePercentagesProvider",
   "0xf7a7E1F48FA43cb7919Ff4Eb362c5bE78092dF4A": "20230320-weighted-pool-v4/MockWeightedPool",
   "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F": "EOA/keepers/oz_relayer_v2"

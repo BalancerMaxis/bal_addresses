@@ -147,10 +147,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
-        "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
       },
@@ -167,10 +163,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
-        "MockReClammPool": "0xe482ef529B8f7fFC6ECCDea7eaF29C717E9ed079"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
@@ -196,6 +188,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
+        "MockReClammPool": "0x89d9D76C1E5aA9a78364380bB17c4c7d385dA83c"
       }
     },
     "avalanche": {
@@ -339,10 +335,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
-        "MockLBPool": "0x4BdEA6CdcD01422f514363245B74BC2212Fd2aa4"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015"
       },
@@ -359,10 +351,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
-        "MockReClammPool": "0x33608014e176139e0b9058B32EEae1A5ce795FD3"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
@@ -388,6 +376,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
+        "MockReClammPool": "0x443aC03E071E38577f2c50e3a7bdE30D9CEc06C2"
       }
     },
     "base": {
@@ -532,10 +524,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
-        "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
       },
@@ -552,10 +540,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
-        "MockReClammPool": "0x39110AD9A2Dbfe46c8674693838D8BA95ea1e7A9"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
@@ -581,6 +565,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockReClammPool": "0x6147DCcc9aF9641CA5e86e3b0075E8c7c853AEF6"
       }
     },
     "bsc": {
@@ -890,10 +878,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
-        "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
@@ -910,10 +894,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
-        "MockReClammPool": "0x02B4a4b0db94db44cb91290b2b5Eb5c5a8a1Cbc9"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
@@ -939,6 +919,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xc86eF81E57492BE65BFCa9b0Ed53dCBAfDBe6100",
+        "MockReClammPool": "0x3004934b023631DaA3fF7Ad020aA3f5C4Ed0eC1B"
       }
     },
     "hyperevm": {
@@ -994,10 +978,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x043A2daD730d585C44FB79D2614F295D2d625412"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
-        "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1"
       },
@@ -1022,10 +1002,6 @@
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7"
       },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
-        "MockReClammPool": "0x493E0E14fCCB89925b507322f605b84629A8918a"
-      },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x1702067424096F07A60e62cceE3dE9420068492D",
         "MockWrappedBalancerPoolToken": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
@@ -1047,6 +1023,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockReClammPool": "0x2CFDD50F108e49c1320cd8E2E1472dEf5c8268D4"
       }
     },
     "mainnet": {
@@ -1258,10 +1238,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
-        "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
@@ -1278,10 +1254,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
-        "MockReClammPool": "0x6A5127AE6df32f722e34B5b4aBc67b0d4e582B39"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xA3d11a39dEA14d245659816d35456B89FfBfB744",
@@ -1307,6 +1279,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
+        "MockReClammPool": "0x000aB3853737842bED7Dabe3540E3e5336FE62a6"
       }
     },
     "mode": {
@@ -1534,10 +1510,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
-        "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
       },
@@ -1561,10 +1533,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
-        "MockReClammPool": "0xaC1675219FbB81F2C53950a92dF3F95AAffeab8E"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
@@ -1590,6 +1558,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
+        "MockReClammPool": "0x2dfA3793d43642a895c881101CEc157142aB86F3"
       }
     },
     "polygon": {
@@ -1884,10 +1856,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
-        "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x5e315f96389C1aaF9324D97d3512ae1e0Bf3C21a"
       },
@@ -1904,10 +1872,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xC82E329C832CAcc8DA65dbB57ac72B068e0CEb9B"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
-        "MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xE47e1b8640e18F77BEC160D2Bb2481F65e580730",
@@ -1933,6 +1897,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
+        "MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021"
       }
     },
     "zkevm": {
@@ -2081,6 +2049,14 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockLBPool": "0x4BdEA6CdcD01422f514363245B74BC2212Fd2aa4"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
+        "MockReClammPool": "0x33608014e176139e0b9058B32EEae1A5ce795FD3"
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
@@ -2254,6 +2230,14 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+        "MockReClammPool": "0xe482ef529B8f7fFC6ECCDea7eaF29C717E9ed079"
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
@@ -2497,6 +2481,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
+        "MockReClammPool": "0x6A5127AE6df32f722e34B5b4aBc67b0d4e582B39"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
       }
@@ -2622,6 +2614,14 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
+        "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockReClammPool": "0xaC1675219FbB81F2C53950a92dF3F95AAffeab8E"
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
@@ -2864,6 +2864,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
+        "MockReClammPool": "0x02B4a4b0db94db44cb91290b2b5Eb5c5a8a1Cbc9"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
       }
@@ -3000,6 +3008,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
+        "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
+        "MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
       }
@@ -3059,6 +3075,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+        "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockReClammPool": "0x39110AD9A2Dbfe46c8674693838D8BA95ea1e7A9"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
       }
@@ -3106,6 +3130,14 @@
     "hyperevm": {
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+        "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
+        "MockReClammPool": "0x493E0E14fCCB89925b507322f605b84629A8918a"
       }
     }
   }

@@ -144,6 +144,8 @@
   "20250530-v3-balancer-fee-burner/BalancerFeeBurner": "0xdb837CCe319F885AD34C8bCbf432De8bF8DEC406",
   "20250530-v3-cow-swap-fee-burner-v2/CowSwapFeeBurner": "0x3a57cDd9f3f6C9eC69dEe654ba7E07Ad5afc63e1",
   "20250530-v3-erc4626-cow-swap-fee-burner-v2/ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45",
+  "20250702-v3-reclamm-pool-v2/MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021",
+  "20250702-v3-reclamm-pool-v2/ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",

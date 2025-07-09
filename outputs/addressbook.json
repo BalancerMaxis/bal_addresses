@@ -269,10 +269,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
-        "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
       },
@@ -289,10 +285,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
-        "MockReClammPool": "0xe482ef529B8f7fFC6ECCDea7eaF29C717E9ed079"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
@@ -318,6 +310,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
+        "MockReClammPool": "0x89d9D76C1E5aA9a78364380bB17c4c7d385dA83c"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -799,6 +795,7 @@
         "50VSTA-50USDC-508e": "0x508eD651a8638085B94e4be8e619E8392c12453C",
         "50VSTA-50GMX-50f0": "0x50f0A24e3b8Bac08dD1BE443A4bD76FE42f7F59d",
         "BPT-USD+-519c": "0x519cCe718FCD11AC09194CFf4517F12D263BE067",
+        "33ArbiFLUX-33LOCK-33FLUX-519e": "0x519e56cdf36D69026dCdBd401808d56f7f0CE6d0",
         "50WETH-50USDC-51b9": "0x51b98f7F9caE9452923eCD9d3Fb7106C38CEa3C6",
         "50USDT-50USDC-5257": "0x5257FF31eD154dC60db418A1E8A35Df6Be9a75fE",
         "50wstETH-50WETH-526f": "0x526F30faf9cF74A30db6d6188C32C4c4b777358f",
@@ -1027,7 +1024,6 @@
         "50wstETH-50ARB-8eec": "0x8EEC307491aD934F24f675bd5fd967E9F569fdf5",
         "80BAL-20WETH-8f02": "0x8f023508dB7ED646a5AD44f48A1B3A384FAfa9Cc",
         "80SNIPE-20waArbUSDCn-8f64": "0x8F64aab2dee930F6ACD8E6B0cA643A462e95156b",
-        "wstETH-WETH-8f8b": "0x8F8Bf1ABF7A8251dc39e8fEB906e3D3330B967B8",
         "50WBTC-50LINK-8f97": "0x8f97c6DdF16f75eEfCa0fAf44864Fc1f8fC9a131",
         "50wstETH-50WETH-8fa3": "0x8FA3214142f65748fC2d84343bC19f7E97CBFdeC",
         "50FRAX-50VST-9000": "0x900045E8429a667da8a41E22feaA426eA7bcCc19",
@@ -1138,6 +1134,7 @@
         "70WETH-30ARB-a83b": "0xA83B8D30F61D7554aD425D8067D8bA6EaeB6b042",
         "50MAGIC-50USDT-a88c": "0xa88cba57C50fE49E5e6649701D45Aef557E4d194",
         "ECLP-rETH-wstETH-a899": "0xa899c63BA9ff275d6bfc83E43ee8E58fF6987584",
+        "Aave GHO-USDai-a8b7": "0xA8b7683936DfF9E2F35404e61A875A76676a07B6",
         "CU-a96a": "0xA96a4aEa4D1551444A3A891237675d3D0d8E0a26",
         "RDNT-WETH-a9a6": "0xA9A63971c55c132aF0e6B39a081e604F07f4e234",
         "50WBTC-50ARB-a9b6": "0xA9b6425e534BfE6a7C3561E2550cE8837AeE4cC1",
@@ -1231,7 +1228,6 @@
         "Aave wstETH-wETH-c072": "0xc072880E1BC0bcDdc99Db882c7f3e7A839281CF4",
         "PAXG-waArbwstETH-c09a": "0xC09A98b0138D8cfCefF0E4eF672e8BD30EC6EdA9",
         "gUSD-c0ef": "0xc0Ef13a538E180151eb783A9e44Fe0Ae53D1bb08",
-        "50WETH-50USDC-c17f": "0xc17F90c80ef0f17722Ab31585eC42B527772BFc5",
         "25BAL-25WBTC-25PHONON-25WETH-c188": "0xC1889C72D99917FD7b957fEd80d4Ea1eBd9e2618",
         "50USDT-50USDC-c20b": "0xc20b04534Ab809948549DAFc373fa2C684f9bfb6",
         "BCoW-50WETH-50wstETH-c22e": "0xC22ee4D65a825AabCb514394237C6D85f0f7672A",
@@ -1577,6 +1573,7 @@
         "wstETH-bb-a-WETH-BPT-gauge-7fe2": "0x7fE26e57847248072b7F387Dd75545f42A34CBAD",
         "B-33WETH-33WBTC-33USDC-gauge-820a": "0x820A9F3897B2aBFeEcE95dF4aA71D8a4fb448C3B",
         "55auraBal-45wsteth-gauge-82d2": "0x82d2c7B67Eaa5028c89BE86CeA8e1DF5bd2119A1",
+        "Aave GHO-USDai-gauge-82fa": "0x82FAeb834FDc9F2E3dde36C7d29cEAa2bBE24166",
         "sUSDX/USDX-gauge-83be": "0x83bE87529aC31d06fEc49FF5Aedd6290b81D0700",
         "50WETH-50WXM-gauge-877d": "0x877dB9c88590F48D86fC89fcaf515E6e584858f5",
         "ECLP-wUSDM-GYD-gauge-8790": "0x879049Df2744B8D8848985C82275AD4c07379905",
@@ -1860,10 +1857,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
-        "MockLBPool": "0x4BdEA6CdcD01422f514363245B74BC2212Fd2aa4"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015"
       },
@@ -1880,10 +1873,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
-        "MockReClammPool": "0x33608014e176139e0b9058B32EEae1A5ce795FD3"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
@@ -1909,6 +1898,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
+        "MockReClammPool": "0x443aC03E071E38577f2c50e3a7bdE30D9CEc06C2"
       },
       "multisigs": {
         "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
@@ -2074,6 +2067,7 @@
         "Aave wAVAX/BTC.b-5837": "0x58374fFF35d1F3023bbFC646fb9eCd2b180cA0b0",
         "20BTC.b-20USDt-20WAVAX-20USDC-20BAL-5889": "0x58892cCBAf25F585862a3b8504d7A69dCA2cC661",
         "40KIMBO-13COQ-20TECH-14WAVAX-13USDC-594f": "0x594fE86E60D8Df04ec9c5b2F7fEC09DC14175804",
+        "YBTC.B-BTC.b-5f7d": "0x5F7d916d90453915120EfA46106A886F351E6c14",
         "BPT-66bb": "0x66bB9D104c55861feb3Ec3559433F01f6373c966",
         "sAVAX-ankrAVAX-BPT-6707": "0x670734D704EB7EF424d75321670F921fBF42E9CF",
         "upAUSD-savUSD-sdeUSD-695a": "0x695A7F28c3628187c8264d2CDF7a617036BA8406",
@@ -2366,10 +2360,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
-        "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
       },
@@ -2386,10 +2376,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
-        "MockReClammPool": "0x39110AD9A2Dbfe46c8674693838D8BA95ea1e7A9"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
@@ -2415,6 +2401,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockReClammPool": "0x6147DCcc9aF9641CA5e86e3b0075E8c7c853AEF6"
       },
       "multisigs": {
         "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
@@ -2574,6 +2564,7 @@
         "ensurance pool 1.2-0caa": "0x0Caa100179da0087A45615588804FD5E17bFB0Dd",
         "33BAL-33USDC-33axlUSDC-0cbe": "0x0CbE34bCD22a6659095C36e557A22D71b2006d2D",
         "50BAL-50USDC-0cc3": "0x0CC31651a39Ae32c8C2147fa01c194036Ac52dF2",
+        "ReClamm EURC-USDC-0d1f": "0x0D1F6e408bD76392555F725BdA32701956663D37",
         "40WETH-60USDbC-0d9e": "0x0d9e306cd13AB76588EB2363C2c69D7cCf32a7fe",
         "ensurance pool 1.10-0db4": "0x0dB4569E7ba7bbd767E6D2f31714Ea2Df74c964f",
         "33WETH-33KABOSUCHAN-33DOG-0dce": "0x0DCE7d1E1fbfC85C31bd04F890027738F00e580B",
@@ -2584,6 +2575,7 @@
         "1WETH-99USDbC-109f": "0x109FB663fBe47BcEF8Cf1d74759ebB869e390105",
         "USDbC-USDC-119f": "0x119f1f31cF1ee7cEA54632EFF0A0DCc7E4829AD1",
         "56WETH-44USDC-11bd": "0x11Bd8465a0007f3701d13461bA8c93bF37c1E32a",
+        "ReClamm EURC-USDC-v2-12c2": "0x12C2de9522f377b86828f6AF01F58c046F814D3c",
         "50WETH-50USDC-143a": "0x143Ab71E47361d0a65499ca2e12B1EdD10f2E540",
         "ECLP-WETH-USDC-1529": "0x1529f6Af353E180867F257820843425B49B1b478",
         "50WETH-50USDbC-1531": "0x15312E0F1a845e7f300C8910BA46377B569D6A7C",
@@ -2818,14 +2810,18 @@
         "85BPT-stabal3-15ONE-7bd4": "0x7bd499100dAEe002C8Df900D831a3Dc0c2C91040",
         "waBasWETH-BCHAN-7c73": "0x7c73A599baC2a02d5C7763c6EA780445Ba04F9ff",
         "ENova-7d19": "0x7D1996D4C89EB047E77b62Df340C0505EF0E3134",
+        "USDC-WETH-test-7e14": "0x7E14Ce82cb3DdC10Bc31b7BA5f0834e140733A0B",
         "50USDbC-50axlUSDC-7e59": "0x7e591a85B5F63B7583bc15e28f0F979beed2911c",
         "44WETH-56USDC-7e93": "0x7E9337377E68694C5601a1b38a4d3DaC2489FDf1",
         "50WETH-50USDbC-7fc8": "0x7fC88C8a4900b534BcaA2de461578D5403D4f3DE",
         "50BAL-50LINU-8061": "0x8061C7b7ef45d47Ce1BcCa1aBB4337EE54Dd9A51",
         "50USDbC-50axlUSDC-812b": "0x812BADbEA001A51Bf95DEB64406a3EEAA543F2FA",
         "WETH-USDC-EZKL-81a8": "0x81A85b9EC797110F2ee665c119e8F28a2456D6F1",
+        "USDC-WETH-test2-820e": "0x820ef58905f35cE0308979d6EDc4023f1f495F70",
         "ECLP-sDAI-USDC-rh-821a": "0x821aFE819450A359E29a5209C48f2Fa3321C8AD2",
         "46WETH-54USDC-821f": "0x821F38C1e93Be6DEBe090B8c07656AA8629dc6Bc",
+        "jujuhihi-8347": "0x83470106402eD0BC83f91Bb13266d35BdB23f1B9",
+        "hthtjuju-8364": "0x836410d98a3750D0c7efF1CFb3623d992acDc00F",
         "33BAL-33USDbC-33axlUSDC-8365": "0x83650f1e76901A85D34bE8D3c8c4adFE7C2A55F4",
         "B-80VAULTX-20WETH-83cb": "0x83CB4349A796528CAb56f536D6f9Ad8f1CddD43a",
         "ReClamm Test 1-v4-840c": "0x840cD35783C3EC26437b257A2CA9AF592E368f76",
@@ -2948,6 +2944,7 @@
         "33DAI-33USDC-33USDbC-bab2": "0xbAb21DD456F9dceC8D87e81B458622c935900Fbc",
         "50WETH-50WELL-bbb4": "0xbbB493817418C769e3799Ea9AD2228a38C0950B7",
         "ECLP-WETH-USDC-bbb4": "0xbbb4966335677Ea24F7B86DC19a423412390e1fb",
+        "USDC-WETH-test3-bbf8": "0xbbf85fe6eC08D06D2269989dDF9Fe8c6b584F19e",
         "50WETH-50rETH-bc34": "0xBC342F8e096A4205f8d66945fC67Ed1F437e0866",
         "52WETH-48DAI-bf5b": "0xbf5bDc53d7A5d586787eFb97D884D4B04A1B7db7",
         "ECLP-WETH-sUSDS-c049": "0xC049e05B6dc8Af133C4F0e141916Cd16E2B89405",
@@ -3031,7 +3028,6 @@
         "BABYREI-WETH-e6bf": "0xE6Bfd5eA9f16F17a438D86D257E15C1d63947747",
         "50GOLD-50USDbC-e770": "0xE770c866Ea6349E4BeF1E3a87E2811Fd932a8A21",
         "ReClamm Test 6-e7e6": "0xe7E670155906e71F5252FA46E8b309e1eB52387F",
-        "Innovation-Surge-USDC-WETH-e82d": "0xE82d6eE4B3289608eFCE5592893c0C24f778D97A",
         "50WETH-50USDbC-e8fe": "0xe8FEbBf704DC3Ccf8C95f4A3D7A32737d2c02029",
         "45DAI-55USDC-e948": "0xE948c9e9de65AE75BC4422125cFaf88ad8aAA090",
         "80SIS-20WETH-e94d": "0xe94Dfd524414220b3f5d321A20b6f9DBC1d53A1f",
@@ -3058,6 +3054,7 @@
         "50USDbC-50axlUSDC-f1da": "0xf1DA5354Fa03db187C7F7F69098e4C16E91544d3",
         "50BAL-50USDbC-f276": "0xF27661d91cEC9817aB4A806CdA827B35Ae1f9A7E",
         "yoUSD-boosted-BPT-f292": "0xF2920b0EaEcf026d18462d8d56dC8a2a5539043F",
+        "USDC-WETH-test4-f378": "0xf378EDc4f44C358119593F540B387F3A89695C5d",
         "ECLP-weETH-wstETH-f3d6": "0xf3D6ea0464F8fd08582C25526888F5C3bA27dA20",
         "20aUSDC 20awstETH 60cbBTC-f402": "0xf402D6a6962F07E841bc7a2818B618573d5ef2D9",
         "50WETH-50USDbC-f534": "0xf5344128bfA9109947F62362b8b3276e00759C92",
@@ -3799,10 +3796,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
-        "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
@@ -3819,10 +3812,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
-        "MockReClammPool": "0x02B4a4b0db94db44cb91290b2b5Eb5c5a8a1Cbc9"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
@@ -3848,6 +3837,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xc86eF81E57492BE65BFCa9b0Ed53dCBAfDBe6100",
+        "MockReClammPool": "0x3004934b023631DaA3fF7Ad020aA3f5C4Ed0eC1B"
       },
       "multisigs": {
         "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
@@ -4154,7 +4147,6 @@
         "B-50wstETH-25BAL-25AURA-ad5f": "0xAd5FB05B2adE70B046e4Cf2B5dAF731e44347E4f",
         "50sDAI-50bCOIN-adf6": "0xADF65e3DA99f7D1EfE7c5deA899ABeC9720139D0",
         "50bCSPX-50sDAI-ae2a": "0xAE2a38545167Be5A2EBa9B931B28DE5A7d95315e",
-        "33PAXG-33WBTC-34waGnwstETH-b1ba": "0xB1BAF0d7c3A938B75A8Cd7Ef24EdD5ee9fbA62c1",
         "EURE/USDC.E-b6f1": "0xB6f15EcafA41046bB5602Bf98C537f85BAF3B16d",
         "BCoW-50PAXG-50wstETH-b71b": "0xb71b58D5360698c10246326a5AaD7309EcAD8D24",
         "25WBTCPAXGsDAIwaGnowstETH-b724": "0xB724f537F7d820121B0e53490391e6f6018A8000",
@@ -4211,7 +4203,6 @@
         "B-50USD-50bIB01-f6bf": "0xf6bFfFb47bC125564cbB6cC0e7633eb7AddaEfCe",
         "50USDT-50WXDAI-f94e": "0xf94E8be09A276d2Ca75aeB02113893DC5034Bb66",
         "groupLBP-s-BER-f98b": "0xF98B8b213a9B86eB61Ef2B20A305000CBfB43532",
-        "sDAI-PAXG-f9dc": "0xF9dC067dC6287f1B87A20872b95C2dd761b7C8e8",
         "40FRACTION-40MIVA-20GNO-fa00": "0xfa0017abd72BB87443c3F39b9434d357Cc1EeC27",
         "20WETH-80WXDAI-fa1f": "0xFA1F69d54C472B59d0094400E3f3CF297A8a4C2b",
         "80MIVA-20WXDAI-fbc3": "0xfbc3112172bA256454047D7436d1E08B3cdc5031",
@@ -4328,10 +4319,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x043A2daD730d585C44FB79D2614F295D2d625412"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
-        "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xA8920455934Da4D853faac1f94Fe7bEf72943eF1"
       },
@@ -4356,10 +4343,6 @@
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7"
       },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
-        "MockReClammPool": "0x493E0E14fCCB89925b507322f605b84629A8918a"
-      },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x1702067424096F07A60e62cceE3dE9420068492D",
         "MockWrappedBalancerPoolToken": "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB"
@@ -4381,6 +4364,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockReClammPool": "0x2CFDD50F108e49c1320cd8E2E1472dEf5c8268D4"
       },
       "multisigs": {},
       "EOA": {
@@ -4976,10 +4963,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
-        "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
@@ -4996,10 +4979,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
-        "MockReClammPool": "0x6A5127AE6df32f722e34B5b4aBc67b0d4e582B39"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xA3d11a39dEA14d245659816d35456B89FfBfB744",
@@ -5025,6 +5004,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
+        "MockReClammPool": "0x000aB3853737842bED7Dabe3540E3e5336FE62a6"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -5262,7 +5245,6 @@
         "vETH/WETH BPT-156c": "0x156C02f3f7fEf64a3A9D80CCF7085f23ccE91D76",
         "80IDLE-20USDC-158e": "0x158e0fBC2271E1dCEbadD365a22E2B4dD173C0DB",
         "50TRYB-50USDC-15c1": "0x15C1cDAcd3dA1E1C1304200b1bEb080D50BbBc0F",
-        "ReClamm Test 1-v3-mainnet-15e2": "0x15e26dF264B2b4cb5F52e10613a175026DFd18cB",
         "B-70RPL-30WETH-16fa": "0x16faF9f73748013155B7bC116a3008b57332D1e6",
         "50TEMPLE-50bb-a-USD-1730": "0x173063A30E095313eEe39411f07E95A8a806014e",
         "FUD-178e": "0x178E029173417b1F9C8bC16DCeC6f697bC323746",
@@ -5272,7 +5254,6 @@
         "50USDC-50STG-1874": "0x1874C311eb0833f31bF2cBC8C7b8Cc21Fa37bE1E",
         "50OHM-50LUSD-18fd": "0x18FDf15ff782e44C1f9B6C5846ff6B0F0004F6a2",
         "20B-baoETH-ETH-BPT-80BAO-19df": "0x19DF5BB37380186bC8EFc5Ad91516373A2C5459f",
-        "ReClamm WBTC-WETH-19f0": "0x19f0495f283F2782bcB23cf53eBa7faC2dF2c5bF",
         "B-baoETH-ETH-BPT-1a44": "0x1A44E35d5451E0b78621A1B3e7a53DFaA306B1D0",
         "PALA-USDT-1aab": "0x1aaBd649a2292da5cBb994656Cf1938aBaF1f657",
         "80TEMPLE-20DAI-1b65": "0x1b65fe4881800B91d4277ba738b567CbB200A60d",
@@ -5402,7 +5383,6 @@
         "50INV-50DOLA-441b": "0x441b8a1980f2F2E43A9397099d15CC2Fe6D36250",
         "25xFT-V2T1-25xFT-V2T2-25xFT-V2T3-25WETH-4445": "0x4445899c226bCb451aC8E2c42070510859557fb6",
         "50DOLA-50DBR-4454": "0x445494F823f3483ee62d854eBc9f58d5B9972A25",
-        "ReClamm AAVE-WETH-44a8": "0x44a875A7A1f45FCDAB3aB6A79A117B5ce61b2C53",
         "B-90RLY-10USDC-4591": "0x45910fafF3cBf990FdB204682e93055506682d17",
         "B-50BAL-50DAI-4626": "0x4626d81b3a1711bEb79f4CEcFf2413886d461677",
         "50OCEAN-50WETH-4705": "0x470581ca95C071728e85a6E28a5b1754cD489bE2",
@@ -5726,7 +5706,6 @@
         "BTF-SH-9d43": "0x9D430BFE48f2FCFd9a3964987144Eee2d7d5b4E9",
         "ECLP-cbBTC-WBTC-9d73": "0x9D73398C54be236da189d937EACE8E6dccaD3616",
         "LPeYyvUSDC-28JAN22-9e03": "0x9e030b67a8384cbba09D5927533Aa98010C87d91",
-        "ReClamm Test 3-v3-m-9e79": "0x9e79501c27C772b5e3EFef3E6963027AEF0618b0",
         "BLC-9e7f": "0x9E7fD25Ad9D97F1e6716fa5bB04749A4621e892d",
         "ECLP-GHO-USD0-9ed2": "0x9ed2DbE178f5720eD6085630D3a0b76EE2cD3aB2",
         "Surge tETH-Lido wstETH-9ed5": "0x9ED5175aeCB6653C1BDaa19793c16fd74fBeEB37",
@@ -5743,6 +5722,7 @@
         "50UNI-50USDC-a0cf": "0xa0cF2478a7a9FaDd53ce24665399Aa80C7eb5075",
         "bb-a-USD-a13a": "0xA13a9247ea42D743238089903570127DdA72fE44",
         "17WBTC-2BUSD-67LDO-1BAL-14USDT-a1a6": "0xa1a6a7DC48919A182cF2541fcF7e2ecd952E9775",
+        "EIG/WETH-a1ce": "0xa1cE75c62a03114eCda67c3f7FcDf08C3fF0f19f",
         "50B-baoETH-ETH-BPT-50B-baoUSD-LUSD-BPT-a1df": "0xA1Df257176A81E3e9FE2E99F8A06806079A25D01",
         "VEC/pSVEC-a1e8": "0xa1e81AC3450EDc5d0FA9c22aDDF7350f6a054dAA",
         "ePENDLE/PENDLE-a2e9": "0xA2E9242163d54b536583368a01b5D232C95aA884",
@@ -5870,7 +5850,6 @@
         "20WETH-80PSP-cb0e": "0xCB0e14e96f2cEFA8550ad8e4aeA344F211E5061d",
         "iROBOT-ccf5": "0xcCF5575570faC94CEC733a58ff91bB3d073085c7",
         "baoETH-ETH BSP-cd1e": "0xCD1e52e91565f2f3d0b56B3e7C0B76c13146d8C0",
-        "ReClamm WBTC-WETH-cd4d": "0xCd4D06e8329A012C241e4733E58C547341FC1511",
         "LpUnreal Yield Token:YEARN:yvDAI:1:2023-5-21-cd84": "0xcD84dcAEeEB4FD1bc46A4945ea122A2643Fa8d39",
         "LPePyvcrvSTETH-15OCT21-ce16": "0xce16E7ed7654a3453E8FaF748f2c82E57069278f",
         "BAL-20WETH-80VCX-ce8d": "0xCE8D4Ad8Cce1240EcBc49385BAF4c399A7F353F9",
@@ -5904,6 +5883,7 @@
         "bb-f-USD-d997": "0xD997f35c9b1281B82C8928039D14CdDaB5e13c20",
         "80SLR-20WETH-d9fb": "0xD9Fb1aE180Fbf88F28f14a04842bD17BCEb69fEf",
         "eBTC/wBTC-da17": "0xda17f3663C5D04C0B316cfA1A04Aa53eBBC8c12C",
+        "SAF-da3b": "0xDA3B8a3B31D8FB1AA31870101B2543b61207CBf6",
         "80TREE-20AavePrimeWETH-daba": "0xDABA3d8cCF79ef289a7e2dBCe51871B39Ea445a2",
         "B-jAura-wETH-dac7": "0xDac7eF49161bdBf0e8f0B4c8e2D38DF19D972874",
         "osETH/wETH-BPT-dacf": "0xDACf5Fa19b1f720111609043ac67A9818262850c",
@@ -6865,10 +6845,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
-        "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
-      },
       "20250307-v3-router-v2": {
         "Router": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b"
       },
@@ -6892,10 +6868,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
-        "MockReClammPool": "0xaC1675219FbB81F2C53950a92dF3F95AAffeab8E"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
@@ -6922,10 +6894,14 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
+        "MockReClammPool": "0x2dfA3793d43642a895c881101CEc157142aB86F3"
+      },
       "multisigs": {
         "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
         "fees": "0x09Df1626110803C7b3b07085Ef1E053494155089",
-        "lm": "0x09Df1626110803C7b3b07085Ef1E053494155089",
+        "maxi_beets_lm": "0x09Df1626110803C7b3b07085Ef1E053494155089",
         "emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
         "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab",
         "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
@@ -9433,10 +9409,6 @@
       "20250218-v3-aggregator-router": {
         "AggregatorRouter": "0x7E0FaA621138275033979Bad405553b103fe0FbC"
       },
-      "20250307-v3-liquidity-bootstrapping-pool": {
-        "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
-        "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
-      },
       "20250307-v3-router-v2": {
         "Router": "0x5e315f96389C1aaF9324D97d3512ae1e0Bf3C21a"
       },
@@ -9453,10 +9425,6 @@
       },
       "20250407-v3-vault-explorer-v2": {
         "VaultExplorer": "0xC82E329C832CAcc8DA65dbB57ac72B068e0CEb9B"
-      },
-      "20250409-v3-reclamm-pool": {
-        "ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
-        "MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660"
       },
       "20250418-v3-wrapped-bpt": {
         "WrappedBalancerPoolTokenFactory": "0xE47e1b8640e18F77BEC160D2Bb2481F65e580730",
@@ -9482,6 +9450,10 @@
       },
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
+        "MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021"
       },
       "multisigs": {
         "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
@@ -10008,6 +9980,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockLBPool": "0x4BdEA6CdcD01422f514363245B74BC2212Fd2aa4"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608",
+        "MockReClammPool": "0x33608014e176139e0b9058B32EEae1A5ce795FD3"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
       }
@@ -10180,6 +10160,14 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockLBPool": "0x9d3E72c11aD7bF7132a141FF6F716491c6d01518"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+        "MockReClammPool": "0xe482ef529B8f7fFC6ECCDea7eaF29C717E9ed079"
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
@@ -10423,6 +10411,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockLBPool": "0xdBB8aD38C990Bd4ca2c88A6E6CfDF5045B0d4FB0"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
+        "MockReClammPool": "0x6A5127AE6df32f722e34B5b4aBc67b0d4e582B39"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373"
       }
@@ -10548,6 +10544,14 @@
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
+        "MockLBPool": "0x6957F5752767268b8D762f2e62DF06e5de117CF5"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockReClammPool": "0xaC1675219FbB81F2C53950a92dF3F95AAffeab8E"
       },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275"
@@ -10790,6 +10794,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockLBPool": "0xc08dDF053003efa63eC7CA1B0ecd4024445A5c51"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
+        "MockReClammPool": "0x02B4a4b0db94db44cb91290b2b5Eb5c5a8a1Cbc9"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x7D92FCDC8Aa56057D5E318B2881F2167c67FdAfA"
       }
@@ -10926,6 +10938,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5E69888b605a181A5615aC1b3C8937aFA2913d15"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0xA714753434481DbaBf7921963f18190636eCde69",
+        "MockLBPool": "0x410E6933B5d9F7ffBAB35AF4aAbCaA82a4C1F287"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x2A4054779DaDf4Cf3F4849f1AC307845F182cfE5",
+        "MockReClammPool": "0x919094AdC27c2B779F70eD65D5d96F0b5331f660"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0x60afAC111365663C03B8a193926342D2D4715f03"
       }
@@ -10985,6 +11005,14 @@
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
       },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+        "MockLBPool": "0x9Ce89Efb4EbE2BC692003Af804e7A33FBBE93043"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockReClammPool": "0x39110AD9A2Dbfe46c8674693838D8BA95ea1e7A9"
+      },
       "20250507-v3-erc4626-cow-swap-fee-burner": {
         "ERC4626CowSwapFeeBurner": "0xC1A64500E035D9159C8826E982dFb802003227f0"
       }
@@ -11032,6 +11060,14 @@
     "hyperevm": {
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
+      },
+      "20250307-v3-liquidity-bootstrapping-pool": {
+        "LBPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+        "MockLBPool": "0xa2bf625Fb0793Bc70885C3cB248dc50608d49157"
+      },
+      "20250409-v3-reclamm-pool": {
+        "ReClammPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
+        "MockReClammPool": "0x493E0E14fCCB89925b507322f605b84629A8918a"
       }
     }
   }
