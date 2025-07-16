@@ -105,6 +105,7 @@
     "ECLP-WETH-USDC-base-root-7c2b": "0x7c2b79cdb3a258c9361c624b6023472154c0410f",
     "ECLP-GYD-AUSDT-arbitrum-root-7e12": "0x7e123ad65cc842ab93bf2dc79a8eade8975bd3cb",
     "bpt-fraxsym-optimism-root-7e17": "0x7e1726d24b1cd3dfcd713f67a83cceaa6108d069",
+    "EURe-Aave USDC-arbitrum-root-7f49": "0x7f49d37d0da53a4899bc0ba916f59ec9d4e6d1e2",
     "ECLP-PAR-EUROe-polygon-root-7f5a": "0x7f5a5c80ceeb1c91718a71030f67788f3810be98",
     "1WETH-99GOLD-polygonzkevm-root-80da": "0x80da3c34e124ac1bc3a6f96a095529a0d5e5e8af",
     "sAVAX-ankrAVAX-BPT-avalanche-root-80f3": "0x80f392bf3fa6973c3e14bb276e04931ec12de05e",
