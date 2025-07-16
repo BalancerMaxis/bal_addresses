@@ -470,6 +470,7 @@
   "0xFe8C531ba9d4d9CCFd64167E389C15F47eB05fBe": "pools/50USDC-50WBTC-fe8c",
   "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718": "EOA/beethoven/netrim",
   "0xa066243Ba7DAd6C779caA1f9417910a4AE83cf4D": "gauges/BPT-USD+-gauge-a066",
+  "0xa1D0791a41318c775707C56eAe247AF81a05322C": "20250411-balancer-registry-initializer-v2/BalancerContractRegistryInitializer",
   "0xa3B9515A9c557455BC53F7a535A85219b59e8B2E": "20230206-erc4626-linear-pool-v3/ERC4626LinearPoolFactory",
   "0xa4Dd31a2725f74163B5826bbD1DfE7684215B104": "pools/eclp-sfrxUSD-waOptUSDCn-a4dd",
   "0xa522D1505e6dd499D8E034F34D9A3714B981E90d": "gauges/bb-rf-SOTRI-gauge-a522",
