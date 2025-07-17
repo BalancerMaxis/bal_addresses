@@ -29,7 +29,7 @@
     "fantom": "https://ftmscan.com/",
     "base": "https://basescan.org/",
     "mode": "https://modescan.io/",
-    "hyperevm": "https://www.hyperscan.com/",
+    "hyperevm": "https://hyperevmscan.io/",
     "fraxtal": "https://fraxscan.com/"
   },
   "SCANNER_API_BY_CHAIN": {
@@ -45,7 +45,7 @@
     "fantom": "https://api.ftmscan.com/api",
     "base": "https://api.basescan.org/api",
     "mode": "https://api.routescan.io/v2/network/mainnet/evm/34443/etherscan/api",
-    "hyperevm": "https://www.hyperscan.com/api",
+    "hyperevm": "https://api.hyperevmscan.io/api",
     "fraxtal": "https://api.fraxscan.com/api"
   },
   "BALANCER_PRODUCTION_CHAINS": [
