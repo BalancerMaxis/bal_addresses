@@ -58,7 +58,8 @@
     "base",
     "mode",
     "hyperevm",
-    "fraxtal"
+    "fraxtal",
+    "optimism"
   ],
   "BALANCER_PRODUCTION_CHAINS_V3": [
     "mainnet",
@@ -66,6 +67,7 @@
     "arbitrum",
     "base",
     "hyperevm",
+    "optimism",
     "avalanche"
   ]
 }
