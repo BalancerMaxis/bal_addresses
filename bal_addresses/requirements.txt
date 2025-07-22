@@ -1,1 +1,1 @@
-git+https://github.com/BalancerMaxis/bal_tools.git#egg=bal_tools
+git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep#egg=bal_tools

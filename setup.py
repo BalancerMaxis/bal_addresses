@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.15"
+VERSION = "0.9.16"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -17,7 +17,7 @@ setup(
     package_data={"": ["abis/*.json"]},
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=[
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep",
         "setuptools>=42",
         "wheel",
     ],
