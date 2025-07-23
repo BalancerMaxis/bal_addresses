@@ -89,8 +89,7 @@ def main():
 
     with open("extras/chains.json", "r") as f:
         chains = json.load(f)
-    # adding optimism because balancer has root gauges there that should be included
-    for chain in chains["BALANCER_PRODUCTION_CHAINS"] + ["optimism"]:
+    for chain in chains["BALANCER_PRODUCTION_CHAINS"]:
         print(f"Generating pools and gauges for {chain}...")
         pool_gauge_info = BalPoolsGauges(chain)
         # pools
