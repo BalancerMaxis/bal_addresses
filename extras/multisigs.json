@@ -48,6 +48,7 @@
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
+    "kpk_managed": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
     "_deprecated": {
       "kyc_grant_safe": "0xb6BfF54589f269E248f99D5956f1fDD5b014D50e",
       "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
