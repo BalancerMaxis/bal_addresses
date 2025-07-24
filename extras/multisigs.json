@@ -129,7 +129,8 @@
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
   },
   "hyperevm": {
-    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "emergency": "0x44613a28347206F5E26C1B8Db7Dc73f450219746"
   },
   "bnb": {
     "_deprecated": {
