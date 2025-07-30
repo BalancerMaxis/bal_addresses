@@ -86,6 +86,8 @@
   "rate_providers/safe/Beefy-Escrowed_Sonic_Rateprovider/0x871A101Dcf22fE4fE37be7B654098c801CBA1c88": "0x871A101Dcf22fE4fE37be7B654098c801CBA1c88",
   "rate_providers/safe/Beefy_Silo_USDC-20_Rateprovider/0x7870ddFd5ACA4E977B2287e9A212bcbe8FC4135a": "0x5fded3206608d3f33175a8865576431906cdb43b",
   "rate_providers/safe/ConstantRateProvider/0x1e2c4fb7ede391d116e6b41cd0608260e8801d59": "0x180eC5fe23a2331b8180775c712EAB5f7a138c46",
+  "rate_providers/safe/DynamicWrappedEthereumSonicRateProvider.md/0x50c42deacd8fc9773493ed674b675be577f2634b": "0x13024Ff3879Ce1d3A827958AB1e5fDF29250A05d",
+  "rate_providers/safe/DynamicWrappedSonicRateProvider.md/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38": "0xb7b5d20dba8afac9049909e3be080d4841f5f144",
   "rate_providers/safe/EVKVaultestS-5RateProvider.md/0x6832F3090867449c058e1e3088E552E12AB18F9E": "0x0ff8189d1f1ab65b63bcd003c036d0fea79004da",
   "rate_providers/safe/Euler_Vault_eWS-5_Rateprovider/0x90a804D316A06E00755444D56b9eF52e5C4F4D73": "0xad597fce59dbbd13bcd5bcc1a6fd654acfa92eff",
   "rate_providers/safe/LiquidStakedRezerve.moneyRateProvider.md/0x67A298e5B65dB2b4616E05C3b455E017275f53cB": "0xf26d3b7f58bedd8539810c4a27be801db3b2c7ec",
