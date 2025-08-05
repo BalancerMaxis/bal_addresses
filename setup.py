@@ -23,7 +23,7 @@ setup(
     ],
     extras_require={
         "brownie": [
-            "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep[brownie]"
+            "bal_tools[brownie] @ git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep"
         ],
     },
     keywords=["python", "first package"],
