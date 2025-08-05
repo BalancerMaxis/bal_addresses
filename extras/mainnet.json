@@ -70,6 +70,7 @@
     "MORPHO": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
     "aEthPYUSD": "0x0C0d01AbF3e6aDfcA0989eBbA9d6e85dD58EaB1E",
     "stkMTA": "0x8f2326316eC696F6d023E37A9931c2b2C177a3D7",
+    "aEthRLUSD": "0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0",
     "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
   },
   "helpers": {
@@ -257,6 +258,7 @@
     "eth_bundler_v2": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
   },
   "angle": {
+    "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
     "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
   },
   "sparkdotfi": {

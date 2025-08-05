@@ -1,5 +1,7 @@
 {
   "mainnet": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3/version/latest",
     "core": {
       "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
     },
@@ -18,6 +20,8 @@
     }
   },
   "arbitrum": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-arbitrum/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-arbitrum/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
@@ -26,6 +30,8 @@
     }
   },
   "optimism": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-optimism/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-optimism/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
@@ -34,6 +40,8 @@
     }
   },
   "gnosis": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-gnosis/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-gnosis/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-gnosis-chain/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/gnosis-blocks/version/latest",
@@ -55,10 +63,14 @@
     "blocks": "https://api.thegraph.com/subgraphs/name/blocklytics/goerli-blocks"
   },
   "sepolia": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-sepolia/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-sepolia/version/latest",
     "core": "https://api.studio.thegraph.com/query/24660/balancer-sepolia-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-sepolia-beta/version/latest"
   },
   "avalanche": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-avalanche/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-avalanche/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-avalanche-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-avalanche/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/avalanche-blocks/version/latest",
@@ -66,8 +78,14 @@
       "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/api"
     }
   },
-  "fantom": {},
+  "fantom": {
+    "core": "https://api.studio.thegraph.com/query/73674/beethovenx-v2-fantom/version/latest",
+    "gauges": "https://api.studio.thegraph.com/query/48427/fantom-blocks/version/latest",
+    "blocks": "https://api.studio.thegraph.com/query/48427/fantom-blocks/version/latest"
+  },
   "base": {
+    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-base/version/latest",
+    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-base/version/latest",
     "core": {
       "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
     },
@@ -81,6 +99,10 @@
     "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
+  },
+  "hyperevm": {
+    "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-hyperevm/latest/gn",
+    "pools-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-pools-v3-hyperevm/latest/gn"
   },
   "sonic": {},
   "fraxtal": {

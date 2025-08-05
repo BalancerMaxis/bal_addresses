@@ -16,7 +16,14 @@ def main():
     for chain in chains["CHAIN_IDS_BY_NAME"]:
         if chain not in urls:
             urls[chain] = {}
-        for subgraph_type in ["core", "gauges", "blocks", "aura"]:
+        for subgraph_type in [
+            "vault-v3",
+            "pools-v3",
+            "core",
+            "gauges",
+            "blocks",
+            "aura",
+        ]:
             subgraph = Subgraph(chain)
             try:
                 url = subgraph.get_subgraph_url(subgraph_type)
