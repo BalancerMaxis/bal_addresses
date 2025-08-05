@@ -17,13 +17,13 @@ setup(
     package_data={"": ["abis/*.json"]},
     url="https://github.com/BalancerMaxis/bal_addresses",
     install_requires=[
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git",
+        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep",
         "setuptools>=42",
         "wheel",
     ],
     extras_require={
         "brownie": [
-            "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git[brownie]"
+            "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git@feat/remove-brownie-dep[brownie]"
         ],
     },
     keywords=["python", "first package"],
