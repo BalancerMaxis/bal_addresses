@@ -264,6 +264,9 @@
   "sparkdotfi": {
     "usds_psm_wrapper": "0xd0A61F2963622e992e6534bde4D52fd0a89F39E0"
   },
+  "rezerve": {
+    "deployer.rezerve.eth": "0x5f5a6E0F769BBb9232d2F6EDA84790296b288974"
+  },
   "snapshot": {
     "delegate_Registry": "0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446"
   }
