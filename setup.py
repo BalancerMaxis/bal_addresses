@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.9.15"
+VERSION = "0.9.16"
 DESCRIPTION = "Balancer Maxi Addressbook"
 LONG_DESCRIPTION = "Balancer Maxi Addressbook and Balancer Permissions helper"
 
@@ -21,6 +21,11 @@ setup(
         "setuptools>=42",
         "wheel",
     ],
+    extras_require={
+        "brownie": [
+            "bal_tools[brownie] @ git+https://github.com/BalancerMaxis/bal_tools.git"
+        ],
+    },
     keywords=["python", "first package"],
     classifiers=[
         "Development Status :: 4 - Beta",
