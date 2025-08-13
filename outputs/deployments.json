@@ -1045,6 +1045,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
         "MockReClammPool": "0x2CFDD50F108e49c1320cd8E2E1472dEf5c8268D4"
+      },
+      "20250806-v3-token-pair-registry": {
+        "TokenPairRegistry": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
       }
     },
     "mainnet": {
@@ -1929,6 +1932,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
         "MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021"
+      },
+      "20250806-v3-token-pair-registry": {
+        "TokenPairRegistry": "0xcBDe7AFEF330B0d70F220450758694f556792F35"
       }
     },
     "zkevm": {
