@@ -2,6 +2,9 @@
   "zero": {
     "zero": "0x0000000000000000000000000000000000000000"
   },
+  "angle": {
+    "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae"
+  },
   "balancer": {
     "EventEmitter": "0xf04378a3ff97b3f979a46f91f9b2d5A1D2394773"
   },
