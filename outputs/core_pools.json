@@ -91,7 +91,6 @@
   "base": {
     "0x5b14ce8de84448e9a6f6af652af318472aa4fcaf": "Aave GHO-USR",
     "0x7ab124ec4029316c2a42f713828ddf2a192b36db": "Aave USDC-Aave GHO",
-    "0x9972c4f21b5ae6062233031314adbbdda7513ed2": "Surge Aave wstETH-fWETH",
     "0x9ab907fb3e098103ca048ad26e501bf7b3dfa3eb": "Surge Aave EURC-GHO",
     "0xb5bfb5adb736ea852bd58fec71db3b356c2a3938": "Aave wstETH-ezETH",
     "0xb6a9a815d98cb98fd9f2353ec59de07b63f5b485": "Surge yUSD-Aave USDC",
@@ -105,12 +104,12 @@
   "fraxtal": {},
   "hyperevm": {},
   "optimism": {
-    "0x0854c8fa68cff2ac363b541f08f35181ca51b870": "bpt-50sfrxUSD-50waOptWETH",
     "0x08a8bba83af849e3755771a4070aec87c9d6b86e": "eclp-sfrxETH-waOptWETH",
     "0x2bb4712247d5f451063b5e4f6948abdfb925d93d000000000000000000000136": "bpt-weethwsteth",
     "0x49e75c0df48ad09a0e20e8bbded07ee60dd8bc03": "ss-sfrxETH-rETH-wstETH",
     "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b": "BPT-rETH-ETH",
     "0x5f8893506ddc4c271837187d14a9c87964a074dc000000000000000000000106": "bpt-ethtri",
+    "0x73a7fe27fe9545d53924e529acf11f3073841b9e000000000000000000000133": "wrsETH/wETH",
     "0x870c0af8a1af0b58b4b0bd31ce4fe72864ae45be": "Balancer rETH-Aave wETH",
     "0xa4dd31a2725f74163b5826bbd1dfe7684215b104": "eclp-sfrxUSD-waOptUSDCn",
     "0xe0d0b607539fdb647c4e87eff89588c6bb669c03": "bpt-wrsETH-waOptWETH",
