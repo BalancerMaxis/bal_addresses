@@ -197,6 +197,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
         "MockReClammPool": "0x89d9D76C1E5aA9a78364380bB17c4c7d385dA83c"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       }
     },
     "avalanche": {
@@ -385,6 +388,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
         "MockReClammPool": "0x443aC03E071E38577f2c50e3a7bdE30D9CEc06C2"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       }
     },
     "base": {
@@ -579,6 +585,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
         "MockReClammPool": "0x6147DCcc9aF9641CA5e86e3b0075E8c7c853AEF6"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       }
     },
     "bsc": {
@@ -938,6 +947,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0xc86eF81E57492BE65BFCa9b0Ed53dCBAfDBe6100",
         "MockReClammPool": "0x3004934b023631DaA3fF7Ad020aA3f5C4Ed0eC1B"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       }
     },
     "hyperevm": {
@@ -1048,6 +1060,9 @@
       },
       "20250806-v3-token-pair-registry": {
         "TokenPairRegistry": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       }
     },
     "mainnet": {
@@ -1309,6 +1324,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
         "MockReClammPool": "0x000aB3853737842bED7Dabe3540E3e5336FE62a6"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
       }
     },
     "mode": {
@@ -1588,6 +1606,9 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
         "MockReClammPool": "0x2dfA3793d43642a895c881101CEc157142aB86F3"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       }
     },
     "polygon": {
@@ -1935,6 +1956,9 @@
       },
       "20250806-v3-token-pair-registry": {
         "TokenPairRegistry": "0xcBDe7AFEF330B0d70F220450758694f556792F35"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3"
       }
     },
     "zkevm": {

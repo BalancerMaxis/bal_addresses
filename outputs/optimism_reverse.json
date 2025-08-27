@@ -193,6 +193,7 @@
   "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7": "20240223-composable-stable-pool-v6/ComposableStablePoolFactory",
   "0x4d6461F181cf2B26a1cB4e3A070d63d0d31a5155": "pools/50USDC-50BEETS-4d64",
   "0x4edA46C9921c8e928E559F3F0B5b9D3eC3DF8Ae9": "gauges/BPT-FRAX-MAI-gauge-4eda",
+  "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5": "20250813-v3-constant-price-feed/ConstantPriceFeed",
   "0x4fb47126Fa83A8734991E41B942Ac29A3266C968": "20230316-l2-balancer-pseudo-minter/L2BalancerPseudoMinter",
   "0x5028497af0c9a54ea8C6D42a054c0341B9fc6168": "pools/BPT-LONG-5028",
   "0x50bd3D0414fda3acB1559D8E2EFbBdCE974584e1": "pools/50BEETS-50OP-50bd",
