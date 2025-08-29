@@ -44,9 +44,7 @@
   "gnosis": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-gnosis/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-gnosis/version/latest",
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-gnosis-chain/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/gnosis-blocks/version/latest",
     "aura": {
@@ -104,10 +102,7 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
-  "hyperevm": {
-    "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-hyperevm/latest/gn",
-    "pools-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-pools-v3-hyperevm/latest/gn"
-  },
+  "hyperevm": {},
   "sonic": {},
   "fraxtal": {
     "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/latest/gn",
