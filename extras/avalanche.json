@@ -6,7 +6,8 @@
     "aAvaSAVAX": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf"
   },
   "angle": {
-    "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae"
+    "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
+    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
   },
   "balancer": {
     "EventEmitter": "0xf04378a3ff97b3f979a46f91f9b2d5A1D2394773"
