@@ -408,6 +408,7 @@
   "0xC128a9954e6c874eA3d62ce62B468bA073093F25": "20220517-protocol-fee-withdrawer/ProtocolFeesWithdrawer",
   "0xC19055C2FF199Ba6190505Ef776573c8B7cC676A": "gauges/bpt-ankrgalaharm-gauge-c190",
   "0xC1A64500E035D9159C8826E982dFb802003227f0": "20250307-v3-liquidity-bootstrapping-pool/LBPoolFactory",
+  "0xC558D91d183C465DB1203045877A20CeE8A87Cb4": "pools/50waOptUSDCn-50WETH-c558",
   "0xC9073a432A062E9a637daaf36A244B199605bfF3": "gauges/bb-rf-triyie-gauge-c907",
   "0xC97dEE022137a8c5F65B5138Cc690Fbe87806ED5": "pools/BPT-DAOUSDC-c97d",
   "0xC9B49E2Ae035De1CFA69B4d524A8B5cfedc1a340": "gauges/GDSRH-gauge-c9b4",
