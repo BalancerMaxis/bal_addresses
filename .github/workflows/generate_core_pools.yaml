@@ -1,4 +1,6 @@
 name: Generate Core Pools JSON
+permissions:
+  contents: read
 
 on:
   schedule:
