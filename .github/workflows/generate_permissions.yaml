@@ -7,6 +7,8 @@ on:
 
 jobs:
   refresh_active_perms:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     env:
       DRPC_KEY: ${{ secrets.DRPC_KEY }}
