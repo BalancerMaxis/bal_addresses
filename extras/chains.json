@@ -14,7 +14,8 @@
     "mode": 34443,
     "hyperevm": 999,
     "sonic": 146,
-    "fraxtal": 252
+    "fraxtal": 252,
+    "plasma": 9745
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -30,7 +31,8 @@
     "base": "https://basescan.org/",
     "mode": "https://modescan.io/",
     "hyperevm": "https://hyperevmscan.io/",
-    "fraxtal": "https://fraxscan.com/"
+    "fraxtal": "https://fraxscan.com/",
+    "plasma": "https://plasmascan.to/"
   },
   "SCANNER_API_BY_CHAIN": {
     "mainnet": "https://api.etherscan.io/api",
@@ -46,7 +48,8 @@
     "base": "https://api.basescan.org/api",
     "mode": "https://api.routescan.io/v2/network/mainnet/evm/34443/etherscan/api",
     "hyperevm": "https://api.hyperevmscan.io/api",
-    "fraxtal": "https://api.fraxscan.com/api"
+    "fraxtal": "https://api.fraxscan.com/api",
+    "plasma": "https://api.routescan.io/v2/network/mainnet/evm/9745/etherscan/api"
   },
   "BALANCER_PRODUCTION_CHAINS": [
     "mainnet",
@@ -59,7 +62,8 @@
     "mode",
     "hyperevm",
     "fraxtal",
-    "optimism"
+    "optimism",
+    "plasma"
   ],
   "BALANCER_PRODUCTION_CHAINS_V3": [
     "mainnet",
@@ -68,6 +72,7 @@
     "base",
     "hyperevm",
     "optimism",
-    "avalanche"
+    "avalanche",
+    "plasma"
   ]
 }
