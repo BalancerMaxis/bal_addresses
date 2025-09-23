@@ -7,16 +7,18 @@ on:
 
 jobs:
   refresh_active_perms:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     env:
       DRPC_KEY: ${{ secrets.DRPC_KEY }}
     steps:
       - name: Generate GitHub App token
         id: app-token
-        uses: tibdex/github-app-token@v2
+        uses: actions/create-github-app-token@v2
         with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Checkout code
         uses: actions/checkout@v5
