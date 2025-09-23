@@ -132,6 +132,10 @@
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
     "emergency": "0x44613a28347206F5E26C1B8Db7Dc73f450219746"
   },
+  "plasma": {
+    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "emergency": "0x0d3319A8057A0C8afd87dFEEA252541A76d56Ebf"
+  },
   "bnb": {
     "_deprecated": {
       "dao": "0x58099b94e660bBe19848547F6c5d76DcA7282E45"
