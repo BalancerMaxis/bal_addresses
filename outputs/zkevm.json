@@ -62,6 +62,7 @@
   "20231031-batch-relayer-v6/BatchRelayerQueryLibrary": "0x4Dbf624Ffc95ceD541e6C9E786AF87848dC3F3d9",
   "20240223-composable-stable-pool-v6/ComposableStablePoolFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843",
   "20240223-composable-stable-pool-v6/MockComposableStablePool": "0x6Db6e2d95acF228bC0c9a98e0EB55144962Fe6c0",
+  "20250919-pool-swap-fee-helper/PoolSwapFeeHelper": "0x9dd5Db2d38b50bEF682cE532bCca5DfD203915E1",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
