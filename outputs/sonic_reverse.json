@@ -1,5 +1,6 @@
 {
   "0x0000000000000000000000000000000000000000": "zero/zero",
+  "0x000000000022D473030F116dDEE9F6B43aC78BA3": "uniswap/permit2",
   "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07": "EOA/dao_backup/figue",
   "0x00de97829d01815346e58372be55aefd84ca2457": "rate_providers/safe/Avalon_waSolvBTC.bbn_Rateprovider/0xa28d4dbcc90c849e3249d642f356d85296a12954",
   "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D": "EOA/dao_backup/hubert",
