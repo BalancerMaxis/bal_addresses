@@ -8,5 +8,8 @@
   },
   "beethoven_x": {
     "beets_migrator": "0x5f9a5CD0B77155AC1814EF6Cd9D82dA53d05E386"
+  },
+  "uniswap": {
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
   }
 }
