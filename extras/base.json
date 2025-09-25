@@ -9,7 +9,10 @@
     "LINK": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
     "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "axlOP": "0x994ac01750047B9d35431a7Ae4Ed312ee955E030",
-    "USDbC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA"
+    "USDbC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "aBasWETH": "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7",
+    "aBasGHO": "0x067ae75628177FD257c2B1e500993e1a0baBcBd1",
+    "aBasUSDC": "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
@@ -43,5 +46,9 @@
   },
   "paladin": {
     "QuestBoardV2Sidechain": "0x12Da7E0c469CEeC4EFADa2F5E8CAedCD3F3E6748"
+  },
+  "angle": {
+    "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
+    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
   }
 }
