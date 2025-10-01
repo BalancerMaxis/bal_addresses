@@ -19,8 +19,8 @@ def process_query_pools(result) -> dict:
     # assert no duplicate addresses exist
     assert len(df["address"].unique()) == len(df)
 
-    # solve issue of duplicate gauge symbols
-    df["symbol"] = df["symbol"] + "-" + df["address"].str[2:6]
+    # solve issue of duplicate pool symbols
+    df["symbol"] = df["symbol"] + "-" + df["address"].str[2:7]
 
     # confirm no duplicate symbols exist, raise if so
     if len(df["symbol"].unique()) != len(df):
