@@ -1728,14 +1728,28 @@
       "20250430-v3-pool-pause-helper": {
         "PoolPauseHelper": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
       },
-      "20250430-v3-protocol-fee-helper": {
-        "ProtocolFeeHelper": "0x83E443EF4f9963C77bd860f94500075556668cb8"
-      },
       "20250502-v3-fee-percentages-provider": {
         "ProtocolFeePercentagesProvider": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
       },
+      "20250503-v3-protocol-fee-sweeper-v2": {
+        "ProtocolFeeSweeper": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A"
+      },
       "20250507-v3-aggregator-batch-router": {
         "AggregatorBatchRouter": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
+      },
+      "20250530-v3-balancer-fee-burner": {
+        "BalancerFeeBurner": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52"
+      },
+      "20250530-v3-cow-swap-fee-burner-v2": {
+        "CowSwapFeeBurner": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
+      },
+      "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
+        "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20250701-v3-liquidity-bootstrapping-pool-v2": {
+        "LBPMigrationRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "LBPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
+        "MockLBPool": "0xc49a3d36aD36c69216b4B534b3cCf34039143f87"
       },
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
@@ -1743,6 +1757,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
+      },
+      "20250919-v3-pool-swap-fee-helper-v2": {
+        "PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
       }
     },
     "polygon": {
@@ -3381,6 +3398,9 @@
       }
     },
     "plasma": {
+      "20250228-v3-protocol-fee-sweeper": {
+        "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
+      },
       "20250430-v3-pool-swap-fee-helper": {
         "PoolSwapFeeHelper": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d"
       }
