@@ -24,7 +24,9 @@ def process_query_pools(result) -> dict:
     df["symbol"] = df["symbol"] + "-" + df["address"].str[2:6]
 
     # only extend address suffix for symbols that still have collisions
-    colliding_symbols = df[df["symbol"].duplicated(keep=False)]["original_symbol"].unique()
+    colliding_symbols = df[df["symbol"].duplicated(keep=False)][
+        "original_symbol"
+    ].unique()
     for original_symbol_with_collision in colliding_symbols:
         collision_group_mask = df["original_symbol"] == original_symbol_with_collision
         collision_group = df[collision_group_mask]
@@ -33,7 +35,7 @@ def process_query_pools(result) -> dict:
             symbols_with_longer_suffix = (
                 collision_group["original_symbol"]
                 + "-"
-                + collision_group["address"].str[2:2+address_suffix_length]
+                + collision_group["address"].str[2 : 2 + address_suffix_length]
             )
             if symbols_with_longer_suffix.nunique() == len(symbols_with_longer_suffix):
                 df.loc[collision_group_mask, "symbol"] = symbols_with_longer_suffix
