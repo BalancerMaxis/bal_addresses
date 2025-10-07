@@ -36,7 +36,7 @@
   "emergency": {
     "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
     "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-    "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+    "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
     "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
     "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
     "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -85,7 +85,8 @@
     "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
     "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
     "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-    "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+    "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+    "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
   },
   "kyc": {
     "Arbitrum": {
