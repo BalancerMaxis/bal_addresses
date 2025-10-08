@@ -10,6 +10,8 @@ def process_query_pools(result) -> dict:
     for pool_data in result:
         if pool_data.symbol.startswith("circlesBackingLBP"):
             continue
+        if pool_data.symbol.startswith("WETH-EIGEN"):
+            continue
         flattened_result.append(
             {"address": pool_data.address, "symbol": pool_data.symbol}
         )
