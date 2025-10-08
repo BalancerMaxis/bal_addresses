@@ -380,7 +380,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -429,7 +429,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -1982,7 +1983,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -2031,7 +2032,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -2501,7 +2503,8 @@
         "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
         "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
         "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
-        "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
+        "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
+        "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4"
       },
       "EOA": {
         "maxis": {
@@ -2541,7 +2544,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -2590,7 +2593,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -2818,7 +2822,6 @@
         "33WETH-33DAI-33BAL-4575": "0x45754a260273183dD91F795b7fEAa43c37eB148D",
         "ECLP-cbBTC-WETH-capped-461e": "0x461ECA93AB308DA96C5518ddA3e574B91a180d40",
         "100EURC-0USDC-4700": "0x470081219be3Fc69Fb0e9051611e32c5D14b9F2C",
-        "WETH-waBasUSDC-47a0": "0x47a015B47E765D453FF679515be187740aF6250B",
         "80waBasUSDC-20waBasWETH-47fe": "0x47fE067Ac20Db514Bc8E9c1113bC6821AC0Ee3b5",
         "50USDC/USDbC/axlUSDC-50USDC-493c": "0x493CD221ee03c24827F80C521af55f0F5bb55212",
         "ECLP-weETH-wstETH-4947": "0x49470d9e531c52E4370F4cdC7afE5acCbbD9222D",
@@ -2862,7 +2865,6 @@
         "50cbETH-50STG-5891": "0x58916CF9bAB42B062277910c6a51642cD60798e7",
         "axlBAL/BAL-58f2": "0x58F2110B61F97fD6B9200b038d92f17c722A5A33",
         "50ZBU-50USDC-5950": "0x59501a303b1BdF5217617745ACEC4d99107383f0",
-        "cbBTC-WETH-USDC-5a01": "0x5a01D5fAA6d0F3a0BeDF45950d71A4b2Cb0F3f47",
         "Aave GHO-USR-5b14": "0x5b14ce8DE84448e9A6F6aF652af318472aA4FCAF",
         "WETH-cbBTC-waBasUSDC-5bd3": "0x5bd3dd772Ce0a6B12c5eA3814e4750C281f00781",
         "50WETH-50USDC-5be3": "0x5bE33187C8562519232941C2cf153EA35d200be3",
@@ -3052,7 +3054,6 @@
         "cbBTC-WETH-USDC-a14c": "0xA14Cd3BE5c0dB9ac98204f6a8A526b332856f9e4",
         "BCoW-50ZRO-50USDC-a1a7": "0xa1a7ba5fc168a7760F541Ff69486e519E04b1061",
         "40cbETH-40WETH-20rETH-a1d5": "0xA1D5264a2D3E2652756993c29729E092cA91d0D4",
-        "WETH-cbBTC-waBasUSDC-a27a": "0xA27A243b43949A391eC7D1A5Ed7a6770D5573Ba7",
         "80HSNTS-20WETH-a281": "0xA2813FdEE57Eb14344Da894Ed9F7c585D4eEc736",
         "ECLP-GYFI-wstETH-a28b": "0xA28BAE3B7fD894A65B77A82A9AfbEF9f578338d1",
         "WETH-USDC-a2c1": "0xa2C163296FaeC47BF690765383e98826EDd91768",
@@ -3235,7 +3236,6 @@
         "80SIS-20WETH-e94d": "0xe94Dfd524414220b3f5d321A20b6f9DBC1d53A1f",
         "50WETH-50USDC-e9ea": "0xe9eA6B943F252bf3Dfa4d7964f19404A2BDd1F75",
         "ZODIACLIBRA-ea7c": "0xeA7CD0EbEF41BB2e2Cae8CdC401611fDa67ee135",
-        "tETH-waBaswstETH(Testing)-eba8": "0xEba8c7eec932eB5dF37D91e99EA076fB82f65Dbd",
         "BCoW-80TOP-20NIPZ-ec01": "0xEC01AC6050B1f2A14c2098DF859113F0F04f4ca6",
         "5stables-ec49": "0xEC498Fca1959F29d6a85B9BE39A420D9189118a7",
         "WETH-USDC-J-1k-003-ec5d": "0xEc5d21a165A65303A5Bb99E4Fbe12472a7B6012e",
@@ -3251,7 +3251,6 @@
         "50WETH-50USDbC-ee94": "0xee94d8Df3ECF9158D1Cd3D752c7b61fc4FD46b12",
         "ECLP-cbBTC-WETH-dyn-efec": "0xEFEcF3A2b6adE967436F2eA3Bc1657Cd623fa847",
         "50LINU-50axlUSDC-f064": "0xf0641123A165DDf290b44AB626cE3b527AD7c45b",
-        "WETH-cbBTC-waBasUSDC-f08c": "0xf08cc0324D03B14b001Cf90638c3650ea1B00667",
         "WETH-USDC-f09e": "0xF09E25b0F5974EC9CaF26DF4c2f57f4152e46069",
         "50USDC-50USDbC-f0b2": "0xF0b2D22311214b40668C386FD736BAd338b1a9db",
         "44WETH-56DAI-f11e": "0xf11e5e93394e5af859f48BEb684BdC19855D787F",
@@ -3507,7 +3506,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -3556,7 +3555,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -3742,7 +3742,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -3791,7 +3791,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -4143,7 +4144,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -4192,7 +4193,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -4698,7 +4700,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -4747,7 +4749,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -4795,6 +4798,7 @@
         "80UETH-20USD\u20ae0-7bbd": "0x7bbd956ca12A81f7b3e6E14418D8Cf736fcae8AF",
         "mcUSR-MC_USDT0-8207": "0x8207C7541ce31B38dBD46890f2A832cF1EF7C512",
         "40WHYPE-40UETH-20USD\u20ae0-85f8": "0x85f8666A2D09Fd8d8d7a8a0ba25A7F3Be848c257",
+        "WHYPE-kHYPE-UBTC-94f7": "0x94F7A5A6aC7Beb44371E526b0bf1b6A5fd1def42",
         "50WHYPE-50USD\u20ae0-95de": "0x95deAb5435df2FAc8c61b18E41908FB5A66c1266",
         "WHYPE-USD\u20ae0-9981": "0x99810F7D7Ae8Ff2437698fc83714BAce08e886df",
         "Correlated Madness II-9eed": "0x9EED7D6914cC0d00139e99aeC0cd60b02bA8C07e",
@@ -5377,6 +5381,7 @@
           "rocket": "0xb867EA3bBC909954d737019FEf5AB25dFDb38CB9",
           "lido": "0x87D93d9B2C672bf9c9642d853a8682546a5012B5"
         },
+        "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4",
         "_deprecated": {
           "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1"
         }
@@ -5419,7 +5424,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -5468,7 +5473,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -6944,7 +6950,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -6993,7 +6999,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -7343,7 +7350,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -7392,7 +7399,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -7889,7 +7897,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -7938,7 +7946,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -8201,7 +8210,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -8250,7 +8259,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -10188,7 +10198,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -10237,7 +10247,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
@@ -10435,7 +10446,7 @@
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "zendragon": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
-          "juani": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "juani": "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293",
           "hypernative": "0x202B1AA0d702898CA474aB6ED31d53BA309308D9",
           "franz": "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6",
           "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
@@ -10484,7 +10495,8 @@
           "tritium_payee": "0x27e472f2625D6d4913F6cb5b99DAAadb58Da1D93",
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
-          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120"
+          "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
         },
         "kyc": {
           "Arbitrum": {
