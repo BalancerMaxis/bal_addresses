@@ -1977,10 +1977,6 @@
       "20230519-gauge-adder-v4": {
         "GaugeAdder": "0xE42FFA682A26EF8F25891db4882932711D42e467"
       },
-      "20230522-timelock-authorizer": {
-        "TimelockAuthorizerMigrator": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938",
-        "TimelockAuthorizer": "0xDe615cc5712B4954BeB613BCF32E61C137Cc64f9"
-      },
       "20230526-gauge-working-balance-helper": {
         "GaugeWorkingBalanceHelper": "0x2E4aBED3362A622C5f712bB183005A476b146bd3"
       },
