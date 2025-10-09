@@ -43,5 +43,8 @@
       "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
       "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
     }
+  },
+  "stake_dao": {
+    "votemarket_v2": "0xDD2FaD5606cD8ec0c3b93Eb4F9849572b598F4c7"
   }
 }

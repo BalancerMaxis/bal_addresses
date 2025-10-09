@@ -50,5 +50,8 @@
   "angle": {
     "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
     "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+  },
+  "stake_dao": {
+    "votemarket_v2": "0xDD2FaD5606cD8ec0c3b93Eb4F9849572b598F4c7"
   }
 }

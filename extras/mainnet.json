@@ -125,7 +125,8 @@
     "keeper_registry_v2_1": "0x6593c7De001fC8542bB1703532EE1E5aA0D458fD",
     "keeper_registrar_v2_1": "0x6B0B234fB2f380309D47A7E9391E29E9a179395a",
     "keeper_registry": "0x02777053d6764996e594c3E88AF1D58D5363a2e6",
-    "keeper_registrar": "0xDb8e8e2ccb5C033938736aa89Fe4fa1eDfD15a1d"
+    "keeper_registrar": "0xDb8e8e2ccb5C033938736aa89Fe4fa1eDfD15a1d",
+    "ccip_router": "0x80226fc0Ee2b096224EeAc085Bb9a8cba1146f7D"
   },
   "gnosis": {
     "sign_message_lib": "0xA65387F16B013cf2Af4605Ad8aA5ec25a2cbA3a2",
@@ -255,7 +256,10 @@
     "Danko-Vester": "0x40a69d7966295c6eea95633fa6c0a87f25a89d61",
     "MikeB-Vester": "0xfe5e6765f820605ad7d58bec0f4e54893bd05bbb",
     "Lipman-Vester": "0xeb90e2953b023d9496b963acd87ac3061fe8ea9e",
-    "Tritium-Vester": "0x17e26dd811ad09bd946f3b63a6f256f22c218da1"
+    "Tritium-Vester": "0x17e26dd811ad09bd946f3b63a6f256f22c218da1",
+    "campaign_remote_manager_v2": "0x53aD4Cd1F1e52DD02aa9FC4A8250A1b74F351CA2",
+    "laposte": "0xF0000058000021003E4754dCA700C766DE7601C2",
+    "laposte_adapter": "0xbF0000F5C600B1a84FE08F8d0013002ebC0064fe"
   },
   "morpho": {
     "eth_bundler_v2": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"

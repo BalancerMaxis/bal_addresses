@@ -121,5 +121,8 @@
   },
   "stakewise": {
     "SWISE_Distributor_Safe": "0x2685C0e39EEAAd383fB71ec3F493991d532A87ae"
+  },
+  "stake_dao": {
+    "votemarket_v2": "0xDD2FaD5606cD8ec0c3b93Eb4F9849572b598F4c7"
   }
 }
