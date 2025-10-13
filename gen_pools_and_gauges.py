@@ -10,6 +10,8 @@ def process_query_pools(result) -> dict:
     for pool_data in result:
         if pool_data.symbol.startswith("circlesBackingLBP"):
             continue
+        if pool_data.symbol.startswith("WETH-EIGEN"):
+            continue
         flattened_result.append(
             {"address": pool_data.address, "symbol": pool_data.symbol}
         )
@@ -19,8 +21,29 @@ def process_query_pools(result) -> dict:
     # assert no duplicate addresses exist
     assert len(df["address"].unique()) == len(df)
 
-    # solve issue of duplicate gauge symbols
+    # solve issue of duplicate pool symbols by appending address prefix
+    df["original_symbol"] = df["symbol"]
     df["symbol"] = df["symbol"] + "-" + df["address"].str[2:6]
+
+    # only extend address suffix for symbols that still have collisions
+    colliding_symbols = df[df["symbol"].duplicated(keep=False)][
+        "original_symbol"
+    ].unique()
+    for original_symbol_with_collision in colliding_symbols:
+        collision_group_mask = df["original_symbol"] == original_symbol_with_collision
+        collision_group = df[collision_group_mask]
+
+        for address_suffix_length in range(4, 43):  # max 40 hex chars in address
+            symbols_with_longer_suffix = (
+                collision_group["original_symbol"]
+                + "-"
+                + collision_group["address"].str[2 : 2 + address_suffix_length]
+            )
+            if symbols_with_longer_suffix.nunique() == len(symbols_with_longer_suffix):
+                df.loc[collision_group_mask, "symbol"] = symbols_with_longer_suffix
+                break
+
+    df = df.drop(columns=["original_symbol"])
 
     # confirm no duplicate symbols exist, raise if so
     if len(df["symbol"].unique()) != len(df):
