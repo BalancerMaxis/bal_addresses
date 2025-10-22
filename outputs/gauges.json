@@ -857,6 +857,7 @@
     "LP-VEUR-USDC-gauge-e419": "0xe41978aca73f93bf67c27b60232449f2f4a29168",
     "ggAVAX-bb-a-WAVAX-BPT-gauge-e98e": "0xe98e468074baa30aaa7747bcd32b77a16ae3d9d8",
     "LP-VCHF-USDC-gauge-eb96": "0xeb96333b3e0efef18a45d40c6144b78b0dc70981",
+    "USDp-mevUSDC-gauge-ecff": "0xecff9ca9a341d591db57953b1d27c4b68d4bca77",
     "sAVAX-WAVAX-BPT-gauge-f9ae": "0xf9ae6d2d56f02304f72dcc61694ead0dc8db51f7"
   },
   "base": {
@@ -898,6 +899,7 @@
     "50BALD/50WETH-gauge-544b": "0x544bdce27174ea8ba829939bd3568efc6a6c9c53",
     "ECLP-GYFI-wstETH-gauge-549b": "0x549b362fefe9311fec739c53f1a62b075563ae74",
     "ECLP-WETH-USDT-gauge-5810": "0x5810b3ee98a34eb93659a12b62788d00e8f23afe",
+    "tETH-waBaswstETH-gauge-5b0c": "0x5b0ceddf480846b123a61732297aaa2e4388e93e",
     "Balancer rETH-Aave wETH-gauge-5d2c": "0x5d2ca46c5ffd5cfc279cd05adcf2896436b6626e",
     "Aave wstETH-ezETH-gauge-5d49": "0x5d49fb47aef338a9f5ca554f59a875c17107457a",
     "ECLP-WETH-USDC-gauge-5ed3": "0x5ed3cd1d293cc96e15216f90d83aeeb00340e2f1",
@@ -939,6 +941,7 @@
     "BPT-stabal3-gauge-c97f": "0xc97fa65107ae7b94fb749cf05abb01005c14351e",
     "80PRL-20WETH-gauge-ca66": "0xca66072ca2d7c3af6f44f4d4d29eb9e088a2df79",
     "ECLP-GYFI-GYD-gauge-cc37": "0xcc378c3a65107414d2980d4d4bd73f8f0afef00e",
+    "80RDCTD-20AaveUSDC-gauge-d283": "0xd283ebe41689de4eba32b3216194b24c3a5c4b44",
     "smUSDC-sUSDS-gauge-d6a3": "0xd6a35d58de5fe7669af76b038b9af528580c95b3",
     "ECLP-EURC-USDC-gauge-d6f5": "0xd6f568817288309cb11e07867110f2fe256fc619",
     "Surge Aave EURC-GHO-gauge-d837": "0xd8376b72e609a410999398b70218f70ae9b310f5",
@@ -977,6 +980,7 @@
     "BPT-LDO-WSTEH-gauge-01de": "0x01de5e6ec37ab62a32afe956d70493e317b23479",
     "eclp-sfrxUSD-waOptUSDCn-gauge-022e": "0x022e09393d1897ff4dda12b274174c630ff7ecb8",
     "bpt-wrseth-wsteth-gauge-0285": "0x028591c6e8dfeb2e315ddc2647adbfc5a62b4f77",
+    "weETH/wETH-gauge-0290": "0x0290377d73c7cdf57e24945dfc4e2056434a8a11",
     "BPT-RESERVE-gauge-02ab": "0x02ab6fe6b3af13b4f859001486dc75f2dac79026",
     "BPT-WSTETH-USDC-gauge-072e": "0x072e290b2eda352b5ab630b0d43d4435c297a41a",
     "BPT-LONG-gauge-07db": "0x07db07e3fdb6e071e22bf7ebd9bc18d5cef5b3a6",

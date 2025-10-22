@@ -85,6 +85,7 @@
   "rate_providers/safe/Avalon_waSolvBTC_Rateprovider/0xd31e89ffb929b38ba60d1c7dbeb68c7712eaab0a": "0xa6c292d06251da638be3b58f1473e03d99c26ff0",
   "rate_providers/safe/Beefy-Escrowed_Sonic_Rateprovider/0x871A101Dcf22fE4fE37be7B654098c801CBA1c88": "0x871A101Dcf22fE4fE37be7B654098c801CBA1c88",
   "rate_providers/safe/Beefy_Silo_USDC-20_Rateprovider/0x7870ddFd5ACA4E977B2287e9A212bcbe8FC4135a": "0x5fded3206608d3f33175a8865576431906cdb43b",
+  "rate_providers/safe/BeetsLoopedSonicRateProvider.md/0xc76995054ce51dfbbc954840d699b2f33d2538ee": "0xc76995054ce51dfbbc954840d699b2f33d2538ee",
   "rate_providers/safe/ConstantRateProvider/0x1e2c4fb7ede391d116e6b41cd0608260e8801d59": "0x180eC5fe23a2331b8180775c712EAB5f7a138c46",
   "rate_providers/safe/DTRINITYUSDRateProvider.md/0x41a5477364BF60d8936b90310FecFDa79593304E": "0xd75a3ee8843b4b66de0f07c57d0f0e79eacd4b71",
   "rate_providers/safe/DynamicWrappedBTCRateProvider.md/0x0555e30da8f98308edb960aa94c0db47230d2b9c": "0x20A7E5f22a16cFB5b33258aBDC1d6d48f104bc89",
