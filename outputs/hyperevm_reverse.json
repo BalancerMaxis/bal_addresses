@@ -175,7 +175,6 @@
   "0xd10D872997e45686D2543cCB62E8f259Ab44Cc65": "pools/USDHL-LOOP-d10d",
   "0xd488810DaAdD52C5892663FEA4e0bcb71eF744cB": "20250418-v3-wrapped-bpt/MockWrappedBalancerPoolToken",
   "0xd6861b0F2b6234bEC80a3dfd3783BBd1a49B9541": "rate_providers/safe/Resolv_RLP_Rate_Provider/0x0a3d8466F5dE586FA5F6DE117301e2f90bCC5c48",
-  "0xdC5ca287d6a6d94eaa729c3e4Ff19aFaf299219e": "pools/TOK-undefined-LBP-dc5c",
   "0xe4b9ae240748eb2C39016B30010FDc6dcD28B338": "20250404-v3-stable-surge-pool-factory-v2/MockStablePool",
   "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7": "EOA/keepers/old_oz_relayer_v1",
   "0xeffe560f6e6d122371c7f4170e0fd0e327316c50": "rate_providers/safe/MEVCapitalHYPERateProvider.md/0xd19e3d00f8547f7d108abFD4bbb015486437B487",
