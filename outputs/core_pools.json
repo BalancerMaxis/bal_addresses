@@ -101,7 +101,6 @@
   "fraxtal": {},
   "hyperevm": {},
   "optimism": {
-    "0x08a8bba83af849e3755771a4070aec87c9d6b86e": "eclp-sfrxETH-waOptWETH",
     "0x49e75c0df48ad09a0e20e8bbded07ee60dd8bc03": "ss-sfrxETH-rETH-wstETH",
     "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b": "BPT-rETH-ETH",
     "0x5f8893506ddc4c271837187d14a9c87964a074dc000000000000000000000106": "bpt-ethtri",
