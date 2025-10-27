@@ -16,7 +16,7 @@ FEE_HELPERS = {
     "base": {
         "v2": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
         "v3": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
-    }
+    },
 }
 
 
@@ -38,7 +38,9 @@ def fetch_ezkl_pools():
 
             contract = w3.eth.contract(address=helper_addr, abi=abi)
 
-            pool_set_id = contract.functions.getPoolSetIdForManager(EZKL_MULTISIG).call()
+            pool_set_id = contract.functions.getPoolSetIdForManager(
+                EZKL_MULTISIG
+            ).call()
 
             if pool_set_id == 0:
                 continue  # No pools registered
