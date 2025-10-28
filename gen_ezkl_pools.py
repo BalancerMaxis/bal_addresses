@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 import json
 from pathlib import Path
@@ -16,7 +15,7 @@ FEE_HELPERS = {
     "base": {
         "v2": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
         "v3": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
-    },
+    }
 }
 
 
@@ -26,35 +25,24 @@ def fetch_ezkl_pools():
     abi_dir = Path(__file__).parent / "bal_addresses" / "abis"
 
     ezkl_pools_by_chain = {}
-
     for chain in FEE_HELPERS:
-        chain_pools = []
-        w3 = w3_by_chain[chain]
-
+        chain_pools = {}
         for version, helper_addr in FEE_HELPERS[chain].items():
-            abi_file = f"{version}_fee_helper.json"
-            with open(abi_dir / abi_file) as f:
-                abi = json.load(f)
+            with open(abi_dir / f"{version}_fee_helper.json") as f:
+                contract = w3_by_chain[chain].eth.contract(address=helper_addr, abi=json.load(f))
 
-            contract = w3.eth.contract(address=helper_addr, abi=abi)
-
-            pool_set_id = contract.functions.getPoolSetIdForManager(
-                EZKL_MULTISIG
-            ).call()
-
+            pool_set_id = contract.functions.getPoolSetIdForManager(EZKL_MULTISIG).call()
             if pool_set_id == 0:
-                continue  # No pools registered
+                continue  # No pool set for EZKL
 
             pools = contract.functions.getAllPoolsInSet(pool_set_id).call()
-
             # v2 returns bytes32, v3 returns addresses
             if version == "v2":
                 pools = ["0x" + p.hex() for p in pools]
+            chain_pools[version] = sorted(set(pools))
 
-            chain_pools.extend(pools)
-
-        if chain_pools:
-            ezkl_pools_by_chain[chain] = sorted(list(set(chain_pools)))
+        if any(chain_pools.values()):
+            ezkl_pools_by_chain[chain] = {v: chain_pools.get(v, []) for v in ["v2", "v3"]}
 
     return ezkl_pools_by_chain
 
