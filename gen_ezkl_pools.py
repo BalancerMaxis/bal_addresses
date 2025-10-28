@@ -15,7 +15,7 @@ FEE_HELPERS = {
     "base": {
         "v2": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
         "v3": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
-    }
+    },
 }
 
 
@@ -29,9 +29,13 @@ def fetch_ezkl_pools():
         chain_pools = {}
         for version, helper_addr in FEE_HELPERS[chain].items():
             with open(abi_dir / f"{version}_fee_helper.json") as f:
-                contract = w3_by_chain[chain].eth.contract(address=helper_addr, abi=json.load(f))
+                contract = w3_by_chain[chain].eth.contract(
+                    address=helper_addr, abi=json.load(f)
+                )
 
-            pool_set_id = contract.functions.getPoolSetIdForManager(EZKL_MULTISIG).call()
+            pool_set_id = contract.functions.getPoolSetIdForManager(
+                EZKL_MULTISIG
+            ).call()
             if pool_set_id == 0:
                 continue  # No pool set for EZKL
 
@@ -42,7 +46,9 @@ def fetch_ezkl_pools():
             chain_pools[version] = sorted(set(pools))
 
         if any(chain_pools.values()):
-            ezkl_pools_by_chain[chain] = {v: chain_pools.get(v, []) for v in ["v2", "v3"]}
+            ezkl_pools_by_chain[chain] = {
+                v: chain_pools.get(v, []) for v in ["v2", "v3"]
+            }
 
     return ezkl_pools_by_chain
 
