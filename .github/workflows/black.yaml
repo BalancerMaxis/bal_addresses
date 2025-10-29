@@ -1,17 +1,25 @@
 name: Lint
+permissions:
+  contents: write
 
 on: [pull_request]
 
 jobs:
   lint:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Checkout code
         uses: actions/checkout@v5
         with:
           ref: ${{ github.head_ref }}
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Black
         uses: psf/black@stable
