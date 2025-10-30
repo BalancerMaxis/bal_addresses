@@ -55,6 +55,15 @@
     "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
     "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
   },
+  "treasury_council": {
+    "danko": "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4",
+    "xeonus": "0xaa5af0dd9c52c773d36cdbc509a0b2a1ded4c196",
+    "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
+    "mendesfabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
+    "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+    "gosuto": "0x11e450c72c2258ec792d5f64a263ecb18e8c0f06",
+    "notsoformal": "0xd17a9f089862351af82fa782435fac0f9e17786c"
+  },
   "dao_backup": {
     "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
     "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
