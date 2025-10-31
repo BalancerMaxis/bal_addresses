@@ -10,6 +10,9 @@
     "maxi_ops": "0x166f54F44F271407f24AA1BE415a730035637325",
     "maxi_team": "0x14EaC885d30a4A3e066bF9736BCfFd0B4A77aad4",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "blabs_ops": "0x02f35dA6A02017154367Bc4d47bb6c7D06C7533B",
     "linearPoolController": "0x75a52c0e32397A3FC0c052E2CeB3479802713Cf4",
@@ -37,6 +40,9 @@
     "blabs_ops": "0xf9D6BdE5c2eef334AC88204CB2eEc07111DCBA97",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
   },
   "arbitrum": {
@@ -47,6 +53,9 @@
     "blabs_ops": "0x56ebA8dcDcEC3161Dd220c4B4131c27aF201F892",
     "maxi_ops": "0x5891b90CE909d4c3540d640d2BdAAF3fD5157EAD",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "kpk_managed": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
@@ -62,6 +71,9 @@
     "emergency": "0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B",
     "blabs_ops": "0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "beets_treasury": "0x2a185c8a3c63d7bfe63ad5d950244ffe9d0a4b60",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
@@ -74,14 +86,20 @@
     "dao": "0x2f237e7643a3bF6Ef265dd6FCBcd26a7Cc38dbAa",
     "emergency": "0x79b131498355daa2cC740936fcb9A7dF76A86223",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
-    "lm": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09"
+    "lm": "0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
   },
   "avalanche": {
     "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
     "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
     "lm": "0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
-    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e"
+    "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
   },
   "gnosis": {
     "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
@@ -91,6 +109,9 @@
     "lm": "0x14969B55a675d13a1700F71A37511bc22D90155a",
     "blabs_ops": "0x955556b002d05c7B31a9394c10897c1DA19eAEab",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "_deprecated": {
@@ -104,6 +125,9 @@
     "emergency": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
     "innovation_fund": "0x284a37B375e69c8cB30a5633Ee55f3584dd26808",
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "maxi_aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4"
   },
@@ -112,11 +136,17 @@
   },
   "mode": {
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "emergency": "0x66C4b8Ba38a7B57495b7D0581f25784E629516c2",
     "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
   },
   "fraxtal": {
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "emergency": "0xC66d0Ba27b8309D27cCa70064dfb40b73DB6de9E",
     "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
   },
@@ -132,10 +162,16 @@
   },
   "hyperevm": {
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "emergency": "0x44613a28347206F5E26C1B8Db7Dc73f450219746"
   },
   "plasma": {
     "maxi_omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "emergency": "0x0d3319A8057A0C8afd87dFEEA252541A76d56Ebf"
   },
   "bnb": {
