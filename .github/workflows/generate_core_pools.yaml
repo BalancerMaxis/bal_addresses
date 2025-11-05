@@ -22,7 +22,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.head_ref }}
+          ref: main
           token: ${{ steps.app-token.outputs.token }}
 
       - name: Install Python
