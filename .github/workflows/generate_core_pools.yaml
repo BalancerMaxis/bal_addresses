@@ -42,8 +42,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ steps.app-token.outputs.token }}
-          commit-message: "Scheduled updates to core pools JSON"
-          title: "Scheduled updates to core pools JSON"
+          commit-message: "Scheduled updates to core pools JSON and whitelist cleanup"
+          title: "Scheduled updates to core pools JSON and whitelist cleanup"
           branch: "gha-corepools"
           reviewers: "gosuto-inzasheru"
           labels: "Core Pools"
