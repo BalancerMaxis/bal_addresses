@@ -83,6 +83,7 @@
   },
   "layerzero": {
     "AuraBalProxyOFT": "0xdF9080B6BfE4630a97A0655C0016E0e9B43a7C68",
+    "BALProxy": "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
     "OmniVotingEscrow": "0xe241c6e48ca045c7f631600a0f1403b2bfea05ad"
   },
   "across": {

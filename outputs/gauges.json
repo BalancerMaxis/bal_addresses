@@ -114,7 +114,6 @@
     "20WETH-80WNCG-gauge-47c5": "0x47c56a900295df5224ec5e6751dc31eb900321d5",
     "ECLP-WETH-USDT-dyn-gauge-48da": "0x48dabb17918c2eb360f5f05f44baad6c37c27bf5",
     "50BAO-50baoUSD-STABLE-gauge-497f": "0x497f222b01242f93a64ebf61c3fdfbe863628d1c",
-    "xRPL-RPL-gauge-49cf": "0x49cfd5afd2a05a1894a2ae50036a42dd8eba9a3b",
     "LP-GBPT-USDC-gauge-4a3d": "0x4a3d252d121c627f2450f06412ca5c5a62e662f2",
     "ECLP-GHO-GYD-gauge-4a74": "0x4a7475d32ccd29edd65b2a1712b091aa741ba9bb",
     "pufETH-gtWETHe-gauge-4a99": "0x4a991107a6e31121efd5f3e1b3fde27f639731c1",
@@ -157,7 +156,6 @@
     "50OHM-50WETH-gauge-5f2c": "0x5f2c3422a675860f0e019ddd78c6fa681be84bd4",
     "B-50WETH-50YFI-gauge-5f4d": "0x5f4d57fd9ca75625e4b7520c71c02948a48595d0",
     "wstETH-bb-a-WETH-BPT-gauge-5f83": "0x5f838591a5a8048f0e4c4c7fcca8fd9a25bf0590",
-    "DOLA-bb-e-USD-BPT-gauge-5fbe": "0x5fbeaa96c9d8d0e839780433aa0b3b4d35b049d8",
     "Surge slpUSD-aUSDC-gauge-5fd7": "0x5fd7c7883c3acd8b77f5de743168107c209fd33d",
     "B-50SNX-50WETH-gauge-605e": "0x605ea53472a496c3d483869fe8f355c12e861e19",
     "hETH/wstETH-gauge-60ad": "0x60adb6a1d73b16f47ea3ccba94f79cc95d2ba73b",
@@ -347,7 +345,6 @@
     "80ROOT-20WETH-gauge-d639": "0xd639e7fae7a8d0233d416bfd5da2ae4f917d2e77",
     "bb-euler-FRAX-bb-euler-USDC-BPT-gauge-d659": "0xd65979f15cfb52e9a6a4f8dea34c69c1568ea4a8",
     "cbETH-wstETH-BPT-gauge-d66a": "0xd66abad5516f668d8ea6157666b74862546e6e80",
-    "eBTCR-gauge-d6dd": "0xd6dd2fb970145c55b0332212756cbb9eb8f5718f",
     "B-50REN-50WETH-gauge-d6e4": "0xd6e4d70bda78fba018c2429e1b84153b9284298e",
     "TUSD-bbausd-gauge-d801": "0xd8016c48d24b3f15daf0dcfdd4b4642dd15cd0b2",
     "50OHM-50LUSD-gauge-d819": "0xd8191a3496a1520c2b5c81d04b26f8556fc62d7b",
@@ -862,7 +859,6 @@
     "ggAVAX-bb-a-WAVAX-BPT-gauge-e98e": "0xe98e468074baa30aaa7747bcd32b77a16ae3d9d8",
     "LP-VCHF-USDC-gauge-eb96": "0xeb96333b3e0efef18a45d40c6144b78b0dc70981",
     "xUSD-mevUSDC-gauge-ec4f": "0xec4f410cd8e04d52846a20e160d300d76a911fc7",
-    "USDp-mevUSDC-gauge-ecff": "0xecff9ca9a341d591db57953b1d27c4b68d4bca77",
     "sAVAX-WAVAX-BPT-gauge-f9ae": "0xf9ae6d2d56f02304f72dcc61694ead0dc8db51f7"
   },
   "base": {
