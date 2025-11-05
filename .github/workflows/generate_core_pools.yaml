@@ -45,6 +45,7 @@ jobs:
           commit-message: "Scheduled updates to core pools JSON and whitelist cleanup"
           title: "Scheduled updates to core pools JSON and whitelist cleanup"
           branch: "gha-corepools"
+          base: "main"
           reviewers: "gosuto-inzasheru"
           labels: "Core Pools"
 
