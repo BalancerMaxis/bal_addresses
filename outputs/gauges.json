@@ -542,6 +542,7 @@
   "arbitrum": {
     "rETH-bb-a-WETH-BPT-gauge-006e": "0x006e24591cda6b16c3a53641c5316b47441d84e5",
     "50tBTC-50WETH-gauge-0114": "0x011417bbed6fc9ceff36c032d431b0efcba7f8b3",
+    "tETH-waArbwstETH-gauge-01ee": "0x01eeb0584d9e373d0cf0d22c9bf663f6d2d81b1b",
     "osETH-WETH-gauge-046a": "0x046a1a415b5fe0bcdb2758d8fd261cb09e8b6f10",
     "80PRF-20WETH-gauge-04d3": "0x04d32f27ee3ff5efbcb855a1c2ee04a6191f23bf",
     "50DFX-50WETH-gauge-04fc": "0x04fc019017ed3f921d5ec11fff84b870744ba0d1",
