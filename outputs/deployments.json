@@ -195,6 +195,9 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x1780e8185199DAc45284039Bb3E3B64060D943AB"
+      },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xDADa7bE438bdD89416F4802B679E320b15c92D49"
       }
@@ -382,6 +385,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x30fF095E22Dda9751b5E1a67928611dcB6308D7E"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x9d2917E41B705BF58BD28E5422230883bbE3f521"
@@ -576,6 +582,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad"
@@ -942,6 +951,9 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF"
+      },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x2b432B08679d17f8A4DB785544C406BC0f47F290"
       }
@@ -1057,6 +1069,9 @@
       "20250828-v3-hyperevm-rate-provider": {
         "HyperEVMRateProviderFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "MockHyperEVMRateProvider": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
@@ -1318,6 +1333,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0xcb3FE6cC529101AF5880a05429729f967501c9E7"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d"
@@ -1601,6 +1619,9 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
+      },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x355bD33F0033066BB3DE396a6d069be57353AD95"
       }
@@ -1709,6 +1730,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
@@ -2055,6 +2079,9 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3"
+      },
+      "20250919-v3-pool-pause-helper-v2": {
+        "PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4"
