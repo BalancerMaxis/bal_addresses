@@ -71,6 +71,7 @@
   "0x4F99ccB28e78886BEb4d08880e6555896ad7FDd8": "multisigs/balancer_labs",
   "0x4d1a7352311CA9f63AB8bEA96CA873796C72EBDf": "20250120-v3-gyro-2clp/MockGyro2CLPPool",
   "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emeritus/solarcurve_signer",
+  "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8": "20250919-v3-pool-pause-helper-v2/PoolPauseHelper",
   "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb": "EOA/emeritus/tritium_deployer",
   "0x5419e785b83Ad3539D3a8741C0ABb77D90d8784E": "20230411-managed-pool-v2/RecoveryModeHelper",
   "0x577e5993B9Cc480F07F98B5Ebd055604bd9071C4": "20220325-gauge-controller/GaugeController",
