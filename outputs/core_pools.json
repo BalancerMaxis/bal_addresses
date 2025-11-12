@@ -30,6 +30,7 @@
   },
   "gnosis": {
     "0x6e6bb18449fcf15b79efa2cfa70acf7593088029": "waWstETH-waWETH",
+    "0x8dd4df4ce580b9644437f3375e54f1ab0980822800020000000000000000009c": "ECLP-wstETH-WETH",
     "0xaa56989be5e6267fc579919576948db3e1f108070002000000000000000000ca": "ECLP-sDAI-USDC.e-rh"
   },
   "zkevm": {},
@@ -43,7 +44,6 @@
     "0x9ab907fb3e098103ca048ad26e501bf7b3dfa3eb": "Surge Aave EURC-GHO",
     "0xb5bfb5adb736ea852bd58fec71db3b356c2a3938": "Aave wstETH-ezETH",
     "0xb7b8b3afc010169779c5c2385ec0eb0477fe3347": "Balancer rETH-Aave wETH",
-    "0xe3a85e913f967406823cde9c390ae7bad9496367": "ExtraFi-exUSDC-exUSR",
     "0x007bb7a4bfc214df06474e39142288e99540f2b3000200000000000000000191": "20WETH-80IMO"
   },
   "mode": {},
