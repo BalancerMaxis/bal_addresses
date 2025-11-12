@@ -150,6 +150,7 @@
   "20250806-v3-token-pair-registry/TokenPairRegistry": "0xcBDe7AFEF330B0d70F220450758694f556792F35",
   "20250813-v3-constant-price-feed/ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3",
   "20250919-pool-swap-fee-helper/PoolSwapFeeHelper": "0x11824a16f3230b99acBd9174E91c6E5E021DA884",
+  "20250919-v3-pool-pause-helper-v2/PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8",
   "20250919-v3-pool-swap-fee-helper-v2/PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",

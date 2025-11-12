@@ -32,9 +32,7 @@
   "optimism": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-optimism/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-optimism/version/latest",
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": {
