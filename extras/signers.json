@@ -64,6 +64,10 @@
     "gosuto": "0x11e450c72c2258ec792d5f64a263ecb18e8c0f06",
     "notsoformal": "0xd17a9f089862351af82fa782435fac0f9e17786c"
   },
+  "biz_dev": {
+    "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
+    "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+  },
   "dao_backup": {
     "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
     "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
