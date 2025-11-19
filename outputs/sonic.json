@@ -1,6 +1,8 @@
 {
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
+  "EOA/biz_dev/marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+  "EOA/biz_dev/simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
   "EOA/blabs_deployers/juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
   "EOA/blabs_ops/EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
   "EOA/blabs_ops/Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
@@ -103,6 +105,7 @@
   "rate_providers/safe/Euler_Vault_eWS-5_Rateprovider/0x90a804D316A06E00755444D56b9eF52e5C4F4D73": "0xad597fce59dbbd13bcd5bcc1a6fd654acfa92eff",
   "rate_providers/safe/GreenhouseUSDCRateProvider.md/0xf6bC16B79c469b94Cdd25F3e2334DD4FEE47A581": "0x672551cef9f032f29970aeba94e2dd7a962c1083",
   "rate_providers/safe/LiquidStakedRezerve.moneyRateProvider.md/0x67A298e5B65dB2b4616E05C3b455E017275f53cB": "0xf26d3b7f58bedd8539810c4a27be801db3b2c7ec",
+  "rate_providers/safe/MainStreetYieldRateProvider.md/0x618383942cabb00aa3a13101b825a703dc082752": "0xa1f465d848df55571b62c06de57b9642eae42485",
   "rate_providers/safe/MithrasRateProvider.md/0x391b3F70E254d582588B27e97E48D1CFcdf0BE7e": "0xa05abb80943457c1a81329f828d21730c89885e6",
   "rate_providers/safe/Re7scUSDRateProvider.md/0x592D1e187729C76EfacC6dfFB9355bd7BF47B2a7": "0x95008afd2bd9730df545f74885bb816b3a07625a",
   "rate_providers/safe/RsETHWrapperRateProvider.md/0x7c050be1dded733bd44116b60a8a35125ba47459": "0x5c08Bbc2C47447854958060725e437E6Dd003332",
