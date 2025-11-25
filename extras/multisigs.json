@@ -25,6 +25,7 @@
       "lido": "0x87D93d9B2C672bf9c9642d853a8682546a5012B5"
     },
     "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4",
+    "quant_amm_fees": "0xd785201fd2D9be7602F6682296Bb415530C027Ef",
     "_deprecated": {
       "lido_partner_lm": "0xeD2Bc4e72Ed7D61FA4812a6B0E3d16F8Ad8369a1",
       "maxi_ops": "0x166f54F44F271407f24AA1BE415a730035637325",
