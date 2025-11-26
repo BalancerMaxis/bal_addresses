@@ -217,6 +217,7 @@
   "0xE5e1C6768f0CFd69468B3a45B6e29AC3406C5272": "pools/50USDC-50DAI-e5e1",
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/emeritus/zendragon_payee",
   "0xE7dC705EE3e98cDAbC9d1A9CAe25aF992e0ed778": "pools/50stMATIC-50USDC-e7dc",
+  "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a": "EOA/keepers/tenderly_actions_signer",
   "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853": "EOA/maxi_deployers/single_use/injector_v2_deployer",
   "0xEF454a7B3f965D3f6723E462405246f8Cd865425": "20230526-gauge-working-balance-helper/GaugeWorkingBalanceHelper",
   "0xEdEa3E93b914E2654F8c7e0C2bb5E6205f9742b0": "gauges/ECLP-wETH-rETH-gauge-edea",

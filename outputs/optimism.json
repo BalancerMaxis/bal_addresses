@@ -217,6 +217,7 @@
   "EOA/keepers/github_actions_poker": "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f",
   "EOA/keepers/old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
   "EOA/keepers/oz_relayer_v2": "0xfb7d0D001BC8D0bC998071C762BfF53EE31b725F",
+  "EOA/keepers/tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a",
   "EOA/keepers/v3_fee_bot": "0x74E283B985EA76c55C8B48d6bD1067a418188424",
   "EOA/kyc/Arbitrum/kycsigner1_retired": "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524",
   "EOA/kyc/Arbitrum/kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
