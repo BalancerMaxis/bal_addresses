@@ -73,6 +73,7 @@
   "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096": "EOA/emeritus/hyferion_payee",
   "0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2": "EOA/contributors-payees/json",
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/emeritus/zendragon_payee",
+  "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a": "EOA/keepers/tenderly_actions_signer",
   "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853": "EOA/maxi_deployers/single_use/injector_v2_deployer",
   "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8": "EOA/emergency/mikeb",
   "0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e": "tokens/BEETS",

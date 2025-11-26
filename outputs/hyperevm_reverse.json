@@ -157,6 +157,7 @@
   "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7": "20241205-v3-weighted-pool/WeightedPoolFactory",
   "0xE72d68199ab29D9E189b86704c4122D11f190007": "pools/PURR-WHYPE-e72d",
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/emeritus/zendragon_payee",
+  "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a": "EOA/keepers/tenderly_actions_signer",
   "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E": "20250530-v3-balancer-fee-burner/BalancerFeeBurner",
   "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853": "EOA/maxi_deployers/single_use/injector_v2_deployer",
   "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8": "EOA/emergency/mikeb",

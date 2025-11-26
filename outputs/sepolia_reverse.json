@@ -186,6 +186,7 @@
   "0xE47e1b8640e18F77BEC160D2Bb2481F65e580730": "20250418-v3-wrapped-bpt/WrappedBalancerPoolTokenFactory",
   "0xE4EfD99f3C03778ba913Eb578C599329634e2bd7": "20230410-aave-linear-pool-v5/MockAaveLinearPool",
   "0xE743449D33F2F330A46dbC050565239F5dF8805A": "EOA/emeritus/zendragon_payee",
+  "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a": "EOA/keepers/tenderly_actions_signer",
   "0xE92cF5185384f53B2af74A2eBA62ba3A9C0ED65B": "20250701-v3-liquidity-bootstrapping-pool-v2/LBPoolFactory",
   "0xEB15EBBF9C1a4D7D243d57dE447Df0b97C40c324": "20241205-v3-vault-explorer/VaultExplorer",
   "0xEC9578e79d412537095501584284B092D2F6b9F7": "20250212-v3-mev-capture-hook/MevCaptureHook",
