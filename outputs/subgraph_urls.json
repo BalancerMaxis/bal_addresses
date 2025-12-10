@@ -2,13 +2,11 @@
   "mainnet": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3/version/latest",
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-mainnet/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-mainnet/api"
     }
   },
   "polygon": {
@@ -16,7 +14,7 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-polygon/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/polygon-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-polygon/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-polygon/api"
     }
   },
   "arbitrum": {
@@ -26,7 +24,7 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-arbitrum/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-arbitrum/api"
     }
   },
   "optimism": {
@@ -36,19 +34,17 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-optimism/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-optimism/api"
     }
   },
   "gnosis": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-gnosis/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-gnosis/version/latest",
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-gnosis-chain/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/gnosis-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-gnosis/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-gnosis/api"
     }
   },
   "zkevm": {
@@ -56,7 +52,7 @@
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-polygon-zk/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-zkevm/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-zkevm/api"
     }
   },
   "goerli": {
@@ -77,7 +73,7 @@
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-avalanche/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/avalanche-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-avalanche/api"
     }
   },
   "fantom": {
@@ -88,13 +84,11 @@
   "base": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-base/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-base/version/latest",
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
     "aura": {
-      "400": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-base/api"
+      "404": "https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-base/api"
     }
   },
   "mode": {
