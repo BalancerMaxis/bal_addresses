@@ -41,7 +41,7 @@ jobs:
 
       - name: pull-request
         id: create-pr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.app-token.outputs.token }}
           commit-message: "Scheduled updates to EZKL pools JSON"
