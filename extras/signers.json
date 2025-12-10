@@ -14,7 +14,7 @@
     "Nico": "0x815d654E930E840D0E0Ee1B18FFc8Fb4ddA4c6B3",
     "Fernando": "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb",
     "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
-    "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
+    "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
   },
   "maxi_deployers": {
     "mikeb": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
@@ -22,6 +22,7 @@
     "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
     "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
     "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+    "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
     "single_use": {
       "injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853"
     }
@@ -67,6 +68,7 @@
   "biz_dev": {
     "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
     "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+    "simon_vest_beneficiary": "0xfeffd47b42bd7936fcf256e162eedba99bd96556"
   },
   "dao_backup": {
     "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
