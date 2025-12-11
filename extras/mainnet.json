@@ -77,6 +77,7 @@
     "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
     "vlaura_relocker_module": "0xfD20C63554A9916816dC5e5Df596A0333185F263",
     "vlaura_relocker_module_v2": "0xF7A15f01FcDAaf6681a11AB851AEBA7dED3DD90d",
+    "vlaura_relocker_module_v3": "0x658497e625175815a1ff3262CdBd60eE25C2087C",
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
     "otc_escrow_bal_cow": "0xdBe554ee86FEb0b1c0ac4743503D46cbDF0e8B54",
     "rebalancerForPool": "0x3FBbB48ad78051982688a5a2Bc45eB6E2046a136"
