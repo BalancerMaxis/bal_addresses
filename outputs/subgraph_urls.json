@@ -2,7 +2,9 @@
   "mainnet": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3/version/latest",
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": {
@@ -84,7 +86,9 @@
   "base": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-base/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-base/version/latest",
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
     "aura": {
@@ -105,7 +109,9 @@
     "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/latest/gn",
     "gauges": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-gauges-fraxtal/latest/gn",
     "blocks": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/fraxtal-blocks/1.0.0/gn",
-    "aura": "https://graph.data.aura.finance/subgraphs/name/aura-finance-fraxtal"
+    "aura": {
+      "404": "https://graph.data.aura.finance/subgraphs/name/aura-finance-fraxtal"
+    }
   },
   "plasma": {
     "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-plasma/latest/gn",
