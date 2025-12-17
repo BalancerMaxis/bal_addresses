@@ -369,6 +369,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -413,7 +414,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -1987,6 +1989,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -2031,7 +2034,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -2556,6 +2560,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -2600,7 +2605,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -3624,6 +3630,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -3668,7 +3675,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -3877,6 +3885,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -3921,7 +3930,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -4293,6 +4303,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -4337,7 +4348,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -4864,6 +4876,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -4908,7 +4921,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -5605,6 +5619,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -5649,7 +5664,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -7155,6 +7171,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -7199,7 +7216,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -7572,6 +7590,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -7616,7 +7635,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -8133,6 +8153,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -8177,7 +8198,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -8480,6 +8502,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -8524,7 +8547,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -10482,6 +10506,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -10526,7 +10551,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -10697,6 +10723,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -10741,7 +10768,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
@@ -10963,6 +10991,7 @@
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
           "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
           "single_use": {
             "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
           }
@@ -11007,7 +11036,8 @@
         },
         "biz_dev": {
           "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
-          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
+          "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
+          "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
           "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
