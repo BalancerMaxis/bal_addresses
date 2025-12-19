@@ -11,7 +11,6 @@
     "0x6c5972311191097d002e804a9bf97c96c54059ed": "Surge USDf-aGHO",
     "0x85b2b559bc2d21104c4defdd6efca8a20343361d": "Aave GHO/USDT/USDC",
     "0x9ed5175aecb6653c1bdaa19793c16fd74fbeeb37": "Surge tETH-Lido wstETH",
-    "0xae255db04ba78519f33871c557d8fd6bafdb83bd": "xUSD-vgUSDC",
     "0xc4ce391d82d164c166df9c8336ddf84206b2f812": "Aave Lido wETH-wstETH",
     "0xdaba3d8ccf79ef289a7e2dbce51871b39ea445a2": "80TREE-20AavePrimeWETH",
     "0xe2332649955c7c98389480ab46dd4cb6755ac703": "75SDEX25AaveLidoETH",
@@ -45,7 +44,6 @@
     "0x9ab907fb3e098103ca048ad26e501bf7b3dfa3eb": "Surge Aave EURC-GHO",
     "0xb5bfb5adb736ea852bd58fec71db3b356c2a3938": "Aave wstETH-ezETH",
     "0xb7b8b3afc010169779c5c2385ec0eb0477fe3347": "Balancer rETH-Aave wETH",
-    "0xe3a85e913f967406823cde9c390ae7bad9496367": "ExtraFi-exUSDC-exUSR",
     "0x007bb7a4bfc214df06474e39142288e99540f2b3000200000000000000000191": "20WETH-80IMO"
   },
   "mode": {},
