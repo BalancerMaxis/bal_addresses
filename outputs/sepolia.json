@@ -152,6 +152,8 @@
   "20250919-pool-swap-fee-helper/PoolSwapFeeHelper": "0x11824a16f3230b99acBd9174E91c6E5E021DA884",
   "20250919-v3-pool-pause-helper-v2/PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8",
   "20250919-v3-pool-swap-fee-helper-v2/PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4",
+  "20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory": "0x57Ef4cB125d1c690dF98118281090b7CdC7b9F85",
+  "20251205-v3-fixed-price-lbp/MockFixedPriceLBPool": "0xc5b83A1c411ba7553f526e09dC5a833cf7194f3c",
   "20251219-v3-liquidity-bootstrapping-pool-v3/LBPMigrationRouter": "0x8B8c22B8578A86ead5BcE7294ADFcba767329eb3",
   "20251219-v3-liquidity-bootstrapping-pool-v3/LBPoolFactory": "0x7fed0fd2843232973eE2F61120e9D9C5eB78Cb16",
   "20251219-v3-liquidity-bootstrapping-pool-v3/MockLBPool": "0x1f7821096bF1630119f58bfE1676384D159Ac166",
