@@ -1,6 +1,5 @@
 {
   "mainnet": {
-    "0x071828acc755314e687448703775f22194f56867": "Surge siUSD-sUSDe",
     "0x114907c2a07978c38ebb9f9f6a5261a846b79521": "aUSDC-USP",
     "0x1ea5870f7c037930ce1d5d8d9317c670e89e13e3": "rETH-waEthWETH",
     "0x2b261c98a81cfda61bee7bfcf941a3d336be7957": "Surge slpETH-gtWETHe",
@@ -36,7 +35,6 @@
   },
   "zkevm": {},
   "avalanche": {
-    "0x832f8e068e92d56b94205ea605e5cdaa7cded1f0": "tAVAX-waAvaSAVAX",
     "0xfcec3c8d86329defb548202fe1b86ff2188603a8": "Aave GHO/USDT/USDC"
   },
   "base": {
