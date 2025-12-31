@@ -50,6 +50,8 @@
   "20250813-v3-constant-price-feed/ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
   "20250919-v3-pool-pause-helper-v2/PoolPauseHelper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9",
   "20250919-v3-pool-swap-fee-helper-v2/PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f",
+  "20251205-v3-fixed-price-lbp/FixedPriceLBPoolFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
+  "20251205-v3-fixed-price-lbp/MockFixedPriceLBPool": "0xB0C8aaC0fb6e508fcB1E4E51f1323053bad0BE5B",
   "20251219-v3-liquidity-bootstrapping-pool-v3/LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
   "20251219-v3-liquidity-bootstrapping-pool-v3/LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
   "20251219-v3-liquidity-bootstrapping-pool-v3/MockLBPool": "0x5841260f6C89e32f1070532B9C176b6257ba9997",

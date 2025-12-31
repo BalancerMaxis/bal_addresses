@@ -177,6 +177,10 @@
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xDADa7bE438bdD89416F4802B679E320b15c92D49"
       },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0x7f246E7Bab4CdC8C7AB41EaDA8290009a5b26E0D",
+        "MockFixedPriceLBPool": "0x6e9758D6d5110bB97e0e15bA9fc2A8590C7C23bb"
+      },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
         "LBPoolFactory": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
@@ -526,6 +530,10 @@
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad"
       },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockFixedPriceLBPool": "0xe53F02f690BA30c1652f9bE7B92370aC7bb2F533"
+      },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
         "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
@@ -842,6 +850,10 @@
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x2b432B08679d17f8A4DB785544C406BC0f47F290"
       },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0xD9E91f7aD501929b089992842a3f193795E6479e",
+        "MockFixedPriceLBPool": "0x977D798353a377a21CdF3CEbD82d05C382823647"
+      },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xcb3FE6cC529101AF5880a05429729f967501c9E7",
         "LBPoolFactory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
@@ -957,6 +969,10 @@
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
+      },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0xAE563E3f8219521950555F5962419C8919758Ea2",
+        "MockFixedPriceLBPool": "0x1E1F8B9Ff0A12E4fa3d7d7BcC9C30948bCCCBf38"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
@@ -1202,6 +1218,10 @@
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d"
+      },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0xeb1AA94421aEcFB1dc17dDB1068E4609c4bE8758",
+        "MockFixedPriceLBPool": "0x179C68302A24E4E59667b3DF7fb70C1c5DcEc5d3"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0",
@@ -1561,6 +1581,10 @@
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
       },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
+        "MockFixedPriceLBPool": "0xB0C8aaC0fb6e508fcB1E4E51f1323053bad0BE5B"
+      },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
         "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
@@ -1873,6 +1897,10 @@
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4"
+      },
+      "20251205-v3-fixed-price-lbp": {
+        "FixedPriceLBPoolFactory": "0x57Ef4cB125d1c690dF98118281090b7CdC7b9F85",
+        "MockFixedPriceLBPool": "0xc5b83A1c411ba7553f526e09dC5a833cf7194f3c"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x8B8c22B8578A86ead5BcE7294ADFcba767329eb3",
