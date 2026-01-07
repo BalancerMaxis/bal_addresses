@@ -408,7 +408,6 @@
   "0xd0C13867BeA969398370B2A2B9124e3b2E48743C": "rate_providers/safe/ConstantRateProvider/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
   "0xd109E874E2fC4708205227a96e9CE4E6dA2fE75E": "pools/80XAV-20WAVAX-d109",
   "0xd17a9f089862351af82fA782435faC0f9e17786c": "EOA/treasury_council/notsoformal",
-  "0xd1977F63d0de684754A987336A3686911Bfba8ea": "pools/XSGD-USDC-d197",
   "0xd22eecBB495380Ef52b1CCeF1cA594979885D484": "20250813-v3-constant-price-feed/ConstantPriceFeed",
   "0xd6CF1ADC6bF14634435b66dEB2900B9441fb3739": "gauges/Aave wAVAX/BTC.b-gauge-d6cf",
   "0xd6Fd021662B83bb1aAbC2006583A62Ad2Efb8d4A": "rate_providers/safe/AnkrETHRateProvider/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
