@@ -2,8 +2,6 @@
   "mainnet": {
     "0x114907c2a07978c38ebb9f9f6a5261a846b79521": "aUSDC-USP",
     "0x1ea5870f7c037930ce1d5d8d9317c670e89e13e3": "rETH-waEthWETH",
-    "0x2b261c98a81cfda61bee7bfcf941a3d336be7957": "Surge slpETH-gtWETHe",
-    "0x2f0508c56cfc35499f79f818dfc34113fe7f6d50": "Surge slpUSD-aUSDC",
     "0x36be1e97ea98ab43b4debf92742517266f5731a3000200000000000000000466": "50wstETH-50ACX",
     "0x57c23c58b1d8c3292c15becf07c62c5c52457a42": "osETH-waWETH",
     "0x6b31a94029fd7840d780191b6d63fa0d269bd883": "Surge Fluid wstETH-wETH",
@@ -19,6 +17,7 @@
   },
   "polygon": {},
   "arbitrum": {
+    "0x10f9e54aeea2fefa124238087dcfd919ba32f14d": "Surge eBTC-Aave WBTC",
     "0x19b001e6bc2d89154c18e2216eec5c8c6047b6d8": "Aave GHO/USDT/USDC",
     "0x483bc7fe92fc392305dd97d4d3363e0e0a7f144d": "eeUSDC-yUSND",
     "0x5418a64e0cdb20548acb394f5d00a089baf02161": "Balancer rETH-Aave wETH",
@@ -50,8 +49,8 @@
   "hyperevm": {},
   "optimism": {
     "0x49e75c0df48ad09a0e20e8bbded07ee60dd8bc03": "ss-sfrxETH-rETH-wstETH",
-    "0x870c0af8a1af0b58b4b0bd31ce4fe72864ae45be": "Balancer rETH-Aave wETH",
-    "0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5": "ECLP-wstETH-WETH"
+    "0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5": "ECLP-wstETH-WETH",
+    "0x870c0af8a1af0b58b4b0bd31ce4fe72864ae45be": "Balancer rETH-Aave wETH"
   },
   "plasma": {}
 }
