@@ -14,7 +14,8 @@
     "LINK": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2"
   },
   "helpers": {
-    "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
+    "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
+    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
   },
   "mimic": {
     "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
