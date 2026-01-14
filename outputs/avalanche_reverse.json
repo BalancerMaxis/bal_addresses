@@ -228,6 +228,7 @@
   "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4": "EOA/emeritus/tritium-ops_signer",
   "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17": "EOA/emergency/zendragon",
   "0x7c6e42aAC7494a62EB7B8691e2e2501B6Aef7aa0": "pools/ETF01-7c6e",
+  "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620": "helpers/hypernative_v3_pause_module",
   "0x7f00a3Cd4590009C349192510D51F8e6312E08CB": "chainlink/keeper_registry_v2_1",
   "0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE": "EOA/karpatkey/balancer_eoa",
   "0x812958ddA053219842E0499D05934be1B2FE02AA": "pools/pawsp-8129",
