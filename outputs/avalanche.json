@@ -257,6 +257,7 @@
   "gauges/yyAVAX-WAVAX-BPT-gauge-7201": "0x720158c329E6558287c4539b0Ed21742B0B73436",
   "gauges/yyAVAX-bb-a-WAVAX-BPT-gauge-c8aa": "0xC8aAe478aCdE1d5676c3Fc6614cd25183c207F1a",
   "helpers/hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
+  "helpers/hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620",
   "maxiKeepers/gaugeRewardsInjectors/_deprecated/ankr": "0x10087761Ebd0Da939d2123A0B18D69F11f5Ea67f",
   "maxiKeepers/gaugeRewardsInjectors/_deprecated/ggp": "0x39C441560e83e02452e4B4789934aC031A85c1d5",
   "maxiKeepers/gaugeRewardsInjectors/_deprecated/qi": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",

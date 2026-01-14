@@ -153,6 +153,7 @@
   "EOA/treasury_council/notsoformal": "0xd17a9f089862351af82fA782435faC0f9e17786c",
   "EOA/treasury_council/solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
   "EOA/treasury_council/xeonus": "0xAA5AF0Dd9c52C773D36cDBC509A0b2a1deD4C196",
+  "helpers/hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620",
   "multisigs/balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
   "multisigs/balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
   "multisigs/emergency": "0x44613a28347206F5E26C1B8Db7Dc73f450219746",
