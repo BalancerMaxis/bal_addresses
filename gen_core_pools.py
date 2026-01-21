@@ -67,7 +67,7 @@ def main():
 
     # dump the collected dict to json file
     with open("outputs/core_pools.json", "w") as f:
-        json.dump(core_pools_all_chains, f, indent=2)
+        json.dump(core_pools_all_chains, f, indent=2, sort_keys=True)
         f.write("\n")
 
     # remove orphaned whitelist entries
