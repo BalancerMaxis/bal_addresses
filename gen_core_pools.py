@@ -24,7 +24,9 @@ def remove_orphaned_whitelist_entries():
         # Get vebal voting list for this chain
         try:
             pool_gauge = BalPoolsGauges(chain=chain, use_cached_core_pools=False)
-            vebal_pool_ids = {pool["id"].lower() for pool in pool_gauge.vebal_voting_list}
+            vebal_pool_ids = {
+                pool["id"].lower() for pool in pool_gauge.vebal_voting_list
+            }
 
             # Separate orphaned entries from valid ones
             chain_orphans = {}
