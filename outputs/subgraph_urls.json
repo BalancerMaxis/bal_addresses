@@ -2,14 +2,16 @@
   "mainnet": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3/version/latest",
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/ethereum-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-mainnet/v0.0.1/"
   },
   "polygon": {
     "core": "https://api.studio.thegraph.com/query/75376/balancer-polygon-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-polygon/version/latest",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-polygon/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/polygon-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-polygon/v0.0.1/"
   },
@@ -17,7 +19,7 @@
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-arbitrum/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-arbitrum/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-arbitrum-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-arbitrum/version/latest",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-arbitrum/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/arbitrum-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-arbitrum/v0.0.1/"
   },
@@ -25,7 +27,7 @@
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-optimism/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-optimism/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-optimism-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-optimism/version/latest",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-optimism/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/optimism-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-optimism/v0.0.1/"
   },
@@ -33,7 +35,7 @@
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-gnosis/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-gnosis/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-gnosis-chain-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-gnosis-chain/version/latest",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-gnosis/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/gnosis-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-gnosis/v0.0.3/"
   },
@@ -58,7 +60,7 @@
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-avalanche/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-avalanche/version/latest",
     "core": "https://api.studio.thegraph.com/query/75376/balancer-avalanche-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-avalanche/version/latest",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-avalanche/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/avalanche-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-avalanche/v0.0.1/"
   },
@@ -70,13 +72,17 @@
   "base": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-base/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-base/version/latest",
-    "core": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest",
-    "gauges": "https://api.studio.thegraph.com/query/24660/balancer-gauges-base/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/24660/balancer-base-v2/version/latest"
+    },
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-base/latest/gn",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-base-blocks/version/latest",
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-base/v0.0.1/"
   },
   "mode": {
-    "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
+    "core": {
+      "429": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest"
+    },
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
@@ -84,7 +90,10 @@
     "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-hyperevm/latest/gn",
     "pools-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-pools-v3-hyperevm/latest/gn"
   },
-  "sonic": {},
+  "sonic": {
+    "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-smol-sonic/latest/gn",
+    "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-sonic/latest/gn"
+  },
   "fraxtal": {
     "core": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-fraxtal-v2/latest/gn",
     "gauges": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/balancer-gauges-fraxtal/latest/gn",
