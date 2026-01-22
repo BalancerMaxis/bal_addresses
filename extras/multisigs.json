@@ -176,6 +176,12 @@
     "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
     "emergency": "0x0d3319A8057A0C8afd87dFEEA252541A76d56Ebf"
   },
+  "monad": {
+    "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+    "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+    "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+    "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
+  },
   "bnb": {
     "_deprecated": {
       "dao": "0x58099b94e660bBe19848547F6c5d76DcA7282E45"
