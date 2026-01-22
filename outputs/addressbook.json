@@ -288,11 +288,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
+        "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
+        "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x1780e8185199DAc45284039Bb3E3B64060D943AB"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xDADa7bE438bdD89416F4802B679E320b15c92D49"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xea692068Ccf15B9560F9A694162b3f0a0FB8A687"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xbF94192c652183c0f50056417f4D04810329f12c"
@@ -1909,11 +1920,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106",
+        "MockWeightedLPOracle": "0x67e5Cd2dE1725a1bbaEF38926ed339719Ff63E8a"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockStableLPOracle": "0x9a7921977ca7232395229Ef2a9EDD53DEc59F365"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x30fF095E22Dda9751b5E1a67928611dcB6308D7E"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x9d2917E41B705BF58BD28E5422230883bbE3f521"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xCF7608f0136DB42FDEC021f755BD66406F29158c"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981"
@@ -2459,11 +2481,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
+        "MockWeightedLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
+        "MockStableLPOracle": "0x8Cdf4abc48b62B0a380beC87e432d01372F82D72"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xBcA68cb9B794A4fb84855e003e4cF591F80A3Dc9"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x7fA49Df302a98223d98D115fc4FCD275576f6faA"
@@ -2730,7 +2763,6 @@
         "80EURC-20Gazelle and Lion-2136": "0x2136D5BC227A28000fD76d92C20f5d8808045Da6",
         "50BALD-50USDC-2172": "0x217298BC2096Ad22d9f560B39f745063C7c59a0c",
         "46WETH-54DAI-2217": "0x22172812Cf9d7Ce925370806b60721bba15bA743",
-        "BCoW-50cbDOGE-50sUSDS-2223": "0x22235eC0f5824CB3EBe450f615DCb51f290BB240",
         "USD-A-2235": "0x22350b46440F5Cd96ff2F81214d83BBa3daB4D8d",
         "60WETH-40USDbC-22df": "0x22dFd49958FF8a2B60d3006360A41963d403024a",
         "JESSE-THEREVOLUTION-2305": "0x230553Fa41bdDCbb49d76647B12486b76A257fFb",
@@ -2951,7 +2983,6 @@
         "52WETH-48USDC-632a": "0x632aEDfDc21979A75Df6fd77783c33676Bcfca71",
         "50WETH-50rETH-6497": "0x6497A40B3b0cd3FA352E8BA78ca6C03750c74689",
         "BCoW-50Base is for everyone-50doginme-64b3": "0x64b35C0e2cCdB55510CEa20E01fD799eB0e7a077",
-        "BCoW-50LINK-50sUSDS-64d1": "0x64d123486f54CA431167f4186D26a6e5709F2ABc",
         "WETH-NEMASIS-64e8": "0x64E8Ed8dBf99538f68C0957C2Cf9d96CEFbEF4Fb",
         "60waBasWETH-40LIONZ-64f2": "0x64F25a1128fd71d27a91e486047C2D4aC114aD3C",
         "50BALD-50axlUSDC-64f5": "0x64F583669434b26b47F36cEcBbC7Eca88C40940d",
@@ -3010,6 +3041,7 @@
         "50WETH-50USDbC-7838": "0x78380eFF80f1381b29702c0f87dA10bD7d7cEC97",
         "50waBasWETH-50waBasEURC-784f": "0x784f35548DE2213efEa17Aa486824C3F5502E087",
         "Five-Base-Cats-7851": "0x7851d6559859e88Cf2D1cBFCFe920B978aAeEe41",
+        "50-USDT-50-USDC-7882": "0x78823bCb3b2B75bb346Ad4524C2F13CEd203925a",
         "WETH-CIGAR-7895": "0x7895ec974577f18A38d021Ba679290Ef135ca2fc",
         "ensurance pool 1.12-7926": "0x792680b15C58f8Fb6c104F0234beeE518CE2F89a",
         "53WETH-47USDC-792b": "0x792B8F8F2028739143C696406c05EBdA87dadB5a",
@@ -3057,7 +3089,6 @@
         "50DAI-50axlUSDC-8af3": "0x8af3B96Cb6a949c5cE809eAEDfFC65ae5D9D0e6B",
         "ensurance pool 1.15-8b50": "0x8b50ce16Ab979290A3c6839fb0fF2A7eb297dDdB",
         "1WETH-99USDbC-8b7b": "0x8b7BAA97593AF52A6C81FBb1539EA920804380d8",
-        "BCoW-50ODOS-50sUSDS-8b88": "0x8B88E73C57cD9f6e521694C3cA1DDE330789551f",
         "50DAI-50USDbC-8bed": "0x8bED8839F2F1eA612EFc084eD483f7653a2921C4",
         "47WETH-53DAI-8bf5": "0x8bf504c617E31A08904B643F88fD8f3e78564833",
         "rETH-WETH-BPT-8c20": "0x8c2062eC8D477366C749982E3703371a7aE1E665",
@@ -3372,7 +3403,6 @@
         "50SkiBonk-50BID-f4f5": "0xf4f5d76311ff205ef2D38B9a2b2e39549125cf79",
         "50WETH-50USDbC-f534": "0xf5344128bfA9109947F62362b8b3276e00759C92",
         "aTYX-f5e4": "0xf5e4Ae4159C528a473F3964312b874F135D7727f",
-        "BCoW-50AERO-50sUSDS-f636": "0xf6360D17C49eF379745476A7F42f196951b1E9Fc",
         "Wide Test USDC sUSDS-f6ab": "0xF6ABf5B1FD85Ab6ffe7966e5abcCF338BD2A030C",
         "44WETH-56USDC-f785": "0xF785446Da64E53883c1AeA173cf0e5F308a41257",
         "80XYZ/20WETH-f80c": "0xF80c528eCf45Efefff5E4bc6D9F11ed1f6e5f09d",
@@ -4165,11 +4195,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
+        "MockWeightedLPOracle": "0x7347C39625908c5205606daB026443bBc743aF2F"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xbF94192c652183c0f50056417f4D04810329f12c",
+        "MockStableLPOracle": "0xA126a712ef1feCA88317EE37dfd8008E6ba18854"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x2b432B08679d17f8A4DB785544C406BC0f47F290"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0x6EAff7b851a065920DB71d17B10572d4617872c3"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xeFb3878E07DfA9BD7ED56f2F4Ec82C32E51a9575"
@@ -4549,7 +4590,6 @@
         "crvUSD/sDAI-c9f0": "0xc9F00C3a713008DDf69b768d90d4978549bFDF94",
         "40WBTC-10WETH-50USDT-ca13": "0xca13F615035965Ca6E9103a620B4Ce0157324F71",
         "50bTSLA-50sDAI-cb3a": "0xCb3adCf147Da57C4e129c5bD34Ab0429501454E5",
-        "50GYD-50waGnoWETH-cd7d": "0xcD7dEAead88049292532Df8df338b63B5F06C3B8",
         "51WETH-49WXDAI-cdb3": "0xcDb3863FAe60fe9feE4d62820E9002f924644332",
         "50agEUR-50USDC-ce52": "0xCe527b9f739c4bECdd05B416FFa70470A7Eec565",
         "\"HGDGL_LP\"-cebf": "0xCebFCCc8FaC11b95F0b1EB2be01B69E9477cBE34",
@@ -4754,6 +4794,14 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
+        "MockWeightedLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockStableLPOracle": "0x65d092A81f95139Fd274Fed91A7b0481fee05c66"
+      },
       "20250828-v3-hyperevm-rate-provider": {
         "HyperEVMRateProviderFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "MockHyperEVMRateProvider": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA"
@@ -4763,6 +4811,9 @@
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
@@ -5465,11 +5516,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
+        "MockWeightedLPOracle": "0xcC8d5475e7a3C65E29Af30e5f89F14F5722E7cDa"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
+        "MockStableLPOracle": "0x74a1B9Fe5b1151A80E4dE22F79cf73ef358D2086"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xcb3FE6cC529101AF5880a05429729f967501c9E7"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0x5A962CDc2786875cA5c40aDc09D874e4D6711a74"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xfA80c17EE7E382c9C541bFa4bea0514E46DCCba5"
@@ -5876,6 +5938,7 @@
         "B-50WETH-50USDT-3e5f": "0x3e5FA9518eA95c3E533EB377C001702A9AaCAA32",
         "TrustlessMaxi-3e6c": "0x3e6c8f40D38d0b41c94862e6d4083c65Ce0Ce566",
         "B-50BAL-50WETH-3ebf": "0x3ebf48cd7586d7A4521cE59E53D9a907EBf1480F",
+        "80-wstUSR-20-PAXG-3ed0": "0x3ed06DB1d7C7bD147d905898d3BC00f3eA209f07",
         "truskawki-weth-curve-3f2b": "0x3f2bFffa5b65A292034D09680DE2feA56Bb85962",
         "50QUA-50USDT-3f72": "0x3f725ED5791b72554E9BEDf461eb76fC72dB8834",
         "50STG 50bb-e-USD-3f7a": "0x3f7a7fd7F214bE45EC26820Fd01aC3bE4fC75aa7",
@@ -5901,6 +5964,7 @@
         "wstETH-rETH-sfrxETH-BPT-42ed": "0x42ED016F826165C2e5976fe5bC3df540C5aD0Af7",
         "50COIL-50USDC-42fb": "0x42FBD9F666AaCC0026ca1B88C94259519e03dd67",
         "BCoW-50ARB-50ETH-4359": "0x4359a8Ea4c353d93245c0B6b8608A28Bb48A05e2",
+        "24-USDT-76-JPYR-438f": "0x438f38C5dFc4180de43F8f29D65B2DE7a0705DE4",
         "WETHOBS-4403": "0x4403a2721A9A9956584dc19F553720CEf0Df35b0",
         "50INV-50DOLA-441b": "0x441b8a1980f2F2E43A9397099d15CC2Fe6D36250",
         "25xFT-V2T1-25xFT-V2T2-25xFT-V2T3-25WETH-4445": "0x4445899c226bCb451aC8E2c42070510859557fb6",
@@ -6437,7 +6501,6 @@
         "rETH-xrETH-d900": "0xd9005569C381d57506BaefB69f90d1Bb52a023B9",
         "Aave USDC-Aave RLUSD-d993": "0xD99324D16b9a9ECA5a20fECee5d1989558B9d8eD",
         "bb-f-USD-d997": "0xD997f35c9b1281B82C8928039D14CdDaB5e13c20",
-        "80SLR-20WETH-d9fb": "0xD9Fb1aE180Fbf88F28f14a04842bD17BCEb69fEf",
         "eBTC/wBTC-da17": "0xda17f3663C5D04C0B316cfA1A04Aa53eBBC8c12C",
         "80TREE-20AavePrimeWETH-daba": "0xDABA3d8cCF79ef289a7e2dBCe51871B39Ea445a2",
         "B-jAura-wETH-dac7": "0xDac7eF49161bdBf0e8f0B4c8e2D38DF19D972874",
@@ -6483,7 +6546,6 @@
         "20USDC-80FOLD-e4af": "0xe4aF3c338260AAbf119B5023d497437974769413",
         "2BTC-e4e7": "0xe4e72f872c4048925a78E1e6Fddac411C9ae348A",
         "LPeYyvDAI-16OCT21-e54b": "0xE54B3F5c444a801e61BECDCa93e74CdC1C4C1F90",
-        "50-JPYR-50-JPYC-e714": "0xe7141b866A4968e7D19dd84edF6A03dA736D1e52",
         "WSB-MACRO-e7b1": "0xE7B1D394f3b40ABeAa0b64a545Dbcf89da1ecB3f",
         "50SMT-50WETH-e805": "0xe805c864992e6a6cBf46E7E81C7154B78155D0ac",
         "B-60GEL-40DEXG-e807": "0xe8075304A388f2f9B2af61f502741a88Ff21D9A4",
@@ -7235,6 +7297,19 @@
       }
     },
     "monad": {
+      "zero": {
+        "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "tokens": {
+        "WMON": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+        "USDC": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "USDT": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+        "WBTC": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "WETH": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242"
+      },
+      "uniswap": {
+        "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
       "00000000-tokens": {
         "WETH": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A"
       },
@@ -7310,6 +7385,14 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E",
+        "MockStableLPOracle": "0x68056E4234A6Aa4dB6fE66E93703fd90669a8697"
+      },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
       },
@@ -7325,7 +7408,12 @@
         "StableSurgePoolFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
         "MockStablePool": "0x23b7B5F9416de66dc6c299a771544306F9BB6a2f"
       },
-      "multisigs": {},
+      "multisigs": {
+        "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+        "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+        "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
+      },
       "EOA": {
         "maxis": {
           "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
@@ -7675,11 +7763,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockWeightedLPOracle": "0xFC7E6CF15559A5308f8447ca0419E7f676fDFb7D"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockStableLPOracle": "0x6CF34A49C2554D5578E40802F172DDD3CB1099f8"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x355bD33F0033066BB3DE396a6d069be57353AD95"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xCC267D25576b48f08A90C3605624Ab62a73a7A4E"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x03CBccbe8d2073A1dC186aE6Bcd95390Fcdff36f"
@@ -8268,11 +8367,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
+        "MockWeightedLPOracle": "0xF375128b5413ff1EEd5AD716b26A40bcdBe083CB"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
+        "MockStableLPOracle": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7"
@@ -10596,11 +10706,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0ca835d92f31c869b5E78c5c579Bd27c6b62adAE",
+        "MockWeightedLPOracle": "0xC11FABd7137121f8a243B31a020c1eC669fcb132"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x6618728737D1438aA96bFD384f02524ecb743640",
+        "MockStableLPOracle": "0xE69f03B55d0e32B30EF4EaE9391f6D19E10E6a1E"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xF41bE1c215E4eDc6aaADd0f4009B3fB5a1b7291A"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x5bd0bDc415489A2B75C3A1F276106193ea8BF589"
@@ -10838,6 +10959,17 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
         "MockReClammPool": "0x09FDF368e2febE461F916Fe311e6d43f3C2A5Ca3"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockStableLPOracle": "0xb376E00b5F12c755A68E75F04F279F7137731978"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"

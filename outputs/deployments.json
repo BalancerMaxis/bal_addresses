@@ -162,11 +162,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
+        "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
+        "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x1780e8185199DAc45284039Bb3E3B64060D943AB"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xDADa7bE438bdD89416F4802B679E320b15c92D49"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xea692068Ccf15B9560F9A694162b3f0a0FB8A687"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xbF94192c652183c0f50056417f4D04810329f12c"
@@ -349,11 +360,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106",
+        "MockWeightedLPOracle": "0x67e5Cd2dE1725a1bbaEF38926ed339719Ff63E8a"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockStableLPOracle": "0x9a7921977ca7232395229Ef2a9EDD53DEc59F365"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x30fF095E22Dda9751b5E1a67928611dcB6308D7E"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x9d2917E41B705BF58BD28E5422230883bbE3f521"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xCF7608f0136DB42FDEC021f755BD66406F29158c"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981"
@@ -527,11 +549,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
+        "MockWeightedLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
+        "MockStableLPOracle": "0x8Cdf4abc48b62B0a380beC87e432d01372F82D72"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xBcA68cb9B794A4fb84855e003e4cF591F80A3Dc9"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x7fA49Df302a98223d98D115fc4FCD275576f6faA"
@@ -853,11 +886,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
+        "MockWeightedLPOracle": "0x7347C39625908c5205606daB026443bBc743aF2F"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xbF94192c652183c0f50056417f4D04810329f12c",
+        "MockStableLPOracle": "0xA126a712ef1feCA88317EE37dfd8008E6ba18854"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x2b432B08679d17f8A4DB785544C406BC0f47F290"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0x6EAff7b851a065920DB71d17B10572d4617872c3"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xeFb3878E07DfA9BD7ED56f2F4Ec82C32E51a9575"
@@ -975,6 +1019,14 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
+        "MockWeightedLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockStableLPOracle": "0x65d092A81f95139Fd274Fed91A7b0481fee05c66"
+      },
       "20250828-v3-hyperevm-rate-provider": {
         "HyperEVMRateProviderFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "MockHyperEVMRateProvider": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA"
@@ -984,6 +1036,9 @@
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xFc2986feAB34713E659da84F3B1FA32c1da95832"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
@@ -1234,11 +1289,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
+        "MockWeightedLPOracle": "0xcC8d5475e7a3C65E29Af30e5f89F14F5722E7cDa"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
+        "MockStableLPOracle": "0x74a1B9Fe5b1151A80E4dE22F79cf73ef358D2086"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xcb3FE6cC529101AF5880a05429729f967501c9E7"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0x5A962CDc2786875cA5c40aDc09D874e4D6711a74"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xfA80c17EE7E382c9C541bFa4bea0514E46DCCba5"
@@ -1407,6 +1473,14 @@
       },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E",
+        "MockStableLPOracle": "0x68056E4234A6Aa4dB6fE66E93703fd90669a8697"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
@@ -1590,11 +1664,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockWeightedLPOracle": "0xFC7E6CF15559A5308f8447ca0419E7f676fDFb7D"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockStableLPOracle": "0x6CF34A49C2554D5578E40802F172DDD3CB1099f8"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0x355bD33F0033066BB3DE396a6d069be57353AD95"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xCC267D25576b48f08A90C3605624Ab62a73a7A4E"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x03CBccbe8d2073A1dC186aE6Bcd95390Fcdff36f"
@@ -1711,11 +1796,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
+        "MockWeightedLPOracle": "0xF375128b5413ff1EEd5AD716b26A40bcdBe083CB"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
+        "MockStableLPOracle": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7"
@@ -2034,11 +2130,22 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3"
       },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0ca835d92f31c869b5E78c5c579Bd27c6b62adAE",
+        "MockWeightedLPOracle": "0xC11FABd7137121f8a243B31a020c1eC669fcb132"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x6618728737D1438aA96bFD384f02524ecb743640",
+        "MockStableLPOracle": "0xE69f03B55d0e32B30EF4EaE9391f6D19E10E6a1E"
+      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8"
       },
       "20250919-v3-pool-swap-fee-helper-v2": {
         "PoolSwapFeeHelper": "0xA65b0BC17EA5B5dD4C5252df95b20390766405A4"
+      },
+      "20250919-v3-protocol-fee-helper-v2": {
+        "ProtocolFeeHelper": "0xF41bE1c215E4eDc6aaADd0f4009B3fB5a1b7291A"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x5bd0bDc415489A2B75C3A1F276106193ea8BF589"
@@ -2137,6 +2244,17 @@
       "20250702-v3-reclamm-pool-v2": {
         "ReClammPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
         "MockReClammPool": "0x09FDF368e2febE461F916Fe311e6d43f3C2A5Ca3"
+      },
+      "20250813-v3-constant-price-feed": {
+        "ConstantPriceFeed": "0x311334883921Fb1b813826E585dF1C2be4358615"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockStableLPOracle": "0xb376E00b5F12c755A68E75F04F279F7137731978"
       },
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E"
