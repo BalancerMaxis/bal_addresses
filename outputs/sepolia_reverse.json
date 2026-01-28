@@ -110,6 +110,7 @@
   "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493": "EOA/maxi_deployers/xeonus",
   "0x7373C5b9610d43466395617c428eCAA5b47ac5AA": "20241205-v3-stable-pool/MockStablePool",
   "0x737760C760FfEc370F84861E4Be4AFF7093Ffa3f": "EOA/keepers/github_actions_poker",
+  "0x7465FE62D848a2647d003Ca14652785f06182B89": "20260122-claim-signature-registry/ClaimSignatureRegistry",
   "0x74E283B985EA76c55C8B48d6bD1067a418188424": "EOA/keepers/v3_fee_bot",
   "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C": "20241205-v3-weighted-pool/WeightedPoolFactory",
   "0x781589d386e62ba7eB5D8382eE4DC86d8C64f882": "20250404-v3-stable-surge-pool-factory-v2/MockStablePool",

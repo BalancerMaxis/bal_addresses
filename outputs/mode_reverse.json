@@ -15,6 +15,7 @@
   "0x16453789feD619c7FA18c068dEC1Cb2766bA2E3e": "pools/ezETH/wETH-1645",
   "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941": "multisigs/balancer_onchain_ltd",
   "0x170027069fd114BFF2f57B0FC796df93290C02a6": "EOA/blabs_ops/EmergencyPauser",
+  "0x1702067424096F07A60e62cceE3dE9420068492D": "20260122-claim-signature-registry/ClaimSignatureRegistry",
   "0x183E3691EfF3524B2315D3703D94F922CbE51F54": "tokens/LINK",
   "0x197868C915E50cD7eB34EB2F56009E0BF9aa09EB": "20211202-no-protocol-fee-lbp/MockLiquidityBootstrappingPool",
   "0x1C3351Af33EC6FC079DC105bBA60C93FDe323DDe": "EOA/contributors-payees/raq",
