@@ -81,6 +81,7 @@
   "0x89c7D6ABA9Cd18D8A93571E583EEAc58Da75acE6": "EOA/emergency/franz",
   "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9": "20210418-vault/BalancerHelpers",
   "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba": "EOA/external-payees/discord-antiscam-bot",
+  "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52": "20260122-claim-signature-registry/ClaimSignatureRegistry",
   "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D": "EOA/treasury_council/mendesfabio",
   "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673": "EOA/blabs_deployers/juani",
   "0x91f4Df13350083eDb30515019cF527C6b0490c54": "EOA/blabs_ops/Mike",
