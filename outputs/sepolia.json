@@ -169,6 +169,7 @@
   "20260116-v3-stable-pool-v3/StablePoolFactory": "0x472FAE37a8A05474fDe0CcfF6d239719f8881fF5",
   "20260117-v3-stable-surge-pool-factory-v3/MockStablePool": "0xbf9aD6b14F6598218bb91dF5F673F3910Fe1E78a",
   "20260117-v3-stable-surge-pool-factory-v3/StableSurgePoolFactory": "0x8573CAF1EC065c5956006d2b34117D2DBa326955",
+  "20260122-claim-signature-registry/ClaimSignatureRegistry": "0x7465FE62D848a2647d003Ca14652785f06182B89",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
   "EOA/beethoven/netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718",
   "EOA/biz_dev/marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
