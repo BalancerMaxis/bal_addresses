@@ -1,5 +1,7 @@
 {
-  "zero": { "zero": "0x0000000000000000000000000000000000000000" },
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
   "balancer": {
     "EventEmitter": "0xcdcECFa416EE3022030E707dC3EA13a8997D74c8"
   },
@@ -9,7 +11,17 @@
     "WETH": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     "BAL": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
     "LINK": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
-    "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+    "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+    "stMATIC": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+    "TruMATIC": "0xf33687811f3ad0cd6b48dd4b39f9f977bd7165a2",
+    "MaticX": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6"
+  },
+  "angle": {
+    "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
+    "WMATIC_claim_wrapper": "0x467665d4ae90e7a99c9c9af785791058426d6ea0",
+    "stMATIC_claim_wrapper": "0xec2c6184761ab7fe061130b4a7e3da89c72f8395",
+    "TruMATIC_claim_wrapper": "0x138d9e0d0cc4906c4cd865b38c9340a5cedd9850",
+    "MaticX_claim_wrapper": "0xb0334c5287bfb15a8c9464898cdb0248ed176332"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
