@@ -1,5 +1,7 @@
 {
-  "zero": { "zero": "0x0000000000000000000000000000000000000000" },
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
   "balancer": {
     "EventEmitter": "0xcdcECFa416EE3022030E707dC3EA13a8997D74c8"
   },
@@ -14,7 +16,7 @@
     "TruMATIC": "0xf33687811f3ad0cd6b48dd4b39f9f977bd7165a2",
     "MaticX": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6"
   },
-  "merkl": {
+  "angle": {
     "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
     "WMATIC_claim_wrapper": "0x467665d4ae90e7a99c9c9af785791058426d6ea0",
     "stMATIC_claim_wrapper": "0xec2c6184761ab7fe061130b4a7e3da89c72f8395",

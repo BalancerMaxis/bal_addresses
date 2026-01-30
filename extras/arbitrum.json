@@ -32,7 +32,7 @@
     "sUSDX": "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92",
     "ankrETH": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3"
   },
-  "merkl": {
+  "angle": {
     "PullTokenWrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
     "WETH_claim_wrapper": "0xb0334c5287bfb15a8c9464898cdb0248ed176332",
     "wstETH_claim_wrapper": "0x8942c1e1e0d48e14efba4cc48d2e3584116e367f",
@@ -78,7 +78,6 @@
         "arb_origin_injector": "0xdcDAFd9E4cc10Ec5dCf1411eE2EdBc4E204aE9Bf",
         "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D",
         "usdc_rewards_injector": "0xabC414cEE2F6E8Ee262d6dc106c86A3f627f84D2"
-
       }
     },
     "injectorV2": {
