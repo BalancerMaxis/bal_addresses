@@ -16,7 +16,8 @@
     "sonic": 146,
     "fraxtal": 252,
     "plasma": 9745,
-    "monad": 143
+    "monad": 143,
+    "xlayer": 196
   },
   "SCANNERS_BY_CHAIN": {
     "mainnet": "https://etherscan.io",
@@ -34,7 +35,8 @@
     "hyperevm": "https://hyperevmscan.io/",
     "fraxtal": "https://fraxscan.com/",
     "plasma": "https://plasmascan.to/",
-    "monad": "https://monadscan.com/"
+    "monad": "https://monadscan.com/",
+    "xlayer": "https://www.oklink.com/x-layer"
   },
   "SCANNER_API_BY_CHAIN": {
     "mainnet": "https://api.etherscan.io/api",
@@ -76,6 +78,7 @@
     "hyperevm",
     "optimism",
     "avalanche",
-    "plasma"
+    "plasma",
+    "xlayer"
   ]
 }
