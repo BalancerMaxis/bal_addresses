@@ -20,7 +20,31 @@
     "LINK": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
     "auraBAL": "0x223738a747383d6F9f827d95964e4d8E8AC754cE",
     "GHO": "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33",
-    "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
+    "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+    "wstETH": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "weETH": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+    "rETH": "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
+    "ezETH": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "rsETH": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "sfrxETH": "0x95aB45875cFFdba1E5f451B950bC2E42c0053f39",
+    "ETHx": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
+    "USDX": "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef",
+    "sUSDX": "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92",
+    "ankrETH": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3"
+  },
+  "angle": {
+    "PullTokenWrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
+    "WETH_claim_wrapper": "0xb0334c5287bfb15a8c9464898cdb0248ed176332",
+    "wstETH_claim_wrapper": "0x8942c1e1e0d48e14efba4cc48d2e3584116e367f",
+    "weETH_claim_wrapper": "0x4e185b1502fea7a06b63fdda6de38f92c9528566",
+    "rETH_claim_wrapper": "0x84394fa6a39bdff63b255622da362b113c690267",
+    "ezETH_claim_wrapper": "0x470c9034f50afe6633f7e84a80b9961baa893d77",
+    "rsETH_claim_wrapper": "0x4da51947fe2e4d59a137a78ced3b740f5e230f92",
+    "sfrxETH_claim_wrapper": "0xc63ff8af78414f90069af3558d939127625abe78",
+    "ETHx_claim_wrapper": "0x69b7afb870c31302de15371a2ee79aee444cc014",
+    "USDX_claim_wrapper": "0xad9e52ed75f71bdf67ddce3e417b805f042e54e3",
+    "sUSDX_claim_wrapper": "0xe995168d9924d72a4fe45af18edc06b498cb8dbb",
+    "ankrETH_claim_wrapper": "0x67763bc722abe1f041ddc3ed6e445f4ab476ff9e"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
@@ -54,7 +78,6 @@
         "arb_origin_injector": "0xdcDAFd9E4cc10Ec5dCf1411eE2EdBc4E204aE9Bf",
         "fox_rewards_injector": "0xc085bD4cEd17015eAe366a6d1Cd095a2F6fD0B6D",
         "usdc_rewards_injector": "0xabC414cEE2F6E8Ee262d6dc106c86A3f627f84D2"
-
       }
     },
     "injectorV2": {

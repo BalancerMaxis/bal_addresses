@@ -6,7 +6,10 @@
     "EventEmitter": "0x082990116f256E078572a1b69772115d2cF6b0a2"
   },
   "tokens": {
-    "OP": "0x4200000000000000000000000000000000000042"
+    "OP": "0x4200000000000000000000000000000000000042",
+    "WETH": "0x4200000000000000000000000000000000000006",
+    "rETH": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+    "wstETH": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
@@ -30,7 +33,11 @@
     "aura_briber": "0x679c5C5828367db9005FdEa80faA45AE7B881791"
   },
   "angle": {
-    "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+    "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+    "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
+    "WETH_claim_wrapper": "0x467665d4ae90e7a99c9c9af785791058426d6ea0",
+    "rETH_claim_wrapper": "0xec2c6184761ab7fe061130b4a7e3da89c72f8395",
+    "wstETH_claim_wrapper": "0x138d9e0d0cc4906c4cd865b38c9340a5cedd9850"
   },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"

@@ -1,5 +1,7 @@
 {
-  "zero": { "zero": "0x0000000000000000000000000000000000000000" },
+  "zero": {
+    "zero": "0x0000000000000000000000000000000000000000"
+  },
   "balancer": {
     "veBALDeploymentCoordinator": "0xeb151668006CD04DAdD098AFd0a82e78F77076c3",
     "EventEmitter": "0x1ACfEEA57d2ac674d7E65964f155AB9348A6C290"
@@ -71,7 +73,10 @@
     "aEthPYUSD": "0x0C0d01AbF3e6aDfcA0989eBbA9d6e85dD58EaB1E",
     "stkMTA": "0x8f2326316eC696F6d023E37A9931c2b2C177a3D7",
     "aEthRLUSD": "0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0",
-    "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
+    "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895",
+    "weETH": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "osETH": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+    "Stafi_rETH": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593"
   },
   "helpers": {
     "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
@@ -271,7 +276,14 @@
   },
   "angle": {
     "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
-    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+    "PullTokenWrapper": "0x979a04fd2f3A6a2B3945A715e24b974323E93567",
+    "WETH_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332",
+    "weETH_claim_wrapper": "0x8942c1e1e0d48e14efba4cc48d2e3584116e367f",
+    "rETH_claim_wrapper": "0x4e185b1502fea7a06b63fdda6de38f92c9528566",
+    "osETH_claim_wrapper": "0x84394fa6a39bdff63b255622da362b113c690267",
+    "wstETH_claim_wrapper": "0x470c9034f50afe6633f7e84a80b9961baa893d77",
+    "Stafi_rETH_claim_wrapper": "0x4da51947fe2e4d59a137a78ced3b740f5e230f92"
   },
   "sparkdotfi": {
     "usds_psm_wrapper": "0xd0A61F2963622e992e6534bde4D52fd0a89F39E0"
