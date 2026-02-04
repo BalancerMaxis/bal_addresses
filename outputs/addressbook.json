@@ -22,7 +22,31 @@
         "LINK": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
         "auraBAL": "0x223738a747383d6F9f827d95964e4d8E8AC754cE",
         "GHO": "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33",
-        "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
+        "LDO": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
+        "wstETH": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "weETH": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+        "rETH": "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
+        "ezETH": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "rsETH": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+        "sfrxETH": "0x95aB45875cFFdba1E5f451B950bC2E42c0053f39",
+        "ETHx": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
+        "USDX": "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef",
+        "sUSDX": "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92",
+        "ankrETH": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3"
+      },
+      "angle": {
+        "PullTokenWrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
+        "WETH_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332",
+        "wstETH_claim_wrapper": "0x8942C1e1e0D48E14EFBa4cc48d2E3584116e367f",
+        "weETH_claim_wrapper": "0x4E185b1502Fea7a06B63fDdA6de38F92C9528566",
+        "rETH_claim_wrapper": "0x84394FA6A39bDFF63B255622dA362B113C690267",
+        "ezETH_claim_wrapper": "0x470C9034F50afe6633f7e84A80B9961baa893d77",
+        "rsETH_claim_wrapper": "0x4da51947FE2E4D59A137a78ced3B740F5E230f92",
+        "sfrxETH_claim_wrapper": "0xc63FF8aF78414F90069aF3558D939127625ABE78",
+        "ETHx_claim_wrapper": "0x69B7afB870C31302De15371a2EE79AEE444cc014",
+        "USDX_claim_wrapper": "0xAd9e52ed75f71BDF67ddcE3E417b805F042e54E3",
+        "sUSDX_claim_wrapper": "0xE995168d9924D72A4FE45AF18Edc06b498CB8dBb",
+        "ankrETH_claim_wrapper": "0x67763bc722ABE1f041ddC3eD6e445F4ab476ff9E"
       },
       "helpers": {
         "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
@@ -236,16 +260,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x65A22Ec32c37835Ad5E77Eb6f7452Ac59E113a9F",
-        "MockGyro2CLPPool": "0xCa3372c28438D0905C96A01d834F5c14a34EE295"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xC1A64500E035D9159C8826E982dFb802003227f0"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x88ED12A90142fDBFe2a28f7d5b48927254C7e760",
-        "MockGyroECLPPool": "0x875BED625E44D1cd03e512beBae085A440106529"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
@@ -288,14 +304,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
-        "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
-        "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x1780e8185199DAc45284039Bb3E3B64060D943AB"
       },
@@ -311,6 +319,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0x7f246E7Bab4CdC8C7AB41EaDA8290009a5b26E0D",
         "MockFixedPriceLBPool": "0x6e9758D6d5110bB97e0e15bA9fc2A8590C7C23bb"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x56c8D8f7F926e0Fb04a2cF05F18b44b2C5864AEB"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
@@ -328,6 +339,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
         "MockStablePool": "0x52BA6e6b21434F0a6e4A8027d20f85592edfc1b1"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF",
+        "MockGyro2CLPPool": "0x51EA9a8EE84479929C29D2d9c46E289b4F9B2FAA"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0xe31715e75207acC8bfadd96902FF522058928479",
+        "MockGyroECLPPool": "0x5658CE330A9e93B0861F7e222edeb17c9F558acf"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -763,7 +782,6 @@
         "50GMX-50USDC-429c": "0x429C7b5173aE85B4Cc72777524d40055a78C1028",
         "20WBTC-20WETH-10ARB-50USDC-42a0": "0x42A09765f354B64Fd8479015d2931DC89D9CB925",
         "osETH/wETH-42f7": "0x42f7Cfc38DD1583fFdA2E4f047F4F6FA06CEFc7c",
-        "WETH-SETH-430d": "0x430DB591bA4A548F8C76e081A792D7035bdd7060",
         "20WETH-80MYC-4325": "0x432502A764ABEC914f940916652ce55885323cDA",
         "ECLP-WETH-GYD-4383": "0x43837Db3216980957B5Af229E28DD532C6Cda520",
         "PMM - WETH/USDCv2-43b8": "0x43b825D307c4231eB52eA8d8AB0de9556d2fc169",
@@ -788,7 +806,6 @@
         "eeUSDC-yUSND-483b": "0x483bC7Fe92FC392305DD97d4d3363E0e0A7f144D",
         "33PLS-33MAGIC-33GMX-4858": "0x4858f5723D95A544777e3a39efC3f3765569f40E",
         "50wstETH-50WETH-489a": "0x489a7A4d566991714308CA626Ca6Bb3F3F37D71C",
-        "VTED-VTEU-48b5": "0x48b550830080698FD990B6513997d0Ab035B227B",
         "50DPX-50VSTA-48bd": "0x48BD6549173683D50bC9A302c18d3ee98B32bff5",
         "50USDT-50USDC-48c8": "0x48C88a072f6A069DAA757d9474b7C6312348Fed6",
         "50VSTA-50USDC-4968": "0x4968E0c0fF8f6e7f300487F92c6dD5f7A38e80c8",
@@ -814,6 +831,7 @@
         "50BAL-50wstETH-4dc3": "0x4dC35eC8562596ddA6aEe8EceE59a76D4d72b83E",
         "WETH-USDC-4dd0": "0x4dD0b9AaC8698709517C36ca177874CD4b749b4a",
         "50USDT-50USDC-4dea": "0x4DeA52330cb3af1813edb8e911dA4B148ee65aa7",
+        "USDC-USD\u20ae0-4e0c": "0x4E0C950a6eb76C41D76067A9a145144de4f69f0A",
         "50VSTA-50USDC-4e13": "0x4E138506BB89962F6b7DDF3D99d1230b9809B4ad",
         "50wstETH-50WETH-4e26": "0x4e26228D3a3BDc13bf643E87DdaaBBc9164C53B1",
         "50VST-50DPX-4e4f": "0x4e4f9Cc2fCc4D989E000A4261f61FEedF8c5B28B",
@@ -991,7 +1009,6 @@
         "50VSTA-50USDC-7d1c": "0x7d1c8906cb5362cc49d32F3A244af816b71ac2a8",
         "RDNT-WETH-7d89": "0x7d890e2c7eECa435298880c083061A60DCa8A897",
         "50WETH-50USDC-7def": "0x7DEf78fDEb9694846360682D9D825F859d97b432",
-        "50SETH-50WETH-7e75": "0x7E7504865577f6c898C2829899Ea80b6DDC57efa",
         "20WETH-80ARB-7ef8": "0x7Ef80D6C6B62e194AB3465F10d97F4c48E623025",
         "CHEESE-7f24": "0x7F244b47C63E9Ca33A58E6550bfd1D3dC806Ce55",
         "50wstETH-50WETH-7f98": "0x7F989B38B9de3305FB74f47952bCeD3Aa95d4620",
@@ -1867,16 +1884,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
-        "MockGyro2CLPPool": "0x9E20Af4c055e368CA3618d50bcB132027BED3372"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x0C8f71D19f87c0bD1b9baD2484EcC3388D5DbB98"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
-        "MockGyroECLPPool": "0xDac98631B5bee0E86dc3727DaD767e9bD251c729"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
@@ -1919,14 +1928,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106",
-        "MockWeightedLPOracle": "0x67e5Cd2dE1725a1bbaEF38926ed339719Ff63E8a"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
-        "MockStableLPOracle": "0x9a7921977ca7232395229Ef2a9EDD53DEc59F365"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x30fF095E22Dda9751b5E1a67928611dcB6308D7E"
       },
@@ -1939,6 +1940,9 @@
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981"
       },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0xf94bb6911dAF3734759105c26e0E79790281bfFC"
+      },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0xBDbADc891BB95DEE80eBC491699228EF0f7D6fF1",
         "MockWeightedPool": "0xB9FBBdf09A2c7a5568F68c3F9db6E2bee5D550bd"
@@ -1950,6 +1954,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818",
         "MockStablePool": "0x9893534936CF9188feeE16047898e3b14FC23726"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x312600bc7645E47a4926dc658827398AF070D431",
+        "MockGyro2CLPPool": "0xc9F9BD235BBbf7E2df0f9F6f1f873eCC24b1d0BA"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c",
+        "MockGyroECLPPool": "0x4A0c4bF665591Ce77Dc75f2608647eE7275543ba"
       },
       "multisigs": {
         "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
@@ -2150,7 +2162,6 @@
         "upAUSD-savUSD-sdeUSD-695a": "0x695A7F28c3628187c8264d2CDF7a617036BA8406",
         "80NGL-20USDC-6a17": "0x6a177d0253e4B62fcc250BbEa993a130A7BC979d",
         "6BTC.b-94USDC-6b40": "0x6b401Dc1909B9608E4Fc81fD51D285aD7A6C57DE",
-        "USDC-xUSD-6cbd": "0x6cbd0f778Fd0490Bd2b931275d8dbb4085CeeaF1",
         "WAVAX-USDC-70fd": "0x70fDE68016cDb3a4E8194a2275c7aC6F715c2046",
         "33VCHF-33sAVAX-33VEUR-721b": "0x721bd1900AeAbc29009b08E44be37529f518F2c2",
         "ECLP-GYD-USDC-rh-7557": "0x7557090a2088Ea3F2CaA7327270DC4bd3F296431",
@@ -2282,7 +2293,10 @@
         "USDbC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
         "aBasWETH": "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7",
         "aBasGHO": "0x067ae75628177FD257c2B1e500993e1a0baBcBd1",
-        "aBasUSDC": "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB"
+        "aBasUSDC": "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB",
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "weETH": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+        "rETH": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c"
       },
       "helpers": {
         "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
@@ -2320,7 +2334,11 @@
       },
       "angle": {
         "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
-        "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+        "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+        "PullTokenWrapper": "0x828B0566a7068164a625BC616c7B0149F29cB918",
+        "WETH_claim_wrapper": "0xe859ee83a3c8c5Af058dc2F3533aC577b19706f2",
+        "weETH_claim_wrapper": "0x16814B50A7962592b8fC4080cDaf0008a8Fd5620",
+        "rETH_claim_wrapper": "0x64e8e5fe82625e3B8Ab7D9d00918736D6b8634b8"
       },
       "stake_dao": {
         "votemarket_v2": "0xDD2FaD5606cD8ec0c3b93Eb4F9849572b598F4c7"
@@ -2428,16 +2446,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x81cFAE226343B24BA12EC6521Db2C79E7aeeb310"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0xf5CDdF6feD9C589f1Be04899F48f9738531daD59",
-        "MockGyro2CLPPool": "0x1E919A507c9381119a4E9CF43795b100fc8c988b"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x5F6848976C2914403B425F18B589A65772F082E3",
-        "MockGyroECLPPool": "0x2196Ddb2b51F706857A2934eE79D9FBB463C5372"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
@@ -2480,14 +2490,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
-        "MockWeightedLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
-        "MockStableLPOracle": "0x8Cdf4abc48b62B0a380beC87e432d01372F82D72"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xAE563E3f8219521950555F5962419C8919758Ea2"
       },
@@ -2503,6 +2505,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
         "MockFixedPriceLBPool": "0xe53F02f690BA30c1652f9bE7B92370aC7bb2F533"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
@@ -2520,6 +2525,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981",
         "MockStablePool": "0xBe49c07a938BaD3e84e0dD6c8B6702CF6F4585e3"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x312600bc7645E47a4926dc658827398AF070D431",
+        "MockGyro2CLPPool": "0xFFde1F9d936b1b0974eF5fD54e60627773349E97"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c",
+        "MockGyroECLPPool": "0xe5b7AC176B7516806BD8bB4240C479f5FF215D47"
       },
       "multisigs": {
         "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
@@ -2901,7 +2914,6 @@
         "20USDbC-80Min-45c1": "0x45C106a1a61e04cCea1785a02543b1bE9906a940",
         "ECLP-cbBTC-WETH-capped-461e": "0x461ECA93AB308DA96C5518ddA3e574B91a180d40",
         "100EURC-0USDC-4700": "0x470081219be3Fc69Fb0e9051611e32c5D14b9F2C",
-        "50-USDT-50-USDC-470b": "0x470B573d8a6C60dc455EC306aFf971A42D730970",
         "80waBasUSDC-20waBasWETH-47fe": "0x47fE067Ac20Db514Bc8E9c1113bC6821AC0Ee3b5",
         "IDRX-USDC-48e6": "0x48e6e40e0874Fb4AF507B1137919eE65F4959614",
         "JESSE-TRADERBEWARE-4919": "0x4919C6328d8c29fE6FE5E521B5f0028749e04C35",
@@ -3059,6 +3071,7 @@
         "50USDbC-50axlUSDC-7e59": "0x7e591a85B5F63B7583bc15e28f0F979beed2911c",
         "44WETH-56USDC-7e93": "0x7E9337377E68694C5601a1b38a4d3DaC2489FDf1",
         "50WETH-50USDbC-7fc8": "0x7fC88C8a4900b534BcaA2de461578D5403D4f3DE",
+        "50-USDT-50-USDC-7fe5": "0x7fE5DEA6c8af6af798AAdbF107698B32E93843D8",
         "BCoW-50RUNNER-50SkiBonk-804f": "0x804F58bD12c58a60792a3B5Db106c366C2EE3412",
         "50BAL-50LINU-8061": "0x8061C7b7ef45d47Ce1BcCa1aBB4337EE54Dd9A51",
         "HN EAR 2-806e": "0x806ef4997F900De28Dc8A9334853A44c38480db0",
@@ -3174,6 +3187,7 @@
         "USDX-sUSDX-waBasUSDC-a58d": "0xA58Da6552e172aB5fabcaAAa9668fb30f20FdD06",
         "USDC-WETH-a662": "0xA662Be71Ed7D7Eb6CaA7d5Aaf16eBa18D911798C",
         "50SkiBonk-50cc0company-a711": "0xA711E2CA7807182ed0f20E695223403990DD989b",
+        "50-USDC-50-CLAWD-a80e": "0xa80e50Cc506cD8531C9a2DD14f1e88428586E8CE",
         "80GHST-20waBasUSDC-a842": "0xa842969B38d3287C174b1870D39B1C26D7f20A9E",
         "VIRTUAL-CHICKS-a870": "0xA87000b7b0Aee4b8720D66c2154768EEA132BE45",
         "50WETH-50LINU-a892": "0xa892be6Ee527F4Fb8B3B60486A53C0627CB1d27E",
@@ -3182,6 +3196,7 @@
         "50USDbC-50STG-a8dd": "0xA8dDAb0f23e5be61E6857AF78fcf61d1c0ea0059",
         "50USDC-50USDbC-a92c": "0xa92CFAAA23Ab8cCbb0020399ad3A6a9B35FAd2E1",
         "50LINU-50USDbC-a943": "0xa943b51909943569FF85ccBBc25a4c9FB2d247aa",
+        "50-WETH-50-USDC-a9c2": "0xa9C23dDFc77Fae13855F1794bB5C29c7C666E0e7",
         "50DAI-50USDC-aac1": "0xaaC1a23e7910EFa801c6F1FF94648480AB0325B9",
         "VIRTUALS-ECO-aae5": "0xAAe5D575b730c6cE28af137490F3cfc96797d07f",
         "BONKE-doginme-KEYCAT-aaf4": "0xaAf48e5366E9263eB5C31D7F6BA00319439F0FfE",
@@ -3455,6 +3470,7 @@
         "cbETH/WETH-gauge-1e84": "0x1E8448976bD7D403e32304aEbe8b64c4A1fa7Ee8",
         "cbETH/WETH-gauge-2279": "0x2279abf4bdAb8CF29EAe4036262c62dBA6460306",
         "STG-USDbC-BPT-gauge-22df": "0x22df11c7Bc3cc80470D377010aA49d6Ef16688c6",
+        "50-WETH-50-USDC-gauge-23dd": "0x23dd734a0eBC39bC2b936Ae7260cBF84881c620b",
         "BTF:BMACRO-gauge-23ea": "0x23EA3F5eA00ab8B66B2E5B52Df56ebc4AaB493e8",
         "ECLP-cbBTC-WETH-gauge-2477": "0x247775fC4046A648F01C4E4fdBF000b871501Af2",
         "ECLP-WETH-GYD-gauge-2642": "0x2642aD3420cb6340A8A3e07E9260CcE54c5E87D7",
@@ -4151,16 +4167,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x7fA49Df302a98223d98D115fc4FCD275576f6faA",
-        "MockGyro2CLPPool": "0x69956192944017d04cbEcC29a42c684D675540E7"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B",
-        "MockGyroECLPPool": "0x3459bCF85E86d9415025c1d245f9af799875Ee07"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
@@ -4203,14 +4211,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
-        "MockWeightedLPOracle": "0x7347C39625908c5205606daB026443bBc743aF2F"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0xbF94192c652183c0f50056417f4D04810329f12c",
-        "MockStableLPOracle": "0xA126a712ef1feCA88317EE37dfd8008E6ba18854"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x64b7dfE8a3972639712EFA124D180DC3Ff0f5bcF"
       },
@@ -4226,6 +4226,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xD9E91f7aD501929b089992842a3f193795E6479e",
         "MockFixedPriceLBPool": "0x977D798353a377a21CdF3CEbD82d05C382823647"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xcb3FE6cC529101AF5880a05429729f967501c9E7",
@@ -4243,6 +4246,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x59D55FA503Faea8D95935a561f34153C273255DD",
         "MockStablePool": "0xF647531cD8Ee6b29AeE0555873a1F3Ba58c52314"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x1c58cc548a23956469c7C528Bb3a846c842dfaF9",
+        "MockGyro2CLPPool": "0x097a18ac8f83D6C41FFebfB5E21Cfb4A9B574ce0"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x1C53aF9D683A4424d03f61D70D9f6Bc53aF7Fcc1",
+        "MockGyroECLPPool": "0xa86C8204BA7c8FbDa88205C8fa953B23105719Fe"
       },
       "multisigs": {
         "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
@@ -4741,16 +4752,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c",
-        "MockGyro2CLPPool": "0xB793C034CFC1635C104d28d483af0b1ace553E2d"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xa523f47A933D5020b23629dDf689695AA94612Dc"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
-        "MockGyroECLPPool": "0xfCf895F83DF683d90F131697cC2c7a6843B2c431"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x7Ba29fE8E83dd6097A7298075C4AFfdBda3121cC"
@@ -4803,14 +4806,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
-        "MockWeightedLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
-        "MockStableLPOracle": "0x65d092A81f95139Fd274Fed91A7b0481fee05c66"
-      },
       "20250828-v3-hyperevm-rate-provider": {
         "HyperEVMRateProviderFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "MockHyperEVMRateProvider": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA"
@@ -4831,6 +4826,9 @@
         "FixedPriceLBPoolFactory": "0xAE563E3f8219521950555F5962419C8919758Ea2",
         "MockFixedPriceLBPool": "0x1E1F8B9Ff0A12E4fa3d7d7BcC9C30948bCCCBf38"
       },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818"
+      },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
         "LBPoolFactory": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
@@ -4847,6 +4845,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0xBDbADc891BB95DEE80eBC491699228EF0f7D6fF1",
         "MockStablePool": "0xeb7730A6eEc7159EFe9258AD72e7072a4e5B974f"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x6623d1CEEaB236ae93aCAfB285dDFB77336B6981",
+        "MockGyro2CLPPool": "0x2ed7011Ea27aac48C1ed9778e56342759D640046"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0xf94bb6911dAF3734759105c26e0E79790281bfFC",
+        "MockGyroECLPPool": "0xAA1A1D99F293Ef1aC04618594e0Ab6715baf9d95"
       },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
@@ -5090,7 +5096,10 @@
         "aEthPYUSD": "0x0C0d01AbF3e6aDfcA0989eBbA9d6e85dD58EaB1E",
         "stkMTA": "0x8f2326316eC696F6d023E37A9931c2b2C177a3D7",
         "aEthRLUSD": "0xFa82580c16A31D0c1bC632A36F82e83EfEF3Eec0",
-        "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895"
+        "sdBAL": "0xF24d8651578a55b0C119B9910759a351A3458895",
+        "weETH": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "osETH": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+        "Stafi_rETH": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593"
       },
       "helpers": {
         "balance_checker": "0xe92261c2D64C363109c36a754A87107142e61b72",
@@ -5290,7 +5299,14 @@
       },
       "angle": {
         "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
-        "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+        "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+        "PullTokenWrapper": "0x979a04fd2f3A6a2B3945A715e24b974323E93567",
+        "WETH_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332",
+        "weETH_claim_wrapper": "0x8942C1e1e0D48E14EFBa4cc48d2E3584116e367f",
+        "rETH_claim_wrapper": "0x4E185b1502Fea7a06B63fDdA6de38F92C9528566",
+        "osETH_claim_wrapper": "0x84394FA6A39bDFF63B255622dA362B113C690267",
+        "wstETH_claim_wrapper": "0x470C9034F50afe6633f7e84A80B9961baa893d77",
+        "Stafi_rETH_claim_wrapper": "0x4da51947FE2E4D59A137a78ced3B740F5E230f92"
       },
       "sparkdotfi": {
         "usds_psm_wrapper": "0xd0A61F2963622e992e6534bde4D52fd0a89F39E0"
@@ -5473,16 +5489,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0xa1D0791a41318c775707C56eAe247AF81a05322C"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
-        "MockGyro2CLPPool": "0x4ffECD2dab8703a74BD13Ba10BcE3419B9f5fA80"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0xE9B0a3bc48178D7FE2F5453C8bc1415d73F966d0",
-        "MockGyroECLPPool": "0xe912C791f7c4b6323EfBA294F66C0dE93c50eB5F"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x1bcA39b01F451b0a05D7030e6e6981a73B716b1C"
@@ -5525,14 +5533,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
-        "MockWeightedLPOracle": "0xcC8d5475e7a3C65E29Af30e5f89F14F5722E7cDa"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
-        "MockStableLPOracle": "0x74a1B9Fe5b1151A80E4dE22F79cf73ef358D2086"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xcb3FE6cC529101AF5880a05429729f967501c9E7"
       },
@@ -5548,6 +5548,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xeb1AA94421aEcFB1dc17dDB1068E4609c4bE8758",
         "MockFixedPriceLBPool": "0x179C68302A24E4E59667b3DF7fb70C1c5DcEc5d3"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x90e065b28c9B7464B44f185f5a6b8e4B4c827f2a"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0",
@@ -5565,6 +5568,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x187a05fb9e4234Dd310ae74215743560D1BAA6Ac",
         "MockStablePool": "0x5D06d6E11AE3790CE1c7C3054C3F7eB0789859bc"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x8902F9C211f91c84Da2076f633873F8266dCECC6",
+        "MockGyro2CLPPool": "0xdeba7d498ccf617c06f53ee110c2cfc65cec0ece"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x04d584195a96DFfc7F8B695aA3C9D3c1606b69d1",
+        "MockGyroECLPPool": "0xC27d496A903C4328456f8A2De7457Dcf4803Cc4C"
       },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
@@ -6114,6 +6125,7 @@
         "OG-67f1": "0x67f117350Eab45983374F4f83d275d8A5D62b1bf",
         "LPeYyvCurveLUSD-27DEC21-67f8": "0x67F8FCb9D3c463da05DE1392EfDbB2A87F8599Ea",
         "25CLV-75stETH-6803": "0x6803C821Dac9b61026b3F4aF0FcF46229361D551",
+        "50-USDT-50-DAI-6806": "0x680683239cc283e7AC9500dFBf33D099a7845a8C",
         "33DAI-33USDC-33LEVEN-6845": "0x68454578f7017bA0C0c5bD1091975d7a7F3001c8",
         "50GIV-50FOX-6873": "0x6873789A71b18eFa98a8E8758A5EA456D70c178f",
         "B-wjAura-wETH-68e3": "0x68e3266C9C8bbD44ad9Dca5AFBfe629022AeE9fE",
@@ -6495,6 +6507,7 @@
         "33WBTC-33WETH-33WAMPL-d4e2": "0xd4E2af4507B6B89333441C0c398edfFB40f86f4D",
         "BTF:SH-d4ed": "0xd4Ed17bBF48Af09B87fD7d8C60970f5Da79D4852",
         "OHM-wstETH-d4f7": "0xd4f79CA0Ac83192693bce4699d0c10C66Aa6Cf0F",
+        "99-HAMS-1-FD\u327eC-d55a": "0xD55A2961c839E2E94663EEA4E47081F4F4cBFa8d",
         "ECLP-syrupUSDC-GYD-d563": "0xD563575Dd2Bdd9d9B4630c57627445B8D00d461a",
         "50RBN-50USDC-d590": "0xd590931466cdD6d488A25da1E89dD0539723800c",
         "BAL-20WETH-80POP-d5a4": "0xd5A44704beFD1CfCCa67F7bc498a7654cC092959",
@@ -6550,6 +6563,7 @@
         "50stETH-50SNX-e313": "0xe3132B8923aE75c66C9C07032FC56Fd4Bb1e4eCB",
         "50BADGER-50rETH-e340": "0xe340EBfcAA544da8bB1Ee9005F1a346D50Ec422e",
         "WETH-PHANDS-e36b": "0xe36b198C43dDBec2d25C4f0A0bC5B80330551009",
+        "USAT-USDT-USDC-e388": "0xe388F1c31662a25b2C771Fa7620682338F9Eb667",
         "InstETH/wstETH-e3e0": "0xE3E0022d25194431a98e8bf5034D2617C96e1D44",
         "80SD-20WETH-e401": "0xE4010EF5E37dc23154680f23c4A0d48BFca91687",
         "20USDC-80FOLD-e4af": "0xe4aF3c338260AAbf119B5023d497437974769413",
@@ -7348,16 +7362,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x9dd5Db2d38b50bEF682cE532bCca5DfD203915E1"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
-        "MockGyro2CLPPool": "0xCE10eD2b9d0443C8ef526FdBC9bcF80C003fe582"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x3f170631ed9821Ca51A59D996aB095162438DC10"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
-        "MockGyroECLPPool": "0xb0e35E520A50F443eE2b42BCDd4b89aa544d3198"
       },
       "20250214-v3-protocol-fee-controller-v2": {
         "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b"
@@ -7398,14 +7404,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
-        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E",
-        "MockStableLPOracle": "0x68056E4234A6Aa4dB6fE66E93703fd90669a8697"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0xD961E30156C2E0D0d925A0De45f931CB7815e970"
       },
@@ -7421,6 +7419,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
         "MockFixedPriceLBPool": "0x9741c895d91f2E0781190751e78B84C962ebADBE"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
@@ -7439,11 +7440,20 @@
         "StableSurgePoolFactory": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
         "MockStablePool": "0x23b7B5F9416de66dc6c299a771544306F9BB6a2f"
       },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
+        "MockGyro2CLPPool": "0x168a594b361B288781FF3C3DB5D1829592c1c0CB"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
+        "MockGyroECLPPool": "0x9f45656d118f7a154Fe52bB4585093AE7e0A2267"
+      },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
         "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
-        "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
+        "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
+        "emergency": "0x3a921d6956C62012Dd88f95bD44224a7Ef5C9b5a"
       },
       "EOA": {
         "maxis": {
@@ -7587,7 +7597,10 @@
         "EventEmitter": "0x082990116f256E078572a1b69772115d2cF6b0a2"
       },
       "tokens": {
-        "OP": "0x4200000000000000000000000000000000000042"
+        "OP": "0x4200000000000000000000000000000000000042",
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "rETH": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+        "wstETH": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb"
       },
       "helpers": {
         "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
@@ -7611,7 +7624,11 @@
         "aura_briber": "0x679c5C5828367db9005FdEa80faA45AE7B881791"
       },
       "angle": {
-        "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd"
+        "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
+        "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
+        "WETH_claim_wrapper": "0x467665D4ae90e7A99c9C9AF785791058426d6eA0",
+        "rETH_claim_wrapper": "0xeC2C6184761ab7fE061130B4A7e3Da89c72F8395",
+        "wstETH_claim_wrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850"
       },
       "uniswap": {
         "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
@@ -7735,16 +7752,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x6eaD84Af26E997D27998Fc9f8614e8a19BB93938"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
-        "MockGyro2CLPPool": "0x21F0C1068EB8324cE5B6878BD6E50e497B8495D0"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
-        "MockGyroECLPPool": "0x47234a234875e203826E737993eee6B673237848"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
@@ -7794,14 +7803,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
-        "MockWeightedLPOracle": "0xFC7E6CF15559A5308f8447ca0419E7f676fDFb7D"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
-        "MockStableLPOracle": "0x6CF34A49C2554D5578E40802F172DDD3CB1099f8"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x16B50F6bF8C8Ca73C07e17762188c5DEEe7aE5Db"
       },
@@ -7814,6 +7815,9 @@
       "20251010-v3-unbalanced-add-via-swap-router": {
         "UnbalancedAddViaSwapRouter": "0x03CBccbe8d2073A1dC186aE6Bcd95390Fcdff36f"
       },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF"
+      },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x254F3A2974b97dc2E675f6115c845567C55f83b0",
         "MockWeightedPool": "0x449cBf906EE19e54895D6aefFff7C0f82179EEC2"
@@ -7825,6 +7829,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0xFD214210587Fb84798cbE7F37235e12898f3128f",
         "MockStablePool": "0x48C9f56545A412de9554786898dDaa3F2736Bfb5"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
+        "MockGyro2CLPPool": "0x06C5534b525792c3E45ec7C92394214C1fb5DA48"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
+        "MockGyroECLPPool": "0x3983a72895c0f3E0c194f49e116b36969f2E91C8"
       },
       "multisigs": {
         "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
@@ -8006,6 +8018,7 @@
         "bbrfsoUSD-23ca": "0x23Ca0306B21ea71552B148cf3c4db4Fc85AE1929",
         "weETH/wETH-250a": "0x250a1381f79593B96B462FB0D575c75795f80332",
         "bpt-stadue-2a51": "0x2a5139cd86C041aa3467e649F5Ee0880A5de2f2F",
+        "bpt-weethwsteth-2bb4": "0x2Bb4712247D5F451063b5E4f6948abDfb925d93D",
         "25sUSD-25USDT-25USDC-25DAI-2c25": "0x2c2549E410EBc7D2A709b37667f9A034f7d9aF0b",
         "ECLP-bb-rf-aWETH-wstETH-2c4a": "0x2C4A83f98D1CdBEEEc825FABaCd09c46e2dD3C57",
         "80AURA-20WETH-2f6b": "0x2F6B6973F38381Fe453EA819b7e0f0897AdeAae7",
@@ -8275,6 +8288,7 @@
         "BPT-STABEET-gauge-ef47": "0xEf47a07945D53Ee3a511751375A1ed0B79d6232D",
         "BPT-GTRAIN-gauge-efba": "0xEFBa6c3D81737BC6641B848345F497268d2807Ca",
         "BPT-rETH-ETH-gauge-f27d": "0xF27D53f21d024643d50de50183932F17638229F6",
+        "bpt-weethwsteth-gauge-f3b3": "0xF3B314B1D2bd7d9afa8eC637716A9Bb81dBc79e5",
         "BPT-RESERVE-gauge-f496": "0xf496794778D49e6ce1Af5cDbd3231Ee3Bd293EC0",
         "bb-rf-aUSD-asUSD-gauge-f5d4": "0xF5D49cCA719DD06E12A7901CBD4180eD1d9Ea260",
         "bpt-fraxsym-gauge-f6b4": "0xF6b4ace2D69a0c6f966D44448692cA392f29029A",
@@ -8337,16 +8351,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x9dd5Db2d38b50bEF682cE532bCca5DfD203915E1",
-        "MockGyro2CLPPool": "0x2DDB14954014Bfa99f190a50e5A207B42613b727"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
-        "MockGyroECLPPool": "0x2E459695AFdf73D9256277Ab49e2bD91ca55292A"
       },
       "20250214-v3-protocol-fee-controller-v2": {
         "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b"
@@ -8396,14 +8402,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
-        "MockWeightedLPOracle": "0xF375128b5413ff1EEd5AD716b26A40bcdBe083CB"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
-        "MockStableLPOracle": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
@@ -8419,6 +8417,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
         "MockFixedPriceLBPool": "0xB0C8aaC0fb6e508fcB1E4E51f1323053bad0BE5B"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
@@ -8436,6 +8437,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275",
         "MockStablePool": "0x6E9f431E367d800bc2eFD6BCe9e51F7086A9463d"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x136f1EFcC3f8f88516B9E94110D56FDBfB1778d1",
+        "MockGyro2CLPPool": "0xc6f6EeAE42Ec52F2e175067ef3DF1Ac96d005AD6"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
+        "MockGyroECLPPool": "0x3965CeB788589015613c6a7065dcACa00E7242eE"
       },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
@@ -8578,7 +8587,6 @@
       "pools": {
         "USDai-waPlaUSDT0-01e2": "0x01E2C7fCde2B8D5d1413732c4e274Ba5B06B1E54",
         "wrsETH-waPlaWETH-05eb": "0x05EB2d848c431B1a37D0cF0eEcc7F211b3bb1dee",
-        "USDT0-xUSD-0cde": "0x0CDE359Ae9dc18bF44a65936b4124A6Ea2192A7e",
         "99UCF-1USDT0-2626": "0x26266e820832b04e7b13AB05F8F0826a2768730b",
         "savUSD-waPlaUSDT0-2744": "0x2744A6df1b4b8196D05fb82e13de6F47207ce0f9",
         "1WXPL-99UCF-2e88": "0x2e8837fAbC74B5731b468d9B94cDe2513DD2d7A6",
@@ -8632,7 +8640,17 @@
         "WETH": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "BAL": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
         "LINK": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
-        "WBTC": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+        "WBTC": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "stMATIC": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+        "TruMATIC": "0xf33687811f3ad0cd6b48Dd4B39F9F977BD7165A2",
+        "MaticX": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6"
+      },
+      "angle": {
+        "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
+        "WMATIC_claim_wrapper": "0x467665D4ae90e7A99c9C9AF785791058426d6eA0",
+        "stMATIC_claim_wrapper": "0xeC2C6184761ab7fE061130B4A7e3Da89c72F8395",
+        "TruMATIC_claim_wrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
+        "MaticX_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332"
       },
       "helpers": {
         "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
@@ -10450,6 +10468,7 @@
         "2eur (PAR)-gauge-5c13": "0x5c13C3b72b031b6405046C319B2D840d3C1403c7",
         "2CLP-WBTC-WETH-gauge-5f7d": "0x5f7d543C682ad38f37D0823b8c96Fee8f7E59BbA",
         "tetuBAL-BALWETH-gauge-608f": "0x608f2b6F31C102aD4b956761956e2362e2Ba8941",
+        "ECLP-WETH-USDC-dyn-gauge-65ed": "0x65ede932E98651eD98D61452f7f4F113CeD96B36",
         "BPSP-TUSD-gauge-6b00": "0x6B0068a4408F2aDB633CeB90E6dF6De28ba73696",
         "20WETH-80MIMO-gauge-6db8": "0x6db85d4F903FA719d4Ee7b6A6434A49c82aD845A",
         "BPSP-gauge-7284": "0x72843281394E68dE5d55BCF7072BB9B2eBc24150",
@@ -10680,16 +10699,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x115A6FC12312a01E0B63E51dFa97DAeb8dE9D2F0"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0x38ce8e04EBC04A39BED4b097e8C9bb8Ca74e33d8",
-        "MockGyro2CLPPool": "0x4d1a7352311CA9f63AB8bEA96CA873796C72EBDf"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x6A20a4b6DcFF78e6D21BF0dbFfD58C96644DB9cb"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x589cA6855C348d831b394676c25B125BcdC7F8ce",
-        "MockGyroECLPPool": "0xD2fB2b142c27094833f48c8a4a950ecc2e139F66"
       },
       "20250212-v3-mev-capture-hook": {
         "MevCaptureHook": "0xEC9578e79d412537095501584284B092D2F6b9F7"
@@ -10735,14 +10746,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1074d0962656768E2b97a0ce39d8c6CCcfBb73b3"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x0ca835d92f31c869b5E78c5c579Bd27c6b62adAE",
-        "MockWeightedLPOracle": "0xC11FABd7137121f8a243B31a020c1eC669fcb132"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0x6618728737D1438aA96bFD384f02524ecb743640",
-        "MockStableLPOracle": "0xE69f03B55d0e32B30EF4EaE9391f6D19E10E6a1E"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x52e7e9CEeF4bfE3c91a006a2AC1F9F409ff449A8"
       },
@@ -10758,6 +10761,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0x57Ef4cB125d1c690dF98118281090b7CdC7b9F85",
         "MockFixedPriceLBPool": "0xc5b83A1c411ba7553f526e09dC5a833cf7194f3c"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x00526Cfbc8569Ef966d94025c9c586dF0c82B1C1"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x8B8c22B8578A86ead5BcE7294ADFcba767329eb3",
@@ -10775,6 +10781,14 @@
       "20260117-v3-stable-surge-pool-factory-v3": {
         "StableSurgePoolFactory": "0x8573CAF1EC065c5956006d2b34117D2DBa326955",
         "MockStablePool": "0xbf9aD6b14F6598218bb91dF5F673F3910Fe1E78a"
+      },
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0xb9037539dc2D7D60F7E2BF87Ef7706E70d8a5bf9",
+        "MockGyro2CLPPool": "0xBF58a648Cef1EBA355b2f9652F05e85d983f95c2"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x29319cC611A086D177bA8784320Cd1dB6Ca7E0D6",
+        "MockGyroECLPPool": "0x8dD38DF691eEbBaF778e694BeCa3B62F8bfADf1a"
       },
       "multisigs": {
         "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
@@ -10917,6 +10931,23 @@
       "gauges": {}
     },
     "xlayer": {
+      "zero": {
+        "zero": "0x0000000000000000000000000000000000000000"
+      },
+      "tokens": {
+        "OKB": "0x5831f949D6A239Cd1CDBaC652A060f0837b0CAc0",
+        "WOKB": "0xe538905cf8410324e03A5A23C1c177a474D59b2b",
+        "WETH": "0x5A77f1443D16ee5761d310e38b62f77f726bC71c",
+        "USDT": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+        "USDT0": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+        "USDC": "0x74b7F16337b8972027F6196A17a631aC6dE26d22",
+        "USDC.e": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035",
+        "WBTC": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
+        "DAI": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4"
+      },
+      "uniswap": {
+        "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      },
       "00000000-tokens": {
         "WETH": "0xe538905cf8410324e03A5A23C1c177a474D59b2b"
       },
@@ -10945,16 +10976,8 @@
       "20250117-v3-contract-registry": {
         "BalancerContractRegistry": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d"
       },
-      "20250120-v3-gyro-2clp": {
-        "Gyro2CLPPoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
-        "MockGyro2CLPPool": "0x00BdB4933CD3E3943368732d4F8010d1492D4779"
-      },
       "20250123-v3-composite-liquidity-router-v2": {
         "CompositeLiquidityRouter": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102"
-      },
-      "20250124-v3-gyro-eclp": {
-        "GyroECLPPoolFactory": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
-        "MockGyroECLPPool": "0x37c8416a055232afCB86fd776a684C8870f571fb"
       },
       "20250214-v3-protocol-fee-controller-v2": {
         "ProtocolFeeController": "0xCaCC7E1efEEA8BB3af6d5720d12C1876aa6EE76b"
@@ -10995,14 +11018,6 @@
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20250814-v3-weighted-pool-oracle": {
-        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
-        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
-      },
-      "20250815-v3-stable-pool-oracle": {
-        "StableLPOracleFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
-        "MockStableLPOracle": "0xb376E00b5F12c755A68E75F04F279F7137731978"
-      },
       "20250919-v3-pool-pause-helper-v2": {
         "PoolPauseHelper": "0x84813aA3e079A665C0B80F944427eE83cBA63617"
       },
@@ -11018,6 +11033,9 @@
       "20251205-v3-fixed-price-lbp": {
         "FixedPriceLBPoolFactory": "0xC1A64500E035D9159C8826E982dFb802003227f0",
         "MockFixedPriceLBPool": "0x4CF75fA72AA391aB2342B38E18566681Bacf9862"
+      },
+      "20251219-v3-balancer-fee-burner-v2": {
+        "BalancerFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
       },
       "20251219-v3-liquidity-bootstrapping-pool-v3": {
         "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
@@ -11036,7 +11054,21 @@
         "StableSurgePoolFactory": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52",
         "MockStablePool": "0xcaC63acA56244832AAD5c92995455caFc55A7c33"
       },
-      "multisigs": {},
+      "20260123-v3-gyro-2clp-v2": {
+        "Gyro2CLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
+        "MockGyro2CLPPool": "0x6f1d82D701045E280a27Af62Ea826D1C83100BD2"
+      },
+      "20260126-v3-gyro-eclp-v2": {
+        "GyroECLPPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockGyroECLPPool": "0xa8ec402dC875A8BC1243329C1e1Ab8c45895F23D"
+      },
+      "multisigs": {
+        "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
+        "balancer_bizdev": "0xF3B4829C8B9E2910C2396538F49a12b0c2475a7e",
+        "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878",
+        "emergency": "0x6793df018B07C44E86D0b84C8C5f07EEc14E1270"
+      },
       "EOA": {
         "maxis": {
           "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
@@ -11597,6 +11629,14 @@
         "WeightedPoolFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
         "MockWeightedPool": "0xD2643c05FA9590Ec80b6a6866f4B9C73CA60cc0C"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xe2fa4e1d17725e72dcdAfe943Ecf45dF4B9E285b",
+        "MockGyro2CLPPool": "0x9E20Af4c055e368CA3618d50bcB132027BED3372"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+        "MockGyroECLPPool": "0xDac98631B5bee0E86dc3727DaD767e9bD251c729"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x5B42eC6D40f7B7965BE5308c70e2603c0281C1E9"
       },
@@ -11627,6 +11667,14 @@
       },
       "20250530-v3-balancer-fee-burner": {
         "BalancerFeeBurner": "0x36E8e371e6863E5f96D00667016DDE87fe1Cc5d1"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106",
+        "MockWeightedLPOracle": "0x67e5Cd2dE1725a1bbaEF38926ed339719Ff63E8a"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "MockStableLPOracle": "0x9a7921977ca7232395229Ef2a9EDD53DEc59F365"
       }
     },
     "arbitrum": {
@@ -11807,10 +11855,18 @@
         "WeightedPoolFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
         "MockWeightedPool": "0x681fae0CA3aE40CD3e3b5f17860bE960511a67e2"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x65A22Ec32c37835Ad5E77Eb6f7452Ac59E113a9F",
+        "MockGyro2CLPPool": "0xCa3372c28438D0905C96A01d834F5c14a34EE295"
+      },
       "20250121-v3-stable-surge": {
         "StableSurgePoolFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
         "StableSurgeHook": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417",
         "MockStablePool": "0xfF4365FDb4b77B4D193F9Be42544c433D8223e63"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x88ED12A90142fDBFe2a28f7d5b48927254C7e760",
+        "MockGyroECLPPool": "0x875BED625E44D1cd03e512beBae085A440106529"
       },
       "20250221-v3-cow-swap-fee-burner": {
         "CowSwapFeeBurner": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77"
@@ -11853,6 +11909,14 @@
         "LBPMigrationRouter": "0xFc2986feAB34713E659da84F3B1FA32c1da95832",
         "LBPoolFactory": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818",
         "MockLBPool": "0x791fEf0FE92A522DC82D0ea800708b035495147d"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
+        "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
+        "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
       }
     },
     "mainnet": {
@@ -12102,10 +12166,18 @@
         "WeightedPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
         "MockWeightedPool": "0x527d0E14acc53FB040DeBeae1cAb973D23FB3568"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockGyro2CLPPool": "0x4ffECD2dab8703a74BD13Ba10BcE3419B9f5fA80"
+      },
       "20250121-v3-stable-surge": {
         "StableSurgePoolFactory": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83",
         "StableSurgeHook": "0xb18fA0cb5DE8cecB8899AAE6e38b1B7ed77885dA",
         "MockStablePool": "0xc05ff9851c2a000F3C319D2986D8712317583B79"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xE9B0a3bc48178D7FE2F5453C8bc1415d73F966d0",
+        "MockGyroECLPPool": "0xe912C791f7c4b6323EfBA294F66C0dE93c50eB5F"
       },
       "20250221-v3-cow-swap-fee-burner": {
         "CowSwapFeeBurner": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106"
@@ -12148,6 +12220,14 @@
         "LBPMigrationRouter": "0xCC267D25576b48f08A90C3605624Ab62a73a7A4E",
         "LBPoolFactory": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF",
         "MockLBPool": "0xa1E9e74BbDBDE4B8F9F624E71641F54e3b7F11bf"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
+        "MockWeightedLPOracle": "0xcC8d5475e7a3C65E29Af30e5f89F14F5722E7cDa"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
+        "MockStableLPOracle": "0x74a1B9Fe5b1151A80E4dE22F79cf73ef358D2086"
       }
     },
     "optimism": {
@@ -12289,6 +12369,14 @@
         "WeightedPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
         "MockWeightedPool": "0x79bd0f6623fb8B430AC43673dbb3996C6826e565"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
+        "MockGyro2CLPPool": "0x21F0C1068EB8324cE5B6878BD6E50e497B8495D0"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x22625eEDd92c81a219A83e1dc48f88d54786B017",
+        "MockGyroECLPPool": "0x47234a234875e203826E737993eee6B673237848"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x86e67E115f96DF37239E0479441303De0de7bc2b"
       },
@@ -12319,6 +12407,14 @@
       },
       "20250530-v3-balancer-fee-burner": {
         "BalancerFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockWeightedLPOracle": "0xFC7E6CF15559A5308f8447ca0419E7f676fDFb7D"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb96524227c4B5Ab908FC3d42005FE3B07abA40E9",
+        "MockStableLPOracle": "0x6CF34A49C2554D5578E40802F172DDD3CB1099f8"
       }
     },
     "polygon": {
@@ -12545,10 +12641,18 @@
         "WeightedPoolFactory": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
         "MockWeightedPool": "0xEcFfba4414bB9d52DA1598A313d9d3FEa11bFE99"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xf5CDdF6feD9C589f1Be04899F48f9738531daD59",
+        "MockGyro2CLPPool": "0x1E919A507c9381119a4E9CF43795b100fc8c988b"
+      },
       "20250121-v3-stable-surge": {
         "StableSurgePoolFactory": "0x4fb47126Fa83A8734991E41B942Ac29A3266C968",
         "StableSurgeHook": "0xb2007B8B7E0260042517f635CFd8E6dD2Dd7f007",
         "MockStablePool": "0xf551bD21bc0E568F2a0f54F9213E3dA7336e5625"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x5F6848976C2914403B425F18B589A65772F082E3",
+        "MockGyroECLPPool": "0x2196Ddb2b51F706857A2934eE79D9FBB463C5372"
       },
       "20250221-v3-cow-swap-fee-burner": {
         "CowSwapFeeBurner": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
@@ -12591,6 +12695,14 @@
         "LBPMigrationRouter": "0xB9d01CA61b9C181dA1051bFDd28e1097e920AB14",
         "LBPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
         "MockLBPool": "0x743A84A1bAbE13Ac131EE7a56604497AF710266B"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
+        "MockWeightedLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
+        "MockStableLPOracle": "0x8Cdf4abc48b62B0a380beC87e432d01372F82D72"
       }
     },
     "bsc": {
@@ -12788,10 +12900,18 @@
         "WeightedPoolFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
         "MockWeightedPool": "0xd43c36038250c66D46854e536Bf959fdDE5294c3"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x7fA49Df302a98223d98D115fc4FCD275576f6faA",
+        "MockGyro2CLPPool": "0x69956192944017d04cbEcC29a42c684D675540E7"
+      },
       "20250121-v3-stable-surge": {
         "StableSurgePoolFactory": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
         "StableSurgeHook": "0xe4f1878eC9710846E2B529C1b5037F8bA94583b1",
         "MockStablePool": "0x825DC69A2FC808620eEd7377B19D204e6944c675"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xEa924b45a3fcDAAdf4E5cFB1665823B8F8F2039B",
+        "MockGyroECLPPool": "0x3459bCF85E86d9415025c1d245f9af799875Ee07"
       },
       "20250221-v3-cow-swap-fee-burner": {
         "CowSwapFeeBurner": "0xAE563E3f8219521950555F5962419C8919758Ea2"
@@ -12834,6 +12954,14 @@
         "LBPMigrationRouter": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
         "LBPoolFactory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
         "MockLBPool": "0xf4404306c2fb1c9C93dB173B7595eE086B45859D"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
+        "MockWeightedLPOracle": "0x7347C39625908c5205606daB026443bBc743aF2F"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xbF94192c652183c0f50056417f4D04810329f12c",
+        "MockStableLPOracle": "0xA126a712ef1feCA88317EE37dfd8008E6ba18854"
       }
     },
     "mode": {
@@ -12940,10 +13068,18 @@
         "WeightedPoolFactory": "0x7532d5a3bE916e4a4D900240F49F0BABd4FD855C",
         "MockWeightedPool": "0xFc253B433B7225AC7736EAbDF4115F7252aECb91"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x38ce8e04EBC04A39BED4b097e8C9bb8Ca74e33d8",
+        "MockGyro2CLPPool": "0x4d1a7352311CA9f63AB8bEA96CA873796C72EBDf"
+      },
       "20250121-v3-stable-surge": {
         "StableSurgePoolFactory": "0xD516c344413B4282dF1E4082EAE6B1081F3b1932",
         "StableSurgeHook": "0x30CE53fA38a1399F0CA158b5c38362c80E423bA9",
         "MockStablePool": "0xD8D88e186AA7cfa3929dF79ab5a5f02316e7d77B"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x589cA6855C348d831b394676c25B125BcdC7F8ce",
+        "MockGyroECLPPool": "0xD2fB2b142c27094833f48c8a4a950ecc2e139F66"
       },
       "20250221-v3-cow-swap-fee-burner": {
         "CowSwapFeeBurner": "0x3400AaFA47C6dC0D8Ffc2380D3665f701cD53eBc"
@@ -12986,6 +13122,14 @@
         "LBPMigrationRouter": "0x0AE19A3f8c35e0156E0d39307ad4cce1acD42929",
         "LBPoolFactory": "0xE92cF5185384f53B2af74A2eBA62ba3A9C0ED65B",
         "MockLBPool": "0xc432fC493269Cf9412ef419a8E571655657158a3"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x0ca835d92f31c869b5E78c5c579Bd27c6b62adAE",
+        "MockWeightedLPOracle": "0xC11FABd7137121f8a243B31a020c1eC669fcb132"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x6618728737D1438aA96bFD384f02524ecb743640",
+        "MockStableLPOracle": "0xE69f03B55d0e32B30EF4EaE9391f6D19E10E6a1E"
       }
     },
     "zkevm": {
@@ -13050,6 +13194,14 @@
         "WeightedPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
         "MockWeightedPool": "0xCEFea117D605909994E96cC686Af50adE55Ec99E"
       },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x9dA18982a33FD0c7051B19F0d7C76F2d5E7e017c",
+        "MockGyro2CLPPool": "0xB793C034CFC1635C104d28d483af0b1ace553E2d"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
+        "MockGyroECLPPool": "0xfCf895F83DF683d90F131697cC2c7a6843B2c431"
+      },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
       },
@@ -13082,12 +13234,28 @@
         "LBPMigrationRouter": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
         "LBPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
         "MockLBPool": "0x40330BB045E24CdE97B019F13c44D0B552CD3be5"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
+        "MockWeightedLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
+        "MockStableLPOracle": "0x65d092A81f95139Fd274Fed91A7b0481fee05c66"
       }
     },
     "monad": {
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0x76578ecf9a141296Ec657847fb45B0585bCDa3a6",
         "MockWeightedPool": "0x87F438EAf18cb8d0e4F1B08080acF225AB7AA0F3"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x9805dcfD25e6De36bad8fe9D3Fe2c9b44B764102",
+        "MockGyro2CLPPool": "0xCE10eD2b9d0443C8ef526FdBC9bcF80C003fe582"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
+        "MockGyroECLPPool": "0xb0e35E520A50F443eE2b42BCDd4b89aa544d3198"
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0xc9b36096f5201ea332Db35d6D195774ea0D5988f"
@@ -13099,12 +13267,28 @@
       "20250404-v3-stable-surge-pool-factory-v2": {
         "StableSurgePoolFactory": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e",
         "MockStablePool": "0x6333D66d842Bda8cABAe5eBf2626B790d98b1E6F"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E",
+        "MockStableLPOracle": "0x68056E4234A6Aa4dB6fE66E93703fd90669a8697"
       }
     },
     "plasma": {
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843",
         "MockWeightedPool": "0xB105ED4d410DDf940C848Ab95dCc4434Aa816aA6"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0x9dd5Db2d38b50bEF682cE532bCca5DfD203915E1",
+        "MockGyro2CLPPool": "0x2DDB14954014Bfa99f190a50e5A207B42613b727"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0xE3881627B8DeeBCCF9c23B291430a549Fc0bE5F7",
+        "MockGyroECLPPool": "0x2E459695AFdf73D9256277Ab49e2bD91ca55292A"
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x47B489bf5836f83ABD928C316F8e39bC0587B020"
@@ -13130,12 +13314,28 @@
         "LBPMigrationRouter": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
         "LBPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
         "MockLBPool": "0xc49a3d36aD36c69216b4B534b3cCf34039143f87"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
+        "MockWeightedLPOracle": "0xF375128b5413ff1EEd5AD716b26A40bcdBe083CB"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
+        "MockStableLPOracle": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417"
       }
     },
     "xlayer": {
       "20241205-v3-weighted-pool": {
         "WeightedPoolFactory": "0xf23b4DB826DbA14c0e857029dfF076b1c0264843",
         "MockWeightedPool": "0x3103f111426288815C5A8DD52509D752E1B02cF8"
+      },
+      "20250120-v3-gyro-2clp": {
+        "Gyro2CLPPoolFactory": "0xb9F8AB3ED3F3aCBa64Bc6cd2DcA74B7F38fD7B88",
+        "MockGyro2CLPPool": "0x00BdB4933CD3E3943368732d4F8010d1492D4779"
+      },
+      "20250124-v3-gyro-eclp": {
+        "GyroECLPPoolFactory": "0x5cF4928a3205728bd12830E1840F7DB85c62a4B9",
+        "MockGyroECLPPool": "0x37c8416a055232afCB86fd776a684C8870f571fb"
       },
       "20250228-v3-protocol-fee-sweeper": {
         "ProtocolFeeSweeper": "0x22625eEDd92c81a219A83e1dc48f88d54786B017"
@@ -13147,6 +13347,14 @@
       "20250404-v3-stable-surge-pool-factory-v2": {
         "StableSurgePoolFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
         "MockStablePool": "0x889d315dBC01056e89C9c98CC46B8D109FCA8a87"
+      },
+      "20250814-v3-weighted-pool-oracle": {
+        "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
+        "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
+      },
+      "20250815-v3-stable-pool-oracle": {
+        "StableLPOracleFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
+        "MockStableLPOracle": "0xb376E00b5F12c755A68E75F04F279F7137731978"
       }
     }
   }
