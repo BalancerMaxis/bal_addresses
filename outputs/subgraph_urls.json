@@ -80,9 +80,7 @@
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-base/v0.0.1/"
   },
   "mode": {
-    "core": {
-      "429": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest"
-    },
+    "core": "https://api.studio.thegraph.com/query/75376/balancer-mode-v2/version/latest",
     "gauges": "https://api.studio.thegraph.com/query/75376/balancer-gauges-mode/version/latest",
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
@@ -103,5 +101,6 @@
     "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-plasma/latest/gn",
     "pools-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-pools-v3-plasma/latest/gn"
   },
-  "monad": {}
+  "monad": {},
+  "xlayer": {}
 }
