@@ -1,12 +1,4 @@
 {
-  "maxis": {
-    "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-    "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-    "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-    "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-    "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-    "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-  },
   "blabs_ops": {
     "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
     "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -16,23 +8,17 @@
     "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
     "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
   },
-  "maxi_deployers": {
-    "mikeb": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
+  "deployers": {
+    "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
     "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
     "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
     "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-    "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
     "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-    "single_use": {
-      "injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853"
-    }
+    "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
   },
   "beethoven": {
     "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
     "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-  },
-  "blabs_deployers": {
-    "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
   },
   "emergency": {
     "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -93,6 +79,10 @@
     "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
     "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
     "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+    "maxis_injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853",
+    "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+    "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+    "mikeb_deployer": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
     "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
     "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
     "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
