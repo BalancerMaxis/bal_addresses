@@ -44,16 +44,16 @@
     "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
   },
   "dao": {
-    "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+    "netto.eth": "0x235f00a6e9416b114780f0b97afcb40f623f65b4",
     "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-    "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-    "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+    "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+    "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
     "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
     "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-    "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+    "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
     "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
     "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-    "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+    "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
     "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
   },
   "treasury_council": {
@@ -71,10 +71,7 @@
     "simon_vest_beneficiary": "0xfeffd47b42bd7936fcf256e162eedba99bd96556"
   },
   "dao_backup": {
-    "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-    "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-    "figue": "0x009d13e9bec94bf16791098ce4e5c168d27a9f07",
-    "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+    "figue": "0x009d13e9bec94bf16791098ce4e5c168d27a9f07"
   },
   "maxiPay": {
     "factory": "0x7bbac709a9535464690a435ca7361256496f13ce"
@@ -87,6 +84,11 @@
     "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
   },
   "emeritus": {
+    "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+    "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+    "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+    "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+    "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
     "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
     "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
     "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
