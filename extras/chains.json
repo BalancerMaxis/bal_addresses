@@ -68,7 +68,9 @@
     "hyperevm",
     "fraxtal",
     "optimism",
-    "plasma"
+    "plasma",
+    "monad",
+    "xlayer"
   ],
   "BALANCER_PRODUCTION_CHAINS_V3": [
     "mainnet",
@@ -79,6 +81,7 @@
     "optimism",
     "avalanche",
     "plasma",
+    "monad",
     "xlayer"
   ]
 }
