@@ -348,6 +348,14 @@
         "GyroECLPPoolFactory": "0xe31715e75207acC8bfadd96902FF522058928479",
         "MockGyroECLPPool": "0x5658CE330A9e93B0861F7e222edeb17c9F558acf"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0xA9AEeB57Efe61338C0d07f3e5Bb82519C4Ad1103",
+        "MockWeightedLPOracle": "0x0977CeF528FE45DB994E168889140c5b103E0413"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0xa59F164d6cf6ee5d63580C0bcEA5CCB2e50b908c",
+        "MockStableLPOracle": "0x0B1450a296dD4B8104a9576A60DBB2842B0b5958"
+      },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
         "dao": "0xaF23DC5983230E9eEAf93280e312e57539D098D0",
@@ -368,14 +376,6 @@
         }
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -385,23 +385,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -413,16 +407,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -440,10 +434,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -456,10 +447,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -760,7 +760,6 @@
         "50wstETH-50ankrETH-3d87": "0x3D87B6A7d3D4411A69949671e0c4806D671b34A6",
         "PTWPv2-3dd0": "0x3dd0843A028C86e0b760b1A76929d1C5Ef93a2dd",
         "BCoW-50ARB-50USDC-3dec": "0x3dEc20EacCc6e52065E500b228b10c07Dad9b9d2",
-        "50-USDC-50-waArbWETH-3e2c": "0x3E2C4c7bf211BDC432F7972E162953E8f6f4B988",
         "50VSTA-50USDC-3e51": "0x3e51aEedf2CC7e94a592E2244F826ddFb2e05bc8",
         "50BAL-50ARB-3e5f": "0x3E5FB03652F40B6c5A30D0C0eC38Cc065332Dc4d",
         "50BAL-50WETH-3e6f": "0x3E6FF8A4950C915991660F155485fc6232325677",
@@ -852,7 +851,6 @@
         "50VSTA-50USDC-5272": "0x5272A12346b8a61A8E9c364Ca227C0e3E43E24c1",
         "50ARB-50USDC-52b5": "0x52B520C7CAbF47fFd8c328E597a560493f6bd374",
         "20WBTC-80WETH-52fb": "0x52fb2085b9eE49928435e9D11ACF643858B56399",
-        "oLP-WETH-5342": "0x5342F9FDe83848E9F80Ae8293450aB3fa28c615b",
         "50VST-50USDC-536f": "0x536f2b3c8607aA5bC16e25a194E93e5bBA8C2FaF",
         "USDe/USDC-537d": "0x537D8ef9E6E0adfb099cB14aeAF04EBEFFAF444c",
         "50wstETH-50WETH-539a": "0x539AEdcFB6dD177Aa2ef382FcCf644d8CD78678f",
@@ -1060,6 +1058,7 @@
         "B-80DHT-20WETH-8a9f": "0x8A9F8B5334DACB052cd62797e2Bdf68d89c0bfD8",
         "50wstETH-50USDC-8aac": "0x8AAC5Bd713Ed5563c5c8fEba05b38d3B4281382F",
         "50plsRDNT-50WETH-8ac6": "0x8ac69675a1fCcdCD742091065550B30E4490835a",
+        "USD4LP-8ad9": "0x8AD9dF1b4D506fa809AB1e88dD31cc580171eC13",
         "50VST-50USDT-8aeb": "0x8aeB19b068872C87CccD333B7E169220d5E16fDa",
         "50VSTA-50USDC-8af4": "0x8AF40a3F1FB1DB4E21eaA06A0e1c47632803fCD9",
         "50wstETH-50WETH-8b6f": "0x8B6Fb08F95Bdd3e74967fA41be69ef329ea8726F",
@@ -1282,7 +1281,6 @@
         "80oTANGO-20USDC-c04a": "0xc04A3646A5065ef15fb7591c5Ccd7e8E95A52708",
         "Aave wstETH-wETH-c072": "0xc072880E1BC0bcDdc99Db882c7f3e7A839281CF4",
         "PAXG-waArbwstETH-c09a": "0xC09A98b0138D8cfCefF0E4eF672e8BD30EC6EdA9",
-        "USND-USDC-c11d": "0xc11d4777d0bCC257bBA293b90522F5d6bd875228",
         "25BAL-25WBTC-25PHONON-25WETH-c188": "0xC1889C72D99917FD7b957fEd80d4Ea1eBd9e2618",
         "50USDT-50USDC-c20b": "0xc20b04534Ab809948549DAFc373fa2C684f9bfb6",
         "wstETH/sfrxETH-c259": "0xc2598280bFeA1Fe18dFcaBD21C7165c40c6859d3",
@@ -1963,6 +1961,14 @@
         "GyroECLPPoolFactory": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c",
         "MockGyroECLPPool": "0x4A0c4bF665591Ce77Dc75f2608647eE7275543ba"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
+        "MockWeightedLPOracle": "0x63DFB4cdB6bD225ec41f669d8D26279714B4Ad6E"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
+        "MockStableLPOracle": "0x0EC96D7d3d3a4fE856C30E72a3522C8Fc73D2f33"
+      },
       "multisigs": {
         "emergency": "0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0",
         "dao": "0x17b11FF13e2d7bAb2648182dFD1f1cfa0E4C7cf3",
@@ -1974,14 +1980,6 @@
         "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -1991,23 +1989,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -2019,16 +2011,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -2046,10 +2038,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -2062,10 +2051,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -2534,6 +2532,14 @@
         "GyroECLPPoolFactory": "0x86a0E97eC0D5dB8DAE106D3067358d41968fD12c",
         "MockGyroECLPPool": "0xe5b7AC176B7516806BD8bB4240C479f5FF215D47"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
+        "MockWeightedLPOracle": "0x63DFB4cdB6bD225ec41f669d8D26279714B4Ad6E"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
+        "MockStableLPOracle": "0x0EC96D7d3d3a4fE856C30E72a3522C8Fc73D2f33"
+      },
       "multisigs": {
         "blabs_ops": "0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a",
         "dao": "0xC40DCFB13651e64C8551007aa57F9260827B6462",
@@ -2548,14 +2554,6 @@
         "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -2565,23 +2563,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -2593,16 +2585,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -2620,10 +2612,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -2636,10 +2625,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -3071,7 +3069,6 @@
         "50USDbC-50axlUSDC-7e59": "0x7e591a85B5F63B7583bc15e28f0F979beed2911c",
         "44WETH-56USDC-7e93": "0x7E9337377E68694C5601a1b38a4d3DaC2489FDf1",
         "50WETH-50USDbC-7fc8": "0x7fC88C8a4900b534BcaA2de461578D5403D4f3DE",
-        "50-USDT-50-USDC-7fe5": "0x7fE5DEA6c8af6af798AAdbF107698B32E93843D8",
         "BCoW-50RUNNER-50SkiBonk-804f": "0x804F58bD12c58a60792a3B5Db106c366C2EE3412",
         "50BAL-50LINU-8061": "0x8061C7b7ef45d47Ce1BcCa1aBB4337EE54Dd9A51",
         "HN EAR 2-806e": "0x806ef4997F900De28Dc8A9334853A44c38480db0",
@@ -3160,6 +3157,7 @@
         "50USDbC-50STG-9bf1": "0x9BF1597a7308cB6f15B9379b7273F19Ec88eEC0d",
         "50USDbC-50axlUSDC-9c8b": "0x9C8b961754D6d839625F6C1953ee8b18e09A4d79",
         "33BAL-33WETH-33USDC-9d88": "0x9D884e09E0dDF816A1b3f31CCd94a0319793B11B",
+        "50-USDT-50-USDC-9d8e": "0x9D8e5f6F61B72A59216703601b8820DbC4e34DA0",
         "33DAI-33USDbC-33STG-9dbb": "0x9dBbCaa385bb14fa0Ade71A07A72957cF79e5978",
         "BCoW-50PEPE-50WETH-9e2f": "0x9E2f16DdADD1427c15908921849E596fF768d24a",
         "Surge sUSDz-Aave USDC-9e5e": "0x9E5eE75b752a372257c0007237a35D671203fb8C",
@@ -3619,14 +3617,6 @@
       },
       "multisigs": {},
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -3636,23 +3626,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -3664,16 +3648,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -3691,10 +3675,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -3707,10 +3688,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -3857,14 +3847,6 @@
         "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -3874,23 +3856,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -3902,16 +3878,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -3929,10 +3905,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -3945,10 +3918,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -4255,6 +4237,14 @@
         "GyroECLPPoolFactory": "0x1C53aF9D683A4424d03f61D70D9f6Bc53aF7Fcc1",
         "MockGyroECLPPool": "0xa86C8204BA7c8FbDa88205C8fa953B23105719Fe"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x332694Ef46D880DF6Ea9593e04CB8ABEE5F81D99",
+        "MockWeightedLPOracle": "0x4B1Ca18D2D32f12BD3a6bE7Cd254ce434081A13c"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x4eFcd8bcE8AC9b94bd76648e2c85bEf6c40F3228",
+        "MockStableLPOracle": "0xe73d9025943F10D212CA802695edace037c0c389"
+      },
       "multisigs": {
         "emergency": "0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962",
         "dao": "0x2a5AEcE0bb9EfFD7608213AE1745873385515c18",
@@ -4273,14 +4263,6 @@
         }
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -4290,23 +4272,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -4318,16 +4294,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -4345,10 +4321,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -4361,10 +4334,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -4854,6 +4836,14 @@
         "GyroECLPPoolFactory": "0xf94bb6911dAF3734759105c26e0E79790281bfFC",
         "MockGyroECLPPool": "0xAA1A1D99F293Ef1aC04618594e0Ab6715baf9d95"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0xBcA68cb9B794A4fb84855e003e4cF591F80A3Dc9",
+        "MockWeightedLPOracle": "0xdA9d6b038A59846185302EB91ce3Bd97168d036B"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373",
+        "MockStableLPOracle": "0xbba498849c17999030BeA938301abb7DB567740F"
+      },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
@@ -4862,14 +4852,6 @@
         "emergency": "0x44613a28347206F5E26C1B8Db7Dc73f450219746"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -4879,23 +4861,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -4907,16 +4883,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -4934,10 +4910,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -4950,10 +4923,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -5577,6 +5559,14 @@
         "GyroECLPPoolFactory": "0x04d584195a96DFfc7F8B695aA3C9D3c1606b69d1",
         "MockGyroECLPPool": "0xC27d496A903C4328456f8A2De7457Dcf4803Cc4C"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0xDd10aDF05379D7C0Ee4bC9c72ecc5C01c40E25b8",
+        "MockWeightedLPOracle": "0x82c36Ffed5eAbB7D4D3f1798a322BC76621cFd41"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x99f2D91EBA577e4Bf7175E72B3Ef2B6dDb1FaBe3",
+        "MockStableLPOracle": "0xfB018615183C6c9c7f50a6b9FA9bF241b3F50698"
+      },
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
         "dao": "0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f",
@@ -5612,14 +5602,6 @@
         }
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -5629,23 +5611,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -5657,16 +5633,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -5684,10 +5660,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -5700,10 +5673,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -5770,7 +5752,6 @@
         "50mevETH-50WETH-05b1": "0x05b1a35FdBC43849aA836B00c8861696edce8cC4",
         "87WBTC-12wstETH-1BAL-05bb": "0x05Bb9b340D21Fc5A0D730EcD1CA79584Fe88E5b8",
         "weETH/rETH-05ff": "0x05ff47AFADa98a98982113758878F9A8B9FddA0a",
-        "50-SPYon-50-USDC-0617": "0x06176B9E08BD29bb10AFF5F75d93CD54e9073D4F",
         "LPeYyvcrvSTETH-15APR22-062f": "0x062F38735AAC32320DB5e2DBBEb07968351D7C72",
         "80RATE-20WETH-064b": "0x064BcC35BFE023Fe717A87574faE9333f98AAE4D",
         "33UNI-33BAL-33COMP-065a": "0x065a935bc0fe6d02ebDf42A8CBdC3Ceb898C2826",
@@ -5916,8 +5897,6 @@
         "50AAVE-50COMP-331b": "0x331bC9c616e4Ca9032bfccE9056cF9988045Acc6",
         "50rETH-50bb-a-USD-334c": "0x334C96d792e4b26B841d28f53235281cec1be1F2",
         "80VERSE-20WETH-3383": "0x33832529ca354536728A2f2515E4E2106A8D8afA",
-        "70-TQQQon-30-SPYon-33c0": "0x33C06f219681034E180Be747D040cDEd30396034",
-        "80-vgUSDC-20-waEthWETH-33e2": "0x33e27ADd49730191fa360c21983660e4f87a35dA",
         "40WBTC-20CHZ-20LINK-20COMP-3448": "0x344818B9b4cFec947FE8cCbEa65B3605585c2C71",
         "NFTG-344e": "0x344e8f99a55DA2ba6B4b5158df2143374E400DF2",
         "VBPT-3501": "0x350196326AEAA9b98f1903fb5e8fc2686f85318C",
@@ -6136,6 +6115,7 @@
         "ELONMUM_LBP-6a1a": "0x6A1a7F589419eBA1B9025d9201d0193ebc4e3a86",
         "99WHALE-1WETH-6a2e": "0x6a2E09758cAc6C81ea64B5A600067A4f122823db",
         "50rETH-50MAGIC-6a4d": "0x6A4D422afe275Bb381B7C0A03a591c0be40C583A",
+        "MEGA7-6a56": "0x6A561aC888b54a10eEc464638e5798CDcCFEE617",
         "50WSTETH-50LDO-6a5e": "0x6a5EaD5433a50472642Cd268E584dafa5a394490",
         "B-graviAURA-STABLE-6a96": "0x6A9603E481Fb8F2c09804ea9AdaB49A338855B90",
         "genETH/wstETH-6aa5": "0x6AA5a6b9257CA6e18b2da94e1a5FbE57ce2947cA",
@@ -6552,6 +6532,7 @@
         "50AAVE-50TRIBE-dfeb": "0xdfeBFF31dFD8d162372E9aFb6a6f668172D3Bc00",
         "DOG-dfee": "0xDfeE48C9DF6D26c734296C0E6bD02401100A7217",
         "50WAGMI-50ICE-e074": "0xe074fBcC87e18615D6b099Ee603BD37dE562416b",
+        "Cassa-TestV2-MOCK/UT-e0ac": "0xE0aC5D28E950909194F09447A92af0DDE870d26a",
         "ECLP-wstETH-swETH-e0e8": "0xe0E8AC08De6708603cFd3D23B613d2f80e3b7afB",
         "wstETH-bb-a-WETH-BPT-e0fc": "0xE0fCBf4d98F0aD982DB260f86cf28b49845403C5",
         "Srey0x-WETH-e1d8": "0xE1D8E2FE54c4Df88cd7963117F44079eD6D1F36F",
@@ -6602,7 +6583,6 @@
         "ECLP-wstETH-wETH-f01b": "0xf01b0684C98CD7aDA480BFDF6e43876422fa1Fc1",
         "Steak USDR-USDQ-USDT-f028": "0xf028Ac624074D6793C36dc8A06ECeC0F5a39a718",
         "BCoW-50WETH-50USDC-f08d": "0xf08D4dEa369C456d26a3168ff0024B904F2d8b91",
-        "50-TQQQon-50-USDC-f106": "0xf10675f9B72BC1EC427E9f392706E8E15c4A2645",
         "20WETH-80ALCX-f16a": "0xf16aEe6a71aF1A9Bc8F56975A4c2705ca7A782Bc",
         "agETH / rsETH-f1bb": "0xF1BBC5d95cD5Ae25AF9916b8a193748572050EB0",
         "50ASX-50WETH-f1f6": "0xf1f6004398e29437801257eCC2B0a852717430b7",
@@ -6624,7 +6604,6 @@
         "h10DaiAura-f656": "0xF656A566C9d3B2Cb046481351A1179017530C6C9",
         "BOLD-USDC-f6ae": "0xF6Ae565C17ceDC8647E4A7cCD9758d1DDE7b07e2",
         "LPePyvcrv3crypto-12NOV21-f6dc": "0xF6dc4640D2783654BeF88E0dF3fb0F051f0DfC1A",
-        "BCoW-50AAVE-50ETH-f706": "0xf706c50513446d709f08d3e5126cd74fb6bFDA19",
         "20WBTC-20FTM-20MATIC-20SNX-20WETH-f751": "0xf751aC6835977294bB2c093124C372e57b8Edd29",
         "50DAI-35rETH-5rETH-10aETHc-f767": "0xF767F0a3FCf1EAfEc2180b7dE79D0c559D7E7e37",
         "50MIDAS-50WETH-f779": "0xf7795Ee348c197EAbfb5283d9f5A2231548e75CE",
@@ -6905,7 +6884,6 @@
         "50TEMPLE-50bb-a-USD-gauge-973f": "0x973fb174Cdf9b1652e4213125a186f66684D899c",
         "50BANK-50WETH-gauge-9795": "0x9795B9f02984cb9a09E03FB975b1D4285CEd80Fe",
         "Surge wUSDN-Prime GHO-gauge-9798": "0x9798995a042973D9705A4f0fea691a4541d13B43",
-        "BCoW-50AAVE-50ETH-gauge-97b3": "0x97B30eAB9b02C5A04F7C61874CD010D8D617ea3f",
         "80IDLE-20USDC-gauge-9aaa": "0x9aaAf6757BE9e115895429EF6B81e05dCB951646",
         "B-50USDC-50WETH-gauge-9ab7": "0x9AB7B0C7b154f626451c9e8a68dC04f58fb6e5Ce",
         "50COMP-50WSTETH-gauge-9c0f": "0x9C0f4144D037688e0AdA74B22a9aAb7c14c58e6C",
@@ -7167,14 +7145,6 @@
         "dao": "0x4f22C2784Cbd2B24a172566491Ee73fee1A63c2e"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -7184,23 +7154,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -7212,16 +7176,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -7239,10 +7203,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -7255,10 +7216,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -7448,6 +7418,14 @@
         "GyroECLPPoolFactory": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c",
         "MockGyroECLPPool": "0x9f45656d118f7a154Fe52bB4585093AE7e0A2267"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockWeightedLPOracle": "0x1884CD33850838Cfc37c35e078bee098580aaD2b"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77",
+        "MockStableLPOracle": "0xDC977dA80aeaca0F6E77455472dB0B238eC15b1F"
+      },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
@@ -7456,14 +7434,6 @@
         "emergency": "0x3a921d6956C62012Dd88f95bD44224a7Ef5C9b5a"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -7473,23 +7443,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -7501,16 +7465,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -7528,10 +7492,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -7544,10 +7505,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -7586,7 +7556,15 @@
           "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba"
         }
       },
-      "pools": {},
+      "pools": {
+        "shMON-cWMON-173e": "0x173EF24A525eDbB93BF39674A2ddEC87b4B426Bd",
+        "syzUSD-cAUSD-30ac": "0x30AC51001dDc10d7caDA5Aa4D695a6f89057a40a",
+        "USDC-AUSD-3e0d": "0x3E0db2834ff0Fbce5B1fF0aDA21093E256E925e5",
+        "W-wbtc-weth-4af4": "0x4aF4eD3D9f750b6647d77c8206a2dee13E8343bE",
+        "gMON-cWMON-bf30": "0xBF30CBDEA179330683B4865AB7348cA8E05B9c6E",
+        "WMON-AUSD-f10a": "0xf10A8CF648dBc209Cb53116b54e30B0F4A740892",
+        "S-AUSD-USDC-f3bb": "0xf3bb2bE1193FC786C89CE43C5c2F0546F53D5469"
+      },
       "gauges": {}
     },
     "optimism": {
@@ -7838,6 +7816,14 @@
         "GyroECLPPoolFactory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
         "MockGyroECLPPool": "0x3983a72895c0f3E0c194f49e116b36969f2E91C8"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0xEB2BB012869255f8C622563Dc4C3AFA8619fe804",
+        "MockWeightedLPOracle": "0x6c310Ed48F69c212bB781c0C527df27E3e1FbdB2"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0xC4c4940DC7c57DF46d3A217647dB1649721Cf468",
+        "MockStableLPOracle": "0x1Cd6dd6F5Db2864354e44E91464a6402e7f155f8"
+      },
       "multisigs": {
         "dao": "0x043f9687842771b3dF8852c1E9801DCAeED3f6bc",
         "fees": "0x09Df1626110803C7b3b07085Ef1E053494155089",
@@ -7856,14 +7842,6 @@
         }
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -7873,23 +7851,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -7901,16 +7873,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -7928,10 +7900,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -7944,10 +7913,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -8446,6 +8424,14 @@
         "GyroECLPPoolFactory": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd",
         "MockGyroECLPPool": "0x3965CeB788589015613c6a7065dcACa00E7242eE"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
+        "MockWeightedLPOracle": "0xE0F16ceb6cA9c1B440C02873193fABA07e34E55A"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
+        "MockStableLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
+      },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
@@ -8454,14 +8440,6 @@
         "emergency": "0x0d3319A8057A0C8afd87dFEEA252541A76d56Ebf"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -8471,23 +8449,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -8499,16 +8471,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -8526,10 +8498,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -8542,10 +8511,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -8601,7 +8579,6 @@
         "syrupUSDT-waPlaUSDT0-6991": "0x699153933Db85Fb32e8937FaBeB8A16B3BAcE4A7",
         "waPlaUSDe-waPlaUSDT0-6a74": "0x6a74BE33B5393D8A3EbA4D69B78f9D9da947C48c",
         "schUSD-USDT0-70fb": "0x70Fbc8B852208e27eF04222db77b14E4e8E5404c",
-        "ebUSD-tcUSDT0-7259": "0x72598b1682eA78e8f2f7bF42a2F2D01e06781587",
         "sUSDe-waPlaUSDT0-778e": "0x778eBDDa037A539fC17B2802762B9C2827ED99D1",
         "50LITH-50WXPL-7b7f": "0x7B7fffBA1e5A2634eA9B98c9A9f65dacE630A722",
         "ezETH-waPlaWETH-8796": "0x8796722fe20f34D567F29AF66E73f8a0A703638c",
@@ -8785,6 +8762,7 @@
       "multisigs": {
         "lm": "0xc38c5f97B34E175FFd35407fc91a937300E33860",
         "dao": "0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85",
+        "treasury": "0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89",
         "fees": "0x7c68c42De679ffB0f16216154C996C354cF1161B",
         "emergency": "0x3c58668054c299bE836a0bBB028Bee3aD4724846",
         "blabs_ops": "0xf9D6BdE5c2eef334AC88204CB2eEc07111DCBA97",
@@ -8796,14 +8774,6 @@
         "aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -8813,23 +8783,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -8841,16 +8805,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -8868,10 +8832,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -8884,10 +8845,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -10790,6 +10760,14 @@
         "GyroECLPPoolFactory": "0x29319cC611A086D177bA8784320Cd1dB6Ca7E0D6",
         "MockGyroECLPPool": "0x8dD38DF691eEbBaF778e694BeCa3B62F8bfADf1a"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0xa1B43C4EcB2fB798f32DfBAfc71c383EA5DA52Bd",
+        "MockWeightedLPOracle": "0x1291bDDF7514a36b08563BF7Fd5c8cc61671cE67"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0x4A282996a433503ce22570E23eDD7900D230d825",
+        "MockStableLPOracle": "0x24E985938459Af9edc0a48D3Ab464A9eb16a11F2"
+      },
       "multisigs": {
         "MaxiTesting": "0xdb0d41598cE0497C3aF4961599dc9245d3c0B3ce",
         "balancer_labs": "0x4F99ccB28e78886BEb4d08880e6555896ad7FDd8",
@@ -10797,14 +10775,6 @@
         "emergency": "0xb01D7bFE3C8c67A8E4e63895795f73CB3558b77e"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -10814,23 +10784,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -10842,16 +10806,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -10869,10 +10833,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -10885,10 +10846,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -11062,6 +11032,14 @@
         "GyroECLPPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
         "MockGyroECLPPool": "0xa8ec402dC875A8BC1243329C1e1Ab8c45895F23D"
       },
+      "20260202-v3-weighted-pool-oracle-v2": {
+        "WeightedLPOracleFactory": "0x86705Ee19c0509Ff68F1118C55ee2ebdE383D122",
+        "MockWeightedLPOracle": "0x6E25b0eB7E089482E17a17fA32163EF48f2760f9"
+      },
+      "20260203-v3-stable-pool-oracle-v2": {
+        "StableLPOracleFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
+        "MockStableLPOracle": "0xc6316DBd4D1DBdd6050cc087431b88822D4AC6d6"
+      },
       "multisigs": {
         "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
         "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",
@@ -11070,14 +11048,6 @@
         "emergency": "0x6793df018B07C44E86D0b84C8C5f07EEc14E1270"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -11087,23 +11057,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -11115,16 +11079,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -11142,10 +11106,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -11158,10 +11119,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -11200,7 +11170,11 @@
           "discord-antiscam-bot": "0x8c42138C925d1049EC6B29F1EcF817b1628e54Ba"
         }
       },
-      "pools": {},
+      "pools": {
+        "W-USDT-xbtc-0896": "0x089664b3B67ad603cD45659F21B51d2B3305A502",
+        "S-USDG-USDT-6a1e": "0x6a1e1a96d260672c71e6a5a3AeEdc5a39C2d6573",
+        "WOKB-USD\u20ae0-test-c9df": "0xC9Dfcdf676791F0d1Eb12443c2a875017aFd0Ed2"
+      },
       "gauges": {}
     },
     "zkevm": {
@@ -11321,14 +11295,6 @@
         "maxyz_operator": "0xBeF27037bC6311b96635E5e9Af3A73EBF6Ca8878"
       },
       "EOA": {
-        "maxis": {
-          "zekraken": "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae",
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
-          "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
-          "jalbrekt": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
-          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
-          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
-        },
         "blabs_ops": {
           "Jeff": "0xBEf33200077A2A2AC3613aB92488b41FFc39AcE2",
           "Markus": "0xCae6f77a6cf4C952BF36793D91519fb4Ae86C264",
@@ -11338,23 +11304,17 @@
           "EmergencyPauser": "0x170027069fd114BFF2f57B0FC796df93290C02a6",
           "Fabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D"
         },
-        "maxi_deployers": {
-          "mikeb": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
+        "deployers": {
+          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673",
           "xeonus": "0x735Fddb3e475e5f7A61Ef674c72a7eDe82D1f493",
           "jalbrekt": "0xCD0d67924344aC36095812E04449795d9F0B8F3c",
           "gosuto": "0x4BC8121278056BFCaC2BD14D455659224d6dDf48",
-          "hyferion": "0x3d70C97879FDD61474637f8C39cf595078499C01",
           "zekraken": "0x082F554A92DA8311A8b6C62ba432b24F33790458",
-          "single_use": {
-            "injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853"
-          }
+          "raq": "0x960bE2d20669E1b2bfc38dBC92bf1c440Cc60F9d"
         },
         "beethoven": {
           "ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
           "netrim": "0xa01Bfd7F1Be1ccF81A02CF7D722c30bDCc029718"
-        },
-        "blabs_deployers": {
-          "juani": "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
         },
         "emergency": {
           "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
@@ -11366,16 +11326,16 @@
           "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
         },
         "dao": {
-          "AlexLangeVC": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
           "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
-          "tritium": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
-          "0xSausageDoge": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
+          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
           "eboadom": "0xA39a62304d8d43B35114ad7bd1258B0E50e139b3",
           "mounibec": "0x0951FF0835302929d6c0162b3d2495A85e38ec3A",
-          "trentmc0": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
+          "mikeb": "0xF01Cc7154e255D20489E091a5aEA10Bc136696a8",
           "StefanDGeorge": "0x9F7dfAb2222A473284205cdDF08a677726d786A0",
           "bonustrack87": "0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600",
-          "nanexcool": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5",
           "davgarai": "0xAc1aA53108712d7f38093A67d380aD54B562a650"
         },
         "treasury_council": {
@@ -11393,10 +11353,7 @@
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
         "dao_backup": {
-          "lewis": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
-          "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
-          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07",
-          "elbagococina": "0x6578183A203b41C419b93DF9121b5e3b26561aC5"
+          "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
         "maxiPay": {
           "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
@@ -11409,10 +11366,19 @@
           "tenderly_actions_signer": "0xE83E686b3344a33ED8f4f1a8Ee739F215A6A126a"
         },
         "emeritus": {
+          "0xSausageDoge_dao_signer": "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7",
+          "AlexLangeVC_dao_signer": "0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA",
+          "lewis_dao_signer": "0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29",
+          "nanexcool_dao_signer": "0x823DF0278e4998cD0D06FB857fBD51e85b18A250",
+          "trentmc0_dao_signer": "0x478eC43c6867c2884f87B21c164f1fD1308bD9a3",
           "solarcurve_signer": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
           "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
           "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
           "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
+          "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
+          "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
+          "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
+          "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
           "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
           "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
           "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
