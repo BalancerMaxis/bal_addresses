@@ -9,6 +9,9 @@
     "WBTC": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
     "WETH": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242"
   },
+  "helpers": {
+    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+  },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
   }
