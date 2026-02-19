@@ -13,6 +13,9 @@
     "WBTC": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
     "DAI": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4"
   },
+    "helpers": {
+    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+  },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
   }
