@@ -56,6 +56,10 @@
     "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
     "simon_vest_beneficiary": "0xfeffd47b42bd7936fcf256e162eedba99bd96556"
   },
+  "balancer_onchain_ltd": {
+    "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+    "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+  },
   "dao_backup": {
     "figue": "0x009d13e9bec94bf16791098ce4e5c168d27a9f07"
   },
@@ -94,7 +98,8 @@
     "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
     "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
     "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-    "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+    "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+    "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
   },
   "kyc": {
     "Arbitrum": {
