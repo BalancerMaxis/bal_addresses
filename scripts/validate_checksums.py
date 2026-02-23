@@ -30,9 +30,7 @@ def _checksum_str(s):
 def checksum_addresses_in_obj(obj):
     """Recursively checksum all Ethereum addresses in a JSON object (keys and values)."""
     if isinstance(obj, dict):
-        return {
-            _checksum_str(k): checksum_addresses_in_obj(v) for k, v in obj.items()
-        }
+        return {_checksum_str(k): checksum_addresses_in_obj(v) for k, v in obj.items()}
     elif isinstance(obj, list):
         return [checksum_addresses_in_obj(item) for item in obj]
     elif isinstance(obj, str):
@@ -135,7 +133,9 @@ def main():
         description="Validate or fix Ethereum address checksums in JSON files"
     )
     parser.add_argument(
-        "--fix", action="store_true", help="Fix addresses in-place instead of validating"
+        "--fix",
+        action="store_true",
+        help="Fix addresses in-place instead of validating",
     )
     parser.add_argument(
         "files", nargs="*", help="JSON files to process (default: extras/*.json)"
@@ -205,7 +205,9 @@ def main():
             print("\nRun with --fix to auto-correct")
             sys.exit(1)
         else:
-            print(f"All {len(json_files)} JSON files have properly checksummed addresses")
+            print(
+                f"All {len(json_files)} JSON files have properly checksummed addresses"
+            )
             sys.exit(0)
 
 
