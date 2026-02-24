@@ -98,8 +98,11 @@ def fix_json_file(filepath: Path) -> tuple[int, list[tuple[str, str]]]:
     Fix all addresses in a JSON file.
     Returns (count of fixed addresses, list of invalid addresses that couldn't be fixed).
     """
-    with open(filepath) as f:
-        data = json.load(f)
+    try:
+        with open(filepath) as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        return 0, [("", f"Invalid JSON: {e}")]
 
     # Find all addresses and check for invalid ones
     addresses = find_addresses_in_obj(data)
