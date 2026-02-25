@@ -22,7 +22,7 @@ jobs:
           PR_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           git fetch origin "$PR_SHA"
-          git checkout "$PR_SHA" -- config/ extras/ 2>/dev/null || true
+          git checkout "$PR_SHA" -- 'config/*.json' 'extras/*.json' 2>/dev/null || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
