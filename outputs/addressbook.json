@@ -433,6 +433,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -471,7 +475,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -2037,6 +2042,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -2075,7 +2084,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -2611,6 +2621,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -2649,7 +2663,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -3287,6 +3302,7 @@
         "CAKE ANON USDC WETH-c69e": "0xc69EE06491944c09127494Ff5453e5c62D2a1AFb",
         "reCLAMM-COW-WETH-c6d8": "0xc6d840823843676B004626a07cE664F7D8B368EA",
         "rETH-WETH-BPT-c771": "0xC771c1a5905420DAEc317b154EB13e4198BA97D0",
+        "50-Digitcoin-50-USDC-c7a4": "0xc7A4Ac52361AAc09E722A7E765f69dE77Ba0E841",
         "ZORA-AND-VIRTUAL-c7f8": "0xc7F8e86Eccf42c6D57cc847C249445722A34d292",
         "50BAL-50USDbC-c802": "0xc80289149774AEaB633A7a2C28d673c784A30BA1",
         "ECLP-WETH-USDT-dyn-c810": "0xC810e0F41A466A82215a3932c914732F3dA76a10",
@@ -3442,6 +3458,7 @@
         "1waBasWETHTOPEZ-fbce": "0xfbCe62093F3B03864E70084AB9aB095e95FE1196",
         "46WETH-54USDC-fbd0": "0xfBD0A6B636a4D236484333F51CCB18B681d6c39A",
         "ECLP-USDS-USDC-fcc1": "0xfcc187fdD48188241Bc4d5641651A0EB2EF5B307",
+        "bAI3-fd06": "0xfD064f832249314213c24A0cfa839d63515B4E9e",
         "50-FUCK-50-ALL-fd31": "0xfD313536B97D4f65b86f9A2FED42ec34aDF0C9eF",
         "JESSE-DAYONE-fdb1": "0xfdb13ffbD0b1Ef9b663368978A6FA1F364c84Ea7",
         "50doginme-50BONKE-fe54": "0xfE5475e27927b7D0bB03D16beB196b63A000fc1b",
@@ -3677,6 +3694,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -3715,7 +3736,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -3907,6 +3929,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -3945,7 +3971,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -4323,6 +4350,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -4361,7 +4392,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -4535,6 +4567,7 @@
         "groupLBP-s-capy-8611": "0x86117E9660C1B1e083E8dc17739Aa673Dd7DBf05",
         "20WETH-80BAL-864f": "0x864f76EabE542b0a83D09257AfaD59aD6f4eEdC3",
         "BPT-87c5": "0x87c5F623c5c334483Fc134BC30C71F91B0Afc02D",
+        "50-WXDAI-50-M69-8845": "0x8845241d46138c19D39631d52B38cb1fB584Ecb1",
         "BCoW-50BAO-50SRC9-888d": "0x888D36450364071115EF04fD90c1B4feCb052550",
         "BRLA-sDAI-889a": "0x889aC9F5c87e6CA075777D5E417b3634D3F84135",
         "groupLBP-s-DREAM-88d7": "0x88D7d9a91435a5462c35b8E3C50666F333038D96",
@@ -4914,6 +4947,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -4952,7 +4989,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -4989,7 +5027,6 @@
         "feUSD-USD\u20ae0-3bd1": "0x3Bd11140912Bf4B8FDAB32cD95ed3F89a2A4A98E",
         "WHLP-hUSD\u20ae0-3e91": "0x3E914881614438Eea85Cf0e67C3624bA039B37b3",
         "WHYPE-USD\u20ae0-5557": "0x5557a7cbB2F35825EAB8CF0781DE0314546176dc",
-        "33-WHYPE-33-UBTC-33 XAUt0-5942": "0x5942fC9eECd646277B7E010f8740553Bb0aac108",
         "50mcHYPE-50gtuETH-6bd8": "0x6BD8De0fEd17DC0C0A82b9Fe5522B129ecAEBDbD",
         "stathyWHYPE-USDXL-7029": "0x7029f8637a9DcF42f7aEEB1461f059e3cad0A119",
         "hbHYPE-mcHYPE-7072": "0x70723396b6DEb5BC3C56d58520E7df3f9104FC2c",
@@ -5006,7 +5043,8 @@
         "hyHYPE/USDXL-ca0d": "0xcA0dbC8355bEc87496AB5563F5E00Ba4eC270ee3",
         "50WHYPE-50UPUMP-cc6e": "0xcC6eE2BCc7537173F1F2c42ECb2d4D8Ec219a1f4",
         "USDHL-LOOP-d10d": "0xd10D872997e45686D2543cCB62E8f259Ab44Cc65",
-        "50USDXL-50WHYPE-fa5f": "0xFa5fABA5ec32c374B4b989FFEf1EA90B681a6e95"
+        "50USDXL-50WHYPE-fa5f": "0xFa5fABA5ec32c374B4b989FFEf1EA90B681a6e95",
+        "kHYPE-purrHYPE-ff43": "0xFF43d5f795c5CB3c864139B665463044c18923c9"
       },
       "gauges": {}
     },
@@ -5666,6 +5704,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -5704,7 +5746,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -5851,6 +5894,7 @@
         "B-USDC-USDT-FIXED-RATE-1d1b": "0x1D1b44A4C5A047Bdc9b3F06842566e5eA9c1966D",
         "LPeYyvCurve-MIM-11FEB22-1d31": "0x1D310a6238e11c8BE91D83193C88A99eB66279bE",
         "B-rETH-STABLE-1e19": "0x1E19CF2D73a72Ef1332C882F20534B6519Be0276",
+        "bNEO6-1e9e": "0x1E9ea34eaB5e4EDDAb4170047232F296746F8b00",
         "rETH-waEthWETH-1ea5": "0x1ea5870f7C037930CE1d5d8d9317c670e89e13E3",
         "50rETH-50BADGER-1ee4": "0x1ee442b5326009Bb18F2F472d3e0061513d1A0fF",
         "80BADGER-20graviAURA-1ee7": "0x1eE71e1Ed744AE6D4058F5c7797C2e583DbfB095",
@@ -5915,6 +5959,7 @@
         "B-50BAL-50GNO-3612": "0x36128D5436d2d70cab39C9AF9CcE146C38554ff0",
         "4USDC-368b": "0x368bD7879D5f494d71959ae1C50b54809E6bba5a",
         "50wstETH-50ACX-36be": "0x36Be1E97eA98AB43b4dEBf92742517266F5731a3",
+        "80-ixEdel-20-USDC-3708": "0x37081447540b194d8E9aA2dF95309Dc830DA8f11",
         "ETHx-WETH-BPT-37b1": "0x37b18B10ce5635a84834b26095A0AE5639dCB752",
         "50R-50wstETH-380a": "0x380aAbE019ed2a9C2d632b51eDDD30fd804d0fAD",
         "14DNT-14WBTC-14VEE-14KEY-14SNT-14QSP-14WETH-382d": "0x382dC5b2eCa1C1308Eb7e2B40c0F571AFB899aC8",
@@ -5948,6 +5993,7 @@
         "TrustlessMaxi-3e6c": "0x3e6c8f40D38d0b41c94862e6d4083c65Ce0Ce566",
         "B-50BAL-50WETH-3ebf": "0x3ebf48cd7586d7A4521cE59E53D9a907EBf1480F",
         "truskawki-weth-curve-3f2b": "0x3f2bFffa5b65A292034D09680DE2feA56Bb85962",
+        "40-sUSDe-40-WBTC-20-COM-3f5f": "0x3f5f1f111493833e252489171806fa811223D5b9",
         "50QUA-50USDT-3f72": "0x3f725ED5791b72554E9BEDf461eb76fC72dB8834",
         "50STG 50bb-e-USD-3f7a": "0x3f7a7fd7F214bE45EC26820Fd01aC3bE4fC75aa7",
         "50DFX-50WETH-3f7c": "0x3F7C10701b14197E2695dEC6428a2Ca4Cf7FC3B8",
@@ -5978,12 +6024,14 @@
         "25xFT-V2T1-25xFT-V2T2-25xFT-V2T3-25WETH-4445": "0x4445899c226bCb451aC8E2c42070510859557fb6",
         "80VLR/20WETH-4446": "0x4446d101E91D042b5d08b62fdE126E307F1aCD57",
         "50DOLA-50DBR-4454": "0x445494F823f3483ee62d854eBc9f58d5B9972A25",
+        "-449d": "0x449dE2fEa0FbbEdf8522A3bA85f6173Cf4DEeeBD",
         "USDT-UP-457a": "0x457Ae89D174eb45E78651FE7cf3bE647A4252BaE",
         "B-90RLY-10USDC-4591": "0x45910fafF3cBf990FdB204682e93055506682d17",
         "B-50BAL-50DAI-4626": "0x4626d81b3a1711bEb79f4CEcFf2413886d461677",
         "50OCEAN-50WETH-4705": "0x470581ca95C071728e85a6E28a5b1754cD489bE2",
         "25WBTC-50USDC-25WETH-4729": "0x4729F67394030472e853cb61954fe784BFB36c3B",
         "80PHONON-20WETH-472a": "0x472AFe4C35dC218A41736D4aceEaB650db43C584",
+        "ECLP-phUSD-sUSDS-476c": "0x476C61E8F496fAed0773c68EB4476077b82F0D45",
         "aETH/wstETH-47a4": "0x47a4f5440Ab097CF3ec7abEeDF1afeCC5749a4E2",
         "20WETH-80ALTR-47e1": "0x47E1Cf97A0586367349A14306A65F54Ba0b8f1B6",
         "USDT-NNB-4819": "0x48193400a6b85aE2022472e9BA305e3EAfc58bCe",
@@ -6094,6 +6142,7 @@
         "TBY-feb1924-USDC-BPT-6237": "0x623729861bc3837c503708f995B93D317c3c1d7c",
         "OlasHardAssetBundle-628c": "0x628CfD3Cb6834CC21E5C2cAaA274e44D3BdE64E2",
         "B-kaiAURA-AURA-WEIGHTED-62e5": "0x62E57e37E3185871c13a422A363293780D17305B",
+        "bMAG7-62fb": "0x62fb799B7b0Df3E2b2dC15964a0B60Ea146342f3",
         "DVstETH/wstETH-632a": "0x632aafC2D3D2cA1764E702aa25c065c273Cd08eD",
         "DEFI MEMES-6378": "0x6378c977cc421F71DFFf5aa72B1567d1082AD00d",
         "50STG-50bbaUSD-6398": "0x639883476960a23b38579acfd7D71561A0f408Cf",
@@ -6241,6 +6290,7 @@
         "ECLP-USR-GYD-8461": "0x8461537a9BfC5A1dF57cF825F8A58049eF61557B",
         "weETH/ezETH/rswETH-848a": "0x848a5564158d84b8A8fb68ab5D004Fae11619A54",
         "60-GOLD-40-wstETH-849b": "0x849bAe578b9367c5b0f285E6EC52BA0db9b4Ed9D",
+        "50-ZCHF-50-svZCHF-849d": "0x849d43118c2e3c4856aF26EE96F1A9d72bC2774f",
         "50AAVE-50BAL-8517": "0x85177c679B84CB54e875A8F5112747b9438ed39e",
         "STRINDX-8523": "0x8523BcAdCda4Bd329435940DcC49A7c4c0a14D94",
         "CREAM_ETH-8537": "0x85370D9e3bb111391cc89F6DE344E80176046183",
@@ -6350,6 +6400,7 @@
         "B-USDC-USDT-O-STABLE-a335": "0xa3353f841193c4b77080038663A0DB22da7D26db",
         "14YFI-14UNI-14WBTC-14CHZ-14LINK-14COMP-14WETH-a33e": "0xa33E376932b2c01323F0A7f9bBe0a53F7662B2E9",
         "hETH/wstETH-a34b": "0xa34bD98E54411494C55F6b12626204350d2D447f",
+        "UNGon-a395": "0xa395E808948D3B311a235FDA65533A7E1621A5BA",
         "B-kaiAURA-AURA-WEIGHTED-a3b4": "0xa3b42269Ef2b63403b347ee85C1cFb0988cdE9AC",
         "50SYN-50WETH-a3c5": "0xa3C500969accb3D8DF08CBa313C120818fE0ed9D",
         "50WETH-50EIGEN-a455": "0xa4557F5bad7ffd261260cc965D95FC8EAcB7C9a3",
@@ -6374,6 +6425,7 @@
         "50APU-50BITCOIN-aaab": "0xAaab20561E5D478b476E6f23476d6C4aD4826204",
         "PRIME-aaac": "0xAAAc5297F76ED0158B2a39639D71647b7F2eB6Be",
         "B-60MKR-40WETH-aac9": "0xaac98EE71D4F8A156B6abaa6844Cdb7789d086CE",
+        "50-TrumpBucks-50-ETH2X-aad6": "0xaAd6B52F062940253eA350c71d7dD5f43a7D80bc",
         "B-baoETH-rETH-BPT-abc7": "0xAbC7d08EF73FE3Fb67eFd900F4471CCa788b0899",
         "50B-80BAL-20WETH-50sdBal-abf3": "0xaBf3Eb5Ce7FEE55b25E2ca65962184979166b228",
         "ShezUSD-sDAI-ac03": "0xac035537edf62beEF0c7208181379F89deF22119",
@@ -6396,6 +6448,7 @@
         "pxETH/frxETH-b06b": "0xB06bFBD7b50F80c8d9dA57Fc4cF5CBD5B3E2f148",
         "B-staFiETH-WETH-Stable-b088": "0xB08885e6026bab4333A80024Ec25a1a3e1FF2b8A",
         "PROS/WBTC/WETH-b17f": "0xb17F203507d2014E49961FB0d9dD241A220F118B",
+        "weETH-waEthWETH-b1ce": "0xb1ce8aD37680C26B75C7Bf6395d6c0B3C0994E37",
         "PROS-7COMBO-b1f6": "0xB1F62fc950E30A64a5032bBD8619A70B2c2B27C6",
         "50DOLA-50WETH-b204": "0xb204BF10bc3a5435017D3db247f56dA601dFe08A",
         "80SWIV-20WETH-b209": "0xB209468FC8C99360657D48238e1a7cf0B13362b6",
@@ -6456,6 +6509,7 @@
         "GHO/bb-a-USD-c2b0": "0xc2B021133D1b0cF07dba696fd5DD89338428225B",
         "AXIE-c314": "0xC3141fC45791CcA3F21F2A926Fd8598c39a4C6d2",
         "ShezETH-wstETH-c337": "0xC337E87941f8522468D49344246f5EfBf06c4599",
+        "Golden Memes-c3b1": "0xc3b10D061C1e172883135532F1DCA99348544959",
         "bb-a-USD-c443": "0xc443C15033FCB6Cf72cC24f1BDA0Db070DdD9786",
         "10LUSD-6LQTY-3rETH-26WETH-55RPL-c445": "0xc4451498F950b8B3AbD9a815cF221a8e64791388",
         "50OHM-25DAI-25WETH-c45d": "0xc45D42f801105e861e86658648e3678aD7aa70f9",
@@ -6515,6 +6569,7 @@
         "80BIDS-20WETH-d872": "0xd8721E92BA0F8235B375E9ec9a7B697Ec4e2D6c6",
         "vNFT-d883": "0xd8833594420dB3D6589c1098dbDd073f52419Dba",
         "rETH-xrETH-d900": "0xd9005569C381d57506BaefB69f90d1Bb52a023B9",
+        "WETH-WBTC-d906": "0xD906c9ad72a8F2C82B05ad83110531F16497C5D9",
         "Aave USDC-Aave RLUSD-d993": "0xD99324D16b9a9ECA5a20fECee5d1989558B9d8eD",
         "bb-f-USD-d997": "0xD997f35c9b1281B82C8928039D14CdDaB5e13c20",
         "eBTC/wBTC-da17": "0xda17f3663C5D04C0B316cfA1A04Aa53eBBC8c12C",
@@ -6557,6 +6612,7 @@
         "mBPT-e246": "0xe2469f47aB58cf9CF59F9822e3C5De4950a41C49",
         "LPeYyvCurveLUSD-30JUN21-e2cd": "0xe2cD73cfeB471f9F2b08A18afbc87Ff2324eF24E",
         "50WETH-50USDT-e2e0": "0xe2E01a8b901dE83156e51bc6f87309E64C9bD39A",
+        "80-ZRO-20-PAXG-e2f6": "0xE2F6127B5C93A95415AF14dF900db52a509CF590",
         "50stETH-50SNX-e313": "0xe3132B8923aE75c66C9C07032FC56Fd4Bb1e4eCB",
         "50BADGER-50rETH-e340": "0xe340EBfcAA544da8bB1Ee9005F1a346D50Ec422e",
         "WETH-PHANDS-e36b": "0xe36b198C43dDBec2d25C4f0A0bC5B80330551009",
@@ -6566,6 +6622,7 @@
         "20USDC-80FOLD-e4af": "0xe4aF3c338260AAbf119B5023d497437974769413",
         "2BTC-e4e7": "0xe4e72f872c4048925a78E1e6Fddac411C9ae348A",
         "LPeYyvDAI-16OCT21-e54b": "0xE54B3F5c444a801e61BECDCa93e74CdC1C4C1F90",
+        "AAVE/ZRO/BTC/USDC-e5b4": "0xe5b4F174EaA53428f3baE67364Fac7a5650EE245",
         "WSB-MACRO-e7b1": "0xE7B1D394f3b40ABeAa0b64a545Dbcf89da1ecB3f",
         "50SMT-50WETH-e805": "0xe805c864992e6a6cBf46E7E81C7154B78155D0ac",
         "B-60GEL-40DEXG-e807": "0xe8075304A388f2f9B2af61f502741a88Ff21D9A4",
@@ -6601,7 +6658,6 @@
         "BCoW-50WETH-50USDC-f08d": "0xf08D4dEa369C456d26a3168ff0024B904F2d8b91",
         "20WETH-80ALCX-f16a": "0xf16aEe6a71aF1A9Bc8F56975A4c2705ca7A782Bc",
         "agETH / rsETH-f1bb": "0xF1BBC5d95cD5Ae25AF9916b8a193748572050EB0",
-        "MEGA7-f1da": "0xF1dAa837204C990e6f195eaf98BBe59Bd49874cC",
         "50ASX-50WETH-f1f6": "0xf1f6004398e29437801257eCC2B0a852717430b7",
         "BCoW-50WBTC-50wstETH-f25a": "0xf25a3b5A965c59f88873Da93FC2a244B00616Be4",
         "50sAPE-50USDC-f2cb": "0xF2CBD0AA97419BC4dbbaeFC06607e05C003c2476",
@@ -6634,8 +6690,10 @@
         "TSB-BTC-ETH-USDC-Pool-fa15": "0xfa1575c57D887E93f37A3C267a548Ede008458B3",
         "20OHM-80FDT-fb46": "0xFB46Bc8FC0D06421D362A31B7230F39462efA79A",
         "ECLP-GYD-USDT-fbfa": "0xfbfaD5fa9E99081da6461F36f229B5cC88A64c63",
+        "50-ZRO-50-WBTC-fc44": "0xfC4427351b57028aeD94b8e6D5DdF3b63fF9B289",
         "33WBTC-33WETH-33NODED-fceb": "0xfCeB92864553F78540b4c08c7C1F4d67b095edBf",
         "B-rETH-swETH-STABLE-fcf7": "0xFCF77141908Aa22bfEAc216123C5FEb2531f373e",
+        "ENS-LINK-WETH-fd0c": "0xFd0C105dE04D261cf1851b3481552178fFC9f9B8",
         "50PENDLE-50WETH-fd1c": "0xFD1Cf6FD41F229Ca86ada0584c63C49C3d66BbC9",
         "USDT-LBCX-fdab": "0xfdaBEE3bB82E6e8e1575C6fbc68C09ac03310719",
         "ShezBTC/stBTC-fe65": "0xfe6517a5C3defC09Bee9b52546Dad91526a2836b",
@@ -6786,6 +6844,7 @@
         "msUSD-iUSD-gauge-5241": "0x5241B61045AFB7bc7E031bFe4931Ef4BD614d5eC",
         "Surge USDf-aGHO-gauge-52d2": "0x52d28dfF7759Ca78978954eBAbF87481BD5Cf8f0",
         "80psdnOCEAN-20OCEAN-gauge-53fa": "0x53Fa0546f307317dAA82371e94E8Dcd5CAd3345F",
+        "50-ZCHF-50-svZCHF-gauge-5483": "0x54839a2Fe079a21311127f3D811ec8C7aFD0A2e9",
         "USDC-DAI-USDT-gauge-5612": "0x5612876e6F6cA370d93873FE28c874e89E741fB9",
         "swETH-bb-a-WETH-BPT-gauge-5669": "0x5669736FD1dF3572f9D519FcCf7536A750CFAc62",
         "50COW-50GNO-gauge-57ab": "0x57AB3b673878C3fEaB7f8FF434C40Ab004408c4c",
@@ -6816,6 +6875,7 @@
         "50wstETH-50bb-a-USD-gauge-6513": "0x651361a042e0573295dd7f6A84dBD1DA56DAc9D5",
         "ECLP-cbETH-wstETH-gauge-655a": "0x655A2B240151b4fAb06dfb2B6329eF72647F89dd",
         "80Silo-20WETH-gauge-6661": "0x6661136537dfDCA26EEA05c8500502d7D5796E5E",
+        "80-ixEdel-20-USDC-gauge-6732": "0x6732ED78BF1D8afA3ef03F1ead302d21b0B2B1FF",
         "Aave USDC-Aave RLUSD-gauge-67c4": "0x67c4d3685E78b7ED874Bf4dAd1c4c9307E000dc0",
         "bb-a-USD-gauge-68d0": "0x68d019f64A7aa97e2D4e7363AEE42251D08124Fb",
         "RZR-lstRZR-gauge-69bd": "0x69BD054863DbF43a42189665dBD4060d2C07A2C8",
@@ -7219,6 +7279,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -7257,7 +7321,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -7317,6 +7382,9 @@
         "USDT": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
         "WBTC": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "WETH": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242"
+      },
+      "helpers": {
+        "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
       },
       "uniswap": {
         "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
@@ -7508,6 +7576,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -7546,7 +7618,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -7578,14 +7651,14 @@
         "reCLAMM-WMON-AUSD-2532": "0x2532D150c81ee8cDFcc301e417A5D129735A895d",
         "wnAUSD-wnUSDC-wnUSDT0-2daa": "0x2DAA146dfB7EAef0038F9F15B2EC1e4DE003f72b",
         "sMON-wnWMON-3475": "0x3475Ea1c3451a9a10Aeb51bd8836312175B88BAc",
+        "DUST-USDC-36da": "0x36DA07624FC02b34042770EbE505e844C7B529FF",
         "USDC-AUSD-3e0d": "0x3E0db2834ff0Fbce5B1fF0aDA21093E256E925e5",
         "W-wbtc-weth-4af4": "0x4aF4eD3D9f750b6647d77c8206a2dee13E8343bE",
-        "gMON-WMON-7346": "0x7346F502ee02a29A866cBd8EF4edaB1802643EDd",
+        "50-gMON-50-WMON-66b7": "0x66b7b2389ccedF5f0F5217b7811741344b34b4fA",
         "80-DUST-20-wnAUSD-8f4f": "0x8f4fb1985Eb6D28b9E3f4aD116a6FFF087b55F43",
         "gMON-wnWMON-b121": "0xB121734bD471A19743fB44433C58babCBE281467",
         "syzUSD-wnAUSD-c71c": "0xC71C30914bc7790218B1adEE782ba307b7867B08",
         "wnLOAZND-AZND-wnAUSD-d328": "0xD328E74AdD15Ac98275737a7C1C884ddc951f4D3",
-        "WMON-AUSD-f10a": "0xf10A8CF648dBc209Cb53116b54e30B0F4A740892",
         "S-AUSD-USDC-f3bb": "0xf3bb2bE1193FC786C89CE43C5c2F0546F53D5469"
       },
       "gauges": {}
@@ -7922,6 +7995,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -7960,7 +8037,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -8521,6 +8599,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -8559,7 +8641,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -8593,6 +8676,7 @@
         "savUSD-waPlaUSDT0-2744": "0x2744A6df1b4b8196D05fb82e13de6F47207ce0f9",
         "1WXPL-99UCF-2e88": "0x2e8837fAbC74B5731b468d9B94cDe2513DD2d7A6",
         "schUSD-waPlaUSDT0-3079": "0x307906F2e1B275c76993c81d9C536dE5492337B7",
+        "splUSD-tcUSDT0-3104": "0x31048a64b0d46c017787a457D7553b3463758E0F",
         "syrupUSDT-waPlaUSDT0-ebUSD-3615": "0x36151aCeb3e2e1442d6239e7651ee3fa676c0936",
         "xUSD-WXPL-3945": "0x3945E9E3177BC82CA21596B46ce039e494114C6F",
         "USDai-USDT0-4ba4": "0x4Ba45fB7dE134bCb24A6053Bbe21C3a4be9f85EA",
@@ -8855,6 +8939,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -8893,7 +8981,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -10856,6 +10945,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -10894,7 +10987,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -10938,6 +11032,9 @@
         "USDC.e": "0xA8CE8aee21bC2A48a5EF670afCc9274C7bbbC035",
         "WBTC": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
         "DAI": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4"
+      },
+      "helpers": {
+        "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
       },
       "uniswap": {
         "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
@@ -11129,6 +11226,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -11167,7 +11268,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
@@ -11376,6 +11478,10 @@
           "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
           "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
         },
+        "balancer_onchain_ltd": {
+          "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
+          "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
+        },
         "dao_backup": {
           "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
         },
@@ -11414,7 +11520,8 @@
           "zendragon_payee": "0xE743449D33F2F330A46dbC050565239F5dF8805A",
           "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
           "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
-          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9"
+          "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
+          "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
         },
         "kyc": {
           "Arbitrum": {
