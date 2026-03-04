@@ -199,12 +199,16 @@
         "MockGyroECLPPool": "0x5658CE330A9e93B0861F7e222edeb17c9F558acf"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0xA9AEeB57Efe61338C0d07f3e5Bb82519C4Ad1103",
-        "MockWeightedLPOracle": "0x0977CeF528FE45DB994E168889140c5b103E0413"
+        "WeightedLPOracleFactory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
+        "MockWeightedLPOracle": "0x196e86f8f4ac57702875e391eA981C1Cb3810c62"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0xa59F164d6cf6ee5d63580C0bcEA5CCB2e50b908c",
-        "MockStableLPOracle": "0x0B1450a296dD4B8104a9576A60DBB2842B0b5958"
+        "StableLPOracleFactory": "0xC09244C585F59cB61Cfb08e4fE7A560cD448834b",
+        "MockStableLPOracle": "0xa8d681Bf47023eC703C6249b7724D716D66bd36F"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0xD9E91f7aD501929b089992842a3f193795E6479e",
+        "MockEclpLPOracle": "0x2E8a92050f19216288742f7D02620961AaF565B4"
       }
     },
     "avalanche": {
@@ -391,12 +395,16 @@
         "MockGyroECLPPool": "0x4A0c4bF665591Ce77Dc75f2608647eE7275543ba"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
-        "MockWeightedLPOracle": "0x63DFB4cdB6bD225ec41f669d8D26279714B4Ad6E"
+        "WeightedLPOracleFactory": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7",
+        "MockWeightedLPOracle": "0xFf4C6f3d1682Bf16376568aeAf5F7624176c68eC"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
-        "MockStableLPOracle": "0x0EC96D7d3d3a4fE856C30E72a3522C8Fc73D2f33"
+        "StableLPOracleFactory": "0x254F3A2974b97dc2E675f6115c845567C55f83b0",
+        "MockStableLPOracle": "0xc10DA7439B7DF61A105dD9C9a93178b93458006A"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
+        "MockEclpLPOracle": "0xc289d9691c78792a7Ac85F0CFc307D17c1E28e99"
       }
     },
     "base": {
@@ -592,12 +600,16 @@
         "MockGyroECLPPool": "0xe5b7AC176B7516806BD8bB4240C479f5FF215D47"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x9958317b80ee5f10457017d54c2484D722059157",
-        "MockWeightedLPOracle": "0x63DFB4cdB6bD225ec41f669d8D26279714B4Ad6E"
+        "WeightedLPOracleFactory": "0x397BC40Ba584E651f4f5Cf4Ae089F0130569a1c7",
+        "MockWeightedLPOracle": "0xFf4C6f3d1682Bf16376568aeAf5F7624176c68eC"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x5939ab16fDf1991B0EF603c639B6b501A7841fAB",
-        "MockStableLPOracle": "0x0EC96D7d3d3a4fE856C30E72a3522C8Fc73D2f33"
+        "StableLPOracleFactory": "0x254F3A2974b97dc2E675f6115c845567C55f83b0",
+        "MockStableLPOracle": "0xc10DA7439B7DF61A105dD9C9a93178b93458006A"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x2cf8e145Bdfe7c52b49AD9bB3c294a31B2736c59",
+        "MockEclpLPOracle": "0xb5fdad81ff3ACdbdbf232784A31074Ff4153C5C8"
       }
     },
     "bsc": {
@@ -932,12 +944,16 @@
         "MockGyroECLPPool": "0xa86C8204BA7c8FbDa88205C8fa953B23105719Fe"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x332694Ef46D880DF6Ea9593e04CB8ABEE5F81D99",
-        "MockWeightedLPOracle": "0x4B1Ca18D2D32f12BD3a6bE7Cd254ce434081A13c"
+        "WeightedLPOracleFactory": "0x187a05fb9e4234Dd310ae74215743560D1BAA6Ac",
+        "MockWeightedLPOracle": "0xb2910659963B02af2a6B0c5f0795a3e3604D6C4e"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x4eFcd8bcE8AC9b94bd76648e2c85bEf6c40F3228",
-        "MockStableLPOracle": "0xe73d9025943F10D212CA802695edace037c0c389"
+        "StableLPOracleFactory": "0xfA80c17EE7E382c9C541bFa4bea0514E46DCCba5",
+        "MockStableLPOracle": "0x7848aF1E96B16c044766405eC5D90a9Bc7e45CB0"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x9Dcf4E2Fea84ee8081ABecFb6321Ae2c55E1691D",
+        "MockEclpLPOracle": "0x2508A1abd19daDaA33577b11FC872dC3DbaC95d2"
       }
     },
     "hyperevm": {
@@ -1072,12 +1088,16 @@
         "MockGyroECLPPool": "0xAA1A1D99F293Ef1aC04618594e0Ab6715baf9d95"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0xBcA68cb9B794A4fb84855e003e4cF591F80A3Dc9",
-        "MockWeightedLPOracle": "0xdA9d6b038A59846185302EB91ce3Bd97168d036B"
+        "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
+        "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x45fB5aF0a1aD80Ea16C803146eb81844D9972373",
-        "MockStableLPOracle": "0xbba498849c17999030BeA938301abb7DB567740F"
+        "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
+        "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0xDADa7bE438bdD89416F4802B679E320b15c92D49",
+        "MockEclpLPOracle": "0x6504f139C12B190F427d488D93Ab5fc00f4c1B4e"
       }
     },
     "mainnet": {
@@ -1341,12 +1361,16 @@
         "MockGyroECLPPool": "0xC27d496A903C4328456f8A2De7457Dcf4803Cc4C"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0xDd10aDF05379D7C0Ee4bC9c72ecc5C01c40E25b8",
-        "MockWeightedLPOracle": "0x82c36Ffed5eAbB7D4D3f1798a322BC76621cFd41"
+        "WeightedLPOracleFactory": "0x4b4b45Edf6Ca26ae894377Cf4FeD1FA9F82D85C6",
+        "MockWeightedLPOracle": "0x09917922379404a25AbA9183BCaE7bAb72e7E8EC"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x99f2D91EBA577e4Bf7175E72B3Ef2B6dDb1FaBe3",
-        "MockStableLPOracle": "0xfB018615183C6c9c7f50a6b9FA9bF241b3F50698"
+        "StableLPOracleFactory": "0x765ce16dbb3D7e89a9beBc834C5D6894e7fAA93c",
+        "MockStableLPOracle": "0x4Dcc26930A571D7A3f2f8E5e221F5f00810Aa8Dc"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x301EDe5Fd4f9d7266B09c3A2E38F97776447154B",
+        "MockEclpLPOracle": "0xED9031a1300d721cF859ee2BA1f0fb33dC9928A2"
       }
     },
     "mode": {
@@ -1532,12 +1556,16 @@
         "MockGyroECLPPool": "0x9f45656d118f7a154Fe52bB4585093AE7e0A2267"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
-        "MockWeightedLPOracle": "0x1884CD33850838Cfc37c35e078bee098580aaD2b"
+        "WeightedLPOracleFactory": "0x18CC3C68A5e64b40c846Aa6E45312cbcBb94f71b",
+        "MockWeightedLPOracle": "0x37302B98918382c43a176e5f3Bc7B11448cC6498"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0xbC169a08cBdCDB218d91Cd945D29B59F78c96B77",
-        "MockStableLPOracle": "0xDC977dA80aeaca0F6E77455472dB0B238eC15b1F"
+        "StableLPOracleFactory": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d",
+        "MockStableLPOracle": "0x3a67b320e42cB7c777d8D2417a0b1A4CfDBa6e95"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockEclpLPOracle": "0x3234658811D726835547FAE1dEfF3892a0D9D9A1"
       }
     },
     "optimism": {
@@ -1734,12 +1762,16 @@
         "MockGyroECLPPool": "0x3983a72895c0f3E0c194f49e116b36969f2E91C8"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0xEB2BB012869255f8C622563Dc4C3AFA8619fe804",
-        "MockWeightedLPOracle": "0x6c310Ed48F69c212bB781c0C527df27E3e1FbdB2"
+        "WeightedLPOracleFactory": "0x718e1176f01dDBb2409A77B2847B749c8dF4457f",
+        "MockWeightedLPOracle": "0xa242abb4238AD3EDF7376eF6a148B82b18166924"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0xC4c4940DC7c57DF46d3A217647dB1649721Cf468",
-        "MockStableLPOracle": "0x1Cd6dd6F5Db2864354e44E91464a6402e7f155f8"
+        "StableLPOracleFactory": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883",
+        "MockStableLPOracle": "0x09884c766EFaC3F683BeD3F55e2B91ACFD5315b0"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d",
+        "MockEclpLPOracle": "0xD25c200733a685F9B0926aDD006FA4e022BfB4CA"
       }
     },
     "plasma": {
@@ -1878,12 +1910,16 @@
         "MockGyroECLPPool": "0x3965CeB788589015613c6a7065dcACa00E7242eE"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
-        "MockWeightedLPOracle": "0xE0F16ceb6cA9c1B440C02873193fABA07e34E55A"
+        "WeightedLPOracleFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
+        "MockWeightedLPOracle": "0xEaFb4460ab3fB3569d099f5C3c96b6aB4ae864ab"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
-        "MockStableLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
+        "StableLPOracleFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
+        "MockStableLPOracle": "0x5C693119D36Fbb0c00856D91Efe3E3cb6782F857"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
+        "MockEclpLPOracle": "0x7c352B98D66F93cAA1610920584442bE666d00Ad"
       }
     },
     "polygon": {
@@ -2215,12 +2251,16 @@
         "MockGyroECLPPool": "0x8dD38DF691eEbBaF778e694BeCa3B62F8bfADf1a"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0xa1B43C4EcB2fB798f32DfBAfc71c383EA5DA52Bd",
-        "MockWeightedLPOracle": "0x1291bDDF7514a36b08563BF7Fd5c8cc61671cE67"
+        "WeightedLPOracleFactory": "0x8bcC4794c10A8ad91e17166704473CcCCC324F43",
+        "MockWeightedLPOracle": "0xf63c8Af0Ab3376E7CBBAb6f03633909B8847b180"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0x4A282996a433503ce22570E23eDD7900D230d825",
-        "MockStableLPOracle": "0x24E985938459Af9edc0a48D3Ab464A9eb16a11F2"
+        "StableLPOracleFactory": "0x49EbB31e7243E287EBC3A75A6E72e7E5940f69a3",
+        "MockStableLPOracle": "0xD4bAE0132a839F11f5de62C0013355EE57fc0a77"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0x75428F1f13bAF278c1a18B4DfD61d4544e0bdc92",
+        "MockEclpLPOracle": "0x63D6b09d37490DcEFE7dA89c034169f6847117dA"
       }
     },
     "xlayer": {
@@ -2339,12 +2379,16 @@
         "MockGyroECLPPool": "0xa8ec402dC875A8BC1243329C1e1Ab8c45895F23D"
       },
       "20260202-v3-weighted-pool-oracle-v2": {
-        "WeightedLPOracleFactory": "0x86705Ee19c0509Ff68F1118C55ee2ebdE383D122",
-        "MockWeightedLPOracle": "0x6E25b0eB7E089482E17a17fA32163EF48f2760f9"
+        "WeightedLPOracleFactory": "0x65A22Ec32c37835Ad5E77Eb6f7452Ac59E113a9F",
+        "MockWeightedLPOracle": "0xbDC880307712628b19Ba2D9C4aB57b33793aa280"
       },
       "20260203-v3-stable-pool-oracle-v2": {
-        "StableLPOracleFactory": "0xEAedc32a51c510d35ebC11088fD5fF2b47aACF2E",
-        "MockStableLPOracle": "0xc6316DBd4D1DBdd6050cc087431b88822D4AC6d6"
+        "StableLPOracleFactory": "0x7c1b7A97BfAcD39975dE53e989A16c7BC4C78275",
+        "MockStableLPOracle": "0xa802Fccd6c9573E1A1261f220524ffBEE0785F5a"
+      },
+      "20260209-v3-gyro-eclp-oracle": {
+        "EclpLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
+        "MockEclpLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
       }
     },
     "zkevm": {
