@@ -30,7 +30,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install eth-utils
+        run: pip install eth-utils "eth-hash[pycryptodome]"
 
       - name: Fix address checksums
         run: python scripts/validate_checksums.py --fix
