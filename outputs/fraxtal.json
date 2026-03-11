@@ -40,6 +40,7 @@
   "20240223-composable-stable-pool-v6/MockComposableStablePool": "0xA65bc2c42697494a53DC53bf1a45c9e72201467F",
   "20250919-pool-swap-fee-helper/PoolSwapFeeHelper": "0xDB8d758BCb971e482B2C45f7F8a7740283A1bd3A",
   "20260122-claim-signature-registry/ClaimSignatureRegistry": "0x8e3fEaAB11b7B351e3EA1E01247Ab6ccc847dD52",
+  "20260302-claim-signature-registry-v2/ClaimSignatureRegistry": "0x311334883921Fb1b813826E585dF1C2be4358615",
   "EOA/balancer_onchain_ltd/leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
   "EOA/balancer_onchain_ltd/lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",
