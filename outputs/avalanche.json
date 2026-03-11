@@ -132,6 +132,7 @@
   "20260203-v3-stable-pool-oracle-v2/StableLPOracleFactory": "0x254F3A2974b97dc2E675f6115c845567C55f83b0",
   "20260209-v3-gyro-eclp-oracle/EclpLPOracleFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
   "20260209-v3-gyro-eclp-oracle/MockEclpLPOracle": "0xc289d9691c78792a7Ac85F0CFc307D17c1E28e99",
+  "20260302-claim-signature-registry-v2/ClaimSignatureRegistry": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
   "EOA/balancer_onchain_ltd/leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
   "EOA/balancer_onchain_ltd/lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3",
   "EOA/beethoven/ardo": "0x693f30c37D5a0Db9258C636E93Ccf011ACd8c90c",

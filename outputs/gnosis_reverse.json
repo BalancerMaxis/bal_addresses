@@ -355,6 +355,7 @@
   "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D": "EOA/treasury_council/mendesfabio",
   "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673": "EOA/deployers/juani",
   "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694": "20250403-v3-stable-surge-hook-v2/StableSurgeHook",
+  "0x90e065b28c9B7464B44f185f5a6b8e4B4c827f2a": "20260302-claim-signature-registry-v2/ClaimSignatureRegistry",
   "0x91151BA698253E24C23A754d94f94049a17e8084": "gauges/50COW-50GNO-gauge-9115",
   "0x9129E834e15eA19b6069e8f08a8EcFc13686B8dC": "20230411-managed-pool-v2/ExternalWeightedMath",
   "0x915148cdE625618E91B76edc7a20F00f12dfC4c1": "pools/5XOC-95USDC-9151",

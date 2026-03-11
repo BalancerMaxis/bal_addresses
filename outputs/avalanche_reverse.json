@@ -354,6 +354,7 @@
   "0xDA07B188daE2ee63B2eC61Ee4cdB9673C03d2293": "EOA/emergency/juani",
   "0xDF9B5B00Ef9bca66e9902Bd813dB14e4343Be025": "20230411-managed-pool-v2/ExternalWeightedMath",
   "0xDa7F9BDc9e8c02a054cF71c90f20707c4C20cA5B": "EOA/contributors-payees/recon",
+  "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2": "20260302-claim-signature-registry-v2/ClaimSignatureRegistry",
   "0xDac98631B5bee0E86dc3727DaD767e9bD251c729": "20250124-v3-gyro-eclp/MockGyroECLPPool",
   "0xE241C6e48CA045C7f631600a0f1403b2bFea05ad": "20230524-lz-omni-voting-escrow-child/OmniVotingEscrowChild",
   "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096": "EOA/emeritus/hyferion_payee",
