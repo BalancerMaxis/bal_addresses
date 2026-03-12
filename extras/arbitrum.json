@@ -8,13 +8,13 @@
   "tokens": {
     "ARB": "0x912CE59144191C1204E64559FE8253a0e49E6548",
     "BADGER": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
-    "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "WBTC": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
     "USDC": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
     "USDC.e": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-    "CRV": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
-    "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-    "renBTC": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
-    "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "CRV": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+    "SUSHI": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
+    "renBTC": "0xDBf31dF14B66535aF65AaC99C32e9eA844e14501",
+    "WETH": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
     "USDT": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
     "stkauraBAL": "0x4EA9317D90b61fc28C418C247ad0CA8939Bbb0e9",
     "LINK": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
@@ -34,21 +34,21 @@
   },
   "angle": {
     "PullTokenWrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
-    "WETH_claim_wrapper": "0xb0334c5287bfb15a8c9464898cdb0248ed176332",
-    "wstETH_claim_wrapper": "0x8942c1e1e0d48e14efba4cc48d2e3584116e367f",
-    "weETH_claim_wrapper": "0x4e185b1502fea7a06b63fdda6de38f92c9528566",
-    "rETH_claim_wrapper": "0x84394fa6a39bdff63b255622da362b113c690267",
-    "ezETH_claim_wrapper": "0x470c9034f50afe6633f7e84a80b9961baa893d77",
-    "rsETH_claim_wrapper": "0x4da51947fe2e4d59a137a78ced3b740f5e230f92",
-    "sfrxETH_claim_wrapper": "0xc63ff8af78414f90069af3558d939127625abe78",
-    "ETHx_claim_wrapper": "0x69b7afb870c31302de15371a2ee79aee444cc014",
-    "USDX_claim_wrapper": "0xad9e52ed75f71bdf67ddce3e417b805f042e54e3",
-    "sUSDX_claim_wrapper": "0xe995168d9924d72a4fe45af18edc06b498cb8dbb",
-    "ankrETH_claim_wrapper": "0x67763bc722abe1f041ddc3ed6e445f4ab476ff9e"
+    "WETH_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332",
+    "wstETH_claim_wrapper": "0x8942C1e1e0D48E14EFBa4cc48d2E3584116e367f",
+    "weETH_claim_wrapper": "0x4E185b1502Fea7a06B63fDdA6de38F92C9528566",
+    "rETH_claim_wrapper": "0x84394FA6A39bDFF63B255622dA362B113C690267",
+    "ezETH_claim_wrapper": "0x470C9034F50afe6633f7e84A80B9961baa893d77",
+    "rsETH_claim_wrapper": "0x4da51947FE2E4D59A137a78ced3B740F5E230f92",
+    "sfrxETH_claim_wrapper": "0xc63FF8aF78414F90069aF3558D939127625ABE78",
+    "ETHx_claim_wrapper": "0x69B7afB870C31302De15371a2EE79AEE444cc014",
+    "USDX_claim_wrapper": "0xAd9e52ed75f71BDF67ddcE3E417b805F042e54E3",
+    "sUSDX_claim_wrapper": "0xE995168d9924D72A4FE45AF18Edc06b498CB8dBb",
+    "ankrETH_claim_wrapper": "0x67763bc722ABE1f041ddC3eD6e445F4ab476ff9E"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "across": {
     "spoke_pool": "0xB88690461dDbaB6f04Dfad7df66B7725942FEb9C"
@@ -81,14 +81,14 @@
       }
     },
     "injectorV2": {
-      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
+      "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
+      "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
       "USDC-omnichain": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4",
       "ARB-omnichain": "0x4aC87aEa2A3A99f34Fec78A6A73Bc495893b2838",
       "USDC-ARB-Grant-omnichain": "0x08F02E2945C175272Acbb238ACCB6eda56129DE8"
     },
     "one_inch": {
-      "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+      "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
     },
     "mimic": {
       "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",

@@ -11,17 +11,17 @@
     "WETH": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     "BAL": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
     "LINK": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
-    "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
-    "stMATIC": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
-    "TruMATIC": "0xf33687811f3ad0cd6b48dd4b39f9f977bd7165a2",
-    "MaticX": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6"
+    "WBTC": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+    "stMATIC": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+    "TruMATIC": "0xf33687811f3ad0cd6b48Dd4B39F9F977BD7165A2",
+    "MaticX": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6"
   },
   "angle": {
     "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
-    "WMATIC_claim_wrapper": "0x467665d4ae90e7a99c9c9af785791058426d6ea0",
-    "stMATIC_claim_wrapper": "0xec2c6184761ab7fe061130b4a7e3da89c72f8395",
-    "TruMATIC_claim_wrapper": "0x138d9e0d0cc4906c4cd865b38c9340a5cedd9850",
-    "MaticX_claim_wrapper": "0xb0334c5287bfb15a8c9464898cdb0248ed176332"
+    "WMATIC_claim_wrapper": "0x467665D4ae90e7A99c9C9AF785791058426d6eA0",
+    "stMATIC_claim_wrapper": "0xeC2C6184761ab7fE061130B4A7e3Da89c72F8395",
+    "TruMATIC_claim_wrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
+    "MaticX_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56"
@@ -42,12 +42,12 @@
       "wmatic": "0x95AaDD5092F5b3a4Bbbefdf4187962b811bF9e79"
     },
     "injectorV2": {
-      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+      "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
+      "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB"
     }
   },
   "one_inch": {
-    "settlement": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
+    "settlement": "0xad3b67BCA8935Cb510C8D18bD45F0b94F54A968f"
   },
   "mimic": {
     "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",

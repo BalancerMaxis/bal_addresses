@@ -15,12 +15,12 @@
       "matic_rewards_injector": "0x3fb4ee715987eD98EDbeEb144F9b6b034C4c9F02"
     },
     "injectorV2": {
-      "factory": "0xa30b47913556a5e1d146b8342f95db3d3a6ae469",
-      "mockLogic": "0x6142582f8946bf192a4f80ed643a5856d18a7060"
+      "factory": "0xa30B47913556A5e1d146B8342F95Db3D3A6Ae469",
+      "mockLogic": "0x6142582F8946bf192a4F80eD643A5856D18a7060"
     }
   },
   "mimic": {
     "smartVaultV3": "0x9e5D6427D2cdaDC68870197b099C2Df535Ec3c97",
-    "depositor": "0x68247248489fb0c1f55aea1bbac0aae829d9bf77"
+    "depositor": "0x68247248489fb0c1F55aeA1BBaC0aaE829D9BF77"
   }
 }

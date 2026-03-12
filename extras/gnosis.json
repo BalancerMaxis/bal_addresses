@@ -15,7 +15,7 @@
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "mimic": {
     "smartvault": "0x94Dd9C6152a2A0BBcB52d3297b723A6F01D5F9f7",
@@ -34,10 +34,10 @@
       "usdc_rewards_injector": "0x87c921be1fd8ee7E5eda4394aDB849DB72847aE9"
     },
     "injectorV2": {
-      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
-      "USDC": "0xfa7b21b30325dbbd4a71ee2b2ede74a7d8a2c0e4",
-      "USDC.e": "0x4ac87aea2a3a99f34fec78a6a73bc495893b2838"
+      "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
+      "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
+      "USDC": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4",
+      "USDC.e": "0x4aC87aEa2A3A99f34Fec78A6A73Bc495893b2838"
     }
   },
   "safe": {

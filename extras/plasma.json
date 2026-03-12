@@ -9,7 +9,7 @@
     "USDT0": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
   },
   "helpers": {
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
