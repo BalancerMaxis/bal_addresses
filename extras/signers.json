@@ -30,7 +30,7 @@
     "xeonus": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516"
   },
   "dao": {
-    "netto.eth": "0x235f00a6e9416b114780f0b97afcb40f623f65b4",
+    "netto.eth": "0x235F00a6e9416B114780F0b97aFCb40f623f65B4",
     "0xMaki": "0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1",
     "gosuto": "0x11761c7b08287d9489CD84C04DF6852F5C07107b",
     "hubert": "0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D",
@@ -44,27 +44,27 @@
   },
   "treasury_council": {
     "danko": "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4",
-    "xeonus": "0xaa5af0dd9c52c773d36cdbc509a0b2a1ded4c196",
+    "xeonus": "0xAA5AF0Dd9c52C773D36cDBC509A0b2a1deD4C196",
     "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
     "mendesfabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
     "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
-    "gosuto": "0x11e450c72c2258ec792d5f64a263ecb18e8c0f06",
-    "notsoformal": "0xd17a9f089862351af82fa782435fac0f9e17786c"
+    "gosuto": "0x11E450C72C2258ec792D5f64a263Ecb18e8c0f06",
+    "notsoformal": "0xd17a9f089862351af82fA782435faC0f9e17786c"
   },
   "biz_dev": {
     "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
     "marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675",
-    "simon_vest_beneficiary": "0xfeffd47b42bd7936fcf256e162eedba99bd96556"
+    "simon_vest_beneficiary": "0xFEffd47b42BD7936fcf256E162EEdba99Bd96556"
   },
   "balancer_onchain_ltd": {
     "leeward": "0x4aebDF855102FC11B0455e263e776c15C06AE908",
     "lemma": "0x646333c3b674069fd36f1b226fF4fE83035A4ad3"
   },
   "dao_backup": {
-    "figue": "0x009d13e9bec94bf16791098ce4e5c168d27a9f07"
+    "figue": "0x009d13E9bEC94Bf16791098CE4E5C168D27A9f07"
   },
   "maxiPay": {
-    "factory": "0x7bbac709a9535464690a435ca7361256496f13ce"
+    "factory": "0x7BBAc709a9535464690A435ca7361256496f13Ce"
   },
   "keepers": {
     "old_oz_relayer_v1": "0xe9735f7D85a57BFb860c1E2c1c7B4F587BA0F6e7",
@@ -83,10 +83,10 @@
     "tritium_signer": "0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F",
     "tritium-ops_signer": "0x7b183340d531cEd66d7F18fE171Df4c6A3cC61A4",
     "danko_signer": "0x200550cAD164E8e0Cb544A9c7Dc5c833122C1438",
-    "maxis_injector_v2_deployer": "0xee461f0567bdf65bb4cedaa6abe70e4a710ba853",
+    "maxis_injector_v2_deployer": "0xEE461F0567bdF65Bb4CedaA6ABE70E4a710bA853",
     "jalbrekt_signer": "0x119de05a00BD4e75C4aD6041b82d7afa984aB1B9",
     "hyferion_deployer": "0x3d70C97879FDD61474637f8C39cf595078499C01",
-    "mikeb_deployer": "0xc4591c41e01a7a654b5427f39bbd1dee5bd45d1d",
+    "mikeb_deployer": "0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D",
     "solarcurve_deployer": "0x6409C2C1aC1B26aaaEF982572efd38412075586D",
     "shakotan_deployer": "0x28A6714B06B1241D1F339F9280553F115eCC285B",
     "tritium_deployer": "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb",
@@ -103,9 +103,9 @@
   },
   "kyc": {
     "Arbitrum": {
-      "kycsigner1_retired": "0x5c43d19ee1b9f93143c7c258501ef3ada1204524",
+      "kycsigner1_retired": "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524",
       "kycsigner2": "0x0938BCEfba80bCd958A5d4BEbF6a4AFFafB07eD2",
-      "kycsigner3": "0x6edbc5bb151d0bfb203a48b378e88dc5912318f1",
+      "kycsigner3": "0x6EDbc5Bb151d0bFb203A48b378e88dc5912318F1",
       "kycsigner4": "0x122AFb4667C5f80e45721a42C7c81e9140C62FA4"
     }
   },

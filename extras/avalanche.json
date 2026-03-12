@@ -19,7 +19,7 @@
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "chainlink": {
     "keeper_registry_v2_1": "0x7f00a3Cd4590009C349192510D51F8e6312E08CB",
@@ -28,7 +28,7 @@
   },
   "maxiKeepers": {
     "gaugeRewardsInjectors": {
-      "avax": "0xf23d8342881edecced51ea694ac21c2b68440929",
+      "avax": "0xF23d8342881eDECcED51EA694AC21C2B68440929",
       "usdc": "0x099D7767eC64Ac33C076f1e3Eb3DC24D08FA86A5",
       "_deprecated": {
         "qi": "0x47c97d8Eaa5D84aE25df9c92290B40eD252E75eE",
@@ -39,8 +39,8 @@
     },
     "injectorV2": {
       "WAVAX-omnichain": "0x4aC87aEa2A3A99f34Fec78A6A73Bc495893b2838",
-      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb"
+      "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
+      "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB"
     }
   },
   "mimic": {

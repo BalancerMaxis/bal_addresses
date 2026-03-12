@@ -3,7 +3,7 @@
     "zero": "0x0000000000000000000000000000000000000000"
   },
   "tokens": {
-    "OKB": "0x5831f949d6a239cd1cdbac652a060f0837b0cac0",
+    "OKB": "0x5831f949D6A239Cd1CDBaC652A060f0837b0CAc0",
     "WOKB": "0xe538905cf8410324e03A5A23C1c177a474D59b2b",
     "WETH": "0x5A77f1443D16ee5761d310e38b62f77f726bC71c",
     "USDT": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
@@ -13,8 +13,8 @@
     "WBTC": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
     "DAI": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4"
   },
-    "helpers": {
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+  "helpers": {
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"

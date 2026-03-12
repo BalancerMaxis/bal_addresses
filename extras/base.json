@@ -19,7 +19,7 @@
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
-    "hypernative_v3_pause_module": "0x7d171c6ef79a22340c6f931e8bd3833db8a8c620"
+    "hypernative_v3_pause_module": "0x7d171C6Ef79A22340C6F931E8bD3833Db8A8C620"
   },
   "maxiKeepers": {
     "gasStation": "0x34a265e1EBCb31586293eb2D2f94c6ff2f920340",
@@ -30,8 +30,8 @@
       }
     },
     "injectorV2": {
-      "factory": "0x6142582f8946bf192a4f80ed643a5856d18a7060",
-      "mockLogic": "0x747c4f7d3fc02b7975779effdf5d1c77105109cb",
+      "factory": "0x6142582F8946bf192a4F80eD643A5856D18a7060",
+      "mockLogic": "0x747c4f7D3Fc02b7975779efFDf5D1C77105109cB",
       "USDC-omnichain": "0xfa7b21B30325DBbd4A71ee2B2EDE74A7d8A2c0E4",
       "axlOP-omnichain": "0x6a71d17E50A67C54eae393323a8594cFdBb23F01",
       "GHO-omnichain": "0x08F02E2945C175272Acbb238ACCB6eda56129DE8"
@@ -40,7 +40,7 @@
   "chainlink": {
     "keeper_registry_v2_1": "0xE226D5aCae908252CcA3F6CEFa577527650a9e1e",
     "keeper_registrar_v2_1": "0xD8983a340A96b9C2Bb6855E46847aE134Db71fB1",
-    "keeper_registrar_v2_3": "0xe28adc50c7551cff69fcf32d45d037e5f6554264"
+    "keeper_registrar_v2_3": "0xE28Adc50c7551CFf69FCF32D45d037e5F6554264"
   },
   "uniswap": {
     "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3"
@@ -55,9 +55,9 @@
     "merkle_distributor": "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae",
     "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
     "PullTokenWrapper": "0x828B0566a7068164a625BC616c7B0149F29cB918",
-    "WETH_claim_wrapper": "0xe859ee83a3c8c5af058dc2f3533ac577b19706f2",
-    "weETH_claim_wrapper": "0x16814b50a7962592b8fc4080cdaf0008a8fd5620",
-    "rETH_claim_wrapper": "0x64e8e5fe82625e3b8ab7d9d00918736d6b8634b8"
+    "WETH_claim_wrapper": "0xe859ee83a3c8c5Af058dc2F3533aC577b19706f2",
+    "weETH_claim_wrapper": "0x16814B50A7962592b8fC4080cDaf0008a8Fd5620",
+    "rETH_claim_wrapper": "0x64e8e5fe82625e3B8Ab7D9d00918736D6b8634b8"
   },
   "stake_dao": {
     "votemarket_v2": "0xDD2FaD5606cD8ec0c3b93Eb4F9849572b598F4c7"
