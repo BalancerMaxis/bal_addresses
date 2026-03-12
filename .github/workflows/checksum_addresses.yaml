@@ -12,17 +12,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout base (trusted script)
+      - name: Checkout PR branch
         uses: actions/checkout@v6
         with:
-          ref: ${{ github.base_ref }}
+          ref: ${{ github.head_ref }}
 
-      - name: Overlay PR JSON files
+      - name: Use trusted script from base
         env:
-          PR_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_REF: ${{ github.base_ref }}
         run: |
-          git fetch origin "$PR_SHA"
-          git checkout "$PR_SHA" -- 'config/*.json' 'extras/*.json' 2>/dev/null || true
+          git fetch origin "$BASE_REF"
+          git checkout "origin/$BASE_REF" -- scripts/validate_checksums.py
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -36,13 +36,12 @@ jobs:
         run: python scripts/validate_checksums.py --fix
 
       - name: Push fixes to PR branch
-        env:
-          HEAD_REF: ${{ github.head_ref }}
         run: |
+          git checkout -- scripts/validate_checksums.py
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add config/*.json extras/*.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: checksum addresses"
-            git push origin "HEAD:$HEAD_REF"
+            git push
           fi
