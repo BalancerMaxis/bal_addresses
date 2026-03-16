@@ -1,6 +1,6 @@
-[![Generate Addressbooks Deployments](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_addressbooks.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_addressbooks.yaml)
-[![Generate Core Pools JSON](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_core_pools.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_core_pools.yaml)
-[![Generate Active Permissions](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_permissions.yaml/badge.svg)](https://github.com/BalancerMaxis/bal_addresses/actions/workflows/generate_permissions.yaml)
+[![Generate Addressbooks Deployments](https://github.com/balancer/bal_addresses/actions/workflows/generate_addressbooks.yaml/badge.svg)](https://github.com/balancer/bal_addresses/actions/workflows/generate_addressbooks.yaml)
+[![Generate Core Pools JSON](https://github.com/balancer/bal_addresses/actions/workflows/generate_core_pools.yaml/badge.svg)](https://github.com/balancer/bal_addresses/actions/workflows/generate_core_pools.yaml)
+[![Generate Active Permissions](https://github.com/balancer/bal_addresses/actions/workflows/generate_permissions.yaml/badge.svg)](https://github.com/balancer/bal_addresses/actions/workflows/generate_permissions.yaml)
 
 # Monorepo Addresses
 
@@ -20,7 +20,7 @@ Has all the addresses sorted into 2 dicts (active, and old). Each dict is then m
 
 ## Python helpers
 
-You can import this into python scripts by adding the following into your requirements.txt `git+https://github.com/BalancerMaxis/bal_addresses`.
+You can import this into python scripts by adding the following into your requirements.txt `git+https://github.com/balancer/bal_addresses`.
 
 once imported like `from bal_addresses import AddrBook`.
 

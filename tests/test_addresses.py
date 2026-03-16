@@ -8,7 +8,7 @@ from bal_addresses import AddrBook
 def test_deployments_populated():
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/outputs/deployments.json",
         json={
             "BFactory": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
@@ -40,7 +40,7 @@ def test_deployments_populated():
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/mainnet.json",
         json={
             "zero": {"zero": "0x0000000000000000000000000000000000000000"},
@@ -49,7 +49,7 @@ def test_deployments_populated():
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/multisigs.json",
         json={
             "mainnet": {
@@ -87,7 +87,7 @@ def test_deployments_invalid_format():
     """
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/outputs/deployments.json",
         json={
             "BFactory": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
@@ -101,13 +101,13 @@ def test_deployments_invalid_format():
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/mainnet.json",
         json={"vault": {"contracts": {"name": "Vault"}, "status": "ACTIVE"}},
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/multisigs.json",
         json={"mainnet": {"contracts": {"name": "Vault"}, "status": "ACTIVE"}},
     )
@@ -126,7 +126,7 @@ def test_deployments_invalid_format():
 def test_deployments_not_populated():
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/outputs/deployments.json",
         json={
             "BFactory": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
@@ -141,14 +141,14 @@ def test_deployments_not_populated():
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/mainnet.json",
         json={},
         status=404,
     )
     responses.add(
         responses.GET,
-        "https://raw.githubusercontent.com/BalancerMaxis"
+        "https://raw.githubusercontent.com/balancer"
         "/bal_addresses/main/extras/multisigs.json",
         json={},
         status=404,
