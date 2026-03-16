@@ -15,15 +15,15 @@ setup(
     packages=find_packages(),
     include_package_data=True,  # Automatically include non-Python files
     package_data={"": ["abis/*.json"]},
-    url="https://github.com/BalancerMaxis/bal_addresses",
+    url="https://github.com/balancer/bal_addresses",
     install_requires=[
-        "bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git",
+        "bal_tools @ git+https://github.com/balancer/bal_tools.git",
         "setuptools>=42",
         "wheel",
     ],
     extras_require={
         "brownie": [
-            "bal_tools[brownie] @ git+https://github.com/BalancerMaxis/bal_tools.git"
+            "bal_tools[brownie] @ git+https://github.com/balancer/bal_tools.git"
         ],
     },
     keywords=["python", "first package"],

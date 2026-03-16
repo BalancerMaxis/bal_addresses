@@ -1,1 +1,1 @@
-bal_tools @ git+https://github.com/BalancerMaxis/bal_tools.git
+bal_tools @ git+https://github.com/balancer/bal_tools.git
