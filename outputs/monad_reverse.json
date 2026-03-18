@@ -66,6 +66,7 @@
   "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7": "20260115-v3-weighted-pool-v2/WeightedPoolFactory",
   "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3": "EOA/emeritus/solarcurve_signer",
   "0x53a806789BBfd366d9dEB9Cbe5d622089e845fdb": "EOA/emeritus/tritium_deployer",
+  "0x542312631ef65Cc0d8a5c72726190AA987d0E599": "pools/50-KTB-50-wnUSDC-5423",
   "0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7": "EOA/emeritus/0xSausageDoge_dao_signer",
   "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd": "20250813-v3-constant-price-feed/ConstantPriceFeed",
   "0x5c43d19EE1B9F93143C7c258501EF3aDA1204524": "EOA/kyc/Arbitrum/kycsigner1_retired",

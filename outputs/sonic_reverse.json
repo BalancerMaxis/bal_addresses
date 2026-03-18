@@ -123,6 +123,7 @@
   "0xad597fce59dbbd13bcd5bcc1a6fd654acfa92eff": "rate_providers/safe/Euler_Vault_eWS-5_Rateprovider/0x90a804D316A06E00755444D56b9eF52e5C4F4D73",
   "0xadc94c7b7b333e3e2de317edcc4173a6ffa5b20f": "rate_providers/safe/Wrapped_stkscUSD/0x9fb76f7ce5FCeAA2C42887ff441D46095E494206",
   "0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae": "EOA/emeritus/zekraken_payee",
+  "0xaff87d11e1222908b624f80c70111115ea7067cc": "rate_providers/safe/OpenRateProvider.md/0x423a7A5709213dEa0F0C2368e5fB16338c87bBA7",
   "0xb7364Fca20EEC90f51b158C05199044AD362b675": "EOA/biz_dev/marcus",
   "0xb86e2517caab8e7aecc7472f29c0cbdaaf28e5e5": "rate_providers/safe/Silo_wS-25_Rateprovider/0x016C306e103FbF48EC24810D078C65aD13c5f11B",
   "0xbbF0Ae5195444264364CA7eb7E3BB1971B4c3eCb": "EOA/blabs_ops/Fernando",
