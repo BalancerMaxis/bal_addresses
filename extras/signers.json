@@ -47,9 +47,9 @@
     "xeonus": "0xAA5AF0Dd9c52C773D36cDBC509A0b2a1deD4C196",
     "danielmk": "0x606681E47afC7869482660eCD61bd45B53523D83",
     "mendesfabio": "0x90347b9CC81a4a28aAc74E8B134040d5ce2eaB6D",
-    "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
     "gosuto": "0x11E450C72C2258ec792D5f64a263Ecb18e8c0f06",
-    "notsoformal": "0xd17a9f089862351af82fA782435faC0f9e17786c"
+    "Franz": "0xA574Af018138bBC2bf065f68015687Aa67388A2A",
+    "Marcus": "0xb7364Fca20EEC90f51b158C05199044AD362b675"
   },
   "biz_dev": {
     "simon": "0xc57b29CAc1a1CD4E8e678622D35459c4AF6F8b9c",
@@ -99,7 +99,9 @@
     "hyferion_payee": "0xE24fA83aF4dDd6d3e448908ed3F931f0A23a6096",
     "lipman_payee": "0x72658e9A5c55371A5e80559B8E07AbC14F212120",
     "juani_emergency": "0xB5485e0F543eE6e01e221A57e58ED95268215Ac9",
-    "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2"
+    "joshua_signer": "0xB9F1815682879337dBE714f7469288dEA7DE93f2",
+    "notsoformal": "0xd17a9f089862351af82fA782435faC0f9e17786c",
+    "solarcurve": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3"
   },
   "kyc": {
     "Arbitrum": {
