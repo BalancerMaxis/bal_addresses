@@ -135,9 +135,7 @@
     "aura_locker": "0x9a5BDF08a6969A4bDb7724beE3c6d8964BDc0B28",
     "ezkl_fee_manager": "0xB7aadD330A64088A85e500874DCDcFB7F253fEB4"
   },
-  "goerli": {
-    "maxi_ops": "0x040E995520F92F96142d1a76c16D4af21A2eFDE7"
-  },
+
   "mode": {
     "omni": "0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
     "balancer_onchain_ltd": "0x16b0056636Fcc85f92C49cD49a24bc519d4A1941",

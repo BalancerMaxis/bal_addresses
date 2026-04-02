@@ -43,11 +43,7 @@
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": "https://api.studio.thegraph.com/query/77603/aura-finance-zkevm/v0.0.1/"
   },
-  "goerli": {
-    "core": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-goerli-v2",
-    "gauges": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gauges-goerli",
-    "blocks": "https://api.thegraph.com/subgraphs/name/blocklytics/goerli-blocks"
-  },
+
   "sepolia": {
     "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-sepolia/version/latest",
     "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-sepolia/version/latest",

@@ -6,7 +6,7 @@
     "optimism": 10,
     "gnosis": 100,
     "zkevm": 1101,
-    "goerli": 42,
+
     "sepolia": 11155111,
     "avalanche": 43114,
     "fantom": 250,
@@ -26,7 +26,7 @@
     "optimism": "https://optimistic.etherscan.io",
     "gnosis": "https://gnosisscan.io",
     "zkevm": "https://zkevm.polygonscan.com/",
-    "goerli": "https://goerli.etherscan.io/",
+
     "sepolia": "https://sepolia.etherscan.io/",
     "avalanche": "https://snowtrace.io/",
     "fantom": "https://ftmscan.com/",
@@ -45,7 +45,7 @@
     "optimism": "https://api-optimistic.etherscan.io/api",
     "gnosis": "https://api.gnosisscan.io/api",
     "zkevm": "https://api.zkevm.polygonscan.com/api",
-    "goerli": "https://api-goerli.etherscan.io/api",
+
     "sepolia": "https://api-sepolia.etherscan.io/api",
     "avalanche": "https://api.snowtrace.io/api",
     "fantom": "https://api.ftmscan.com/api",
