@@ -1,6 +1,6 @@
 {
   "mainnet": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-mainnet-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-mainnet-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-mainnet-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-mainnet/latest/gn",
@@ -14,7 +14,7 @@
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-polygon/v0.0.1/"
   },
   "arbitrum": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-arbitrum/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-arbitrum-one-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-arbitrum-one-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-arbitrum-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-arbitrum/latest/gn",
@@ -22,7 +22,7 @@
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-arbitrum/v0.0.1/"
   },
   "optimism": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-optimism/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-optimism-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-optimism-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-optimism-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-optimism/latest/gn",
@@ -30,7 +30,7 @@
     "aura": "https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-optimism/v0.0.1/"
   },
   "gnosis": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-gnosis/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-gnosis-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-gnosis-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-gnosis-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-gnosis/latest/gn",
@@ -43,15 +43,14 @@
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-polygon-zkevm-blocks/version/latest",
     "aura": "https://api.studio.thegraph.com/query/77603/aura-finance-zkevm/v0.0.1/"
   },
-
   "sepolia": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-sepolia/version/latest",
-    "pools-v3": "https://api.studio.thegraph.com/query/75376/balancer-pools-v3-sepolia/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-sepolia-smol/latest/gn",
+    "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-sepolia-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-sepolia-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-sepolia/latest/gn"
   },
   "avalanche": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-avalanche/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-avalanche-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-avalanche-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-avalanche-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-avalanche/latest/gn",
@@ -64,7 +63,7 @@
     "blocks": "https://api.studio.thegraph.com/query/48427/fantom-blocks/version/latest"
   },
   "base": {
-    "vault-v3": "https://api.studio.thegraph.com/query/75376/balancer-v3-base/version/latest",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-base-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-base-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-base-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-base/latest/gn",
@@ -77,10 +76,11 @@
     "blocks": "https://api.studio.thegraph.com/query/48427/bleu-mode-blocks/version/latest"
   },
   "hyperevm": {
-    "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-hyperevm/latest/gn",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-hyperevm-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-hyperevm-smol/latest/gn"
   },
   "sonic": {
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-sonic-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-sonic-smol/latest/gn",
     "core": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v2-sonic-smol/latest/gn",
     "gauges": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/balancer-gauges-sonic/latest/gn"
@@ -91,13 +91,15 @@
     "blocks": "https://api.goldsky.com/api/public/project_clwhu1vopoigi01wmbn514m1z/subgraphs/fraxtal-blocks/1.0.0/gn"
   },
   "plasma": {
-    "vault-v3": "https://api.goldsky.com/api/public/project_cmcigparivg3z01yhbv14ddl8/subgraphs/balancer-v3-plasma/latest/gn",
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-plasma-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-plasma-smol/latest/gn"
   },
   "monad": {
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-monad-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-monad-smol/latest/gn"
   },
   "xlayer": {
+    "vault-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-vault-xlayer-smol/latest/gn",
     "pools-v3": "https://api.subgraph.ormilabs.com/api/public/717cf785-de57-4761-94dd-9ac51b019902/subgraphs/v3-pools-xlayer-smol/latest/gn"
   }
 }
