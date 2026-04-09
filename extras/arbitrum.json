@@ -33,6 +33,7 @@
     "ankrETH": "0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3"
   },
   "angle": {
+    "distribution_creator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
     "PullTokenWrapper": "0x138D9E0d0Cc4906C4cD865b38c9340A5CeDD9850",
     "WETH_claim_wrapper": "0xb0334C5287Bfb15A8C9464898CDB0248ED176332",
     "wstETH_claim_wrapper": "0x8942C1e1e0D48E14EFBa4cc48d2E3584116e367f",
@@ -45,6 +46,9 @@
     "USDX_claim_wrapper": "0xAd9e52ed75f71BDF67ddcE3E417b805F042e54E3",
     "sUSDX_claim_wrapper": "0xE995168d9924D72A4FE45AF18Edc06b498CB8dBb",
     "ankrETH_claim_wrapper": "0x67763bc722ABE1f041ddC3eD6e445F4ab476ff9E"
+  },
+  "notional": {
+    "exponent_admin": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",

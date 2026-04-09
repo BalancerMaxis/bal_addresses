@@ -207,6 +207,9 @@
     "oneinchSwapper": "0xd712A863766dE7e7cA13289A97997E01832A6571",
     "paraswapSwapper": "0x95676AaEcD59B19C5B79008F86d3A291628b0947"
   },
+  "notional": {
+    "exponent_admin": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
+  },
   "circle": {
     "cctp_messenger": "0xBd3fa81B58Ba92a82136038B25aDec7066af3155"
   },
