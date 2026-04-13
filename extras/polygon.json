@@ -17,6 +17,7 @@
     "MaticX": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6"
   },
   "angle": {
+    "DistributionCreator": "0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd",
     "PullTokenWrapper": "0x03362f847B4fAbC12e1Ce98b6b59F94401E4588e",
     "WMATIC_claim_wrapper": "0x467665D4ae90e7A99c9C9AF785791058426d6eA0",
     "stMATIC_claim_wrapper": "0xeC2C6184761ab7fE061130B4A7e3Da89c72F8395",
