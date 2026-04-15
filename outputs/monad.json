@@ -189,8 +189,6 @@
   "pools/wnLOAZND-AZND-wnAUSD-d328": "0xD328E74AdD15Ac98275737a7C1C884ddc951f4D3",
   "pools/wnSHMON-wnWMON-340f": "0x340Fa62AE58e90473da64b0af622cdd6113106Cb",
   "pools/wnSMON-wnWMON-02b3": "0x02b34a02db24179Ac2D77Ae20AA6215C7153E7f8",
-  "rate_providers/safe/CurvanceAUSDRateProvider.md/0x8E94704607E857eB3E10Bd21D90bf8C1Ecba0452": "0x019002b4479a614a15e855c57fb1d7da8fc4a049",
-  "rate_providers/safe/CurvanceWrappedMONRateProvider.md/0xf473568b26B8C5aadCa9fbC0eA17E1728d5ec925": "0x421977ac45f34a57d9d732cc3254b04ea024954c",
   "rate_providers/safe/EtherfuseKTBRateProvider.md/0xe9c082921dc3564e10196c5cc15dB1250AC7d5C6": "0xE2dDae411296Fc14464d6FD44053a497Df6aa032",
   "rate_providers/safe/GMONRateProvider.md/0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081": "0x620FFE89F10fbb6FA73CfC4D237A4d4b7A976Ab1",
   "rate_providers/safe/KintsuStakedMonadRateProvider.md/0xa3227c5969757783154c60bf0bc1944180ed81b9": "0xd3e6123815c6c0a75f1f23bbf0ae570af456f905",
