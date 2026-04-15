@@ -232,8 +232,6 @@
   "rate_providers/safe/LoopedHYPERateProvider.md/0x5748ae796AE46A4F1348a1693de4b50560485562": "0xb5F8f253d0A6D4A18014cecA4253A2cEC6C98763",
   "rate_providers/safe/MEVCapitalHYPERateProvider.md/0xd19e3d00f8547f7d108abFD4bbb015486437B487": "0xeffe560f6e6d122371c7f4170e0fd0e327316c50",
   "rate_providers/safe/MEVCapitalUSDT0RateProvider.md/0x3Bcc0a5a66bB5BdCEEf5dd8a659a4eC75F3834d8": "0x25e1154dc0e4be0b88b4f40164875b033684c39c",
-  "rate_providers/safe/MEVCapitalUSRRateProvider.md/0xD3A9Cb7312B9c29113290758f5ADFe12304cd16A": "0x03bc12a1A56B2ac9aBf448CDBC9bDAC91a3dcF9a",
-  "rate_providers/safe/Resolv_RLP_Rate_Provider/0x0a3d8466F5dE586FA5F6DE117301e2f90bCC5c48": "0xd6861b0F2b6234bEC80a3dfd3783BBd1a49B9541",
   "rate_providers/safe/StaticHyperLendHyperEVM_WHYPE_v2RateProvider.md/0xD704254eb350E0D3BaeCD194d095862267897aE0": "0x0BE761301A2AE19D31860D7AC0c56faC1288E3B6",
   "rate_providers/safe/StaticUSDHHypurrRateProvider.md/0x20ecF3936Df08556b62fD15a4E167ae99d73b957": "0x21F001a46822Bbdcb3998720413a2c5602DBF30a",
   "rate_providers/safe/StaticUSD\u20ae0HypurrRateProvider.md/0xDC6F4239C1D8D3b955C06CB8f1A6cF18EFfc5BFe": "0x1d3c598d889e9b7063fbb4532095078ace62df64",
