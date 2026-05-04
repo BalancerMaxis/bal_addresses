@@ -48,7 +48,8 @@
     "ankrETH_claim_wrapper": "0x67763bc722ABE1f041ddC3eD6e445F4ab476ff9E"
   },
   "notional": {
-    "exponent_admin": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909"
+    "exponent_admin": "0x02479BFC7Dce53A02e26fE7baea45a0852CB0909",
+    "treasury_safe": "0xbf778Fc19d0B55575711B6339A3680d07352B221"
   },
   "helpers": {
     "hypernative_cspv6_pause_module": "0xbaEa4E4A47a3b88e03C003DE6Baf8F5404DA9d56",
