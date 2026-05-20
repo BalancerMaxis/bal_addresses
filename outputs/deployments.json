@@ -147,10 +147,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
-        "MockReClammPool": "0x89d9D76C1E5aA9a78364380bB17c4c7d385dA83c"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x312600bc7645E47a4926dc658827398AF070D431"
       },
@@ -172,11 +168,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x56c8D8f7F926e0Fb04a2cF05F18b44b2C5864AEB"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
-        "LBPoolFactory": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
-        "MockLBPool": "0xb34243828e846Fb7dA8919a74802b2eafc90479C"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
@@ -209,6 +200,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0xD9E91f7aD501929b089992842a3f193795E6479e",
         "MockEclpLPOracle": "0x2E8a92050f19216288742f7D02620961AaF565B4"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0xFd5d1BFcA130f8827F0056510c5A805A440D42d7"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6b7DEd11F15D6AB9959c29cEd3Cd101D69A14c35",
+        "MockLBPool": "0xFCc2E066e4019d1e06AaDfe48B15F95345D8875B"
       }
     },
     "avalanche": {
@@ -352,10 +352,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5C6fb490BDFD3246EB0bB062c168DeCAF4bD9FDd"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
-        "MockReClammPool": "0x443aC03E071E38577f2c50e3a7bdE30D9CEc06C2"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484"
       },
@@ -405,6 +401,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x1780e8185199DAc45284039Bb3E3B64060D943AB",
         "MockEclpLPOracle": "0xc289d9691c78792a7Ac85F0CFc307D17c1E28e99"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x986959155bef59dE027F9C23aB023cF0b21D33cD"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0x41E0EC641F4c6905419B2CFbd13B00C72c367c55"
       }
     },
     "base": {
@@ -548,10 +553,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x4b979eD48F982Ba0baA946cB69c1083eB799729c"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
-        "MockReClammPool": "0x6147DCcc9aF9641CA5e86e3b0075E8c7c853AEF6"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x1CD776897ef4f647bf8241Ec69549e4A9cb1D608"
       },
@@ -573,11 +574,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x90BD26fbb9dB17D75b56E4cA3A4c438FA7C93694"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
-        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
-        "MockLBPool": "0x2Ad32195858fDe121251cFF637Ef4Cf0851fBe00"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0xBDbADc891BB95DEE80eBC491699228EF0f7D6fF1",
@@ -610,6 +606,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x2cf8e145Bdfe7c52b49AD9bB3c294a31B2736c59",
         "MockEclpLPOracle": "0xb5fdad81ff3ACdbdbf232784A31074Ff4153C5C8"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x66433859A499ceAfEA10B14ce3BA70C3565277b2"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0xb4a3b0fE19ca8452123C0114A890958DFE3Ae1A5"
       }
     },
     "bsc": {
@@ -892,10 +897,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x5915DEA04ce390F0f44CA0806F7c6Dd99Ce2f941"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0xc86eF81E57492BE65BFCa9b0Ed53dCBAfDBe6100",
-        "MockReClammPool": "0x3004934b023631DaA3fF7Ad020aA3f5C4Ed0eC1B"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0xA0De078cd5cFa7088821B83e0bD7545ccfb7c883"
       },
@@ -917,11 +918,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0xcb3FE6cC529101AF5880a05429729f967501c9E7",
-        "LBPoolFactory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
-        "MockLBPool": "0xb9A47E725828d432C06Eeba654B4F865051c90e7"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x78Ad1e1c10033b18ceaa20088e4e490BE42A5417",
@@ -954,6 +950,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x9Dcf4E2Fea84ee8081ABecFb6321Ae2c55E1691D",
         "MockEclpLPOracle": "0x2508A1abd19daDaA33577b11FC872dC3DbaC95d2"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0xa53090a9B065f670216125746C1DEDF67510d0F2"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0x2b854EE9cb32209c0F9A9fb291d777251fc18E02"
       }
     },
     "hyperevm": {
@@ -1029,10 +1034,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
-        "MockReClammPool": "0x2CFDD50F108e49c1320cd8E2E1472dEf5c8268D4"
-      },
       "20250806-v3-token-pair-registry": {
         "TokenPairRegistry": "0x4Cb42fc3b5fb9392Ce0772C3A540E4AE4da4Ac4d"
       },
@@ -1061,11 +1062,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
-        "LBPoolFactory": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
-        "MockLBPool": "0x834653c8D2C1d2464368Fcf33b58490Ad4ec1c59"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
@@ -1098,6 +1094,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0xDADa7bE438bdD89416F4802B679E320b15c92D49",
         "MockEclpLPOracle": "0x6504f139C12B190F427d488D93Ab5fc00f4c1B4e"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x8b5f180f5ae904900B58Af2B58F23Dc60d57FEa5"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0xaEEFe03a3e49c7433722d963f812383aD1B2fAE8"
       }
     },
     "mainnet": {
@@ -1309,10 +1314,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
-        "MockReClammPool": "0x000aB3853737842bED7Dabe3540E3e5336FE62a6"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58"
       },
@@ -1334,11 +1335,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x90e065b28c9B7464B44f185f5a6b8e4B4c827f2a"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0",
-        "LBPoolFactory": "0xD5584b37D1845fFeD958C2d94bC675603DdCce68",
-        "MockLBPool": "0x0954601F4b1fFECe41A411A66F4546620F121b8c"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x332694Ef46D880DF6Ea9593e04CB8ABEE5F81D99",
@@ -1371,6 +1367,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x301EDe5Fd4f9d7266B09c3A2E38F97776447154B",
         "MockEclpLPOracle": "0xED9031a1300d721cF859ee2BA1f0fb33dC9928A2"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x8d75fA0348FD940C70eA0eE5B4D9f7d3d45DC5CC"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0x2bbCbbFA1Ce762b3794592D01f29BcCc20DfdA6E"
       }
     },
     "mode": {
@@ -1504,10 +1509,6 @@
       "20250507-v3-aggregator-batch-router": {
         "AggregatorBatchRouter": "0x7A2535f5fB47b8e44c02Ef5D9990588313fe8F05"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
-        "MockReClammPool": "0x3dD13406D81Dbe497ff92d9E43E8F286fB5CAA53"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd"
       },
@@ -1529,11 +1530,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
-        "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
-        "MockLBPool": "0xCEeaaA79222DB3bE51d82FAE9A32A1A04e7b3884"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x4bdCc2fb18AEb9e2d281b0278D946445070EAda7",
@@ -1566,6 +1562,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
         "MockEclpLPOracle": "0x3234658811D726835547FAE1dEfF3892a0D9D9A1"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x43aeEf39a675Bdd2A692e9c54D5A6B88B4B1a291"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0xB4B32a6f63edEE32Aef5958CE52dEDe1DB5B57f2"
       }
     },
     "optimism": {
@@ -1719,10 +1724,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
-        "MockReClammPool": "0x2dfA3793d43642a895c881101CEc157142aB86F3"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5"
       },
@@ -1772,6 +1773,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0xc00fF743B73346c9a4C40509e0550FfC18e5426d",
         "MockEclpLPOracle": "0xD25c200733a685F9B0926aDD006FA4e022BfB4CA"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x1cE1Cb9C5e59Fd6F29c924Fb25a60F1995bF2c8d"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0x8EEbe72484a3395b032aB503E8AAbcC3589EbEb2"
       }
     },
     "plasma": {
@@ -1858,10 +1868,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
-        "MockReClammPool": "0x59c01c86EF7ABE01f6C228401C071c00B0337287"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925"
       },
@@ -1883,11 +1889,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x0b11209B8c5E821b18dED147583b8978c3E63911"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
-        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
-        "MockLBPool": "0x5841260f6C89e32f1070532B9C176b6257ba9997"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x86705Ee19c0509Ff68F1118C55ee2ebdE383D122",
@@ -1920,6 +1921,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
         "MockEclpLPOracle": "0x7c352B98D66F93cAA1610920584442bE666d00Ad"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x5D1FdC7d630f4aEb9BE30261532f96aE6503Aa32"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x6642863979e66d995717A2B836A121700595069A",
+        "MockLBPool": "0xEEce198f1d6B9F6005e68712a80cC11c914f4e79"
       }
     },
     "polygon": {
@@ -2196,10 +2206,6 @@
       "20250530-v3-erc4626-cow-swap-fee-burner-v2": {
         "ERC4626CowSwapFeeBurner": "0xFc90794CcaD600d756310EF727ae736ee926Fa45"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
-        "MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021"
-      },
       "20250806-v3-token-pair-registry": {
         "TokenPairRegistry": "0xcBDe7AFEF330B0d70F220450758694f556792F35"
       },
@@ -2224,11 +2230,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x00526Cfbc8569Ef966d94025c9c586dF0c82B1C1"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x8B8c22B8578A86ead5BcE7294ADFcba767329eb3",
-        "LBPoolFactory": "0x7fed0fd2843232973eE2F61120e9D9C5eB78Cb16",
-        "MockLBPool": "0x1f7821096bF1630119f58bfE1676384D159Ac166"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0xc383B240B40660cca6c5b6Fbf4fbAb85E9F4de24",
@@ -2261,6 +2262,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0x75428F1f13bAF278c1a18B4DfD61d4544e0bdc92",
         "MockEclpLPOracle": "0x63D6b09d37490DcEFE7dA89c034169f6847117dA"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x55bf929459c6931b2789a73C91cad6889E6E6112",
+        "ReClammPoolFactory": "0x0F5eF30D8440213dc7A9d7bbcf83322041a3e296",
+        "MockReClammPool": "0x0E6C056B9f7B05bc9b03c5D2D6dD46F94B6b4740"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0x4b32854C043c70548879921b9A1880D8f8C583d0",
+        "MockLBPool": "0xA55cd0001A3a8c8E5F6d79B79423042d755d2369"
       }
     },
     "xlayer": {
@@ -2327,10 +2337,6 @@
       "20250507-v3-aggregator-batch-router": {
         "AggregatorBatchRouter": "0x83E443EF4f9963C77bd860f94500075556668cb8"
       },
-      "20250702-v3-reclamm-pool-v2": {
-        "ReClammPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
-        "MockReClammPool": "0x09FDF368e2febE461F916Fe311e6d43f3C2A5Ca3"
-      },
       "20250813-v3-constant-price-feed": {
         "ConstantPriceFeed": "0x311334883921Fb1b813826E585dF1C2be4358615"
       },
@@ -2352,11 +2358,6 @@
       },
       "20251219-v3-balancer-fee-burner-v2": {
         "BalancerFeeBurner": "0x3630D26E51c03026f4f063d69d65F8E234eEAf5b"
-      },
-      "20251219-v3-liquidity-bootstrapping-pool-v3": {
-        "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
-        "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
-        "MockLBPool": "0x599D2905094FA689099BeE62cEAA7144cd30dBA0"
       },
       "20260115-v3-weighted-pool-v2": {
         "WeightedPoolFactory": "0x25EA7b202CD8447e8E6F4A7C59b19C66DfEf1925",
@@ -2389,6 +2390,15 @@
       "20260209-v3-gyro-eclp-oracle": {
         "EclpLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
         "MockEclpLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
+      },
+      "20260428-v3-reclamm-pool-v3": {
+        "ReClammPoolHelper": "0x04E66e492Cc14947138608811Eeed0B17224F2b6",
+        "ReClammPoolFactory": "0x3ccD78683efFffdDc1A16f5553C896ac6D3ab7FF",
+        "MockReClammPool": "0x32C14494eB327e06F8fE843b82b56092e64F34A1"
+      },
+      "20260501-v3-liquidity-bootstrapping-pool-v4": {
+        "LBPoolFactory": "0xDE3d3d70Cc85a456f2D2569Ddec1ba38fA144837",
+        "MockLBPool": "0xd20e7e2D16cDDE480CBd626C944C2697DA98dE48"
       }
     },
     "zkevm": {
@@ -2579,6 +2589,10 @@
       },
       "20250530-v3-balancer-fee-burner": {
         "BalancerFeeBurner": "0x36E8e371e6863E5f96D00667016DDE87fe1Cc5d1"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x309abcAeFa19CA6d34f0D8ff4a4103317c138657",
+        "MockReClammPool": "0x443aC03E071E38577f2c50e3a7bdE30D9CEc06C2"
       },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x0E800D8d2E8b4694610AEdc385Aa6D763492B106",
@@ -2822,6 +2836,10 @@
         "LBPoolFactory": "0x8D217CB74f675B46cC2767C8cF0aAB53BE1c4818",
         "MockLBPool": "0x791fEf0FE92A522DC82D0ea800708b035495147d"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x355bD33F0033066BB3DE396a6d069be57353AD95",
+        "MockReClammPool": "0x89d9D76C1E5aA9a78364380bB17c4c7d385dA83c"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x7f4C133e44381D05129F9B81bAD8Fa9F3345D29B",
         "MockWeightedLPOracle": "0xbef1A20A201562A28b48fC39Af70AcF05F946C76"
@@ -2829,6 +2847,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0x816e90DC85bF016455017a76Bc09CC0451Eeb308",
         "MockStableLPOracle": "0x43597258c55f225303476C2Deb0e1c064524512a"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x99364f84d1C68d87aEAD0CE92eB47409A0C52c58",
+        "LBPoolFactory": "0xF9309a99836b5F07a2440c177C049b0f0A9A2c33",
+        "MockLBPool": "0xb34243828e846Fb7dA8919a74802b2eafc90479C"
       }
     },
     "mainnet": {
@@ -3133,6 +3156,10 @@
         "LBPoolFactory": "0x02916d8F0891309806FCb347Bf4191692cbDDcAF",
         "MockLBPool": "0xa1E9e74BbDBDE4B8F9F624E71641F54e3b7F11bf"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xDaa273AeEc06e9CCb7428a77E2abb1E4659B16D2",
+        "MockReClammPool": "0x000aB3853737842bED7Dabe3540E3e5336FE62a6"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x05503B3aDE04aCA81c8D6F88eCB73Ba156982D2B",
         "MockWeightedLPOracle": "0xcC8d5475e7a3C65E29Af30e5f89F14F5722E7cDa"
@@ -3140,6 +3167,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0x83bf399FA3DC49Af8fb5c34031a50c7C93F56129",
         "MockStableLPOracle": "0x74a1B9Fe5b1151A80E4dE22F79cf73ef358D2086"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x9B8168e330776feE6f857914FACA5FB831Dd2ab0",
+        "LBPoolFactory": "0xD5584b37D1845fFeD958C2d94bC675603DdCce68",
+        "MockLBPool": "0x0954601F4b1fFECe41A411A66F4546620F121b8c"
       }
     },
     "optimism": {
@@ -3319,6 +3351,10 @@
       },
       "20250530-v3-balancer-fee-burner": {
         "BalancerFeeBurner": "0xD53F5d8d926fb2a0f7Be614B16e649B8aC102D83"
+      },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x891EC9B34829276a9a8ef2F8A9cEAF2486017e0d",
+        "MockReClammPool": "0x2dfA3793d43642a895c881101CEc157142aB86F3"
       },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
@@ -3608,6 +3644,10 @@
         "LBPoolFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
         "MockLBPool": "0x743A84A1bAbE13Ac131EE7a56604497AF710266B"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x201efd508c8DfE9DE1a13c2452863A78CB2a86Cc",
+        "MockReClammPool": "0x6147DCcc9aF9641CA5e86e3b0075E8c7c853AEF6"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x774cB66e2B2dB59A9daF175e9b2B7A142E17EB94",
         "MockWeightedLPOracle": "0x98CCA70241bB0199A89122b9363Cf67d34836Ca2"
@@ -3615,6 +3655,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0xb21A277466e7dB6934556a1Ce12eb3F032815c8A",
         "MockStableLPOracle": "0x8Cdf4abc48b62B0a380beC87e432d01372F82D72"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x4eff2d77D9fFbAeFB4b141A3e494c085b3FF4Cb5",
+        "LBPoolFactory": "0x6eE18fbb1BBcC5CF700cD75ea1aef2bb21e3cB3F",
+        "MockLBPool": "0x2Ad32195858fDe121251cFF637Ef4Cf0851fBe00"
       }
     },
     "bsc": {
@@ -3867,6 +3912,10 @@
         "LBPoolFactory": "0x53EFf5068A1A3b39a9157DA6eF5A18d555c479eF",
         "MockLBPool": "0xf4404306c2fb1c9C93dB173B7595eE086B45859D"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xc86eF81E57492BE65BFCa9b0Ed53dCBAfDBe6100",
+        "MockReClammPool": "0x3004934b023631DaA3fF7Ad020aA3f5C4Ed0eC1B"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x8A8B9f35765899B3a0291700141470D79EA2eA88",
         "MockWeightedLPOracle": "0x7347C39625908c5205606daB026443bBc743aF2F"
@@ -3874,6 +3923,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0xbF94192c652183c0f50056417f4D04810329f12c",
         "MockStableLPOracle": "0xA126a712ef1feCA88317EE37dfd8008E6ba18854"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0xcb3FE6cC529101AF5880a05429729f967501c9E7",
+        "LBPoolFactory": "0x2FAa140F90f76eeEEBC191f4eF4b2634be1E4e91",
+        "MockLBPool": "0xb9A47E725828d432C06Eeba654B4F865051c90e7"
       }
     },
     "mode": {
@@ -4035,6 +4089,10 @@
         "LBPoolFactory": "0xE92cF5185384f53B2af74A2eBA62ba3A9C0ED65B",
         "MockLBPool": "0xc432fC493269Cf9412ef419a8E571655657158a3"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0xf58A574530Ea5cEB727095e6039170c1e8068fcA",
+        "MockReClammPool": "0x78bE2bd092045315D30D2b91d98CAbb15333e021"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x0ca835d92f31c869b5E78c5c579Bd27c6b62adAE",
         "MockWeightedLPOracle": "0xC11FABd7137121f8a243B31a020c1eC669fcb132"
@@ -4042,6 +4100,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0x6618728737D1438aA96bFD384f02524ecb743640",
         "MockStableLPOracle": "0xE69f03B55d0e32B30EF4EaE9391f6D19E10E6a1E"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x8B8c22B8578A86ead5BcE7294ADFcba767329eb3",
+        "LBPoolFactory": "0x7fed0fd2843232973eE2F61120e9D9C5eB78Cb16",
+        "MockLBPool": "0x1f7821096bF1630119f58bfE1676384D159Ac166"
       }
     },
     "zkevm": {
@@ -4147,6 +4210,10 @@
         "LBPoolFactory": "0xa1D0791a41318c775707C56eAe247AF81a05322C",
         "MockLBPool": "0x40330BB045E24CdE97B019F13c44D0B552CD3be5"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x4BB42f71CAB7Bd13e9f958dA4351B9fa2d3A42FF",
+        "MockReClammPool": "0x2CFDD50F108e49c1320cd8E2E1472dEf5c8268D4"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0xf4743D026f3D07aF3747bb7d05BeD06D177241d7",
         "MockWeightedLPOracle": "0xA0790da61ffF3D2E6dC8dbc7739A18d513447401"
@@ -4154,6 +4221,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0x0b11209B8c5E821b18dED147583b8978c3E63911",
         "MockStableLPOracle": "0x65d092A81f95139Fd274Fed91A7b0481fee05c66"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0xFc00536A0fd292c284deeF6af8F644d8373d9cad",
+        "LBPoolFactory": "0xd22eecBB495380Ef52b1CCeF1cA594979885D484",
+        "MockLBPool": "0x834653c8D2C1d2464368Fcf33b58490Ad4ec1c59"
       }
     },
     "monad": {
@@ -4180,6 +4252,10 @@
         "StableSurgePoolFactory": "0x6B5dA774890Db7B7b96C6f44e6a4b0F657399E2e",
         "MockStablePool": "0x6333D66d842Bda8cABAe5eBf2626B790d98b1E6F"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x96484f2aBF5e58b15176dbF1A799627B53F13B6d",
+        "MockReClammPool": "0x3dD13406D81Dbe497ff92d9E43E8F286fB5CAA53"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
         "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
@@ -4187,6 +4263,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0xaD89051bEd8d96f045E8912aE1672c6C0bF8a85E",
         "MockStableLPOracle": "0x68056E4234A6Aa4dB6fE66E93703fd90669a8697"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+        "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+        "MockLBPool": "0xCEeaaA79222DB3bE51d82FAE9A32A1A04e7b3884"
       }
     },
     "plasma": {
@@ -4227,6 +4308,10 @@
         "LBPoolFactory": "0x0f08eEf2C785AA5e7539684aF04755dEC1347b7c",
         "MockLBPool": "0xc49a3d36aD36c69216b4B534b3cCf34039143f87"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x662112B8CB18889e81459b92CA0f894a2ef2c1B8",
+        "MockReClammPool": "0x59c01c86EF7ABE01f6C228401C071c00B0337287"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0xD961E30156C2E0D0d925A0De45f931CB7815e970",
         "MockWeightedLPOracle": "0xF375128b5413ff1EEd5AD716b26A40bcdBe083CB"
@@ -4234,6 +4319,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0x86e67E115f96DF37239E0479441303De0de7bc2b",
         "MockStableLPOracle": "0x0Fa0f9990D7969a7aE6f9961d663E4A201Ed6417"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0xF39CA6ede9BF7820a952b52f3c94af526bAB9015",
+        "LBPoolFactory": "0x3BEb058DE1A25dd24223fd9e1796df8589429AcE",
+        "MockLBPool": "0x5841260f6C89e32f1070532B9C176b6257ba9997"
       }
     },
     "xlayer": {
@@ -4260,6 +4350,10 @@
         "StableSurgePoolFactory": "0x6817149cb753BF529565B4D023d7507eD2ff4Bc0",
         "MockStablePool": "0x889d315dBC01056e89C9c98CC46B8D109FCA8a87"
       },
+      "20250702-v3-reclamm-pool-v2": {
+        "ReClammPoolFactory": "0x013D4382F291be5688AFBcc741Ee8A24C66B2C92",
+        "MockReClammPool": "0x09FDF368e2febE461F916Fe311e6d43f3C2A5Ca3"
+      },
       "20250814-v3-weighted-pool-oracle": {
         "WeightedLPOracleFactory": "0x1311Fbc9F60359639174c1e7cC2032DbDb5Cc4d1",
         "MockWeightedLPOracle": "0xAFBBa7ad037e3e3Fb41272eAeE68756E8D076512"
@@ -4267,6 +4361,11 @@
       "20250815-v3-stable-pool-oracle": {
         "StableLPOracleFactory": "0xEB1eeaBF0126d813589C3D2CfeFFE410D9aE3863",
         "MockStableLPOracle": "0xb376E00b5F12c755A68E75F04F279F7137731978"
+      },
+      "20251219-v3-liquidity-bootstrapping-pool-v3": {
+        "LBPMigrationRouter": "0x268E2EE1413D768b6e2dc3F5a4ddc9Ae03d9AF42",
+        "LBPoolFactory": "0xa3b370092aeb56770B23315252aB5E16DAcBF62B",
+        "MockLBPool": "0x599D2905094FA689099BeE62cEAA7144cd30dBA0"
       }
     }
   }
